@@ -2,84 +2,111 @@
  "updated": "2026-10-07",
  "items": [
   {
+   "sector": "infra",
+   "kind": "政策",
+   "title": "资源趋紧，澳大利亚维州规定数据中心须自备电力供应",
+   "source": "财新网",
+   "url": "https://companies.caixin.com/2026-09-24/102488533.html",
+   "date": "2026-09-24",
+   "added": "2026-10-07"
+  },
+  {
+   "sector": "ev",
+   "kind": "新闻",
+   "title": "中国电动汽车缘何走俏澳大利亚？",
+   "source": "中新网",
+   "url": "https://www.chinanews.com.cn/cj/2026/09-20/10700060.shtml",
+   "date": "2026-09-20",
+   "added": "2026-10-07"
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "从机器人到光伏储能，中澳经贸合作向新向绿",
+   "source": "中新网",
+   "url": "https://www.chinanews.com.cn/cj/2026/09-12/10695377.shtml",
+   "date": "2026-09-12",
+   "added": "2026-10-07"
+  },
+  {
+   "sector": "ev",
+   "kind": "新闻",
+   "title": "澳大利亚纯电动汽车月销量首次超过汽油车",
+   "source": "中新网",
+   "url": "https://www.chinanews.com.cn/gj/2026/09-04/10690350.shtml",
+   "date": "2026-09-04",
+   "added": "2026-10-07"
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "中澳绿色能源合作不断深化",
+   "source": "人民网",
+   "url": "http://world.people.com.cn/n1/2026/0811/c1002-40777117.html",
+   "date": "2026-08-11",
+   "added": "2026-10-07"
+  },
+  {
+   "sector": "ev",
+   "kind": "新闻",
+   "title": "电动汽车需求高涨驱动澳洲车市增长，中国品牌表现强劲",
+   "source": "财新网",
+   "url": "https://www.caixin.com/2026-08-06/102471931.html",
+   "date": "2026-08-06",
+   "added": "2026-10-07"
+  },
+  {
+   "sector": "agri",
+   "kind": "政策",
+   "title": "我国 6 月 20 日起对澳大利亚进口牛肉加征 55% 关税",
+   "source": "新华网",
+   "url": "https://www.news.cn/20260619/07eb0fab463941dcb314cf195f04c7b5/c.html",
+   "date": "2026-06-19",
+   "added": "2026-10-07"
+  },
+  {
+   "sector": "minerals",
+   "kind": "政策",
+   "title": "澳政府要求中国投资者出售当地最大重稀土企业股权",
+   "source": "财新网",
+   "url": "https://m.caixin.com/m/2026-05-20/102445953.html",
+   "date": "2026-05-20",
+   "added": "2026-10-07"
+  },
+  {
+   "sector": "ev",
+   "kind": "新闻",
+   "title": "澳大利亚电动汽车销量持续增长，业界呼吁加强充电设施建设",
+   "source": "人民网",
+   "url": "http://australia.people.com.cn/n1/2026/0512/c408038-40718230.html",
+   "date": "2026-05-12",
+   "added": "2026-10-07"
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "“澳大利亚—中国智慧能源合作论坛”在悉尼举行",
+   "source": "中新网",
+   "url": "https://www.chinanews.com.cn/cj/2026/05-07/10616926.shtml",
+   "date": "2026-05-07",
+   "added": "2026-10-07"
+  },
+  {
    "sector": "energy",
    "kind": "政策",
-   "title": "澳大利亚政府加快可再生能源转型",
-   "source": "CleanTechnica",
-   "url": "https://cleantechnica.com/2026/10/03/australian-government-accelerates-renewable-energy-transition/",
-   "date": "2026-10-03",
-   "added": "2026-10-07"
-  },
-  {
-   "sector": "ev",
-   "kind": "新闻",
-   "title": "澳电动车销量再创新高，中国品牌需求激增",
-   "source": "新华社",
-   "url": "https://english.news.cn/asiapacific/20260903/54067066ea5b4cfe8c83b6e69c014556/c.html",
-   "date": "2026-09-03",
-   "added": "2026-10-07"
-  },
-  {
-   "sector": "ev",
-   "kind": "新闻",
-   "title": "电动车销量跳升，中国汽车品牌在澳份额扩大",
-   "source": "财新 Caixin Global",
-   "url": "https://www.caixinglobal.com/2026-08-07/chinese-auto-brands-gain-ground-in-australia-as-ev-sales-jump-102472086.html",
-   "date": "2026-08-07",
-   "added": "2026-10-07"
-  },
-  {
-   "sector": "ev",
-   "kind": "新闻",
-   "title": "经销商协会预测：2035 年中国品牌将占澳新车市场一半以上",
-   "source": "CarNewsChina",
-   "url": "https://carnewschina.com/2026/07/29/chinese-brands-to-take-over-half-of-australias-new-car-market-by-2035-dealers-group-forecasts/",
-   "date": "2026-07-29",
-   "added": "2026-10-07"
-  },
-  {
-   "sector": "minerals",
-   "kind": "政策",
-   "title": "关键矿产更新：FIRB 执法行动与美澳关键矿产框架",
-   "source": "McCullough Robertson",
-   "url": "https://mccullough.com.au/2026/05/11/critical-minerals-update-firb-enforcements-and-us-australia-critical-minerals-framework/",
-   "date": "2026-05-11",
+   "title": "澳大利亚将启动超百亿澳元能源安全计划",
+   "source": "新华网",
+   "url": "https://www.news.cn/20260506/d6f4f00e23b24b9196d9eac6c058e3f1/c.html",
+   "date": "2026-05-06",
    "added": "2026-10-07"
   },
   {
    "sector": "minerals",
    "kind": "新闻",
-   "title": "智库报告：中国大举投资全球关键矿产，澳大利亚面临压力",
-   "source": "Climate Energy Finance",
-   "url": "https://climateenergyfinance.org/wp-content/uploads/2026/03/CEF_Raw-Power-China-FDI-into-Critical-Minerals-and-Metals_18Mar2026.pdf",
-   "date": "2026-03-18",
-   "added": "2026-10-07"
-  },
-  {
-   "sector": "agri",
-   "kind": "政策",
-   "title": "中国向多家澳大利亚牛肉加工厂新发对华出口许可",
-   "source": "ABC News",
-   "url": "https://www.abc.net.au/news/2026-04-21/china-grants-new-beef-export-access-to-australian-companies/106587052",
-   "date": "2026-04-21",
-   "added": "2026-10-07"
-  },
-  {
-   "sector": "agri",
-   "kind": "政策",
-   "title": "中国对进口牛肉加征关税，澳肉类行业称影响“严重”",
-   "source": "ABC News",
-   "url": "https://www.abc.net.au/news/2026-01-01/china-hits-australian-beef-industry-with-tariff/106191726",
-   "date": "2026-01-01",
-   "added": "2026-10-07"
-  },
-  {
-   "sector": "infra",
-   "kind": "新闻",
-   "title": "澳大利亚基建项目储备达 2,420 亿澳元",
-   "source": "Emu Money",
-   "url": "https://emumoney.com.au/news/20260407-infrastructure-pipeline-record-spending",
-   "date": "2026-04-07",
+   "title": "澳加构建西方关键矿产供应链自主性",
+   "source": "商务部",
+   "url": "https://price.mofcom.gov.cn/article/yjzx/hyzx/hskc/202604/64498.html",
+   "date": "2026-04",
    "added": "2026-10-07"
   },
   {
