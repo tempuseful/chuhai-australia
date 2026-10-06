@@ -136,6 +136,9 @@ td strong{font-weight:700}
 .feed .m{font-size:12px;color:var(--muted);margin-top:4px;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
 .feed .k{font-family:var(--mono);font-size:11px;letter-spacing:.06em;border:1px solid currentColor;padding:0 5px}
 .feed .k.pol{color:var(--amber)} .feed .k.news{color:var(--blue)}
+.more{font:inherit;font-size:13px;margin-top:14px;background:transparent;color:var(--fg);border:1px solid var(--line);padding:8px 18px;cursor:pointer}
+.more:hover{border-color:var(--amber);color:var(--amber)}
+.more:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
 .feedmsg{padding:18px 0;color:var(--muted);font-size:13.5px}
 @media (max-width:480px){.feed li{grid-template-columns:1fr;gap:2px}}
 
@@ -337,6 +340,7 @@ footer ol{padding-left:20px;margin:8px 0 16px}
   <div class="feedhead" id="feed"><h3>赛道动态</h3><span class="live">LIVE</span><span class="upd" id="upd"></span></div>
   <div class="chips" id="chips" role="group" aria-label="按赛道筛选"></div>
   <ul class="feed" id="feedlist"></ul>
+  <button type="button" class="more" id="more" hidden>显示更多</button>
   <div class="feedmsg" id="feedmsg">正在载入各赛道的最新新闻与政策……</div>
 </section>
 
@@ -370,20 +374,22 @@ const d=[[2020,535,1177],[2021,654.9,1628.9],[2022,780,1421.6],[2023,738,1562.2]
 document.getElementById("bars").innerHTML=d.map(([y,e,m])=>`<div class="yr"><span>${y}</span><div><div class="bar e"><i style="width:${e/max*82}%"></i><b>${e}</b></div><div class="bar m"><i style="width:${m/max*82}%"></i><b>${m}</b></div></div></div>`).join("");
 
 /* 赛道动态：读取同目录 news.json，每日自动更新 */
-const SECT={all:"全部",energy:"新能源与储能",ecom:"跨境电商",minerals:"关键矿产",agri:"农业食品",ev:"电动汽车",infra:"基础设施"};
-let rows=[],cur="all";
+const SECT={all:"全部",energy:"新能源与储能",ecom:"跨境电商",minerals:"关键矿产",agri:"农业食品",ev:"电动汽车",infra:"基础设施",general:"综合经贸"};
+let rows=[],cur="all",shown=15;
 try{cur=localStorage.getItem("sect")||"all"}catch(e){}
 if(!SECT[cur])cur="all";
 const chips=document.getElementById("chips"),list=document.getElementById("feedlist"),msg=document.getElementById("feedmsg");
 function el(tag,cls,txt){const e=document.createElement(tag);if(cls)e.className=cls;if(txt!=null)e.textContent=txt;return e}
-function drawChips(){chips.textContent="";for(const k in SECT){const n=k==="all"?rows.length:rows.filter(r=>r.sector===k).length;const b=el("button",null,SECT[k]+(rows.length?" "+n:""));b.type="button";b.id="chip-"+k;b.setAttribute("aria-pressed",String(k===cur));b.onclick=()=>{cur=k;try{localStorage.setItem("sect",k)}catch(e){}draw()};chips.appendChild(b)}}
+function drawChips(){chips.textContent="";for(const k in SECT){const n=k==="all"?rows.length:rows.filter(r=>r.sector===k).length;const b=el("button",null,SECT[k]+(rows.length?" "+n:""));b.type="button";b.id="chip-"+k;b.setAttribute("aria-pressed",String(k===cur));b.onclick=()=>{cur=k;shown=15;try{localStorage.setItem("sect",k)}catch(e){}draw()};chips.appendChild(b)}}
 function draw(){drawChips();list.textContent="";const show=rows.filter(r=>cur==="all"||r.sector===cur);
-  for(const r of show){const li=el("li");li.appendChild(el("time",null,r.date||"—"));const d=el("div");
+  for(const r of show.slice(0,shown)){const li=el("li");li.appendChild(el("time",null,r.date||"—"));const d=el("div");
     const ok=typeof r.url==="string"&&/^https?:\/\//.test(r.url);const t=el(ok?"a":"span","t",r.title||"");if(ok){t.href=r.url;t.target="_blank";t.rel="noopener"}d.appendChild(t);
     const m=el("div","m");const pol=r.kind==="政策";m.appendChild(el("span","k "+(pol?"pol":"news"),pol?"政策":"新闻"));m.appendChild(el("span",null,SECT[r.sector]||""));if(r.source)m.appendChild(el("span",null,r.source));d.appendChild(m);li.appendChild(d);list.appendChild(li)}
+  const mb=document.getElementById("more");mb.hidden=show.length<=shown;mb.textContent="显示更多（还有 "+(show.length-shown)+" 条）";
   msg.hidden=show.length>0;if(!show.length)msg.textContent=rows.length?"这个赛道暂时没有新动态。":"暂无动态。每日更新后，这里会自动出现各赛道的新闻与政策。";
   const last=rows.map(r=>r.added||r.date||"").sort().pop();document.getElementById("upd").textContent=last?"最近更新 "+last:""}
 drawChips();
+document.getElementById("more").onclick=()=>{shown+=15;draw()};
 fetch("news.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(j=>{rows=(j.items||[]).slice().sort((x,y)=>String(y.date||"").localeCompare(String(x.date||"")));draw()}).catch(()=>{msg.hidden=false;msg.textContent="动态暂时无法载入，请稍后刷新。"});
 </script>
 </body>
