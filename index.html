@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>出海澳洲</title>
+<meta name="description" content="面向中国企业的赴澳经营简报：市场数据、常见痛点、落地八步、外资审查门槛、税务与用工签证速查，赛道新闻与政策每日更新。">
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+/* 布局：终端式行情带 + 财经头版。全宽黑底栏目条分节，数据用等宽字，标题用重磅宋体 */
+:root{
+  --bg:#07090d; --panel:#0e1219; --panel2:#141a24; --line:#232b38;
+  --fg:#e9edf3; --muted:#8b96a8; --amber:#ffa028; --amber-ink:#07090d;
+  --up:#2fd08a; --down:#ff5a5f; --blue:#4aa8ff;
+  --serif:"Noto Serif SC","Songti SC","SimSun",serif;
+  --sans:"PingFang SC","HarmonyOS Sans SC","Microsoft YaHei","Noto Sans CJK SC","Noto Sans SC",system-ui,sans-serif;
+  --mono:"IBM Plex Mono","SFMono-Regular",Menlo,Consolas,monospace;
+  color-scheme:dark;
+}
+@media (prefers-color-scheme: light){ :root:not([data-theme="dark"]){
+  --bg:#f3f4f6; --panel:#ffffff; --panel2:#e9ecf1; --line:#cfd5de;
+  --fg:#0b0f16; --muted:#566173; --amber:#b85c00; --amber-ink:#ffffff;
+  --up:#0a7a4b; --down:#c22b30; --blue:#0b5cad; color-scheme:light } }
+:root[data-theme="light"]{
+  --bg:#f3f4f6; --panel:#ffffff; --panel2:#e9ecf1; --line:#cfd5de;
+  --fg:#0b0f16; --muted:#566173; --amber:#b85c00; --amber-ink:#ffffff;
+  --up:#0a7a4b; --down:#c22b30; --blue:#0b5cad; color-scheme:light }
+
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--bg);color:var(--fg);font-family:var(--sans);font-size:15px;line-height:1.75;margin:0}
+a{color:var(--blue);text-decoration:none} a:hover{text-decoration:underline}
+a:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+.wrap{max-width:1180px;margin:0 auto;padding-inline:20px}
+.num{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.up{color:var(--up)} .down{color:var(--down)} .am{color:var(--amber)}
+
+/* 顶栏 */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;gap:20px;flex-wrap:wrap;padding-block:10px}
+.brand{font-family:var(--serif);font-weight:900;font-size:20px;letter-spacing:.04em;display:flex;align-items:center;gap:10px}
+.brand b{background:var(--amber);color:var(--amber-ink);font-family:var(--mono);font-size:12px;font-weight:600;padding:2px 7px;letter-spacing:.08em}
+.nav{display:flex;gap:16px;flex-wrap:wrap;font-size:13px;margin-left:auto}
+.nav a{color:var(--muted)} .nav a:hover{color:var(--fg);text-decoration:none}
+
+/* 行情带 */
+.tape{background:var(--panel);border-bottom:1px solid var(--line);overflow:hidden;white-space:nowrap}
+.tape-in{display:inline-flex;gap:36px;padding:8px 18px;animation:roll 60s linear infinite}
+.tape:hover .tape-in{animation-play-state:paused}
+.tape span{font-size:12.5px;color:var(--muted)} .tape span i{font-style:normal;font-family:var(--mono);color:var(--fg);margin-left:8px}
+@keyframes roll{to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.tape-in{animation:none}.tape{overflow-x:auto}}
+
+/* 头版 */
+.hero{padding-block:44px 30px;border-bottom:1px solid var(--line)}
+.kicker{font-family:var(--mono);font-size:12px;letter-spacing:.14em;color:var(--amber);text-transform:uppercase}
+h1{font-family:var(--serif);font-weight:900;font-size:clamp(32px,5.6vw,60px);line-height:1.14;margin:12px 0 16px;text-wrap:balance;letter-spacing:.01em}
+.lead{max-width:44em;color:var(--muted);font-size:16.5px;margin:0}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:30px;border-top:2px solid var(--amber)}
+.stat{padding:16px 16px 14px 0;border-right:1px solid var(--line);min-width:0}
+.stat+.stat{padding-left:16px} .stat:last-child{border-right:0}
+.stat .v{font-family:var(--mono);font-size:clamp(24px,3.4vw,36px);font-weight:600;line-height:1.1}
+.stat .l{font-size:12.5px;color:var(--muted);margin-top:6px;line-height:1.5}
+
+/* 分节 */
+section{padding-block:38px;border-bottom:1px solid var(--line)}
+.sh{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin-bottom:20px}
+.sh h2{font-family:var(--serif);font-weight:900;font-size:26px;margin:0;line-height:1.25}
+.sh .tag{font-family:var(--mono);font-size:11.5px;letter-spacing:.12em;color:var(--amber-ink);background:var(--amber);padding:2px 8px}
+.sh p{margin:0;color:var(--muted);font-size:13.5px;flex-basis:100%}
+.cols{display:grid;grid-template-columns:1.1fr .9fr;gap:28px}
+.cols>*{min-width:0}
+h3{font-size:15px;margin:0 0 10px;font-weight:700}
+.note{font-size:12.5px;color:var(--muted);margin-top:10px}
+
+/* 指标表 */
+.tblw{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th{font-family:var(--mono);font-size:11.5px;font-weight:500;letter-spacing:.08em;color:var(--muted);text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);white-space:nowrap}
+td{padding:10px;border-bottom:1px solid var(--line);vertical-align:top}
+td.r,th.r{text-align:right} td.num{white-space:nowrap}
+tbody tr:hover{background:var(--panel)}
+td strong{font-weight:700}
+
+/* 贸易图 */
+.bars{display:grid;gap:12px}
+.yr{display:grid;grid-template-columns:44px 1fr;gap:10px;align-items:center}
+.yr>span{font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+.bar{display:flex;align-items:center;gap:8px;margin:2px 0}
+.bar i{display:block;height:11px;min-width:2px}
+.bar.e i{background:var(--amber)} .bar.m i{background:var(--blue)}
+.bar b{font-family:var(--mono);font-size:12px;font-weight:500}
+.legend{display:flex;gap:18px;font-size:12.5px;color:var(--muted);margin-bottom:12px;flex-wrap:wrap}
+.legend i{display:inline-block;width:10px;height:10px;margin-right:6px}
+
+/* 痛点 */
+.pains{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+.pain{background:var(--bg);padding:20px;min-width:0}
+.pain .k{font-family:var(--mono);font-size:22px;font-weight:600;color:var(--amber);line-height:1.2}
+.pain h3{font-family:var(--serif);font-size:18px;font-weight:900;margin:8px 0 6px}
+.pain p{margin:0;font-size:13.5px;color:var(--muted)}
+.pain p.do{color:var(--fg);margin-top:10px;padding-top:10px;border-top:1px dashed var(--line)}
+.pain p.do::before{content:"对策";font-family:var(--mono);font-size:11px;letter-spacing:.1em;color:var(--up);margin-right:8px}
+
+/* 路线 */
+.steps{list-style:none;margin:0;padding:0;counter-reset:s;display:grid;grid-template-columns:repeat(2,1fr);gap:0 32px}
+.steps li{counter-increment:s;display:grid;grid-template-columns:42px 1fr;gap:12px;padding:16px 0;border-top:1px solid var(--line);min-width:0}
+.steps li::before{content:counter(s,decimal-leading-zero);font-family:var(--mono);font-size:20px;font-weight:600;color:var(--amber);line-height:1.3}
+.steps h3{margin-bottom:4px} .steps p{margin:0;font-size:13.5px;color:var(--muted)}
+
+/* 赛道 */
+.tracks{display:grid;grid-template-columns:repeat(2,1fr);gap:0 32px}
+.track{padding:16px 0;border-top:1px solid var(--line);min-width:0}
+.track h3{font-family:var(--serif);font-size:17px;font-weight:900}
+.track p{margin:0;font-size:13.5px;color:var(--muted)}
+.heat{font-family:var(--mono);font-size:11px;letter-spacing:.08em;padding:1px 6px;border:1px solid currentColor;margin-left:8px;vertical-align:2px;white-space:nowrap}
+
+/* 动态 */
+.feedhead{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:34px 0 14px;padding-top:18px;border-top:2px solid var(--amber)}
+.feedhead h3{font-family:var(--serif);font-size:20px;font-weight:900;margin:0}
+.live{font-family:var(--mono);font-size:11px;letter-spacing:.1em;color:var(--up);display:inline-flex;align-items:center;gap:6px}
+.live::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--up);animation:blink 1.6s infinite}
+@keyframes blink{50%{opacity:.25}}
+@media (prefers-reduced-motion:reduce){.live::before{animation:none}}
+.feedhead .upd{font-family:var(--mono);font-size:12px;color:var(--muted);margin-left:auto}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.chips button{font:inherit;font-size:13px;background:transparent;color:var(--muted);border:1px solid var(--line);padding:5px 12px;cursor:pointer}
+.chips button:hover{color:var(--fg);border-color:var(--muted)}
+.chips button[aria-pressed="true"]{background:var(--amber);color:var(--amber-ink);border-color:var(--amber)}
+.chips button:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+.feed{list-style:none;margin:0;padding:0}
+.feed li{display:grid;grid-template-columns:92px 1fr;gap:14px;padding:13px 0;border-bottom:1px solid var(--line)}
+.feed time{font-family:var(--mono);font-size:12.5px;color:var(--muted);padding-top:2px}
+.feed .t{font-weight:500;color:var(--fg);font-size:14.5px;line-height:1.55}
+.feed a.t:hover{color:var(--amber);text-decoration:none}
+.feed .m{font-size:12px;color:var(--muted);margin-top:4px;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.feed .k{font-family:var(--mono);font-size:11px;letter-spacing:.06em;border:1px solid currentColor;padding:0 5px}
+.feed .k.pol{color:var(--amber)} .feed .k.news{color:var(--blue)}
+.feedmsg{padding:18px 0;color:var(--muted);font-size:13.5px}
+@media (max-width:480px){.feed li{grid-template-columns:1fr;gap:2px}}
+
+.links{display:grid;grid-template-columns:repeat(3,1fr);gap:0 28px}
+.links div{padding:12px 0;border-top:1px solid var(--line);font-size:13.5px;min-width:0}
+.links span{display:block;color:var(--muted);font-size:12.5px}
+footer{padding-block:28px 48px;font-size:12.5px;color:var(--muted)}
+footer ol{padding-left:20px;margin:8px 0 16px}
+
+@media (max-width:860px){
+  .cols,.steps,.tracks{grid-template-columns:1fr}
+  .pains{grid-template-columns:1fr}
+  .links{grid-template-columns:1fr 1fr}
+  .stats{grid-template-columns:1fr 1fr}
+  .stat{border-bottom:1px solid var(--line)} .stat:nth-child(2){border-right:0} .stat:nth-child(3){padding-left:0}
+  .nav{margin-left:0;gap:12px}
+}
+@media (max-width:480px){.links{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+
+<header class="top"><div class="wrap">
+  <div class="brand">出海澳洲 <b>AU DESK</b></div>
+  <nav class="nav" aria-label="栏目">
+    <a href="#market">市场</a><a href="#pain">痛点</a><a href="#road">落地</a><a href="#firb">外资审查</a><a href="#tax">税务</a><a href="#hr">用工签证</a><a href="#sector">赛道</a><a href="#feed">动态</a><a href="#desk">官方入口</a>
+  </nav>
+</div></header>
+
+<div class="tape" aria-label="关键指标"><div class="tape-in" id="tape"></div></div>
+
+<main class="wrap">
+
+<div class="hero">
+  <div class="kicker">中国企业赴澳经营简报 · 数据截至 2026-10-06</div>
+  <h1>去澳大利亚做生意，先算清三笔账：审批、人工、税</h1>
+  <p class="lead">中国连续 16 年是澳大利亚第一大贸易伙伴，中国商品进澳关税已全部为零。市场是开放的，难点在落地：外资审查趋严、最低时薪 26.44 澳元、利率升到 15 年高位。本页把最新政策和关键数据压成一屏能看完的决策信息。</p>
+  <div class="stats">
+    <div class="stat"><div class="v">2,113<small style="font-size:.5em"> 亿美元</small></div><div class="l">2024 年中澳货物贸易额<br><span class="down num">▼ 8.1%</span> 同比</div></div>
+    <div class="stat"><div class="v">0%</div><div class="l">中国原产货物进澳关税<br>中澳自贸协定降税已完成</div></div>
+    <div class="stat"><div class="v">340<small style="font-size:.5em"> 亿美元</small></div><div class="l">中国对澳直接投资存量<br>澳第五大直接投资来源地</div></div>
+    <div class="stat"><div class="v am">4.60%</div><div class="l">澳储行现金利率<br><span class="up num">▲ 100bp</span> 2026 年内四次加息</div></div>
+  </div>
+</div>
+
+<section id="market">
+  <div class="sh"><span class="tag">MARKET</span><h2>市场速览</h2></div>
+  <div class="cols">
+    <div>
+      <h3>宏观与成本仪表盘</h3>
+      <div class="tblw"><table>
+        <thead><tr><th>指标</th><th class="r">数值</th><th>口径</th></tr></thead>
+        <tbody>
+          <tr><td>GDP</td><td class="r num">2.62 万亿澳元</td><td>2024 年，增长 1.1%</td></tr>
+          <tr><td>人均 GDP</td><td class="r num">9.6 万澳元</td><td>2024 年</td></tr>
+          <tr><td>人口</td><td class="r num">2,740 万</td><td>2024 年末，华裔约占 5.5%</td></tr>
+          <tr><td>主权评级</td><td class="r num">AAA / Aaa</td><td>惠誉、标普、穆迪，展望稳定</td></tr>
+          <tr><td>现金利率</td><td class="r num am">4.60%</td><td>2026-09-30 起，2011 年以来最高</td></tr>
+          <tr><td>最低工资</td><td class="r num">26.44 澳元/时</td><td>2026-07-01 起，周薪 1,004.90</td></tr>
+          <tr><td>全职平均周薪</td><td class="r num">2,010 澳元</td><td>2025 年 5 月</td></tr>
+          <tr><td>商业电价</td><td class="r num">0.44 澳元/度</td><td>首都领地，2025 年 7 月</td></tr>
+          <tr><td>平均房价</td><td class="r num">101.7 万澳元</td><td>全国，2025 年 6 月；新州 125.6 万</td></tr>
+        </tbody>
+      </table></div>
+      <p class="note">产业结构（2024）：服务业 69.4%、矿业 12.2%、建筑业 7.5%、制造业 5.9%、农林渔 2.4%。约 90% 人口住在沿海 120 公里内，悉尼、墨尔本等十几个城市集中了全国 70% 的人口。</p>
+    </div>
+    <div>
+      <h3>中澳货物贸易 2020–2024（亿美元）</h3>
+      <div class="legend"><span><i style="background:var(--amber)"></i>中国对澳出口</span><span><i style="background:var(--blue)"></i>中国自澳进口</span></div>
+      <div class="bars" id="bars"></div>
+      <p class="note">中国对澳出口以机电为主：电机电气 17.2%、机械 14.7%、车辆 7.7%、家具 6.2%。自澳进口 61.1% 是铁矿石等矿产品。来源：中国海关总署。</p>
+    </div>
+  </div>
+</section>
+
+<section id="pain">
+  <div class="sh"><span class="tag">PAIN POINTS</span><h2>中企在澳最常踩的六个坑</h2><p>按企业实际遇到的顺序排列，均为中资企业在澳遇到过的真实情形。</p></div>
+  <div class="pains">
+    <div class="pain"><div class="k">0 澳元</div><h3>国企投资没有免审门槛</h3><p>政府持股达 20% 即算“外国政府投资者”，任何直接投资都要报批。关键矿产、关键基础设施、数据类项目审得最严，2023 年有多宗稀土、锂矿交易被否。</p><p class="do">签约前先做 FIRB 预判，把获批列为交割先决条件，预留 3–6 个月。</p></div>
+    <div class="pain"><div class="k">×1.5</div><h3>人工成本远超预算</h3><p>据报道，一个中资项目实际支付的薪酬是预计岗位年薪的 150%，员工住宿成本是预算的 10 倍，项目延期多年。</p><p class="do">预算按当地行业裁定工资编制，再加 12% 养老金、工资税和带薪假。</p></div>
+    <div class="pain"><div class="k">7.9 万</div><h3>外派人员签证难办</h3><p>雇主担保技术签证要求年薪不低于约 7.94 万澳元且不低于市场价。普通管理人员和工人基本拿不到工作签证，施工队整建制进场几乎不可能。</p><p class="do">核心岗位外派，其余本地招聘。把签证周期写进项目计划。</p></div>
+    <div class="pain"><div class="k">30%</div><h3>利润汇回被多扣税</h3><p>未完税股息默认预提 30%。不主动申明受益所有人身份、不用中澳税收协定，就会多交 15 个百分点。</p><p class="do">先交足公司税再分红，完税股息汇出不再预提。关联借款注意利息扣除上限。</p></div>
+    <div class="pain"><div class="k">邮件</div><h3>没签合同，货款难追</h3><p>据报道，有企业与澳方长期只用邮件确认规格和价格，对方拖欠巨额货款后，权利义务说不清，维权困难。</p><p class="do">签正式供货合同，写明适用法律和仲裁条款。先在 ASIC 查对方的 ABN/ACN。</p></div>
+    <div class="pain"><div class="k">工会</div><h3>工会、环保和原住民地权</h3><p>建筑业工会力量强。矿业和能源项目环评周期长，土地可能涉及原住民产权，须走《原住民产权法》的法定协商程序。</p><p class="do">尽调阶段查清地权和环保审批，尽早与社区建立沟通。</p></div>
+  </div>
+</section>
+
+<section id="road">
+  <div class="sh"><span class="tag">ROADMAP</span><h2>从国内备案到在澳开张：八步</h2></div>
+  <ol class="steps">
+    <li><div><h3>国内境外投资备案</h3><p>发改委、商务部备案或核准，再到银行办外汇登记。房地产、酒店、影城等属敏感行业须核准。前期费用汇出不超过 300 万美元且不超过投资总额 15%。</p></div></li>
+    <li><div><h3>判断要不要过 FIRB</h3><p>新设一家公司通常不触发。收购股权、土地、矿权，或投资方有国资背景，就要对照下方门槛表。</p></div></li>
+    <li><div><h3>选子公司还是分公司</h3><p>多数企业设私营有限公司（Pty Ltd），债务以出资为限。分公司的债务由中国母公司全额承担，还要提交母公司账目。</p></div></li>
+    <li><div><h3>在 ASIC 注册公司</h3><p>至少一名常住澳大利亚的董事，每位董事先申请 Director ID。注册费 636 澳元，年审费 342 澳元。没有最低注册资本要求。</p></div></li>
+    <li><div><h3>办税号：ABN、TFN、GST</h3><p>三项登记均免费。年营业额达 7.5 万澳元必须登记 GST。</p></div></li>
+    <li><div><h3>开户与资金进出</h3><p>澳元可自由兑换，利润汇回不受限制。中行、工行、建行、交行、农行、招行、光大在澳设有分行。携带 1 万澳元以上现金出入境须申报。</p></div></li>
+    <li><div><h3>合规雇人</h3><p>对照行业裁定（Modern Award）定薪，每周标准工时 38 小时，年假 4 周，按工资 12% 缴养老金，通过 STP 系统逐次申报薪酬。</p></div></li>
+    <li><div><h3>持续申报</h3><p>财年为 7 月 1 日至次年 6 月 30 日。GST 按月或按季，公司所得税按季预缴，年度申报在财年结束后第 7 个月的 15 日前。</p></div></li>
+  </ol>
+</section>
+
+<section id="firb">
+  <div class="sh"><span class="tag">FIRB</span><h2>外资审查门槛</h2><p>2026 年 1 月 1 日起适用，每年 1 月 1 日按物价调整。中国民营投资者按自贸协定伙伴待遇。</p></div>
+  <div class="tblw"><table>
+    <thead><tr><th>投资类型</th><th class="r">中国民营投资者</th><th class="r">国有背景投资者</th><th>说明</th></tr></thead>
+    <tbody>
+      <tr><td><strong>非敏感行业企业收购</strong></td><td class="r num">14.98 亿澳元</td><td class="r num down">0</td><td>持股 20% 及以上才计入</td></tr>
+      <tr><td><strong>敏感行业</strong></td><td class="r num">3.47 亿澳元</td><td class="r num down">0</td><td>电信、运输、国防、加密技术、铀和核设施等</td></tr>
+      <tr><td><strong>媒体</strong></td><td class="r num down">0</td><td class="r num down">0</td><td>持股 5% 以上即须申报</td></tr>
+      <tr><td><strong>国家安全业务与用地</strong></td><td class="r num down">0</td><td class="r num down">0</td><td>关键基础设施、国防供应链、国防设施周边缓冲区</td></tr>
+      <tr><td><strong>农业用地</strong></td><td class="r num">1,500 万澳元</td><td class="r num down">0</td><td>按累计持有额计算，此门槛不随物价调整</td></tr>
+      <tr><td><strong>住宅、空置商业用地</strong></td><td class="r num down">0</td><td class="r num down">0</td><td>引导购买新建住宅；空置满 183 天要交空置费</td></tr>
+      <tr><td><strong>矿权、采矿用地</strong></td><td class="r num down">0</td><td class="r num down">0</td><td>勘探权一般不需审批，国资或国安用地除外</td></tr>
+    </tbody>
+  </table></div>
+  <p class="note">法定审查期 30 天，可延长 90 天，实际常被要求“自愿”延期。2023/24 财年中国投资获批 847 件、22 亿澳元。政府在 2026–27 预算中提出上调 3.47 亿澳元的一般门槛并豁免部分技术性交易，尚待落地。各类别最新门槛见 <a href="https://foreigninvestment.gov.au/guidance/general/monetary-thresholds">财政部门槛表</a>。</p>
+</section>
+
+<section id="tax">
+  <div class="sh"><span class="tag">TAX</span><h2>税务速查</h2><p>联邦管所得税和 GST，各州管工资税、印花税、土地税。</p></div>
+  <div class="cols">
+    <div>
+      <div class="tblw"><table>
+        <thead><tr><th>税种</th><th class="r">税率</th><th>要点</th></tr></thead>
+        <tbody>
+          <tr><td>公司所得税</td><td class="r num">30%</td><td>年营业额低于 5,000 万澳元的小企业 25%</td></tr>
+          <tr><td>商品及服务税 GST</td><td class="r num">10%</td><td>出口、基本食品、医疗教育为零税率</td></tr>
+          <tr><td>养老金 Super</td><td class="r num">12%</td><td>雇主按工资缴纳，2025-07-01 起</td></tr>
+          <tr><td>工资税</td><td class="r num">4%–6.85%</td><td>州税，工资总额超过起征点才征</td></tr>
+          <tr><td>附加福利税 FBT</td><td class="r num">47%</td><td>给员工的车、房等非现金福利，雇主缴</td></tr>
+          <tr><td>印花税</td><td class="r num">约 5%–6%</td><td>州税，不动产等转让；部分州对外国买家加征</td></tr>
+          <tr><td>个人所得税</td><td class="r num">0%–45%</td><td>居民免税额 1.82 万；非居民从 30% 起</td></tr>
+          <tr><td>全球最低税</td><td class="r num">15%</td><td>全球收入超 7.5 亿欧元的跨国集团</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+    <div>
+      <h3>向中国母公司付款的预提税</h3>
+      <div class="tblw"><table>
+        <thead><tr><th>款项</th><th class="r">澳国内法</th><th class="r">中澳协定</th></tr></thead>
+        <tbody>
+          <tr><td>已完税股息</td><td class="r num up">0%</td><td class="r num up">0%</td></tr>
+          <tr><td>未完税股息</td><td class="r num">30%</td><td class="r num am">15%</td></tr>
+          <tr><td>利息</td><td class="r num">10%</td><td class="r num">10%</td></tr>
+          <tr><td>特许权使用费</td><td class="r num">30%</td><td class="r num am">10%</td></tr>
+        </tbody>
+      </table></div>
+      <h3 style="margin-top:20px">三条要提前安排的规则</h3>
+      <p style="margin:0;font-size:13.5px;color:var(--muted)"><strong style="color:var(--fg)">利息扣除上限。</strong>净利息扣除不超过税务 EBITDA 的 30%，超出部分最多结转 15 年。<br><strong style="color:var(--fg)">研发抵免。</strong>营业额低于 2,000 万澳元的公司，抵免率为公司税率加 18.5%，可退现金。<br><strong style="color:var(--fg)">退出环节。</strong>非居民出售澳大利亚不动产类资产，买方按价款预扣，税率由 12.5% 提到 15%，75 万澳元门槛取消。</p>
+    </div>
+  </div>
+</section>
+
+<section id="hr">
+  <div class="sh"><span class="tag">PEOPLE</span><h2>用工与签证</h2></div>
+  <div class="cols">
+    <div>
+      <h3>每个雇员都有的法定底线</h3>
+      <div class="tblw"><table>
+        <tbody>
+          <tr><td>标准工时</td><td class="num r">38 小时/周</td></tr>
+          <tr><td>带薪年假</td><td class="num r">4 周/年</td></tr>
+          <tr><td>带薪病假与护理假</td><td class="num r">10 天/年</td></tr>
+          <tr><td>育儿假</td><td class="num r">12 个月无薪，可再延 12 个月</td></tr>
+          <tr><td>解雇通知期</td><td class="num r">最长 5 周</td></tr>
+          <tr><td>裁员补偿</td><td class="num r">最多 16 周工资</td></tr>
+          <tr><td>临时工</td><td class="num r">时薪加 25%，无带薪假</td></tr>
+        </tbody>
+      </table></div>
+      <p class="note">行业裁定工资 2026 年 7 月起上调 4.75%，多数岗位适用裁定而非全国最低工资。</p>
+    </div>
+    <div>
+      <h3>外派人员的三条签证通道</h3>
+      <div class="tblw"><table>
+        <thead><tr><th>通道</th><th>门槛</th></tr></thead>
+        <tbody>
+          <tr><td><strong>技能需求签证 482</strong><br>核心技能类</td><td>职业在清单内，年薪不低于约 7.94 万澳元，最长 4 年</td></tr>
+          <tr><td><strong>技能需求签证 482</strong><br>专家技能类</td><td>年薪约 14.7 万澳元以上，职业限制少，审批快</td></tr>
+          <tr><td><strong>雇主提名永居 186</strong></td><td>同样适用核心技能薪资门槛</td></tr>
+        </tbody>
+      </table></div>
+      <p class="note">薪资门槛每年 7 月 1 日调整，且须不低于同岗位本地员工的市场薪酬。澳方还给予中国公民每年最多 5,000 个打工度假签证名额。</p>
+    </div>
+  </div>
+</section>
+
+<section id="sector">
+  <div class="sh"><span class="tag">SECTORS</span><h2>机会在哪里</h2><p>联邦和各州共同认定的优先投资方向，叠加中企已经跑通的案例。</p></div>
+  <div class="tracks">
+    <div class="track"><h3>新能源与储能 <span class="heat up">政策顺风</span></h3><p>2030 年可再生能源发电占比目标 82%，“未来澳大利亚制造”计划十年投入 227 亿澳元。金风科技以 1.1 亿澳元收购的 Stockyard Hill 风电场（530MW）已并网，供约 40 万户用电。输电瓶颈是主要风险。</p></div>
+    <div class="track"><h3>跨境电商与消费品 <span class="heat up">增长最快</span></h3><p>2024 年澳线上零售 690 亿澳元，增长 12%。Temu 一年新增近百万客户，Shein 销售额 13 亿澳元。零关税加上 1,000 澳元以下低值货物简化清关，是轻资产进入的首选。</p></div>
+    <div class="track"><h3>关键矿产与绿色冶金 <span class="heat am">审查严格</span></h3><p>澳是全球最大锂生产国。天华新能对锂矿商 Liontown 的 5,000 万美元入股于 2025 年 8 月获批，被视为破冰。宝武与 FMG 合作绿色钢铁。少数股权和技术合作比控股收购更易通过。</p></div>
+    <div class="track"><h3>农业食品 <span class="heat am">土地敏感</span></h3><p>中国是澳农产品第一大出口市场，占 23%。农地收购优先本地买家，须先公开营销至少 30 天。做贸易、加工和品牌比买地更现实。</p></div>
+    <div class="track"><h3>电动汽车及配套 <span class="heat up">需求上行</span></h3><p>纯电动车注册量一年翻倍至约 16.8 万辆，新车能效标准落地，联邦出资建设高速沿线充电网络。车辆及零件已占中国对澳出口的 7.7%。</p></div>
+    <div class="track"><h3>基础设施与工程 <span class="heat down">进入难</span></h3><p>2024 年中企在澳新签承包合同 62 亿美元，集中在少数大型企业。本地资质、工会和签证限制使外来施工队难以进场，通常以联合体或 PPP 中的专业分包参与。</p></div>
+  </div>
+
+  <div class="feedhead" id="feed"><h3>赛道动态</h3><span class="live">LIVE</span><span class="upd" id="upd"></span></div>
+  <div class="chips" id="chips" role="group" aria-label="按赛道筛选"></div>
+  <ul class="feed" id="feedlist"></ul>
+  <div class="feedmsg" id="feedmsg">正在载入各赛道的最新新闻与政策……</div>
+</section>
+
+<section id="desk">
+  <div class="sh"><span class="tag">DIRECTORY</span><h2>官方入口</h2></div>
+  <div class="links">
+    <div><a href="https://foreigninvestment.gov.au">外国投资审查 FIRB</a><span>门槛、费用、在线申报门户</span></div>
+    <div><a href="https://asic.gov.au">证券与投资委员会 ASIC</a><span>公司注册、企业信息查询</span></div>
+    <div><a href="https://www.ato.gov.au">税务局 ATO</a><span>ABN、GST、预提税</span></div>
+    <div><a href="https://www.fairwork.gov.au">公平工作调查专员署</a><span>行业裁定工资查询工具</span></div>
+    <div><a href="https://immi.homeaffairs.gov.au">内政部移民签证</a><span>482、186 签证条件</span></div>
+    <div><a href="https://www.austrade.gov.au">贸易投资委员会 Austrade</a><span>投资促进、各州对接</span></div>
+    <div><a href="https://www.abf.gov.au">边境执法署 ABF</a><span>进口申报、禁限清单</span></div>
+    <div><a href="https://www.ipaustralia.gov.au">知识产权局 IP Australia</a><span>商标先注册才受保护</span></div>
+    <div><a href="http://au.mofcom.gov.cn">中国驻澳使馆经商处</a><span>中资企业商会：悉尼、墨尔本、珀斯、布里斯班</span></div>
+  </div>
+</section>
+
+</main>
+
+<footer class="wrap">
+  本页为公开信息整理，不构成法律、税务或投资意见。门槛和税率每年调整，具体交易请以官方最新文本和专业顾问意见为准。
+</footer>
+
+<script>
+const tape=[["RBA 现金利率","4.60%"],["最低时薪","A$26.44"],["公司税","30% / 25%"],["GST","10%"],["养老金","12%"],["中澳贸易 2024","US$2,113亿"],["对澳出口","US$707亿"],["自澳进口","US$1,406亿"],["FIRB 非敏感门槛","A$14.98亿"],["FIRB 敏感门槛","A$3.47亿"],["Pty Ltd 注册费","A$636"],["核心技能薪资线","≈A$7.94万"],["主权评级","AAA"]];
+const t=document.getElementById("tape");
+const html=tape.map(([k,v])=>`<span>${k}<i>${v}</i></span>`).join("");
+t.innerHTML=html+html;
+const d=[[2020,535,1177],[2021,654.9,1628.9],[2022,780,1421.6],[2023,738,1562.2],[2024,707,1406]],max=1700;
+document.getElementById("bars").innerHTML=d.map(([y,e,m])=>`<div class="yr"><span>${y}</span><div><div class="bar e"><i style="width:${e/max*82}%"></i><b>${e}</b></div><div class="bar m"><i style="width:${m/max*82}%"></i><b>${m}</b></div></div></div>`).join("");
+
+/* 赛道动态：读取同目录 news.json，每日自动更新 */
+const SECT={all:"全部",energy:"新能源与储能",ecom:"跨境电商",minerals:"关键矿产",agri:"农业食品",ev:"电动汽车",infra:"基础设施"};
+let rows=[],cur="all";
+try{cur=localStorage.getItem("sect")||"all"}catch(e){}
+if(!SECT[cur])cur="all";
+const chips=document.getElementById("chips"),list=document.getElementById("feedlist"),msg=document.getElementById("feedmsg");
+function el(tag,cls,txt){const e=document.createElement(tag);if(cls)e.className=cls;if(txt!=null)e.textContent=txt;return e}
+function drawChips(){chips.textContent="";for(const k in SECT){const n=k==="all"?rows.length:rows.filter(r=>r.sector===k).length;const b=el("button",null,SECT[k]+(rows.length?" "+n:""));b.type="button";b.id="chip-"+k;b.setAttribute("aria-pressed",String(k===cur));b.onclick=()=>{cur=k;try{localStorage.setItem("sect",k)}catch(e){}draw()};chips.appendChild(b)}}
+function draw(){drawChips();list.textContent="";const show=rows.filter(r=>cur==="all"||r.sector===cur);
+  for(const r of show){const li=el("li");li.appendChild(el("time",null,r.date||"—"));const d=el("div");
+    const ok=typeof r.url==="string"&&/^https:\/\//.test(r.url);const t=el(ok?"a":"span","t",r.title||"");if(ok){t.href=r.url;t.target="_blank";t.rel="noopener"}d.appendChild(t);
+    const m=el("div","m");const pol=r.kind==="政策";m.appendChild(el("span","k "+(pol?"pol":"news"),pol?"政策":"新闻"));m.appendChild(el("span",null,SECT[r.sector]||""));if(r.source)m.appendChild(el("span",null,r.source));d.appendChild(m);li.appendChild(d);list.appendChild(li)}
+  msg.hidden=show.length>0;if(!show.length)msg.textContent=rows.length?"这个赛道暂时没有新动态。":"暂无动态。每日更新后，这里会自动出现各赛道的新闻与政策。";
+  const last=rows.map(r=>r.added||r.date||"").sort().pop();document.getElementById("upd").textContent=last?"最近更新 "+last:""}
+drawChips();
+fetch("news.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(j=>{rows=(j.items||[]).slice().sort((x,y)=>String(y.date||"").localeCompare(String(x.date||"")));draw()}).catch(()=>{msg.hidden=false;msg.textContent="动态暂时无法载入，请稍后刷新。"});
+</script>
+</body>
+</html>

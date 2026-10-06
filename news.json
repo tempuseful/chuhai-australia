@@ -1,0 +1,104 @@
+{
+ "updated": "2026-10-07",
+ "items": [
+  {
+   "sector": "energy",
+   "kind": "政策",
+   "title": "澳大利亚政府加快可再生能源转型",
+   "source": "CleanTechnica",
+   "url": "https://cleantechnica.com/2026/10/03/australian-government-accelerates-renewable-energy-transition/",
+   "date": "2026-10-03",
+   "added": "2026-10-07"
+  },
+  {
+   "sector": "ev",
+   "kind": "新闻",
+   "title": "澳电动车销量再创新高，中国品牌需求激增",
+   "source": "新华社",
+   "url": "https://english.news.cn/asiapacific/20260903/54067066ea5b4cfe8c83b6e69c014556/c.html",
+   "date": "2026-09-03",
+   "added": "2026-10-07"
+  },
+  {
+   "sector": "ev",
+   "kind": "新闻",
+   "title": "电动车销量跳升，中国汽车品牌在澳份额扩大",
+   "source": "财新 Caixin Global",
+   "url": "https://www.caixinglobal.com/2026-08-07/chinese-auto-brands-gain-ground-in-australia-as-ev-sales-jump-102472086.html",
+   "date": "2026-08-07",
+   "added": "2026-10-07"
+  },
+  {
+   "sector": "ev",
+   "kind": "新闻",
+   "title": "经销商协会预测：2035 年中国品牌将占澳新车市场一半以上",
+   "source": "CarNewsChina",
+   "url": "https://carnewschina.com/2026/07/29/chinese-brands-to-take-over-half-of-australias-new-car-market-by-2035-dealers-group-forecasts/",
+   "date": "2026-07-29",
+   "added": "2026-10-07"
+  },
+  {
+   "sector": "minerals",
+   "kind": "政策",
+   "title": "关键矿产更新：FIRB 执法行动与美澳关键矿产框架",
+   "source": "McCullough Robertson",
+   "url": "https://mccullough.com.au/2026/05/11/critical-minerals-update-firb-enforcements-and-us-australia-critical-minerals-framework/",
+   "date": "2026-05-11",
+   "added": "2026-10-07"
+  },
+  {
+   "sector": "minerals",
+   "kind": "新闻",
+   "title": "智库报告：中国大举投资全球关键矿产，澳大利亚面临压力",
+   "source": "Climate Energy Finance",
+   "url": "https://climateenergyfinance.org/wp-content/uploads/2026/03/CEF_Raw-Power-China-FDI-into-Critical-Minerals-and-Metals_18Mar2026.pdf",
+   "date": "2026-03-18",
+   "added": "2026-10-07"
+  },
+  {
+   "sector": "agri",
+   "kind": "政策",
+   "title": "中国向多家澳大利亚牛肉加工厂新发对华出口许可",
+   "source": "ABC News",
+   "url": "https://www.abc.net.au/news/2026-04-21/china-grants-new-beef-export-access-to-australian-companies/106587052",
+   "date": "2026-04-21",
+   "added": "2026-10-07"
+  },
+  {
+   "sector": "agri",
+   "kind": "政策",
+   "title": "中国对进口牛肉加征关税，澳肉类行业称影响“严重”",
+   "source": "ABC News",
+   "url": "https://www.abc.net.au/news/2026-01-01/china-hits-australian-beef-industry-with-tariff/106191726",
+   "date": "2026-01-01",
+   "added": "2026-10-07"
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "澳大利亚基建项目储备达 2,420 亿澳元",
+   "source": "Emu Money",
+   "url": "https://emumoney.com.au/news/20260407-infrastructure-pipeline-record-spending",
+   "date": "2026-04-07",
+   "added": "2026-10-07"
+  },
+  {
+   "sector": "infra",
+   "kind": "政策",
+   "title": "澳基础设施局发布 2026 年基础设施优先项目清单",
+   "source": "Infrastructure Australia",
+   "url": "https://www.infrastructureaustralia.gov.au/sites/default/files/2026-03/2026-Infrastructure-Priority-List.pdf",
+   "date": "2026-03",
+   "added": "2026-10-07"
+  },
+  {
+   "sector": "ecom",
+   "kind": "新闻",
+   "title": "澳零售业新联盟呼吁对 Temu、Shein 加强合规检查",
+   "source": "SmartCompany",
+   "url": "https://www.smartcompany.com.au/retail/retail-supergroup-compliance-checks-temu-shein-budget/",
+   "date": "2026",
+   "added": "2026-10-07"
+  }
+ ]
+}
