@@ -128,7 +128,8 @@ td strong{font-weight:700}
 .chips button:hover{color:var(--fg);border-color:var(--muted)}
 .chips button[aria-pressed="true"]{background:var(--amber);color:var(--amber-ink);border-color:var(--amber)}
 .chips button:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
-.feed{list-style:none;margin:0;padding:0}
+.feed{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:0 40px}
+.feed li{min-width:0}
 .feed li{display:grid;grid-template-columns:92px 1fr;gap:14px;padding:13px 0;border-bottom:1px solid var(--line)}
 .feed time{font-family:var(--mono);font-size:12.5px;color:var(--muted);padding-top:2px}
 .feed .t{font-weight:500;color:var(--fg);font-size:14.5px;line-height:1.55}
@@ -140,6 +141,7 @@ td strong{font-weight:700}
 .more:hover{border-color:var(--amber);color:var(--amber)}
 .more:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
 .feedmsg{padding:18px 0;color:var(--muted);font-size:13.5px}
+@media (max-width:860px){.feed{grid-template-columns:1fr}}
 @media (max-width:480px){.feed li{grid-template-columns:1fr;gap:2px}}
 
 .links{display:grid;grid-template-columns:repeat(3,1fr);gap:0 28px}
@@ -375,12 +377,12 @@ document.getElementById("bars").innerHTML=d.map(([y,e,m])=>`<div class="yr"><spa
 
 /* 赛道动态：读取同目录 news.json，每日自动更新 */
 const SECT={all:"全部",energy:"新能源与储能",ecom:"跨境电商",minerals:"关键矿产",agri:"农业食品",ev:"电动汽车",infra:"基础设施",general:"综合经贸"};
-let rows=[],cur="all",shown=15;
+let rows=[],cur="all",shown=16;
 try{cur=localStorage.getItem("sect")||"all"}catch(e){}
 if(!SECT[cur])cur="all";
 const chips=document.getElementById("chips"),list=document.getElementById("feedlist"),msg=document.getElementById("feedmsg");
 function el(tag,cls,txt){const e=document.createElement(tag);if(cls)e.className=cls;if(txt!=null)e.textContent=txt;return e}
-function drawChips(){chips.textContent="";for(const k in SECT){const n=k==="all"?rows.length:rows.filter(r=>r.sector===k).length;const b=el("button",null,SECT[k]+(rows.length?" "+n:""));b.type="button";b.id="chip-"+k;b.setAttribute("aria-pressed",String(k===cur));b.onclick=()=>{cur=k;shown=15;try{localStorage.setItem("sect",k)}catch(e){}draw()};chips.appendChild(b)}}
+function drawChips(){chips.textContent="";for(const k in SECT){const n=k==="all"?rows.length:rows.filter(r=>r.sector===k).length;const b=el("button",null,SECT[k]+(rows.length?" "+n:""));b.type="button";b.id="chip-"+k;b.setAttribute("aria-pressed",String(k===cur));b.onclick=()=>{cur=k;shown=16;try{localStorage.setItem("sect",k)}catch(e){}draw()};chips.appendChild(b)}}
 function draw(){drawChips();list.textContent="";const show=rows.filter(r=>cur==="all"||r.sector===cur);
   for(const r of show.slice(0,shown)){const li=el("li");li.appendChild(el("time",null,r.date||"—"));const d=el("div");
     const ok=typeof r.url==="string"&&/^https?:\/\//.test(r.url);const t=el(ok?"a":"span","t",r.title||"");if(ok){t.href=r.url;t.target="_blank";t.rel="noopener"}d.appendChild(t);
@@ -389,7 +391,7 @@ function draw(){drawChips();list.textContent="";const show=rows.filter(r=>cur===
   msg.hidden=show.length>0;if(!show.length)msg.textContent=rows.length?"这个赛道暂时没有新动态。":"暂无动态。每日更新后，这里会自动出现各赛道的新闻与政策。";
   const last=rows.map(r=>r.added||r.date||"").sort().pop();document.getElementById("upd").textContent=last?"最近更新 "+last:""}
 drawChips();
-document.getElementById("more").onclick=()=>{shown+=15;draw()};
+document.getElementById("more").onclick=()=>{shown+=16;draw()};
 fetch("news.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(j=>{rows=(j.items||[]).slice().sort((x,y)=>String(y.date||"").localeCompare(String(x.date||"")));draw()}).catch(()=>{msg.hidden=false;msg.textContent="动态暂时无法载入，请稍后刷新。"});
 </script>
 </body>
