@@ -8,7 +8,8 @@
    "source": "财新网",
    "url": "https://companies.caixin.com/2026-09-24/102488533.html",
    "date": "2026-09-24",
-   "added": "2026-10-07"
+   "added": "2026-10-07",
+   "cn": true
   },
   {
    "sector": "ev",
@@ -17,7 +18,8 @@
    "source": "中新网",
    "url": "https://www.chinanews.com.cn/cj/2026/09-20/10700060.shtml",
    "date": "2026-09-20",
-   "added": "2026-10-07"
+   "added": "2026-10-07",
+   "cn": true
   },
   {
    "sector": "energy",
@@ -26,7 +28,8 @@
    "source": "中新网",
    "url": "https://www.chinanews.com.cn/cj/2026/09-12/10695377.shtml",
    "date": "2026-09-12",
-   "added": "2026-10-07"
+   "added": "2026-10-07",
+   "cn": true
   },
   {
    "sector": "ev",
@@ -35,7 +38,8 @@
    "source": "中新网",
    "url": "https://www.chinanews.com.cn/gj/2026/09-04/10690350.shtml",
    "date": "2026-09-04",
-   "added": "2026-10-07"
+   "added": "2026-10-07",
+   "cn": true
   },
   {
    "sector": "energy",
@@ -44,7 +48,8 @@
    "source": "人民网",
    "url": "http://world.people.com.cn/n1/2026/0811/c1002-40777117.html",
    "date": "2026-08-11",
-   "added": "2026-10-07"
+   "added": "2026-10-07",
+   "cn": true
   },
   {
    "sector": "ev",
@@ -53,7 +58,8 @@
    "source": "财新网",
    "url": "https://www.caixin.com/2026-08-06/102471931.html",
    "date": "2026-08-06",
-   "added": "2026-10-07"
+   "added": "2026-10-07",
+   "cn": true
   },
   {
    "sector": "agri",
@@ -62,7 +68,8 @@
    "source": "新华网",
    "url": "https://www.news.cn/20260619/07eb0fab463941dcb314cf195f04c7b5/c.html",
    "date": "2026-06-19",
-   "added": "2026-10-07"
+   "added": "2026-10-07",
+   "cn": true
   },
   {
    "sector": "minerals",
@@ -71,7 +78,8 @@
    "source": "财新网",
    "url": "https://m.caixin.com/m/2026-05-20/102445953.html",
    "date": "2026-05-20",
-   "added": "2026-10-07"
+   "added": "2026-10-07",
+   "cn": true
   },
   {
    "sector": "ev",
@@ -80,7 +88,8 @@
    "source": "人民网",
    "url": "http://australia.people.com.cn/n1/2026/0512/c408038-40718230.html",
    "date": "2026-05-12",
-   "added": "2026-10-07"
+   "added": "2026-10-07",
+   "cn": true
   },
   {
    "sector": "energy",
@@ -89,7 +98,8 @@
    "source": "中新网",
    "url": "https://www.chinanews.com.cn/cj/2026/05-07/10616926.shtml",
    "date": "2026-05-07",
-   "added": "2026-10-07"
+   "added": "2026-10-07",
+   "cn": true
   },
   {
    "sector": "energy",
@@ -98,7 +108,8 @@
    "source": "新华网",
    "url": "https://www.news.cn/20260506/d6f4f00e23b24b9196d9eac6c058e3f1/c.html",
    "date": "2026-05-06",
-   "added": "2026-10-07"
+   "added": "2026-10-07",
+   "cn": true
   },
   {
    "sector": "minerals",
@@ -107,7 +118,8 @@
    "source": "商务部",
    "url": "https://price.mofcom.gov.cn/article/yjzx/hyzx/hskc/202604/64498.html",
    "date": "2026-04",
-   "added": "2026-10-07"
+   "added": "2026-10-07",
+   "cn": true
   },
   {
    "sector": "infra",
@@ -116,7 +128,8 @@
    "source": "Infrastructure Australia",
    "url": "https://www.infrastructureaustralia.gov.au/sites/default/files/2026-03/2026-Infrastructure-Priority-List.pdf",
    "date": "2026-03",
-   "added": "2026-10-07"
+   "added": "2026-10-07",
+   "cn": true
   },
   {
    "sector": "ecom",
@@ -125,7 +138,8 @@
    "source": "SmartCompany",
    "url": "https://www.smartcompany.com.au/retail/retail-supergroup-compliance-checks-temu-shein-budget/",
    "date": "2026",
-   "added": "2026-10-07"
+   "added": "2026-10-07",
+   "cn": false
   },
   {
    "sector": "ev",
@@ -134,7 +148,8 @@
    "source": "新华网",
    "url": "https://www.news.cn/world/20260919/e0d9c6b7aa36495b9b107ec4710d9ffa/c.html",
    "date": "2026-09-19",
-   "added": "2026-10-07"
+   "added": "2026-10-07",
+   "cn": true
   },
   {
    "sector": "ev",
@@ -143,7 +158,8 @@
    "source": "中新网",
    "url": "https://www.chinanews.com.cn/cj/2026/09-18/10699120.shtml",
    "date": "2026-09-18",
-   "added": "2026-10-07"
+   "added": "2026-10-07",
+   "cn": true
   },
   {
    "sector": "ev",
@@ -152,7 +168,8 @@
    "source": "Xinhua",
    "url": "https://english.news.cn/20260703/8b0742f0fcf647218a06496b6f717e18/c.html",
    "date": "2026-07-03",
-   "added": "2026-10-07"
+   "added": "2026-10-07",
+   "cn": true
   },
   {
    "sector": "ev",
@@ -161,7 +178,8 @@
    "source": "China Daily",
    "url": "https://global.chinadaily.com.cn/a/202606/09/WS6a2777a9a310d6866eb4d300.html",
    "date": "2026-06-09",
-   "added": "2026-10-07"
+   "added": "2026-10-07",
+   "cn": true
   },
   {
    "sector": "ev",
@@ -170,7 +188,8 @@
    "source": "人民日报",
    "url": "http://paper.people.com.cn/rmrb/pc/content/202604/28/content_30153702.html",
    "date": "2026-04-28",
-   "added": "2026-10-07"
+   "added": "2026-10-07",
+   "cn": true
   },
   {
    "sector": "ev",
@@ -179,7 +198,8 @@
    "source": "人民网",
    "url": "https://world.people.com.cn/n1/2026/0326/c1002-40689647.html",
    "date": "2026-03-26",
-   "added": "2026-10-07"
+   "added": "2026-10-07",
+   "cn": true
   },
   {
    "sector": "ev",
@@ -188,7 +208,8 @@
    "source": "China Daily",
    "url": "https://www.chinadaily.com.cn/a/202510/20/WS68f58d06a310f735438b5d7b.html",
    "date": "2025-10-20",
-   "added": "2026-10-07"
+   "added": "2026-10-07",
+   "cn": true
   },
   {
    "sector": "ev",
@@ -197,7 +218,8 @@
    "source": "China Daily",
    "url": "https://global.chinadaily.com.cn/a/202507/29/WS68881ffba310c26fd717c30c.html",
    "date": "2025-07-29",
-   "added": "2026-10-07"
+   "added": "2026-10-07",
+   "cn": true
   },
   {
    "sector": "energy",
@@ -206,7 +228,8 @@
    "source": "新华网",
    "url": "https://www.news.cn/world/20260507/e30ad9ba21674e1ca0557e74f6635760/c.html",
    "date": "2026-05-07",
-   "added": "2026-10-07"
+   "added": "2026-10-07",
+   "cn": true
   },
   {
    "sector": "energy",
@@ -215,7 +238,8 @@
    "source": "新华网",
    "url": "https://www.news.cn/world/20260506/343c7fa61f9f4dd0ac17d05726c9f7c0/c.html",
    "date": "2026-05-06",
-   "added": "2026-10-07"
+   "added": "2026-10-07",
+   "cn": true
   },
   {
    "sector": "energy",
@@ -224,7 +248,8 @@
    "source": "中国能源报",
    "url": "https://paper.people.com.cn/zgnyb/pc/content/202604/13/content_30151074.html",
    "date": "2026-04-13",
-   "added": "2026-10-07"
+   "added": "2026-10-07",
+   "cn": true
   },
   {
    "sector": "energy",
@@ -233,7 +258,8 @@
    "source": "商务部驻墨尔本总领馆经商处",
    "url": "https://melbourne.mofcom.gov.cn/scdy/art/2025/art_dfd80d2972bd4dbfba36e06b392f1cb0.html",
    "date": "2025",
-   "added": "2026-10-07"
+   "added": "2026-10-07",
+   "cn": true
   },
   {
    "sector": "minerals",
@@ -242,7 +268,8 @@
    "source": "新华网",
    "url": "http://www.news.cn/world/20250606/26fc6c28a5744ea7acf775103489bce5/c.html",
    "date": "2025-06-06",
-   "added": "2026-10-07"
+   "added": "2026-10-07",
+   "cn": true
   },
   {
    "sector": "agri",
@@ -251,7 +278,8 @@
    "source": "第一财经",
    "url": "https://www.yicai.com/news/102591709.html",
    "date": "2025",
-   "added": "2026-10-07"
+   "added": "2026-10-07",
+   "cn": true
   },
   {
    "sector": "agri",
@@ -260,7 +288,8 @@
    "source": "中国日报网",
    "url": "https://cn.chinadaily.com.cn/a/202501/24/WS67932174a310be53ce3f3454.html",
    "date": "2025-01-24",
-   "added": "2026-10-07"
+   "added": "2026-10-07",
+   "cn": true
   },
   {
    "sector": "infra",
@@ -269,7 +298,8 @@
    "source": "新华网",
    "url": "https://www.news.cn/gangao/20260105/9419f007e88c449bacdec36ab5bfa74a/c.html",
    "date": "2026-01-05",
-   "added": "2026-10-07"
+   "added": "2026-10-07",
+   "cn": true
   },
   {
    "sector": "general",
@@ -278,7 +308,8 @@
    "source": "人民网",
    "url": "https://world.people.com.cn/n1/2026/0528/c1002-40728885.html",
    "date": "2026-05-28",
-   "added": "2026-10-07"
+   "added": "2026-10-07",
+   "cn": true
   },
   {
    "sector": "general",
@@ -287,7 +318,8 @@
    "source": "中国贸易救济信息网",
    "url": "https://cacs.mofcom.gov.cn/article/ajycs/ckys/202603/187522.html",
    "date": "2026-03",
-   "added": "2026-10-07"
+   "added": "2026-10-07",
+   "cn": true
   },
   {
    "sector": "general",
@@ -296,7 +328,8 @@
    "source": "商务部",
    "url": "https://tradeinservices.mofcom.gov.cn/article/news/gjxw/202511/179822.html",
    "date": "2025-11",
-   "added": "2026-10-07"
+   "added": "2026-10-07",
+   "cn": true
   },
   {
    "sector": "general",
@@ -305,7 +338,8 @@
    "source": "商务部",
    "url": "https://www.mofcom.gov.cn/syxwfb/art/2025/art_12c2af102ce34d4ca41719f099527b56.html",
    "date": "2025-07-15",
-   "added": "2026-10-07"
+   "added": "2026-10-07",
+   "cn": true
   },
   {
    "sector": "general",
@@ -314,7 +348,8 @@
    "source": "中新网",
    "url": "https://www.chinanews.com.cn/gn/2025/07-15/10448421.shtml",
    "date": "2025-07-15",
-   "added": "2026-10-07"
+   "added": "2026-10-07",
+   "cn": true
   },
   {
    "sector": "general",
@@ -323,7 +358,8 @@
    "source": "人民网",
    "url": "http://australia.people.com.cn/n1/2025/0523/c408038-40486417.html",
    "date": "2025-05-23",
-   "added": "2026-10-07"
+   "added": "2026-10-07",
+   "cn": true
   },
   {
    "sector": "general",
@@ -332,7 +368,8 @@
    "source": "中新社",
    "url": "https://www.sh.chinanews.com.cn/bdrd/2025-04-02/134370.shtml",
    "date": "2025-04-02",
-   "added": "2026-10-07"
+   "added": "2026-10-07",
+   "cn": true
   },
   {
    "sector": "general",
@@ -341,7 +378,88 @@
    "source": "第一财经",
    "url": "https://www.yicai.com/news/102898410.html",
    "date": "2025",
-   "added": "2026-10-07"
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "政策",
+   "title": "澳大利亚政府加快可再生能源转型",
+   "source": "CleanTechnica",
+   "url": "https://cleantechnica.com/2026/10/03/australian-government-accelerates-renewable-energy-transition/",
+   "date": "2026-10-03",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "ev",
+   "kind": "新闻",
+   "title": "经销商协会预测：2035 年中国品牌将占澳新车市场一半以上",
+   "source": "CarNewsChina",
+   "url": "https://carnewschina.com/2026/07/29/chinese-brands-to-take-over-half-of-australias-new-car-market-by-2035-dealers-group-forecasts/",
+   "date": "2026-07-29",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "minerals",
+   "kind": "政策",
+   "title": "关键矿产更新：FIRB 执法行动与美澳关键矿产框架",
+   "source": "McCullough Robertson",
+   "url": "https://mccullough.com.au/2026/05/11/critical-minerals-update-firb-enforcements-and-us-australia-critical-minerals-framework/",
+   "date": "2026-05-11",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "minerals",
+   "kind": "新闻",
+   "title": "智库报告：中国大举投资全球关键矿产，澳大利亚面临压力",
+   "source": "Climate Energy Finance",
+   "url": "https://climateenergyfinance.org/wp-content/uploads/2026/03/CEF_Raw-Power-China-FDI-into-Critical-Minerals-and-Metals_18Mar2026.pdf",
+   "date": "2026-03-18",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "agri",
+   "kind": "政策",
+   "title": "中国向多家澳大利亚牛肉加工厂新发对华出口许可",
+   "source": "ABC News",
+   "url": "https://www.abc.net.au/news/2026-04-21/china-grants-new-beef-export-access-to-australian-companies/106587052",
+   "date": "2026-04-21",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "agri",
+   "kind": "政策",
+   "title": "中国对进口牛肉加征关税，澳肉类行业称影响“严重”",
+   "source": "ABC News",
+   "url": "https://www.abc.net.au/news/2026-01-01/china-hits-australian-beef-industry-with-tariff/106191726",
+   "date": "2026-01-01",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "澳大利亚基建项目储备达 2,420 亿澳元",
+   "source": "Emu Money",
+   "url": "https://emumoney.com.au/news/20260407-infrastructure-pipeline-record-spending",
+   "date": "2026-04-07",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "澳储行加息至 4.60%，年内第四次上调现金利率",
+   "source": "Reserve Bank of Australia",
+   "url": "https://www.rba.gov.au/media-releases/2026/mr-26-27.html",
+   "date": "2026-09-29",
+   "added": "2026-10-07",
+   "cn": true
   }
  ]
 }
