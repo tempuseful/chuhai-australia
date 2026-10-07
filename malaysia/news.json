@@ -1,0 +1,385 @@
+{
+ "updated": "2026-10-07",
+ "items": [
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "龙佰马来西亚20万吨/年钛白粉项目开工",
+   "source": "中国化工报（同花顺转载）",
+   "url": "https://stock.10jqka.com.cn/20260929/c680357632.shtml",
+   "date": "2026-09-29",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "BYD has scrapped Tanjung Malim CKD plant plan — report",
+   "source": "The Edge Malaysia",
+   "url": "https://theedgemalaysia.com/node/817773",
+   "date": "2026-09-11",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "2025年中国与东盟双边贸易额首次突破万亿美元大关",
+   "source": "新华财经",
+   "url": "https://www.cnfin.com/hg-lb/detail/20260901/4463225_1.html",
+   "date": "2026-09-01",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "中企承建马东铁项目一期工程进入动态检测阶段",
+   "source": "新华网",
+   "url": "https://www.news.cn/world/20260814/9e6defd6a6e9453498142de2c15b87ba/c.html",
+   "date": "2026-08-14",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "政策",
+   "title": "马来西亚对涉华镀铝锌其他合金和非合金钢扁轧制品启动反倾销调查",
+   "source": "中国贸易救济信息网（福建省商务厅转载）",
+   "url": "https://swt.fujian.gov.cn/xxgk/ztzl/ydmymcgzz/yjxx/202608/t20260813_7199351.htm",
+   "date": "2026-08-13",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "马来西亚官方表示比亚迪丹绒马林工厂投资计划尚未确定",
+   "source": "MarkLines",
+   "url": "https://www.marklines.com/cn/news/348734",
+   "date": "2026-08-06",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "广州地铁9亿元运维大单落地马来西亚 中国轨交服务东盟实现历史性突破",
+   "source": "中国经营报（网易转载）",
+   "url": "https://www.163.com/dy/article/L3JAS0B805199NHJ.html",
+   "date": "2026-08-05",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "tech",
+   "kind": "新闻",
+   "title": "Johor leads Asia-Pacific data centre pipeline as Klang Valley sees 1H2026 investment rebound, says Knight Frank",
+   "source": "The Edge Malaysia",
+   "url": "https://theedgemalaysia.com/node/812609",
+   "date": "2026-07-30",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "奇瑞马来西亚雪兰莪州新设施举行封顶仪式",
+   "source": "MarkLines",
+   "url": "https://www.marklines.com/cn/news/346775",
+   "date": "2026-06-29",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "宝腾扩大丹绒马林工厂动力总成制造范围",
+   "source": "MarkLines",
+   "url": "https://www.marklines.com/cn/news/346610",
+   "date": "2026-06-25",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "tech",
+   "kind": "新闻",
+   "title": "2026中国智能科技展览会助推中马科创合作",
+   "source": "新华网",
+   "url": "https://www.xinhuanet.com/20260515/c28c6042c9fa4b739c30fefff4070545/c.html",
+   "date": "2026-05-15",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "马来西亚飞达控股和芜湖瑞泰的合资公司计划2026年第三季度投产奇瑞汽车座椅",
+   "source": "MarkLines",
+   "url": "https://www.marklines.com/cn/news/344028",
+   "date": "2026-05-07",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "政策",
+   "title": "Govt reviewing carbon tax implementation amid geopolitical pressures",
+   "source": "The Star",
+   "url": "https://www.thestar.com.my/business/business-news/2026/04/14/govt-reviewing-carbon-tax-implementation-amid-geopolitical-pressures",
+   "date": "2026-04-14",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "industry",
+   "kind": "政策",
+   "title": "宝腾和北鹿大支持马来西亚投资贸易产业部明确全散件组装政策",
+   "source": "MarkLines",
+   "url": "https://www.marklines.com/cn/news/342833",
+   "date": "2026-04-09",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "中马工商界人士会聚银川 共谋高质量务实合作",
+   "source": "新华网",
+   "url": "https://www.news.cn/fortune/20260403/00932a115c9d42378ee153bb60e6398f/c.html",
+   "date": "2026-04-03",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "累计实现工业总产值超一千亿元人民币，直接创造就业岗位约五千个——马中关丹产业园“含金量”不断攀升",
+   "source": "人民日报（中国日报网转载）",
+   "url": "https://cn.chinadaily.com.cn/a/202604/02/WS69cdd4caa310942cc49a61bc.html",
+   "date": "2026-04-02",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "Malaysia moves to tighten rules for expats, raising fears of talent flight",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/economy/2026/3/26/malaysia-moves-to-tighten-rules-for-expats-raising-fears-of-talent-flight",
+   "date": "2026-03-26",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "tech",
+   "kind": "政策",
+   "title": "Non-AI Data Centres Restricted, Power And Water Supply Sufficient – PM Anwar",
+   "source": "Bernama",
+   "url": "https://bernama.com/en/news.php?id=2526940",
+   "date": "2026-02-24",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "中企承建马东铁项目动车组正式亮相",
+   "source": "新华网",
+   "url": "https://www.news.cn/world/20260211/d691d45b8e504cafbb411652c2b8d0b5/c.html",
+   "date": "2026-02-11",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "马来西亚调整外籍人才就业政策",
+   "source": "China Briefing",
+   "url": "https://www.china-briefing.com/china-outbound-news/malaysia-revises-its-expatriate-employment-policy-cn",
+   "date": "2026-01-26",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "finance",
+   "kind": "政策",
+   "title": "2026年 SST 新政策重点 一次看懂",
+   "source": "L & Co Accountants",
+   "url": "https://landco.my/social-zh/sst-update-2026-zh/",
+   "date": "2026-01-07",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "finance",
+   "kind": "政策",
+   "title": "FMM hails e-invoicing delay, says SMEs not ready for costly rollout",
+   "source": "Malay Mail",
+   "url": "https://www.malaymail.com/amp/news/malaysia/2026/01/05/fmm-hails-e-invoicing-delay-says-smes-not-ready-for-costly-rollout/204418",
+   "date": "2026-01-05",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "trade",
+   "kind": "政策",
+   "title": "中国－东盟自贸区3.0版升级获东盟各界期待",
+   "source": "中国新闻网",
+   "url": "https://www.chinanews.com.cn/gj/2025/10-29/10506119.shtml",
+   "date": "2025-10-29",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "政策",
+   "title": "1,711 Malaysian Export Products To US To Enjoy Lower Tariff - Tengku Zafrul",
+   "source": "Bernama",
+   "url": "https://www.bernama.com/en/news.php?id=2483627",
+   "date": "2025-10-27",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "finance",
+   "kind": "政策",
+   "title": "马来西亚2026年财政预算案：对外国投资者的意义",
+   "source": "China Briefing",
+   "url": "https://www.china-briefing.com/china-outbound-news/malaysias-2026-budget-what-it-means-for-foreign-investors-cn",
+   "date": "2025-10-17",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "宝腾在丹绒马林开设马来西亚首家电动汽车专用工厂",
+   "source": "MarkLines",
+   "url": "https://www.marklines.com/cn/news/332243",
+   "date": "2025-09-08",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "Malaysia bracing for E&E sector disruptions as US mulls higher semiconductor tariffs — Zafrul",
+   "source": "The Edge Malaysia",
+   "url": "https://theedgemalaysia.com/node/765142",
+   "date": "2025-08-04",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "13MP: Multi-tier levy mechanism roll-out pushed to 2026",
+   "source": "The Edge Malaysia",
+   "url": "https://theedgemalaysia.com/node/764721",
+   "date": "2025-07-31",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "中马互免签证协定正式生效！中国护照“含金量”不断上升",
+   "source": "央视新闻（新华网转载）",
+   "url": "https://www.news.cn/world/20250717/8c12c553c37f45a5a44deb7e7531a492/c.html",
+   "date": "2025-07-17",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "中企承建的马来西亚东海岸铁路项目全部隧道贯通",
+   "source": "新华网",
+   "url": "https://www.news.cn/world/20250712/016f3993c407447e9d85cbe891d3368e/c.html",
+   "date": "2025-07-12",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "亿纬锂能拟在马来西亚新建储能电池项目，投资不超过86.54亿元",
+   "source": "澎湃新闻",
+   "url": "https://m.thepaper.cn/detail/31050678",
+   "date": "2025-06-27",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "finance",
+   "kind": "政策",
+   "title": "马来西亚销售与服务税（SST）扩围对消费品行业的影响分析",
+   "source": "China Briefing",
+   "url": "https://www.china-briefing.com/china-outbound-news/how-malaysias-sst-expansion-can-impact-consumer-goods-cn",
+   "date": "2025-06-27",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "tech",
+   "kind": "新闻",
+   "title": "美国向马来西亚施压：要求调查英伟达AI芯片流向中国问题",
+   "source": "凤凰网科技",
+   "url": "https://tech.ifeng.com/c/8hzPZXDKzJs",
+   "date": "2025-03-24",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "Mandatory employee provident fund contributions for foreign workers in Malaysia start Q4 2025",
+   "source": "The Star（Asia News Network 转载）",
+   "url": "https://asianews.network/?p=192580",
+   "date": "2025-03-07",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "New minimum wage of RM1,700 takes effect today for over 4.3 million workers",
+   "source": "Malay Mail",
+   "url": "https://www.malaymail.com/news/malaysia/2025/02/01/new-minimum-wage-of-rm1700-takes-effect-today-for-over-43-million-workers/165129",
+   "date": "2025-02-01",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "新时代出海导航之柔新经济特区最新动态与投资展望",
+   "source": "中伦律师事务所",
+   "url": "https://www.zhonglun.com/research/articles/54110.html",
+   "date": "2025-01-22",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "专访马来西亚第一副总理扎希德：中企在马制造业投资超1300亿元，大量应用AI、大数据和机器人技术，助马工业转型",
+   "source": "每日经济新闻",
+   "url": "https://www.mrjjxw.com/articles/2025-01-08/3714825.html",
+   "date": "2025-01-08",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "finance",
+   "kind": "政策",
+   "title": "大马宣布柔新经济特区税务奖掖措施",
+   "source": "The Edge Malaysia",
+   "url": "https://theedgemalaysia.com/node/740215",
+   "date": "2025-01-08",
+   "added": "2026-10-07",
+   "cn": false
+  }
+ ]
+}
