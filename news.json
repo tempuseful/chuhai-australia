@@ -460,6 +460,26 @@
    "date": "2026-09-29",
    "added": "2026-10-07",
    "cn": true
+  },
+  {
+   "sector": "ev",
+   "kind": "新闻",
+   "title": "VFACTS：9 月澳大利亚电动汽车销量保持强劲",
+   "source": "GoAuto",
+   "url": "https://www.goauto.com.au/news/vfacts/sales-2026/2026-10-06/100649.html",
+   "date": "2026-10-06",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "ev",
+   "kind": "新闻",
+   "title": "比亚迪、特斯拉、吉利领跑，澳电动车销量再超汽油车",
+   "source": "The Driven",
+   "url": "https://thedriven.io/2026/10/06/evs-outsell-petrol-cars-again-and-account-for-nearly-one-in-four-new-car-sales-led-by-byd-tesla-and-geely/",
+   "date": "2026-10-06",
+   "added": "2026-10-07",
+   "cn": false
   }
  ]
 }
