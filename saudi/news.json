@@ -1,0 +1,75 @@
+{
+ "updated": "2026-10-07",
+ "items": [
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "CNESA：2026上半年储能海外订单签约增长83%，中东市场增长突出",
+   "source": "新华网",
+   "url": "https://www.news.cn/energy/20260828/9a63f0b477f247eab756720e16ab7bd3/c.html",
+   "date": "2026-08-28",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "infra",
+   "kind": "政策",
+   "title": "沙特阿拉伯管控地产试验：外籍人士购房限定区域并须审批",
+   "source": "新浪财经",
+   "url": "https://finance.sina.cn/2026-06-24/detail-iniemwqf8426881.d.html",
+   "date": "2026-06-24",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "阳光电源签下中东储能大单，加速海外产能布局",
+   "source": "第一财经",
+   "url": "https://www.yicai.com/news/103196963.html",
+   "date": "2026-05-22",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "中国电建：签署沙特两座光伏电站合同，金额合计约117.19亿元",
+   "source": "第一财经",
+   "url": "https://www.yicai.com/news/102857739.html",
+   "date": "2025-10-10",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "infra",
+   "kind": "政策",
+   "title": "颠覆式改变！外国人可在沙特买房",
+   "source": "国际金融报",
+   "url": "https://finance.sina.cn/2025-08-05/detail-infixywn9105917.d.html",
+   "date": "2025-08-05",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "infra",
+   "kind": "政策",
+   "title": "沙特阿拉伯向外国投资者开放房地产市场",
+   "source": "澎湃新闻",
+   "url": "https://www.thepaper.cn/newsDetail_forward_31304563",
+   "date": "2025-08-05",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "国家电投黄河公司：沙特1.4GW光伏项目进入执行阶段",
+   "source": "中新网",
+   "url": "https://www.chinanews.com.cn/cj/2025/02-12/10367496.shtml",
+   "date": "2025-02-12",
+   "added": "2026-10-07",
+   "cn": true
+  }
+ ]
+}
