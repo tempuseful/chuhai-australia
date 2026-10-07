@@ -4,10 +4,70 @@
   {
    "sector": "energy",
    "kind": "新闻",
+   "title": "消息称卡塔尔延长液化天然气不可抗力期限至11月",
+   "source": "格隆汇",
+   "url": "https://m.gelonghui.com/live/2691835",
+   "date": "2026-09-28",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
    "title": "我国承揽金额最大国际海洋油气工程总承包项目开工建造",
    "source": "科技日报",
    "url": "https://www.stdaily.com/web/gdxw/2026-09/15/content_581233.html",
    "date": "2026-09-15",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "tech",
+   "kind": "新闻",
+   "title": "小马智行推出多哈首个全无人驾驶Robotaxi体验项目",
+   "source": "凤凰网科技",
+   "url": "https://tech.ifeng.com/c/8wHESZ2Wo1a",
+   "date": "2026-09-09",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "李强会见卡塔尔首相兼外交大臣穆罕默德",
+   "source": "新华网",
+   "url": "https://www.news.cn/20260907/ae1ef908d5624f8ab6ef9a4752ab2897/c.html",
+   "date": "2026-09-07",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "infra",
+   "kind": "政策",
+   "title": "Amendments to rental law support real estate sector, simplify procedures: MoM",
+   "source": "Qatar Tribune",
+   "url": "https://www.qatar-tribune.com/article/248391/front/amendments-to-rental-law-support-real-estate-sector-simplify-procedures-mom",
+   "date": "2026-08-12",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "36氪出海·中东｜2025年卡塔尔FDI总额达34亿美元，新项目同比增长52%",
+   "source": "36氪",
+   "url": "https://www.36kr.com/p/3908917731415170",
+   "date": "2026-07-24",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "这事儿，中方不想再依赖美国卡塔尔：找加拿大",
+   "source": "凤凰网（观察者网）",
+   "url": "https://news.ifeng.com/c/8ur4pDl7wfu",
+   "date": "2026-07-18",
    "added": "2026-10-07",
    "cn": true
   },
@@ -22,12 +82,82 @@
    "cn": true
   },
   {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "QFZ explores logistics and e-commerce collaboration opportunities with JD.com in China",
+   "source": "The Peninsula",
+   "url": "https://thepeninsulaqatar.com/article/18/06/2026/qfz-explores-logistics-and-e-commerce-collaboration-opportunities-with-jdcom-in-china",
+   "date": "2026-06-18",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
    "sector": "general",
    "kind": "新闻",
    "title": "专访卡投促局：战事阴霾让中东“受重伤”，卡塔尔如何危中寻机？",
    "source": "21世纪经济报道",
    "url": "https://www.21jingji.com/article/20260615/herald/a2318f6c03014638de8610a7cf2df662.html",
    "date": "2026-06-15",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "QFZ signs MoU with Jiangsu Luyi Investment and Zhejiang Zhenshen Insulation Technology",
+   "source": "The Peninsula",
+   "url": "https://thepeninsulaqatar.com/article/12/06/2026/qfz-signs-mou-with-jiangsu-luyi-investment-and-zhejiang-zhenshen-insulation-technology",
+   "date": "2026-06-12",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "5月卡塔尔投资新闻｜“北京-多哈”投资合作峰会即将举办，中国车企在卡市占率接近30%",
+   "source": "36氪出海",
+   "url": "https://www.36kr.com/p/3841153942653445",
+   "date": "2026-06-06",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "Middle East weekly: Invest Qatar concludes China roadshow, Core42 secures HSBC financing, Salwa REIT Fund launches, and more",
+   "source": "KrASIA",
+   "url": "https://kr-asia.com/middle-east-weekly-invest-qatar-concludes-china-roadshow-core42-secures-hsbc-financing-salwa-reit-fund-launches-and-more",
+   "date": "2026-06-04",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "Qatar-China ties are at their strongest in history: envoy",
+   "source": "Gulf Times",
+   "url": "https://www.gulf-times.com/article/725927/international/qatar-china-ties-are-at-their-strongest-in-history-envoy",
+   "date": "2026-05-20",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "Chinese firm wins $220m offshore living quarters job in Qatar",
+   "source": "MEED",
+   "url": "https://www.meed.com/chinese-firm-wins-220m-offshore-living-quarters-job-in-qatar",
+   "date": "2026-05-04",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "4月卡塔尔创投要闻：多家中企对卡表达高度信心；卡塔尔金融中心一季度新增企业超800家",
+   "source": "36氪出海",
+   "url": "https://www.36kr.com/p/3790604803726592",
+   "date": "2026-05-01",
    "added": "2026-10-07",
    "cn": true
   },
@@ -42,12 +172,182 @@
    "cn": true
   },
   {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "广钢气体接收卡塔尔氦气，午后拉升涨超9%",
+   "source": "同花顺财经（财闻）",
+   "url": "https://news.10jqka.com.cn/20260416/c676036323.shtml",
+   "date": "2026-04-16",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "tech",
+   "kind": "新闻",
+   "title": "ZGC-GCC Innovation Partners Programme, Licorne Gulf Holding bring Chinese Sci-Tech Enterprises to Qatar",
+   "source": "Qatar Tribune",
+   "url": "https://www.qatar-tribune.com/article/227256/nation/zgc-gcc-innovation-partners-programme-licorne-gulf-holding-bring-chinese-sci-tech-enterprises-to-qatar",
+   "date": "2026-04-05",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
    "sector": "energy",
    "kind": "新闻",
    "title": "卡塔尔能源设施遭袭17%LNG产能瘫痪 修复或长达5年",
    "source": "中新网",
    "url": "https://www.chinanews.com.cn/gj/2026/03-20/10589802.shtml",
    "date": "2026-03-20",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "finance",
+   "kind": "政策",
+   "title": "QFC introduces 'targeted incentives' as it returns to Web Summit 2026",
+   "source": "Gulf Times",
+   "url": "https://www.gulf-times.com/article/719727/business/qfc-introduces-targeted-incentives-as-it-returns-to-web-summit-2026",
+   "date": "2026-02-01",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "industry",
+   "kind": "政策",
+   "title": "解码卡塔尔补贴政策｜中国先进制造能力，如何嵌入卡塔尔产业升级？",
+   "source": "36氪",
+   "url": "https://www.36kr.com/p/3641558205238917",
+   "date": "2026-01-16",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "Qatar Cuts Justice Ministry Fees and Expands Exemptions to Boost Investment Climate",
+   "source": "Qatar News Agency",
+   "url": "https://qna.org.qa/en/News-Area/News/2026-1/15/qatar-cuts-justice-ministry-fees-and-expands-exemptions-to-boost-investment-climate",
+   "date": "2026-01-15",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "finance",
+   "kind": "新闻",
+   "title": "QNB becomes first bank in GCC to accept Weixin Pay e-Commerce",
+   "source": "The Peninsula",
+   "url": "https://thepeninsulaqatar.com/article/01/12/2025/qnb-becomes-first-bank-in-gcc-to-accept-weixin-pay-e-commerce",
+   "date": "2025-12-01",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "tech",
+   "kind": "新闻",
+   "title": "Vodafone Qatar signs MoU with iFLYTEK and DVTT",
+   "source": "The Peninsula",
+   "url": "https://s.thepeninsula.qa/article/26/11/2025/vodafone-qatar-signs-mou-with-iflytek-and-dvtt",
+   "date": "2025-11-26",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "China Southern Airlines launches direct air route between Beijing, Doha",
+   "source": "新华社（中国贸促会英文网）",
+   "url": "https://en.ccpit.org/infoById/4b8b999cab3111f0bdf90242ac1a0702/4",
+   "date": "2025-10-17",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "我国承揽最大国际海洋油气工程总承包项目全面启动",
+   "source": "人民日报客户端",
+   "url": "https://www.peopleapp.com/column/30050515969-500007144949",
+   "date": "2025-10-15",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "外交部：坚决反对以色列侵犯卡塔尔领土主权和国家安全的行径",
+   "source": "新华网",
+   "url": "https://www.news.cn/world/20250910/1cb0d99cafed4559acbcf38d5fa2c81d/c.html",
+   "date": "2025-09-10",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "tech",
+   "kind": "新闻",
+   "title": "Pony.ai, Qatar's Mowasalat team up to promote autonomous car application",
+   "source": "盖世汽车 Gasgoo",
+   "url": "https://autonews.gasgoo.com/articles/news/ponyai-qatars-mowasalat-team-up-to-promote-autonomous-car-application-70038886",
+   "date": "2025-09-05",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "Hamad Port launches new shipping service",
+   "source": "The Peninsula",
+   "url": "https://thepeninsulaqatar.com/article/09/07/2025/hamad-port-launches-new-shipping-service",
+   "date": "2025-07-09",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "Invest Qatar and CCPIT discuss Qatar-China economic ties",
+   "source": "The Peninsula",
+   "url": "https://thepeninsulaqatar.com/article/03/07/2025/invest-qatar-and-ccpit-discuss-qatar-china-economic-ties",
+   "date": "2025-07-03",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "中东战地手记丨当导弹划破夜空",
+   "source": "新华网",
+   "url": "https://www.news.cn/world/20250624/ed0cc8facd8641e181919bc2b26044e3/c.html",
+   "date": "2025-06-24",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "比亚迪将在卡塔尔发布腾势和仰望品牌",
+   "source": "MarkLines",
+   "url": "https://www.marklines.com/cn/news/328071",
+   "date": "2025-06-17",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "CCSZD eyes Middle East for growth",
+   "source": "China Daily（深圳政府在线）",
+   "url": "https://www.sz.gov.cn/en_szgov/business/news/content/post_12205236.html",
+   "date": "2025-06-03",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "finance",
+   "kind": "新闻",
+   "title": "中东资本入股华夏基金落槌，中国资产的国际关注度正升温",
+   "source": "第一财经",
+   "url": "https://www.yicai.com/news/102633890.html",
+   "date": "2025-05-25",
    "added": "2026-10-07",
    "cn": true
   },
@@ -63,6 +363,26 @@
   },
   {
    "sector": "general",
+   "kind": "政策",
+   "title": "Qatar: Introduction of Pillar Two global minimum tax rules",
+   "source": "KPMG",
+   "url": "https://kpmg.com/us/en/taxnewsflash/news/2025/04/qatar-introduction-pillar-two-global-minimum-tax-rules.html",
+   "date": "2025-04-01",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "tech",
+   "kind": "新闻",
+   "title": "With an Eye on AI, Huawei Plans Deeper Expansion in Qatar",
+   "source": "Caixin Global",
+   "url": "https://www.caixinglobal.com/2025-03-05/with-an-eye-on-ai-huawei-plans-deeper-expansion-in-qatar-102294955.html",
+   "date": "2025-03-05",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "general",
    "kind": "新闻",
    "title": "中国贸促会组织中国企业家代表团访问卡塔尔，达成多项合作成果",
    "source": "澎湃新闻",
@@ -70,6 +390,26 @@
    "date": "2025-02-24",
    "added": "2026-10-07",
    "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "China's Guanggang Signs Long-Term Helium Supply Deal With QatarEnergy",
+   "source": "Yicai Global",
+   "url": "https://yicaiglobal.com/news/chinas-guanggang-signs-long-term-helium-supply-deal-with-qatarenergy",
+   "date": "2025-02-18",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "finance",
+   "kind": "政策",
+   "title": "Qatar Financial Centre Slashes Business Setup Fees by 90% to Boost Market Entry",
+   "source": "Middle East Briefing",
+   "url": "https://www.middleeastbriefing.com/news/qatar-financial-centre-slashes-business-setup-fees-by-90-to-boost-market-entry",
+   "date": "2025-02-18",
+   "added": "2026-10-07",
+   "cn": false
   }
  ]
 }

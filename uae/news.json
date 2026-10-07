@@ -2,12 +2,92 @@
  "updated": "2026-10-07",
  "items": [
   {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "Chinese carmaker ROX begins production in Abu Dhabi",
+   "source": "Semafor",
+   "url": "https://www.semafor.com/article/09/08/2026/chinese-carmaker-rox-begins-production-in-abu-dhabi",
+   "date": "2026-09-08",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "tech",
+   "kind": "新闻",
+   "title": "从低空经济到跨境支付 中国科技企业在迪拜找到新机遇",
+   "source": "新京报",
+   "url": "https://www.bjnews.com.cn/detail/1785553348169223.html",
+   "date": "2026-08-01",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "迪拜商会萨利姆·阿尔·沙姆西：全球互联互通枢纽，迪拜如何成为中企“第二主场”？",
+   "source": "新京报",
+   "url": "https://www.bjnews.com.cn/detail/1783929435129134.html",
+   "date": "2026-07-13",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "比亚迪拿下阿联酋11.2GWh电网储能订单，相当于18.6万辆汽车！",
+   "source": "网易新闻",
+   "url": "https://c.m.163.com/news/a/L1JB465305278SVC.html",
+   "date": "2026-07-11",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
    "sector": "infra",
    "kind": "新闻",
    "title": "中企参建的阿联酋首条客运铁路启动试运营",
    "source": "人民网",
    "url": "https://world.people.com.cn/n1/2026/0701/c1002-40751224.html",
    "date": "2026-07-01",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "Meet Emiratisation targets by June 30 or face Dh120,000 penalty",
+   "source": "Gulf News",
+   "url": "https://gulfnews.com/business/tomorrow-is-last-day-to-meet-emiratisation-targets-or-face-dh120000-penalties-1.500590929",
+   "date": "2026-06-29",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "UAE implements revised Commercial Companies Law",
+   "source": "Gates Dubai",
+   "url": "https://gates-dubai.com/en/article/8055",
+   "date": "2026-06-15",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "2026 阿布扎比投资论坛成功举办",
+   "source": "第一财经",
+   "url": "https://www.yicai.com/news/103228216.html",
+   "date": "2026-06-12",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "从石油阀门到机器人，阿布扎比成中企出海“跳板”",
+   "source": "第一财经",
+   "url": "https://www.yicai.com/news/103226438.html",
+   "date": "2026-06-11",
    "added": "2026-10-07",
    "cn": true
   },
@@ -22,12 +102,62 @@
    "cn": true
   },
   {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "中国能建：子公司联营体签署16.87亿美元阿布扎比燃气电站项目EPC合同",
+   "source": "财联社（东方财富网转载）",
+   "url": "https://finance.eastmoney.com/a/202606043760497436.html",
+   "date": "2026-06-04",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "中国储能企业出海浪潮汹涌，阳光电源再揽中东7.5GWh超级大单",
+   "source": "澎湃新闻",
+   "url": "https://www.thepaper.cn/newsDetail_forward_33205643",
+   "date": "2026-05-21",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "中企在迪拜承建的大型民航维修机库项目启动",
+   "source": "新华网",
+   "url": "https://www.news.cn/world/20260518/f0fa1040c8294bdd81293a0c53dc1584/c.html",
+   "date": "2026-05-18",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
    "sector": "industry",
    "kind": "政策",
    "title": "“阿联酋制造”大会聚焦发展可持续工业",
    "source": "人民网",
    "url": "http://world.people.com.cn/n1/2026/0508/c1002-40715521.html",
    "date": "2026-05-08",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "Dubai Launches Tunnel Boring on $5.6B Blue Line Metro Expansion",
+   "source": "Engineering News-Record",
+   "url": "https://www.enr.com/articles/62963-dubai-launches-tunnel-boring-on-56b-blue-line-metro-expansion",
+   "date": "2026-05-07",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "警报拉响！阿联酋遭伊朗空袭，中使馆凌晨紧急提醒：请勿拍摄军事区，记住这些救命电话",
+   "source": "上观新闻（光明网转载）",
+   "url": "https://m.gmw.cn/2026-05/05/content_1304444412.htm",
+   "date": "2026-05-05",
    "added": "2026-10-07",
    "cn": true
   },
@@ -62,22 +192,62 @@
    "cn": true
   },
   {
-   "sector": "industry",
+   "sector": "general",
    "kind": "新闻",
-   "title": "从石油阀门到机器人，阿布扎比成中企出海“跳板”",
-   "source": "第一财经",
-   "url": "https://www.yicai.com/news/103226438.html",
-   "date": "2026",
+   "title": "UAE economy set to grow 5.6% in 2026: Central Bank report",
+   "source": "Gulf News",
+   "url": "https://gulfnews.com/business/banking/uae-economy-set-to-grow-56-in-2026-central-bank-report-1.500501523",
+   "date": "2026-04-09",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "【出海头条】绕路、涨价、财务压力……中企在霍尔木兹海峡外等转机",
+   "source": "界面新闻",
+   "url": "https://www.jiemian.com/article/14204649.html",
+   "date": "2026-04-09",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "tech",
+   "kind": "政策",
+   "title": "UAE Launches Up to 50% R&D Tax Credit for Businesses",
+   "source": "Middle East Briefing",
+   "url": "https://www.middleeastbriefing.com/news/uae-launches-50-rd-tax-credit-for-businesses/",
+   "date": "2026-03-24",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "中国电建：联营体签订阿布扎比139.62亿元光储EPC项目",
+   "source": "中国证券报·中证网（东方财富网转载）",
+   "url": "https://finance.eastmoney.com/a/202603123670290720.html",
+   "date": "2026-03-12",
    "added": "2026-10-07",
    "cn": true
   },
   {
    "sector": "general",
    "kind": "新闻",
-   "title": "2026 阿布扎比投资论坛成功举办",
-   "source": "第一财经",
-   "url": "https://www.yicai.com/news/103228216.html",
-   "date": "2026",
+   "title": "Oxford Economics slashes UAE 2026 growth forecast as Strait of Hormuz closure chokes trade",
+   "source": "Enterprise",
+   "url": "https://enterpriseam.com/uae/2026/03/11/oxford-economics-slashes-uae-2026-growth-forecast-as-strait-of-hormuz-closure-chokes-trade/",
+   "date": "2026-03-11",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "tech",
+   "kind": "新闻",
+   "title": "中国无人驾驶“军团”，“武装”阿布扎比",
+   "source": "每日经济新闻",
+   "url": "https://www.nbd.com.cn/articles/2026-01-30/4243308.html",
+   "date": "2026-01-30",
    "added": "2026-10-07",
    "cn": true
   },
@@ -87,19 +257,199 @@
    "title": "UAE to launch pilot phase of electronic invoicing system in July 2026",
    "source": "Gulf News",
    "url": "https://gulfnews.com/business/tax-news/uae-to-launch-pilot-phase-of-electronic-invoicing-system-in-july-2026-1.500424633",
-   "date": "2026",
+   "date": "2026-01-29",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "New Direct Flight Route Links Chinese Capital, UAE's Abu Dhabi",
+   "source": "Xinhua（北京市政府国际版转载）",
+   "url": "https://english.beijing.gov.cn/latest/news/202601/t20260126_4465751.html",
+   "date": "2026-01-26",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "finance",
+   "kind": "新闻",
+   "title": "UAE boosts digital trade as mBridge volumes top $55b",
+   "source": "Khaleej Times",
+   "url": "https://www.khaleejtimes.com/business/uae-boosts-digital-trade-as-mbridge-volumes-top-55b?amp=1",
+   "date": "2026-01-19",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "ADNOC：中国战略扩张与合作伙伴关系之年",
+   "source": "新浪财经",
+   "url": "https://finance.sina.cn/2026-01-05/detail-inhfhavn6726692.d.html",
+   "date": "2026-01-05",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "UAE overhauls visa system in 2025 to boost skills and investment",
+   "source": "Gulf News",
+   "url": "https://gulfnews.com/uae/government/uae-overhauls-visa-system-in-2025-to-boost-skills-and-investment-1.500387646",
+   "date": "2025-12-22",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "tech",
+   "kind": "新闻",
+   "title": "Shenzhen's company secures orders for 1,600 drones in Dubai",
+   "source": "深圳政府在线（英文版）",
+   "url": "https://www.sz.gov.cn/en_szgov/business/news/content/post_12514215.html",
+   "date": "2025-11-25",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "Abu Dhabi’s Khazna Solar Project Awards EPC Contract to China’s SEPCO3",
+   "source": "Enterprise",
+   "url": "https://enterpriseam.com/uae/2025/11/19/abu-dhabis-khazna-solar-project-awards-epc-contract-to-chinas-sepco3/",
+   "date": "2025-11-19",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "finance",
+   "kind": "新闻",
+   "title": "China Expands Yuan Clearing to First Abu Dhabi Bank in UAE",
+   "source": "Caixin Global",
+   "url": "https://www.caixinglobal.com/2025-10-29/china-expands-yuan-clearing-to-first-abu-dhabi-bank-in-uae-102377232.html",
+   "date": "2025-10-29",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "trade",
+   "kind": "政策",
+   "title": "UAE Implements Anti-Dumping Measures as Chinese Goods Flood Local Markets",
+   "source": "Khaleej Times",
+   "url": "https://www.khaleejtimes.com/uae/anti-dumping-measures-chinese-goods-flood-local-markets?amp=1",
+   "date": "2025-10-16",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "东方国际签约阿联酋公开竞标最大电网侧储能项目",
+   "source": "索比光伏网",
+   "url": "https://mcn.solarbe.com/news/20251011/50009934.html",
+   "date": "2025-10-11",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "China Southern Glass to open AED 300 mn Kezad facility + Emirates Float Glass to double capacity",
+   "source": "Enterprise",
+   "url": "https://enterpriseam.com/uae/2025/10/08/china-southern-glass-to-open-aed-300-mn-kezad-facility-emirates-float-glass-to-double-capacity/",
+   "date": "2025-10-08",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "美团Keeta于阿联酋迪拜正式启动运营，40天内连开三国加速覆盖中东地区",
+   "source": "36氪",
+   "url": "https://www.36kr.com/p/3487454249360265",
+   "date": "2025-09-29",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "免签政策催热‘双向游’，冲刺五年千万互访目标 2025中国—海湾阿拉伯国家旅游交易会迪拜开幕",
+   "source": "中国日报网",
+   "url": "https://cn.chinadaily.com.cn/a/202509/23/WS68d28ebba310f0725774a3e3.html",
+   "date": "2025-09-23",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "finance",
+   "kind": "新闻",
+   "title": "Nasdaq Dubai Welcomes USD 500 Million Bond Listing By Bank Of China Dubai Branch",
+   "source": "Mondo Visione",
+   "url": "https://mondovisione.com/media-and-resources/news/nasdaq-dubai-welcomes-usd-500-million-bond-listing-by-bank-of-china-dubai-branch-2025128/",
+   "date": "2025-08-12",
    "added": "2026-10-07",
    "cn": false
   },
   {
    "sector": "general",
    "kind": "新闻",
-   "title": "UAE’s real GDP to grow 5.6 percent in 2026, says central bank",
-   "source": "Economy Middle East",
-   "url": "https://economymiddleeast.com/news/uae-real-gdp-to-grow-5-6-percent-in-2026-says-central-bank/",
-   "date": "2026",
+   "title": "Chinese, Hong Kong investors fuel Dubai property boom",
+   "source": "Khaleej Times",
+   "url": "https://www.khaleejtimes.com/business/chinese-hong-kong-investors-fuel-dubai-property-boom?amp=1",
+   "date": "2025-05-27",
    "added": "2026-10-07",
    "cn": false
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "阿布扎比国家石油公司深化在华能源合作",
+   "source": "中国能源报",
+   "url": "https://paper.people.com.cn/zgnyb/pc/content/202504/28/content_30071497.html",
+   "date": "2025-04-28",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "UAE adopts OECD guidance on global minimum tax rules",
+   "source": "Gulf News",
+   "url": "https://gulfnews.com/business/corporate-tax/uae-adopts-oecd-guidance-on-global-minimum-tax-rules-1.500095870",
+   "date": "2025-04-16",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "China Eastern announces direct Shanghai-Abu Dhabi flight",
+   "source": "China Daily（上海市政府国际版转载）",
+   "url": "https://english.shanghai.gov.cn/en-Latest-WhatsNew/20250304/dc6455c353524ce4853f6e02318e31a2.html",
+   "date": "2025-03-04",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "综述｜中阿工商界共话合作发展新机遇",
+   "source": "新华网",
+   "url": "https://www.news.cn/world/20250228/9932b515e7714b678987cbb35e749933/c.html",
+   "date": "2025-02-28",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "finance",
+   "kind": "新闻",
+   "title": "汇丰阿联酋CEO：支持中企在中东上市",
+   "source": "第一财经",
+   "url": "https://www.yicai.com/news/102487086.html",
+   "date": "2025-02-26",
+   "added": "2026-10-07",
+   "cn": true
   }
  ]
 }

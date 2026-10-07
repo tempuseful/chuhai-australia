@@ -2,12 +2,142 @@
  "updated": "2026-10-07",
  "items": [
   {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "Oman, China explore investment partnerships across economic zones",
+   "source": "Arab News",
+   "url": "https://www.arabnews.pk/business/oman-china-explore-investment-partnerships-across-economic-zones-3000532",
+   "date": "2026-09-07",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "Contractors confirm $683m Oman power plant contract",
+   "source": "MEED",
+   "url": "https://guest.meed.com/?p=17568",
+   "date": "2026-08-21",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "山西安装签15亿元阿曼光伏EPC合同 成功打入中东新能源市场",
+   "source": "上海证券报·中国证券网",
+   "url": "https://stock.10jqka.com.cn/20260716/c678219810.shtml",
+   "date": "2026-07-16",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "伊朗称打击阿曼杜库姆港美军目标",
+   "source": "界面新闻",
+   "url": "https://finance.eastmoney.com/a/202607123802597447.html",
+   "date": "2026-07-12",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "tech",
+   "kind": "新闻",
+   "title": "Chinese Firms Back Oman’s Green Energy And Cybersecurity Ambitions With Major Investments",
+   "source": "SolarQuarter",
+   "url": "https://solarquarter.com/2026/06/15/chinese-firms-back-omans-green-energy-and-cybersecurity-ambitions-with-major-investments/",
+   "date": "2026-06-15",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "Contract awarded for Oman wind turbine project",
+   "source": "Oman Observer",
+   "url": "https://www.omanobserver.om/article/1191035/business/economy/contract-awarded-for-oman-wind-turbine-project",
+   "date": "2026-06-10",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "Chinese firm breaks ground on $1.1bn Oman battery plant",
+   "source": "MEED",
+   "url": "https://guest.meed.com/chinese-firm-breaks-ground-on-11bn-oman-battery-plant/",
+   "date": "2026-06-03",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "Oman courts Chinese pharma investment",
+   "source": "Oman Observer",
+   "url": "https://www.omanobserver.om/article/1188708/business/economy/oman-courts-chinese-pharma-investment",
+   "date": "2026-04-28",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "Chinese contractor to start work on Oman wind power plant",
+   "source": "AGBI",
+   "url": "https://www.agbi.com/renewable-energy/2026/04/chinese-contractor-to-start-work-on-oman-wind-power-plant/",
+   "date": "2026-04-14",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "Shuangliang Delivers Electrolyzers for Oman’s First Green Hydrogen Project",
+   "source": "SolarQuarter",
+   "url": "https://solarquarter.com/2026/03/24/shuangliang-delivers-electrolyzers-for-omans-first-green-hydrogen-project",
+   "date": "2026-03-24",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
    "sector": "energy",
    "kind": "新闻",
    "title": "2GWh，思格新能源/思源电气/华东电力设计院中标阿曼杜库姆储能项目",
    "source": "新浪财经",
    "url": "https://finance.sina.com.cn/roll/2026-03-13/doc-inhqwcxa3953237.shtml",
    "date": "2026-03-13",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "阿曼南部塞拉莱港储油设施遭无人机袭击",
+   "source": "证券时报（央视新闻）",
+   "url": "https://www.stcn.com/article/detail/3672433.html",
+   "date": "2026-03-11",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "Oman port targeted by drones, one worker injured in first attack on the sultanate",
+   "source": "Al Arabiya",
+   "url": "https://english.alarabiya.net/News/gulf/2026/03/01/oman-port-targeted-by-drones-one-worker-injured-state-news-agency",
+   "date": "2026-03-01",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "阿曼多举措推动旅游业发展，期待与中国深化旅游合作",
+   "source": "人民日报（中国日报网转载）",
+   "url": "https://cn.chinadaily.com.cn/a/202602/05/WS6984089ca310942cc499e585.html",
+   "date": "2026-02-05",
    "added": "2026-10-07",
    "cn": true
   },
@@ -22,6 +152,16 @@
    "cn": true
   },
   {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "东航11月30日开航“北京大兴—马斯喀特”直飞航线",
+   "source": "第一财经",
+   "url": "https://www.yicai.com/news/102934437.html",
+   "date": "2025-11-30",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
    "sector": "energy",
    "kind": "新闻",
    "title": "中国能建EPC项目联营体签署阿曼伊布里三期光伏储能电站项目EPC合同",
@@ -32,6 +172,16 @@
    "cn": true
   },
   {
+   "sector": "general",
+   "kind": "政策",
+   "title": "Oman: All foreign businesses must hire at least one Omani employee",
+   "source": "Gulf News",
+   "url": "https://gulfnews.com/business/markets/oman-all-foreign-businesses-must-hire-atleastone-omaniemployee-1.500295177",
+   "date": "2025-10-05",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
    "sector": "energy",
    "kind": "新闻",
    "title": "答案揭晓！这4家企业中标阿曼首个集中式光储项目！",
@@ -40,6 +190,66 @@
    "date": "2025-09-24",
    "added": "2026-10-07",
    "cn": true
+  },
+  {
+   "sector": "finance",
+   "kind": "新闻",
+   "title": "Oman vows support for Chinese firms as trade booms",
+   "source": "RTHK",
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1822328-20250911.htm",
+   "date": "2025-09-11",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "Chinese firm, EGN ink MoU on Oman solar ventures",
+   "source": "Oman Observer",
+   "url": "https://www.omanobserver.om/article/1175618/business/economy/chinese-firm-egn-ink-mou-on-oman-solar-ventures",
+   "date": "2025-08-26",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "阿曼联手中国，剑指全球硅料霸主",
+   "source": "新浪财经",
+   "url": "https://cj.sina.com.cn/articles/view/5508961872/1485c165000101bf4g",
+   "date": "2025-08-08",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "共话中国经济新机遇丨综述：阿曼各界期待深化对华经贸合作",
+   "source": "新华网",
+   "url": "https://www.news.cn/fortune/20250806/7e286ad7c362499b9ac9dfad18316670/c.html",
+   "date": "2025-08-06",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "全球市场再突破！上能电气携手中国电建助力阿曼能源转型",
+   "source": "华盛通",
+   "url": "https://www.hstong.com/news/detail/25073019150191660",
+   "date": "2025-07-30",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "finance",
+   "kind": "政策",
+   "title": "Oman to impose first personal income tax for high earners, effective January 2028",
+   "source": "Gulf News",
+   "url": "https://gulfnews.com/business/tax-news/oman-to-impose-first-personal-income-tax-for-high-earners-effective-january-2028-1.500172741",
+   "date": "2025-06-22",
+   "added": "2026-10-07",
+   "cn": false
   },
   {
    "sector": "energy",
@@ -60,6 +270,46 @@
    "date": "2025-06-05",
    "added": "2026-10-07",
    "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "中方将对沙特、阿曼、科威特、巴林试行免签政策",
+   "source": "新华社（中国日报网转载）",
+   "url": "https://cn.chinadaily.com.cn/a/202505/28/WS6836d64ca310205377035801.html",
+   "date": "2025-05-28",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "Pacts signed for RO 217m solar cell project at Sohar Freezone",
+   "source": "Oman Sustainability Week",
+   "url": "https://omansustainabilityweek.com/news/pacts-signed-for-ro-217m-solar-cell-project-at-sohar-freezone",
+   "date": "2025-04-28",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "钧达股份冲击港股IPO输血阿曼项目，年内已有7家光储企业递表",
+   "source": "贝壳财经",
+   "url": "https://www.163.com/dy/article/JTCJ20BR055284JB.html",
+   "date": "2025-04-17",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "Launch of Oman’s first wind turbine factory",
+   "source": "阿曼外交部",
+   "url": "https://www.fm.gov.om/en/23661/",
+   "date": "2025-04-13",
+   "added": "2026-10-07",
+   "cn": false
   }
  ]
 }

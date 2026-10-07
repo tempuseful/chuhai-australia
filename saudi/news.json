@@ -2,12 +2,52 @@
  "updated": "2026-10-07",
  "items": [
   {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "中国化学：2026年前8个月合同金额达2387.97亿元",
+   "source": "中国证券报（同花顺转载）",
+   "url": "https://stock.10jqka.com.cn/20260928/c680335492.shtml",
+   "date": "2026-09-28",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "中国驻沙特大使馆提醒在沙特中资机构和中国公民注意安全",
+   "source": "央视网（光明网转载）",
+   "url": "https://m.gmw.cn/2026-09/08/content_1304561202.htm",
+   "date": "2026-09-08",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "tech",
+   "kind": "新闻",
+   "title": "Chinese tech companies plant deeper roots in Saudi Arabia",
+   "source": "Semafor",
+   "url": "https://semafor.com/article/09/02/2026/chinese-tech-companies-plant-deeper-roots-in-saudi-arabia",
+   "date": "2026-09-02",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
    "sector": "energy",
    "kind": "新闻",
    "title": "CNESA：2026上半年储能海外订单签约增长83%，中东市场增长突出",
    "source": "新华网",
    "url": "https://www.news.cn/energy/20260828/9a63f0b477f247eab756720e16ab7bd3/c.html",
    "date": "2026-08-28",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "中国驻沙特大使：目前已有约750家中企在沙运营 涉足领域广泛",
+   "source": "界面新闻（东方财富网转载）",
+   "url": "https://finance.eastmoney.com/a/202608073834282656.html",
+   "date": "2026-08-07",
    "added": "2026-10-07",
    "cn": true
   },
@@ -22,6 +62,36 @@
    "cn": true
   },
   {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "Chinese firm wins $265m Saudi hospital contract",
+   "source": "MEED",
+   "url": "https://guest.meed.com/?p=16963",
+   "date": "2026-06-24",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "Saudi Arabia signs 6 China deals, awards $506m housing projects",
+   "source": "Arab News",
+   "url": "https://www.arabnews.com/node/2647243/amp",
+   "date": "2026-06-15",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "finance",
+   "kind": "新闻",
+   "title": "中东豪门，开了上海办公室",
+   "source": "36氪",
+   "url": "https://www.36kr.com/p/3838523225475587",
+   "date": "2026-06-04",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
    "sector": "energy",
    "kind": "新闻",
    "title": "阳光电源签下中东储能大单，加速海外产能布局",
@@ -32,6 +102,96 @@
    "cn": true
   },
   {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "宝钢股份去年净利同比增超四成，最新回应出口目标、中东基地建设进展",
+   "source": "澎湃新闻",
+   "url": "https://www.thepaper.cn/newsDetail_forward_33088454",
+   "date": "2026-05-01",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "中国驻沙特大使馆发布重要提醒",
+   "source": "央视新闻（中国日报网转载）",
+   "url": "https://cn.chinadaily.com.cn/a/202604/06/WS69d34a36a310942cc49a6844.html",
+   "date": "2026-04-06",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "中沙高委会共建“一带一路”、重大项目和能源分委会第五次会议成功召开",
+   "source": "国家发展改革委",
+   "url": "https://www.ndrc.gov.cn/fzggw/wld/zsj/zyhd/202602/t20260213_1403758.html",
+   "date": "2026-02-13",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "The first Saudisation updates of 2026: Key changes across marketing, sales, engineering and more",
+   "source": "Clyde & Co",
+   "url": "https://www.clydeco.com/en/insights/2026/02/the-first-saudisation-updates-of-2026-key-changes",
+   "date": "2026-02-09",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "tech",
+   "kind": "新闻",
+   "title": "中东Robotaxi进入“千辆时代”，文远知行携手Uber刷新区域纪录",
+   "source": "量子位",
+   "url": "https://www.qbitai.com/2026/02/377509.html",
+   "date": "2026-02-06",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "finance",
+   "kind": "政策",
+   "title": "沙特宣布向外国投资者全面开放资本市场",
+   "source": "央视新闻（中国日报网转载）",
+   "url": "https://cn.chinadaily.com.cn/a/202601/07/WS695e3a78a310942cc499a78c.html",
+   "date": "2026-01-07",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "industry",
+   "kind": "政策",
+   "title": "Saudi Cabinet scraps expat levy for licensed industrial facilities",
+   "source": "Argaam",
+   "url": "https://www.argaam.com/en/article/articledetail/id/1866738",
+   "date": "2025-12-17",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "王毅会见海合会秘书长布达维",
+   "source": "外交部",
+   "url": "https://www.mfa.gov.cn/web/wjbz_673089/xghd_673097/202512/t20251214_11772428.shtml",
+   "date": "2025-12-15",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "Chinese firm signs 2GW deal for Saudi solar project",
+   "source": "MEED",
+   "url": "https://www.meed.com/chinese-firm-signs-2gw-deal-for-saudi-solar-project",
+   "date": "2025-11-25",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
    "sector": "energy",
    "kind": "新闻",
    "title": "中国电建：签署沙特两座光伏电站合同，金额合计约117.19亿元",
@@ -40,6 +200,56 @@
    "date": "2025-10-10",
    "added": "2026-10-07",
    "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "中国能建：联营体签署195.54亿元沙特新能源总承包工程合同",
+   "source": "界面新闻（东方财富网转载）",
+   "url": "https://finance.eastmoney.com/a/202510103530880752.html",
+   "date": "2025-10-10",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "infra",
+   "kind": "政策",
+   "title": "Saudi crown prince freezes rents in Riyadh",
+   "source": "MEED",
+   "url": "https://www.meed.com/saudi-crown-prince-announces-riyadh-rent-freeze",
+   "date": "2025-09-26",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "China Southern inaugurates Guangzhou-Riyadh direct flight",
+   "source": "南方网 Newsgd",
+   "url": "https://info.newsgd.com/node_73b7112307/c1a23f33db.shtml",
+   "date": "2025-09-03",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "海辰储能携1GW/4GWh项目落地沙特 树立中东高端市场行业商用范本",
+   "source": "投资界",
+   "url": "https://news.pedaily.cn/20250829/113322.shtml",
+   "date": "2025-08-29",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "Chinese firm wins $298m Saudi cement plant deal",
+   "source": "MEED",
+   "url": "https://guest.meed.com/chinese-firm-wins-298m-saudi-cement-plant-deal/",
+   "date": "2025-08-18",
+   "added": "2026-10-07",
+   "cn": false
   },
   {
    "sector": "infra",
@@ -62,12 +272,102 @@
    "cn": true
   },
   {
+   "sector": "general",
+   "kind": "政策",
+   "title": "Saudi Arabia Introduces 3-Level Classification for Foreign Workers",
+   "source": "Platinumlist",
+   "url": "https://platinumlist.net/guide/saudi-arabia-introduces-3-level-classification-for-foreign-workers/",
+   "date": "2025-07-29",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "tech",
+   "kind": "新闻",
+   "title": "文远知行Robotaxi斩获沙特首张自动驾驶牌照，牌照覆盖六国市场",
+   "source": "中华网",
+   "url": "https://m.tech.china.com/redian/2025/0728/072025_1706289.html",
+   "date": "2025-07-28",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "中方将对沙特、阿曼、科威特、巴林试行免签政策",
+   "source": "新华网（中国日报网转载）",
+   "url": "https://cn.chinadaily.com.cn/a/202505/28/WS6836d64ca310205377035801.html",
+   "date": "2025-05-28",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "中沙深化多领域合作，达成60余项共识",
+   "source": "澎湃新闻",
+   "url": "https://www.thepaper.cn/newsDetail_forward_30849139",
+   "date": "2025-05-20",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "Saudi Arabia issues Implementing Regulations for the Investment Law",
+   "source": "DWF",
+   "url": "https://dwfgroup.com/en-au/news-and-insights/insights/2025/4/saudi-arabia-issues-implementing-regulations-for-the-investment-law",
+   "date": "2025-04-30",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "中国石化与沙特阿美签署合作框架协议 推进延布炼厂扩建项目",
+   "source": "新华网",
+   "url": "https://www.xinhuanet.com/energy/20250409/98b28d82e79f48a8afa88f47c622e879/c.html",
+   "date": "2025-04-09",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "“当时全球最大”：比亚迪储能与沙特电力公司签署 12.5GWh 储能项目合同",
+   "source": "IT之家",
+   "url": "https://www.ithome.com/0/831/554.htm",
+   "date": "2025-02-17",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
    "sector": "energy",
    "kind": "新闻",
    "title": "国家电投黄河公司：沙特1.4GW光伏项目进入执行阶段",
    "source": "中新网",
    "url": "https://www.chinanews.com.cn/cj/2025/02-12/10367496.shtml",
    "date": "2025-02-12",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "tech",
+   "kind": "新闻",
+   "title": "加码中东：联想沙特新工厂奠基，生产“沙特制造”笔记本、台式机等",
+   "source": "IT之家",
+   "url": "https://www.ithome.com/0/829/707.htm",
+   "date": "2025-02-10",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "中企在沙特承建全球最大在建单体光伏电站项目——“携手打造沙中新能源合作标杆”",
+   "source": "人民日报（中国日报网转载）",
+   "url": "https://cn.chinadaily.com.cn/a/202501/10/WS67807bdaa310b59111dad226.html",
+   "date": "2025-01-10",
    "added": "2026-10-07",
    "cn": true
   }

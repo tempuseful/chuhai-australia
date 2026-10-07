@@ -3,11 +3,101 @@
  "items": [
   {
    "sector": "general",
+   "kind": "政策",
+   "title": "Expats Can Work for Second Employer for Three Months",
+   "source": "The Daily Tribune (News of Bahrain)",
+   "url": "https://www.newsofbahrain.com/bahrain/141990.html",
+   "date": "2026-09-28",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "巴林探索扩大政府采购本地价值，推动优惠政策向产业链延伸",
+   "source": "中国驻巴林大使馆经济商务处",
+   "url": "https://bh.mofcom.gov.cn/jmxw/art/2026/art_8b0a18ce674c43eaac3906931bb98f4a.html",
+   "date": "2026-09-14",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "中企联合体中标巴林大型住房项目，将建设超过2500套住宅",
+   "source": "中国驻巴林大使馆经济商务处",
+   "url": "https://bh.mofcom.gov.cn/jmxw/art/2026/art_a9a2f068481f45dea413e9ff986a3d82.html",
+   "date": "2026-09-08",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "巴林将于10月6日—8日举办首届“海合会制造”论坛暨展览",
+   "source": "中国驻巴林大使馆经济商务处",
+   "url": "https://bh.mofcom.gov.cn/sqfb/art/2026/art_5a233d4b776040909db6ff0c475ea3fb.html",
+   "date": "2026-09-06",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "finance",
+   "kind": "政策",
+   "title": "巴林加快重塑公共财政体系 2027年将实施10%企业利润税",
+   "source": "中国驻巴林大使馆经济商务处",
+   "url": "https://bh.mofcom.gov.cn/scdy/art/2026/art_49656a6ca7ea4608a3c814f19cfcc8d3.html",
+   "date": "2026-08-17",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "伊媒：一美国企业位于巴林的总部遭袭",
+   "source": "新京报",
+   "url": "https://www.bjnews.com.cn/detail/1783914655129936.html",
+   "date": "2026-07-13",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "Top Zeekr officials visit Asia Motors",
+   "source": "Gulf Daily News",
+   "url": "https://www.gdnonline.com/Details/1399659/Top-Zeekr-officials-visit-Asia-Motors",
+   "date": "2026-07-05",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "巴林称拦截并摧毁伊朗导弹和无人机",
+   "source": "光明网",
+   "url": "https://m.gmw.cn/2026-06/28/content_1304512645.htm",
+   "date": "2026-06-28",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "general",
    "kind": "新闻",
    "title": "中国驻巴林大使馆提醒在巴中国公民加强安全防范",
    "source": "北京市外办（转自中国驻巴林大使馆）",
    "url": "https://wb.beijing.gov.cn/home/wswm/lsbh/jwaqtx/202606/t20260612_4697941.html",
    "date": "2026-06-11",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "赋能贸易 共赢有声-第139届广交会第三期中东专属服务包",
+   "source": "中国驻巴林大使馆经济商务处",
+   "url": "https://bh.mofcom.gov.cn/sqfb/art/2026/art_d17f56246d7e4fdc84f057e11471d6b1.html",
+   "date": "2026-04-30",
    "added": "2026-10-07",
    "cn": true
   },
@@ -24,10 +114,50 @@
   {
    "sector": "general",
    "kind": "新闻",
+   "title": "Gulf Air: All inbound, outbound, and overflight operations are suspended indefinitely",
+   "source": "Gulf News",
+   "url": "https://gulfnews.com/amp/story/business%2Faviation%2Fgulf-air-all-inbound-outbound-and-overflight-operations-are-suspended-indefinitely-1.500470734",
+   "date": "2026-03-11",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
    "title": "王毅同巴林外交大臣通电话：破局之路在于尽快重回对话谈判",
    "source": "俄罗斯卫星通讯社",
    "url": "https://sputniknews.cn/20260310/1070150051.html",
    "date": "2026-03-10",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "巴林防空系统自2月28日已摧毁伊朗78枚导弹和143架无人机",
+   "source": "俄罗斯卫星通讯社",
+   "url": "https://sputniknews.cn/20260306/1070103933.html",
+   "date": "2026-03-06",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "finance",
+   "kind": "政策",
+   "title": "Bahrain announces corporate income tax regime",
+   "source": "DLA Piper",
+   "url": "https://www.dlapiper.com/en-bh/insights/publications/gulf-tax-insights/2026/gulf-tax-insights-january-2026/bahrain-announces-corporate-income-tax-regime",
+   "date": "2026-01-30",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "Bahrain hikes visa issuance fees, health care fees and monthly contributions for work permits, effective 1 January 2026",
+   "source": "EY Tax News",
+   "url": "https://taxnews.ey.com/news/2026-0212-bahrain-hikes-visa-issuance-fees-health-care-fees-and-monthly-contributions-for-work-permits-effective-1-january-2026",
+   "date": "2026-01-15",
    "added": "2026-10-07",
    "cn": false
   },
@@ -43,11 +173,121 @@
   },
   {
    "sector": "general",
+   "kind": "新闻",
+   "title": "In Depth: Bahrain Courts China as It Looks Beyond Oil",
+   "source": "Caixin Global",
+   "url": "https://www.caixinglobal.com/2025-11-28/in-depth-bahrain-courts-china-as-it-looks-beyond-oil-102388000.html",
+   "date": "2025-11-28",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "finance",
+   "kind": "新闻",
+   "title": "BENEFIT and Ant International Partner to Launch Alipay+ in Bahrain to Achieve Global E-Wallet Connectivity",
+   "source": "Business Wire",
+   "url": "https://www.businesswire.com/news/home/20251124405672/en/BENEFIT-and-Ant-International-Partner-to-Launch-Alipay-in-Bahrain-to-Achieve-Global-E-Wallet-Connectivity",
+   "date": "2025-11-24",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "境外中资企业（机构）报到登记指南",
+   "source": "中国驻巴林大使馆经济商务处",
+   "url": "https://bh.mofcom.gov.cn/sqfb/art/2025/art_40a8784e35bf49b587ffe5cb03d0bfe2.html",
+   "date": "2025-11-21",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "巴林成立国际商业法庭并启动“全球司法湾”平台",
+   "source": "中国驻巴林大使馆经济商务处",
+   "url": "https://bh.mofcom.gov.cn/sqfb/art/2025/art_1029a8f96bfa461cb4284f3b8544ae85.html",
+   "date": "2025-11-10",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "Alba Forges Global Aluminium Alliance with SIG and BlueFive to Expand Beyond Bahrain",
+   "source": "AlCircle",
+   "url": "https://www.alcircle.com/news/alba-forges-global-aluminium-alliance-with-sig-and-bluefive-to-expand-beyond-bahrain-116075",
+   "date": "2025-11-04",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "general",
    "kind": "政策",
    "title": "中国将延长对法国等国免签至2026年底，具体名单来了",
    "source": "第一财经",
    "url": "https://www.yicai.com/news/102893493.html",
    "date": "2025-11-03",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "周春林参赞会见巴林商工会第一副主席纳吉比",
+   "source": "中国驻巴林大使馆经济商务处",
+   "url": "https://bh.mofcom.gov.cn/tpjj/art/2025/art_9330d5edc9c043f9ab055bcff94270d5.html",
+   "date": "2025-09-23",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "Cainiao Establishes Cross-Border Logistics Network Between GCC Countries",
+   "source": "EqualOcean（亿欧）",
+   "url": "https://equalocean.com/news/2025062421583-cainiao-establishes-cross-border-logistics-network-between-gcc-countries/amp",
+   "date": "2025-06-24",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "Iran attacks US base: Qatar, Bahrain and Kuwait reopen airspace after brief suspension",
+   "source": "Gulf News",
+   "url": "https://gulfnews.com/amp/story/business%2Faviation%2Firan-attacks-us-base-in-qatar-bahrain-and-kuwait-reopen-airspace-after-brief-suspension-1.500174322",
+   "date": "2025-06-23",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "tech",
+   "kind": "新闻",
+   "title": "stc taps Huawei for 5G-A tech in Bahrain",
+   "source": "RCR Wireless News",
+   "url": "https://www.rcrwireless.com/20250617/5g/stc-huawei-5g",
+   "date": "2025-06-17",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "tech",
+   "kind": "新闻",
+   "title": "HONOR Officially Enters Bahrain Market with Launch of HONOR 400 Series",
+   "source": "MEA Tech Watch",
+   "url": "https://meatechwatch.com/2025/06/10/honor-officially-enters-bahrain-market-with-launch-of-honor-400-series/",
+   "date": "2025-06-10",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "共筑“钢铁丝路”，中巴铁路运营管理培训圆满收官",
+   "source": "中国驻巴林大使馆经济商务处",
+   "url": "https://bh.mofcom.gov.cn/tpjj/art/2025/art_14b933313d2048f8b32f96f660aef76f.html",
+   "date": "2025-06-09",
    "added": "2026-10-07",
    "cn": true
   },
@@ -60,6 +300,56 @@
    "date": "2025-05-29",
    "added": "2026-10-07",
    "cn": true
+  },
+  {
+   "sector": "finance",
+   "kind": "政策",
+   "title": "HK, Bahrain tax pact in effect",
+   "source": "news.gov.hk（香港特区政府新闻网）",
+   "url": "https://news.gov.hk/eng/2025/04/20250428/20250428_154103_856.html",
+   "date": "2025-04-28",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "李保安参赞会见巴林交通与通讯部次大臣白德尔",
+   "source": "中国驻巴林大使馆经济商务处",
+   "url": "https://bh.mofcom.gov.cn/tpjj/art/2025/art_73b1658790524b58b22796e77afd9087.html",
+   "date": "2025-04-17",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "finance",
+   "kind": "政策",
+   "title": "HK-Bahrain investment promotion deal to take effect Mar 21",
+   "source": "China Daily Hong Kong",
+   "url": "https://chinadailyhk.com/article/606936",
+   "date": "2025-03-14",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "李保安参赞赴在巴中资企业走访慰问",
+   "source": "中国驻巴林大使馆经济商务处",
+   "url": "https://bh.mofcom.gov.cn/tpjj/art/2025/art_d66aaf4161db48ae9ebff12ab5efd350.html",
+   "date": "2025-01-24",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "finance",
+   "kind": "新闻",
+   "title": "stc pay Bahrain leverages Mastercard Move to enable secure money transfers to China's Alipay",
+   "source": "Mastercard Newsroom",
+   "url": "https://newsroom.mastercard.com/news/eemea/en/newsroom/press-releases/en/2025-1/stc-pay-bahrain-leverages-mastercard-move-to-enable-secure-money-transfers-to-china-s-alipay",
+   "date": "2025-01-07",
+   "added": "2026-10-07",
+   "cn": false
   }
  ]
 }

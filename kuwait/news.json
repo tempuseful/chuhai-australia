@@ -1,75 +1,38 @@
 {
  "updated": "2026-10-07",
  "items": [
-  {
-   "sector": "general",
-   "kind": "新闻",
-   "title": "Kuwait-China agreements enter new phase of development cooperation",
-   "source": "Kuwait Times",
-   "url": "https://kuwaittimes.com/article/47706/kuwait/kuwait-china-agreements-enter-new-phase-of-development-cooperation/amp",
-   "date": "2026-08-06",
-   "added": "2026-10-07",
-   "cn": false
-  },
-  {
-   "sector": "infra",
-   "kind": "新闻",
-   "title": "中国建筑：签约科威特北卡巴德污水处理厂及配套项目合同 金额约224亿元",
-   "source": "财联社",
-   "url": "https://finance.eastmoney.com/a/202607283823572997.html",
-   "date": "2026-07-28",
-   "added": "2026-10-07",
-   "cn": true
-  },
-  {
-   "sector": "infra",
-   "kind": "新闻",
-   "title": "【环球财经】中国建筑签约科威特北卡巴德污水处理厂及配套项目",
-   "source": "新华财经",
-   "url": "https://www.cnfin.com/gs-lb/detail/20260727/4446550_1.html",
-   "date": "2026-07-27",
-   "added": "2026-10-07",
-   "cn": true
-  },
-  {
-   "sector": "infra",
-   "kind": "新闻",
-   "title": "中企签署科威特大穆巴拉克港项目首个EPC合同",
-   "source": "新华网",
-   "url": "https://www.news.cn/20251223/78edbd6897a346fd8d7a71350ea5815c/c.html",
-   "date": "2025-12-23",
-   "added": "2026-10-07",
-   "cn": true
-  },
-  {
-   "sector": "infra",
-   "kind": "新闻",
-   "title": "一带一路故事绘丨在沙漠中建设未来——中国企业助力科威特打造百亿元现代化新城",
-   "source": "新华网",
-   "url": "https://www.news.cn/photo/20251112/cb8451d26e1f40da921532acce51f5ce/c.html",
-   "date": "2025-11-12",
-   "added": "2026-10-07",
-   "cn": true
-  },
-  {
-   "sector": "general",
-   "kind": "新闻",
-   "title": "科威特与中国香港加强合作",
-   "source": "新华网",
-   "url": "https://www.news.cn/gangao/20250514/03c20e7e0fa84c269803e8effbc8cc24/c.html",
-   "date": "2025-05-14",
-   "added": "2026-10-07",
-   "cn": true
-  },
-  {
-   "sector": "energy",
-   "kind": "新闻",
-   "title": "Kuwait, China Sign Agreement on Renewable Energy Cooperation",
-   "source": "SolarQuarter",
-   "url": "https://solarquarter.com/2025/03/19/kuwait-china-sign-agreement-on-renewable-energy-cooperation/",
-   "date": "2025-03-19",
-   "added": "2026-10-07",
-   "cn": false
-  }
+  {"sector": "energy", "kind": "新闻", "title": "霍尔木兹海峡运量锐减，科威特开辟多重路径力保百万桶原油出口", "source": "新浪财经", "url": "https://cj.sina.com.cn/articles/view/2622472937/9c4fc2e902002u42i", "date": "2026-09-08", "added": "2026-10-07", "cn": true},
+  {"sector": "general", "kind": "新闻", "title": "Kuwait-China agreements enter new phase of development cooperation", "source": "Kuwait Times", "url": "https://kuwaittimes.com/article/47706/kuwait/kuwait-china-agreements-enter-new-phase-of-development-cooperation/amp", "date": "2026-08-06", "added": "2026-10-07", "cn": false},
+  {"sector": "general", "kind": "新闻", "title": "中国驻科威特大使馆再次提醒在科威特中国公民和机构注意安全", "source": "光明网", "url": "https://m.gmw.cn/2026-08/02/content_1304541631.htm", "date": "2026-08-02", "added": "2026-10-07", "cn": true},
+  {"sector": "general", "kind": "新闻", "title": "伊朗袭击一家中企大楼？外交部：此次袭击没有波及中国公民", "source": "澎湃新闻", "url": "https://www.thepaper.cn/detail/33690555", "date": "2026-07-31", "added": "2026-10-07", "cn": true},
+  {"sector": "infra", "kind": "新闻", "title": "中国建筑：签约科威特北卡巴德污水处理厂及配套项目合同 金额约224亿元", "source": "财联社", "url": "https://finance.eastmoney.com/a/202607283823572997.html", "date": "2026-07-28", "added": "2026-10-07", "cn": true},
+  {"sector": "infra", "kind": "新闻", "title": "【环球财经】中国建筑签约科威特北卡巴德污水处理厂及配套项目", "source": "新华财经", "url": "https://www.cnfin.com/gs-lb/detail/20260727/4446550_1.html", "date": "2026-07-27", "added": "2026-10-07", "cn": true},
+  {"sector": "general", "kind": "新闻", "title": "科威特说伊朗袭击该国发电及海水淡化设施", "source": "光明网（新华社）", "url": "https://m.gmw.cn/2026-07/17/content_1304534193.htm", "date": "2026-07-17", "added": "2026-10-07", "cn": true},
+  {"sector": "infra", "kind": "新闻", "title": "Chinese contractor wins Kuwait investment authority HQ", "source": "MEED", "url": "https://www.meed.com/chinese-contractor-wins-kuwait-investment-authority-hq", "date": "2026-07-15", "added": "2026-10-07", "cn": false},
+  {"sector": "general", "kind": "政策", "title": "Kuwait 2026: The Strategic Shifts Investors Need to Watch Now", "source": "Al Tamimi & Company", "url": "https://www.tamimi.com/our-knowledge/publications/through-the-looking-glass/kuwait-2026-the-strategic-shifts-investors-need-to-watch-now/", "date": "2026-06-12", "added": "2026-10-07", "cn": false},
+  {"sector": "general", "kind": "新闻", "title": "科威特宣布关闭领空 机场航站楼遭袭被严重损毁 现场多人受伤！", "source": "每日经济新闻", "url": "https://finance.eastmoney.com/a/202606033759001630.html", "date": "2026-06-03", "added": "2026-10-07", "cn": true},
+  {"sector": "energy", "kind": "新闻", "title": "霍尔木兹危机敲响警钟，科威特筹划海外储油扩容、洽谈跨境输油管道", "source": "新浪财经", "url": "https://cj.sina.com.cn/articles/view/2622472937/9c4fc2e902002qeqe", "date": "2026-06-03", "added": "2026-10-07", "cn": true},
+  {"sector": "general", "kind": "新闻", "title": "Iran attack hits Kuwait power, water facility: Ministry", "source": "Kuwait Times", "url": "https://kuwaittimes.com/article/41837/kuwait/iran-attack-hits-kuwait-power-water-facility-ministry/", "date": "2026-04-03", "added": "2026-10-07", "cn": false},
+  {"sector": "general", "kind": "新闻", "title": "Kuwait sees China ties flourishing", "source": "China Daily", "url": "https://www.chinadaily.com.cn/a/202603/12/WS69b21f3ea310d6866eb3d67b.html", "date": "2026-03-12", "added": "2026-10-07", "cn": true},
+  {"sector": "energy", "kind": "新闻", "title": "科威特宣布削减石油产量 全球能源供应危机加剧", "source": "财联社", "url": "https://finance.eastmoney.com/a/202603083665252773.html", "date": "2026-03-08", "added": "2026-10-07", "cn": true},
+  {"sector": "infra", "kind": "新闻", "title": "中企签署科威特大穆巴拉克港项目首个EPC合同", "source": "新华网", "url": "https://www.news.cn/20251223/78edbd6897a346fd8d7a71350ea5815c/c.html", "date": "2025-12-23", "added": "2026-10-07", "cn": true},
+  {"sector": "trade", "kind": "新闻", "title": "China urges Gulf states to seal free trade agreement", "source": "Kuwait Times", "url": "https://kuwaittimes.com/article/37196/world/asia/china-urges-gulf-states-to-seal-free-trade-agreement/amp", "date": "2025-12-15", "added": "2026-10-07", "cn": false},
+  {"sector": "general", "kind": "政策", "title": "Kuwait Announces Changes to Residency Rules", "source": "Erickson Immigration Group", "url": "https://eiglaw.com/kuwait-residency-regulations/", "date": "2025-12-02", "added": "2026-10-07", "cn": false},
+  {"sector": "trade", "kind": "新闻", "title": "China becomes Gulf countries' largest trading partner: UK think tank", "source": "中国贸促会（CCPIT）", "url": "https://en.ccpit.org/infoById/2b49e2cec13511f0bdf90242ac1a0702/4", "date": "2025-11-14", "added": "2026-10-07", "cn": true},
+  {"sector": "infra", "kind": "新闻", "title": "一带一路故事绘丨在沙漠中建设未来——中国企业助力科威特打造百亿元现代化新城", "source": "新华网", "url": "https://www.news.cn/photo/20251112/cb8451d26e1f40da921532acce51f5ce/c.html", "date": "2025-11-12", "added": "2026-10-07", "cn": true},
+  {"sector": "finance", "kind": "新闻", "title": "Kuwait issues $11.25bn bonds", "source": "Kuwait Times", "url": "https://kuwaittimes.com/article/33927/kuwait/other-news/kuwait-issues-1125bn-bonds/", "date": "2025-10-01", "added": "2026-10-07", "cn": false},
+  {"sector": "industry", "kind": "新闻", "title": "Kuwait launches Chinese chemicals partnership", "source": "MEED", "url": "https://guest.meed.com/kuwait-launches-chinese-chemicals-partnership/", "date": "2025-09-26", "added": "2026-10-07", "cn": false},
+  {"sector": "energy", "kind": "新闻", "title": "CNLC wins landmark oilfield services contract in Kuwait", "source": "The Energy Year", "url": "https://theenergyyear.com/?p=51734", "date": "2025-09-23", "added": "2026-10-07", "cn": false},
+  {"sector": "tech", "kind": "新闻", "title": "Kuwait Launches 5G Advanced with Huawei and Knetco, Marking Milestone in Digital Transformation", "source": "MEA Tech Watch", "url": "https://meatechwatch.com/2025/08/21/kuwait-launches-5g-advanced-with-huawei-and-knetco-marking-milestone-in-digital-transformation/", "date": "2025-08-21", "added": "2026-10-07", "cn": false},
+  {"sector": "general", "kind": "新闻", "title": "Kuwait to Host Four Chinese Delegations to Boost Infrastructure and Development Cooperation", "source": "MEA Tech Watch", "url": "https://meatechwatch.com/2025/08/01/kuwait-to-host-four-chinese-delegations-to-boost-infrastructure-and-development-cooperation/", "date": "2025-08-01", "added": "2026-10-07", "cn": false},
+  {"sector": "finance", "kind": "政策", "title": "Kuwait Introduces Minimum Top-Up Tax for Multinational Enterprises", "source": "Middle East Briefing", "url": "https://www.middleeastbriefing.com/news/?p=4550", "date": "2025-07-23", "added": "2026-10-07", "cn": false},
+  {"sector": "general", "kind": "政策", "title": "中方将对沙特、阿曼、科威特、巴林试行免签政策", "source": "中国日报网（新华社）", "url": "https://cn.chinadaily.com.cn/a/202505/28/WS6836d64ca310205377035801.html", "date": "2025-05-28", "added": "2026-10-07", "cn": true},
+  {"sector": "finance", "kind": "政策", "title": "时隔八年将重返债市？科威特出台新法为主权债发行铺路", "source": "华盛通", "url": "https://www.hstong.com/news/detail/25052611400176046", "date": "2025-05-26", "added": "2026-10-07", "cn": true},
+  {"sector": "general", "kind": "新闻", "title": "科威特与中国香港加强合作", "source": "新华网", "url": "https://www.news.cn/gangao/20250514/03c20e7e0fa84c269803e8effbc8cc24/c.html", "date": "2025-05-14", "added": "2026-10-07", "cn": true},
+  {"sector": "infra", "kind": "新闻", "title": "Chinese firm signs Mubarak port early contractor involvement", "source": "MEED", "url": "https://guest.meed.com/?p=12776", "date": "2025-05-02", "added": "2026-10-07", "cn": false},
+  {"sector": "industry", "kind": "新闻", "title": "46亿，中东石油巨头再度出手投资国内石化公司", "source": "界面新闻", "url": "https://m.jiemian.com/article/12696047.html", "date": "2025-04-26", "added": "2026-10-07", "cn": true},
+  {"sector": "energy", "kind": "新闻", "title": "Kuwait, China Sign Agreement on Renewable Energy Cooperation", "source": "SolarQuarter", "url": "https://solarquarter.com/2025/03/19/kuwait-china-sign-agreement-on-renewable-energy-cooperation/", "date": "2025-03-19", "added": "2026-10-07", "cn": false},
+  {"sector": "infra", "kind": "新闻", "title": "Chinese company signs 557-mln-USD infrastructure construction contracts in Kuwait", "source": "中国一带一路网（新华社）", "url": "https://eng.yidaiyilu.gov.cn/p/09J5QBMA.html", "date": "2025-03-04", "added": "2026-10-07", "cn": true},
+  {"sector": "general", "kind": "政策", "title": "Kuwait opens property market to expats under new ownership reforms", "source": "Gulf News", "url": "https://gulfnews.com/business/property/kuwait-opens-property-market-to-expats-under-new-ownership-reforms-1.500038185", "date": "2025-02-16", "added": "2026-10-07", "cn": false}
  ]
 }
