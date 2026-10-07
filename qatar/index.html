@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>出海卡塔尔</title>
+<meta name="description" content="面向中国企业的赴卡塔尔经营简报：市场数据、常见痛点、落地八步、外资准入与自由区、税务与用工签证速查，新闻与政策动态。">
+<link rel="stylesheet" href="/fonts/fonts.css">
+<style>
+/* 布局：终端式行情带 + 财经头版。全宽黑底栏目条分节，数据用等宽字，标题用重磅宋体 */
+:root{
+  --bg:#07090d; --panel:#0e1219; --panel2:#141a24; --line:#232b38;
+  --fg:#e9edf3; --muted:#8b96a8; --amber:#ffa028; --amber-ink:#07090d;
+  --up:#2fd08a; --down:#ff5a5f; --blue:#4aa8ff;
+  --serif:"Noto Serif SC","Songti SC","Source Han Serif SC","SimSun",serif;
+  --sans:"PingFang SC","HarmonyOS Sans SC","Microsoft YaHei","Noto Sans CJK SC","Noto Sans SC",system-ui,sans-serif;
+  --mono:"IBM Plex Mono","SFMono-Regular",Menlo,Consolas,monospace;
+  color-scheme:dark;
+}
+@media (prefers-color-scheme: light){ :root:not([data-theme="dark"]){
+  --bg:#f3f4f6; --panel:#ffffff; --panel2:#e9ecf1; --line:#cfd5de;
+  --fg:#0b0f16; --muted:#566173; --amber:#b85c00; --amber-ink:#ffffff;
+  --up:#0a7a4b; --down:#c22b30; --blue:#0b5cad; color-scheme:light } }
+:root[data-theme="light"]{
+  --bg:#f3f4f6; --panel:#ffffff; --panel2:#e9ecf1; --line:#cfd5de;
+  --fg:#0b0f16; --muted:#566173; --amber:#b85c00; --amber-ink:#ffffff;
+  --up:#0a7a4b; --down:#c22b30; --blue:#0b5cad; color-scheme:light }
+
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--bg);color:var(--fg);font-family:var(--sans);font-size:15px;line-height:1.75;margin:0}
+a{color:var(--blue);text-decoration:none} a:hover{text-decoration:underline}
+a:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+.wrap{max-width:1180px;margin:0 auto;padding-inline:20px}
+.num{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.up{color:var(--up)} .down{color:var(--down)} .am{color:var(--amber)}
+
+/* 顶栏 */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;gap:20px;flex-wrap:wrap;padding-block:10px}
+.brand{font-family:var(--serif);font-weight:700;font-size:20px;letter-spacing:.04em;display:flex;align-items:center;gap:10px}
+.brand b{background:var(--amber);color:var(--amber-ink);font-family:var(--mono);font-size:12px;font-weight:600;padding:2px 7px;letter-spacing:.08em}
+.nav{display:flex;gap:16px;flex-wrap:wrap;font-size:13px;margin-left:auto}
+.nav a{color:var(--muted)} .nav a:hover{color:var(--fg);text-decoration:none}
+
+/* 行情带 */
+.tape{background:var(--panel);border-bottom:1px solid var(--line);overflow:hidden;white-space:nowrap}
+.tape-in{display:inline-flex;gap:36px;padding:8px 18px;animation:roll 60s linear infinite}
+.tape:hover .tape-in{animation-play-state:paused}
+.tape span{font-size:12.5px;color:var(--muted)} .tape span i{font-style:normal;font-family:var(--mono);color:var(--fg);margin-left:8px}
+@keyframes roll{to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.tape-in{animation:none}.tape{overflow-x:auto}}
+
+/* 头版 */
+.hero{padding-block:44px 30px;border-bottom:1px solid var(--line)}
+.kicker{font-family:var(--mono);font-size:12px;letter-spacing:.14em;color:var(--amber);text-transform:uppercase}
+h1{font-family:var(--serif);font-weight:700;font-size:clamp(30px,5vw,54px);line-height:1.22;margin:12px 0 16px;text-wrap:balance;letter-spacing:.01em}
+.lead{max-width:42em;color:var(--muted);font-size:16.5px;line-height:1.85;margin:0}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:30px;border-top:2px solid var(--amber)}
+.stat{padding:16px 16px 14px 0;border-right:1px solid var(--line);min-width:0}
+.stat+.stat{padding-left:16px} .stat:last-child{border-right:0}
+.stat .v{font-family:var(--mono);font-size:clamp(24px,3.4vw,36px);font-weight:600;line-height:1.1}
+.stat .l{font-size:12.5px;color:var(--muted);margin-top:6px;line-height:1.5}
+
+/* 分节 */
+section{padding-block:38px;border-bottom:1px solid var(--line)}
+.sh{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin-bottom:20px}
+.sh h2{font-family:var(--serif);font-weight:700;font-size:26px;margin:0;line-height:1.25}
+.sh .tag{font-family:var(--mono);font-size:11.5px;letter-spacing:.12em;color:var(--amber-ink);background:var(--amber);padding:2px 8px}
+.sh p{margin:0;color:var(--muted);font-size:13.5px;flex-basis:100%}
+.cols{display:grid;grid-template-columns:1.1fr .9fr;gap:28px}
+.cols>*{min-width:0}
+h3{font-size:15px;margin:0 0 10px;font-weight:700}
+.note{font-size:12.5px;color:var(--muted);margin-top:10px}
+
+/* 指标表 */
+.tblw{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th{font-family:var(--mono);font-size:11.5px;font-weight:500;letter-spacing:.08em;color:var(--muted);text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);white-space:nowrap}
+td{padding:10px;border-bottom:1px solid var(--line);vertical-align:top}
+td.r,th.r{text-align:right} td.num{white-space:nowrap}
+tbody tr:hover{background:var(--panel)}
+td strong{font-weight:700}
+
+/* 贸易图 */
+.bars{display:grid;gap:12px}
+.yr{display:grid;grid-template-columns:44px 1fr;gap:10px;align-items:center}
+.yr>span{font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+.bar{display:flex;align-items:center;gap:8px;margin:2px 0}
+.bar i{display:block;height:11px;min-width:2px}
+.bar.e i{background:var(--amber)} .bar.m i{background:var(--blue)}
+.bar b{font-family:var(--mono);font-size:12px;font-weight:500}
+.legend{display:flex;gap:18px;font-size:12.5px;color:var(--muted);margin-bottom:12px;flex-wrap:wrap}
+.legend i{display:inline-block;width:10px;height:10px;margin-right:6px}
+
+/* 痛点 */
+.pains{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+.pain{background:var(--bg);padding:20px;min-width:0}
+.pain .k{font-family:var(--mono);font-size:22px;font-weight:600;color:var(--amber);line-height:1.2}
+.pain h3{font-family:var(--serif);font-size:18px;font-weight:700;margin:8px 0 6px}
+.pain p{margin:0;font-size:14.5px;line-height:1.8;color:var(--muted)}
+.pain p.do{color:var(--fg);margin-top:10px;padding-top:10px;border-top:1px dashed var(--line)}
+.pain p.do::before{content:"对策";font-family:var(--mono);font-size:11px;letter-spacing:.1em;color:var(--up);margin-right:8px}
+
+/* 路线 */
+.steps{list-style:none;margin:0;padding:0;counter-reset:s;display:grid;grid-template-columns:repeat(2,1fr);gap:0 32px}
+.steps li{counter-increment:s;display:grid;grid-template-columns:42px 1fr;gap:12px;padding:16px 0;border-top:1px solid var(--line);min-width:0}
+.steps li::before{content:counter(s,decimal-leading-zero);font-family:var(--mono);font-size:20px;font-weight:600;color:var(--amber);line-height:1.3}
+.steps h3{margin-bottom:4px;font-family:var(--serif);font-size:17px} .steps p{margin:0;font-size:14.5px;line-height:1.8;color:var(--muted)}
+
+/* 赛道 */
+.tracks{display:grid;grid-template-columns:repeat(2,1fr);gap:0 32px}
+.track{padding:16px 0;border-top:1px solid var(--line);min-width:0}
+.track h3{font-family:var(--serif);font-size:17px;font-weight:700}
+.track p{margin:0;font-size:14.5px;line-height:1.8;color:var(--muted)}
+.heat{font-family:var(--mono);font-size:11px;letter-spacing:.08em;padding:1px 6px;border:1px solid currentColor;margin-left:8px;vertical-align:2px;white-space:nowrap}
+
+/* 动态 */
+.feedhead{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:34px 0 14px;padding-top:18px;border-top:2px solid var(--amber)}
+.feedhead h3{font-family:var(--serif);font-size:20px;font-weight:700;margin:0}
+.live{font-family:var(--mono);font-size:11px;letter-spacing:.1em;color:var(--up);display:inline-flex;align-items:center;gap:6px}
+.live::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--up);animation:blink 1.6s infinite}
+@keyframes blink{50%{opacity:.25}}
+@media (prefers-reduced-motion:reduce){.live::before{animation:none}}
+.feedhead .upd{font-family:var(--mono);font-size:12px;color:var(--muted);margin-left:auto}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.chips button{font:inherit;font-size:13px;background:transparent;color:var(--muted);border:1px solid var(--line);padding:5px 12px;cursor:pointer}
+.chips button:hover{color:var(--fg);border-color:var(--muted)}
+.chips button[aria-pressed="true"]{background:var(--amber);color:var(--amber-ink);border-color:var(--amber)}
+.chips button:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+.feed{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:0 40px}
+.feed li{min-width:0}
+.feed li{display:grid;grid-template-columns:92px 1fr;gap:14px;padding:13px 0;border-bottom:1px solid var(--line)}
+.feed time{font-family:var(--mono);font-size:12.5px;color:var(--muted);padding-top:2px}
+.feed .t{font-family:var(--serif);font-weight:700;color:var(--fg);font-size:16px;line-height:1.55}
+.feed a.t:hover{color:var(--amber);text-decoration:none}
+.feed .m{font-size:12px;color:var(--muted);margin-top:4px;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.feed .k{font-family:var(--mono);font-size:11px;letter-spacing:.06em;border:1px solid currentColor;padding:0 5px}
+.feed .k.pol{color:var(--amber)} .feed .k.news{color:var(--blue)}
+.more{font:inherit;font-size:13px;margin-top:14px;background:transparent;color:var(--fg);border:1px solid var(--line);padding:8px 18px;cursor:pointer}
+.more:hover{border-color:var(--amber);color:var(--amber)}
+.more:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+.feedmsg{padding:18px 0;color:var(--muted);font-size:13.5px}
+@media (max-width:860px){.feed{grid-template-columns:1fr}}
+@media (max-width:480px){.feed li{grid-template-columns:1fr;gap:2px}}
+
+.links{display:grid;grid-template-columns:repeat(3,1fr);gap:0 28px}
+.links div{padding:12px 0;border-top:1px solid var(--line);font-size:13.5px;min-width:0}
+.links span{display:block;color:var(--muted);font-size:12.5px}
+footer{padding-block:28px 48px;font-size:12.5px;color:var(--muted)}
+footer ol{padding-left:20px;margin:8px 0 16px}
+
+@media (max-width:860px){
+  .cols,.steps,.tracks{grid-template-columns:1fr}
+  .pains{grid-template-columns:1fr}
+  .links{grid-template-columns:1fr 1fr}
+  .stats{grid-template-columns:1fr 1fr}
+  .stat{border-bottom:1px solid var(--line)} .stat:nth-child(2){border-right:0} .stat:nth-child(3){padding-left:0}
+  .nav{margin-left:0;gap:12px}
+}
+@media (max-width:480px){.links{grid-template-columns:1fr}}
+
+/* 多国：返回链接、门户首页 */
+.back{font-size:13px;color:var(--muted);border:1px solid var(--line);padding:3px 10px;white-space:nowrap}
+.back:hover{color:var(--fg);border-color:var(--muted);text-decoration:none}
+.region{padding-block:30px;border-bottom:1px solid var(--line)}
+.region h2{font-family:var(--serif);font-weight:700;font-size:24px;margin:0}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}
+.card{background:var(--bg);border:1px solid var(--line);padding:18px 20px;min-width:0;display:block;color:var(--fg)}
+a.card:hover{background:var(--panel);text-decoration:none}
+.card .cn{font-family:var(--serif);font-weight:700;font-size:21px;display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.card .cn small{font-family:var(--mono);font-size:11.5px;font-weight:500;letter-spacing:.1em;color:var(--amber)}
+.card p{margin:8px 0 12px;font-size:13.5px;color:var(--muted);line-height:1.7}
+.card dl{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:0}
+.card dt{font-size:11.5px;color:var(--muted)} .card dd{margin:2px 0 0;font-family:var(--mono);font-size:15px;font-weight:600}
+.card.soon{color:var(--muted)} .card.soon .cn{font-size:17px;color:var(--muted)}
+.card.soon .cn small{color:var(--muted)}
+.cards.mini{grid-template-columns:repeat(5,1fr);gap:8px;margin-top:10px} .cards.mini .card{padding:12px 14px}
+@media (max-width:860px){.cards{grid-template-columns:1fr}.cards.mini{grid-template-columns:repeat(2,1fr)}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <div class="brand">出海卡塔尔 <b>QAT DESK</b></div>
+  <a class="back" href="/">全部国家</a>
+  <nav class="nav" aria-label="栏目"><a href="#market">市场</a><a href="#pain">痛点</a><a href="#road">落地</a><a href="#access">准入</a><a href="#tax">税务</a><a href="#hr">用工签证</a><a href="#sector">赛道</a><a href="#feed">动态</a><a href="#desk">官方入口</a></nav>
+</div></header>
+<div class="tape" aria-label="关键指标"><div class="tape-in" id="tape"></div></div>
+<main class="wrap">
+
+<div class="hero">
+  <div class="kicker">中国企业赴卡塔尔经营简报 · 数据截至 2026-10-07</div>
+  <h1>去卡塔尔做生意，税轻汇稳业主有钱，但市场只有 315 万人，订单都系在天然气上</h1>
+  <p class="lead">卡塔尔人均 GDP 居世界前列，液化天然气出口约占全球两成。里亚尔盯住美元、不设外汇管制，企业所得税 10%，没有增值税和个人所得税。但本地市场小，工程多为固定总价、低价中标，外资全资持股要逐案审批，用工靠雇主担保和配额。</p>
+  <div class="stats">
+    <div class="stat"><div class="v">242<small style="font-size:.5em"> 亿美元</small></div><div class="l">2024 年中卡货物贸易额<br><span class="down num">▼ 1.4%</span> 同比</div></div>
+    <div class="stat"><div class="v am">10%</div><div class="l">企业所得税<br>油气和石化业务不低于 35%</div></div>
+    <div class="stat"><div class="v am">0%</div><div class="l">增值税和个人所得税<br>5% 增值税草案已获内阁批准，尚未开征</div></div>
+    <div class="stat"><div class="v">10.3<small style="font-size:.5em"> 亿美元</small></div><div class="l">2024 年中企新签工程合同<br>完成营业额 5.1 亿美元</div></div>
+  </div>
+</div>
+
+<section id="market">
+  <div class="sh"><span class="tag">MARKET</span><h2>市场速览</h2></div>
+  <div class="cols">
+    <div>
+      <h3>宏观与成本仪表盘</h3>
+      <div class="tblw"><table>
+        <thead><tr><th>指标</th><th class="r">数值</th><th>口径</th></tr></thead>
+        <tbody>
+          <tr><td>GDP</td><td class="r num">2,180 亿美元</td><td>2024 年名义值，实际增长 2.4%；非油气产业约占 61%</td></tr>
+          <tr><td>人均 GDP</td><td class="r num">76,276 美元</td><td>2024 年</td></tr>
+          <tr><td>人口</td><td class="r num">315 万</td><td>2024 年 12 月常住人口，男性占 72%，绝大多数为外籍</td></tr>
+          <tr><td>主权评级</td><td class="r num">AA / Aa2</td><td>标普和惠誉 AA，穆迪 Aa2，展望稳定</td></tr>
+          <tr><td>汇率</td><td class="r num am">3.64 里亚尔/美元</td><td>盯住美元，无外汇管制</td></tr>
+          <tr><td>贷款利率</td><td class="r num">5.1%</td><td>2025 年 6 月；存款利率 4.6%</td></tr>
+          <tr><td>平均月薪</td><td class="r num">12,416 里亚尔</td><td>2024 年底全国平均；普通劳工 1,200–2,000，技术工人 2,500 以上</td></tr>
+          <tr><td>最低工资</td><td class="r num">1,000 里亚尔/月</td><td>不包食宿的另加伙食 300、住房 500</td></tr>
+          <tr><td>工业电价</td><td class="r num">0.13–0.22 里亚尔/度</td><td>约 0.04–0.06 美元；工业水价 5.4 里亚尔/立方米</td></tr>
+          <tr><td>95 号汽油</td><td class="r num">2.1 里亚尔/升</td><td>2024 年下半年；柴油 2.05 里亚尔/升</td></tr>
+          <tr><td>钢筋</td><td class="r num">2,680 里亚尔/吨</td><td>高强度钢筋，2024 年 7 月市场价</td></tr>
+        </tbody>
+      </table></div>
+      <p class="note">2024 年财政收入 586 亿美元、支出 571 亿美元，小幅盈余；政府债务占 GDP 的 40.5%，从未违约。工商银行多哈分行是当地人民币清算行，中国银行在卡塔尔金融中心设有分行，两家都不做个人存贷款。超过 95% 的商户可刷银联卡。</p>
+    </div>
+    <div>
+      <h3>中卡货物贸易 2020–2024（亿美元）</h3>
+      <div class="legend"><span><i style="background:var(--amber)"></i>中国对卡出口</span><span><i style="background:var(--blue)"></i>中国自卡进口</span></div>
+      <div class="bars" id="bars"></div>
+      <p class="note">2024 年中国对卡出口增长 14.8%，自卡进口下降 4.2%，进口是出口的近 5 倍。出口以特种机械、钢制品、机电产品和车辆为主；进口主要是液化天然气、原油和石化产品。中国连续五年是卡塔尔最大贸易伙伴。来源：中国海关总署。</p>
+    </div>
+  </div>
+</section>
+
+<section id="pain">
+  <div class="sh"><span class="tag">PAIN POINTS</span><h2>中企在卡塔尔最常踩的六个坑</h2><p>按企业实际遇到的顺序排列。</p></div>
+  <div class="pains">
+    <div class="pain"><div class="k">315 万</div><h3>本地市场小，只盯卡塔尔养不活一家厂</h3><p>常住人口 315 万，本国人就业 96% 在政府和国企。2024 年全国吸收外资流量只有 4.6 亿美元。消费和产能的天花板很低，辐射范围主要是海湾和周边国家。</p><p class="do">立项时按“区域支点”算账：靠哈马德港和机场做转口、服务海湾客户，或者直接绑定油气和政府项目。</p></div>
+    <div class="pain"><div class="k">49%</div><h3>法律写着可以全资，实际要逐案审批</h3><p>2019 年新外资法允许外资持股最高 100%，但超过 49% 须符合发展规划并经商工部批准，实施细则仍在完善。银行、保险、商业代理和房地产不对外资开放，外资也不能做贸易代理和进口业务。</p><p class="do">想要 100% 控股，优先看自由区、金融中心和科技园。在境内设公司的，先和商工部谈商业计划。</p></div>
+    <div class="pain"><div class="k">固定总价</div><h3>工程低价中标，签了字价格就不再变</h3><p>业主普遍采用固定总价合同和低价中标。报出的价格不得改动，中标后一周内要签约并交 10% 履约保函。建筑标准以英标为主，验收按当地施工规范执行。500 万里亚尔以下的政府项目只对本地公司开放。</p><p class="do">投标前把设计变更和延期成本算进报价。政府项目要先在主管部门登记成为合格投标方。</p></div>
+    <div class="pain"><div class="k">50℃</div><h3>半年高温加环保暗访，工期说停就停</h3><p>全年约 6 个月气温接近 50 摄氏度。6 月 1 日至 9 月 15 日每天 10:00–15:30 禁止户外作业。环保部门不通知就上门检查，发现问题可勒令停工整改，最长半年。爆破、排水等单项许可还要多个部门出具无异议函。</p><p class="do">排工期时把夏季禁令扣掉。环保许可常规要 4–8 周，咨询费一般在 20 万里亚尔以内，提前办。</p></div>
+    <div class="pain"><div class="k">先缴后退</div><h3>税率不高，但合规动作多、罚得重</h3><p>向境外付款先按 5% 扣预提税，协定优惠事后申请退税。每份合同都要在税务系统备案，漏一份罚 1 万里亚尔。逾期申报每天罚 500 里亚尔，未扣缴预提税按税额 100% 罚款。未申报的企业可被追查 10 年。</p><p class="do">公司设立 60 天内完成税务登记。分包商和供应商清单、关联交易资料随年度申报一并备齐。</p></div>
+    <div class="pain"><div class="k">17%</div><h3>经济系在天然气上，地缘冲击直接传导到项目</h3><p>油气及石化产品占出口额九成以上，政府项目的节奏跟着油气收入走。据报道，2026 年 3 月拉斯拉凡等能源设施遭袭，约 17% 的液化天然气出口产能停摆，修复可能需要 3–5 年；国际货币基金组织预计卡塔尔 2026 年经济收缩 8.6%。</p><p class="do">合同里写清不可抗力和停工补偿。投保出口信用保险和海外投资保险，盯紧业主的付款节奏。</p></div>
+  </div>
+</section>
+
+<section id="road">
+  <div class="sh"><span class="tag">ROADMAP</span><h2>从国内备案到在卡开张：八步</h2></div>
+  <ol class="steps">
+    <li><div><h3>国内境外投资备案</h3><p>发改委、商务部备案或核准，再到银行办外汇登记。出发前向中国驻卡塔尔使馆经商处征求意见。</p></div></li>
+    <li><div><h3>定主体和落脚点</h3><p>可设有限责任公司、合资公司、分支机构或代表处。要全资控股的看自由区、金融中心、科技园；要接境内工程的，多数仍是与本地股东合资。</p></div></li>
+    <li><div><h3>向受理机构提交申请</h3><p>境内公司找商工部，区内企业找自由区管理局、金融中心或科技园。线上填表，提交章程、商业计划书、股东证明和无犯罪证明。独资项目常被要求当面讨论商业计划。</p></div></li>
+    <li><div><h3>取得商业登记和经营许可</h3><p>审查通过后发放商业登记证，再办贸易许可证。施工企业开工前要向环境主管部门报送开工申请。</p></div></li>
+    <li><div><h3>银行开户并注资</h3><p>凭公司注册文件和申请函到当地银行开户。注册时须提供股份全额支付证明。里亚尔可自由兑换，资金进出不受限制。</p></div></li>
+    <li><div><h3>税务登记</h3><p>取得商业登记或开始经营后 60 天内，在税务总局的 Dhareeba 系统完成登记并领取税卡，逾期罚 2 万里亚尔。</p></div></li>
+    <li><div><h3>申请用工配额、办工作签证</h3><p>雇主在劳动部和内政部备案，由劳动部批外籍员工配额。员工持入境签证抵达后 1 个月内体检、留指纹，再办工作签证和居住证。</p></div></li>
+    <li><div><h3>合同备案，按期申报</h3><p>签订的合同逐份在税务系统备案。财政年度结束后 4 个月内申报并缴清所得税，总部在境外的企业须附经当地注册审计师签署的财务报表。</p></div></li>
+  </ol>
+</section>
+
+<section id="access">
+  <div class="sh"><span class="tag">ENTRY</span><h2>外资准入与落脚点</h2><p>境内公司受股比审批约束，三类特殊园区可以全资持股，差别在能不能直接做境内生意。</p></div>
+  <div class="tblw"><table>
+    <thead><tr><th>落脚点</th><th class="r">外资持股</th><th>能做什么</th><th>税负</th><th>适合</th></tr></thead>
+    <tbody>
+      <tr><td><strong>境内合资公司</strong></td><td class="r num am">一般 49%</td><td>全境经营，可投标政府项目；须有卡塔尔合伙人</td><td>所得税 10%，按外资股东份额征收</td><td>工程承包、本地服务</td></tr>
+      <tr><td><strong>境内独资公司</strong></td><td class="r num">最高 100%</td><td>农业、工业、卫生、教育、旅游、能源、信息技术、咨询等领域，须经商工部批准</td><td>所得税 10%；可申请最长 10 年免税</td><td>有技术或出口能力的项目</td></tr>
+      <tr><td><strong>自由区</strong><br>机场区 Ras Bufontas、海港区 Um Alhoul</td><td class="r num">100%</td><td>物流、机电、食品加工、建材、石化下游、海洋工业、信息技术；区内免进口关税，资金汇出不受限</td><td>所得税 0%，20 年</td><td>区域分拨和出口制造</td></tr>
+      <tr><td><strong>卡塔尔金融中心</strong></td><td class="r num">100%</td><td>金融、资产管理、专业服务和跨国公司总部；适用英国普通法体系，收益可全部汇出</td><td>本地利润 10%；资管、自保和再保险 0%</td><td>金融机构和区域管理公司</td></tr>
+      <tr><td><strong>卡塔尔科技园</strong></td><td class="r num">100%</td><td>研发和技术服务；可在卡塔尔直接做贸易，无须本地代理</td><td>免所得税和关税</td><td>科技企业和初创公司</td></tr>
+      <tr><td><strong>上市公司股份</strong></td><td class="r num am">不超过 49%</td><td>只能在二级市场买卖；多哈银行、卡塔尔保险、卡塔尔燃料等公司的外资上限已放宽到 100%</td><td>上市公司股票转让所得免税</td><td>财务投资</td></tr>
+      <tr><td><strong>政府工程投标</strong></td><td class="r num">—</td><td>500 万里亚尔以下的项目仅限本地公司和合资公司；外国自然人不能直接承揽工程</td><td>完工百分比法计税</td><td>须先落地再投标</td></tr>
+      <tr><td><strong>禁止和限制行业</strong></td><td class="r num down">不开放</td><td>银行、保险、商业代理、房地产，除非内阁特别许可；外资不得从事贸易代理和进口业务</td><td>—</td><td>外资不得进入</td></tr>
+    </tbody>
+  </table></div>
+  <p class="note">合资公司把年利润全部汇出境外的，须先把年利润的 10% 存入法定储备账户，直到余额达到投资额的 50%。外国人和外资企业可在西湾、珍珠岛等 10 个区域买断产权，在另外 16 个区域取得最长 99 年的使用权；个人购房不少于 20 万美元可申请永久居留。卡塔尔抵制以色列，与以方有业务往来的公司不能参加投标。</p>
+</section>
+
+<section id="tax">
+  <div class="sh"><span class="tag">TAX</span><h2>税务速查</h2><p>税务总局统一征管，金融中心另有一套税制。税种少、税率低，但申报和备案要求细。</p></div>
+  <div class="cols">
+    <div>
+      <div class="tblw"><table>
+        <thead><tr><th>税种</th><th class="r">税率</th><th>要点</th></tr></thead>
+        <tbody>
+          <tr><td>企业所得税</td><td class="r num">10%</td><td>针对外资股东份额；卡塔尔和海合会国民全资企业免税</td></tr>
+          <tr><td>油气和石化业务</td><td class="r num down">不低于 35%</td><td>勘探、开采、加工、储运及配套服务</td></tr>
+          <tr><td>增值税</td><td class="r num up">0%</td><td>尚未开征；5% 的增值税法草案已获内阁批准，开征日期未定</td></tr>
+          <tr><td>关税</td><td class="r num">5%</td><td>部分钢材 20%，烟草 100%；海合会原产货物免税</td></tr>
+          <tr><td>消费税</td><td class="r num">50%–100%</td><td>碳酸饮料 50%；能量饮料、烟草及特殊商品 100%</td></tr>
+          <tr><td>资本利得</td><td class="r num">10%</td><td>并入应纳税所得；上市公司股票转让所得免税</td></tr>
+          <tr><td>上市公司社会贡献</td><td class="r num">2.5%</td><td>按净利润缴纳，用于社会和慈善活动</td></tr>
+          <tr><td>全球最低税</td><td class="r num am">15%</td><td>已承诺对达到收入门槛的跨国集团实行，细则待公布</td></tr>
+          <tr><td>自由区企业</td><td class="r num up">0%</td><td>所得税豁免 20 年，区内免关税</td></tr>
+          <tr><td>个人所得税</td><td class="r num up">0%</td><td>工资薪金不征税</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+    <div>
+      <h3>向中国母公司付款的预提税</h3>
+      <div class="tblw"><table>
+        <thead><tr><th>款项</th><th class="r">卡塔尔国内法</th><th class="r">中卡协定上限</th></tr></thead>
+        <tbody>
+          <tr><td>股息</td><td class="r num up">0%</td><td class="r num">10%</td></tr>
+          <tr><td>分公司利润汇出</td><td class="r num up">0%</td><td class="r num">—</td></tr>
+          <tr><td>利息</td><td class="r num">5%</td><td class="r num">10%</td></tr>
+          <tr><td>特许权使用费</td><td class="r num">5%</td><td class="r num">10%</td></tr>
+          <tr><td>技术服务费、咨询费</td><td class="r num">5%</td><td class="r num">—</td></tr>
+          <tr><td>佣金、经纪费、董事费</td><td class="r num">5%</td><td class="r num">—</td></tr>
+        </tbody>
+      </table></div>
+      <h3 style="margin-top:20px">四条要提前安排的规则</h3>
+      <p style="margin:0;font-size:13.5px;color:var(--muted)"><strong style="color:var(--fg)">亏损只能结转五年。</strong>税务亏损自发生年度起向后结转 5 个财政年度，不得向前结转。<br><strong style="color:var(--fg)">工程常设机构。</strong>按中卡协定，建筑工地、安装工程及相关监督管理连续超过 9 个月即构成常设机构，按 10% 缴所得税。卡塔尔国内法对常设机构的定义更宽。<br><strong style="color:var(--fg)">协定待遇先缴后退。</strong>预提税先按国内法扣缴，再凭资料申请退税，通常要 3–4 周。中卡协定没有税收饶让条款。<br><strong style="color:var(--fg)">总部费用。</strong>总部管理费的扣除上限是境内税前利润的 3%。分公司付给总部的特许权使用费和服务费不得扣除，关联方借款超过所有者权益 3 倍部分的利息也不得扣除。</p>
+    </div>
+  </div>
+</section>
+
+<section id="hr">
+  <div class="sh"><span class="tag">PEOPLE</span><h2>用工与签证</h2></div>
+  <div class="cols">
+    <div>
+      <h3>劳动法底线</h3>
+      <div class="tblw"><table>
+        <tbody>
+          <tr><td>标准工时</td><td class="num r">每天 8 小时，每周 48 小时</td></tr>
+          <tr><td>斋月工时</td><td class="num r">每天 6 小时，每周 36 小时</td></tr>
+          <tr><td>加班费</td><td class="num r">平日 1.25 倍，节假日 1.5 倍；每天加班不超过 2 小时</td></tr>
+          <tr><td>试用期</td><td class="num r">不超过 6 个月</td></tr>
+          <tr><td>最低工资</td><td class="num r">每月 1,000 里亚尔，另加伙食 300、住房 500</td></tr>
+          <tr><td>年假</td><td class="num r">满 1 年至少 3 周，满 5 年至少 4 周</td></tr>
+          <tr><td>社保：卡塔尔籍</td><td class="num r">养老保险雇主 14%，个人 7%</td></tr>
+          <tr><td>服务期满金</td><td class="num r">工作满 1 年，每年不少于 3 周工资</td></tr>
+        </tbody>
+      </table></div>
+      <p class="note">周末为周五、周六。劳动合同必须有阿拉伯文文本，一式三份并经劳动部门认可。工资须在境内以里亚尔发放，每月至少一次，并通过工资保障系统转入员工账户。雇主必须为员工购买医疗保险。工作满 3 个月可休带薪病假，全薪不超过两周。</p>
+    </div>
+    <div>
+      <h3>外籍员工怎么进来</h3>
+      <div class="tblw"><table>
+        <thead><tr><th>事项</th><th>要点</th></tr></thead>
+        <tbody>
+          <tr><td>用工配额</td><td>雇主先在劳动部和内政部备案，劳动部批复可招聘的外籍员工人数</td></tr>
+          <tr><td>工作签证</td><td>雇主作为担保人办理；入境签证有效期一般 15 天，入境后 1 个月内体检和留指纹，工作签证有效期 1–5 年</td></tr>
+          <tr><td>换雇主和出境</td><td>2016 年 12 月起以劳动合同制取代担保人制度，取消了换工作和出入境的限制</td></tr>
+          <tr><td>商务访问</td><td>中国公民持普通护照可免签入境，停留不超过 30 天；免签入境不得直接工作</td></tr>
+          <tr><td>合同终止</td><td>没有新雇主的须立即离境；持访问签证入境的，拿到工作签证前不得上岗</td></tr>
+        </tbody>
+      </table></div>
+      <p class="note">私营企业雇员几乎全部是外籍。普通劳务主要来自尼泊尔、孟加拉国和斯里兰卡，流动性大、效率不高，中资工程企业的非技术工种基本在当地招聘。2024 年末中国在卡劳务人员 856 人。酒类和猪肉制品禁止入境，行贿最高可判 10 年，外派前要做足行前培训。</p>
+    </div>
+  </div>
+</section>
+
+<section id="sector">
+  <div class="sh"><span class="tag">SECTORS</span><h2>机会在哪里</h2><p>第三阶段国家发展战略（2024–2030）的重点方向，叠加中企已经落地的项目。</p></div>
+  <div class="tracks">
+    <div class="track"><h3>油气工程 <span class="heat up">订单密集</span></h3><p>北部气田扩能计划新建 8 条生产线，前两期投资约 500 亿美元，中石化、中石油已参股。中资工程企业在油气领域累计签约超 20 亿美元。据报道，海油工程约 40 亿美元的海上油气总承包项目 2026 年 9 月开工建造。</p></div>
+    <div class="track"><h3>液化天然气船 <span class="heat up">排产到 2028 年后</span></h3><p>卡塔尔天然气运输公司 2024 年签约新建并租赁 9 艘 27 万立方米的超大型运输船和 25 艘常规船。超大型船由沪东中华建造，2028 年起陆续交付。配套设备和船舶服务有跟进空间。</p></div>
+    <div class="track"><h3>工程承包 <span class="heat am">利润承压</span></h3><p>2024 年中企新签合同 7 份、10.3 亿美元，完成营业额 5.1 亿美元。世界杯后大型场馆项目减少，学校、道路管网、停车场等改用公私合营模式招标，中企参与投标但尚未落地。</p></div>
+    <div class="track"><h3>光伏与绿色交通 <span class="heat up">政策顺风</span></h3><p>目标到 2030 年光伏装机达到 4 吉瓦，还要新建一座 2 吉瓦电站和 200 兆瓦分布式项目。首座 800 兆瓦光伏电站由中企承建。宇通已向当地交付 741 辆纯电动客车。</p></div>
+    <div class="track"><h3>数字经济 <span class="heat up">需求上行</span></h3><p>5G 覆盖率 93%，两大运营商都与华为、中兴合作。《2030 数字议程》计划创造 400 亿里亚尔经济效益和约 2.6 万个岗位。网络安全、云计算和软件开发的需求在增长，但云计算市场 2024 年收入只有约 6,550 万美元。</p></div>
+    <div class="track"><h3>自由区制造与物流 <span class="heat am">看辐射能力</span></h3><p>海港自由区占地 34 平方公里，紧邻设计年吞吐 750 万标准箱的哈马德港；机场自由区占地 4 平方公里。区内全资持股、20 年免税、免关税。据报道，卡塔尔另推出 10 亿美元投资激励计划，对符合条件的本地支出最高补贴 40%。</p></div>
+  </div>
+  <div class="feedhead" id="feed"><h3>赛道动态</h3><span class="live">LIVE</span><span class="upd" id="upd"></span></div>
+  <div class="chips" id="chips" role="group" aria-label="按赛道筛选"></div>
+  <ul class="feed" id="feedlist"></ul>
+  <button type="button" class="more" id="more" hidden>显示更多</button>
+  <div class="feedmsg" id="feedmsg">正在载入各赛道的最新新闻与政策……</div>
+
+</section>
+
+<section id="desk">
+  <div class="sh"><span class="tag">DIRECTORY</span><h2>官方入口</h2></div>
+  <div class="links">
+    <div><a href="https://www.moci.gov.qa">商业和工业部 MOCI</a><span>公司注册、外资审批、商业登记</span></div>
+    <div><a href="https://invest.gov.qa/category/investor-guide/international-investor">投资促进署 投资者指南</a><span>设立流程和行业机会</span></div>
+    <div><a href="https://www.qfz.gov.qa">自由区管理局 QFZ</a><span>机场和海港自由区入驻申请</span></div>
+    <div><a href="https://www.qfc.qa">卡塔尔金融中心 QFC</a><span>金融和专业服务牌照</span></div>
+    <div><a href="https://qstp.org.qa">卡塔尔科技园 QSTP</a><span>科技企业注册和资金补贴</span></div>
+    <div><a href="https://www.dhareeba.gov.qa">税务总局 Dhareeba 系统</a><span>税务登记、申报、合同备案、退税</span></div>
+    <div><a href="https://www.mol.gov.qa">劳动部</a><span>用工配额、劳动合同、投诉</span></div>
+    <div><a href="https://monaqasat.mof.gov.qa">政府招标平台</a><span>政府采购和工程招标公告</span></div>
+    <div><a href="http://qa.mofcom.gov.cn">中国驻卡塔尔使馆经商处</a><span>卡塔尔中国商会联络</span></div>
+  </div>
+</section>
+
+</main>
+<footer class="wrap">
+  本页为公开信息整理，不构成法律、税务或投资意见。门槛和税率每年调整，具体交易请以官方最新文本和专业顾问意见为准。
+</footer>
+<script>
+const META={"slug": "qatar", "tape": [["企业所得税", "10%"], ["油气业务所得税", "35%"], ["增值税", "0%"], ["关税", "5%"], ["个人所得税", "0%"], ["汇率", "3.64 QAR/USD"], ["中卡贸易 2024", "US$242亿"], ["对卡出口", "US$41.7亿"], ["自卡进口", "US$200亿"], ["新签工程合同", "US$10.3亿"], ["对卡投资存量", "US$5.94亿"], ["主权评级", "AA / Aa2"]], "bars": {"max": 240, "data": [[2020, 26.33, 82.71], [2021, 39.61, 132.1], [2022, 39.46, 225.82], [2023, 36.33, 209.0], [2024, 41.74, 200.46]]}, "sect": {"energy": "新能源", "trade": "贸易物流", "infra": "工程基建", "finance": "金融", "tech": "数字经济", "industry": "制造业", "general": "综合经贸"}, "feed": "/qatar/news.json"};
+const t=document.getElementById("tape");
+if(t){const h=META.tape.map(([k,v])=>`<span>${k}<i>${v}</i></span>`).join("");t.innerHTML=h+h}
+const bars=document.getElementById("bars");
+if(bars){const max=META.bars.max;bars.innerHTML=META.bars.data.map(([y,e,m])=>`<div class="yr"><span>${y}</span><div><div class="bar e"><i style="width:${e/max*82}%"></i><b>${e}</b></div><div class="bar m"><i style="width:${m/max*82}%"></i><b>${m}</b></div></div></div>`).join("")}
+/* 动态：读取本国 news.json，每日自动更新 */
+const SECT=Object.assign({all:"全部"},META.sect),KEY="sect-"+META.slug;
+let rows=[],cur="all",shown=16;
+try{cur=localStorage.getItem(KEY)||"all"}catch(e){}
+if(!SECT[cur])cur="all";
+const chips=document.getElementById("chips"),list=document.getElementById("feedlist"),msg=document.getElementById("feedmsg");
+function el(tag,cls,txt){const e=document.createElement(tag);if(cls)e.className=cls;if(txt!=null)e.textContent=txt;return e}
+function drawChips(){chips.textContent="";for(const k in SECT){const n=k==="all"?rows.length:rows.filter(r=>r.sector===k).length;const b=el("button",null,SECT[k]+(rows.length?" "+n:""));b.type="button";b.id="chip-"+k;b.setAttribute("aria-pressed",String(k===cur));b.onclick=()=>{cur=k;shown=16;try{localStorage.setItem(KEY,k)}catch(e){}draw()};chips.appendChild(b)}}
+function draw(){drawChips();list.textContent="";const show=rows.filter(r=>cur==="all"||r.sector===cur);
+  for(const r of show.slice(0,shown)){const li=el("li");li.appendChild(el("time",null,r.date||"—"));const d=el("div");
+    const ok=typeof r.url==="string"&&/^https?:\/\//.test(r.url);const a=el(ok?"a":"span","t",r.title||"");if(ok){a.href=r.url;a.target="_blank";a.rel="noopener"}d.appendChild(a);
+    const m=el("div","m");const pol=r.kind==="政策";m.appendChild(el("span","k "+(pol?"pol":"news"),pol?"政策":"新闻"));m.appendChild(el("span",null,SECT[r.sector]||""));if(r.source)m.appendChild(el("span",null,r.source));d.appendChild(m);li.appendChild(d);list.appendChild(li)}
+  const mb=document.getElementById("more");mb.hidden=show.length<=shown;mb.textContent="显示更多（还有 "+(show.length-shown)+" 条）";
+  msg.hidden=show.length>0;if(!show.length)msg.textContent=rows.length?"这个类别暂时没有新动态。":"暂无动态。每日更新后，这里会自动出现新闻与政策。";
+  const last=rows.map(r=>r.added||r.date||"").sort().pop();document.getElementById("upd").textContent=last?"最近更新 "+last:""}
+if(chips){drawChips();
+document.getElementById("more").onclick=()=>{shown+=16;draw()};
+fetch(META.feed,{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(j=>{rows=(j.items||[]).slice().sort((x,y)=>String(y.date||"").localeCompare(String(x.date||"")));draw()}).catch(()=>{msg.hidden=false;msg.textContent="动态暂时无法载入，请稍后刷新。"})}
+</script>
+</body>
+</html>

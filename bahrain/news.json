@@ -1,0 +1,65 @@
+{
+ "updated": "2026-10-07",
+ "items": [
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "中国驻巴林大使馆提醒在巴中国公民加强安全防范",
+   "source": "北京市外办（转自中国驻巴林大使馆）",
+   "url": "https://wb.beijing.gov.cn/home/wswm/lsbh/jwaqtx/202606/t20260612_4697941.html",
+   "date": "2026-06-11",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "领事提醒：请在巴林中国公民进一步提高安全防范意识",
+   "source": "中国驻巴林大使馆",
+   "url": "https://bh.china-embassy.gov.cn/lsfw/zytz/202604/t20260406_11887274.htm",
+   "date": "2026-04-06",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "王毅同巴林外交大臣通电话：破局之路在于尽快重回对话谈判",
+   "source": "俄罗斯卫星通讯社",
+   "url": "https://sputniknews.cn/20260310/1070150051.html",
+   "date": "2026-03-10",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "2025出海盘点：下一片出海热土，为什么还是中东?",
+   "source": "界面新闻",
+   "url": "https://www.jiemian.com/article/13843711.html",
+   "date": "2026-01-05",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "中国将延长对法国等国免签至2026年底，具体名单来了",
+   "source": "第一财经",
+   "url": "https://www.yicai.com/news/102893493.html",
+   "date": "2025-11-03",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "便利往来促交流 合作空间更广阔——海合会四国热议中国免签政策",
+   "source": "新华网",
+   "url": "https://www.news.cn/world/20250529/eb6c13312d4d4ab18c2eb8e0e1a07138/c.html",
+   "date": "2025-05-29",
+   "added": "2026-10-07",
+   "cn": true
+  }
+ ]
+}

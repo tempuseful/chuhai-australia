@@ -1,0 +1,75 @@
+{
+ "updated": "2026-10-07",
+ "items": [
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "Kuwait-China agreements enter new phase of development cooperation",
+   "source": "Kuwait Times",
+   "url": "https://kuwaittimes.com/article/47706/kuwait/kuwait-china-agreements-enter-new-phase-of-development-cooperation/amp",
+   "date": "2026-08-06",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "中国建筑：签约科威特北卡巴德污水处理厂及配套项目合同 金额约224亿元",
+   "source": "财联社",
+   "url": "https://finance.eastmoney.com/a/202607283823572997.html",
+   "date": "2026-07-28",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "【环球财经】中国建筑签约科威特北卡巴德污水处理厂及配套项目",
+   "source": "新华财经",
+   "url": "https://www.cnfin.com/gs-lb/detail/20260727/4446550_1.html",
+   "date": "2026-07-27",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "中企签署科威特大穆巴拉克港项目首个EPC合同",
+   "source": "新华网",
+   "url": "https://www.news.cn/20251223/78edbd6897a346fd8d7a71350ea5815c/c.html",
+   "date": "2025-12-23",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "一带一路故事绘丨在沙漠中建设未来——中国企业助力科威特打造百亿元现代化新城",
+   "source": "新华网",
+   "url": "https://www.news.cn/photo/20251112/cb8451d26e1f40da921532acce51f5ce/c.html",
+   "date": "2025-11-12",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "科威特与中国香港加强合作",
+   "source": "新华网",
+   "url": "https://www.news.cn/gangao/20250514/03c20e7e0fa84c269803e8effbc8cc24/c.html",
+   "date": "2025-05-14",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "Kuwait, China Sign Agreement on Renewable Energy Cooperation",
+   "source": "SolarQuarter",
+   "url": "https://solarquarter.com/2025/03/19/kuwait-china-sign-agreement-on-renewable-energy-cooperation/",
+   "date": "2025-03-19",
+   "added": "2026-10-07",
+   "cn": false
+  }
+ ]
+}

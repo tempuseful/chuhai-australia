@@ -1,0 +1,75 @@
+{
+ "updated": "2026-10-07",
+ "items": [
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "我国承揽金额最大国际海洋油气工程总承包项目开工建造",
+   "source": "科技日报",
+   "url": "https://www.stdaily.com/web/gdxw/2026-09/15/content_581233.html",
+   "date": "2026-09-15",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "世界最大LNG运输船开工建造",
+   "source": "央广网",
+   "url": "https://tech.cnr.cn/gstj/20260629/t20260629_527681283.shtml",
+   "date": "2026-06-29",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "专访卡投促局：战事阴霾让中东“受重伤”，卡塔尔如何危中寻机？",
+   "source": "21世纪经济报道",
+   "url": "https://www.21jingji.com/article/20260615/herald/a2318f6c03014638de8610a7cf2df662.html",
+   "date": "2026-06-15",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "实务 | 中东掘金指南：沙特、阿联酋、卡塔尔的机会与门槛",
+   "source": "中国贸易报",
+   "url": "https://finance.sina.com.cn/wm/2026-04-24/doc-inhvqwcy7943581.shtml",
+   "date": "2026-04-24",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "卡塔尔能源设施遭袭17%LNG产能瘫痪 修复或长达5年",
+   "source": "中新网",
+   "url": "https://www.chinanews.com.cn/gj/2026/03-20/10589802.shtml",
+   "date": "2026-03-20",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "中石化参股的全球最大单一气田东扩项目明年中投产，卡塔尔能源称愿与中国加深天然气领域合作",
+   "source": "新浪财经",
+   "url": "https://finance.sina.com.cn/stock/relnews/cn/2025-05-21/doc-inexitzv5828954.shtml",
+   "date": "2025-05-21",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "中国贸促会组织中国企业家代表团访问卡塔尔，达成多项合作成果",
+   "source": "澎湃新闻",
+   "url": "https://m.thepaper.cn/newsDetail_forward_30229186",
+   "date": "2025-02-24",
+   "added": "2026-10-07",
+   "cn": true
+  }
+ ]
+}
