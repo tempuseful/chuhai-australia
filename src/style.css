@@ -169,3 +169,13 @@ a.card:hover{background:var(--panel);text-decoration:none}
 .card.soon .cn small{color:var(--muted)}
 .cards.mini{grid-template-columns:repeat(5,1fr);gap:8px;margin-top:10px} .cards.mini .card{padding:12px 14px}
 @media (max-width:860px){.cards{grid-template-columns:1fr}.cards.mini{grid-template-columns:repeat(2,1fr)}}
+
+.cmplink{font-family:var(--mono);font-size:12.5px;color:var(--amber);text-decoration:none;border-bottom:1px solid currentColor;margin-left:auto}
+table.cmp{min-width:980px}
+table.cmp th a{color:inherit;text-decoration:none;border-bottom:1px solid var(--line)}
+table.cmp td{vertical-align:top;font-size:13px}
+table.cmp td:first-child,table.cmp th:first-child{position:sticky;left:0;background:var(--bg);white-space:nowrap;font-weight:600}
+table.cmp tr.grp td{font-family:var(--mono);font-size:11.5px;letter-spacing:.1em;color:var(--amber);padding-top:22px;border-bottom:1px solid var(--amber)}
+table.cmp{table-layout:fixed;width:100%}
+table.cmp td,table.cmp th{white-space:normal;word-break:break-word}
+table.cmp td:first-child,table.cmp th:first-child{width:128px;white-space:normal}

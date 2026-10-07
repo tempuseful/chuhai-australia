@@ -55,12 +55,40 @@ for f in sorted(glob.glob(os.path.join(R, "content", "*.json"))):
     open(os.path.join(R, m["slug"], "index.html"), "w", encoding="utf-8").write(
         page(m["brand"], m["desc"], body, f"<script>\nconst META={js_meta};\n{JS}</script>"))
 
+cmps = {}
+for f in sorted(glob.glob(os.path.join(R, "compare", "*.json"))):
+    c = json.load(open(f, encoding="utf-8"))
+    cmps[c["region"]] = c
+    th = "".join(f'<th><a href="/{s}/">{n}</a></th>' for n, s in c["cols"])
+    rows = ""
+    for g, rs in c["groups"]:
+        rows += f'<tr class="grp"><td colspan="{len(c["cols"]) + 1}">{g}</td></tr>'
+        rows += "".join("<tr><td>" + r[0] + "</td>" + "".join(f'<td class="num">{v}</td>' for v in r[1:]) + "</tr>" for r in rs)
+    cbody = f"""<header class="top"><div class="wrap">
+  <div class="brand">{c["title"]} <b>{c["code"]} DESK</b></div>
+  <a class="back" href="/">全部国家</a>
+  <nav class="nav" aria-label="国家">{"".join(f'<a href="/{s}/">{n}</a>' for n, s in c["cols"])}</nav>
+</div></header>
+<main class="wrap">
+<div class="hero">
+  <div class="kicker">{c["title"]} · 数据截至 2026-10-07</div>
+  <h1>{c["h1"]}</h1>
+  <p class="lead">{c["lead"]}</p>
+</div>
+<section>
+  <div class="tblw"><table class="cmp"><thead><tr><th>指标</th>{th}</tr></thead><tbody>{rows}</tbody></table></div>
+  <p class="note">{c["note"]}</p>
+</section>
+</main>"""
+    os.makedirs(os.path.join(R, c["slug"]), exist_ok=True)
+    open(os.path.join(R, c["slug"], "index.html"), "w", encoding="utf-8").write(page(c["title"], c["lead"], cbody))
+
 live = len(metas)
 secs = []
 for key, cn, en, names in REGIONS:
     ready = [metas[n] for n in names if n in metas]
     soon = [n for n in names if n not in metas]
-    h = f'<section class="region" id="{key}"><div class="sh"><span class="tag">{en}</span><h2>{cn}</h2></div>'
+    h = f'<section class="region" id="{key}"><div class="sh"><span class="tag">{en}</span><h2>{cn}</h2>{f'<a class="cmplink" href="/{cmps[key]["slug"]}/">六国对比表 →</a>' if key in cmps else ""}</div>'
     if ready:
         h += '<div class="cards">' + "".join(
             f'<a class="card" href="/{m["slug"]}/"><div class="cn">{m["name"]}<small>{m["code"]} DESK</small></div><p>{m["card"]["blurb"]}</p><dl>'
