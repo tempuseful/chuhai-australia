@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>出海阿联酋</title>
+<meta name="description" content="面向中国企业的赴阿联酋经营简报：市场数据、常见痛点、落地八步、外资准入与自由区、税务与用工签证速查，新闻与政策动态。">
+<link rel="stylesheet" href="/fonts/fonts.css">
+<style>
+/* 布局：终端式行情带 + 财经头版。全宽黑底栏目条分节，数据用等宽字，标题用重磅宋体 */
+:root{
+  --bg:#07090d; --panel:#0e1219; --panel2:#141a24; --line:#232b38;
+  --fg:#e9edf3; --muted:#8b96a8; --amber:#ffa028; --amber-ink:#07090d;
+  --up:#2fd08a; --down:#ff5a5f; --blue:#4aa8ff;
+  --serif:"Noto Serif SC","Songti SC","Source Han Serif SC","SimSun",serif;
+  --sans:"PingFang SC","HarmonyOS Sans SC","Microsoft YaHei","Noto Sans CJK SC","Noto Sans SC",system-ui,sans-serif;
+  --mono:"IBM Plex Mono","SFMono-Regular",Menlo,Consolas,monospace;
+  color-scheme:dark;
+}
+@media (prefers-color-scheme: light){ :root:not([data-theme="dark"]){
+  --bg:#f3f4f6; --panel:#ffffff; --panel2:#e9ecf1; --line:#cfd5de;
+  --fg:#0b0f16; --muted:#566173; --amber:#b85c00; --amber-ink:#ffffff;
+  --up:#0a7a4b; --down:#c22b30; --blue:#0b5cad; color-scheme:light } }
+:root[data-theme="light"]{
+  --bg:#f3f4f6; --panel:#ffffff; --panel2:#e9ecf1; --line:#cfd5de;
+  --fg:#0b0f16; --muted:#566173; --amber:#b85c00; --amber-ink:#ffffff;
+  --up:#0a7a4b; --down:#c22b30; --blue:#0b5cad; color-scheme:light }
+
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--bg);color:var(--fg);font-family:var(--sans);font-size:15px;line-height:1.75;margin:0}
+a{color:var(--blue);text-decoration:none} a:hover{text-decoration:underline}
+a:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+.wrap{max-width:1180px;margin:0 auto;padding-inline:20px}
+.num{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.up{color:var(--up)} .down{color:var(--down)} .am{color:var(--amber)}
+
+/* 顶栏 */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;gap:20px;flex-wrap:wrap;padding-block:10px}
+.brand{font-family:var(--serif);font-weight:700;font-size:20px;letter-spacing:.04em;display:flex;align-items:center;gap:10px}
+.brand b{background:var(--amber);color:var(--amber-ink);font-family:var(--mono);font-size:12px;font-weight:600;padding:2px 7px;letter-spacing:.08em}
+.nav{display:flex;gap:16px;flex-wrap:wrap;font-size:13px;margin-left:auto}
+.nav a{color:var(--muted)} .nav a:hover{color:var(--fg);text-decoration:none}
+
+/* 行情带 */
+.tape{background:var(--panel);border-bottom:1px solid var(--line);overflow:hidden;white-space:nowrap}
+.tape-in{display:inline-flex;gap:36px;padding:8px 18px;animation:roll 60s linear infinite}
+.tape:hover .tape-in{animation-play-state:paused}
+.tape span{font-size:12.5px;color:var(--muted)} .tape span i{font-style:normal;font-family:var(--mono);color:var(--fg);margin-left:8px}
+@keyframes roll{to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.tape-in{animation:none}.tape{overflow-x:auto}}
+
+/* 头版 */
+.hero{padding-block:44px 30px;border-bottom:1px solid var(--line)}
+.kicker{font-family:var(--mono);font-size:12px;letter-spacing:.14em;color:var(--amber);text-transform:uppercase}
+h1{font-family:var(--serif);font-weight:700;font-size:clamp(30px,5vw,54px);line-height:1.22;margin:12px 0 16px;text-wrap:balance;letter-spacing:.01em}
+.lead{max-width:42em;color:var(--muted);font-size:16.5px;line-height:1.85;margin:0}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:30px;border-top:2px solid var(--amber)}
+.stat{padding:16px 16px 14px 0;border-right:1px solid var(--line);min-width:0}
+.stat+.stat{padding-left:16px} .stat:last-child{border-right:0}
+.stat .v{font-family:var(--mono);font-size:clamp(24px,3.4vw,36px);font-weight:600;line-height:1.1}
+.stat .l{font-size:12.5px;color:var(--muted);margin-top:6px;line-height:1.5}
+
+/* 分节 */
+section{padding-block:38px;border-bottom:1px solid var(--line)}
+.sh{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin-bottom:20px}
+.sh h2{font-family:var(--serif);font-weight:700;font-size:26px;margin:0;line-height:1.25}
+.sh .tag{font-family:var(--mono);font-size:11.5px;letter-spacing:.12em;color:var(--amber-ink);background:var(--amber);padding:2px 8px}
+.sh p{margin:0;color:var(--muted);font-size:13.5px;flex-basis:100%}
+.cols{display:grid;grid-template-columns:1.1fr .9fr;gap:28px}
+.cols>*{min-width:0}
+h3{font-size:15px;margin:0 0 10px;font-weight:700}
+.note{font-size:12.5px;color:var(--muted);margin-top:10px}
+
+/* 指标表 */
+.tblw{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th{font-family:var(--mono);font-size:11.5px;font-weight:500;letter-spacing:.08em;color:var(--muted);text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);white-space:nowrap}
+td{padding:10px;border-bottom:1px solid var(--line);vertical-align:top}
+td.r,th.r{text-align:right} td.num{white-space:nowrap}
+tbody tr:hover{background:var(--panel)}
+td strong{font-weight:700}
+
+/* 贸易图 */
+.bars{display:grid;gap:12px}
+.yr{display:grid;grid-template-columns:44px 1fr;gap:10px;align-items:center}
+.yr>span{font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+.bar{display:flex;align-items:center;gap:8px;margin:2px 0}
+.bar i{display:block;height:11px;min-width:2px}
+.bar.e i{background:var(--amber)} .bar.m i{background:var(--blue)}
+.bar b{font-family:var(--mono);font-size:12px;font-weight:500}
+.legend{display:flex;gap:18px;font-size:12.5px;color:var(--muted);margin-bottom:12px;flex-wrap:wrap}
+.legend i{display:inline-block;width:10px;height:10px;margin-right:6px}
+
+/* 痛点 */
+.pains{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+.pain{background:var(--bg);padding:20px;min-width:0}
+.pain .k{font-family:var(--mono);font-size:22px;font-weight:600;color:var(--amber);line-height:1.2}
+.pain h3{font-family:var(--serif);font-size:18px;font-weight:700;margin:8px 0 6px}
+.pain p{margin:0;font-size:14.5px;line-height:1.8;color:var(--muted)}
+.pain p.do{color:var(--fg);margin-top:10px;padding-top:10px;border-top:1px dashed var(--line)}
+.pain p.do::before{content:"对策";font-family:var(--mono);font-size:11px;letter-spacing:.1em;color:var(--up);margin-right:8px}
+
+/* 路线 */
+.steps{list-style:none;margin:0;padding:0;counter-reset:s;display:grid;grid-template-columns:repeat(2,1fr);gap:0 32px}
+.steps li{counter-increment:s;display:grid;grid-template-columns:42px 1fr;gap:12px;padding:16px 0;border-top:1px solid var(--line);min-width:0}
+.steps li::before{content:counter(s,decimal-leading-zero);font-family:var(--mono);font-size:20px;font-weight:600;color:var(--amber);line-height:1.3}
+.steps h3{margin-bottom:4px;font-family:var(--serif);font-size:17px} .steps p{margin:0;font-size:14.5px;line-height:1.8;color:var(--muted)}
+
+/* 赛道 */
+.tracks{display:grid;grid-template-columns:repeat(2,1fr);gap:0 32px}
+.track{padding:16px 0;border-top:1px solid var(--line);min-width:0}
+.track h3{font-family:var(--serif);font-size:17px;font-weight:700}
+.track p{margin:0;font-size:14.5px;line-height:1.8;color:var(--muted)}
+.heat{font-family:var(--mono);font-size:11px;letter-spacing:.08em;padding:1px 6px;border:1px solid currentColor;margin-left:8px;vertical-align:2px;white-space:nowrap}
+
+/* 动态 */
+.feedhead{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:34px 0 14px;padding-top:18px;border-top:2px solid var(--amber)}
+.feedhead h3{font-family:var(--serif);font-size:20px;font-weight:700;margin:0}
+.live{font-family:var(--mono);font-size:11px;letter-spacing:.1em;color:var(--up);display:inline-flex;align-items:center;gap:6px}
+.live::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--up);animation:blink 1.6s infinite}
+@keyframes blink{50%{opacity:.25}}
+@media (prefers-reduced-motion:reduce){.live::before{animation:none}}
+.feedhead .upd{font-family:var(--mono);font-size:12px;color:var(--muted);margin-left:auto}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.chips button{font:inherit;font-size:13px;background:transparent;color:var(--muted);border:1px solid var(--line);padding:5px 12px;cursor:pointer}
+.chips button:hover{color:var(--fg);border-color:var(--muted)}
+.chips button[aria-pressed="true"]{background:var(--amber);color:var(--amber-ink);border-color:var(--amber)}
+.chips button:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+.feed{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:0 40px}
+.feed li{min-width:0}
+.feed li{display:grid;grid-template-columns:92px 1fr;gap:14px;padding:13px 0;border-bottom:1px solid var(--line)}
+.feed time{font-family:var(--mono);font-size:12.5px;color:var(--muted);padding-top:2px}
+.feed .t{font-family:var(--serif);font-weight:700;color:var(--fg);font-size:16px;line-height:1.55}
+.feed a.t:hover{color:var(--amber);text-decoration:none}
+.feed .m{font-size:12px;color:var(--muted);margin-top:4px;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.feed .k{font-family:var(--mono);font-size:11px;letter-spacing:.06em;border:1px solid currentColor;padding:0 5px}
+.feed .k.pol{color:var(--amber)} .feed .k.news{color:var(--blue)}
+.more{font:inherit;font-size:13px;margin-top:14px;background:transparent;color:var(--fg);border:1px solid var(--line);padding:8px 18px;cursor:pointer}
+.more:hover{border-color:var(--amber);color:var(--amber)}
+.more:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+.feedmsg{padding:18px 0;color:var(--muted);font-size:13.5px}
+@media (max-width:860px){.feed{grid-template-columns:1fr}}
+@media (max-width:480px){.feed li{grid-template-columns:1fr;gap:2px}}
+
+.links{display:grid;grid-template-columns:repeat(3,1fr);gap:0 28px}
+.links div{padding:12px 0;border-top:1px solid var(--line);font-size:13.5px;min-width:0}
+.links span{display:block;color:var(--muted);font-size:12.5px}
+footer{padding-block:28px 48px;font-size:12.5px;color:var(--muted)}
+footer ol{padding-left:20px;margin:8px 0 16px}
+
+@media (max-width:860px){
+  .cols,.steps,.tracks{grid-template-columns:1fr}
+  .pains{grid-template-columns:1fr}
+  .links{grid-template-columns:1fr 1fr}
+  .stats{grid-template-columns:1fr 1fr}
+  .stat{border-bottom:1px solid var(--line)} .stat:nth-child(2){border-right:0} .stat:nth-child(3){padding-left:0}
+  .nav{margin-left:0;gap:12px}
+}
+@media (max-width:480px){.links{grid-template-columns:1fr}}
+
+/* 多国：返回链接、门户首页 */
+.back{font-size:13px;color:var(--muted);border:1px solid var(--line);padding:3px 10px;white-space:nowrap}
+.back:hover{color:var(--fg);border-color:var(--muted);text-decoration:none}
+.region{padding-block:30px;border-bottom:1px solid var(--line)}
+.region h2{font-family:var(--serif);font-weight:700;font-size:24px;margin:0}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}
+.card{background:var(--bg);border:1px solid var(--line);padding:18px 20px;min-width:0;display:block;color:var(--fg)}
+a.card:hover{background:var(--panel);text-decoration:none}
+.card .cn{font-family:var(--serif);font-weight:700;font-size:21px;display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.card .cn small{font-family:var(--mono);font-size:11.5px;font-weight:500;letter-spacing:.1em;color:var(--amber)}
+.card p{margin:8px 0 12px;font-size:13.5px;color:var(--muted);line-height:1.7}
+.card dl{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:0}
+.card dt{font-size:11.5px;color:var(--muted)} .card dd{margin:2px 0 0;font-family:var(--mono);font-size:15px;font-weight:600}
+.card.soon{color:var(--muted)} .card.soon .cn{font-size:17px;color:var(--muted)}
+.card.soon .cn small{color:var(--muted)}
+.cards.mini{grid-template-columns:repeat(5,1fr);gap:8px;margin-top:10px} .cards.mini .card{padding:12px 14px}
+@media (max-width:860px){.cards{grid-template-columns:1fr}.cards.mini{grid-template-columns:repeat(2,1fr)}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <div class="brand">出海阿联酋 <b>UAE DESK</b></div>
+  <a class="back" href="/">全部国家</a>
+  <nav class="nav" aria-label="栏目"><a href="#market">市场</a><a href="#pain">痛点</a><a href="#road">落地</a><a href="#access">准入</a><a href="#tax">税务</a><a href="#hr">用工签证</a><a href="#sector">赛道</a><a href="#feed">动态</a><a href="#desk">官方入口</a></nav>
+</div></header>
+<div class="tape" aria-label="关键指标"><div class="tape-in" id="tape"></div></div>
+<main class="wrap">
+
+<div class="hero">
+  <div class="kicker">中国企业赴阿联酋经营简报 · 数据截至 2026-10-07</div>
+  <h1>去阿联酋做生意，先选对落脚点：境内公司还是自由区</h1>
+  <p class="lead">阿联酋是中国在中东的第二大贸易伙伴，已有超过 1.4 万家中国公司在当地设点。关税 5%、没有个人所得税、外汇自由进出，门槛确实低。但零税时代已经结束，用工有本地化指标，工程款回收靠合同条款。本页把最新规则压成一屏能看完的决策信息。</p>
+  <div class="stats">
+    <div class="stat"><div class="v">1,018<small style="font-size:.5em"> 亿美元</small></div><div class="l">2024 年中阿货物贸易额<br><span class="up num">▲ 7.2%</span> 同比</div></div>
+    <div class="stat"><div class="v am">9%</div><div class="l">企业所得税<br>年应税所得 37.5 万迪拉姆以上</div></div>
+    <div class="stat"><div class="v">100%</div><div class="l">外资可全资持股<br>国防、金融、通讯等行业除外</div></div>
+    <div class="stat"><div class="v">94.9<small style="font-size:.5em"> 亿美元</small></div><div class="l">中国对阿直接投资存量<br>2024 年末</div></div>
+  </div>
+</div>
+
+<section id="market">
+  <div class="sh"><span class="tag">MARKET</span><h2>市场速览</h2></div>
+  <div class="cols">
+    <div>
+      <h3>宏观与成本仪表盘</h3>
+      <div class="tblw"><table>
+        <thead><tr><th>指标</th><th class="r">数值</th><th>口径</th></tr></thead>
+        <tbody>
+          <tr><td>GDP</td><td class="r num">5,450 亿美元</td><td>2024 年，增长 3.9%</td></tr>
+          <tr><td>人均 GDP</td><td class="r num">49,550 美元</td><td>2024 年，IMF</td></tr>
+          <tr><td>人口</td><td class="r num">1,135 万</td><td>2025 年 4 月，外籍约占 89%</td></tr>
+          <tr><td>主权评级</td><td class="r num">AA- / Aa2</td><td>惠誉、穆迪，前景稳定</td></tr>
+          <tr><td>汇率</td><td class="r num am">3.67 迪拉姆/美元</td><td>与美元基本固定，可自由兑换</td></tr>
+          <tr><td>通胀率</td><td class="r num">1.7%</td><td>2024 年</td></tr>
+          <tr><td>普通劳工月薪</td><td class="r num">2,000–5,000 迪拉姆</td><td>建筑、司机、保安等岗位</td></tr>
+          <tr><td>工业电价</td><td class="r num">0.286 迪拉姆/度</td><td>阿布扎比，1MW 以下</td></tr>
+          <tr><td>95 号汽油</td><td class="r num">2.47 迪拉姆/升</td><td>2025 年 4 月</td></tr>
+          <tr><td>迪拜办公楼租金</td><td class="r num">222–1,020 美元</td><td>每平方米每年，2023 年</td></tr>
+        </tbody>
+      </table></div>
+      <p class="note">外籍工人占劳动力市场约 90%。IMD《2024 年世界竞争力年报》中阿联酋排全球第 7。已与 27 个国家签署全面经济伙伴关系协定。</p>
+    </div>
+    <div>
+      <h3>中阿货物贸易 2020–2024（亿美元）</h3>
+      <div class="legend"><span><i style="background:var(--amber)"></i>中国对阿出口</span><span><i style="background:var(--blue)"></i>中国自阿进口</span></div>
+      <div class="bars" id="bars"></div>
+      <p class="note">中国对阿出口以机械、电机电气、服装、家具、钢铁制品为主；自阿进口主要是原油等矿物燃料、塑料、铜和贵金属。来源：中国海关总署。</p>
+    </div>
+  </div>
+</section>
+
+<section id="pain">
+  <div class="sh"><span class="tag">PAIN POINTS</span><h2>中企在阿联酋最常踩的六个坑</h2><p>按企业实际遇到的顺序排列。</p></div>
+  <div class="pains">
+    <div class="pain"><div class="k">两套体系</div><h3>自由区公司不能随便做境内生意</h3><p>自由区公司外资全资、免关税、注册快，但经营范围限于区内和境外。要直接卖给阿联酋本地客户、投政府项目，得用境内公司或另申执照。</p><p class="do">先确定客户在哪，再选落脚点。阿布扎比和迪拜已允许符合条件的自由区企业持双重执照。</p></div>
+    <div class="pain"><div class="k">9%</div><h3>零税时代已经结束</h3><p>2023 年 6 月起开征企业所得税。自由区的 0% 只适用于“合规收入”，还要有经济实质；全球收入 7.5 亿欧元以上的集团从 2025 年起按 15% 补足。</p><p class="do">所有公司都要做税务登记，财年结束后 9 个月内申报。自由区企业逐笔核对收入是否合规。</p></div>
+    <div class="pain"><div class="k">10%</div><h3>工程要带资，回款靠合同</h3><p>外国承包商的预付款多在 10%–15%，本地公司可拿 25%；履约保函外国公司不少于 10%，本地公司约 5%。业主拖欠工程款的情况时有发生。</p><p class="do">投标前评估业主付款信誉，合同写明结算方式和时间节点，配合出口信用保险。</p></div>
+    <div class="pain"><div class="k">9,000</div><h3>本地化用工有硬指标</h3><p>50 人以上的私营企业，技能岗位的阿联酋籍员工比例要逐年提高，2026 年底达到 10%。据报道，每少一人每月罚 9,000 迪拉姆。违反劳动法的罚款为 10 万至 100 万迪拉姆。</p><p class="do">把本地雇员名额和成本写进人力预算，尽早通过官方就业平台招聘。</p></div>
+    <div class="pain"><div class="k">60 天</div><h3>外派人员手续卡时间</h3><p>外籍员工须由雇主担保，入境后 60 天内办妥劳工卡，合同要用官方标准格式的阿拉伯文本。国内办护照和报批常要一两个月，当地雇主往往等不及。</p><p class="do">护照和派遣手续提前办。劳工卡和居留签证的费用、逾期罚金都由雇主承担。</p></div>
+    <div class="pain"><div class="k">名录</div><h3>分包和设备的产权容易说不清</h3><p>未在当地注册的分包商买设备，要挂在总包名下，项目结束后常起产权争议。业主通常指定供货商名录，材料只能从中采购。</p><p class="do">长期做工程就在当地注册公司并申请承包商分级。设备归属在分包合同里写明。</p></div>
+  </div>
+</section>
+
+<section id="road">
+  <div class="sh"><span class="tag">ROADMAP</span><h2>从国内备案到在阿开张：八步</h2></div>
+  <ol class="steps">
+    <li><div><h3>国内境外投资备案</h3><p>发改委、商务部备案或核准，再到银行办外汇登记。前期费用汇出不超过 300 万美元且不超过投资总额 15%。</p></div></li>
+    <li><div><h3>定业务类型和落脚点</h3><p>执照分工业、商业、专业、旅游、农业、职业六类。境内公司面向本地市场，自由区公司面向转口和区域业务。全国有 45 个以上自由区，各有行业侧重。</p></div></li>
+    <li><div><h3>选企业形式</h3><p>最常用的是有限责任公司，也可以设分公司或代表处。代表处不能从事经营活动。</p></div></li>
+    <li><div><h3>核名并申请初步批准</h3><p>向所在酋长国的经济发展局或自由区管理局申请。名称不得含宗教或政府机构的名称和标志。</p></div></li>
+    <li><div><h3>签章程、租办公场所</h3><p>在迪拜注册需要经当地房地产监管机构认证的租赁合同。交通、法务、建筑、医疗等业务还要相应主管部门另行批准。</p></div></li>
+    <li><div><h3>缴费领执照，到工商会登记</h3><p>受限行业的申请由行业主管部门在 14 个工作日内决定，并可指定本国居民的持股比例。</p></div></li>
+    <li><div><h3>税务登记</h3><p>企业所得税登记人人要办。应税销售额 12 个月内超过 37.5 万迪拉姆必须登记增值税，超过 18.75 万可自愿登记。</p></div></li>
+    <li><div><h3>开户、办居留，按期申报</h3><p>开户需提交当地执照、母公司营业执照和财务报表。企业所得税在财年结束后 9 个月内申报，2025 自然年度的截止日是 2026 年 9 月 30 日。</p></div></li>
+  </ol>
+</section>
+
+<section id="access">
+  <div class="sh"><span class="tag">ENTRY</span><h2>外资准入与落脚点</h2><p>阿联酋没有统一的外资审查门槛，关键是选哪种主体、落在哪里。</p></div>
+  <div class="tblw"><table>
+    <thead><tr><th>落脚点</th><th class="r">外资持股</th><th>能做什么</th><th>税负</th><th>适合</th></tr></thead>
+    <tbody>
+      <tr><td><strong>境内有限责任公司</strong></td><td class="r num">最高 100%</td><td>全境经营，可参与政府采购和招投标</td><td>所得税 9%，增值税 5%</td><td>面向本地客户、做工程和零售</td></tr>
+      <tr><td><strong>自由区公司</strong></td><td class="r num">100%</td><td>区内和境外业务，利润可全额汇回</td><td>合规收入 0%，其余 9%；免进出口关税</td><td>转口贸易、仓储物流、区域总部</td></tr>
+      <tr><td><strong>金融自由区</strong><br>DIFC、ADGM</td><td class="r num">100%</td><td>金融、基金、控股，由区内独立监管机构监管</td><td>同自由区规则</td><td>金融机构和持牌业务</td></tr>
+      <tr><td><strong>分公司</strong></td><td class="r num">母公司全资</td><td>在执照范围内经营</td><td>所得税 9%</td><td>承包工程、试水市场</td></tr>
+      <tr><td><strong>代表处</strong></td><td class="r num">母公司全资</td><td>联络和市场调研，不得经营</td><td>—</td><td>前期考察</td></tr>
+      <tr><td><strong>受限行业</strong></td><td class="r num down">须审批</td><td>国防安全、银行外汇保险、货币印制、通讯、朝觐服务、古兰经诵经机构</td><td>—</td><td>主管部门可限定持股和董事会构成</td></tr>
+      <tr><td><strong>禁止行业</strong></td><td class="r num down">0</td><td>渔业相关服务业</td><td>—</td><td>外资不得进入</td></tr>
+    </tbody>
+  </table></div>
+  <p class="note">2021 年起的新《商业公司法》取消了本国股东须占 51% 和必须有本地代理的要求，石油、天然气、公用事业、运输等行业除外。并购触发经营者集中申报而未报的，可按上年销售额的 2%–5% 罚款。投资主管部门是 2023 年成立的投资部。</p>
+</section>
+
+<section id="tax">
+  <div class="sh"><span class="tag">TAX</span><h2>税务速查</h2><p>联邦税务局统一征管。税种少、税率低，但登记和申报的罚款不轻。</p></div>
+  <div class="cols">
+    <div>
+      <div class="tblw"><table>
+        <thead><tr><th>税种</th><th class="r">税率</th><th>要点</th></tr></thead>
+        <tbody>
+          <tr><td>企业所得税</td><td class="r num">9%</td><td>年应税所得 37.5 万迪拉姆以下为 0%</td></tr>
+          <tr><td>自由区合规收入</td><td class="r num up">0%</td><td>须有经济实质；非合规收入按 9%</td></tr>
+          <tr><td>最低补足税</td><td class="r num">15%</td><td>全球收入 7.5 亿欧元以上的跨国集团，2025 年起</td></tr>
+          <tr><td>增值税</td><td class="r num">5%</td><td>出口、教育、医疗等为零税率；23 个自由区免征</td></tr>
+          <tr><td>关税</td><td class="r num">5%</td><td>海合会统一税率，53 种商品免税；转口免税</td></tr>
+          <tr><td>消费税</td><td class="r num">50%–100%</td><td>烟草、电子烟、能量饮料 100%；碳酸和含糖饮料 50%</td></tr>
+          <tr><td>个人所得税</td><td class="r num up">0%</td><td>联邦和各酋长国均不征收</td></tr>
+          <tr><td>市政物业税</td><td class="r num">5%–10%</td><td>按年租金计，住宅 5%，商业 5%–10%</td></tr>
+          <tr><td>外资银行分行</td><td class="r num">20%</td><td>阿布扎比、迪拜、沙迦对汇出利润征收</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+    <div>
+      <h3>向中国母公司付款的预提税</h3>
+      <div class="tblw"><table>
+        <thead><tr><th>款项</th><th class="r">阿联酋现行</th><th class="r">中阿协定上限</th></tr></thead>
+        <tbody>
+          <tr><td>股息</td><td class="r num up">0%</td><td class="r num">7%</td></tr>
+          <tr><td>利息</td><td class="r num up">0%</td><td class="r num">7%</td></tr>
+          <tr><td>特许权使用费</td><td class="r num up">0%</td><td class="r num">10%</td></tr>
+        </tbody>
+      </table></div>
+      <h3 style="margin-top:20px">四条要提前安排的规则</h3>
+      <p style="margin:0;font-size:13.5px;color:var(--muted)"><strong style="color:var(--fg)">小微企业优惠。</strong>年收入不超过 300 万迪拉姆可申请按无应税所得处理，适用到 2026 年底的纳税期。<br><strong style="color:var(--fg)">工程常设机构。</strong>工地或安装工程连续 24 个月以上才构成常设机构，短期项目可不在当地缴所得税。<br><strong style="color:var(--fg)">转让定价文档。</strong>关联交易收入达 2 亿迪拉姆，或所属集团全球收入超 31.5 亿迪拉姆，须准备主体文档和本地文档。<br><strong style="color:var(--fg)">电子发票。</strong>据报道 2026 年 7 月启动试点，之后分阶段强制推行。</p>
+    </div>
+  </div>
+</section>
+
+<section id="hr">
+  <div class="sh"><span class="tag">PEOPLE</span><h2>用工与签证</h2></div>
+  <div class="cols">
+    <div>
+      <h3>劳动法底线</h3>
+      <div class="tblw"><table>
+        <tbody>
+          <tr><td>标准工时</td><td class="num r">每天 8 小时，每周 48 小时</td></tr>
+          <tr><td>加班费</td><td class="num r">加 25%，夜间加 50%，每天不超过 2 小时</td></tr>
+          <tr><td>带薪年假</td><td class="num r">满 1 年后每年 30 天</td></tr>
+          <tr><td>病假</td><td class="num r">每年最多 90 天：15 天全薪，30 天半薪</td></tr>
+          <tr><td>产假</td><td class="num r">60 天：45 天全薪，15 天半薪</td></tr>
+          <tr><td>离职金</td><td class="num r">前 5 年每年 21 天基本工资，之后每年 30 天</td></tr>
+          <tr><td>低薪员工住宿</td><td class="num r">月薪低于 2,000 迪拉姆须免费提供</td></tr>
+          <tr><td>工会</td><td class="num r">法律禁止</td></tr>
+        </tbody>
+      </table></div>
+      <p class="note">周末为周六、周日加周五半天。斋月期间工时缩短。劳动争议先经人力资源与本土化部调解，权利主张时效 1 年。低薪员工住宿规定适用于 50 人以上的企业。</p>
+    </div>
+    <div>
+      <h3>外籍人员的签证通道</h3>
+      <div class="tblw"><table>
+        <thead><tr><th>通道</th><th>要点</th></tr></thead>
+        <tbody>
+          <tr><td><strong>工作居留签证</strong></td><td>雇主担保，一般 2 年。须年满 18 岁、护照有效期 6 个月以上、体检合格</td></tr>
+          <tr><td><strong>黄金签证</strong></td><td>10 年，面向投资者、企业家、科学家、高级技工等，可担保家人</td></tr>
+          <tr><td><strong>绿色签证</strong></td><td>面向投资者、企业家和专业人士，不依赖雇主担保</td></tr>
+          <tr><td><strong>蓝色居留</strong></td><td>2024 年新设，授予环境和可持续发展领域有贡献的个人</td></tr>
+        </tbody>
+      </table></div>
+      <p class="note">阿联酋对劳务国籍没有限制，实行非移民、临时性、合同制的劳务政策。服务期满须离境，遣返费用通常由雇主承担。</p>
+    </div>
+  </div>
+</section>
+
+<section id="sector">
+  <div class="sh"><span class="tag">SECTORS</span><h2>机会在哪里</h2><p>政府重点方向，叠加中企已经落地的项目。</p></div>
+  <div class="tracks">
+    <div class="track"><h3>新能源 <span class="heat up">政策顺风</span></h3><p>目标到 2050 年清洁能源占发电量一半，2030 年前投入约 2,000 亿迪拉姆。晶科参股的艾尔达芙拉光伏电站装机 2.1GW；上海电气承建迪拜太阳能公园四期、五期；中国电建签下阿吉班 1.8GW 光伏总承包合同。</p></div>
+    <div class="track"><h3>转口贸易与物流 <span class="heat up">成熟赛道</span></h3><p>货物进入第一个海合会港口缴 5% 关税后，转运其他成员国不再征税。杰贝阿里自由区入驻企业超过 9,500 家，中石油区域总部设在这里。中阿已实施海关 AEO 互认。</p></div>
+    <div class="track"><h3>工程承包 <span class="heat am">回款风险</span></h3><p>2024 年中企在阿新签合同约 87.69 亿美元，完成营业额 37.55 亿美元。阿布扎比把承包商分为特级和 1 至 6 级，分级决定可承接的项目规模。本地公司在分级和评标上享有倾斜。</p></div>
+    <div class="track"><h3>金融与区域总部 <span class="heat am">牌照难拿</span></h3><p>迪拜国际金融中心 2024 年活跃公司 6,920 家，增长 25%，工、中、农、建四大行均已入驻。但央行对外资银行的全商业牌照十分谨慎，目前没有中资银行取得。</p></div>
+    <div class="track"><h3>数字经济 <span class="heat up">需求上行</span></h3><p>政府先后推出数字经济战略和数字迪拉姆战略。阿里云与迪拜 Meraas 集团合资设立技术公司，为中东北非的企业和政府提供云服务。个人数据保护已有专门立法。</p></div>
+    <div class="track"><h3>制造业与产业园 <span class="heat up">园区现成</span></h3><p>中阿产能合作示范园位于阿布扎比哈利法工业区，规划 12.2 平方公里，厂房和管网已建成，首家企业已投产。重点引进装备制造、新能源、精细化工和金属加工。</p></div>
+  </div>
+  <div class="feedhead" id="feed"><h3>赛道动态</h3><span class="live">LIVE</span><span class="upd" id="upd"></span></div>
+  <div class="chips" id="chips" role="group" aria-label="按赛道筛选"></div>
+  <ul class="feed" id="feedlist"></ul>
+  <button type="button" class="more" id="more" hidden>显示更多</button>
+  <div class="feedmsg" id="feedmsg">正在载入各赛道的最新新闻与政策……</div>
+
+</section>
+
+<section id="desk">
+  <div class="sh"><span class="tag">DIRECTORY</span><h2>官方入口</h2></div>
+  <div class="links">
+    <div><a href="https://www.moec.gov.ae">经济部</a><span>公司法规、设立公司指引、商标专利</span></div>
+    <div><a href="https://www.tax.gov.ae">联邦税务局 FTA</a><span>税务登记、申报、罚则</span></div>
+    <div><a href="https://www.mohre.gov.ae">人力资源与本土化部</a><span>劳动法、工作许可、本地化指标</span></div>
+    <div><a href="https://u.ae">阿联酋政府门户</a><span>签证、居留和各类政务服务</span></div>
+    <div><a href="https://added.gov.ae">阿布扎比经济发展局</a><span>阿布扎比公司注册材料和流程</span></div>
+    <div><a href="https://www.dubaicustoms.gov.ae">迪拜海关</a><span>通关规定和关税查询</span></div>
+    <div><a href="https://rulebook.centralbank.ae/en">央行规章手册</a><span>金融监管规定查询</span></div>
+    <div><a href="https://www.diac.ae">迪拜国际仲裁中心</a><span>商事争议仲裁</span></div>
+    <div><a href="http://ae.mofcom.gov.cn">中国驻阿联酋使馆经商处</a><span>阿联酋中资企业协会联络</span></div>
+  </div>
+</section>
+
+</main>
+<footer class="wrap">
+  本页为公开信息整理，不构成法律、税务或投资意见。门槛和税率每年调整，具体交易请以官方最新文本和专业顾问意见为准。
+</footer>
+<script>
+const META={"slug": "uae", "tape": [["企业所得税", "9%"], ["自由区合规收入", "0%"], ["增值税", "5%"], ["关税", "5%"], ["个人所得税", "0%"], ["汇率", "3.67 AED/USD"], ["中阿贸易 2024", "US$1,018亿"], ["对阿出口", "US$656亿"], ["自阿进口", "US$362亿"], ["对阿投资存量", "US$94.9亿"], ["在阿中资企业", "1.4万+"], ["主权评级", "AA- / Aa2"]], "bars": {"max": 700, "data": [[2020, 323.43, 169.57], [2021, 438.22, 285.39], [2022, 538.6, 454.1], [2023, 556.86, 392.91], [2024, 655.93, 362.45]]}, "sect": {"energy": "新能源", "trade": "贸易物流", "infra": "工程基建", "finance": "金融", "tech": "数字经济", "industry": "制造业", "general": "综合经贸"}, "feed": "/uae/news.json"};
+const t=document.getElementById("tape");
+if(t){const h=META.tape.map(([k,v])=>`<span>${k}<i>${v}</i></span>`).join("");t.innerHTML=h+h}
+const bars=document.getElementById("bars");
+if(bars){const max=META.bars.max;bars.innerHTML=META.bars.data.map(([y,e,m])=>`<div class="yr"><span>${y}</span><div><div class="bar e"><i style="width:${e/max*82}%"></i><b>${e}</b></div><div class="bar m"><i style="width:${m/max*82}%"></i><b>${m}</b></div></div></div>`).join("")}
+/* 动态：读取本国 news.json，每日自动更新 */
+const SECT=Object.assign({all:"全部"},META.sect),KEY="sect-"+META.slug;
+let rows=[],cur="all",shown=16;
+try{cur=localStorage.getItem(KEY)||"all"}catch(e){}
+if(!SECT[cur])cur="all";
+const chips=document.getElementById("chips"),list=document.getElementById("feedlist"),msg=document.getElementById("feedmsg");
+function el(tag,cls,txt){const e=document.createElement(tag);if(cls)e.className=cls;if(txt!=null)e.textContent=txt;return e}
+function drawChips(){chips.textContent="";for(const k in SECT){const n=k==="all"?rows.length:rows.filter(r=>r.sector===k).length;const b=el("button",null,SECT[k]+(rows.length?" "+n:""));b.type="button";b.id="chip-"+k;b.setAttribute("aria-pressed",String(k===cur));b.onclick=()=>{cur=k;shown=16;try{localStorage.setItem(KEY,k)}catch(e){}draw()};chips.appendChild(b)}}
+function draw(){drawChips();list.textContent="";const show=rows.filter(r=>cur==="all"||r.sector===cur);
+  for(const r of show.slice(0,shown)){const li=el("li");li.appendChild(el("time",null,r.date||"—"));const d=el("div");
+    const ok=typeof r.url==="string"&&/^https?:\/\//.test(r.url);const a=el(ok?"a":"span","t",r.title||"");if(ok){a.href=r.url;a.target="_blank";a.rel="noopener"}d.appendChild(a);
+    const m=el("div","m");const pol=r.kind==="政策";m.appendChild(el("span","k "+(pol?"pol":"news"),pol?"政策":"新闻"));m.appendChild(el("span",null,SECT[r.sector]||""));if(r.source)m.appendChild(el("span",null,r.source));d.appendChild(m);li.appendChild(d);list.appendChild(li)}
+  const mb=document.getElementById("more");mb.hidden=show.length<=shown;mb.textContent="显示更多（还有 "+(show.length-shown)+" 条）";
+  msg.hidden=show.length>0;if(!show.length)msg.textContent=rows.length?"这个类别暂时没有新动态。":"暂无动态。每日更新后，这里会自动出现新闻与政策。";
+  const last=rows.map(r=>r.added||r.date||"").sort().pop();document.getElementById("upd").textContent=last?"最近更新 "+last:""}
+if(chips){drawChips();
+document.getElementById("more").onclick=()=>{shown+=16;draw()};
+fetch(META.feed,{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(j=>{rows=(j.items||[]).slice().sort((x,y)=>String(y.date||"").localeCompare(String(x.date||"")));draw()}).catch(()=>{msg.hidden=false;msg.textContent="动态暂时无法载入，请稍后刷新。"})}
+</script>
+</body>
+</html>

@@ -1,12 +1,4 @@
-<!doctype html>
-<html lang="zh-CN">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>出海国别简报</title>
-<meta name="description" content="面向中国企业的出海国别简报，覆盖海湾、东盟、中亚和大洋洲，按国家提供市场、准入、税务、用工和动态。">
-<link rel="stylesheet" href="/fonts/fonts.css">
-<style>
+
 /* 布局：终端式行情带 + 财经头版。全宽黑底栏目条分节，数据用等宽字，标题用重磅宋体 */
 :root{
   --bg:#07090d; --panel:#0e1219; --panel2:#141a24; --line:#232b38;
@@ -177,24 +169,3 @@ a.card:hover{background:var(--panel);text-decoration:none}
 .card.soon .cn small{color:var(--muted)}
 .cards.mini{grid-template-columns:repeat(5,1fr);gap:8px;margin-top:10px} .cards.mini .card{padding:12px 14px}
 @media (max-width:860px){.cards{grid-template-columns:1fr}.cards.mini{grid-template-columns:repeat(2,1fr)}}
-</style>
-</head>
-<body>
-<header class="top"><div class="wrap">
-  <div class="brand">出海国别简报 <b>GLOBAL DESK</b></div>
-  <nav class="nav" aria-label="区域"><a href="#gcc">海湾六国</a><a href="#asean">东盟十国</a><a href="#centralasia">中亚五国</a><a href="#oceania">大洋洲</a></nav>
-</div></header>
-<main class="wrap">
-<div class="hero">
-  <div class="kicker">中国企业出海国别简报 · 已上线 2 / 22 个国家</div>
-  <h1>出海去哪里，先把每个国家的账算清楚</h1>
-  <p class="lead">按国家整理的经营决策信息：市场数据、常见痛点、落地步骤、外资准入、税务、用工签证和机会赛道，各国动态持续更新。选一个国家开始。</p>
-</div>
-<section class="region" id="gcc"><div class="sh"><span class="tag">GCC</span><h2>海湾六国</h2></div><div class="cards"><a class="card" href="/uae/"><div class="cn">阿联酋<small>UAE DESK</small></div><p>门槛低、外资可全资，关键是选对境内公司还是自由区，并适应 9% 所得税和本地化用工。</p><dl><div><dt>所得税</dt><dd>9%</dd></div><div><dt>增值税</dt><dd>5%</dd></div><div><dt>中阿贸易</dt><dd>1,018亿美元</dd></div></dl></a></div><div class="cards mini"><div class="card soon"><div class="cn">沙特阿拉伯<small>筹备中</small></div></div><div class="card soon"><div class="cn">卡塔尔<small>筹备中</small></div></div><div class="card soon"><div class="cn">科威特<small>筹备中</small></div></div><div class="card soon"><div class="cn">阿曼<small>筹备中</small></div></div><div class="card soon"><div class="cn">巴林<small>筹备中</small></div></div></div></section><section class="region" id="asean"><div class="sh"><span class="tag">ASEAN</span><h2>东盟十国</h2></div><div class="cards mini"><div class="card soon"><div class="cn">新加坡<small>筹备中</small></div></div><div class="card soon"><div class="cn">马来西亚<small>筹备中</small></div></div><div class="card soon"><div class="cn">印度尼西亚<small>筹备中</small></div></div><div class="card soon"><div class="cn">泰国<small>筹备中</small></div></div><div class="card soon"><div class="cn">越南<small>筹备中</small></div></div><div class="card soon"><div class="cn">菲律宾<small>筹备中</small></div></div><div class="card soon"><div class="cn">柬埔寨<small>筹备中</small></div></div><div class="card soon"><div class="cn">老挝<small>筹备中</small></div></div><div class="card soon"><div class="cn">缅甸<small>筹备中</small></div></div><div class="card soon"><div class="cn">文莱<small>筹备中</small></div></div></div></section><section class="region" id="centralasia"><div class="sh"><span class="tag">CENTRAL ASIA</span><h2>中亚五国</h2></div><div class="cards mini"><div class="card soon"><div class="cn">哈萨克斯坦<small>筹备中</small></div></div><div class="card soon"><div class="cn">乌兹别克斯坦<small>筹备中</small></div></div><div class="card soon"><div class="cn">吉尔吉斯斯坦<small>筹备中</small></div></div><div class="card soon"><div class="cn">塔吉克斯坦<small>筹备中</small></div></div><div class="card soon"><div class="cn">土库曼斯坦<small>筹备中</small></div></div></div></section><section class="region" id="oceania"><div class="sh"><span class="tag">OCEANIA</span><h2>大洋洲</h2></div><div class="cards"><a class="card" href="/australia/"><div class="cn">澳大利亚<small>AU DESK</small></div><p>市场开放、零关税，难点在外资审查、人工成本和税务合规。</p><dl><div><dt>公司税</dt><dd>30%</dd></div><div><dt>最低时薪</dt><dd>A$26.44</dd></div><div><dt>中澳贸易</dt><dd>2,113亿美元</dd></div></dl></a></div></section>
-</main>
-<footer class="wrap">
-  本页为公开信息整理，不构成法律、税务或投资意见。门槛和税率每年调整，具体交易请以官方最新文本和专业顾问意见为准。
-</footer>
-
-</body>
-</html>
