@@ -2,6 +2,16 @@
  "updated": "2026-10-07",
  "items": [
   {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "XPeng Signs Distributor for Oman as Gulf Rollout Widens",
+   "source": "Electric Vehicles",
+   "url": "https://eletric-vehicles.com/xpeng/xpeng-signs-distributor-for-oman-as-gulf-rollout-widens/",
+   "date": "2026-09-28",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
    "sector": "general",
    "kind": "新闻",
    "title": "Oman, China explore investment partnerships across economic zones",
@@ -12,6 +22,16 @@
    "cn": false
   },
   {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "阿曼苏哈尔港2026上半年吞吐量为5200万吨",
+   "source": "驻阿曼使馆经商处",
+   "url": "https://om.mofcom.gov.cn/tjsj/art/2026/art_50375b65f2ae428380e67e51811237b0.html",
+   "date": "2026-08-31",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
    "sector": "infra",
    "kind": "新闻",
    "title": "Contractors confirm $683m Oman power plant contract",
@@ -20,6 +40,16 @@
    "date": "2026-08-21",
    "added": "2026-10-07",
    "cn": false
+  },
+  {
+   "sector": "tech",
+   "kind": "政策",
+   "title": "阿曼成为世界人工智能合作组织创始成员国",
+   "source": "中国驻阿曼大使馆",
+   "url": "https://om.china-embassy.gov.cn/gdxw/202607/t20260717_11985192.htm",
+   "date": "2026-07-17",
+   "added": "2026-10-07",
+   "cn": true
   },
   {
    "sector": "energy",
@@ -42,6 +72,26 @@
    "cn": true
   },
   {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "“我们的铁路梦想即将成为现实”",
+   "source": "人民日报",
+   "url": "https://www.peopleapp.com/column/30052512064-500007569786",
+   "date": "2026-06-29",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "中国石油天然气集团公司在阿曼石油能源展览会上展示实力",
+   "source": "驻阿曼使馆经商处",
+   "url": "https://om.mofcom.gov.cn/jmxw/art/2026/art_a92293c9c25f4f898740b85d199cb311.html",
+   "date": "2026-06-19",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
    "sector": "tech",
    "kind": "新闻",
    "title": "Chinese Firms Back Oman’s Green Energy And Cybersecurity Ambitions With Major Investments",
@@ -52,6 +102,16 @@
    "cn": false
   },
   {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "长安深蓝品牌进军阿曼市场，推出多款增程式车型",
+   "source": "MarkLines",
+   "url": "https://www.marklines.com/cn/news/345855",
+   "date": "2026-06-11",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
    "sector": "infra",
    "kind": "新闻",
    "title": "Contract awarded for Oman wind turbine project",
@@ -60,6 +120,16 @@
    "date": "2026-06-10",
    "added": "2026-10-07",
    "cn": false
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "阿曼的下一个经济转型可能始于电力行业",
+   "source": "驻阿曼使馆经商处",
+   "url": "https://om.mofcom.gov.cn/jmxw/art/2026/art_30fa0024bde64a94aba76aa8647e1098.html",
+   "date": "2026-06-04",
+   "added": "2026-10-07",
+   "cn": true
   },
   {
    "sector": "industry",
@@ -132,6 +202,26 @@
    "cn": false
   },
   {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "Chinese firm wins Oman sewage network contract",
+   "source": "MEED",
+   "url": "https://guest.meed.com/chinese-firm-wins-oman-sewage-network-contract/",
+   "date": "2026-02-09",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "finance",
+   "kind": "政策",
+   "title": "Oman Tax Authority Sets Out 2026 Compliance Push",
+   "source": "Finance Middle East",
+   "url": "https://www.financemiddleeast.com/tax/oman-tax-authority-sets-out-2026-compliance-push/",
+   "date": "2026-02-08",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
    "sector": "general",
    "kind": "新闻",
    "title": "阿曼多举措推动旅游业发展，期待与中国深化旅游合作",
@@ -150,6 +240,16 @@
    "date": "2026-01-21",
    "added": "2026-10-07",
    "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "Oman China Joint Committee discusses expanding economic cooperation",
+   "source": "Oman Foreign Ministry",
+   "url": "https://www.fm.gov.om/en/33902/",
+   "date": "2025-12-30",
+   "added": "2026-10-07",
+   "cn": false
   },
   {
    "sector": "trade",
@@ -172,12 +272,32 @@
    "cn": true
   },
   {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "Chinese company plans auto factory in Oman",
+   "source": "AGBI",
+   "url": "https://www.agbi.com/manufacturing/2025/11/chinese-company-jci-to-set-up-automotive-factory-in-oman",
+   "date": "2025-11-12",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
    "sector": "general",
    "kind": "政策",
    "title": "Oman: All foreign businesses must hire at least one Omani employee",
    "source": "Gulf News",
    "url": "https://gulfnews.com/business/markets/oman-all-foreign-businesses-must-hire-atleastone-omaniemployee-1.500295177",
    "date": "2025-10-05",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "Chinese firm to install 200 EV chargers in Oman",
+   "source": "Oman Observer",
+   "url": "https://www.omanobserver.om/article/1177121/business/economy/chinese-firm-to-install-200-ev-chargers-in-oman",
+   "date": "2025-09-25",
    "added": "2026-10-07",
    "cn": false
   },
@@ -202,12 +322,32 @@
    "cn": false
   },
   {
+   "sector": "industry",
+   "kind": "政策",
+   "title": "阿曼开放四个采矿特许区，提供投资机会",
+   "source": "驻阿曼使馆经商处",
+   "url": "https://om.mofcom.gov.cn/sqfb/art/2025/art_23309c0f14c5452abd24afb347837bd9.html",
+   "date": "2025-09-04",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
    "sector": "energy",
    "kind": "新闻",
    "title": "Chinese firm, EGN ink MoU on Oman solar ventures",
    "source": "Oman Observer",
    "url": "https://www.omanobserver.om/article/1175618/business/economy/chinese-firm-egn-ink-mou-on-oman-solar-ventures",
    "date": "2025-08-26",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "Oman picks Chinese firm for hydrogen plants",
+   "source": "Semafor",
+   "url": "https://www.semafor.com/article/08/11/2025/oman-picks-chinese-firm-for-hydrogen-plants",
+   "date": "2025-08-11",
    "added": "2026-10-07",
    "cn": false
   },
@@ -232,6 +372,16 @@
    "cn": true
   },
   {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "中国阿曼友好合作论坛在阿曼举办",
+   "source": "新华网",
+   "url": "https://www.news.cn/world/20250801/b476f5804cef4456b134b50e82106361/c.html",
+   "date": "2025-08-01",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
    "sector": "energy",
    "kind": "新闻",
    "title": "全球市场再突破！上能电气携手中国电建助力阿曼能源转型",
@@ -240,6 +390,16 @@
    "date": "2025-07-30",
    "added": "2026-10-07",
    "cn": true
+  },
+  {
+   "sector": "finance",
+   "kind": "新闻",
+   "title": "Oman’s credit rating raised to investment grade",
+   "source": "Oman Foreign Ministry",
+   "url": "https://www.fm.gov.om/en/26585/",
+   "date": "2025-07-11",
+   "added": "2026-10-07",
+   "cn": false
   },
   {
    "sector": "finance",
@@ -282,6 +442,16 @@
    "cn": true
   },
   {
+   "sector": "energy",
+   "kind": "政策",
+   "title": "杜库姆开始绿氢项目用地第三轮公开招标",
+   "source": "驻阿曼使馆经商处",
+   "url": "https://om.mofcom.gov.cn/sqfb/art/2025/art_6f405d3f1f814701ad7afb656af3dfe8.html",
+   "date": "2025-05-09",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
    "sector": "industry",
    "kind": "新闻",
    "title": "Pacts signed for RO 217m solar cell project at Sohar Freezone",
@@ -308,6 +478,36 @@
    "source": "阿曼外交部",
    "url": "https://www.fm.gov.om/en/23661/",
    "date": "2025-04-13",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "奇瑞捷途品牌计划在阿曼生产电动汽车",
+   "source": "MarkLines",
+   "url": "https://www.marklines.com/cn/news/322726",
+   "date": "2025-03-03",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "RO 200 million Chinese industrial complex soon",
+   "source": "Oman Observer",
+   "url": "https://www.omanobserver.om/article/1166884/oman/ro-200-million-chinese-industrial-complex-soon",
+   "date": "2025-02-25",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "Strategic Agreements Signed to Support Railway Project Between Oman, UAE",
+   "source": "Oman News Agency",
+   "url": "https://omannews.gov.om/topics/en/80/show/120862",
+   "date": "2025-02-06",
    "added": "2026-10-07",
    "cn": false
   }

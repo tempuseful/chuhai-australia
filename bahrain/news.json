@@ -22,6 +22,26 @@
    "cn": true
   },
   {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "巴林经济发展委员会加大引资力度，重点关注高附加值和未来产业",
+   "source": "中国驻巴林使馆经商处",
+   "url": "https://bh.mofcom.gov.cn/jmxw/art/2026/art_3e28dc954d6b449e83b2fae04de96615.html",
+   "date": "2026-09-14",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "finance",
+   "kind": "政策",
+   "title": "巴林主持海合会资本市场监管机构负责人会议，讨论基金互认和人工智能应用",
+   "source": "中国驻巴林使馆经商处",
+   "url": "https://bh.mofcom.gov.cn/jmxw/art/2026/art_a497e36db8ee4e71a35ec20694fed040.html",
+   "date": "2026-09-13",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
    "sector": "infra",
    "kind": "新闻",
    "title": "中企联合体中标巴林大型住房项目，将建设超过2500套住宅",
@@ -42,6 +62,16 @@
    "cn": true
   },
   {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "亚洲汽车将在巴林推出北汽制造212越野车",
+   "source": "MarkLines",
+   "url": "https://www.marklines.com/cn/news/349386",
+   "date": "2026-08-18",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
    "sector": "finance",
    "kind": "政策",
    "title": "巴林加快重塑公共财政体系 2027年将实施10%企业利润税",
@@ -50,6 +80,36 @@
    "date": "2026-08-17",
    "added": "2026-10-07",
    "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "Tecnicas Reunidas says Bapco bond guarantees remain suspended",
+   "source": "MEED",
+   "url": "https://guest.meed.com/tecnicas-reunidas-says-bapco-bond-guarantees-remain-suspended/",
+   "date": "2026-08-11",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "Bahrain H1 2026: Jetour (+37.6%), Haval (+17.8%) defy market off -27.3%",
+   "source": "Best Selling Cars Blog",
+   "url": "https://bestsellingcarsblog.com/2026/07/bahrain-h1-2026-jetour-37-6-haval-17-8-defy-market-off-27-3/",
+   "date": "2026-07-31",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "小鹏汽车四款车型在巴林上市",
+   "source": "MarkLines",
+   "url": "https://www.marklines.com/cn/news/348142",
+   "date": "2026-07-27",
+   "added": "2026-10-07",
+   "cn": false
   },
   {
    "sector": "general",
@@ -74,10 +134,30 @@
   {
    "sector": "general",
    "kind": "新闻",
+   "title": "Bahrain EDB Concludes Visit to China and Hong Kong Strengthening Investment Ties",
+   "source": "The Daily Tribune (News of Bahrain)",
+   "url": "https://www.newsofbahrain.com/business/136249.html",
+   "date": "2026-06-29",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
    "title": "巴林称拦截并摧毁伊朗导弹和无人机",
    "source": "光明网",
    "url": "https://m.gmw.cn/2026-06/28/content_1304512645.htm",
    "date": "2026-06-28",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "周春林参赞拜会巴林工商部助理次大臣谢赫·哈马德",
+   "source": "中国驻巴林使馆经商处",
+   "url": "https://bh.mofcom.gov.cn/tpjj/art/2026/art_b3178d9e932e41919b770bb962da6efd.html",
+   "date": "2026-06-12",
    "added": "2026-10-07",
    "cn": true
   },
@@ -90,6 +170,16 @@
    "date": "2026-06-11",
    "added": "2026-10-07",
    "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "迪拜Adamas Motor Group将在巴林开售星途汽车",
+   "source": "MarkLines",
+   "url": "https://www.marklines.com/cn/news/344546",
+   "date": "2026-05-18",
+   "added": "2026-10-07",
+   "cn": false
   },
   {
    "sector": "trade",
@@ -112,6 +202,36 @@
    "cn": true
   },
   {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "中东铝产能停摆超三成，中国成关键供应方",
+   "source": "界面新闻",
+   "url": "https://www.jiemian.com/article/14185688.html",
+   "date": "2026-03-31",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "地缘“黑天鹅”起飞！伊朗空袭中东两大铝厂，全球近一成供应受冲击",
+   "source": "每日经济新闻",
+   "url": "https://www.nbd.com.cn/articles/2026-03-30/4315172.html",
+   "date": "2026-03-30",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "Bahrain Starts Output Cuts at World’s Top Aluminum Smelter",
+   "source": "Fortune",
+   "url": "https://fortune.com/2026/03/15/bahrain-output-cuts-world-top-aluminum-smelter-alba-iran-war/",
+   "date": "2026-03-15",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
    "sector": "general",
    "kind": "新闻",
    "title": "Gulf Air: All inbound, outbound, and overflight operations are suspended indefinitely",
@@ -128,6 +248,16 @@
    "source": "俄罗斯卫星通讯社",
    "url": "https://sputniknews.cn/20260310/1070150051.html",
    "date": "2026-03-10",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "Bahrain’s Bapco Energies declares force majeure",
+   "source": "MEED",
+   "url": "https://www.meed.com/bahrains-bapco-energies-declares-force-majeure",
+   "date": "2026-03-09",
    "added": "2026-10-07",
    "cn": false
   },
@@ -212,6 +342,16 @@
    "cn": true
   },
   {
+   "sector": "finance",
+   "kind": "政策",
+   "title": "巴林启动1.85亿美元中小企业基金，促进经济多元化与创业创新",
+   "source": "中国驻巴林使馆经商处",
+   "url": "https://bh.mofcom.gov.cn/sqfb/art/2025/art_431fe2b0b8c64aa7bdff891871e1ced8.html",
+   "date": "2025-11-10",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
    "sector": "industry",
    "kind": "新闻",
    "title": "Alba Forges Global Aluminium Alliance with SIG and BlueFive to Expand Beyond Bahrain",
@@ -230,6 +370,26 @@
    "date": "2025-11-03",
    "added": "2026-10-07",
    "cn": true
+  },
+  {
+   "sector": "tech",
+   "kind": "新闻",
+   "title": "巴林电信推出首个“白空间”数据中心，加速国家数字化进程",
+   "source": "中国驻巴林使馆经商处",
+   "url": "https://bh.mofcom.gov.cn/sqfb/art/2025/art_77da8c937c4341559cb25cdc2fb9ef56.html",
+   "date": "2025-11-03",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "finance",
+   "kind": "新闻",
+   "title": "Bahrain’s Investcorp Closes $750M Fund Targeting High-Growth GCC and China Ventures",
+   "source": "MENA Startup Digest",
+   "url": "https://menastartupdigest.com/?p=18135",
+   "date": "2025-10-14",
+   "added": "2026-10-07",
+   "cn": false
   },
   {
    "sector": "trade",
@@ -320,6 +480,16 @@
    "date": "2025-04-17",
    "added": "2026-10-07",
    "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "Xpeng inks distributor deal to enter Bahrain",
+   "source": "CnEVPost",
+   "url": "https://cnevpost.com/2025/04/03/xpeng-distributor-deal-bahrain/",
+   "date": "2025-04-03",
+   "added": "2026-10-07",
+   "cn": false
   },
   {
    "sector": "finance",

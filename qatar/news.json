@@ -42,12 +42,42 @@
    "cn": true
   },
   {
+   "sector": "finance",
+   "kind": "新闻",
+   "title": "QFC firm registrations rise 37% in first half of 2026",
+   "source": "Qatar Tribune",
+   "url": "https://www.qatar-tribune.com/article/250347/business/qfc-firm-registrations-rise-37-in-first-half-of-2026",
+   "date": "2026-08-25",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "tech",
+   "kind": "新闻",
+   "title": "36氪出海·中东｜卡塔尔加快布局游戏产业，释放投资新机遇",
+   "source": "36氪",
+   "url": "https://www.36kr.com/p/3939026407259529",
+   "date": "2026-08-14",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
    "sector": "infra",
    "kind": "政策",
    "title": "Amendments to rental law support real estate sector, simplify procedures: MoM",
    "source": "Qatar Tribune",
    "url": "https://www.qatar-tribune.com/article/248391/front/amendments-to-rental-law-support-real-estate-sector-simplify-procedures-mom",
    "date": "2026-08-12",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "卡塔尔恢复经霍尔木兹海峡的液化天然气出口",
+   "source": "IDN Financials",
+   "url": "https://www.idnfinancials.com/cn/news/66772/卡塔尔恢复经霍尔木兹海峡的液化天然气出口",
+   "date": "2026-07-30",
    "added": "2026-10-07",
    "cn": false
   },
@@ -70,6 +100,26 @@
    "date": "2026-07-18",
    "added": "2026-10-07",
    "cn": true
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "一周要闻·阿联酋&卡塔尔｜迪拜道路交通管理局携手华为等中国企业推进AI地铁建设；卡塔尔自由区管理局与比亚迪探讨先进制造合作",
+   "source": "36氪",
+   "url": "https://www.36kr.com/p/3884168603021320",
+   "date": "2026-07-06",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "China-Qatar partnership continues to deliver tangible results: Chinese envoy",
+   "source": "Qatar Tribune",
+   "url": "https://www.qatar-tribune.com/article/242360/nation/china-qatar-partnership-continues-to-deliver-tangible-results-chinese-envoy",
+   "date": "2026-07-02",
+   "added": "2026-10-07",
+   "cn": false
   },
   {
    "sector": "industry",
@@ -133,6 +183,16 @@
   },
   {
    "sector": "trade",
+   "kind": "政策",
+   "title": "Qatar: Cabinet Approves Free Zone Customs Rules",
+   "source": "LexisNexis Middle East",
+   "url": "https://www.lexisnexis.com/blogs/ae-legal/b/insights/posts/qatar-cabinet-approves-free-zone-customs-rules",
+   "date": "2026-06-04",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "trade",
    "kind": "新闻",
    "title": "Qatar-China ties are at their strongest in history: envoy",
    "source": "Gulf Times",
@@ -160,6 +220,16 @@
    "date": "2026-05-01",
    "added": "2026-10-07",
    "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "Qatar's quiet investment boom: 14,500 foreign firms and counting",
+   "source": "Gulf Times",
+   "url": "https://www.gulf-times.com/article/724861/qatar/qatars-quiet-investment-boom-14500-foreign-firms-and-counting",
+   "date": "2026-04-30",
+   "added": "2026-10-07",
+   "cn": false
   },
   {
    "sector": "general",
@@ -194,12 +264,32 @@
   {
    "sector": "energy",
    "kind": "新闻",
+   "title": "QatarEnergy declares force majeure on some LNG contracts",
+   "source": "The Peninsula",
+   "url": "https://thepeninsulaqatar.com/article/24/03/2026/qatarenergy-declares-force-majeure-on-some-lng-contracts",
+   "date": "2026-03-24",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
    "title": "卡塔尔能源设施遭袭17%LNG产能瘫痪 修复或长达5年",
    "source": "中新网",
    "url": "https://www.chinanews.com.cn/gj/2026/03-20/10589802.shtml",
    "date": "2026-03-20",
    "added": "2026-10-07",
    "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "State of Qatar/Qatar Financial Centre 2025 Roundup – What Employers Need to Know",
+   "source": "Al Tamimi & Company",
+   "url": "https://www.tamimi.com/news/state-of-qatar-qatar-financial-centre-2025-roundup-what-employers-need-to-know/",
+   "date": "2026-02-27",
+   "added": "2026-10-07",
+   "cn": false
   },
   {
    "sector": "finance",
@@ -228,6 +318,16 @@
    "source": "Qatar News Agency",
    "url": "https://qna.org.qa/en/News-Area/News/2026-1/15/qatar-cuts-justice-ministry-fees-and-expands-exemptions-to-boost-investment-climate",
    "date": "2026-01-15",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "Cabinet reviews, amends law regulating non-Qatari foreign investment",
+   "source": "The Peninsula",
+   "url": "https://thepeninsulaqatar.com/article/07/01/2026/cabinet-reviews,-amends-law-regulating-non-qatari-foreign-investment",
+   "date": "2026-01-07",
    "added": "2026-10-07",
    "cn": false
   },
@@ -272,6 +372,16 @@
    "cn": true
   },
   {
+   "sector": "infra",
+   "kind": "政策",
+   "title": "Qatar drafts PPP law update and foreign investment, bankruptcy law: MoCI official",
+   "source": "Gulf Times",
+   "url": "https://www.gulf-times.com/article/711405/business/qatar-drafts-ppp-law-update-and-foreign-investment-bankruptcy-law-moci-official",
+   "date": "2025-09-24",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
    "sector": "general",
    "kind": "新闻",
    "title": "外交部：坚决反对以色列侵犯卡塔尔领土主权和国家安全的行径",
@@ -288,6 +398,16 @@
    "source": "盖世汽车 Gasgoo",
    "url": "https://autonews.gasgoo.com/articles/news/ponyai-qatars-mowasalat-team-up-to-promote-autonomous-car-application-70038886",
    "date": "2025-09-05",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "36Kr Global - Middle East | Qatar's Strategic Reforms Spark a Wave of Foreign Investment",
+   "source": "36氪出海",
+   "url": "https://eu.36kr.com/en/p/3422482954096257",
+   "date": "2025-08-14",
    "added": "2026-10-07",
    "cn": true
   },
@@ -362,6 +482,16 @@
    "cn": true
   },
   {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "QatarEnergy's newest LNG carrier formally named in China",
+   "source": "Baird Maritime",
+   "url": "https://www.bairdmaritime.com/shipping/tankers/gas/qatarenergys-newest-lng-carrier-formally-named-in-china",
+   "date": "2025-04-18",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
    "sector": "general",
    "kind": "政策",
    "title": "Qatar: Introduction of Pillar Two global minimum tax rules",
@@ -372,12 +502,32 @@
    "cn": false
   },
   {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "36氪出海·中东｜除了中东“钞能力”，卡塔尔如何吸引中国企业？",
+   "source": "36氪",
+   "url": "https://36kr.com/p/3204425845498368",
+   "date": "2025-03-14",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
    "sector": "tech",
    "kind": "新闻",
    "title": "With an Eye on AI, Huawei Plans Deeper Expansion in Qatar",
    "source": "Caixin Global",
    "url": "https://www.caixinglobal.com/2025-03-05/with-an-eye-on-ai-huawei-plans-deeper-expansion-in-qatar-102294955.html",
    "date": "2025-03-05",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "Qatar aims to attract more companies from China: investment promotion agency",
+   "source": "新华社（中国一带一路网）",
+   "url": "https://eng.yidaiyilu.gov.cn/p/0IOFR434.html",
+   "date": "2025-02-28",
    "added": "2026-10-07",
    "cn": true
   },

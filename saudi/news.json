@@ -12,12 +12,52 @@
    "cn": true
   },
   {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "沙特作为主宾国参加第26届中国国际投资贸易洽谈会",
+   "source": "中国驻沙特使馆经商处",
+   "url": "https://sa.mofcom.gov.cn/tpjj/art/2026/art_58a0918e1ef245cf8b8b028c8ad5b373.html",
+   "date": "2026-09-15",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "政策",
+   "title": "沙特内阁批准设立战争风险保险基金",
+   "source": "中国驻沙特使馆经商处",
+   "url": "https://sa.mofcom.gov.cn/zcfg/art/2026/art_b2c63f7c455840fd88e6c3f8f9bd42c4.html",
+   "date": "2026-09-09",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
    "sector": "general",
    "kind": "新闻",
    "title": "中国驻沙特大使馆提醒在沙特中资机构和中国公民注意安全",
    "source": "央视网（光明网转载）",
    "url": "https://m.gmw.cn/2026-09/08/content_1304561202.htm",
    "date": "2026-09-08",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "沙特内政部：个体雇主若允许员工为他人工作将面临处罚",
+   "source": "中国驻沙特使馆经商处",
+   "url": "https://sa.mofcom.gov.cn/zcfg/art/2026/art_7a89d5f8c4a74b9db62d7005682676e8.html",
+   "date": "2026-09-07",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "finance",
+   "kind": "新闻",
+   "title": "沙特资本市场论坛首次在沪举办 中沙资本市场合作探索稳步前行",
+   "source": "同花顺财经",
+   "url": "https://stock.10jqka.com.cn/20260904/c679604366.shtml",
+   "date": "2026-09-04",
    "added": "2026-10-07",
    "cn": true
   },
@@ -30,6 +70,16 @@
    "date": "2026-09-02",
    "added": "2026-10-07",
    "cn": false
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "全球制造网络扩至中东 联想首台“沙特制造”PC亮相",
+   "source": "新华财经",
+   "url": "https://www.cnfin.com/gs-lb/detail/20260901/4463662_1.html",
+   "date": "2026-09-01",
+   "added": "2026-10-07",
+   "cn": true
   },
   {
    "sector": "energy",
@@ -50,6 +100,26 @@
    "date": "2026-08-07",
    "added": "2026-10-07",
    "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "Cosco Shipping Lines and OOCL launch China–Jeddah container service",
+   "source": "Container News",
+   "url": "https://container-news.com/cosco-shipping-lines-and-oocl-launch-china-jeddah-container-service/",
+   "date": "2026-08-03",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "Mawani Adds China Saudi Express Shipping Service to Jeddah Islamic Port",
+   "source": "Asharq Al-Awsat",
+   "url": "https://english.aawsat.com/node/5301690",
+   "date": "2026-07-30",
+   "added": "2026-10-07",
+   "cn": false
   },
   {
    "sector": "infra",
@@ -122,6 +192,16 @@
    "cn": true
   },
   {
+   "sector": "trade",
+   "kind": "政策",
+   "title": "Update on Regulatory Status for Selected KSA Customs Tariff Codes",
+   "source": "Chamber International",
+   "url": "https://www.chamber-international.com/news/latest-news/update-on-regulatory-status-for-selected-ksa-customs-tariff-codes/",
+   "date": "2026-03-12",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
    "sector": "energy",
    "kind": "新闻",
    "title": "中沙高委会共建“一带一路”、重大项目和能源分委会第五次会议成功召开",
@@ -148,6 +228,16 @@
    "source": "量子位",
    "url": "https://www.qbitai.com/2026/02/377509.html",
    "date": "2026-02-06",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "沙特官员：欢迎中国新能源企业投资沙特",
+   "source": "新华网",
+   "url": "https://www.news.cn/world/20260111/4684ac5329204a94941341cceb7c90d9/c.html",
+   "date": "2026-01-11",
    "added": "2026-10-07",
    "cn": true
   },
@@ -232,6 +322,26 @@
    "cn": true
   },
   {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "首个海外基地项目启动4年何时开工？宝钢股份董事长谈钢企“走出去”",
+   "source": "澎湃新闻",
+   "url": "https://m.thepaper.cn/newsDetail_forward_31529785",
+   "date": "2025-09-02",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "finance",
+   "kind": "新闻",
+   "title": "Saudi Arabia discusses investment cooperation opportunities with major Chinese banks",
+   "source": "bne IntelliNews",
+   "url": "https://www.intellinews.com/saudi-arabia-discusses-investment-cooperation-opportunities-with-major-chinese-banks-398825/",
+   "date": "2025-08-31",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
    "sector": "energy",
    "kind": "新闻",
    "title": "海辰储能携1GW/4GWh项目落地沙特 树立中东高端市场行业商用范本",
@@ -240,6 +350,16 @@
    "date": "2025-08-29",
    "added": "2026-10-07",
    "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "China and Saudi Arabia strengthen shipping ties with new service and dry port",
+   "source": "Kuehne+Nagel",
+   "url": "https://mykn.kuehne-nagel.com/news/article/china-and-saudi-arabia",
+   "date": "2025-08-22",
+   "added": "2026-10-07",
+   "cn": false
   },
   {
    "sector": "industry",
@@ -288,6 +408,26 @@
    "source": "中华网",
    "url": "https://m.tech.china.com/redian/2025/0728/072025_1706289.html",
    "date": "2025-07-28",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "政策",
+   "title": "Saudi Arabia imposes anti-dumping duties on stainless steel imports from China, Taiwan",
+   "source": "Arab News",
+   "url": "https://www.arabnews.com/node/2606382",
+   "date": "2025-06-30",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "Chinese e-commerce giant JD.com launches express delivery service in Saudi Arabia",
+   "source": "新华社（甘肃一带一路网）",
+   "url": "https://ydyl.gansu.gov.cn/enggsydyl/whjl/202506/t20250620_28422.html",
+   "date": "2025-06-19",
    "added": "2026-10-07",
    "cn": true
   },
@@ -357,6 +497,16 @@
    "title": "加码中东：联想沙特新工厂奠基，生产“沙特制造”笔记本、台式机等",
    "source": "IT之家",
    "url": "https://www.ithome.com/0/829/707.htm",
+   "date": "2025-02-10",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "tech",
+   "kind": "新闻",
+   "title": "腾讯云将建设首个中东数据中心，拟投资超1.5亿美元助力中东数字创新",
+   "source": "扬子晚报网",
+   "url": "https://www.yzwb.net/news/community/202502/t20250210_187971.html",
    "date": "2025-02-10",
    "added": "2026-10-07",
    "cn": true

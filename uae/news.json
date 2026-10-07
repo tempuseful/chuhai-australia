@@ -3,6 +3,26 @@
  "items": [
   {
    "sector": "industry",
+   "kind": "政策",
+   "title": "阿联酋推出国家级智造升级计划，推动制造业智能化、数字化转型",
+   "source": "中国驻阿联酋使馆经商处",
+   "url": "https://ae.mofcom.gov.cn/jmxw/art/2026/art_3e010be24d524a4a97668ae95bee85f4.html",
+   "date": "2026-09-19",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "Dubai Holding to construct Dh5 billion headquarters near Emirates Towers",
+   "source": "The National",
+   "url": "https://www.thenationalnews.com/business/property/2026/09/09/dubai-holding-awards-its-largest-construction-contract-worth-dh5-billion/",
+   "date": "2026-09-09",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "industry",
    "kind": "新闻",
    "title": "Chinese carmaker ROX begins production in Abu Dhabi",
    "source": "Semafor",
@@ -10,6 +30,26 @@
    "date": "2026-09-08",
    "added": "2026-10-07",
    "cn": false
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "Chinese Manufacturers Expand UAE Industrial Footprint as Factory Investment Grows",
+   "source": "MENA Startup Digest",
+   "url": "https://menastartupdigest.com/chinese-manufacturers-expand-uae-industrial-footprint-as-factory-investment-grows/",
+   "date": "2026-08-19",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "finance",
+   "kind": "新闻",
+   "title": "专访丨阿联酋与中国金融合作前景广阔——访拉斯海玛银行首席执行官艾哈迈德",
+   "source": "新华网",
+   "url": "https://www.news.cn/world/20260817/c485936a540b43a8ac6138af4b05d18d/c.html",
+   "date": "2026-08-17",
+   "added": "2026-10-07",
+   "cn": true
   },
   {
    "sector": "tech",
@@ -60,6 +100,26 @@
    "date": "2026-06-29",
    "added": "2026-10-07",
    "cn": false
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "中远海运港口(01199)引入中远海运(香港)增资阿布扎比集装箱场站 加码中东一带一路枢纽布局",
+   "source": "华盛通",
+   "url": "https://www.hstong.com/news/detail/26062618352615534",
+   "date": "2026-06-26",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "阿里巴巴、华为、比亚迪、美团等巨头密集布局迪拜",
+   "source": "证券时报网（21世纪经济报道）",
+   "url": "https://stcn.com/article/detail/3979211.html",
+   "date": "2026-06-25",
+   "added": "2026-10-07",
+   "cn": true
   },
   {
    "sector": "general",
@@ -212,6 +272,16 @@
    "cn": true
   },
   {
+   "sector": "finance",
+   "kind": "新闻",
+   "title": "Hillhouse IM Opens New Office In Abu Dhabi, Obtains ADGM Licence",
+   "source": "WealthBriefingAsia",
+   "url": "https://www.wealthbriefingasia.com/article.php/Hillhouse-IM-Opens-New-Office-In-Abu-Dhabi%2C-Obtains-ADGM-Licence",
+   "date": "2026-04-07",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
    "sector": "tech",
    "kind": "政策",
    "title": "UAE Launches Up to 50% R&D Tax Credit for Businesses",
@@ -244,6 +314,16 @@
   {
    "sector": "tech",
    "kind": "新闻",
+   "title": "萝卜快跑：已临时暂停在阿联酋境内的无人驾驶测试及商业化运营服务",
+   "source": "IT之家",
+   "url": "https://www.ithome.com/0/925/000.htm",
+   "date": "2026-03-02",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "tech",
+   "kind": "新闻",
    "title": "中国无人驾驶“军团”，“武装”阿布扎比",
    "source": "每日经济新闻",
    "url": "https://www.nbd.com.cn/articles/2026-01-30/4243308.html",
@@ -268,6 +348,16 @@
    "source": "Xinhua（北京市政府国际版转载）",
    "url": "https://english.beijing.gov.cn/latest/news/202601/t20260126_4465751.html",
    "date": "2026-01-26",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "中企承建迪拜海水淡化项目产出合格水",
+   "source": "中国日报网",
+   "url": "https://cn.chinadaily.com.cn/a/202601/25/WS6975c242a310942cc499cb2a.html",
+   "date": "2026-01-25",
    "added": "2026-10-07",
    "cn": true
   },
@@ -302,6 +392,16 @@
    "cn": false
   },
   {
+   "sector": "general",
+   "kind": "政策",
+   "title": "阿联酋新版增值税修订法案将于2026年1月1日生效",
+   "source": "China Briefing",
+   "url": "https://www.china-briefing.com/china-outbound-news/uae-issues-new-vat-amendments-effective-jan-1-2026-cn",
+   "date": "2025-12-18",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
    "sector": "tech",
    "kind": "新闻",
    "title": "Shenzhen's company secures orders for 1,600 drones in Dubai",
@@ -322,6 +422,16 @@
    "cn": false
   },
   {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "RAK Ports, China’s Jianhua, PHC launch Dh120 million concrete piles plant",
+   "source": "Gulf News",
+   "url": "https://gulfnews.com/business/markets/rak-ports-chinas-jianhua-phc-launch-dh120-million-concrete-piles-plant-1.500327795",
+   "date": "2025-10-30",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
    "sector": "finance",
    "kind": "新闻",
    "title": "China Expands Yuan Clearing to First Abu Dhabi Bank in UAE",
@@ -332,12 +442,32 @@
    "cn": false
   },
   {
+   "sector": "finance",
+   "kind": "新闻",
+   "title": "Sharjah sells RMB 2 bn Panda bond",
+   "source": "EnterpriseAM",
+   "url": "https://enterpriseam.com/uae/2025/10/17/sharjah-sells-rmb-2-bn-panda-bond/",
+   "date": "2025-10-17",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
    "sector": "trade",
    "kind": "政策",
    "title": "UAE Implements Anti-Dumping Measures as Chinese Goods Flood Local Markets",
    "source": "Khaleej Times",
    "url": "https://www.khaleejtimes.com/uae/anti-dumping-measures-chinese-goods-flood-local-markets?amp=1",
    "date": "2025-10-16",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "tech",
+   "kind": "新闻",
+   "title": "Alibaba’s cloud business launches second data centre in Dubai",
+   "source": "AGBI",
+   "url": "https://www.agbi.com/tech/2025/10/alibabas-cloud-business-launches-second-data-centre-in-dubai",
+   "date": "2025-10-15",
    "added": "2026-10-07",
    "cn": false
   },
@@ -384,10 +514,40 @@
   {
    "sector": "finance",
    "kind": "新闻",
+   "title": "Emirates NBD returns to the Dim Sum market with a CNY 1 bn issuance",
+   "source": "EnterpriseAM",
+   "url": "https://enterpriseam.com/uae/2025/08/25/emirates-nbd-returns-to-the-dim-sum-market-with-a-cny-1-bn-issuance/",
+   "date": "2025-08-25",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "京东物流迪拜5号仓正式运营，已在中东布局9大海外仓",
+   "source": "中国驻阿联酋使馆经商处",
+   "url": "https://ae.mofcom.gov.cn/zazgqy/art/2025/art_83534600cebe4bfa9cb4faee3b3119de.html",
+   "date": "2025-08-22",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "finance",
+   "kind": "新闻",
    "title": "Nasdaq Dubai Welcomes USD 500 Million Bond Listing By Bank Of China Dubai Branch",
    "source": "Mondo Visione",
    "url": "https://mondovisione.com/media-and-resources/news/nasdaq-dubai-welcomes-usd-500-million-bond-listing-by-bank-of-china-dubai-branch-2025128/",
    "date": "2025-08-12",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "Adnoc signs agreements with China’s Wanhua Chemical",
+   "source": "MEED",
+   "url": "https://www.meed.com/adnoc-signs-agreements-with-chinas-wanhua-chemical",
+   "date": "2025-06-26",
    "added": "2026-10-07",
    "cn": false
   },
@@ -400,6 +560,16 @@
    "date": "2025-05-27",
    "added": "2026-10-07",
    "cn": false
+  },
+  {
+   "sector": "finance",
+   "kind": "新闻",
+   "title": "CICC Expands Its Global Footprint with Official Launch of DIFC Branch",
+   "source": "中金公司官网",
+   "url": "https://en.cicc.com/media-relations/details118_2237.html",
+   "date": "2025-05-15",
+   "added": "2026-10-07",
+   "cn": true
   },
   {
    "sector": "energy",
@@ -450,6 +620,16 @@
    "date": "2025-02-26",
    "added": "2026-10-07",
    "cn": true
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "China State wins $218m Dubai Islands bridge deal",
+   "source": "MEED",
+   "url": "https://guest.meed.com/china-state-wins-218m-deira-islands-bridge-deal/",
+   "date": "2025-01-13",
+   "added": "2026-10-07",
+   "cn": false
   }
  ]
 }
