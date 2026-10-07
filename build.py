@@ -15,6 +15,10 @@ REGIONS = [
     ("oceania", "大洋洲", "OCEANIA", ["澳大利亚"]),
 ]
 
+FLAG = dict(zip("阿联酋 沙特阿拉伯 卡塔尔 科威特 阿曼 巴林 新加坡 马来西亚 印度尼西亚 泰国 越南 菲律宾 柬埔寨 老挝 缅甸 文莱 哈萨克斯坦 乌兹别克斯坦 吉尔吉斯斯坦 塔吉克斯坦 土库曼斯坦 澳大利亚".split(),
+                "ae sa qa kw om bh sg my id th vn ph kh la mm bn kz uz kg tj tm au".split()))
+flag = lambda n: f'<img class="flag" src="/flags/{FLAG[n]}.svg" alt="" width="28" height="21" loading="lazy">' if n in FLAG else ""
+
 def page(title, desc, body, script=""):
     return f"""<!doctype html>
 <html lang="zh-CN">
@@ -91,10 +95,10 @@ for key, cn, en, names in REGIONS:
     h = f'<section class="region" id="{key}"><div class="sh"><span class="tag">{en}</span><h2>{cn}</h2>{f'<a class="cmplink" href="/{cmps[key]["slug"]}/">六国对比表 →</a>' if key in cmps else ""}</div>'
     if ready:
         h += '<div class="cards">' + "".join(
-            f'<a class="card" href="/{m["slug"]}/"><div class="cn">{m["name"]}<small>{m["code"]} DESK</small></div><p>{m["card"]["blurb"]}</p><dl>'
+            f'<a class="card" href="/{m["slug"]}/"><div class="cn">{flag(m["name"])}{m["name"]}<small>{m["code"]} DESK</small></div><p>{m["card"]["blurb"]}</p><dl>'
             + "".join(f"<div><dt>{k}</dt><dd>{v}</dd></div>" for k, v in m["card"]["facts"]) + "</dl></a>" for m in ready) + "</div>"
     if soon:
-        h += '<div class="cards mini">' + "".join(f'<div class="card soon"><div class="cn">{n}<small>筹备中</small></div></div>' for n in soon) + "</div>"
+        h += '<div class="cards mini">' + "".join(f'<div class="card soon"><div class="cn">{flag(n)}{n}<small>筹备中</small></div></div>' for n in soon) + "</div>"
     secs.append(h + "</section>")
 
 total = sum(len(r[3]) for r in REGIONS)
