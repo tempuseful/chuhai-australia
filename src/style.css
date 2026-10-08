@@ -236,3 +236,7 @@ a.maplink:hover{text-decoration:none;border-color:var(--amber)}
 #map .city rect{fill:#fff;stroke:rgba(4,16,29,.9);stroke-width:1px}
 /* 表格内的数值单元格常夹中文，统一用正文字体，等宽数字保持对齐 */
 td.num,th.num{font-family:inherit;font-variant-numeric:tabular-nums;letter-spacing:0}
+/* 用工表：左列标签不折行，右列长说明正常换行并左对齐 */
+#hr td.num{white-space:normal;text-align:left}
+#hr tbody td:first-child{white-space:nowrap;width:1%;padding-right:18px;vertical-align:top}
+#hr td{vertical-align:top}
