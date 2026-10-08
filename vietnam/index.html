@@ -248,6 +248,11 @@ td.num,th.num{font-family:inherit;font-variant-numeric:tabular-nums;letter-spaci
 #hr td.num{white-space:normal;text-align:left}
 #hr tbody td:first-child{white-space:nowrap;width:1%;padding-right:18px;vertical-align:top}
 #hr td{vertical-align:top}
+/* 表格数值单元格允许换行；税务和用工表左列标签不折行 */
+td.num{white-space:normal}
+#tax tbody td:first-child,#hr tbody td:first-child{white-space:nowrap;vertical-align:top}
+#tax td{vertical-align:top}
+@media (max-width:700px){#tax tbody td:first-child{white-space:normal;min-width:5.5em}#tax td{overflow-wrap:anywhere}}
 </style>
 </head>
 <body>
