@@ -87,11 +87,7 @@ for f in sorted(glob.glob(os.path.join(R, "compare", "*.json"))):
     os.makedirs(os.path.join(R, c["slug"]), exist_ok=True)
     open(os.path.join(R, c["slug"], "index.html"), "w", encoding="utf-8").write(page(c["title"], c["lead"], cbody))
 
-# 项目地图：整页来自 src/projects-page.html（自带数据、样式和脚本），原样输出
-os.makedirs(os.path.join(R, "projects"), exist_ok=True)
-_pp = rd("src/projects-page.html")
-open(os.path.join(R, "projects", "index.html"), "w", encoding="utf-8").write(_pp)
-nproj = _pp.count('"id":"') if '"id":"' in _pp else 0
+# 项目地图 projects/index.html 是独立页面（自带数据、样式和脚本），直接编辑该文件，本脚本不生成它
 
 live = len(metas)
 secs = []
