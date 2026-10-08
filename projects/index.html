@@ -231,6 +231,17 @@ a.maplink:hover{text-decoration:none;border-color:var(--amber)}
 #legend{color:#c9d1dc} #tip b{color:#fff}
 .zoomer button{background:rgba(4,16,29,.88);border-color:rgba(255,255,255,.25);color:#fff}
 #map{aspect-ratio:1000/520}
+
+#map .labels{pointer-events:none}
+#map .labels text{paint-order:stroke;stroke:rgba(4,16,29,.85);stroke-width:3px;stroke-linejoin:round;font-family:var(--sans)}
+#map .labels g,#map .labels text.ctry{transition:opacity .25s}
+#map .reg text{text-anchor:middle;fill:#ffc46b}
+#map .reg .en{font-family:var(--serif);font-size:13px;letter-spacing:.14em;font-weight:700}
+#map .reg .zh{font-size:12px;fill:#fff;font-weight:600}
+#map .reg .n{font-family:var(--mono);font-size:15px;font-weight:600}
+#map .ctry{text-anchor:middle;fill:#ffe3b0;font-size:13px;font-weight:600;letter-spacing:.08em}
+#map .city text{fill:#fff;font-size:11.5px}
+#map .city rect{fill:#fff;stroke:rgba(4,16,29,.9);stroke-width:1px}
 </style>
 </head>
 <body>
@@ -307,9 +318,27 @@ const g=svg.append("g");
 {const a=proj([0,62]),b=proj([180,-52]);g.append("image").attr("href","/vendor/earth.jpg").attr("x",a[0]).attr("y",a[1]).attr("width",b[0]-a[0]).attr("height",b[1]-a[1]).attr("preserveAspectRatio","none");g.append("rect").attr("x",a[0]).attr("y",a[1]).attr("width",b[0]-a[0]).attr("height",b[1]-a[1]).attr("class","shade")}
 const live=new Set(data.live);
 g.append("g").selectAll("path").data(topojson.feature(world,world.objects.countries).features.filter(d=>live.has(d.id))).join("path").attr("d",path).attr("class",d=>"land"+(live.has(d.id)?" live":""));
-const dots=g.append("g");
+const RL={gcc:["GCC","海湾六国",[45.5,20.3]],asean:["ASEAN","东盟十国",[110,9.5]],centralasia:["CENTRAL ASIA","中亚五国",[66,45]],oceania:["OCEANIA","大洋洲",[134,-24.5]]};
+const CL=[["沙特阿拉伯",44.5,22.3],["阿联酋",54.3,23.4],["卡塔尔",51.2,25.05],["科威特",47.5,29.75],["巴林",50.55,25.75],["阿曼",56.6,20.6],["马来西亚",102.3,4.6],["澳大利亚",134,-27]];
+const CITY=[["阿布扎比",54.38,24.45,1],["迪拜",55.27,25.2,1],["沙迦",55.42,25.35,0],["拉斯海玛",55.94,25.79,0],["富查伊拉",56.33,25.13,0],
+["利雅得",46.68,24.71,1],["吉达",39.19,21.49,1],["麦加",39.86,21.39,0],["麦地那",39.61,24.47,0],["达曼",50.1,26.43,1],["朱拜勒",49.66,27,0],["延布",38.06,24.09,0],["吉赞",42.55,16.89,0],["塔布克",36.57,28.38,0],["新未来城",35.2,28],
+["多哈",51.53,25.29,1],["拉斯拉凡",51.55,25.92,0],["科威特城",47.99,29.38,1],["麦纳麦",50.59,26.23,1],
+["马斯喀特",58.41,23.59,1],["苏哈尔",56.71,24.35,0],["杜库姆",57.7,19.66,0],["塞拉莱",54.09,17.02,0],
+["吉隆坡",101.69,3.14,1],["新山",103.74,1.49,0],["槟城",100.33,5.41,0],["关丹",103.33,3.81,0],["古晋",110.34,1.55,0],["亚庇",116.07,5.98,0],
+["悉尼",151.21,-33.87,1],["墨尔本",144.96,-37.81,1],["布里斯班",153.03,-27.47,1],["珀斯",115.86,-31.95,1],["阿德莱德",138.6,-34.93,0],["堪培拉",149.13,-35.28,0],["达尔文",130.84,-12.46,0]];
+const lab=g.append("g").attr("class","labels");
+const gc=lab.selectAll("g.city").data(CITY).join("g").attr("class","city").attr("transform",d=>`translate(${proj([d[1],d[2]])})`);
+gc.append("rect").attr("x",-1.5).attr("y",-1.5).attr("width",3).attr("height",3);gc.append("text").attr("x",5).attr("y",4).text(d=>d[0]);
+const gk=lab.selectAll("text.ctry").data(CL).join("text").attr("class","ctry").attr("transform",d=>`translate(${proj([d[1],d[2]])})`).text(d=>d[0]);
+const gr=lab.selectAll("g.reg").data(data.regions.map(r=>r[0]).filter(r=>RL[r])).join("g").attr("class","reg").attr("transform",d=>`translate(${proj(RL[d][2])})`);
+gr.append("text").attr("class","en").attr("y",-15).text(d=>RL[d][0]);gr.append("text").attr("class","zh").text(d=>RL[d][1]);gr.append("text").attr("class","n").attr("y",19);
+function labels(){const s=`scale(${1/k})`;
+ gr.attr("transform",d=>`translate(${proj(RL[d][2])}) ${s}`).style("opacity",k<3.2?1:0);
+ gk.attr("transform",d=>`translate(${proj([d[1],d[2]])}) ${s}`).style("opacity",k>=2.4&&k<26?1:0);
+ gc.attr("transform",d=>`translate(${proj([d[1],d[2]])}) ${s}`).style("opacity",d=>k>=(d[3]?3.6:7)?1:0)}
+const dots=g.append("g");lab.raise();
 let k=1,sel=null;
-const zoom=d3.zoom().scaleExtent([1,60]).translateExtent([[proj([0,62])[0],proj([0,62])[1]],[proj([180,-52])[0],proj([180,-52])[1]]]).on("zoom",e=>{k=e.transform.k;g.attr("transform",e.transform);dots.selectAll("circle").attr("r",d=>(d.id===sel?8:5)/k).attr("stroke-width",1.2/k);g.selectAll(".land").style("stroke-width",d=>(live.has(d.id)?1.3:.6)/k)});
+const zoom=d3.zoom().scaleExtent([1,60]).translateExtent([[proj([0,62])[0],proj([0,62])[1]],[proj([180,-52])[0],proj([180,-52])[1]]]).on("zoom",e=>{k=e.transform.k;g.attr("transform",e.transform);dots.selectAll("circle").attr("r",d=>(d.id===sel?8:5)/k).attr("stroke-width",1.2/k);labels();g.selectAll(".land").style("stroke-width",d=>(live.has(d.id)?1.3:.6)/k)});
 svg.call(zoom);
 function flyTo(ext,dur=600){const [[x0,y0],[x1,y1]]=[proj(ext[0]),proj(ext[1])];const bx0=Math.min(x0,x1),bx1=Math.max(x0,x1),by0=Math.min(y0,y1),by1=Math.max(y0,y1);const s=Math.min(60,.9/Math.max((bx1-bx0)/W,(by1-by0)/H));svg.transition().duration(dur).call(zoom.transform,d3.zoomIdentity.translate(W/2,H/2).scale(s).translate(-(bx0+bx1)/2,-(by0+by1)/2))}
 const tip=$("#tip");
@@ -321,6 +350,7 @@ function render(){
   const usd=L.reduce((s,p)=>s+(p.usd||0),0),nu=L.filter(p=>p.usd).length;
   $("#s-u").textContent=usd?Math.round(usd).toLocaleString():"—";$("#s-un").textContent=`${nu} 个项目披露了金额`;
   $("#s-a").textContent=L.filter(p=>p.stage=="中标签约"||p.stage=="规划招标").length;
+  gr.select(".n").text(d=>L.filter(p=>p.region==d).length||"");
   dots.selectAll("circle").data(L,d=>d.id).join("circle").attr("cx",d=>proj([d.lng,d.lat])[0]).attr("cy",d=>proj([d.lng,d.lat])[1]).attr("r",5/k).attr("fill",d=>SC[d.stage]).attr("stroke","#fff").attr("stroke-width",1.2/k)
     .on("mousemove",(e,d)=>showTip(d,e)).on("mouseleave",()=>tip.hidden=true).on("click",(e,d)=>pick(d.id,true));
   $("#rows").innerHTML=L.map(p=>`<tr data-id="${p.id}"><td>${p.country}<small>${p.city}</small></td><td>${p.contractor}</td><td><a href="${p.url}" target="_blank" rel="noopener">${p.name}</a><small>${SECT[p.sector]} · ${p.source}</small></td><td class="r">${p.amount||"—"}</td><td><i class="st" style="background:${SC[p.stage]}"></i>${p.stage}</td><td class="num">${p.date}</td></tr>`).join("")||'<tr><td colspan="6" style="color:var(--muted);padding:24px 10px">没有符合条件的项目，放宽筛选试试。</td></tr>';
