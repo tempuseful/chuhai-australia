@@ -1,0 +1,492 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>出海菲律宾</title>
+<meta name="description" content="面向中国企业的赴菲律宾经营简报：市场数据、常见痛点、落地八步、外资负面清单与 PEZA/BOI 优惠、税务与用工签证速查，新闻与政策动态。">
+<link rel="stylesheet" href="/fonts/fonts.css">
+<style>
+/* 布局：终端式行情带 + 财经头版。全宽黑底栏目条分节，数据用等宽字，标题用重磅宋体 */
+:root{
+  --bg:#07090d; --panel:#0e1219; --panel2:#141a24; --line:#232b38;
+  --fg:#e9edf3; --muted:#8b96a8; --amber:#ffa028; --amber-ink:#07090d;
+  --up:#2fd08a; --down:#ff5a5f; --blue:#4aa8ff;
+  --serif:"Noto Serif SC","Songti SC","Source Han Serif SC","SimSun",serif;
+  --sans:"PingFang SC","HarmonyOS Sans SC","Microsoft YaHei","Noto Sans CJK SC","Noto Sans SC",system-ui,sans-serif;
+  --mono:"IBM Plex Mono","SFMono-Regular",Menlo,Consolas,monospace;
+  color-scheme:dark;
+}
+@media (prefers-color-scheme: light){ :root:not([data-theme="dark"]){
+  --bg:#f3f4f6; --panel:#ffffff; --panel2:#e9ecf1; --line:#cfd5de;
+  --fg:#0b0f16; --muted:#566173; --amber:#b85c00; --amber-ink:#ffffff;
+  --up:#0a7a4b; --down:#c22b30; --blue:#0b5cad; color-scheme:light } }
+:root[data-theme="light"]{
+  --bg:#f3f4f6; --panel:#ffffff; --panel2:#e9ecf1; --line:#cfd5de;
+  --fg:#0b0f16; --muted:#566173; --amber:#b85c00; --amber-ink:#ffffff;
+  --up:#0a7a4b; --down:#c22b30; --blue:#0b5cad; color-scheme:light }
+
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--bg);color:var(--fg);font-family:var(--sans);font-size:15px;line-height:1.75;margin:0}
+a{color:var(--blue);text-decoration:none} a:hover{text-decoration:underline}
+a:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+.wrap{max-width:1180px;margin:0 auto;padding-inline:20px}
+.num{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.up{color:var(--up)} .down{color:var(--down)} .am{color:var(--amber)}
+
+/* 顶栏 */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;gap:20px;flex-wrap:wrap;padding-block:10px}
+.brand{font-family:var(--serif);font-weight:700;font-size:20px;letter-spacing:.04em;display:flex;align-items:center;gap:10px}
+.brand b{background:var(--amber);color:var(--amber-ink);font-family:var(--mono);font-size:12px;font-weight:600;padding:2px 7px;letter-spacing:.08em}
+.nav{display:flex;gap:16px;flex-wrap:wrap;font-size:13px;margin-left:auto}
+.nav a{color:var(--muted)} .nav a:hover{color:var(--fg);text-decoration:none}
+
+/* 行情带 */
+.tape{background:var(--panel);border-bottom:1px solid var(--line);overflow:hidden;white-space:nowrap}
+.tape-in{display:inline-flex;gap:36px;padding:8px 18px;animation:roll 60s linear infinite}
+.tape:hover .tape-in{animation-play-state:paused}
+.tape span{font-size:12.5px;color:var(--muted)} .tape span i{font-style:normal;font-family:var(--mono);color:var(--fg);margin-left:8px}
+@keyframes roll{to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.tape-in{animation:none}.tape{overflow-x:auto}}
+
+/* 头版 */
+.hero{padding-block:44px 30px;border-bottom:1px solid var(--line)}
+.kicker{font-family:var(--mono);font-size:12px;letter-spacing:.14em;color:var(--amber);text-transform:uppercase}
+h1{font-family:var(--serif);font-weight:700;font-size:clamp(30px,5vw,54px);line-height:1.22;margin:12px 0 16px;text-wrap:balance;letter-spacing:.01em}
+.lead{max-width:42em;color:var(--muted);font-size:16.5px;line-height:1.85;margin:0}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:30px;border-top:2px solid var(--amber)}
+.stat{padding:16px 16px 14px 0;border-right:1px solid var(--line);min-width:0}
+.stat+.stat{padding-left:16px} .stat:last-child{border-right:0}
+.stat .v{font-family:var(--mono);font-size:clamp(24px,3.4vw,36px);font-weight:600;line-height:1.1}
+.stat .l{font-size:12.5px;color:var(--muted);margin-top:6px;line-height:1.5}
+
+/* 分节 */
+section{padding-block:38px;border-bottom:1px solid var(--line)}
+.sh{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin-bottom:20px}
+.sh h2{font-family:var(--serif);font-weight:700;font-size:26px;margin:0;line-height:1.25}
+.sh .tag{font-family:var(--mono);font-size:11.5px;letter-spacing:.12em;color:var(--amber-ink);background:var(--amber);padding:2px 8px}
+.sh p{margin:0;color:var(--muted);font-size:13.5px;flex-basis:100%}
+.cols{display:grid;grid-template-columns:1.1fr .9fr;gap:28px}
+.cols>*{min-width:0}
+h3{font-size:15px;margin:0 0 10px;font-weight:700}
+.note{font-size:12.5px;color:var(--muted);margin-top:10px}
+
+/* 指标表 */
+.tblw{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th{font-family:var(--mono);font-size:11.5px;font-weight:500;letter-spacing:.08em;color:var(--muted);text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);white-space:nowrap}
+td{padding:10px;border-bottom:1px solid var(--line);vertical-align:top}
+td.r,th.r{text-align:right} td.num{white-space:nowrap}
+tbody tr:hover{background:var(--panel)}
+td strong{font-weight:700}
+
+/* 贸易图 */
+.bars{display:grid;gap:12px}
+.yr{display:grid;grid-template-columns:44px 1fr;gap:10px;align-items:center}
+.yr>span{font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+.bar{display:flex;align-items:center;gap:8px;margin:2px 0}
+.bar i{display:block;height:11px;min-width:2px}
+.bar.e i{background:var(--amber)} .bar.m i{background:var(--blue)}
+.bar b{font-family:var(--mono);font-size:12px;font-weight:500}
+.legend{display:flex;gap:18px;font-size:12.5px;color:var(--muted);margin-bottom:12px;flex-wrap:wrap}
+.legend i{display:inline-block;width:10px;height:10px;margin-right:6px}
+
+/* 痛点 */
+.pains{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+.pain{background:var(--bg);padding:20px;min-width:0}
+.pain .k{font-family:var(--mono);font-size:22px;font-weight:600;color:var(--amber);line-height:1.2}
+.pain h3{font-family:var(--serif);font-size:18px;font-weight:700;margin:8px 0 6px}
+.pain p{margin:0;font-size:14.5px;line-height:1.8;color:var(--muted)}
+.pain p.do{color:var(--fg);margin-top:10px;padding-top:10px;border-top:1px dashed var(--line)}
+.pain p.do::before{content:"对策";font-family:var(--mono);font-size:11px;letter-spacing:.1em;color:var(--up);margin-right:8px}
+
+/* 路线 */
+.steps{list-style:none;margin:0;padding:0;counter-reset:s;display:grid;grid-template-columns:repeat(2,1fr);gap:0 32px}
+.steps li{counter-increment:s;display:grid;grid-template-columns:42px 1fr;gap:12px;padding:16px 0;border-top:1px solid var(--line);min-width:0}
+.steps li::before{content:counter(s,decimal-leading-zero);font-family:var(--mono);font-size:20px;font-weight:600;color:var(--amber);line-height:1.3}
+.steps h3{margin-bottom:4px;font-family:var(--serif);font-size:17px} .steps p{margin:0;font-size:14.5px;line-height:1.8;color:var(--muted)}
+
+/* 赛道 */
+.tracks{display:grid;grid-template-columns:repeat(2,1fr);gap:0 32px}
+.track{padding:16px 0;border-top:1px solid var(--line);min-width:0}
+.track h3{font-family:var(--serif);font-size:17px;font-weight:700}
+.track p{margin:0;font-size:14.5px;line-height:1.8;color:var(--muted)}
+.heat{font-family:var(--mono);font-size:11px;letter-spacing:.08em;padding:1px 6px;border:1px solid currentColor;margin-left:8px;vertical-align:2px;white-space:nowrap}
+
+/* 动态 */
+.feedhead{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:34px 0 14px;padding-top:18px;border-top:2px solid var(--amber)}
+.feedhead h3{font-family:var(--serif);font-size:20px;font-weight:700;margin:0}
+.live{font-family:var(--mono);font-size:11px;letter-spacing:.1em;color:var(--up);display:inline-flex;align-items:center;gap:6px}
+.live::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--up);animation:blink 1.6s infinite}
+@keyframes blink{50%{opacity:.25}}
+@media (prefers-reduced-motion:reduce){.live::before{animation:none}}
+.feedhead .upd{font-family:var(--mono);font-size:12px;color:var(--muted);margin-left:auto}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.chips button{font:inherit;font-size:13px;background:transparent;color:var(--muted);border:1px solid var(--line);padding:5px 12px;cursor:pointer}
+.chips button:hover{color:var(--fg);border-color:var(--muted)}
+.chips button[aria-pressed="true"]{background:var(--amber);color:var(--amber-ink);border-color:var(--amber)}
+.chips button:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+.feed{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:0 40px}
+.feed li{min-width:0}
+.feed li{display:grid;grid-template-columns:92px 1fr;gap:14px;padding:13px 0;border-bottom:1px solid var(--line)}
+.feed time{font-family:var(--mono);font-size:12.5px;color:var(--muted);padding-top:2px}
+.feed .t{font-family:var(--serif);font-weight:700;color:var(--fg);font-size:16px;line-height:1.55}
+.feed a.t:hover{color:var(--amber);text-decoration:none}
+.feed .m{font-size:12px;color:var(--muted);margin-top:4px;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.feed .k{font-family:var(--mono);font-size:11px;letter-spacing:.06em;border:1px solid currentColor;padding:0 5px}
+.feed .k.pol{color:var(--amber)} .feed .k.news{color:var(--blue)}
+.more{font:inherit;font-size:13px;margin-top:14px;background:transparent;color:var(--fg);border:1px solid var(--line);padding:8px 18px;cursor:pointer}
+.more:hover{border-color:var(--amber);color:var(--amber)}
+.more:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+.feedmsg{padding:18px 0;color:var(--muted);font-size:13.5px}
+@media (max-width:860px){.feed{grid-template-columns:1fr}}
+@media (max-width:480px){.feed li{grid-template-columns:1fr;gap:2px}}
+
+.links{display:grid;grid-template-columns:repeat(3,1fr);gap:0 28px}
+.links div{padding:12px 0;border-top:1px solid var(--line);font-size:13.5px;min-width:0}
+.links span{display:block;color:var(--muted);font-size:12.5px}
+footer{padding-block:28px 48px;font-size:12.5px;color:var(--muted)}
+footer ol{padding-left:20px;margin:8px 0 16px}
+
+@media (max-width:860px){
+  .cols,.steps,.tracks{grid-template-columns:1fr}
+  .pains{grid-template-columns:1fr}
+  .links{grid-template-columns:1fr 1fr}
+  .stats{grid-template-columns:1fr 1fr}
+  .stat{border-bottom:1px solid var(--line)} .stat:nth-child(2){border-right:0} .stat:nth-child(3){padding-left:0}
+  .nav{margin-left:0;gap:12px}
+}
+@media (max-width:480px){.links{grid-template-columns:1fr}}
+
+/* 多国：返回链接、门户首页 */
+.back{font-size:13px;color:var(--muted);border:1px solid var(--line);padding:3px 10px;white-space:nowrap}
+.back:hover{color:var(--fg);border-color:var(--muted);text-decoration:none}
+.region{padding-block:30px;border-bottom:1px solid var(--line)}
+.region h2{font-family:var(--serif);font-weight:700;font-size:24px;margin:0}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}
+.card{background:var(--bg);border:1px solid var(--line);padding:18px 20px;min-width:0;display:block;color:var(--fg)}
+a.card:hover{background:var(--panel);text-decoration:none}
+.card .cn{font-family:var(--serif);font-weight:700;font-size:21px;display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.card .cn small{font-family:var(--mono);font-size:11.5px;font-weight:500;letter-spacing:.1em;color:var(--amber)}
+.card p{margin:8px 0 12px;font-size:13.5px;color:var(--muted);line-height:1.7}
+.card dl{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:0}
+.card dt{font-size:11.5px;color:var(--muted)} .card dd{margin:2px 0 0;font-family:var(--mono);font-size:15px;font-weight:600}
+.card.soon{color:var(--muted)} .card.soon .cn{font-size:17px;color:var(--muted)}
+.card.soon .cn small{color:var(--muted)}
+.cards.mini{grid-template-columns:repeat(5,1fr);gap:8px;margin-top:10px} .cards.mini .card{padding:12px 14px}
+@media (max-width:860px){.cards{grid-template-columns:1fr}.cards.mini{grid-template-columns:repeat(2,1fr)}}
+
+.cmplink{font-family:var(--mono);font-size:12.5px;color:var(--amber);text-decoration:none;border-bottom:1px solid currentColor;margin-left:auto}
+table.cmp{min-width:980px}
+table.cmp th a{color:inherit;text-decoration:none;border-bottom:1px solid var(--line)}
+table.cmp td{vertical-align:top;font-size:13px}
+table.cmp td:first-child,table.cmp th:first-child{position:sticky;left:0;background:var(--bg);white-space:nowrap;font-weight:600}
+table.cmp tr.grp td{font-family:var(--mono);font-size:11.5px;letter-spacing:.1em;color:var(--amber);padding-top:22px;border-bottom:1px solid var(--amber)}
+table.cmp{table-layout:fixed;width:100%}
+table.cmp td,table.cmp th{white-space:normal;word-break:break-word}
+table.cmp td:first-child,table.cmp th:first-child{width:128px;white-space:normal}
+
+.alert{margin:18px 0 0;padding:10px 14px;border-left:3px solid var(--amber);background:var(--panel);font-size:13.5px;color:var(--muted);max-width:820px}
+.alert b{font-family:var(--mono);font-size:11.5px;letter-spacing:.1em;color:var(--amber);margin-right:10px}
+
+.card .cn{align-items:center}
+.flag{width:28px;height:21px;flex:none;border:1px solid var(--line);object-fit:cover}
+.card.soon .flag{width:22px;height:16.5px;opacity:.75}
+#hr td.num,table.cmp td.num{font-family:inherit;font-variant-numeric:tabular-nums;letter-spacing:0}
+.filters{display:flex;flex-wrap:wrap;gap:12px;align-items:flex-end;margin-bottom:14px}
+.filters label{display:flex;flex-direction:column;gap:4px;font-size:11.5px;color:var(--muted);font-family:var(--mono);letter-spacing:.06em}
+.filters select,.filters button{font:inherit;font-family:var(--sans);font-size:13.5px;letter-spacing:0;color:var(--fg);background:var(--panel);border:1px solid var(--line);padding:7px 10px;min-width:132px;border-radius:0}
+.filters button{min-width:0;cursor:pointer;color:var(--amber)}
+#mapbox{position:relative;border:1px solid var(--line);background:var(--panel)}
+#map{display:block;width:100%;height:auto;cursor:grab;touch-action:none}
+#map .land{fill:var(--panel2);stroke:var(--line);stroke-width:.6}
+#map .land.live{fill:color-mix(in srgb,var(--amber) 16%,var(--panel2))}
+#map circle{cursor:pointer;fill-opacity:.88}
+#map circle.on{stroke:var(--fg)!important;fill-opacity:1}
+.zoomer{position:absolute;top:10px;right:10px;display:flex;flex-direction:column;gap:4px}
+.zoomer button{width:30px;height:30px;font-size:18px;line-height:1;color:var(--fg);background:var(--bg);border:1px solid var(--line);cursor:pointer}
+#tip{position:absolute;pointer-events:none;background:var(--bg);border:1px solid var(--line);padding:8px 10px;font-size:12.5px;line-height:1.55;width:220px;z-index:2}
+#tip b{display:block;font-size:13.5px} #tip span{display:block;color:var(--muted)}
+#legend{position:absolute;left:10px;bottom:10px;display:flex;flex-wrap:wrap;gap:4px 14px;font-size:12px;color:var(--muted);background:var(--bg);border:1px solid var(--line);padding:5px 10px}
+.st{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px;vertical-align:baseline}
+table.proj td{vertical-align:top;font-size:13.5px}
+table.proj td small{display:block;color:var(--muted);font-size:12px}
+table.proj td:nth-child(5){white-space:nowrap}
+table.proj tbody tr{cursor:pointer} table.proj tbody tr:hover{background:var(--panel)}
+table.proj tbody tr.on{background:var(--panel);box-shadow:inset 3px 0 0 var(--amber)}
+.maplink{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:26px;padding:16px 20px;border:1px solid var(--line);background:var(--panel);color:var(--fg)}
+a.maplink:hover{text-decoration:none;border-color:var(--amber)}
+.maplink b{font-family:var(--serif);font-size:19px} .maplink span{color:var(--muted);font-size:13.5px} .maplink em{font-style:normal;font-family:var(--mono);font-size:12.5px;color:var(--amber)}
+
+#mapbox{background:#04101d}
+#map .shade{fill:#04101d;opacity:.28}
+#map .land{fill:none;stroke:rgba(255,255,255,.28)}
+#map .land.live{fill:rgba(255,170,60,.13);stroke:rgba(255,190,90,.9)}
+#map circle{fill-opacity:1;filter:drop-shadow(0 0 1.5px rgba(0,0,0,.8))}
+
+#mapbox{--amber:#ffa028;--up:#2fd08a;--down:#ff5a5f;--blue:#4aa8ff;--muted:#c9d1dc}
+#legend,#tip{background:rgba(4,16,29,.88);border-color:rgba(255,255,255,.18);color:#e9edf3}
+#legend{color:#c9d1dc} #tip b{color:#fff}
+.zoomer button{background:rgba(4,16,29,.88);border-color:rgba(255,255,255,.25);color:#fff}
+#map{aspect-ratio:1000/520}
+
+#map .labels{pointer-events:none}
+#map .labels text{paint-order:stroke;stroke:rgba(4,16,29,.85);stroke-width:3px;stroke-linejoin:round;font-family:var(--sans)}
+#map .labels g,#map .labels text.ctry{transition:opacity .25s}
+#map .reg text{text-anchor:middle;fill:#ffc46b}
+#map .reg .en{font-family:var(--serif);font-size:13px;letter-spacing:.14em;font-weight:700}
+#map .reg .zh{font-size:12px;fill:#fff;font-weight:600}
+#map .reg .n{font-family:var(--mono);font-size:15px;font-weight:600}
+#map .ctry{text-anchor:middle;fill:#ffe3b0;font-size:13px;font-weight:600;letter-spacing:.08em}
+#map .city text{fill:#fff;font-size:11.5px}
+#map .city rect{fill:#fff;stroke:rgba(4,16,29,.9);stroke-width:1px}
+/* 表格内的数值单元格常夹中文，统一用正文字体，等宽数字保持对齐 */
+td.num,th.num{font-family:inherit;font-variant-numeric:tabular-nums;letter-spacing:0}
+/* 用工表：左列标签不折行，右列长说明正常换行并左对齐 */
+#hr td.num{white-space:normal;text-align:left}
+#hr tbody td:first-child{white-space:nowrap;width:1%;padding-right:18px;vertical-align:top}
+#hr td{vertical-align:top}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <div class="brand">出海菲律宾 <b>PHL DESK</b></div>
+  <a class="back" href="/">全部国家</a>
+  <nav class="nav" aria-label="栏目"><a href="#market">市场</a><a href="#pain">痛点</a><a href="#road">落地</a><a href="#access">准入</a><a href="#tax">税务</a><a href="#hr">用工签证</a><a href="#sector">赛道</a><a href="#feed">动态</a><a href="#desk">官方入口</a></nav>
+</div></header>
+<div class="tape" aria-label="关键指标"><div class="tape-in" id="tape"></div></div>
+<main class="wrap">
+
+<div class="hero">
+  <div class="kicker">中国企业赴菲律宾经营简报 · 数据截至 2026-10-07</div>
+  <h1>去菲律宾做生意，先过 60/40 股比和土地这两关，再算电价和政治风险</h1>
+  <p class="lead">菲律宾人口 1.1 亿，八成国民会说英语，私人消费占 GDP 约 76%，中国连续多年是它最大的贸易伙伴和第一大进口来源地。负面清单以外的行业可以外资全资，在经济区和投资署注册的企业可享受 4–7 年免所得税。但宪法和负面清单让多数行业外资不能控股，外国人不能买地，电价位居全球前列，办事慢、物流贵；离岸博彩被全面禁止，中国使馆多次提醒菲方对中国公民和企业的盘查增多，中菲关系起伏也会直接传导到项目上。</p>
+  <div class="stats">
+    <div class="stat"><div class="v">716<small style="font-size:.5em"> 亿美元</small></div><div class="l">2024 年中菲货物贸易额<br><span class="down num">▼ 0.4%</span> 同比</div></div>
+    <div class="stat"><div class="v am">25%</div><div class="l">企业所得税<br>小企业 20%，优惠注册企业 20%</div></div>
+    <div class="stat"><div class="v am">12%</div><div class="l">增值税<br>年销售额超 300 万比索须登记</div></div>
+    <div class="stat"><div class="v">14.1<small style="font-size:.5em"> 亿美元</small></div><div class="l">2024 年底中国对菲投资存量<br>当年流量 2.1 亿美元</div></div>
+  </div>
+</div>
+
+<section id="market">
+  <div class="sh"><span class="tag">MARKET</span><h2>市场速览</h2></div>
+  <div class="cols">
+    <div>
+      <h3>宏观与成本仪表盘</h3>
+      <div class="tblw"><table>
+        <thead><tr><th>指标</th><th class="r">数值</th><th>口径</th></tr></thead>
+        <tbody>
+          <tr><td>GDP</td><td class="r num">4,616 亿美元</td><td>2024 年现价；2025 年增长 4.4%，2026 年一季度 2.8%，增速明显放缓</td></tr>
+          <tr><td>人均 GDP</td><td class="r num">3,985 美元</td><td>2024 年</td></tr>
+          <tr><td>人口</td><td class="r num">1.127 亿</td><td>2024 年普查；劳动力约 7,000 万，大马尼拉 1,348 万，华侨华人约 162 万</td></tr>
+          <tr><td>主权评级</td><td class="r num">BBB+</td><td>标普，展望积极；惠誉 BBB、穆迪 Baa2，均为稳定</td></tr>
+          <tr><td>汇率</td><td class="r num am">1 人民币 ≈ 9.37 比索</td><td>2026 年 10 月 8 日市场汇率；1 美元 ≈ 62.80 比索。比索可与美元、人民币直接交易</td></tr>
+          <tr><td>政策利率</td><td class="r num">4.50%</td><td>2025 年 12 月，全年降息 5 次共 100 个基点，三年来最低</td></tr>
+          <tr><td>最低日薪</td><td class="r num">755 比索</td><td>大马尼拉非农业，2026 年 7 月 25 日起；2027 年 1 月 20 日再升至 780 比索。各地区标准不同</td></tr>
+          <tr><td>工业电价</td><td class="r num">约 7.75 比索/度</td><td>2025 年 9 月；商业用电约 10.76 比索，居民约 13.09 比索</td></tr>
+          <tr><td>95 号汽油</td><td class="r num">约 60 比索/升</td><td>2025 年 9 月底大马尼拉；柴油约 53 比索</td></tr>
+          <tr><td>A 级写字楼月租</td><td class="r num">14–30 美元/㎡</td><td>2025 年马卡蒂；奎松市 12–18 美元，奥提加斯 6–21 美元</td></tr>
+          <tr><td>水泥</td><td class="r num">3.75–4.52 美元/袋</td><td>2025 年 9 月，40 公斤装；预拌混凝土约 83–130 美元/立方米</td></tr>
+        </tbody>
+      </table></div>
+      <p class="note">2024 年通胀 3.2%，失业率 3.8%，为 2005 年以来最低；2024 年底政府债务 16.05 万亿比索，约占 GDP 的 60.7%。2024 年吸收外国直接投资 94.4 亿美元。外汇管理宽松，外汇可自由买卖、存储和汇出；外国直接投资在资金汇入后一年内向央行登记，以便日后汇回资本和利润。携带超过 5 万比索或等值 1 万美元现金出入境须申报。中国银行、工商银行在马尼拉设有分行，银联、支付宝和微信支付在很多商店可用。整体平均月薪约 4.5 万比索，仅供参考。</p>
+    </div>
+    <div>
+      <h3>中菲货物贸易 2020–2024（亿美元）</h3>
+      <div class="legend"><span><i style="background:var(--amber)"></i>中国对菲出口</span><span><i style="background:var(--blue)"></i>中国自菲进口</span></div>
+      <div class="bars" id="bars"></div>
+      <p class="note">双边贸易额 2021 年突破 800 亿美元，2022 年达到 856.2 亿美元的高点，2023 年下降 16.1%，2024 年为 716 亿美元。中国对菲出口约是进口的 2.7 倍，2024 年顺差约 329 亿美元；中菲贸易占菲律宾外贸总额的 21.1%，菲对华逆差占其逆差总额的 40.5%。中国连续 9 年是菲律宾最大贸易伙伴和第一大进口来源地，据报道 2025 年有望连续第十年保持。2024 年中国企业在菲新签承包工程合同额 42.8 亿美元，完成营业额 26.2 亿美元。来源：中国海关总署。</p>
+    </div>
+  </div>
+</section>
+
+<section id="pain">
+  <div class="sh"><span class="tag">PAIN POINTS</span><h2>中企在菲律宾最常踩的六个坑</h2><p>按企业实际遇到的顺序排列。</p></div>
+  <div class="pains">
+    <div class="pain"><div class="k">60/40</div><h3>多数行业外资不能控股，规矩写在宪法里</h3><p>对绝大多数外资公司，菲律宾公民须持有至少 60% 的股权和表决权，董事会 60% 以上为菲律宾公民；具体行业看《外国投资负面清单》。2022 年三部法修订有所放宽：《公共服务法》把“公用事业”缩到配电、输电、油品管道、供水排水管网、海港和公共服务车辆，这些仍须菲方控股 60%，地铁、机场、铁路、高速公路等可外资 100%；外资零售最低实缴资本降到 2,500 万比索；面向国内市场的外资企业实缴资本一般不少于 20 万美元。广告业外资不超过 25%，有线电视等广播媒体只能由菲律宾人经营。</p><p class="do">立项前对照最新负面清单和行业法逐条核对。股比、董事和高管国籍按法定比例做实；出口导向项目优先走 PEZA 或投资署渠道拿全资。</p></div>
+    <div class="pain"><div class="k">买地难</div><h3>外国人不能买地，只能长租</h3><p>菲律宾土地归私人所有，外国人不能购买，外资占股不超过 40% 的菲律宾公司才能买地；外国人可以买共管式公寓。2025 年 9 月签署的第 12252 号共和国法把外国投资者租赁私人土地的期限，从“50 年、可续一次 25 年”延长到最长 99 年。但租约以投资获批并登记为前提，撤资或擅自改变用途，租约自动终止；旅游项目须投资不少于 500 万美元并在 3 年内投入 70%；涉及关键基础设施的，总统可定更短的租期。</p><p class="do">工厂优先落在经济区或工业园。签长租约前先在投资促进机构完成投资登记，把用途、续租和提前终止条款写清楚。</p></div>
+    <div class="pain"><div class="k">电价贵</div><h3>电费、物流和办事效率吃掉利润</h3><p>菲律宾电价位居全球前列，2025 年 9 月工业用电约 7.75 比索/度，全国电网与周边国家没有互联，2024 年煤电仍占装机的四成多。办理企业开业登记平均需要 80 天，海关通关时间偏长，税种多、税务审计周期长，淡水供应不足，水泥等原材料存在垄断。公路、港口急需扩容，物流成本高、耗时长。据报道，2026 年 3 月中东局势冲击燃油供应，菲总统宣布全国进入能源紧急状态，菲律宾 90% 以上的能源依赖进口。</p><p class="do">选址先算电费和停电损失，耗电大的项目考虑自建光伏加储能。开业和清关多留时间，找可靠的本地会计和报关代理。</p></div>
+    <div class="pain"><div class="k">审查</div><h3>中菲关系起伏，直接传导到项目</h3><p>据报道，中菲关系近年因南海争议趋于紧张，安全因素越来越多地影响中资项目。2023 年菲方以谈判无进展为由，放弃为棉兰老铁路寻求中国贷款，此前南长途铁路和苏比克—克拉克铁路的中方融资也未推进；2025 年 12 月，本地航运团体以国家安全为由反对中国投标人，巴丹—甲米地跨海大桥合同推迟授予，转由亚洲开发银行复核。中国驻菲使馆 2025 年 4 月和 2026 年 6 月两次提醒，菲军警对中国公民和企业的盘查、滋扰和选择性执法增多，安全风险上升。</p><p class="do">电网、港口、通信等敏感领域的项目，提前做政治和舆情评估；多边机构出资的项目按其采购规则准备。经营全程合规，遇事及时联系使馆。</p></div>
+    <div class="pain"><div class="k">POGO</div><h3>离岸博彩被全面禁止，涉博彩人员被批量遣返</h3><p>2024 年 7 月马科斯宣布全面禁止离岸博彩，11 月发布第 74 号行政令；据报道，2025 年《反离岸博彩法》（第 12312 号共和国法）把禁令写进法律，撤销相关牌照、没收涉案财产。中菲执法部门已合作遣返多批涉博彩中国公民，中国籍从业者身份敏感。据报道，在菲中企最头疼的是工作签证办理慢、税务计算复杂、海关查验频繁。</p><p class="do">派员前办妥工作许可和 9(g) 工作签证，在菲活动与签证类型一致，不逾期滞留。远离博彩及其外包服务，对租赁物业和合作方做背景调查。</p></div>
+    <div class="pain"><div class="k">40%</div><h3>政府工程外资占比受限，还要一项目一执照</h3><p>按《政府采购法》和采购政策委员会 2019 年决议，政府项目承包商外资比例不超过 40%，或联营体中外国承包商承担的合同额不超过 40%；使用地方财政资金的项目只能由本地企业或外资不超过 25% 的合资企业承揽。外国承包商须向承包商资格评审委员会（PCAB）申请特别执照，一个项目一个执照、每年更新。当地多用菲律宾标准或美标，中国标准很少被采用；基建项目履约保证金一般不少于合同额的 10%，通用合同条件下承包商免责条款很少。</p><p class="do">盯外国贷款项目和私营业主项目，通信、电力、房地产多为私企经营，对外资承包商一般没有限制。与本地承包商联营，按 PCAB 要求提前准备认证文件。</p></div>
+  </div>
+</section>
+
+<section id="road">
+  <div class="sh"><span class="tag">ROADMAP</span><h2>从国内备案到在菲开张：八步</h2></div>
+  <ol class="steps">
+    <li><div><h3>国内境外投资备案</h3><p>发改委、商务部备案或核准，再到银行办外汇登记。</p></div></li>
+    <li><div><h3>查清单，定主体</h3><p>可设公司（含一人公司）、分公司、代表处、地区总部或地区经营总部。外资超过 40% 即为外籍公司。分公司须汇入 20 万美元，代表处 3 万美元，且不得在菲取得收入；外籍一人公司实缴资本至少 20 万美元，公司秘书和财务主管须为菲律宾公民。</p></div></li>
+    <li><div><h3>在证券交易委员会注册</h3><p>通过 SEC 线上系统核名和递交文件，“快速”流程约 1 周拿到注册证明；股东 5 人以下的公司须线下申请。全体发起人实缴资本不低于认缴资本的 25%。商业名称在贸工部登记，有效期 5 年。</p></div></li>
+    <li><div><h3>申请投资优惠</h3><p>出口和制造项目向经济区管理署（PEZA）或投资署（BOI）注册，享受免税期等优惠；投资促进机构可直接批准多数项目。战略投资可走“绿色通道”加快审批。苏比克、克拉克等自由港另有管理机构。</p></div></li>
+    <li><div><h3>银行开户并向央行登记外资</h3><p>外资企业可在菲律宾银行开外汇账户。资金实际汇入后一年内向央行登记外国直接投资，日后才能顺利汇回资本和利润。分公司汇回利润按 15% 缴纳利润汇出税。</p></div></li>
+    <li><div><h3>地方许可、税务和社保登记</h3><p>在 SEC 和贸工部注册后取得所在地市长许可，到主管的国内税务局地区办公室登记。在社会保险系统（SSS）、菲律宾健康保险公司（PhilHealth）和住房公积金（Pag-IBIG）办理雇主登记。</p></div></li>
+    <li><div><h3>办外籍员工工作许可和签证</h3><p>先向劳工和就业部申请外国人就业许可（AEP），须通过劳动力市场测试，每雇 1 名外国人至少培训 2 名菲律宾人；再向移民局申请 9(g) 工作签证并办理 I-Card。员工到菲后先办临时工作许可。PEZA 和投资署企业的外籍员工可办特别签证。</p></div></li>
+    <li><div><h3>按月预扣，按季报税</h3><p>预提税每月 10 日前申报缴纳；增值税在每季度结束后 25 天内申报。公司所得税年度申报在次年 4 月 15 日前（会计年度为结束后第四个月 15 日前）。享受优惠的企业在申报截止后 30 天内向对应投资促进机构提交年度报告。</p></div></li>
+  </ol>
+</section>
+
+<section id="access">
+  <div class="sh"><span class="tag">ENTRY</span><h2>外资准入与落脚点</h2><p>负面清单以外的行业可以外资全资，清单内按宪法和行业法限股比。出口导向和优先产业走 PEZA、投资署渠道，可拿全资和税收优惠。</p></div>
+  <div class="tblw"><table>
+    <thead><tr><th>落脚点</th><th class="r">外资持股</th><th>能做什么</th><th>税负</th><th>适合</th></tr></thead>
+    <tbody>
+      <tr><td><strong>普通公司</strong><br>负面清单以外行业</td><td class="r num">最高 100%</td><td>面向国内市场的外资企业实缴资本一般不少于 20 万美元，初创企业等可降至 10 万美元</td><td>所得税 25%；小企业 20%；第 4 年起适用 2% 最低税</td><td>不需要优惠的制造和贸易</td></tr>
+      <tr><td><strong>PEZA 经济区</strong><br>419 个特殊经济区</td><td class="r num up">可 100%</td><td>制造业经济区、IT 园区、农工区、旅游区等。设备和原料免进口关税，本地采购免增值税，外籍高管可办多次入境特别签证</td><td>免所得税 4–7 年，之后 5% 特殊所得税或加计扣除二选一，最长 10 年</td><td>出口加工、IT 和业务流程外包</td></tr>
+      <tr><td><strong>投资署注册项目</strong><br>战略投资优先计划</td><td class="r num up">先锋项目可控股</td><td>列入优先计划的行业可享优惠；离首都越远免税期越长。外资控股的先锋项目一般须 70% 产品出口</td><td>免所得税 4–7 年；加计扣除制度下所得税 20%，电费、研发、培训可加计扣除 100%</td><td>制造、新能源和大型投资</td></tr>
+      <tr><td><strong>零售</strong></td><td class="r num">可 100%</td><td>外资零售最低实缴资本 2,500 万比索；开多家店的，每家店投资门槛不到 20 万美元。外资 80% 以上的零售企业无须公开发售股份</td><td>所得税 25%；增值税 12%</td><td>品牌连锁和电商</td></tr>
+      <tr><td><strong>地铁、铁路、机场、航空、高速公路</strong></td><td class="r num up">可 100%</td><td>2022 年《公共服务法》修订后不再算公用事业。外国国有企业另有规定</td><td>所得税 25%；可走 PPP，特许期多为 25–35 年</td><td>交通和通信基建投资</td></tr>
+      <tr><td><strong>发电</strong></td><td class="r num up">可 100%</td><td>可再生能源项目可外资全资；不使用菲本国资源的发电也可全资，否则外资最高 40%</td><td>所得税 25%；可申请投资优惠</td><td>光伏、储能、地热、风电</td></tr>
+      <tr><td><strong>公用事业</strong><br>配电、输电、供水、海港、公共服务车辆</td><td class="r num am">≤40%</td><td>菲方控股 60% 以上，经营管理者须为菲律宾公民</td><td>所得税 25%；部分行业另征比例税</td><td>以设备和工程切入</td></tr>
+      <tr><td><strong>工程承包</strong></td><td class="r num am">政府项目 ≤40%</td><td>地方财政项目外资不超过 25%；须持 PCAB 特别执照，一个项目一个执照。外国自然人不能承揽工程</td><td>所得税 25%</td><td>外国贷款项目和私营业主项目</td></tr>
+      <tr><td><strong>矿业</strong></td><td class="r num am">≤40%</td><td>采矿生产分成协议要求外资低于 40%；大规模开发可签融资和技术援助协议，门槛极高；小型开采只发给菲律宾人</td><td>所得税 25%</td><td>采购、加工和技术服务</td></tr>
+      <tr><td><strong>土地、媒体、广告</strong></td><td class="r num down">受限</td><td>买地的公司外资不超过 40%；广告业外资不超过 25%；有线电视等广播媒体只能由菲律宾人经营</td><td>—</td><td>长租土地，以技术和内容合作切入</td></tr>
+    </tbody>
+  </table></div>
+  <p class="note">银行业已全面放开，可设外商独资银行，但菲银行体系总体至少 60% 须由国内银行控制。外国公司可在证券交易所买卖股票，持股上限须符合外资规定。并购按国内程序办理，受《竞争法》约束。2024 年 11 月起实施的 CREATE MORE 法案扩大了可享优惠的企业范围，并明确了增值税免税和零税率的适用条件。</p>
+</section>
+
+<section id="tax">
+  <div class="sh"><span class="tag">TAX</span><h2>税务速查</h2><p>国内税务局管所得税、增值税、比例税和印花税，海关管关税，地方政府征营业税和不动产税。增值税按季申报，预提税按月缴纳。</p></div>
+  <div class="cols">
+    <div>
+      <div class="tblw"><table>
+        <thead><tr><th>税种</th><th class="r">税率</th><th>要点</th></tr></thead>
+        <tbody>
+          <tr><td>企业所得税</td><td class="r num">25%</td><td>本地公司就境内外所得纳税，外国公司分支机构只就境内所得纳税；亏损可向后结转 3 年</td></tr>
+          <tr><td>小企业优惠税率</td><td class="r num up">20%</td><td>资产不超过 1 亿比索（不含土地）且应税所得不超过 500 万比索</td></tr>
+          <tr><td>最低企业所得税</td><td class="r num">2%</td><td>从经营第 4 年起，按总收入的 2% 与正常税额比较，取高者；亏损也要交</td></tr>
+          <tr><td>优惠注册企业</td><td class="r num up">20% / 5%</td><td>加计扣除制度下所得税 20%；或按总收入 5% 缴纳特殊所得税，代替全部国税和地方税</td></tr>
+          <tr><td>增值税</td><td class="r num am">12%</td><td>年销售额超过 300 万比索须登记；出口零税率；季度结束后 25 天内申报</td></tr>
+          <tr><td>数字服务增值税</td><td class="r num">12%</td><td>2024 年 10 月起，境外平台向菲律宾消费者提供数字服务也要缴纳</td></tr>
+          <tr><td>比例税</td><td class="r num">3%</td><td>未登记增值税的小经营者按总销售额征收；银行、保险、电信等另有税率</td></tr>
+          <tr><td>分公司利润汇出税</td><td class="r num">15%</td><td>按汇回总额征收，不作任何扣除；PEZA 注册的活动除外</td></tr>
+          <tr><td>进口关税</td><td class="r num">0%–30%</td><td>东盟成员国产品零关税；原木出口征 20% 出口税</td></tr>
+          <tr><td>非上市股权转让</td><td class="r num">15%</td><td>出售未在证券交易所交易的本地公司股票，按净资本利得征收</td></tr>
+          <tr><td>个人所得税</td><td class="r num">0%–35%</td><td>超额累进；一个日历年在菲停留超过 180 天的外国人为居民外国人，只就境内所得纳税</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+    <div>
+      <h3>向中国母公司付款的预提税</h3>
+      <div class="tblw"><table>
+        <thead><tr><th>款项</th><th class="r">菲律宾国内法</th><th class="r">中菲协定上限</th></tr></thead>
+        <tbody>
+          <tr><td>股息</td><td class="r num">15%（母国给予抵免时）</td><td class="r num up">10%（持股 ≥10%）/ 15%；最惠国条款下持股 ≥70% 可降至 5%</td></tr>
+          <tr><td>利息</td><td class="r num">20%（外国贷款）</td><td class="r num up">10%；中国政府及其全资金融机构提供资金的免税</td></tr>
+          <tr><td>特许权使用费</td><td class="r num">25%</td><td class="r num up">版权 15%；专利、商标、专有技术 10%（须为经批准的技术转让合同）</td></tr>
+          <tr><td>服务费</td><td class="r num">25%</td><td class="r num">无常设机构的不在菲征税</td></tr>
+          <tr><td>分公司利润汇出</td><td class="r num down">15%</td><td class="r num up">10%</td></tr>
+          <tr><td>非上市股权转让</td><td class="r num">15%</td><td class="r num">—</td></tr>
+        </tbody>
+      </table></div>
+      <h3 style="margin-top:20px">四条要提前安排的规则</h3>
+      <p style="margin:0;font-size:13.5px;color:var(--muted)"><strong style="color:var(--fg)">工程和劳务常设机构。</strong>建筑工地、工程或相关监督管理活动连续 6 个月以上，或派员提供劳务（含咨询）在任何 12 个月中连续或累计超过 6 个月，即构成常设机构，利润须在菲律宾纳税。<br><strong style="color:var(--fg)">协定待遇要主动申请。</strong>取得股息、利息、特许权使用费的中方须是受益所有人，导管公司和名义持有人享受不到。协定待遇和国内法税率取低者；股息的最惠国安排取决于持股比例。<br><strong style="color:var(--fg)">关联交易要报表留档。</strong>大型纳税人、享受优惠的企业、连续三年亏损的企业及其关联方，须随年度所得税申报表提交 1709 号关联交易表；转让定价文档平时留存，税务局要求后 30 天内提交，不得延期。目前没有资本弱化规则。<br><strong style="color:var(--fg)">免税期也有申报义务。</strong>享受免税期或加计扣除的企业，申报所得税前先向投资促进机构申请税收优惠证明并附在年度申报表中，截止日后 30 天内再向该机构报送年度报告。</p>
+    </div>
+  </div>
+</section>
+
+<section id="hr">
+  <div class="sh"><span class="tag">PEOPLE</span><h2>用工与签证</h2></div>
+  <div class="cols">
+    <div>
+      <h3>劳动法底线</h3>
+      <div class="tblw"><table>
+        <tbody>
+          <tr><td>标准工时</td><td class="num r">每天不超过 8 小时，每周不超过 48 小时；连续工作 6 天后须休息连续 24 小时。多数企业周一至周五工作</td></tr>
+          <tr><td>加班费</td><td class="num r">工作日加班按日薪 1.25 倍；休息日或特别假日前 8 小时 1.3 倍；法定假日 2 倍，超过 8 小时 2.6 倍</td></tr>
+          <tr><td>最低工资</td><td class="num r">大马尼拉非农业每天 755 比索，2026 年 7 月 25 日起；2027 年 1 月 20 日升至 780 比索。各地区、行业标准不同</td></tr>
+          <tr><td>第 13 个月工资</td><td class="num r">每年 12 月 24 日前发放，入职不满一年的按比例发放。工资实行双周薪，发放间隔不超过 16 天</td></tr>
+          <tr><td>社会保险</td><td class="num r">SSS 合计 15%，雇主 10%、雇员 5%，月薪基数上限 3.5 万比索；PhilHealth 5%，双方各半；Pag-IBIG 双方各 2%，基数上限 1 万比索</td></tr>
+          <tr><td>假期</td><td class="num r">工作满 12 个月享 5 天带薪年假，未用可折现；女性带薪产假 105 天，可再延 30 天无薪；已婚男性陪产假 7 天</td></tr>
+          <tr><td>试用期</td><td class="num r">最长 6 个月；期满前不通知不录用理由的，自动转为正式员工</td></tr>
+          <tr><td>裁员和补偿</td><td class="num r">须有法定正当理由或授权理由并履行“双通知”程序，至少提前 1 个月书面通知员工和劳工部；冗员按每工作 1 年补 1 个月工资，减损裁员或歇业按每年半个月，均不少于 1 个月工资</td></tr>
+        </tbody>
+      </table></div>
+      <p class="note">工会组织多、势力较大，在劳动密集型产业里劳资纠纷常见。政府严打用短期合同和派遣工规避正式雇佣，2018 年快乐蜂公司就被劳工部责令把 6,000 多名派遣工转为正式员工。法律未强制要求带薪病假和事假。菲律宾在 2025 年全球恐怖主义指数中排第 20 位，绑架、凶杀、抢劫时有发生；菲律宾人约 85% 信奉天主教，讲究礼节。</p>
+    </div>
+    <div>
+      <h3>外籍员工怎么进来</h3>
+      <div class="tblw"><table>
+        <thead><tr><th>事项</th><th>要点</th></tr></thead>
+        <tbody>
+          <tr><td>外国人就业许可（AEP）</td><td>由雇主向劳工和就业部申请，须证明菲律宾国内无人愿意或胜任该岗位，通过劳动力市场测试并提交替代培训计划，每雇 1 名外国人至少培训 2 名菲律宾人。有效期一般 1 年</td></tr>
+          <tr><td>9(g) 工作签证</td><td>凭 AEP 向移民局申请，经移民局理事会批准，并办理外国人身份证（I-Card）。有效期与 AEP 或劳动合同中先到期者一致。手续繁琐、周期长，多通过代理办理，要甄别资质</td></tr>
+          <tr><td>临时工作许可</td><td>员工到菲后第一时间申请；身份变更审批期间要上班的，须办临时工作许可</td></tr>
+          <tr><td>经济区和投资署企业</td><td>PEZA、投资署注册企业的外籍员工可办 47(a)(2) 特别非移民签证，多次入境；PEZA 企业员工免在移民局留指纹，但仍须 AEP。投资署企业和跨国公司地区总部可按第 226 号行政令办签证，免 AEP</td></tr>
+          <tr><td>免签和商务入境</td><td>2026 年 1 月 16 日起持普通护照的中国公民可免签入境，停留不超过 14 天，暂定一年，只限马尼拉和宿务两个国际机场，限旅游和商务，不能延期或转工作签证。务工、留学须事先办签证</td></tr>
+          <tr><td>访问签证</td><td>9(a) 临时访客签证可用于商务、旅游，通常初次停留 59 天，可延至一年；在菲境内可申请转为其他类别签证</td></tr>
+        </tbody>
+      </table></div>
+      <p class="note">中国驻菲使馆多次提醒，菲军警对中国公民和企业的盘查增多，务必证件齐全、不从事与签证不符的活动、不逾期滞留。中资企业到菲后应到中国驻菲使馆经商处备案登记，并加入菲律宾中资企业总商会。尽量雇用当地员工，国内只派必要的管理和技术人员。</p>
+    </div>
+  </div>
+</section>
+
+<section id="sector">
+  <div class="sh"><span class="tag">SECTORS</span><h2>机会在哪里</h2><p>“好建多建”基建计划和能源转型的重点方向，叠加中企已经落地的项目。</p></div>
+  <div class="tracks">
+    <div class="track"><h3>光伏与储能 <span class="heat up">规模最大</span></h3><p>菲律宾目标是可再生能源发电占比 2030 年达 35%、2040 年达 50%，2020 年起不再批准新的燃煤电站，可再生能源项目允许外资全资。中国电建、中国能建共同承建的 Terra Solar 项目规划光伏约 3,500 兆瓦、储能 4,500 兆瓦时，是东南亚规模最大的光储一体化项目。据报道，中国能建 2025 年中标菲律宾首个大型漂浮式光伏（130 兆瓦），承建的巴科洛德 50 兆瓦光伏 2025 年 11 月全容量并网。</p></div>
+    <div class="track"><h3>水电与抽水蓄能 <span class="heat up">长周期</span></h3><p>水电合作是中菲清洁能源合作的重点。2023 年 8 月中国电建与 Prime Infra 签署 WAWA 500 兆瓦抽水蓄能项目总包合同；中国能建承建的良安水电站为可再生能源 PPP 项目。2024 年全国装机 29,706 兆瓦，水电 3,836 兆瓦。据报道，中国驻菲使馆把帕基尔抽水蓄能项目列为合作示范，垃圾发电、分布式能源和太阳能灌溉也被点名为潜力方向。</p></div>
+    <div class="track"><h3>镍矿与矿产 <span class="heat am">政策反复</span></h3><p>菲律宾三分之一以上国土具有高矿产潜力，已开采的不到储量的 5%，主要镍矿由亚洲镍业和环球镍业开采。据报道，菲律宾镍矿石大部分运往中国；2025 年提出的原矿出口禁令最终未写入矿业财税法案，但高电价、基础设施弱和许可拖延仍制约下游冶炼投资。采矿权外资一般须低于 40%。</p></div>
+    <div class="track"><h3>电动车与汽车 <span class="heat up">增长最快</span></h3><p>据报道，菲律宾对纯电动车及零部件、混动汽车等实行零关税，延至 2028 年。2025 年菲新车销量约 49 万辆，中国品牌份额约 9.56%，比亚迪售出 26,122 辆、排名第三；2026 年 1–8 月比亚迪销量 28,399 辆，同比增长 99%。油价上涨也在推动消费者转向电动车。</p></div>
+    <div class="track"><h3>钢铁与制造 <span class="heat am">起步阶段</span></h3><p>制造业增加值约占 GDP 的 15.7%，以电子元器件、食品加工和化工为主。2025 年上半年 PEZA 核准投资 723.6 亿比索，同比增长 59.1%，中国是主要来源之一。据报道，攀华集团在南部萨兰加尼省投资 35 亿美元建设钢铁、港口、工业园和电厂一体化项目，2025 年 5 月首卷彩涂板下线，全面投产后将创造约 2.5 万个就业岗位。</p></div>
+    <div class="track"><h3>基建与水利 <span class="heat am">门槛高</span></h3><p>“好建多建”计划 2023–2028 年拟投资约 8.8 万亿比索建设 198 个重点项目，道路、桥梁、港口、机场和公共交通占 83%；2023 年底生效的 PPP 法典统一了审批和招标流程。据报道，中国能建承建、中国进出口银行提供约 2.1 亿美元优惠贷款的卡利瓦大坝预计 2027 年投入运行；但防洪工程腐败丑闻后菲政府收紧支出，2026 年 1–4 月基建等资本支出同比下降 45.6%。</p></div>
+  </div>
+  <div class="feedhead" id="feed"><h3>赛道动态</h3><span class="live">LIVE</span><span class="upd" id="upd"></span></div>
+  <div class="chips" id="chips" role="group" aria-label="按赛道筛选"></div>
+  <ul class="feed" id="feedlist"></ul>
+  <button type="button" class="more" id="more" hidden>显示更多</button>
+  <div class="feedmsg" id="feedmsg">正在载入各赛道的最新新闻与政策……</div>
+
+</section>
+
+<section id="desk">
+  <div class="sh"><span class="tag">DIRECTORY</span><h2>官方入口</h2></div>
+  <div class="links">
+    <div><a href="https://www.boi.gov.ph">贸工部投资署 BOI</a><span>投资优先计划、税收优惠注册</span></div>
+    <div><a href="https://www.peza.gov.ph">经济区管理署 PEZA</a><span>经济区注册、优惠和外籍员工签证</span></div>
+    <div><a href="https://www.sec.gov.ph">证券交易委员会 SEC</a><span>公司、分公司和代表处注册</span></div>
+    <div><a href="https://www.bir.gov.ph">国内税务局 BIR</a><span>税务登记、申报和协定待遇</span></div>
+    <div><a href="https://www.customs.gov.ph">海关管理局</a><span>进出口通关和关税</span></div>
+    <div><a href="https://www.dole.gov.ph">劳工和就业部 DOLE</a><span>劳动法、外国人就业许可 AEP</span></div>
+    <div><a href="https://www.immigration.gov.ph">移民局</a><span>9(g) 工作签证、I-Card</span></div>
+    <div><a href="https://www.bsp.gov.ph">菲律宾中央银行 BSP</a><span>外汇管理、外资登记和汇率</span></div>
+    <div><a href="http://ph.mofcom.gov.cn">中国驻菲律宾使馆经商处</a><span>经贸政策咨询和中资企业备案登记</span></div>
+  </div>
+</section>
+
+</main>
+<footer class="wrap">
+  本页为公开信息整理，不构成法律、税务或投资意见。门槛和税率每年调整，具体交易请以官方最新文本和专业顾问意见为准。
+</footer>
+<script>
+const META={"slug": "philippines", "tape": [["企业所得税", "25%"], ["增值税", "12%"], ["股息预提税(协定)", "10%"], ["分公司汇出税", "15%"], ["最低工资", "755 PHP/日"], ["汇率", "1 CNY≈9.37 PHP"], ["中菲贸易 2024", "US$716亿"], ["对菲出口", "US$522.7亿"], ["自菲进口", "US$193.3亿"], ["对菲投资存量", "US$14.1亿"], ["对菲投资流量 2024", "US$2.1亿"], ["主权评级", "BBB+"]], "bars": {"max": 700, "data": [[2020, 418.8, 193.4], [2021, 559.1, 247.5], [2022, 626.1, 230.1], [2023, 524.0, 194.8], [2024, 522.7, 193.3]]}, "sect": {"energy": "新能源", "trade": "贸易物流", "infra": "工程基建", "finance": "金融", "tech": "数字经济", "industry": "制造业", "general": "综合经贸"}, "feed": "/philippines/news.json"};
+const t=document.getElementById("tape");
+if(t){const h=META.tape.map(([k,v])=>`<span>${k}<i>${v}</i></span>`).join("");t.innerHTML=h+h}
+const bars=document.getElementById("bars");
+if(bars){const max=META.bars.max;bars.innerHTML=META.bars.data.map(([y,e,m])=>`<div class="yr"><span>${y}</span><div><div class="bar e"><i style="width:${e/max*82}%"></i><b>${e}</b></div><div class="bar m"><i style="width:${m/max*82}%"></i><b>${m}</b></div></div></div>`).join("")}
+/* 动态：读取本国 news.json，每日自动更新 */
+const SECT=Object.assign({all:"全部"},META.sect),KEY="sect-"+META.slug;
+let rows=[],cur="all",shown=16;
+try{cur=localStorage.getItem(KEY)||"all"}catch(e){}
+if(!SECT[cur])cur="all";
+const chips=document.getElementById("chips"),list=document.getElementById("feedlist"),msg=document.getElementById("feedmsg");
+function el(tag,cls,txt){const e=document.createElement(tag);if(cls)e.className=cls;if(txt!=null)e.textContent=txt;return e}
+function drawChips(){chips.textContent="";for(const k in SECT){const n=k==="all"?rows.length:rows.filter(r=>r.sector===k).length;const b=el("button",null,SECT[k]+(rows.length?" "+n:""));b.type="button";b.id="chip-"+k;b.setAttribute("aria-pressed",String(k===cur));b.onclick=()=>{cur=k;shown=16;try{localStorage.setItem(KEY,k)}catch(e){}draw()};chips.appendChild(b)}}
+function draw(){drawChips();list.textContent="";const show=rows.filter(r=>cur==="all"||r.sector===cur);
+  for(const r of show.slice(0,shown)){const li=el("li");li.appendChild(el("time",null,r.date||"—"));const d=el("div");
+    const ok=typeof r.url==="string"&&/^https?:\/\//.test(r.url);const a=el(ok?"a":"span","t",r.title||"");if(ok){a.href=r.url;a.target="_blank";a.rel="noopener"}d.appendChild(a);
+    const m=el("div","m");const pol=r.kind==="政策";m.appendChild(el("span","k "+(pol?"pol":"news"),pol?"政策":"新闻"));m.appendChild(el("span",null,SECT[r.sector]||""));if(r.source)m.appendChild(el("span",null,r.source));d.appendChild(m);li.appendChild(d);list.appendChild(li)}
+  const mb=document.getElementById("more");mb.hidden=show.length<=shown;mb.textContent="显示更多（还有 "+(show.length-shown)+" 条）";
+  msg.hidden=show.length>0;if(!show.length)msg.textContent=rows.length?"这个类别暂时没有新动态。":"暂无动态。每日更新后，这里会自动出现新闻与政策。";
+  const last=rows.map(r=>r.added||r.date||"").sort().pop();document.getElementById("upd").textContent=last?"最近更新 "+last:""}
+if(chips){drawChips();
+document.getElementById("more").onclick=()=>{shown+=16;draw()};
+fetch(META.feed,{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(j=>{rows=(j.items||[]).slice().sort((x,y)=>String(y.date||"").localeCompare(String(x.date||"")));draw()}).catch(()=>{msg.hidden=false;msg.textContent="动态暂时无法载入，请稍后刷新。"})}
+</script>
+</body>
+</html>
