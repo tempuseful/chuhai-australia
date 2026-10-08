@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>出海泰国</title>
+<meta name="description" content="面向中国企业的赴泰国经营简报：市场数据、常见痛点、落地八步、外资准入与 BOI 优惠、税务与用工签证速查，新闻与政策动态。">
+<link rel="stylesheet" href="/fonts/fonts.css">
+<style>
+/* 布局：终端式行情带 + 财经头版。全宽黑底栏目条分节，数据用等宽字，标题用重磅宋体 */
+:root{
+  --bg:#07090d; --panel:#0e1219; --panel2:#141a24; --line:#232b38;
+  --fg:#e9edf3; --muted:#8b96a8; --amber:#ffa028; --amber-ink:#07090d;
+  --up:#2fd08a; --down:#ff5a5f; --blue:#4aa8ff;
+  --serif:"Noto Serif SC","Songti SC","Source Han Serif SC","SimSun",serif;
+  --sans:"PingFang SC","HarmonyOS Sans SC","Microsoft YaHei","Noto Sans CJK SC","Noto Sans SC",system-ui,sans-serif;
+  --mono:"IBM Plex Mono","SFMono-Regular",Menlo,Consolas,monospace;
+  color-scheme:dark;
+}
+@media (prefers-color-scheme: light){ :root:not([data-theme="dark"]){
+  --bg:#f3f4f6; --panel:#ffffff; --panel2:#e9ecf1; --line:#cfd5de;
+  --fg:#0b0f16; --muted:#566173; --amber:#b85c00; --amber-ink:#ffffff;
+  --up:#0a7a4b; --down:#c22b30; --blue:#0b5cad; color-scheme:light } }
+:root[data-theme="light"]{
+  --bg:#f3f4f6; --panel:#ffffff; --panel2:#e9ecf1; --line:#cfd5de;
+  --fg:#0b0f16; --muted:#566173; --amber:#b85c00; --amber-ink:#ffffff;
+  --up:#0a7a4b; --down:#c22b30; --blue:#0b5cad; color-scheme:light }
+
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--bg);color:var(--fg);font-family:var(--sans);font-size:15px;line-height:1.75;margin:0}
+a{color:var(--blue);text-decoration:none} a:hover{text-decoration:underline}
+a:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+.wrap{max-width:1180px;margin:0 auto;padding-inline:20px}
+.num{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.up{color:var(--up)} .down{color:var(--down)} .am{color:var(--amber)}
+
+/* 顶栏 */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;gap:20px;flex-wrap:wrap;padding-block:10px}
+.brand{font-family:var(--serif);font-weight:700;font-size:20px;letter-spacing:.04em;display:flex;align-items:center;gap:10px}
+.brand b{background:var(--amber);color:var(--amber-ink);font-family:var(--mono);font-size:12px;font-weight:600;padding:2px 7px;letter-spacing:.08em}
+.nav{display:flex;gap:16px;flex-wrap:wrap;font-size:13px;margin-left:auto}
+.nav a{color:var(--muted)} .nav a:hover{color:var(--fg);text-decoration:none}
+
+/* 行情带 */
+.tape{background:var(--panel);border-bottom:1px solid var(--line);overflow:hidden;white-space:nowrap}
+.tape-in{display:inline-flex;gap:36px;padding:8px 18px;animation:roll 60s linear infinite}
+.tape:hover .tape-in{animation-play-state:paused}
+.tape span{font-size:12.5px;color:var(--muted)} .tape span i{font-style:normal;font-family:var(--mono);color:var(--fg);margin-left:8px}
+@keyframes roll{to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.tape-in{animation:none}.tape{overflow-x:auto}}
+
+/* 头版 */
+.hero{padding-block:44px 30px;border-bottom:1px solid var(--line)}
+.kicker{font-family:var(--mono);font-size:12px;letter-spacing:.14em;color:var(--amber);text-transform:uppercase}
+h1{font-family:var(--serif);font-weight:700;font-size:clamp(30px,5vw,54px);line-height:1.22;margin:12px 0 16px;text-wrap:balance;letter-spacing:.01em}
+.lead{max-width:42em;color:var(--muted);font-size:16.5px;line-height:1.85;margin:0}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:30px;border-top:2px solid var(--amber)}
+.stat{padding:16px 16px 14px 0;border-right:1px solid var(--line);min-width:0}
+.stat+.stat{padding-left:16px} .stat:last-child{border-right:0}
+.stat .v{font-family:var(--mono);font-size:clamp(24px,3.4vw,36px);font-weight:600;line-height:1.1}
+.stat .l{font-size:12.5px;color:var(--muted);margin-top:6px;line-height:1.5}
+
+/* 分节 */
+section{padding-block:38px;border-bottom:1px solid var(--line)}
+.sh{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin-bottom:20px}
+.sh h2{font-family:var(--serif);font-weight:700;font-size:26px;margin:0;line-height:1.25}
+.sh .tag{font-family:var(--mono);font-size:11.5px;letter-spacing:.12em;color:var(--amber-ink);background:var(--amber);padding:2px 8px}
+.sh p{margin:0;color:var(--muted);font-size:13.5px;flex-basis:100%}
+.cols{display:grid;grid-template-columns:1.1fr .9fr;gap:28px}
+.cols>*{min-width:0}
+h3{font-size:15px;margin:0 0 10px;font-weight:700}
+.note{font-size:12.5px;color:var(--muted);margin-top:10px}
+
+/* 指标表 */
+.tblw{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th{font-family:var(--mono);font-size:11.5px;font-weight:500;letter-spacing:.08em;color:var(--muted);text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);white-space:nowrap}
+td{padding:10px;border-bottom:1px solid var(--line);vertical-align:top}
+td.r,th.r{text-align:right} td.num{white-space:nowrap}
+tbody tr:hover{background:var(--panel)}
+td strong{font-weight:700}
+
+/* 贸易图 */
+.bars{display:grid;gap:12px}
+.yr{display:grid;grid-template-columns:44px 1fr;gap:10px;align-items:center}
+.yr>span{font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+.bar{display:flex;align-items:center;gap:8px;margin:2px 0}
+.bar i{display:block;height:11px;min-width:2px}
+.bar.e i{background:var(--amber)} .bar.m i{background:var(--blue)}
+.bar b{font-family:var(--mono);font-size:12px;font-weight:500}
+.legend{display:flex;gap:18px;font-size:12.5px;color:var(--muted);margin-bottom:12px;flex-wrap:wrap}
+.legend i{display:inline-block;width:10px;height:10px;margin-right:6px}
+
+/* 痛点 */
+.pains{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+.pain{background:var(--bg);padding:20px;min-width:0}
+.pain .k{font-family:var(--mono);font-size:22px;font-weight:600;color:var(--amber);line-height:1.2}
+.pain h3{font-family:var(--serif);font-size:18px;font-weight:700;margin:8px 0 6px}
+.pain p{margin:0;font-size:14.5px;line-height:1.8;color:var(--muted)}
+.pain p.do{color:var(--fg);margin-top:10px;padding-top:10px;border-top:1px dashed var(--line)}
+.pain p.do::before{content:"对策";font-family:var(--mono);font-size:11px;letter-spacing:.1em;color:var(--up);margin-right:8px}
+
+/* 路线 */
+.steps{list-style:none;margin:0;padding:0;counter-reset:s;display:grid;grid-template-columns:repeat(2,1fr);gap:0 32px}
+.steps li{counter-increment:s;display:grid;grid-template-columns:42px 1fr;gap:12px;padding:16px 0;border-top:1px solid var(--line);min-width:0}
+.steps li::before{content:counter(s,decimal-leading-zero);font-family:var(--mono);font-size:20px;font-weight:600;color:var(--amber);line-height:1.3}
+.steps h3{margin-bottom:4px;font-family:var(--serif);font-size:17px} .steps p{margin:0;font-size:14.5px;line-height:1.8;color:var(--muted)}
+
+/* 赛道 */
+.tracks{display:grid;grid-template-columns:repeat(2,1fr);gap:0 32px}
+.track{padding:16px 0;border-top:1px solid var(--line);min-width:0}
+.track h3{font-family:var(--serif);font-size:17px;font-weight:700}
+.track p{margin:0;font-size:14.5px;line-height:1.8;color:var(--muted)}
+.heat{font-family:var(--mono);font-size:11px;letter-spacing:.08em;padding:1px 6px;border:1px solid currentColor;margin-left:8px;vertical-align:2px;white-space:nowrap}
+
+/* 动态 */
+.feedhead{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:34px 0 14px;padding-top:18px;border-top:2px solid var(--amber)}
+.feedhead h3{font-family:var(--serif);font-size:20px;font-weight:700;margin:0}
+.live{font-family:var(--mono);font-size:11px;letter-spacing:.1em;color:var(--up);display:inline-flex;align-items:center;gap:6px}
+.live::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--up);animation:blink 1.6s infinite}
+@keyframes blink{50%{opacity:.25}}
+@media (prefers-reduced-motion:reduce){.live::before{animation:none}}
+.feedhead .upd{font-family:var(--mono);font-size:12px;color:var(--muted);margin-left:auto}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.chips button{font:inherit;font-size:13px;background:transparent;color:var(--muted);border:1px solid var(--line);padding:5px 12px;cursor:pointer}
+.chips button:hover{color:var(--fg);border-color:var(--muted)}
+.chips button[aria-pressed="true"]{background:var(--amber);color:var(--amber-ink);border-color:var(--amber)}
+.chips button:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+.feed{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:0 40px}
+.feed li{min-width:0}
+.feed li{display:grid;grid-template-columns:92px 1fr;gap:14px;padding:13px 0;border-bottom:1px solid var(--line)}
+.feed time{font-family:var(--mono);font-size:12.5px;color:var(--muted);padding-top:2px}
+.feed .t{font-family:var(--serif);font-weight:700;color:var(--fg);font-size:16px;line-height:1.55}
+.feed a.t:hover{color:var(--amber);text-decoration:none}
+.feed .m{font-size:12px;color:var(--muted);margin-top:4px;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.feed .k{font-family:var(--mono);font-size:11px;letter-spacing:.06em;border:1px solid currentColor;padding:0 5px}
+.feed .k.pol{color:var(--amber)} .feed .k.news{color:var(--blue)}
+.more{font:inherit;font-size:13px;margin-top:14px;background:transparent;color:var(--fg);border:1px solid var(--line);padding:8px 18px;cursor:pointer}
+.more:hover{border-color:var(--amber);color:var(--amber)}
+.more:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+.feedmsg{padding:18px 0;color:var(--muted);font-size:13.5px}
+@media (max-width:860px){.feed{grid-template-columns:1fr}}
+@media (max-width:480px){.feed li{grid-template-columns:1fr;gap:2px}}
+
+.links{display:grid;grid-template-columns:repeat(3,1fr);gap:0 28px}
+.links div{padding:12px 0;border-top:1px solid var(--line);font-size:13.5px;min-width:0}
+.links span{display:block;color:var(--muted);font-size:12.5px}
+footer{padding-block:28px 48px;font-size:12.5px;color:var(--muted)}
+footer ol{padding-left:20px;margin:8px 0 16px}
+
+@media (max-width:860px){
+  .cols,.steps,.tracks{grid-template-columns:1fr}
+  .pains{grid-template-columns:1fr}
+  .links{grid-template-columns:1fr 1fr}
+  .stats{grid-template-columns:1fr 1fr}
+  .stat{border-bottom:1px solid var(--line)} .stat:nth-child(2){border-right:0} .stat:nth-child(3){padding-left:0}
+  .nav{margin-left:0;gap:12px}
+}
+@media (max-width:480px){.links{grid-template-columns:1fr}}
+
+/* 多国：返回链接、门户首页 */
+.back{font-size:13px;color:var(--muted);border:1px solid var(--line);padding:3px 10px;white-space:nowrap}
+.back:hover{color:var(--fg);border-color:var(--muted);text-decoration:none}
+.region{padding-block:30px;border-bottom:1px solid var(--line)}
+.region h2{font-family:var(--serif);font-weight:700;font-size:24px;margin:0}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}
+.card{background:var(--bg);border:1px solid var(--line);padding:18px 20px;min-width:0;display:block;color:var(--fg)}
+a.card:hover{background:var(--panel);text-decoration:none}
+.card .cn{font-family:var(--serif);font-weight:700;font-size:21px;display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.card .cn small{font-family:var(--mono);font-size:11.5px;font-weight:500;letter-spacing:.1em;color:var(--amber)}
+.card p{margin:8px 0 12px;font-size:13.5px;color:var(--muted);line-height:1.7}
+.card dl{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:0}
+.card dt{font-size:11.5px;color:var(--muted)} .card dd{margin:2px 0 0;font-family:var(--mono);font-size:15px;font-weight:600}
+.card.soon{color:var(--muted)} .card.soon .cn{font-size:17px;color:var(--muted)}
+.card.soon .cn small{color:var(--muted)}
+.cards.mini{grid-template-columns:repeat(5,1fr);gap:8px;margin-top:10px} .cards.mini .card{padding:12px 14px}
+@media (max-width:860px){.cards{grid-template-columns:1fr}.cards.mini{grid-template-columns:repeat(2,1fr)}}
+
+.cmplink{font-family:var(--mono);font-size:12.5px;color:var(--amber);text-decoration:none;border-bottom:1px solid currentColor;margin-left:auto}
+table.cmp{min-width:980px}
+table.cmp th a{color:inherit;text-decoration:none;border-bottom:1px solid var(--line)}
+table.cmp td{vertical-align:top;font-size:13px}
+table.cmp td:first-child,table.cmp th:first-child{position:sticky;left:0;background:var(--bg);white-space:nowrap;font-weight:600}
+table.cmp tr.grp td{font-family:var(--mono);font-size:11.5px;letter-spacing:.1em;color:var(--amber);padding-top:22px;border-bottom:1px solid var(--amber)}
+table.cmp{table-layout:fixed;width:100%}
+table.cmp td,table.cmp th{white-space:normal;word-break:break-word}
+table.cmp td:first-child,table.cmp th:first-child{width:128px;white-space:normal}
+
+.alert{margin:18px 0 0;padding:10px 14px;border-left:3px solid var(--amber);background:var(--panel);font-size:13.5px;color:var(--muted);max-width:820px}
+.alert b{font-family:var(--mono);font-size:11.5px;letter-spacing:.1em;color:var(--amber);margin-right:10px}
+
+.card .cn{align-items:center}
+.flag{width:28px;height:21px;flex:none;border:1px solid var(--line);object-fit:cover}
+.card.soon .flag{width:22px;height:16.5px;opacity:.75}
+#hr td.num,table.cmp td.num{font-family:inherit;font-variant-numeric:tabular-nums;letter-spacing:0}
+.filters{display:flex;flex-wrap:wrap;gap:12px;align-items:flex-end;margin-bottom:14px}
+.filters label{display:flex;flex-direction:column;gap:4px;font-size:11.5px;color:var(--muted);font-family:var(--mono);letter-spacing:.06em}
+.filters select,.filters button{font:inherit;font-family:var(--sans);font-size:13.5px;letter-spacing:0;color:var(--fg);background:var(--panel);border:1px solid var(--line);padding:7px 10px;min-width:132px;border-radius:0}
+.filters button{min-width:0;cursor:pointer;color:var(--amber)}
+#mapbox{position:relative;border:1px solid var(--line);background:var(--panel)}
+#map{display:block;width:100%;height:auto;cursor:grab;touch-action:none}
+#map .land{fill:var(--panel2);stroke:var(--line);stroke-width:.6}
+#map .land.live{fill:color-mix(in srgb,var(--amber) 16%,var(--panel2))}
+#map circle{cursor:pointer;fill-opacity:.88}
+#map circle.on{stroke:var(--fg)!important;fill-opacity:1}
+.zoomer{position:absolute;top:10px;right:10px;display:flex;flex-direction:column;gap:4px}
+.zoomer button{width:30px;height:30px;font-size:18px;line-height:1;color:var(--fg);background:var(--bg);border:1px solid var(--line);cursor:pointer}
+#tip{position:absolute;pointer-events:none;background:var(--bg);border:1px solid var(--line);padding:8px 10px;font-size:12.5px;line-height:1.55;width:220px;z-index:2}
+#tip b{display:block;font-size:13.5px} #tip span{display:block;color:var(--muted)}
+#legend{position:absolute;left:10px;bottom:10px;display:flex;flex-wrap:wrap;gap:4px 14px;font-size:12px;color:var(--muted);background:var(--bg);border:1px solid var(--line);padding:5px 10px}
+.st{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px;vertical-align:baseline}
+table.proj td{vertical-align:top;font-size:13.5px}
+table.proj td small{display:block;color:var(--muted);font-size:12px}
+table.proj td:nth-child(5){white-space:nowrap}
+table.proj tbody tr{cursor:pointer} table.proj tbody tr:hover{background:var(--panel)}
+table.proj tbody tr.on{background:var(--panel);box-shadow:inset 3px 0 0 var(--amber)}
+.maplink{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:26px;padding:16px 20px;border:1px solid var(--line);background:var(--panel);color:var(--fg)}
+a.maplink:hover{text-decoration:none;border-color:var(--amber)}
+.maplink b{font-family:var(--serif);font-size:19px} .maplink span{color:var(--muted);font-size:13.5px} .maplink em{font-style:normal;font-family:var(--mono);font-size:12.5px;color:var(--amber)}
+
+#mapbox{background:#04101d}
+#map .shade{fill:#04101d;opacity:.28}
+#map .land{fill:none;stroke:rgba(255,255,255,.28)}
+#map .land.live{fill:rgba(255,170,60,.13);stroke:rgba(255,190,90,.9)}
+#map circle{fill-opacity:1;filter:drop-shadow(0 0 1.5px rgba(0,0,0,.8))}
+
+#mapbox{--amber:#ffa028;--up:#2fd08a;--down:#ff5a5f;--blue:#4aa8ff;--muted:#c9d1dc}
+#legend,#tip{background:rgba(4,16,29,.88);border-color:rgba(255,255,255,.18);color:#e9edf3}
+#legend{color:#c9d1dc} #tip b{color:#fff}
+.zoomer button{background:rgba(4,16,29,.88);border-color:rgba(255,255,255,.25);color:#fff}
+#map{aspect-ratio:1000/520}
+
+#map .labels{pointer-events:none}
+#map .labels text{paint-order:stroke;stroke:rgba(4,16,29,.85);stroke-width:3px;stroke-linejoin:round;font-family:var(--sans)}
+#map .labels g,#map .labels text.ctry{transition:opacity .25s}
+#map .reg text{text-anchor:middle;fill:#ffc46b}
+#map .reg .en{font-family:var(--serif);font-size:13px;letter-spacing:.14em;font-weight:700}
+#map .reg .zh{font-size:12px;fill:#fff;font-weight:600}
+#map .reg .n{font-family:var(--mono);font-size:15px;font-weight:600}
+#map .ctry{text-anchor:middle;fill:#ffe3b0;font-size:13px;font-weight:600;letter-spacing:.08em}
+#map .city text{fill:#fff;font-size:11.5px}
+#map .city rect{fill:#fff;stroke:rgba(4,16,29,.9);stroke-width:1px}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <div class="brand">出海泰国 <b>THA DESK</b></div>
+  <a class="back" href="/">全部国家</a>
+  <nav class="nav" aria-label="栏目"><a href="#market">市场</a><a href="#pain">痛点</a><a href="#road">落地</a><a href="#access">准入</a><a href="#tax">税务</a><a href="#hr">用工签证</a><a href="#sector">赛道</a><a href="#feed">动态</a><a href="#desk">官方入口</a></nav>
+</div></header>
+<div class="tape" aria-label="关键指标"><div class="tape-in" id="tape"></div></div>
+<main class="wrap">
+
+<div class="hero">
+  <div class="kicker">中国企业赴泰国经营简报 · 数据截至 2026-10-07</div>
+  <h1>去泰国办厂，先拿 BOI 证书，再谈股权、土地和用人</h1>
+  <p class="lead">泰国是东盟第三大经济体，中国是它最大的贸易伙伴，汽车和电子产业链成熟。拿到投资促进委员会（BOI）优惠的项目可以外资全资、持有土地、免企业所得税最长 13 年。但《外国人经商法》把服务、工程、商贸等大量行业列为限制类，外资一般不超过 49%；外国人原则上不能买地，中国普通工人进不来，找泰国人代持股份正被严查。</p>
+  <div class="stats">
+    <div class="stat"><div class="v">1,340<small style="font-size:.5em"> 亿美元</small></div><div class="l">2024 年中泰货物贸易额<br><span class="up num">▲ 6.1%</span> 同比</div></div>
+    <div class="stat"><div class="v am">20%</div><div class="l">企业所得税<br>小企业净利润 30 万泰铢内免税</div></div>
+    <div class="stat"><div class="v am">7%</div><div class="l">增值税<br>法定 10%，长期减按 7% 执行</div></div>
+    <div class="stat"><div class="v">166.6<small style="font-size:.5em"> 亿美元</small></div><div class="l">2024 年底中国对泰投资存量<br>当年流量 45.6 亿美元</div></div>
+  </div>
+</div>
+
+<section id="market">
+  <div class="sh"><span class="tag">MARKET</span><h2>市场速览</h2></div>
+  <div class="cols">
+    <div>
+      <h3>宏观与成本仪表盘</h3>
+      <div class="tblw"><table>
+        <thead><tr><th>指标</th><th class="r">数值</th><th>口径</th></tr></thead>
+        <tbody>
+          <tr><td>GDP</td><td class="r num">5,263 亿美元</td><td>2024 年现价，增长 2.5%，增速在东盟主要国家中靠后</td></tr>
+          <tr><td>人均 GDP</td><td class="r num">7,496 美元</td><td>2024 年</td></tr>
+          <tr><td>人口</td><td class="r num">6,595 万</td><td>2025 年 5 月；曼谷 546 万，华人约占 10%–14%</td></tr>
+          <tr><td>主权评级</td><td class="r num">Baa1</td><td>穆迪，2025 年 4 月展望由稳定调为负面</td></tr>
+          <tr><td>汇率</td><td class="r num am">1 人民币 ≈ 4.5 泰铢</td><td>2025 年 7 月 1 日；1 美元 ≈ 32.5 泰铢，人民币与泰铢可直接结算</td></tr>
+          <tr><td>政策利率</td><td class="r num">1.75%</td><td>2025 年 4 月，两年新低</td></tr>
+          <tr><td>最低日薪</td><td class="r num">337–400 泰铢</td><td>2025 年起按府分档，曼谷 400；普通工人月薪 1.38 万–1.6 万泰铢</td></tr>
+          <tr><td>工业电价</td><td class="r num">约 3.1 泰铢/度</td><td>高峰期；小型企业和商业约 3.9 泰铢</td></tr>
+          <tr><td>95 号汽油</td><td class="r num">41.14 泰铢/升</td><td>2025 年 7 月；天然气约 397 泰铢/百万 BTU</td></tr>
+          <tr><td>东部经济走廊工业地</td><td class="r num">700–1,000 万泰铢/莱</td><td>1 莱 = 1,600 ㎡；近港口和化工园区更贵</td></tr>
+          <tr><td>曼谷写字楼月租</td><td class="r num">500–1,200 泰铢/㎡</td><td>工业园标准厂房约 5.3–7.4 美元/㎡/月</td></tr>
+        </tbody>
+      </table></div>
+      <p class="note">2024 年通胀 0.4%，2025 年一季度失业率 0.89%，2024 年底公共债务占 GDP 的 63.75%，2025 年 6 月底外汇储备 2,299 亿美元。外汇管制较宽松，投资、分红和还贷在完税后可自由汇出。工程师月薪 4.83 万–6.44 万泰铢，部门经理和厂长 6.44 万–9.66 万泰铢。中国银行、工商银行在当地设有子行，提供全中文服务。</p>
+    </div>
+    <div>
+      <h3>中泰货物贸易 2020–2024（亿美元）</h3>
+      <div class="legend"><span><i style="background:var(--amber)"></i>中国对泰出口</span><span><i style="background:var(--blue)"></i>中国自泰进口</span></div>
+      <div class="bars" id="bars"></div>
+      <p class="note">2021 年双边贸易额突破 1,300 亿美元，2024 年为 1,339.8 亿美元。中国对泰出口连年增长，2024 年增长 13.6%；自泰进口连续三年下降，顺差扩大到约 381 亿美元。中国出口以通信设备、集成电路、汽车零部件为主，进口以集成电路、电脑零部件、榴莲、橡胶为主。截至 2024 年底，在中国驻泰使馆经商处备案的中资企业超过 1,000 家。来源：中国海关总署。</p>
+    </div>
+  </div>
+</section>
+
+<section id="pain">
+  <div class="sh"><span class="tag">PAIN POINTS</span><h2>中企在泰国最常踩的六个坑</h2><p>按企业实际遇到的顺序排列。</p></div>
+  <div class="pains">
+    <div class="pain"><div class="k">49%</div><h3>大量行业外资不能控股，要先拿外商经营许可证</h3><p>《外国人经商法》分三类：第一类禁止外资，如报业、种稻、土地交易；第二类涉及国家安全、文化和资源，须内阁批准，泰方持股不少于 40%、泰籍董事不少于五分之二；第三类覆盖会计法律、工程建设、中介代理、资本不足 1 亿泰铢的零售、餐饮旅游和多数服务业，须向商业发展厅申领外商经营许可证（FBL），获批前不得营业。限制类行业外资最低投资 300 万泰铢。</p><p class="do">立项前逐条对照三类清单。制造业优先走 BOI 或工业园渠道拿豁免；服务业把 FBL 审批时间算进开业计划。</p></div>
+    <div class="pain"><div class="k">代持</div><h3>找泰国人挂名持股，正被严查</h3><p>据报道，泰国约 11.8 万家外资持股 0.01%–49.99% 的公司中，约八成可能借用泰国人代持；商业发展厅 2026 年 4 月 1 日起加强审查，重点查农业、房地产和旅游，违者最高 3 年监禁并罚 10 万–100 万泰铢。8 月起股东、董事和签字人变更也要审查，高风险申请人须说明资金来源。2025 年曼谷审计署大楼倒塌后，中铁十局泰国公司股东即因代持被捕。</p><p class="do">不要找泰国人挂名。出资和资金来源留好凭证；确需外资控股的，走 BOI 或 FBL 合法渠道。</p></div>
+    <div class="pain"><div class="k">买地难</div><h3>外国人原则上不能拥有土地</h3><p>外国人须带入不少于 4,000 万泰铢并经内政部长批准，才可拥有不超过 1 莱的住宅用地。BOI 项目可按批准持有经营用地，停止经营或转让后须在 1 年内卖掉；工业园管理局（IEAT）园区内可拥有土地，停业后 3 年内退还或转让。泰国人占多数的合资公司也有条例防止被用来经营土地。</p><p class="do">工厂尽量选 IEAT 认可的工业园，或拿到 BOI 证书后再买地。否则签长期租约并办理登记；东部经济走廊可租 50 年再续 49 年。</p></div>
+    <div class="pain"><div class="k">1 : 4</div><h3>中国普通工人进不来，外籍名额卡得紧</h3><p>中泰没有劳务合作协议，驻泰中企只能引进部分管理和技术人员，普通劳工很难拿到工作签证。非 BOI 企业每雇 1 名外籍员工，须有 200 万泰铢注册资本并雇 4 名泰籍员工；中国内地护照员工月薪不得低于 3.5 万泰铢。文书秘书、法律服务、导游等 27 类工种禁止外籍人从事。双语技术人员紧缺，用工实际成本往往高于国内。</p><p class="do">申请 BOI 优惠以突破外籍名额。产能按“泰国工人加缅老柬合规外劳”来排，雨季（6–10 月）和长假写进工期。</p></div>
+    <div class="pain"><div class="k">19%</div><h3>借道出口美国，原产地审查越来越严</h3><p>据报道，2025 年 8 月起美国对泰国商品征 19% 对等关税，被认定为转运的最高 40%，泰方承诺加强原产地核查；2026 年 2 月美国最高法院裁定相关关税授权无效，替代税率尚不明朗。2025 年 4 月美国对泰国光伏组件双反终裁，泰国反倾销税率 111.45%–202.9%。BOI 也从 2025 年 5 月起不再支持太阳能电池组件、铅酸电池、部分汽配和终端钢材等可能产能过剩的项目。</p><p class="do">设厂前核算本地增值比例，保留可审计的原产地记录。产能过剩类项目先向 BOI 确认能否拿到优惠，市场分散到东盟和 RCEP 成员。</p></div>
+    <div class="pain"><div class="k">51%</div><h3>工程承包是保护市场，政府项目难进</h3><p>政府项目多用电子竞标，由泰籍法人投标，只有少数国际招标。外国承包商参与国内预算项目须与泰企联营，泰方持股不低于 51%；投标文件要经公证、翻译并经泰国外交部双认证。地方政府采购国产货不少于 60%，建材不少于 90%。中国标准未获正式认可，只有中泰高铁特批使用。对本地业绩要求高，竞争激烈。</p><p class="do">盯外资贷款和国际招标的大项目，那类项目不受 51% 限制。与有一级资质的泰国承包商联营；私人项目多走议标，先查业主信用。</p></div>
+  </div>
+</section>
+
+<section id="road">
+  <div class="sh"><span class="tag">ROADMAP</span><h2>从国内备案到在泰开张：八步</h2></div>
+  <ol class="steps">
+    <li><div><h3>国内境外投资备案</h3><p>发改委、商务部备案或核准，再到银行办外汇登记。</p></div></li>
+    <li><div><h3>查清单，定主体和渠道</h3><p>可设有限公司、分公司、代表处或地区代表处。对照《外国人经商法》三类清单，决定走 BOI 优惠、工业园管理局还是外商经营许可证。代表处不得赚取收入。</p></div></li>
+    <li><div><h3>在商业发展厅注册公司</h3><p>在 DBD 线上系统核名，名称保留 30 天。私人有限公司至少 3 名发起人，股份全部认购、至少缴付 25%。章程登记费为注册资本的万分之五，最低 500、最高 2.5 万泰铢；法定会议后 3 个月内注册，注册费为注册资本的千分之五、最低 5,500 泰铢。</p></div></li>
+    <li><div><h3>申请 BOI 优惠或外商经营许可证</h3><p>BOI 按行业分 A1+ 至 B 六档给优惠，投资额 1,000 万泰铢以上的项目投产 2 年内须通过 ISO 认证，否则免税期减 1 年。限制类行业向商业发展厅申请 FBL，获批前不得营业。2025 年 5 月 BOI 在曼谷 One Bangkok 启用新的一站式服务中心。</p></div></li>
+    <li><div><h3>银行开户并注资</h3><p>外资企业可在当地银行开外汇账户，审查标准与本地企业相同。注资汇入不限币种和金额；单笔外汇收入达 100 万美元以上的，须在 360 天内结汇或存入授权银行。</p></div></li>
+    <li><div><h3>税务和社保登记</h3><p>法人注册号即税号。年营业额超过 180 万泰铢的，30 天内登记为增值税纳税人。为员工登记社会保险，雇主和雇员各缴工资的 5%。</p></div></li>
+    <li><div><h3>办外籍员工签证和工作证</h3><p>先办非移民 B 类签证，入境后 90 天内向劳工部就业厅申请工作证，一般 7 个工作日办结。BOI 企业可在一站式服务中心办理。2025 年 9 月 1 日起启用数字工作证系统，可全天在线申请。</p></div></li>
+    <li><div><h3>按月申报，半年预缴</h3><p>增值税和社保每月 15 日前申报缴纳，向境外付款的预提税次月 7 日前缴纳。企业所得税在会计年度前 6 个月结束后 2 个月内预缴，年度汇算在年度结束后 150 天内完成。低估全年利润超过 25% 的，预缴部分最高加收 20%。</p></div></li>
+  </ol>
+</section>
+
+<section id="access">
+  <div class="sh"><span class="tag">ENTRY</span><h2>外资准入与落脚点</h2><p>不在《外国人经商法》清单内的行业可以外资全资；清单内的行业要么让出控股权，要么拿 BOI 优惠或外商经营许可证。没有专门的外资安全审查。</p></div>
+  <div class="tblw"><table>
+    <thead><tr><th>落脚点</th><th class="r">外资持股</th><th>能做什么</th><th>税负</th><th>适合</th></tr></thead>
+    <tbody>
+      <tr><td><strong>普通有限公司</strong><br>非限制类行业</td><td class="r num">最高 100%</td><td>多数制造业不在限制清单内。法律对注册资本没有最低要求，但雇外籍员工通常需 200 万泰铢</td><td>所得税 20%；小企业 0%–15%</td><td>不需要优惠的制造和贸易</td></tr>
+      <tr><td><strong>BOI 促进项目</strong></td><td class="r num up">可 100%</td><td>10 大类 400 多项目标行业。非税优惠：持有土地、引进外国专家和技术工人、家属可获 2–4 年居留、外汇汇出</td><td>按 A1+ 至 A4 免所得税 3–13 年；可再减半 5 年；免机器和原料进口税</td><td>工厂落地的首选渠道</td></tr>
+      <tr><td><strong>东部经济走廊（EEC）</strong><br>北柳、春武里、罗勇三府</td><td class="r num up">可 100%</td><td>12 大目标产业：新型汽车、智能电子、自动化、航空物流、数字经济等。目标产业外企业可租地 50 年再续 49 年</td><td>最长免所得税 13 年；高管个税最低可减至 15%；研发和培训费可 100%–300% 扣除</td><td>汽车、电子和临港制造</td></tr>
+      <tr><td><strong>IEAT 工业园</strong><br>一般工业区和保税区</td><td class="r num up">目标产业 100%</td><td>园区内可拥有土地，代办用地、建筑、厂房运营等许可。保税区内加工用料免进口税、增值税和消费税</td><td>所得税 20%；BOI 项目在园区内可多免 1 年</td><td>出口加工、需要买地的工厂</td></tr>
+      <tr><td><strong>边境经济特区</strong><br>达府、宋卡、廊开等 10 府</td><td class="r num">按行业</td><td>13 类目标产业。允许雇用外籍非技术劳工；可租地 30–50 年并续约</td><td>一般企业免所得税最长 3 年，特惠产业最长 8 年再减半 5 年；或按 10% 税率征收 10 年</td><td>劳动密集型、面向邻国的加工</td></tr>
+      <tr><td><strong>国际商务中心（IBC）</strong></td><td class="r num">100%</td><td>为关联企业提供管理、采购、资金、研发等服务，至少聘 10 名专业员工（资金管理 5 名）</td><td>年支出 6,000 万、3 亿、6 亿泰铢以上的，所得税分别降至 8%、5%、3%；关联公司股息免税，期限 15 年</td><td>区域总部和资金平台</td></tr>
+      <tr><td><strong>服务、商贸和代理</strong><br>第三类限制行业</td><td class="r num am">≤49% 或领 FBL</td><td>资本不足 1 亿泰铢的零售、部分批发、广告、餐饮、旅游等须领 FBL。最低投资 300 万泰铢，且不低于前三年年均运营支出的 25%</td><td>所得税 20%；增值税 7%</td><td>有品牌和渠道、能等审批的企业</td></tr>
+      <tr><td><strong>工程承包</strong></td><td class="r num am">≤49%</td><td>与泰方组成合资或联合体，泰方控股；或领 FBL 直接承接。外资投入 5 亿泰铢以上的公共基础设施除外。不允许外国自然人承包</td><td>所得税 20%；国内付款预扣 3%，向境外付款 15%</td><td>与本地一级承包商联营</td></tr>
+      <tr><td><strong>国内运输、采矿、蔗糖等</strong><br>第二类限制行业</td><td class="r num am">≤60%</td><td>须经商业部长按内阁决议批准，泰方持股不少于 40%（最低可放宽到 25%），泰籍董事不少于五分之二</td><td>所得税 20%</td><td>资源加工、国内物流</td></tr>
+      <tr><td><strong>媒体、农林、土地交易</strong><br>第一类禁止行业</td><td class="r num down">不开放</td><td>报业、广播电视、种稻和果园、牧业、林业、领海捕鱼、土地交易等禁止外资。农业耕地和林地不允许外资取得</td><td>—</td><td>以技术和设备供应切入</td></tr>
+    </tbody>
+  </table></div>
+  <p class="note">泰国证券市场对上市公司外资持股一般限 49%，银行和金融业 25%。BOI 优惠与 EEC、工业园的同类优惠一般不能叠加，EEC 的税收优惠仍要经 BOI 审核。并购受《贸易竞争法》约束，市场份额超过 33% 且年销售额超过 10 亿泰铢的可被认定为有市场支配地位。</p>
+</section>
+
+<section id="tax">
+  <div class="sh"><span class="tag">TAX</span><h2>税务速查</h2><p>税务厅管所得税、增值税和特别营业税，国货税厅管消费税，海关厅管关税。所得税一年报两次。</p></div>
+  <div class="cols">
+    <div>
+      <div class="tblw"><table>
+        <thead><tr><th>税种</th><th class="r">税率</th><th>要点</th></tr></thead>
+        <tbody>
+          <tr><td>企业所得税</td><td class="r num">20%</td><td>居民企业就境内外所得纳税；亏损可向后结转 5 年</td></tr>
+          <tr><td>小企业优惠税率</td><td class="r num up">0% / 15%</td><td>实缴资本少于 500 万泰铢：净利润 30 万以内免税，30 万–300 万 15%，超过部分 20%</td></tr>
+          <tr><td>增值税</td><td class="r num am">7%</td><td>法定 10%，减按 7% 执行；据报道已延至 2027 年 9 月 30 日。年营业额超 180 万泰铢须登记，出口零税率</td></tr>
+          <tr><td>分公司利润汇出税</td><td class="r num">10%</td><td>分公司把利润汇回境外总部时另征</td></tr>
+          <tr><td>特别营业税</td><td class="r num">2.5% / 3%</td><td>银行、金融、寿险、典当和房地产等行业，按收入征收，另加 10% 地方税</td></tr>
+          <tr><td>境内付款预扣</td><td class="r num">1%–5%</td><td>服务费和专业费 3%，租金 5%，广告 2%；通过电子代扣系统缴纳的降至 1%</td></tr>
+          <tr><td>全球最低税</td><td class="r num">15%</td><td>2025 年起，合并收入达 7.5 亿欧元的跨国集团；首年申报期可延至 18 个月</td></tr>
+          <tr><td>电子服务增值税</td><td class="r num">7%</td><td>境外平台向泰国个人提供数字服务，年收入超 180 万泰铢</td></tr>
+          <tr><td>进口关税</td><td class="r num">0%–80%</td><td>按到岸价计征；自贸协定和 BOI 项目可减免。2024 年 7 月起 1 泰铢以上的进口货物都征增值税</td></tr>
+          <tr><td>碳税</td><td class="r num">200 泰铢/吨</td><td>2025 年起并入燃油税征收</td></tr>
+          <tr><td>个人所得税</td><td class="r num">0%–35%</td><td>居民累进；一年在泰居住满 180 天为居民。2024 年起汇入泰国的境外所得也要纳税</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+    <div>
+      <h3>向中国母公司付款的预提税</h3>
+      <div class="tblw"><table>
+        <thead><tr><th>款项</th><th class="r">泰国国内法</th><th class="r">中泰协定上限</th></tr></thead>
+        <tbody>
+          <tr><td>股息</td><td class="r num">10%</td><td class="r num">15%（持股 ≥25%）/ 20%</td></tr>
+          <tr><td>利息</td><td class="r num">15%</td><td class="r num up">10%（金融机构收取）</td></tr>
+          <tr><td>特许权使用费</td><td class="r num">15%</td><td class="r num">15%</td></tr>
+          <tr><td>服务费、专业服务费</td><td class="r num">15%</td><td class="r num">无常设机构的不在泰征税</td></tr>
+          <tr><td>租金、资本利得</td><td class="r num">15%</td><td class="r num">—</td></tr>
+          <tr><td>分公司利润汇出</td><td class="r num down">10%</td><td class="r num">—</td></tr>
+        </tbody>
+      </table></div>
+      <h3 style="margin-top:20px">四条要提前安排的规则</h3>
+      <p style="margin:0;font-size:13.5px;color:var(--muted)"><strong style="color:var(--fg)">工程和劳务常设机构。</strong>建筑、安装工地或相关监督管理连续 6 个月以上，或派员提供劳务（含咨询）在任何 12 个月内累计超过 183 天，即构成常设机构，利润须在泰国纳税。<br><strong style="color:var(--fg)">协定税率不一定更低。</strong>股息的协定上限高于国内法 10%，实际按 10% 扣；利息只有金融机构收取的才降到 10%。要享受协定待遇，须提供《中国税收居民身份证明》等文件。<br><strong style="color:var(--fg)">关联交易要报转让定价。</strong>年收入超过 2 亿泰铢的，须在年度结束后 150 天内随所得税申报提交转让定价披露表，本地文档用泰文。不报或报错最高罚 20 万泰铢。目前没有资本弱化规则。<br><strong style="color:var(--fg)">大集团的 BOI 免税要重新算。</strong>受全球最低税影响的集团，可把 BOI 免税改为按 10% 减税，优惠期翻倍但最长 10 年；一经选择不能改回。</p>
+    </div>
+  </div>
+</section>
+
+<section id="hr">
+  <div class="sh"><span class="tag">PEOPLE</span><h2>用工与签证</h2></div>
+  <div class="cols">
+    <div>
+      <h3>劳动法底线</h3>
+      <div class="tblw"><table>
+        <tbody>
+          <tr><td>标准工时</td><td class="num r">每天不超过 8 小时，每周不超过 48 小时；危险工作每天 7 小时、每周 42 小时</td></tr>
+          <tr><td>加班费</td><td class="num r">工作日加班 1.5 倍，假日加班 3 倍；须经雇员同意</td></tr>
+          <tr><td>最低工资</td><td class="num r">每天 337–400 泰铢，2025 年起；持技能证书的技工另有标准，如铺砖工 485 泰铢</td></tr>
+          <tr><td>社会保险</td><td class="num r">雇主和雇员各缴月薪 5%，缴费基数上限 1.5 万泰铢，即每人每月最多 750 泰铢</td></tr>
+          <tr><td>年假</td><td class="num r">工作满 1 年不少于 6 天，另有 13 个法定公共假日</td></tr>
+          <tr><td>病假和产假</td><td class="num r">带薪病假每年最多 30 个工作日；产假 98 天，其中 45 天由雇主付薪</td></tr>
+          <tr><td>遣散费</td><td class="num r">工龄 120 天–1 年付 30 天工资，1–3 年 90 天，3–6 年 180 天，6–10 年 240 天，10 年以上 300 天，20 年以上 400 天</td></tr>
+          <tr><td>裁员通知</td><td class="num r">因业务调整裁员须提前 60 天通知雇员和劳动监察员，否则补发 60 天工资</td></tr>
+        </tbody>
+      </table></div>
+      <p class="note">雇员 10 人以上须制定劳动管理章程，并在 15 天内公示。拖欠工资和加班费最高罚 10 万泰铢，工作环境不安全最高罚 20 万泰铢。雇主可自愿为员工缴纳 3%–10% 的公积金。劳动争议先到当地劳动办公室投诉，再到劳动法院。全国有 9 个全国性工会，发生罢工要先充分沟通。</p>
+    </div>
+    <div>
+      <h3>外籍员工怎么进来</h3>
+      <div class="tblw"><table>
+        <thead><tr><th>事项</th><th>要点</th></tr></thead>
+        <tbody>
+          <tr><td>工作证</td><td>持非移民 B 类签证入境后 90 天内向劳工部就业厅申请，一般 7 个工作日、最多 14 个工作日办结。有效期 1–2 年，须随身携带，换工作地点要另行申报</td></tr>
+          <tr><td>雇用条件</td><td>非 BOI 企业每雇 1 名外籍员工，须有 200 万泰铢注册资本并雇 4 名泰籍员工。中国内地护照员工月薪不低于 3.5 万泰铢</td></tr>
+          <tr><td>BOI 企业</td><td>可引进外国专家和技术工人，不受上述比例限制；收到申请后 7 天内发证，办理期间可上班。配偶子女可获 2–4 年居留</td></tr>
+          <tr><td>禁止工种</td><td>27 类工种不对外籍人开放，包括文书秘书、法律服务、导游、个体小商贩、驾驶（叉车除外）、美容美发等</td></tr>
+          <tr><td>普通劳工</td><td>中泰没有劳务合作协议。普通外劳主要按协议从老挝、柬埔寨、缅甸引进，边境经济特区可雇用外籍非技术劳工</td></tr>
+          <tr><td>短期和商务入境</td><td>官方列明的 17 类紧急或专业工作，在泰停留不超过 15 天的，书面报告并申请临时工作许可。据报道中泰互免签证协定 2024 年 3 月生效，每次停留不超过 30 天，免签入境不得工作</td></tr>
+        </tbody>
+      </table></div>
+      <p class="note">国内有中介以非法途径招人赴泰务工，纠纷多。派员前要签好用工合同、办妥签证和工作证。泰国人重礼节：忌摸头、忌用左手递物，进寺庙要衣着整齐、脱鞋。南部陶公、北大年、也拉三府治安不稳，避免前往。</p>
+    </div>
+  </div>
+</section>
+
+<section id="sector">
+  <div class="sh"><span class="tag">SECTORS</span><h2>机会在哪里</h2><p>“泰国 4.0”和 BOI 目标产业的重点方向，叠加中企已经落地的项目。</p></div>
+  <div class="tracks">
+    <div class="track"><h3>汽车与电动车 <span class="heat am">本地化考核</span></h3><p>泰国是东南亚汽车制造中心，上汽、长城、比亚迪、长安已在泰设厂。据报道，比亚迪罗勇工厂年产能 15 万辆，在泰累计交付超 13 万辆，本地采购率 50%；长安罗勇工厂 2025 年 5 月投产，首期 10 万辆；奇瑞罗勇工厂 2026 年 4 月开业；广汽埃安罗勇工厂规划年产 5 万辆。EV3.5 补贴要求进口与本地生产按 1:2 配比，哪吒因未完成生产承诺被暂停补贴并面临追讨。</p></div>
+    <div class="track"><h3>电子与 PCB <span class="heat up">加速转移</span></h3><p>电器和数字是最受外资青睐的 BOI 行业之一。PCB 零部件、核心部件和上游原材料企业最长可免所得税 8 年。中国对泰出口前五大品类有三类是通信设备、集成电路和电脑零部件。据报道，鹏鼎控股 2026 年 6 月再向泰国子公司增资 71.8 亿泰铢；臻鼎与泰国企业的合资项目获批，投资超过 650 亿泰铢。</p></div>
+    <div class="track"><h3>光伏与新能源 <span class="heat am">政策转向</span></h3><p>泰国目标是 2036 年可再生能源占终端能源消费 30%，节能和替代能源项目可享受 5–8 年免税，外国公司可用点对点交易模式建分布式电站。但 BOI 2025 年 5 月起不再支持太阳能电池和组件制造，出口美国又受双反税压制。据报道，协鑫集成 2026 年 5 月与泰国 GPSC 旗下公司签约，3 年内供应最多 1 吉瓦组件并配储能。</p></div>
+    <div class="track"><h3>数据中心与数字经济 <span class="heat up">增长最快</span></h3><p>泰国互联网普及率 91.2%，5G 基站超 4 万个，覆盖近九成地区。2025 年 2 月中国商务部与东部经济走廊办公室签署数字经济投资合作备忘录。据报道，2025 年上半年 BOI 收到数据中心项目 28 个、投资 5,212 亿泰铢，最高 8 年免税须达到能效标准；TikTok 确认在泰长期投资超过 2,700 亿泰铢。</p></div>
+    <div class="track"><h3>工业园与制造配套 <span class="heat up">首选落点</span></h3><p>泰中罗勇工业园由华立集团与安美德集团 2005 年合作开发，毗邻林查班港，规划 20 平方公里，已有 260 余家企业落户，以汽摩配、新能源、新材料、机械电子为主。正大-广西建工产业园占地约 7,360 亩，入驻 30 余家。据报道，2026 年 3 月 BOI 批准拓普、三花等 5 家中企在泰建人形机器人零部件基地，首期投资超 100 亿泰铢。</p></div>
+    <div class="track"><h3>铁路与工程承包 <span class="heat am">门槛高</span></h3><p>中泰铁路采用中国标准，一期曼谷至呵叻约 253 公里，2025 年上半年进度约 37%；二期呵叻至廊开约 354 公里。据报道，2026 年 7 月一期进度 55.27%，二期 8 个土建合同计划 2026 年 12 月招标，预算 3,413.5 亿泰铢。泰国 2025 年修订 PPP 规划，拟推 139 个项目、总投资约 9,210 亿泰铢，特许期一般不超过 30 年。</p></div>
+  </div>
+  <div class="feedhead" id="feed"><h3>赛道动态</h3><span class="live">LIVE</span><span class="upd" id="upd"></span></div>
+  <div class="chips" id="chips" role="group" aria-label="按赛道筛选"></div>
+  <ul class="feed" id="feedlist"></ul>
+  <button type="button" class="more" id="more" hidden>显示更多</button>
+  <div class="feedmsg" id="feedmsg">正在载入各赛道的最新新闻与政策……</div>
+
+</section>
+
+<section id="desk">
+  <div class="sh"><span class="tag">DIRECTORY</span><h2>官方入口</h2></div>
+  <div class="links">
+    <div><a href="https://www.boi.go.th">投资促进委员会 BOI</a><span>投资优惠、外籍专家、一站式服务</span></div>
+    <div><a href="https://www.dbd.go.th">商业部商业发展厅 DBD</a><span>公司注册、外商经营许可证</span></div>
+    <div><a href="https://www.eeco.or.th">东部经济走廊办公室 EEC</a><span>EEC 法规和优惠政策</span></div>
+    <div><a href="https://www.ieat.go.th">工业园管理局 IEAT</a><span>工业园土地和开工许可</span></div>
+    <div><a href="https://www.rd.go.th">税务厅</a><span>所得税、增值税、预提税</span></div>
+    <div><a href="https://www.customs.go.th">海关厅</a><span>关税、进出口管制和通关</span></div>
+    <div><a href="https://www.dft.go.th">商业部对外贸易厅</a><span>原产地证书、贸易救济</span></div>
+    <div><a href="https://www.doe.go.th">劳工部就业厅</a><span>外籍人工作许可证</span></div>
+    <div><a href="http://th.mofcom.gov.cn">中国驻泰国使馆经商处</a><span>经贸政策咨询和中资企业报到登记</span></div>
+  </div>
+</section>
+
+</main>
+<footer class="wrap">
+  本页为公开信息整理，不构成法律、税务或投资意见。门槛和税率每年调整，具体交易请以官方最新文本和专业顾问意见为准。
+</footer>
+<script>
+const META={"slug": "thailand", "tape": [["企业所得税", "20%"], ["增值税", "7%"], ["股息预提税", "10%"], ["分公司汇出税", "10%"], ["最低工资", "337–400 THB/日"], ["汇率", "1 CNY≈4.5 THB"], ["中泰贸易 2024", "US$1,340亿"], ["对泰出口", "US$860亿"], ["自泰进口", "US$480亿"], ["对泰投资存量", "US$166.6亿"], ["对泰投资流量 2024", "US$45.6亿"], ["主权评级", "Baa1"]], "bars": {"max": 900, "data": [[2020, 505.3, 481.0], [2021, 693.7, 618.1], [2022, 784.8, 565.2], [2023, 757.4, 505.4], [2024, 860.4, 479.5]]}, "sect": {"energy": "新能源", "trade": "贸易物流", "infra": "工程基建", "finance": "金融", "tech": "数字经济", "industry": "制造业", "general": "综合经贸"}, "feed": "/thailand/news.json"};
+const t=document.getElementById("tape");
+if(t){const h=META.tape.map(([k,v])=>`<span>${k}<i>${v}</i></span>`).join("");t.innerHTML=h+h}
+const bars=document.getElementById("bars");
+if(bars){const max=META.bars.max;bars.innerHTML=META.bars.data.map(([y,e,m])=>`<div class="yr"><span>${y}</span><div><div class="bar e"><i style="width:${e/max*82}%"></i><b>${e}</b></div><div class="bar m"><i style="width:${m/max*82}%"></i><b>${m}</b></div></div></div>`).join("")}
+/* 动态：读取本国 news.json，每日自动更新 */
+const SECT=Object.assign({all:"全部"},META.sect),KEY="sect-"+META.slug;
+let rows=[],cur="all",shown=16;
+try{cur=localStorage.getItem(KEY)||"all"}catch(e){}
+if(!SECT[cur])cur="all";
+const chips=document.getElementById("chips"),list=document.getElementById("feedlist"),msg=document.getElementById("feedmsg");
+function el(tag,cls,txt){const e=document.createElement(tag);if(cls)e.className=cls;if(txt!=null)e.textContent=txt;return e}
+function drawChips(){chips.textContent="";for(const k in SECT){const n=k==="all"?rows.length:rows.filter(r=>r.sector===k).length;const b=el("button",null,SECT[k]+(rows.length?" "+n:""));b.type="button";b.id="chip-"+k;b.setAttribute("aria-pressed",String(k===cur));b.onclick=()=>{cur=k;shown=16;try{localStorage.setItem(KEY,k)}catch(e){}draw()};chips.appendChild(b)}}
+function draw(){drawChips();list.textContent="";const show=rows.filter(r=>cur==="all"||r.sector===cur);
+  for(const r of show.slice(0,shown)){const li=el("li");li.appendChild(el("time",null,r.date||"—"));const d=el("div");
+    const ok=typeof r.url==="string"&&/^https?:\/\//.test(r.url);const a=el(ok?"a":"span","t",r.title||"");if(ok){a.href=r.url;a.target="_blank";a.rel="noopener"}d.appendChild(a);
+    const m=el("div","m");const pol=r.kind==="政策";m.appendChild(el("span","k "+(pol?"pol":"news"),pol?"政策":"新闻"));m.appendChild(el("span",null,SECT[r.sector]||""));if(r.source)m.appendChild(el("span",null,r.source));d.appendChild(m);li.appendChild(d);list.appendChild(li)}
+  const mb=document.getElementById("more");mb.hidden=show.length<=shown;mb.textContent="显示更多（还有 "+(show.length-shown)+" 条）";
+  msg.hidden=show.length>0;if(!show.length)msg.textContent=rows.length?"这个类别暂时没有新动态。":"暂无动态。每日更新后，这里会自动出现新闻与政策。";
+  const last=rows.map(r=>r.added||r.date||"").sort().pop();document.getElementById("upd").textContent=last?"最近更新 "+last:""}
+if(chips){drawChips();
+document.getElementById("more").onclick=()=>{shown+=16;draw()};
+fetch(META.feed,{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(j=>{rows=(j.items||[]).slice().sort((x,y)=>String(y.date||"").localeCompare(String(x.date||"")));draw()}).catch(()=>{msg.hidden=false;msg.textContent="动态暂时无法载入，请稍后刷新。"})}
+</script>
+</body>
+</html>
