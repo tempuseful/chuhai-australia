@@ -1,0 +1,484 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>出海越南</title>
+<meta name="description" content="面向中国企业的赴越南经营简报：市场数据、常见痛点、落地八步、外资准入与工业园区、税务与用工签证速查，新闻与政策动态。">
+<link rel="stylesheet" href="/fonts/fonts.css">
+<style>
+/* 布局：终端式行情带 + 财经头版。全宽黑底栏目条分节，数据用等宽字，标题用重磅宋体 */
+:root{
+  --bg:#07090d; --panel:#0e1219; --panel2:#141a24; --line:#232b38;
+  --fg:#e9edf3; --muted:#8b96a8; --amber:#ffa028; --amber-ink:#07090d;
+  --up:#2fd08a; --down:#ff5a5f; --blue:#4aa8ff;
+  --serif:"Noto Serif SC","Songti SC","Source Han Serif SC","SimSun",serif;
+  --sans:"PingFang SC","HarmonyOS Sans SC","Microsoft YaHei","Noto Sans CJK SC","Noto Sans SC",system-ui,sans-serif;
+  --mono:"IBM Plex Mono","SFMono-Regular",Menlo,Consolas,monospace;
+  color-scheme:dark;
+}
+@media (prefers-color-scheme: light){ :root:not([data-theme="dark"]){
+  --bg:#f3f4f6; --panel:#ffffff; --panel2:#e9ecf1; --line:#cfd5de;
+  --fg:#0b0f16; --muted:#566173; --amber:#b85c00; --amber-ink:#ffffff;
+  --up:#0a7a4b; --down:#c22b30; --blue:#0b5cad; color-scheme:light } }
+:root[data-theme="light"]{
+  --bg:#f3f4f6; --panel:#ffffff; --panel2:#e9ecf1; --line:#cfd5de;
+  --fg:#0b0f16; --muted:#566173; --amber:#b85c00; --amber-ink:#ffffff;
+  --up:#0a7a4b; --down:#c22b30; --blue:#0b5cad; color-scheme:light }
+
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--bg);color:var(--fg);font-family:var(--sans);font-size:15px;line-height:1.75;margin:0}
+a{color:var(--blue);text-decoration:none} a:hover{text-decoration:underline}
+a:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+.wrap{max-width:1180px;margin:0 auto;padding-inline:20px}
+.num{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.up{color:var(--up)} .down{color:var(--down)} .am{color:var(--amber)}
+
+/* 顶栏 */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;gap:20px;flex-wrap:wrap;padding-block:10px}
+.brand{font-family:var(--serif);font-weight:700;font-size:20px;letter-spacing:.04em;display:flex;align-items:center;gap:10px}
+.brand b{background:var(--amber);color:var(--amber-ink);font-family:var(--mono);font-size:12px;font-weight:600;padding:2px 7px;letter-spacing:.08em}
+.nav{display:flex;gap:16px;flex-wrap:wrap;font-size:13px;margin-left:auto}
+.nav a{color:var(--muted)} .nav a:hover{color:var(--fg);text-decoration:none}
+
+/* 行情带 */
+.tape{background:var(--panel);border-bottom:1px solid var(--line);overflow:hidden;white-space:nowrap}
+.tape-in{display:inline-flex;gap:36px;padding:8px 18px;animation:roll 60s linear infinite}
+.tape:hover .tape-in{animation-play-state:paused}
+.tape span{font-size:12.5px;color:var(--muted)} .tape span i{font-style:normal;font-family:var(--mono);color:var(--fg);margin-left:8px}
+@keyframes roll{to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.tape-in{animation:none}.tape{overflow-x:auto}}
+
+/* 头版 */
+.hero{padding-block:44px 30px;border-bottom:1px solid var(--line)}
+.kicker{font-family:var(--mono);font-size:12px;letter-spacing:.14em;color:var(--amber);text-transform:uppercase}
+h1{font-family:var(--serif);font-weight:700;font-size:clamp(30px,5vw,54px);line-height:1.22;margin:12px 0 16px;text-wrap:balance;letter-spacing:.01em}
+.lead{max-width:42em;color:var(--muted);font-size:16.5px;line-height:1.85;margin:0}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:30px;border-top:2px solid var(--amber)}
+.stat{padding:16px 16px 14px 0;border-right:1px solid var(--line);min-width:0}
+.stat+.stat{padding-left:16px} .stat:last-child{border-right:0}
+.stat .v{font-family:var(--mono);font-size:clamp(24px,3.4vw,36px);font-weight:600;line-height:1.1}
+.stat .l{font-size:12.5px;color:var(--muted);margin-top:6px;line-height:1.5}
+
+/* 分节 */
+section{padding-block:38px;border-bottom:1px solid var(--line)}
+.sh{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin-bottom:20px}
+.sh h2{font-family:var(--serif);font-weight:700;font-size:26px;margin:0;line-height:1.25}
+.sh .tag{font-family:var(--mono);font-size:11.5px;letter-spacing:.12em;color:var(--amber-ink);background:var(--amber);padding:2px 8px}
+.sh p{margin:0;color:var(--muted);font-size:13.5px;flex-basis:100%}
+.cols{display:grid;grid-template-columns:1.1fr .9fr;gap:28px}
+.cols>*{min-width:0}
+h3{font-size:15px;margin:0 0 10px;font-weight:700}
+.note{font-size:12.5px;color:var(--muted);margin-top:10px}
+
+/* 指标表 */
+.tblw{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th{font-family:var(--mono);font-size:11.5px;font-weight:500;letter-spacing:.08em;color:var(--muted);text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);white-space:nowrap}
+td{padding:10px;border-bottom:1px solid var(--line);vertical-align:top}
+td.r,th.r{text-align:right} td.num{white-space:nowrap}
+tbody tr:hover{background:var(--panel)}
+td strong{font-weight:700}
+
+/* 贸易图 */
+.bars{display:grid;gap:12px}
+.yr{display:grid;grid-template-columns:44px 1fr;gap:10px;align-items:center}
+.yr>span{font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+.bar{display:flex;align-items:center;gap:8px;margin:2px 0}
+.bar i{display:block;height:11px;min-width:2px}
+.bar.e i{background:var(--amber)} .bar.m i{background:var(--blue)}
+.bar b{font-family:var(--mono);font-size:12px;font-weight:500}
+.legend{display:flex;gap:18px;font-size:12.5px;color:var(--muted);margin-bottom:12px;flex-wrap:wrap}
+.legend i{display:inline-block;width:10px;height:10px;margin-right:6px}
+
+/* 痛点 */
+.pains{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+.pain{background:var(--bg);padding:20px;min-width:0}
+.pain .k{font-family:var(--mono);font-size:22px;font-weight:600;color:var(--amber);line-height:1.2}
+.pain h3{font-family:var(--serif);font-size:18px;font-weight:700;margin:8px 0 6px}
+.pain p{margin:0;font-size:14.5px;line-height:1.8;color:var(--muted)}
+.pain p.do{color:var(--fg);margin-top:10px;padding-top:10px;border-top:1px dashed var(--line)}
+.pain p.do::before{content:"对策";font-family:var(--mono);font-size:11px;letter-spacing:.1em;color:var(--up);margin-right:8px}
+
+/* 路线 */
+.steps{list-style:none;margin:0;padding:0;counter-reset:s;display:grid;grid-template-columns:repeat(2,1fr);gap:0 32px}
+.steps li{counter-increment:s;display:grid;grid-template-columns:42px 1fr;gap:12px;padding:16px 0;border-top:1px solid var(--line);min-width:0}
+.steps li::before{content:counter(s,decimal-leading-zero);font-family:var(--mono);font-size:20px;font-weight:600;color:var(--amber);line-height:1.3}
+.steps h3{margin-bottom:4px;font-family:var(--serif);font-size:17px} .steps p{margin:0;font-size:14.5px;line-height:1.8;color:var(--muted)}
+
+/* 赛道 */
+.tracks{display:grid;grid-template-columns:repeat(2,1fr);gap:0 32px}
+.track{padding:16px 0;border-top:1px solid var(--line);min-width:0}
+.track h3{font-family:var(--serif);font-size:17px;font-weight:700}
+.track p{margin:0;font-size:14.5px;line-height:1.8;color:var(--muted)}
+.heat{font-family:var(--mono);font-size:11px;letter-spacing:.08em;padding:1px 6px;border:1px solid currentColor;margin-left:8px;vertical-align:2px;white-space:nowrap}
+
+/* 动态 */
+.feedhead{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:34px 0 14px;padding-top:18px;border-top:2px solid var(--amber)}
+.feedhead h3{font-family:var(--serif);font-size:20px;font-weight:700;margin:0}
+.live{font-family:var(--mono);font-size:11px;letter-spacing:.1em;color:var(--up);display:inline-flex;align-items:center;gap:6px}
+.live::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--up);animation:blink 1.6s infinite}
+@keyframes blink{50%{opacity:.25}}
+@media (prefers-reduced-motion:reduce){.live::before{animation:none}}
+.feedhead .upd{font-family:var(--mono);font-size:12px;color:var(--muted);margin-left:auto}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.chips button{font:inherit;font-size:13px;background:transparent;color:var(--muted);border:1px solid var(--line);padding:5px 12px;cursor:pointer}
+.chips button:hover{color:var(--fg);border-color:var(--muted)}
+.chips button[aria-pressed="true"]{background:var(--amber);color:var(--amber-ink);border-color:var(--amber)}
+.chips button:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+.feed{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:0 40px}
+.feed li{min-width:0}
+.feed li{display:grid;grid-template-columns:92px 1fr;gap:14px;padding:13px 0;border-bottom:1px solid var(--line)}
+.feed time{font-family:var(--mono);font-size:12.5px;color:var(--muted);padding-top:2px}
+.feed .t{font-family:var(--serif);font-weight:700;color:var(--fg);font-size:16px;line-height:1.55}
+.feed a.t:hover{color:var(--amber);text-decoration:none}
+.feed .m{font-size:12px;color:var(--muted);margin-top:4px;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.feed .k{font-family:var(--mono);font-size:11px;letter-spacing:.06em;border:1px solid currentColor;padding:0 5px}
+.feed .k.pol{color:var(--amber)} .feed .k.news{color:var(--blue)}
+.more{font:inherit;font-size:13px;margin-top:14px;background:transparent;color:var(--fg);border:1px solid var(--line);padding:8px 18px;cursor:pointer}
+.more:hover{border-color:var(--amber);color:var(--amber)}
+.more:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+.feedmsg{padding:18px 0;color:var(--muted);font-size:13.5px}
+@media (max-width:860px){.feed{grid-template-columns:1fr}}
+@media (max-width:480px){.feed li{grid-template-columns:1fr;gap:2px}}
+
+.links{display:grid;grid-template-columns:repeat(3,1fr);gap:0 28px}
+.links div{padding:12px 0;border-top:1px solid var(--line);font-size:13.5px;min-width:0}
+.links span{display:block;color:var(--muted);font-size:12.5px}
+footer{padding-block:28px 48px;font-size:12.5px;color:var(--muted)}
+footer ol{padding-left:20px;margin:8px 0 16px}
+
+@media (max-width:860px){
+  .cols,.steps,.tracks{grid-template-columns:1fr}
+  .pains{grid-template-columns:1fr}
+  .links{grid-template-columns:1fr 1fr}
+  .stats{grid-template-columns:1fr 1fr}
+  .stat{border-bottom:1px solid var(--line)} .stat:nth-child(2){border-right:0} .stat:nth-child(3){padding-left:0}
+  .nav{margin-left:0;gap:12px}
+}
+@media (max-width:480px){.links{grid-template-columns:1fr}}
+
+/* 多国：返回链接、门户首页 */
+.back{font-size:13px;color:var(--muted);border:1px solid var(--line);padding:3px 10px;white-space:nowrap}
+.back:hover{color:var(--fg);border-color:var(--muted);text-decoration:none}
+.region{padding-block:30px;border-bottom:1px solid var(--line)}
+.region h2{font-family:var(--serif);font-weight:700;font-size:24px;margin:0}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}
+.card{background:var(--bg);border:1px solid var(--line);padding:18px 20px;min-width:0;display:block;color:var(--fg)}
+a.card:hover{background:var(--panel);text-decoration:none}
+.card .cn{font-family:var(--serif);font-weight:700;font-size:21px;display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.card .cn small{font-family:var(--mono);font-size:11.5px;font-weight:500;letter-spacing:.1em;color:var(--amber)}
+.card p{margin:8px 0 12px;font-size:13.5px;color:var(--muted);line-height:1.7}
+.card dl{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:0}
+.card dt{font-size:11.5px;color:var(--muted)} .card dd{margin:2px 0 0;font-family:var(--mono);font-size:15px;font-weight:600}
+.card.soon{color:var(--muted)} .card.soon .cn{font-size:17px;color:var(--muted)}
+.card.soon .cn small{color:var(--muted)}
+.cards.mini{grid-template-columns:repeat(5,1fr);gap:8px;margin-top:10px} .cards.mini .card{padding:12px 14px}
+@media (max-width:860px){.cards{grid-template-columns:1fr}.cards.mini{grid-template-columns:repeat(2,1fr)}}
+
+.cmplink{font-family:var(--mono);font-size:12.5px;color:var(--amber);text-decoration:none;border-bottom:1px solid currentColor;margin-left:auto}
+table.cmp{min-width:980px}
+table.cmp th a{color:inherit;text-decoration:none;border-bottom:1px solid var(--line)}
+table.cmp td{vertical-align:top;font-size:13px}
+table.cmp td:first-child,table.cmp th:first-child{position:sticky;left:0;background:var(--bg);white-space:nowrap;font-weight:600}
+table.cmp tr.grp td{font-family:var(--mono);font-size:11.5px;letter-spacing:.1em;color:var(--amber);padding-top:22px;border-bottom:1px solid var(--amber)}
+table.cmp{table-layout:fixed;width:100%}
+table.cmp td,table.cmp th{white-space:normal;word-break:break-word}
+table.cmp td:first-child,table.cmp th:first-child{width:128px;white-space:normal}
+
+.alert{margin:18px 0 0;padding:10px 14px;border-left:3px solid var(--amber);background:var(--panel);font-size:13.5px;color:var(--muted);max-width:820px}
+.alert b{font-family:var(--mono);font-size:11.5px;letter-spacing:.1em;color:var(--amber);margin-right:10px}
+
+.card .cn{align-items:center}
+.flag{width:28px;height:21px;flex:none;border:1px solid var(--line);object-fit:cover}
+.card.soon .flag{width:22px;height:16.5px;opacity:.75}
+#hr td.num,table.cmp td.num{font-family:inherit;font-variant-numeric:tabular-nums;letter-spacing:0}
+.filters{display:flex;flex-wrap:wrap;gap:12px;align-items:flex-end;margin-bottom:14px}
+.filters label{display:flex;flex-direction:column;gap:4px;font-size:11.5px;color:var(--muted);font-family:var(--mono);letter-spacing:.06em}
+.filters select,.filters button{font:inherit;font-family:var(--sans);font-size:13.5px;letter-spacing:0;color:var(--fg);background:var(--panel);border:1px solid var(--line);padding:7px 10px;min-width:132px;border-radius:0}
+.filters button{min-width:0;cursor:pointer;color:var(--amber)}
+#mapbox{position:relative;border:1px solid var(--line);background:var(--panel)}
+#map{display:block;width:100%;height:auto;cursor:grab;touch-action:none}
+#map .land{fill:var(--panel2);stroke:var(--line);stroke-width:.6}
+#map .land.live{fill:color-mix(in srgb,var(--amber) 16%,var(--panel2))}
+#map circle{cursor:pointer;fill-opacity:.88}
+#map circle.on{stroke:var(--fg)!important;fill-opacity:1}
+.zoomer{position:absolute;top:10px;right:10px;display:flex;flex-direction:column;gap:4px}
+.zoomer button{width:30px;height:30px;font-size:18px;line-height:1;color:var(--fg);background:var(--bg);border:1px solid var(--line);cursor:pointer}
+#tip{position:absolute;pointer-events:none;background:var(--bg);border:1px solid var(--line);padding:8px 10px;font-size:12.5px;line-height:1.55;width:220px;z-index:2}
+#tip b{display:block;font-size:13.5px} #tip span{display:block;color:var(--muted)}
+#legend{position:absolute;left:10px;bottom:10px;display:flex;flex-wrap:wrap;gap:4px 14px;font-size:12px;color:var(--muted);background:var(--bg);border:1px solid var(--line);padding:5px 10px}
+.st{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px;vertical-align:baseline}
+table.proj td{vertical-align:top;font-size:13.5px}
+table.proj td small{display:block;color:var(--muted);font-size:12px}
+table.proj td:nth-child(5){white-space:nowrap}
+table.proj tbody tr{cursor:pointer} table.proj tbody tr:hover{background:var(--panel)}
+table.proj tbody tr.on{background:var(--panel);box-shadow:inset 3px 0 0 var(--amber)}
+.maplink{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:26px;padding:16px 20px;border:1px solid var(--line);background:var(--panel);color:var(--fg)}
+a.maplink:hover{text-decoration:none;border-color:var(--amber)}
+.maplink b{font-family:var(--serif);font-size:19px} .maplink span{color:var(--muted);font-size:13.5px} .maplink em{font-style:normal;font-family:var(--mono);font-size:12.5px;color:var(--amber)}
+
+#mapbox{background:#04101d}
+#map .shade{fill:#04101d;opacity:.28}
+#map .land{fill:none;stroke:rgba(255,255,255,.28)}
+#map .land.live{fill:rgba(255,170,60,.13);stroke:rgba(255,190,90,.9)}
+#map circle{fill-opacity:1;filter:drop-shadow(0 0 1.5px rgba(0,0,0,.8))}
+
+#mapbox{--amber:#ffa028;--up:#2fd08a;--down:#ff5a5f;--blue:#4aa8ff;--muted:#c9d1dc}
+#legend,#tip{background:rgba(4,16,29,.88);border-color:rgba(255,255,255,.18);color:#e9edf3}
+#legend{color:#c9d1dc} #tip b{color:#fff}
+.zoomer button{background:rgba(4,16,29,.88);border-color:rgba(255,255,255,.25);color:#fff}
+#map{aspect-ratio:1000/520}
+
+#map .labels{pointer-events:none}
+#map .labels text{paint-order:stroke;stroke:rgba(4,16,29,.85);stroke-width:3px;stroke-linejoin:round;font-family:var(--sans)}
+#map .labels g,#map .labels text.ctry{transition:opacity .25s}
+#map .reg text{text-anchor:middle;fill:#ffc46b}
+#map .reg .en{font-family:var(--serif);font-size:13px;letter-spacing:.14em;font-weight:700}
+#map .reg .zh{font-size:12px;fill:#fff;font-weight:600}
+#map .reg .n{font-family:var(--mono);font-size:15px;font-weight:600}
+#map .ctry{text-anchor:middle;fill:#ffe3b0;font-size:13px;font-weight:600;letter-spacing:.08em}
+#map .city text{fill:#fff;font-size:11.5px}
+#map .city rect{fill:#fff;stroke:rgba(4,16,29,.9);stroke-width:1px}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <div class="brand">出海越南 <b>VNM DESK</b></div>
+  <a class="back" href="/">全部国家</a>
+  <nav class="nav" aria-label="栏目"><a href="#market">市场</a><a href="#pain">痛点</a><a href="#road">落地</a><a href="#access">准入</a><a href="#tax">税务</a><a href="#hr">用工签证</a><a href="#sector">赛道</a><a href="#feed">动态</a><a href="#desk">官方入口</a></nav>
+</div></header>
+<div class="tape" aria-label="关键指标"><div class="tape-in" id="tape"></div></div>
+<main class="wrap">
+
+<div class="hero">
+  <div class="kicker">中国企业赴越南经营简报 · 数据截至 2026-10-07</div>
+  <h1>去越南设厂，离国内供应链最近，但要先过审批、用工和原产地三道关</h1>
+  <p class="lead">越南是中国在东盟第一大贸易伙伴，中国自 2004 年起一直是越南第一大贸易伙伴。多数制造业可以外资独资，工业区、经济区项目有“四免九减半”等所得税优惠，股息汇回中国不扣预提税。但设公司要先拿投资登记证、再拿企业登记证，土地只能租不能买，越南盾不可自由兑换，出口美国的货要经得起原产地审查。</p>
+  <div class="stats">
+    <div class="stat"><div class="v">2,606.5<small style="font-size:.5em"> 亿美元</small></div><div class="l">2024 年中越货物贸易额<br><span class="up num">▲ 13.5%</span> 同比</div></div>
+    <div class="stat"><div class="v am">20%</div><div class="l">企业所得税<br>鼓励项目 10%，四免九减半</div></div>
+    <div class="stat"><div class="v am">8%</div><div class="l">增值税<br>标准 10%，减按 8% 至 2026 年底</div></div>
+    <div class="stat"><div class="v">47.3<small style="font-size:.5em"> 亿美元</small></div><div class="l">2024 年中国对越新增投资<br>越方统计，居第三位</div></div>
+  </div>
+</div>
+
+<section id="market">
+  <div class="sh"><span class="tag">MARKET</span><h2>市场速览</h2></div>
+  <div class="cols">
+    <div>
+      <h3>宏观与成本仪表盘</h3>
+      <div class="tblw"><table>
+        <thead><tr><th>指标</th><th class="r">数值</th><th>口径</th></tr></thead>
+        <tbody>
+          <tr><td>GDP</td><td class="r num">4,763 亿美元</td><td>2024 年，增长 7.09%，东盟第 4 位</td></tr>
+          <tr><td>人均 GDP</td><td class="r num">4,700 美元</td><td>2024 年</td></tr>
+          <tr><td>人口</td><td class="r num">1.011 亿</td><td>2024 年 4 月；平均年龄 32 岁，15–64 岁占 69.3%</td></tr>
+          <tr><td>主权评级</td><td class="r num">BB+ / Baa3</td><td>标普 BB+（2025 年 2 月），穆迪 Baa3，展望稳定</td></tr>
+          <tr><td>汇率</td><td class="r num am">1 美元 ≈ 26,116 越盾</td><td>2025 年 6 月；2020 年底约 23,100，渐进贬值。人民币不能与越盾直接兑换</td></tr>
+          <tr><td>最低工资</td><td class="r num">345–496 万越盾/月</td><td>2024 年 7 月起，按四类地区；约合 138–199 美元</td></tr>
+          <tr><td>平均月薪</td><td class="r num">770 万越盾</td><td>2024 年全体劳动者，增长 8.6%；城镇 930 万</td></tr>
+          <tr><td>工业电价</td><td class="r num">1,146–3,266 越盾/度</td><td>110 千伏以上，低谷至高峰；2025 年 5 月平均零售电价上调 4.8%</td></tr>
+          <tr><td>95 号汽油</td><td class="r num">21,500 越盾/升</td><td>2025 年 6 月一类地区含税价；柴油约 20,060 越盾</td></tr>
+          <tr><td>甲级写字楼月租</td><td class="r num">20–70 美元/㎡</td><td>2025 年一季度；河内 20–40，胡志明市 35–70</td></tr>
+          <tr><td>工业用地</td><td class="r num">只租不卖</td><td>工业区集中供地，租期一般最长 50 年，大项目最长 70 年</td></tr>
+        </tbody>
+      </table></div>
+      <p class="note">2024 年 CPI 上涨 3.63%，失业率 2.24%，公共债务占 GDP 的 34.7%，2025 年 4 月外汇储备约 782 亿美元。2024 年吸收外资协议额 382.3 亿美元，实际到位 253.5 亿美元。工商银行、农业银行在河内设有分行，中国银行、建设银行、交通银行在胡志明市设有分行；人民币结算只限谅山、广宁、老街等 7 个与中国接壤的省份。</p>
+    </div>
+    <div>
+      <h3>中越货物贸易 2020–2024（亿美元）</h3>
+      <div class="legend"><span><i style="background:var(--amber)"></i>中国对越出口</span><span><i style="background:var(--blue)"></i>中国自越进口</span></div>
+      <div class="bars" id="bars"></div>
+      <p class="note">2021–2024 年双边贸易额连续四年超过 2,000 亿美元，2024 年达 2,606.5 亿美元，占中国与东盟贸易的四分之一以上。中国出口以机电、纺织原料、钢铁为主，进口以机电产品、农产品、鞋类为主，五年里中方都是顺差。越南是中国在东盟第一大、全球第四大贸易伙伴。2024 年底中国对越直接投资存量 161.9 亿美元。据报道 2025 年双边贸易额突破 2,900 亿美元。来源：中国海关总署。</p>
+    </div>
+  </div>
+</section>
+
+<section id="pain">
+  <div class="sh"><span class="tag">PAIN POINTS</span><h2>中企在越南最常踩的六个坑</h2><p>按企业实际遇到的顺序排列。</p></div>
+  <div class="pains">
+    <div class="pain"><div class="k">两证</div><h3>先拿投资证，再拿公司执照，大项目还要先批立项</h3><p>外资设公司要先向省级部门申请投资登记证（IRC），拿到后再办企业登记证（ERC），之后才能刻章、开资本账户。投资额 3,000 亿越盾以内且不属有条件行业的，15 天可发证；大额或有条件行业的项目要先过投资主张批准。外资并购也要登记审批。各部门行政效率偏低。</p><p class="do">立项时就把审批时间算进工期。选工业区、高新区内项目，园区内半导体和高科技项目可免部分评估，15 天内拿 IRC。</p></div>
+    <div class="pain"><div class="k">59</div><h3>负面清单之外，还有 59 个有条件行业</h3><p>新闻、商品转口、暂进再出、劳务输出等行业不对外资开放。物流、广告、电商、建材、房地产、建筑服务、29 座以上交通工具制造等 59 个行业可以投资，但要满足额外条件。银行外资持股上限 30%，上市公司外资一般不超过 49%。</p><p class="do">先对照清单确认经营范围，营业执照写什么就只能做什么。贸易分销类业务提前查清进出口权和分销许可。</p></div>
+    <div class="pain"><div class="k">只租不买</div><h3>土地只能租，拆迁补偿由投资者付</h3><p>土地归全民所有，外资不能买地，只能租用并取得使用权，一般最长 50 年，大项目最长 70 年。政府可协助征地拆迁，但补偿费用由投资者负担。拿地后未按期实施项目或用途不符，国家有权收回土地并撤销投资许可。</p><p class="do">优先租工业区内的熟地和标准厂房。租约写清租期、续期和基础设施配套责任，开工节点按投资证承诺执行。</p></div>
+    <div class="pain"><div class="k">+8.6%</div><h3>工资年年涨，招工难，南部罢工多</h3><p>最低工资按四类地区每年上调，2024 年平均月薪涨 8.6%。工业区集中的省份已出现招工难，受过培训、持证的劳动力只占 28.3%。罢工集中在胡志明市、同奈、西宁等南部省市的纺织、制鞋、电子行业，主要针对外资企业，少数中资企业也遇到过。</p><p class="do">薪酬预算按每年上涨 8% 以上来做。按时足额缴社保，建立工会沟通机制，宿舍、餐食和加班安排要合规。</p></div>
+    <div class="pain"><div class="k">外汇</div><h3>越盾不能自由兑换，电力也时紧时松</h3><p>越南实行外汇管制，境内使用美元受限，越盾兑美元五年里从 23,100 贬到 26,116。外资要通过直接投资资本账户进出资金。电力长期供不应求，限电时有发生；2025 年 5 月工业和商业电价又上调。</p><p class="do">资本金和利润汇出走直接投资账户，留足完税证明和审计报告。高耗电项目落地前确认园区供电能力，配备备用电源。</p></div>
+    <div class="pain"><div class="k">30%</div><h3>出口美国要过原产地关，转运风险高</h3><p>越南认定原产地要求本地增加值超过 30%，2025 年升级了电子原产地证系统。据报道，2025 年美国对越南商品征收 20% 关税，对认定为转运的商品征 40%；越南已开始严查伪造原产地，并试点监测中国商品转口；越南还对涉华热轧板卷提出了 19.38%–27.83% 的临时反倾销税。</p><p class="do">设厂前核算本地增值比例，保存原料采购和生产记录。不做简单贴牌转口，市场分散到欧盟、东盟和 RCEP 成员。</p></div>
+  </div>
+</section>
+
+<section id="road">
+  <div class="sh"><span class="tag">ROADMAP</span><h2>从国内备案到在越开张：八步</h2></div>
+  <ol class="steps">
+    <li><div><h3>国内境外投资备案</h3><p>发改委、商务部备案或核准，再到银行办外汇登记。</p></div></li>
+    <li><div><h3>定主体和落脚点</h3><p>可设代表处、分公司、有限责任公司或股份公司。制造业首选工业区、出口加工区；电子和研发看高新技术区和经济区；对华配套和边贸看口岸经济区。</p></div></li>
+    <li><div><h3>申请投资登记证（IRC）</h3><p>外资审批权基本下放到省级财政厅或园区管委会。普通项目材料齐全后 15 天内发证；大额或有条件行业的项目先办投资主张批准，还要附可研报告。</p></div></li>
+    <li><div><h3>申请企业登记证（ERC）</h3><p>在企业工商注册信息门户核名，凭 IRC 申请 ERC。取得后 30 日内在门户公示公司信息，刻制公章并备案。</p></div></li>
+    <li><div><h3>开资本账户并实缴</h3><p>开立外商直接投资资本账户，90 天内实缴注册资本。注资、借款和利润汇出都通过这个账户。</p></div></li>
+    <li><div><h3>税务和社保登记</h3><p>向税务局申领税号，注册电子发票系统和数字签名。为员工办理社会保险、医疗保险和失业保险。</p></div></li>
+    <li><div><h3>办外籍员工工作许可</h3><p>先向省级主管部门报告外籍用工需求并公开招聘，再申请工作许可。健康证明、无犯罪记录和技术证明须国内公证认证，整套手续约 2 个月。</p></div></li>
+    <li><div><h3>季度预缴，年度汇算</h3><p>企业所得税按季预缴，四个季度合计不得少于全年应纳税额的 80%。年度汇算在财年结束后第三个月最后一日前完成，关联交易同期资料同时备好。</p></div></li>
+  </ol>
+</section>
+
+<section id="access">
+  <div class="sh"><span class="tag">ENTRY</span><h2>外资准入与落脚点</h2><p>实行负面清单：27 个行业禁止外资进入，59 个行业附条件开放，清单以外与内资同等待遇。</p></div>
+  <div class="tblw"><table>
+    <thead><tr><th>落脚点</th><th class="r">外资持股</th><th>能做什么</th><th>税负</th><th>适合</th></tr></thead>
+    <tbody>
+      <tr><td><strong>工业区</strong><br>含配套、生态、高科技工业区</td><td class="r num">最高 100%</td><td>2024 年底全国 447 个工业区，304 个已运营。鼓励类生产企业进口自用设备免进口税，出口用原料可先免后补</td><td>所得税 20%；非便利地区的工业区项目两免四减半</td><td>工厂落地</td></tr>
+      <tr><td><strong>出口加工区</strong></td><td class="r num">最高 100%</td><td>按非关税区管理。生产和服务企业免出口税，进口设备、原料免进口税</td><td>所得税与工业区同等优惠；出口产品免增值税</td><td>来料加工、整机出口</td></tr>
+      <tr><td><strong>经济区与高新技术区</strong><br>河内、岘港、胡志明市</td><td class="r num">最高 100%</td><td>沿海经济区和 4 个高新技术区，主攻高科技和大型制造项目。区内项目土地租期最长 70 年，特别鼓励行业可免租 11–15 年</td><td>15 年内税率 10%，四免九减半</td><td>电子、半导体、研发</td></tr>
+      <tr><td><strong>口岸经济区</strong></td><td class="r num">最高 100%</td><td>21 个边境省份设有 27 个，8 个为国家重点，包括芒街、同登、老街。可设保税区，接壤国家货车可入区交接货物</td><td>四免九减半，之后 10 年再减 10%；区内外国人个税减半</td><td>边贸、物流、对华配套</td></tr>
+      <tr><td><strong>中资园区</strong><br>龙江、深越、铃中、海河天虹</td><td class="r num">最高 100%</td><td>龙江（前江）为国家级境外经贸合作区，入园 56 家；深圳—海防经贸合作区入驻 38 家，多为机电、电子；海河天虹以纺织服装为主</td><td>龙江入园企业 15 年 10%，四免九减半</td><td>首次出海的中小制造企业</td></tr>
+      <tr><td><strong>有条件行业</strong><br>物流、电商、广告、建材等</td><td class="r num am">视行业</td><td>59 个行业须满足资质、出资或合资条件，包括物流、沿海海运、电子商务、建筑服务、房地产、组装摩托车、造船</td><td>所得税 20%</td><td>与本地伙伴合作</td></tr>
+      <tr><td><strong>能源和基础设施</strong></td><td class="r num am">视项目</td><td>水电、海上风电、核能属有条件行业。可按 BOT、PPP 等合同方式投资，财政部发 PPP 项目投资许可，工贸部管油气</td><td>电厂等重点基础设施新项目 15 年 10%</td><td>电站投资和 EPC</td></tr>
+      <tr><td><strong>金融和上市公司</strong></td><td class="r num am">30% / 49%</td><td>银行外资持股一般不超过 30%；上市公司外资一般不超过 49%，部分可经股东大会提高到 100%</td><td>所得税 20%；证券转让 0.1%</td><td>持牌机构、财务投资</td></tr>
+      <tr><td><strong>禁止类</strong></td><td class="r num down">不开放</td><td>商品转口、暂进再出、新闻采集、劳务输出、民意调查、工业产权代理、文物出口等 27 类</td><td>—</td><td>不碰</td></tr>
+    </tbody>
+  </table></div>
+  <p class="note">外资不能买地，只能向国家或园区租用土地使用权。投资者承担征地补偿；未按期实施或改变用途的，土地可被收回。并购后市场份额达 30%–50% 须事先报告竞争管理局，超过 50% 禁止。经济困难地区可免租 7 年，园区内建职工宿舍可减免租金。</p>
+</section>
+
+<section id="tax">
+  <div class="sh"><span class="tag">TAX</span><h2>税务速查</h2><p>2025 年起税务总局、海关总局改为财政部下属的税务局和海关局。税收全部归中央，没有地方税。</p></div>
+  <div class="cols">
+    <div>
+      <div class="tblw"><table>
+        <thead><tr><th>税种</th><th class="r">税率</th><th>要点</th></tr></thead>
+        <tbody>
+          <tr><td>企业所得税</td><td class="r num">20%</td><td>油气和稀有资源 32%–50%</td></tr>
+          <tr><td>微型和小型企业</td><td class="r num">15% / 17%</td><td>新《企业所得税法》2025 年 10 月 1 日生效：年收入 30 亿越盾以下 15%，30 亿–500 亿 17%</td></tr>
+          <tr><td>鼓励项目优惠税率</td><td class="r num up">10% / 17%</td><td>高科技、经济区、电厂等新项目 15 年 10%，配四免九减半；困难地区等 10 年 17%，配两免四减半</td></tr>
+          <tr><td>增值税</td><td class="r num am">10%（现 8%）</td><td>另有 5% 和 0% 两档；2025 年 7 月至 2026 年底多数商品减按 8%；出口加工企业出口免征</td></tr>
+          <tr><td>全球最低税</td><td class="r num">15%</td><td>2024 年起，合并收入达 7.5 亿欧元的跨国集团在越实体</td></tr>
+          <tr><td>进口关税</td><td class="r num">按协定</td><td>有自贸协定原产地证适用特惠税率，无证按优惠税率的 150%；2025 年汽车由 64% 降至 32%</td></tr>
+          <tr><td>出口税</td><td class="r num">0%–40%</td><td>以资源类产品为主</td></tr>
+          <tr><td>特别消费税</td><td class="r num">最高 150%</td><td>烟 75%，酒 35%/65%，9 座以下汽车 35%–150%；混动车按同类 70%</td></tr>
+          <tr><td>个人所得税</td><td class="r num">5%–35%</td><td>居民 7 档累进；非居民雇佣收入 20%</td></tr>
+          <tr><td>门牌费</td><td class="r num">200 万 / 300 万越盾</td><td>每年；注册资本 100 亿越盾以上 300 万，首年免</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+    <div>
+      <h3>向中国母公司付款的预提税</h3>
+      <div class="tblw"><table>
+        <thead><tr><th>款项</th><th class="r">越南国内法</th><th class="r">中越协定上限</th></tr></thead>
+        <tbody>
+          <tr><td>股息</td><td class="r num up">0%</td><td class="r num">10%</td></tr>
+          <tr><td>利息</td><td class="r num up">5%</td><td class="r num">10%</td></tr>
+          <tr><td>特许权使用费</td><td class="r num">10%</td><td class="r num">10%</td></tr>
+          <tr><td>技术费</td><td class="r num">10%</td><td class="r num">—</td></tr>
+          <tr><td>管理服务费</td><td class="r num">5% + 增值税 5%</td><td class="r num">—</td></tr>
+          <tr><td>付给外国承包商的劳务和工程款</td><td class="r num down">所得税 2%–5% + 增值税 2%–5%</td><td class="r num">—</td></tr>
+        </tbody>
+      </table></div>
+      <h3 style="margin-top:20px">四条要提前安排的规则</h3>
+      <p style="margin:0;font-size:13.5px;color:var(--muted)"><strong style="color:var(--fg)">工程和劳务常设机构。</strong>建筑、装配、安装工地连续 6 个月以上，或派员为同一项目提供劳务在任意 12 个月内累计超过 6 个月，即构成常设机构，利润要在越南纳税。<br><strong style="color:var(--fg)">外国承包商税由付款方代扣。</strong>没在越南设公司的中方企业收取劳务费、工程款，越方付款时按收入比例代扣所得税（劳务 5%、建筑和运输 2%）和增值税。合同要写明税款由哪方承担。<br><strong style="color:var(--fg)">关联利息有上限。</strong>利息支出扣除不超过息税折旧摊销前利润的 30%，超出部分可结转 5 年。同期资料在年度汇算前备好，税务机关要求后 30 个工作日内提交。<br><strong style="color:var(--fg)">优惠自核自免，季度预缴要够。</strong>减免税由企业自行核算、年终清算，不用事先审批，符合条件的证明要自己留好。四个季度预缴合计低于全年应纳税额的 80%，差额要交滞纳金。</p>
+    </div>
+  </div>
+</section>
+
+<section id="hr">
+  <div class="sh"><span class="tag">PEOPLE</span><h2>用工与签证</h2></div>
+  <div class="cols">
+    <div>
+      <h3>劳动法底线</h3>
+      <div class="tblw"><table>
+        <tbody>
+          <tr><td>最低工资</td><td class="num r">一至四类地区每月 496 / 441 / 386 / 345 万越盾（2024 年 7 月起）；据报道 2026 年 1 月起升至 370–531 万越盾</td></tr>
+          <tr><td>加班</td><td class="num r">休息日不低于 200%，法定假日不低于 300%；每月不超过 40 小时，每年不超过 200 小时，纺织、鞋、电子等行业 300 小时</td></tr>
+          <tr><td>试用期</td><td class="num r">管理岗不超过 180 天，高级技术岗 60 天，中级 30 天，其他 6 天；工资不低于正式工资的 85%</td></tr>
+          <tr><td>社会保险</td><td class="num r">雇主：社保 17.5%、医保 3%、失业险 1%；雇员：8%、1.5%、1%</td></tr>
+          <tr><td>年假</td><td class="num r">满 12 个月 12 天，每满 5 年加 1 天</td></tr>
+          <tr><td>解约通知期</td><td class="num r">无固定期限合同 45 天，12–36 个月合同 30 天，12 个月以下 3 天</td></tr>
+          <tr><td>辞退补偿</td><td class="num r">每工作 1 年支付半个月工资及奖金</td></tr>
+          <tr><td>退休年龄</td><td class="num r">逐年上调，2028 年男性 62 岁，2035 年女性 60 岁</td></tr>
+        </tbody>
+      </table></div>
+      <p class="note">每年 11 天法定节假日。劳动合同只分固定期限（36 个月以内）和无固定期限两种，一个月以下的可口头约定。女职工产假 6 个月，期间工资由社保基金支付。2025 年 7 月后参保的员工一次性提取社保受到严格限制。</p>
+    </div>
+    <div>
+      <h3>外籍员工怎么进来</h3>
+      <div class="tblw"><table>
+        <thead><tr><th>事项</th><th>要点</th></tr></thead>
+        <tbody>
+          <tr><td>工作许可</td><td>在越工作 3 个月以上必须办理，期限一般不超过 2 年，可延期。2025 年 7 月起由省人委会主席审批签发</td></tr>
+          <tr><td>用工需求报告</td><td>用工前至少 15 天向省级主管部门说明外籍岗位需求，并在官方门户发布招聘公告；本地招不到人才可用外籍</td></tr>
+          <tr><td>免办许可</td><td>有限公司的所有者或出资人、股份公司董事长和董事；入境不满 3 个月推介业务或处理技术故障的人员</td></tr>
+          <tr><td>申请材料</td><td>体检证明、无犯罪记录、学历和工作经历证明，须经国内公证、外交部和越南驻华使馆认证，全套约 2 个月</td></tr>
+          <tr><td>居留证</td><td>获准居留 1 年以上可办居留证，最长 2 年，持证出入境免签。外籍员工劳动合同期限须与工作许可一致</td></tr>
+          <tr><td>社保和个税</td><td>外籍员工也要参加社保：雇主 17.5% 加医保 3%，个人 8% 加医保 1.5%。居民个税 5%–35%</td></tr>
+        </tbody>
+      </table></div>
+      <p class="note">2024 年底在越外籍劳工约 16.2 万人，主要来自中国、韩国和台湾地区；同年中国在越各类劳务人员 3,400 人。不允许持旅游签证务工；有中资企业用 3 个月商务签证在工地干活，被查处后每人罚款约 7,000 元人民币并限期离境。中方工人工资尽量直接发到个人。</p>
+    </div>
+  </div>
+</section>
+
+<section id="sector">
+  <div class="sh"><span class="tag">SECTORS</span><h2>机会在哪里</h2><p>“中国+1”产能转移的主要方向，叠加中企已经落地的项目。</p></div>
+  <div class="tracks">
+    <div class="track"><h3>电子与半导体 <span class="heat up">北部集群成形</span></h3><p>2024 年电子、计算机及零部件出口 726 亿美元，手机及零部件约 539 亿美元。三星累计投资约 232 亿美元，是最大外资。据报道，北宁省聚集了歌尔、立讯精密、蓝思科技、京东方等中企，歌尔在当地投资超过 6.25 亿美元、员工逾 4 万人；鸿海 2025 年 2 月收购了歌尔越南 25% 股权。越南计划到 2030 年培养 5 万名半导体人才。</p></div>
+    <div class="track"><h3>纺织服装与鞋 <span class="heat am">关税压力大</span></h3><p>2024 年纺织服装出口 370 亿美元，鞋类 229 亿美元，同年进口纺织、制鞋原辅料 149 亿美元。天虹在广宁开发海河工业区，已有 35 家纺织服装企业入园。据报道，申洲国际获批 1.5 亿美元面料新厂，一期 2026 年投产。罢工多发在这个行业，出口美国还要算清本地增值比例。</p></div>
+    <div class="track"><h3>新能源与电力 <span class="heat am">缺电也是机会</span></h3><p>2024 年底装机约 86 吉瓦，电力长期供不应求。修订后的第八个电力规划鼓励风电、太阳能和 LNG 发电，2025–2030 年拟新建 1.5 万–1.9 万兆瓦 LNG 电厂。中企已建成海阳、永新、沿海二期等电站。据报道，美国对越南光伏产品“双反”合并税率 120.69%–813.92%，在越光伏组件出口美国基本受阻，机会转向本地电站。</p></div>
+    <div class="track"><h3>汽车与零部件 <span class="heat up">关税下调</span></h3><p>2025 年 3 月越南把汽车进口关税从 64% 降到 32%，混动车特别消费税按同类车的 70% 征收。汽车配件、机械制造属优先扶持行业，符合条件的可享受 10% 优惠税率。据报道，奇瑞在兴安省投资 8 亿美元建厂，计划 2026 年完工，满产年产 20 万辆。</p></div>
+    <div class="track"><h3>铁路与工程承包 <span class="heat up">中越联通提速</span></h3><p>2024 年中企新签合同 38.2 亿美元，完成营业额 20 亿美元。中铁六局承建的河内轻轨二号线 2021 年运营。据报道，老街—河内—海防标准轨铁路全长约 390 公里、投资约 83.7 亿美元，2025 年 12 月 19 日部分工程开工，目标 2030 年建成。北南高铁总投资 670 亿美元，计划 2026 年底开工。</p></div>
+    <div class="track"><h3>家具木业与出口加工 <span class="heat am">看原产地</span></h3><p>2024 年木材及木制品出口 163 亿美元，增长 20.9%。中国对越投资起步于纺织、鞋帽、家电和家具，正转向电子、新能源和半导体。据报道，美国 2025 年对进口木材及衍生品发起 232 调查。用料进口比例高的工厂，要确保本地增值超过 30%，否则拿不到越南原产地。</p></div>
+  </div>
+  <div class="feedhead" id="feed"><h3>赛道动态</h3><span class="live">LIVE</span><span class="upd" id="upd"></span></div>
+  <div class="chips" id="chips" role="group" aria-label="按赛道筛选"></div>
+  <ul class="feed" id="feedlist"></ul>
+  <button type="button" class="more" id="more" hidden>显示更多</button>
+  <div class="feedmsg" id="feedmsg">正在载入各赛道的最新新闻与政策……</div>
+
+</section>
+
+<section id="desk">
+  <div class="sh"><span class="tag">DIRECTORY</span><h2>官方入口</h2></div>
+  <div class="links">
+    <div><a href="https://www.mof.gov.vn">财政部</a><span>外资审批和投资政策（原计划投资部已并入）</span></div>
+    <div><a href="http://moit.gov.vn">工贸部</a><span>产业、电力、原产地和贸易救济</span></div>
+    <div><a href="http://www.gdt.gov.vn">税务局</a><span>企业所得税、增值税、外国承包商税</span></div>
+    <div><a href="https://www.customs.gov.vn">海关局</a><span>关税、通关和原产地核查</span></div>
+    <div><a href="https://moha.gov.vn">内务部</a><span>劳动和外籍员工管理</span></div>
+    <div><a href="https://bocongan.gov.vn">公安部</a><span>签证、居留证和出入境</span></div>
+    <div><a href="https://www.sbv.gov.vn/vi">国家银行</a><span>外汇管理、汇率和金融牌照</span></div>
+    <div><a href="https://www.gso.gov.vn">统计局</a><span>宏观、贸易和外资数据</span></div>
+    <div><a href="http://vn.mofcom.gov.cn">中国驻越南使馆经商处</a><span>经贸政策咨询和中资企业报到登记</span></div>
+  </div>
+</section>
+
+</main>
+<footer class="wrap">
+  本页为公开信息整理，不构成法律、税务或投资意见。门槛和税率每年调整，具体交易请以官方最新文本和专业顾问意见为准。
+</footer>
+<script>
+const META={"slug": "vietnam", "tape": [["企业所得税", "20%"], ["增值税", "8% / 10%"], ["鼓励项目税率", "10%·15年"], ["股息预提税", "0%"], ["最低工资", "496万 VND/月"], ["汇率", "1 USD≈26,116 VND"], ["中越贸易 2024", "US$2,607亿"], ["对越出口", "US$1,619亿"], ["自越进口", "US$988亿"], ["新签工程合同", "US$38.2亿"], ["对越投资存量", "US$161.9亿"], ["主权评级", "BB+ / Baa3"]], "bars": {"max": 1700, "data": [[2020, 1138.1, 784.7], [2021, 1379.3, 922.7], [2022, 1469.6, 879.6], [2023, 1376.1, 921.8], [2024, 1618.9, 987.6]]}, "sect": {"energy": "新能源", "trade": "贸易物流", "infra": "工程基建", "finance": "金融", "tech": "数字经济", "industry": "制造业", "general": "综合经贸"}, "feed": "/vietnam/news.json"};
+const t=document.getElementById("tape");
+if(t){const h=META.tape.map(([k,v])=>`<span>${k}<i>${v}</i></span>`).join("");t.innerHTML=h+h}
+const bars=document.getElementById("bars");
+if(bars){const max=META.bars.max;bars.innerHTML=META.bars.data.map(([y,e,m])=>`<div class="yr"><span>${y}</span><div><div class="bar e"><i style="width:${e/max*82}%"></i><b>${e}</b></div><div class="bar m"><i style="width:${m/max*82}%"></i><b>${m}</b></div></div></div>`).join("")}
+/* 动态：读取本国 news.json，每日自动更新 */
+const SECT=Object.assign({all:"全部"},META.sect),KEY="sect-"+META.slug;
+let rows=[],cur="all",shown=16;
+try{cur=localStorage.getItem(KEY)||"all"}catch(e){}
+if(!SECT[cur])cur="all";
+const chips=document.getElementById("chips"),list=document.getElementById("feedlist"),msg=document.getElementById("feedmsg");
+function el(tag,cls,txt){const e=document.createElement(tag);if(cls)e.className=cls;if(txt!=null)e.textContent=txt;return e}
+function drawChips(){chips.textContent="";for(const k in SECT){const n=k==="all"?rows.length:rows.filter(r=>r.sector===k).length;const b=el("button",null,SECT[k]+(rows.length?" "+n:""));b.type="button";b.id="chip-"+k;b.setAttribute("aria-pressed",String(k===cur));b.onclick=()=>{cur=k;shown=16;try{localStorage.setItem(KEY,k)}catch(e){}draw()};chips.appendChild(b)}}
+function draw(){drawChips();list.textContent="";const show=rows.filter(r=>cur==="all"||r.sector===cur);
+  for(const r of show.slice(0,shown)){const li=el("li");li.appendChild(el("time",null,r.date||"—"));const d=el("div");
+    const ok=typeof r.url==="string"&&/^https?:\/\//.test(r.url);const a=el(ok?"a":"span","t",r.title||"");if(ok){a.href=r.url;a.target="_blank";a.rel="noopener"}d.appendChild(a);
+    const m=el("div","m");const pol=r.kind==="政策";m.appendChild(el("span","k "+(pol?"pol":"news"),pol?"政策":"新闻"));m.appendChild(el("span",null,SECT[r.sector]||""));if(r.source)m.appendChild(el("span",null,r.source));d.appendChild(m);li.appendChild(d);list.appendChild(li)}
+  const mb=document.getElementById("more");mb.hidden=show.length<=shown;mb.textContent="显示更多（还有 "+(show.length-shown)+" 条）";
+  msg.hidden=show.length>0;if(!show.length)msg.textContent=rows.length?"这个类别暂时没有新动态。":"暂无动态。每日更新后，这里会自动出现新闻与政策。";
+  const last=rows.map(r=>r.added||r.date||"").sort().pop();document.getElementById("upd").textContent=last?"最近更新 "+last:""}
+if(chips){drawChips();
+document.getElementById("more").onclick=()=>{shown+=16;draw()};
+fetch(META.feed,{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(j=>{rows=(j.items||[]).slice().sort((x,y)=>String(y.date||"").localeCompare(String(x.date||"")));draw()}).catch(()=>{msg.hidden=false;msg.textContent="动态暂时无法载入，请稍后刷新。"})}
+</script>
+</body>
+</html>
