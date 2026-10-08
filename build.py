@@ -87,31 +87,11 @@ for f in sorted(glob.glob(os.path.join(R, "compare", "*.json"))):
     os.makedirs(os.path.join(R, c["slug"]), exist_ok=True)
     open(os.path.join(R, c["slug"], "index.html"), "w", encoding="utf-8").write(page(c["title"], c["lead"], cbody))
 
-# 项目地图：合并 data/projects/*.json
-ISO = {"阿联酋":"784","沙特阿拉伯":"682","卡塔尔":"634","科威特":"414","阿曼":"512","巴林":"048","马来西亚":"458","澳大利亚":"036","新加坡":"702","印度尼西亚":"360","泰国":"764","越南":"704","菲律宾":"608","柬埔寨":"116","老挝":"418","缅甸":"104","文莱":"096","哈萨克斯坦":"398","乌兹别克斯坦":"860","吉尔吉斯斯坦":"417","塔吉克斯坦":"762","土库曼斯坦":"795"}
-REG = {n: k for k, _, _, names in REGIONS for n in names}
-items = []
-for f in sorted(glob.glob(os.path.join(R, "data", "projects", "*.json"))):
-    for p in json.load(open(f, encoding="utf-8")):
-        p["region"] = REG.get(p["country"], "")
-        items.append(p)
-nproj = len(items)
-if items:
-    used = {p["region"] for p in items}
-    os.makedirs(os.path.join(R, "projects"), exist_ok=True)
-    json.dump({"updated": max(p["date"] for p in items), "regions": [[k, c] for k, c, _, _ in REGIONS if k in used],
-               "live": [ISO[p] for p in sorted({p["country"] for p in items}) if p in ISO], "items": items},
-              open(os.path.join(R, "projects", "data.json"), "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
-    pbody = f"""<header class="top"><div class="wrap">
-  <div class="brand">项目地图 <b>PROJECT DESK</b></div>
-  <a class="back" href="/">全部国家</a>
-</div></header>
-<main class="wrap">
-{rd("src/projects.html")}
-</main>"""
-    open(os.path.join(R, "projects", "index.html"), "w", encoding="utf-8").write(
-        page("中企海外项目地图", "中国企业在海湾、东盟、中亚和大洋洲签约、中标、在建和投产的项目地图，可按国家、中资主体、行业和阶段筛选。", pbody,
-             '<script src="/vendor/d3.min.js"></script><script src="/vendor/topojson-client.min.js"></script><script>' + rd("src/projects.js") + "</script>"))
+# 项目地图：整页来自 src/projects-page.html（自带数据、样式和脚本），原样输出
+os.makedirs(os.path.join(R, "projects"), exist_ok=True)
+_pp = rd("src/projects-page.html")
+open(os.path.join(R, "projects", "index.html"), "w", encoding="utf-8").write(_pp)
+nproj = _pp.count('"id":"') if '"id":"' in _pp else 0
 
 live = len(metas)
 secs = []
@@ -137,7 +117,7 @@ body = f"""<header class="top"><div class="wrap">
   <div class="kicker">中国企业出海国别简报 · 已上线 {live} / {total} 个国家</div>
   <h1>出海去哪里，先把每个国家的账算清楚</h1>
   <p class="lead">按国家整理的经营决策信息：市场数据、常见痛点、落地步骤、外资准入、税务、用工签证和机会赛道，各国动态持续更新。选一个国家开始。</p>
-  <a class="maplink" href="/projects/"><div><b>中企海外项目地图</b><br><span>{nproj} 个中资签约、中标、在建和投产项目，按国家、主体、行业、阶段筛选</span></div><em>打开地图 →</em></a>
+  <a class="maplink" href="/projects/"><div><b>中企海外项目地图</b><br><span>覆盖海湾、东盟、中亚、非洲和澳大利亚的中资工程项目，按国家、主体、行业、阶段和优先级筛选</span></div><em>打开地图 →</em></a>
 </div>
 {"".join(secs)}
 </main>"""
