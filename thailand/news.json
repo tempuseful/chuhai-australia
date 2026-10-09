@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-07",
+ "updated": "2026-10-09",
  "items": [
   {
    "sector": "general",
@@ -10,6 +10,16 @@
    "date": "2026-09-29",
    "added": "2026-10-07",
    "cn": true
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "Amata Chief: Thailand Can Host 2,000 Chinese Factories by 2036",
+   "source": "The Nation Thailand",
+   "url": "https://www.nationthailand.com/business/corporate/40071643",
+   "date": "2026-09-29",
+   "added": "2026-10-09",
+   "cn": false
   },
   {
    "sector": "infra",

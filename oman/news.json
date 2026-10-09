@@ -1,6 +1,16 @@
 {
- "updated": "2026-10-07",
+ "updated": "2026-10-09",
  "items": [
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "Chinese contractor wins two Duqm power project packages",
+   "source": "Oman Observer",
+   "url": "https://www.omanobserver.om/article/1197135/business/economy/chinese-contractor-wins-two-duqm-power-project-packages",
+   "date": "2026-10-02",
+   "added": "2026-10-09",
+   "cn": false
+  },
   {
    "sector": "trade",
    "kind": "新闻",

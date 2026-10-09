@@ -1,6 +1,16 @@
 {
- "updated": "2026-10-07",
+ "updated": "2026-10-09",
  "items": [
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "中企海油工程中东区域三年累计签约超500亿元",
+   "source": "中国新闻网",
+   "url": "https://finance.eastmoney.com/a/202610023888390958.html",
+   "date": "2026-10-02",
+   "added": "2026-10-09",
+   "cn": true
+  },
   {
    "sector": "energy",
    "kind": "新闻",
