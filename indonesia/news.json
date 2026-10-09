@@ -1,6 +1,16 @@
 {
- "updated": "2026-10-07",
+ "updated": "2026-10-10",
  "items": [
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "印尼总统主持中资矿业下游化项目启动仪式",
+   "source": "新华社（新华丝路）",
+   "url": "https://www.imsilkroad.com/news/p/816277.html",
+   "date": "2026-10-09",
+   "added": "2026-10-10",
+   "cn": true
+  },
   {
    "sector": "trade",
    "kind": "政策",

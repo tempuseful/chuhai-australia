@@ -1,6 +1,16 @@
 {
- "updated": "2026-10-07",
+ "updated": "2026-10-10",
  "items": [
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "AgiBot pledges potential RM1bil investment after PM Anwar meeting",
+   "source": "The Star",
+   "url": "https://www.thestar.com.my/news/nation/2026/10/05/agibot-pledges-potential-rm1bil-investment-after-pm-anwar-meeting",
+   "date": "2026-10-05",
+   "added": "2026-10-10",
+   "cn": false
+  },
   {
    "sector": "industry",
    "kind": "新闻",

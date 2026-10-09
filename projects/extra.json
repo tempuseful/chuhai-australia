@@ -1,4 +1,34 @@
 {
- "updated": "2026-10-08",
- "items": []
+ "updated": "2026-10-10",
+ "items": [
+  {
+   "id": "auto-idn-20261009-1",
+   "country": "印度尼西亚",
+   "city": "北马鲁古省中哈马黑拉县",
+   "name": "纬达贝工业园11个矿业下游化项目",
+   "contractor": "青山控股",
+   "company": "青山控股集团",
+   "owner": "未披露",
+   "stage": "在建",
+   "informationDate": "2026-10-09",
+   "eventDate": "2026-10-09",
+   "source": "https://www.imsilkroad.com/news/p/816277.html",
+   "sources": [
+    {
+     "name": "新华社（新华丝路）",
+     "url": "https://www.imsilkroad.com/news/p/816277.html"
+    }
+   ],
+   "type": "动力电池 / 镍钴材料 / 电解铝 等11个项目",
+   "value": "总投资约102亿美元",
+   "priority": "S",
+   "score": 90,
+   "need": "尚未评估。",
+   "window": "持续跟踪",
+   "action": "核实项目最新进展，以及分包和采购窗口。",
+   "note": "根据公开报道自动整理，跟进分按阶段统一赋值。",
+   "lat": 0.45,
+   "lng": 127.95
+  }
+ ]
 }
