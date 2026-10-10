@@ -1,0 +1,498 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>出海柬埔寨</title>
+<meta name="description" content="面向中国企业的赴柬埔寨经营简报：市场数据、常见痛点、落地八步、合格投资项目与经济特区优惠、土地规则、税务与用工签证速查，新闻与政策动态。">
+<link rel="stylesheet" href="/fonts/fonts.css">
+<style>
+/* 布局：终端式行情带 + 财经头版。全宽黑底栏目条分节，数据用等宽字，标题用重磅宋体 */
+:root{
+  --bg:#07090d; --panel:#0e1219; --panel2:#141a24; --line:#232b38;
+  --fg:#e9edf3; --muted:#8b96a8; --amber:#ffa028; --amber-ink:#07090d;
+  --up:#2fd08a; --down:#ff5a5f; --blue:#4aa8ff;
+  --serif:"Noto Serif SC","Songti SC","Source Han Serif SC","SimSun",serif;
+  --sans:"PingFang SC","HarmonyOS Sans SC","Microsoft YaHei","Noto Sans CJK SC","Noto Sans SC",system-ui,sans-serif;
+  --mono:"IBM Plex Mono","SFMono-Regular",Menlo,Consolas,monospace;
+  color-scheme:dark;
+}
+@media (prefers-color-scheme: light){ :root:not([data-theme="dark"]){
+  --bg:#f3f4f6; --panel:#ffffff; --panel2:#e9ecf1; --line:#cfd5de;
+  --fg:#0b0f16; --muted:#566173; --amber:#b85c00; --amber-ink:#ffffff;
+  --up:#0a7a4b; --down:#c22b30; --blue:#0b5cad; color-scheme:light } }
+:root[data-theme="light"]{
+  --bg:#f3f4f6; --panel:#ffffff; --panel2:#e9ecf1; --line:#cfd5de;
+  --fg:#0b0f16; --muted:#566173; --amber:#b85c00; --amber-ink:#ffffff;
+  --up:#0a7a4b; --down:#c22b30; --blue:#0b5cad; color-scheme:light }
+
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--bg);color:var(--fg);font-family:var(--sans);font-size:15px;line-height:1.75;margin:0}
+a{color:var(--blue);text-decoration:none} a:hover{text-decoration:underline}
+a:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+.wrap{max-width:1180px;margin:0 auto;padding-inline:20px}
+.num{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.up{color:var(--up)} .down{color:var(--down)} .am{color:var(--amber)}
+
+/* 顶栏 */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;gap:20px;flex-wrap:wrap;padding-block:10px}
+.brand{font-family:var(--serif);font-weight:700;font-size:20px;letter-spacing:.04em;display:flex;align-items:center;gap:10px}
+.brand b{background:var(--amber);color:var(--amber-ink);font-family:var(--mono);font-size:12px;font-weight:600;padding:2px 7px;letter-spacing:.08em}
+.nav{display:flex;gap:16px;flex-wrap:wrap;font-size:13px;margin-left:auto}
+.nav a{color:var(--muted)} .nav a:hover{color:var(--fg);text-decoration:none}
+
+/* 行情带 */
+.tape{background:var(--panel);border-bottom:1px solid var(--line);overflow:hidden;white-space:nowrap}
+.tape-in{display:inline-flex;gap:36px;padding:8px 18px;animation:roll 60s linear infinite}
+.tape:hover .tape-in{animation-play-state:paused}
+.tape span{font-size:12.5px;color:var(--muted)} .tape span i{font-style:normal;font-family:var(--mono);color:var(--fg);margin-left:8px}
+@keyframes roll{to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.tape-in{animation:none}.tape{overflow-x:auto}}
+
+/* 头版 */
+.hero{padding-block:44px 30px;border-bottom:1px solid var(--line)}
+.kicker{font-family:var(--mono);font-size:12px;letter-spacing:.14em;color:var(--amber);text-transform:uppercase}
+h1{font-family:var(--serif);font-weight:700;font-size:clamp(30px,5vw,54px);line-height:1.22;margin:12px 0 16px;text-wrap:balance;letter-spacing:.01em}
+.lead{max-width:42em;color:var(--muted);font-size:16.5px;line-height:1.85;margin:0}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:30px;border-top:2px solid var(--amber)}
+.stat{padding:16px 16px 14px 0;border-right:1px solid var(--line);min-width:0}
+.stat+.stat{padding-left:16px} .stat:last-child{border-right:0}
+.stat .v{font-family:var(--mono);font-size:clamp(24px,3.4vw,36px);font-weight:600;line-height:1.1}
+.stat .l{font-size:12.5px;color:var(--muted);margin-top:6px;line-height:1.5}
+
+/* 分节 */
+section{padding-block:38px;border-bottom:1px solid var(--line)}
+.sh{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin-bottom:20px}
+.sh h2{font-family:var(--serif);font-weight:700;font-size:26px;margin:0;line-height:1.25}
+.sh .tag{font-family:var(--mono);font-size:11.5px;letter-spacing:.12em;color:var(--amber-ink);background:var(--amber);padding:2px 8px}
+.sh p{margin:0;color:var(--muted);font-size:13.5px;flex-basis:100%}
+.cols{display:grid;grid-template-columns:1.1fr .9fr;gap:28px}
+.cols>*{min-width:0}
+h3{font-size:15px;margin:0 0 10px;font-weight:700}
+.note{font-size:12.5px;color:var(--muted);margin-top:10px}
+
+/* 指标表 */
+.tblw{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th{font-family:var(--mono);font-size:11.5px;font-weight:500;letter-spacing:.08em;color:var(--muted);text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);white-space:nowrap}
+td{padding:10px;border-bottom:1px solid var(--line);vertical-align:top}
+td.r,th.r{text-align:right} td.num{white-space:nowrap}
+tbody tr:hover{background:var(--panel)}
+td strong{font-weight:700}
+
+/* 贸易图 */
+.bars{display:grid;gap:12px}
+.yr{display:grid;grid-template-columns:44px 1fr;gap:10px;align-items:center}
+.yr>span{font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+.bar{display:flex;align-items:center;gap:8px;margin:2px 0}
+.bar i{display:block;height:11px;min-width:2px}
+.bar.e i{background:var(--amber)} .bar.m i{background:var(--blue)}
+.bar b{font-family:var(--mono);font-size:12px;font-weight:500}
+.legend{display:flex;gap:18px;font-size:12.5px;color:var(--muted);margin-bottom:12px;flex-wrap:wrap}
+.legend i{display:inline-block;width:10px;height:10px;margin-right:6px}
+
+/* 痛点 */
+.pains{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+.pain{background:var(--bg);padding:20px;min-width:0}
+.pain .k{font-family:var(--mono);font-size:22px;font-weight:600;color:var(--amber);line-height:1.2}
+.pain h3{font-family:var(--serif);font-size:18px;font-weight:700;margin:8px 0 6px}
+.pain p{margin:0;font-size:14.5px;line-height:1.8;color:var(--muted)}
+.pain p.do{color:var(--fg);margin-top:10px;padding-top:10px;border-top:1px dashed var(--line)}
+.pain p.do::before{content:"对策";font-family:var(--mono);font-size:11px;letter-spacing:.1em;color:var(--up);margin-right:8px}
+
+/* 路线 */
+.steps{list-style:none;margin:0;padding:0;counter-reset:s;display:grid;grid-template-columns:repeat(2,1fr);gap:0 32px}
+.steps li{counter-increment:s;display:grid;grid-template-columns:42px 1fr;gap:12px;padding:16px 0;border-top:1px solid var(--line);min-width:0}
+.steps li::before{content:counter(s,decimal-leading-zero);font-family:var(--mono);font-size:20px;font-weight:600;color:var(--amber);line-height:1.3}
+.steps h3{margin-bottom:4px;font-family:var(--serif);font-size:17px} .steps p{margin:0;font-size:14.5px;line-height:1.8;color:var(--muted)}
+
+/* 赛道 */
+.tracks{display:grid;grid-template-columns:repeat(2,1fr);gap:0 32px}
+.track{padding:16px 0;border-top:1px solid var(--line);min-width:0}
+.track h3{font-family:var(--serif);font-size:17px;font-weight:700}
+.track p{margin:0;font-size:14.5px;line-height:1.8;color:var(--muted)}
+.heat{font-family:var(--mono);font-size:11px;letter-spacing:.08em;padding:1px 6px;border:1px solid currentColor;margin-left:8px;vertical-align:2px;white-space:nowrap}
+
+/* 动态 */
+.feedhead{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:34px 0 14px;padding-top:18px;border-top:2px solid var(--amber)}
+.feedhead h3{font-family:var(--serif);font-size:20px;font-weight:700;margin:0}
+.live{font-family:var(--mono);font-size:11px;letter-spacing:.1em;color:var(--up);display:inline-flex;align-items:center;gap:6px}
+.live::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--up);animation:blink 1.6s infinite}
+@keyframes blink{50%{opacity:.25}}
+@media (prefers-reduced-motion:reduce){.live::before{animation:none}}
+.feedhead .upd{font-family:var(--mono);font-size:12px;color:var(--muted);margin-left:auto}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.chips button{font:inherit;font-size:13px;background:transparent;color:var(--muted);border:1px solid var(--line);padding:5px 12px;cursor:pointer}
+.chips button:hover{color:var(--fg);border-color:var(--muted)}
+.chips button[aria-pressed="true"]{background:var(--amber);color:var(--amber-ink);border-color:var(--amber)}
+.chips button:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+.feed{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:0 40px}
+.feed li{min-width:0}
+.feed li{display:grid;grid-template-columns:92px 1fr;gap:14px;padding:13px 0;border-bottom:1px solid var(--line)}
+.feed time{font-family:var(--mono);font-size:12.5px;color:var(--muted);padding-top:2px}
+.feed .t{font-family:var(--serif);font-weight:700;color:var(--fg);font-size:16px;line-height:1.55}
+.feed a.t:hover{color:var(--amber);text-decoration:none}
+.feed .m{font-size:12px;color:var(--muted);margin-top:4px;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.feed .k{font-family:var(--mono);font-size:11px;letter-spacing:.06em;border:1px solid currentColor;padding:0 5px}
+.feed .k.pol{color:var(--amber)} .feed .k.news{color:var(--blue)}
+.more{font:inherit;font-size:13px;margin-top:14px;background:transparent;color:var(--fg);border:1px solid var(--line);padding:8px 18px;cursor:pointer}
+.more:hover{border-color:var(--amber);color:var(--amber)}
+.more:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+.feedmsg{padding:18px 0;color:var(--muted);font-size:13.5px}
+@media (max-width:860px){.feed{grid-template-columns:1fr}}
+@media (max-width:480px){.feed li{grid-template-columns:1fr;gap:2px}}
+
+.links{display:grid;grid-template-columns:repeat(3,1fr);gap:0 28px}
+.links div{padding:12px 0;border-top:1px solid var(--line);font-size:13.5px;min-width:0}
+.links span{display:block;color:var(--muted);font-size:12.5px}
+footer{padding-block:28px 48px;font-size:12.5px;color:var(--muted)}
+footer ol{padding-left:20px;margin:8px 0 16px}
+
+@media (max-width:860px){
+  .cols,.steps,.tracks{grid-template-columns:1fr}
+  .pains{grid-template-columns:1fr}
+  .links{grid-template-columns:1fr 1fr}
+  .stats{grid-template-columns:1fr 1fr}
+  .stat{border-bottom:1px solid var(--line)} .stat:nth-child(2){border-right:0} .stat:nth-child(3){padding-left:0}
+  .nav{margin-left:0;gap:12px}
+}
+@media (max-width:480px){.links{grid-template-columns:1fr}}
+
+/* 多国：返回链接、门户首页 */
+.back{font-size:13px;color:var(--muted);border:1px solid var(--line);padding:3px 10px;white-space:nowrap}
+.back:hover{color:var(--fg);border-color:var(--muted);text-decoration:none}
+.region{padding-block:30px;border-bottom:1px solid var(--line)}
+.region h2{font-family:var(--serif);font-weight:700;font-size:24px;margin:0}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}
+.card{background:var(--bg);border:1px solid var(--line);padding:18px 20px;min-width:0;display:block;color:var(--fg)}
+a.card:hover{background:var(--panel);text-decoration:none}
+.card .cn{font-family:var(--serif);font-weight:700;font-size:21px;display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.card .cn small{font-family:var(--mono);font-size:11.5px;font-weight:500;letter-spacing:.1em;color:var(--amber)}
+.card p{margin:8px 0 12px;font-size:13.5px;color:var(--muted);line-height:1.7}
+.card dl{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:0}
+.card dt{font-size:11.5px;color:var(--muted)} .card dd{margin:2px 0 0;font-family:var(--mono);font-size:15px;font-weight:600}
+.card.soon{color:var(--muted)} .card.soon .cn{font-size:17px;color:var(--muted)}
+.card.soon .cn small{color:var(--muted)}
+.cards.mini{grid-template-columns:repeat(5,1fr);gap:8px;margin-top:10px} .cards.mini .card{padding:12px 14px}
+@media (max-width:860px){.cards{grid-template-columns:1fr}.cards.mini{grid-template-columns:repeat(2,1fr)}}
+
+.cmplink{font-family:var(--mono);font-size:12.5px;color:var(--amber);text-decoration:none;border-bottom:1px solid currentColor;margin-left:auto}
+table.cmp{min-width:980px}
+table.cmp th a{color:inherit;text-decoration:none;border-bottom:1px solid var(--line)}
+table.cmp td{vertical-align:top;font-size:13px}
+table.cmp td:first-child,table.cmp th:first-child{position:sticky;left:0;background:var(--bg);white-space:nowrap;font-weight:600}
+table.cmp tr.grp td{font-family:var(--mono);font-size:11.5px;letter-spacing:.1em;color:var(--amber);padding-top:22px;border-bottom:1px solid var(--amber)}
+table.cmp{table-layout:fixed;width:100%}
+table.cmp td,table.cmp th{white-space:normal;word-break:break-word}
+table.cmp td:first-child,table.cmp th:first-child{width:128px;white-space:normal}
+
+.alert{margin:18px 0 0;padding:10px 14px;border-left:3px solid var(--amber);background:var(--panel);font-size:13.5px;color:var(--muted);max-width:820px}
+.alert b{font-family:var(--mono);font-size:11.5px;letter-spacing:.1em;color:var(--amber);margin-right:10px}
+
+.card .cn{align-items:center}
+.flag{width:28px;height:21px;flex:none;border:1px solid var(--line);object-fit:cover}
+.card.soon .flag{width:22px;height:16.5px;opacity:.75}
+#hr td.num,table.cmp td.num{font-family:inherit;font-variant-numeric:tabular-nums;letter-spacing:0}
+.filters{display:flex;flex-wrap:wrap;gap:12px;align-items:flex-end;margin-bottom:14px}
+.filters label{display:flex;flex-direction:column;gap:4px;font-size:11.5px;color:var(--muted);font-family:var(--mono);letter-spacing:.06em}
+.filters select,.filters button{font:inherit;font-family:var(--sans);font-size:13.5px;letter-spacing:0;color:var(--fg);background:var(--panel);border:1px solid var(--line);padding:7px 10px;min-width:132px;border-radius:0}
+.filters button{min-width:0;cursor:pointer;color:var(--amber)}
+#mapbox{position:relative;border:1px solid var(--line);background:var(--panel)}
+#map{display:block;width:100%;height:auto;cursor:grab;touch-action:none}
+#map .land{fill:var(--panel2);stroke:var(--line);stroke-width:.6}
+#map .land.live{fill:color-mix(in srgb,var(--amber) 16%,var(--panel2))}
+#map circle{cursor:pointer;fill-opacity:.88}
+#map circle.on{stroke:var(--fg)!important;fill-opacity:1}
+.zoomer{position:absolute;top:10px;right:10px;display:flex;flex-direction:column;gap:4px}
+.zoomer button{width:30px;height:30px;font-size:18px;line-height:1;color:var(--fg);background:var(--bg);border:1px solid var(--line);cursor:pointer}
+#tip{position:absolute;pointer-events:none;background:var(--bg);border:1px solid var(--line);padding:8px 10px;font-size:12.5px;line-height:1.55;width:220px;z-index:2}
+#tip b{display:block;font-size:13.5px} #tip span{display:block;color:var(--muted)}
+#legend{position:absolute;left:10px;bottom:10px;display:flex;flex-wrap:wrap;gap:4px 14px;font-size:12px;color:var(--muted);background:var(--bg);border:1px solid var(--line);padding:5px 10px}
+.st{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px;vertical-align:baseline}
+table.proj td{vertical-align:top;font-size:13.5px}
+table.proj td small{display:block;color:var(--muted);font-size:12px}
+table.proj td:nth-child(5){white-space:nowrap}
+table.proj tbody tr{cursor:pointer} table.proj tbody tr:hover{background:var(--panel)}
+table.proj tbody tr.on{background:var(--panel);box-shadow:inset 3px 0 0 var(--amber)}
+.maplink{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:26px;padding:16px 20px;border:1px solid var(--line);background:var(--panel);color:var(--fg)}
+a.maplink:hover{text-decoration:none;border-color:var(--amber)}
+.maplink b{font-family:var(--serif);font-size:19px} .maplink span{color:var(--muted);font-size:13.5px} .maplink em{font-style:normal;font-family:var(--mono);font-size:12.5px;color:var(--amber)}
+
+#mapbox{background:#04101d}
+#map .shade{fill:#04101d;opacity:.28}
+#map .land{fill:none;stroke:rgba(255,255,255,.28)}
+#map .land.live{fill:rgba(255,170,60,.13);stroke:rgba(255,190,90,.9)}
+#map circle{fill-opacity:1;filter:drop-shadow(0 0 1.5px rgba(0,0,0,.8))}
+
+#mapbox{--amber:#ffa028;--up:#2fd08a;--down:#ff5a5f;--blue:#4aa8ff;--muted:#c9d1dc}
+#legend,#tip{background:rgba(4,16,29,.88);border-color:rgba(255,255,255,.18);color:#e9edf3}
+#legend{color:#c9d1dc} #tip b{color:#fff}
+.zoomer button{background:rgba(4,16,29,.88);border-color:rgba(255,255,255,.25);color:#fff}
+#map{aspect-ratio:1000/520}
+
+#map .labels{pointer-events:none}
+#map .labels text{paint-order:stroke;stroke:rgba(4,16,29,.85);stroke-width:3px;stroke-linejoin:round;font-family:var(--sans)}
+#map .labels g,#map .labels text.ctry{transition:opacity .25s}
+#map .reg text{text-anchor:middle;fill:#ffc46b}
+#map .reg .en{font-family:var(--serif);font-size:13px;letter-spacing:.14em;font-weight:700}
+#map .reg .zh{font-size:12px;fill:#fff;font-weight:600}
+#map .reg .n{font-family:var(--mono);font-size:15px;font-weight:600}
+#map .ctry{text-anchor:middle;fill:#ffe3b0;font-size:13px;font-weight:600;letter-spacing:.08em}
+#map .city text{fill:#fff;font-size:11.5px}
+#map .city rect{fill:#fff;stroke:rgba(4,16,29,.9);stroke-width:1px}
+/* 表格内的数值单元格常夹中文，统一用正文字体，等宽数字保持对齐 */
+td.num,th.num{font-family:inherit;font-variant-numeric:tabular-nums;letter-spacing:0}
+/* 用工表：左列标签不折行，右列长说明正常换行并左对齐 */
+#hr td.num{white-space:normal;text-align:left}
+#hr tbody td:first-child{white-space:nowrap;width:1%;padding-right:18px;vertical-align:top}
+#hr td{vertical-align:top}
+/* 表格数值单元格允许换行；税务和用工表左列标签不折行 */
+td.num{white-space:normal}
+#tax tbody td:first-child,#hr tbody td:first-child{white-space:nowrap;vertical-align:top}
+#tax td{vertical-align:top}
+@media (max-width:700px){#tax tbody td:first-child{white-space:normal;min-width:5.5em}#tax td{overflow-wrap:anywhere}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <div class="brand">出海柬埔寨 <b>KHM DESK</b></div>
+  <a class="back" href="/">全部国家</a>
+  <nav class="nav" aria-label="栏目"><a href="#market">市场</a><a href="#pain">痛点</a><a href="#road">落地</a><a href="#access">准入</a><a href="#tax">税务</a><a href="#hr">用工签证</a><a href="#sector">赛道</a><a href="#feed">动态</a><a href="#desk">官方入口</a></nav>
+</div></header>
+<div class="tape" aria-label="关键指标"><div class="tape-in" id="tape"></div></div>
+<main class="wrap">
+
+<div class="hero">
+  <div class="kicker">中国企业赴柬埔寨经营简报 · 数据截至 2026-10-07</div>
+  <h1>柬埔寨对外资几乎全开放，真正的门槛是土地、外劳配额、美国关税和合规整顿</h1>
+  <p class="lead">柬埔寨人口约 1,700 万，经济高度美元化，中国连续多年是它最大的贸易伙伴和最大外资来源国。除土地所有权外，外资基本享受国民待遇，多数行业可以外资全资；注册为合格投资项目可免所得税 3–9 年，生产设备和原料进口免税，全国 25 个经济特区提供一站式服务。但外国人不能拥有土地，外籍员工不得超过员工总数的 10%，电价高、配套弱；出口高度依赖美欧服装市场，据报道美国对柬关税定在 19%，2029 年脱离最不发达国家后还将失去更多免税待遇。据报道，2025 年以来柬方大规模清剿电诈园区，对外国人和相关场所的检查明显增多，证件齐全、合规经营是底线。</p>
+  <div class="stats">
+    <div class="stat"><div class="v">178.3<small style="font-size:.5em"> 亿美元</small></div><div class="l">2024 年中柬货物贸易额<br><span class="up num">▲ 20.3%</span> 同比</div></div>
+    <div class="stat"><div class="v am">20%</div><div class="l">企业所得税<br>资源类 30%，另有 1% 最低税</div></div>
+    <div class="stat"><div class="v am">10%</div><div class="l">增值税<br>出口零税率</div></div>
+    <div class="stat"><div class="v">90.8<small style="font-size:.5em"> 亿美元</small></div><div class="l">2024 年底中国对柬投资存量<br>当年流量 14.6 亿美元</div></div>
+  </div>
+</div>
+
+<section id="market">
+  <div class="sh"><span class="tag">MARKET</span><h2>市场速览</h2></div>
+  <div class="cols">
+    <div>
+      <h3>宏观与成本仪表盘</h3>
+      <div class="tblw"><table>
+        <thead><tr><th>指标</th><th class="r">数值</th><th>口径</th></tr></thead>
+        <tbody>
+          <tr><td>GDP</td><td class="r num">约 472 亿美元</td><td>2024 年估算，增长 6%；据报道 2025 年增长 5.3%，世界银行 2026 年 10 月把当年预期下调到 3.5%</td></tr>
+          <tr><td>人均 GDP</td><td class="r num">2,713 美元</td><td>2024 年；计划部已把 GDP 基准年修订为 2014 年</td></tr>
+          <tr><td>人口</td><td class="r num">约 1,700 万</td><td>劳动力约 750 万，10–35 岁人口过半；金边约 230 万，华人华侨约 110 万</td></tr>
+          <tr><td>主权评级</td><td class="r num">B2</td><td>穆迪；2025 年 5 月因美国关税把展望调为负面，2026 年 4 月恢复稳定</td></tr>
+          <tr><td>汇率</td><td class="r num am">1 人民币 ≈ 611 瑞尔</td><td>柬埔寨国家银行 2026 年 10 月 10 日公布的官方汇率（13 日适用）；1 美元 = 4,070 瑞尔。日常交易以美元为主</td></tr>
+          <tr><td>最低月薪</td><td class="r num">210 美元</td><td>制衣、制鞋、箱包业 2026 年标准；2027 年 1 月 1 日起 212 美元</td></tr>
+          <tr><td>电价</td><td class="r num">约 0.25 美元/度</td><td>平均电价；部分城市和多数农村不能保证 24 小时供电</td></tr>
+          <tr><td>汽油</td><td class="r num">约 3,900 瑞尔/升</td><td>2024 年 12 月零售价，约合 0.96 美元；柴油约 3,800 瑞尔</td></tr>
+          <tr><td>写字楼月租</td><td class="r num">15–50 美元/㎡</td><td>金边黄金地段；普通地段 9–15 美元</td></tr>
+          <tr><td>厂房月租</td><td class="r num">1.15–2.00 美元/㎡</td><td>黄金地段 1.5–2 美元；标准厂房售价 70–350 美元/㎡</td></tr>
+          <tr><td>水泥</td><td class="r num">71 美元/吨</td><td>2024 年 6 月出厂价；钢筋 620 美元/吨，C25 混凝土 62 美元/立方米</td></tr>
+        </tbody>
+      </table></div>
+      <p class="note">2024 年通胀 0.8%，外汇储备 225 亿美元，政府外债 119 亿美元。美元占市场货币流通量 80% 以上，银行存贷款约 81.9% 为美元。居民可自由持有外汇，通过授权银行办理外汇业务不受管制，单笔 1 万美元及以上的转账由银行报国家银行；在商业部注册的企业都可开外汇账户。人民币在柬不能自由流通，中资企业不能用人民币开展跨境贸易和投资。本地银行能做汇款、信用证和外汇，但抵押贷款难、期限短、利率高；中国银行、工商银行在金边设有分行。金边月薪参考：高级经理 1,000–1,500 美元，会计 300–450 美元，办公室职员 150–250 美元。金边商业用地 2,500–12,000 美元/㎡（2023 年）。</p>
+    </div>
+    <div>
+      <h3>中柬货物贸易 2020–2024（亿美元）</h3>
+      <div class="legend"><span><i style="background:var(--amber)"></i>中国对柬出口</span><span><i style="background:var(--blue)"></i>中国自柬进口</span></div>
+      <div class="bars" id="bars"></div>
+      <p class="note">双边贸易额从 2020 年的 95.6 亿美元增至 2022 年的 160.2 亿美元，2023 年回落到 148.2 亿美元，2024 年达到 178.3 亿美元，增长 20.3%。中国对柬出口约是进口的 6 倍，2024 年顺差约 128 亿美元。按柬方统计，中国连续 13 年是柬埔寨最大的货物贸易伙伴，占柬进口总额的 47.1%；美国是柬最大出口市场。据报道柬方统计 2025 年中柬贸易 197.3 亿美元，增长近 30%。2024 年中国企业在柬新签承包工程合同额约 28 亿美元，下降 21.9%，完成营业额约 27.1 亿美元。来源：中国海关总署。</p>
+    </div>
+  </div>
+</section>
+
+<section id="pain">
+  <div class="sh"><span class="tag">PAIN POINTS</span><h2>中企在柬埔寨最常踩的六个坑</h2><p>按企业实际遇到的顺序排列。</p></div>
+  <div class="pains">
+    <div class="pain"><div class="k">49%</div><h3>外国人不能拥有土地，只能租或拿特许</h3><p>宪法和《土地法》规定只有柬籍自然人或法人能拥有土地，柬籍法人指柬方持股 51% 以上的公司；拥有土地的合资企业，外资合计不超过 49%。投资人可通过特许、无限期长期租赁或可续期短期租赁使用土地，15 年以上的长期租赁构成物权，可继承和转让；地上建筑和财产归投资人，可以抵押。土地特许面积不超过 1 万公顷、期限不超过 99 年，经济特许地 2012 年起暂停新批。战乱导致大量产权资料丢失，土地纠纷多；外籍人伪造身份拥有土地将受处罚。外国人可购买二楼以上的房产。</p><p class="do">工厂优先落在经济特区，向特区开发商租地。自行租地前核实所有权和地籍登记，长租约在地籍处登记；不要找人代持土地。</p></div>
+    <div class="pain"><div class="k">19%</div><h3>出口押在美欧服装市场，关税和原产地审查收紧</h3><p>柬埔寨出口以服装、鞋类、箱包为主，主要卖给美欧。据报道，2025 年 4 月美国宣布对柬征收 49% 的对等关税，7 月达成协议后降到 19%；10 月双方签署对等贸易协定，柬方对美国商品全部取消关税，并承诺配合美方出口管制和制裁名单。2025 年 4 月柬商业部发布对美出口原产地证程序部长令，严防“洗产地”。欧盟 2020 年已撤销部分商品的关税优惠，美国普惠制 2021 年到期未续；柬埔寨预计 2029 年正式脱离最不发达国家，届时失去相关免税待遇。据报道，2026 年 7 月中柬商务部门签署谅解备忘录，柬方表示与第三方的贸易安排不损害中国利益。</p><p class="do">对美出口产品做实本地加工，原产地文件、采购和生产记录全程留档。把 2029 年后的关税成本算进项目回报，市场不要只押美国。</p></div>
+    <div class="pain"><div class="k">整顿</div><h3>电诈清剿持续，外国人和相关场所检查增多</h3><p>据报道，柬政府 2025 年 7 月起在全国清剿电诈园区，到 2026 年 8 月共检查 793 处，拘留近 3 万人，遣返外国人 5.8 万名，15 名官员和执法人员被捕；2026 年 4 月《反电信网络诈骗法》生效，团伙头目最高可判终身监禁。太子集团陈志 2025 年 10 月遭美英制裁，2026 年 1 月被押解回国；与其相关的汇旺支付 2025 年 12 月遭挤兑停业。2026 年 3 月起，房东或雇主未申报外国住客的，每人罚款至少 100 万瑞尔。涉诈案件也拖累了中国公民和正常经营中企的形象，中国使馆多次提醒警惕“高薪招聘”。</p><p class="do">对合作方、房东、园区和支付渠道做背景调查，资金走正规银行。员工证件随身，按规定申报外国住客；遇检查配合执法，要求出示证件和没收清单，及时报告使馆。</p></div>
+    <div class="pain"><div class="k">0.25</div><h3>电价高、配套弱，物流绕道</h3><p>平均电价约 0.25 美元/度，水、电、气成本都偏高；部分城市和多数农村不能保证 24 小时供电，季节性缺电仍然存在。西哈努克港是唯一深水港，海运多经新加坡中转；铁路只有两条单线米轨，最高时速 30 公里。工业配套不发达，制衣原料几乎全靠进口，市场和经营秩序有待提高。据报道国际机构预计 2026 年增长放缓到 3%–3.5%，旅游下滑、油价上涨和房地产调整拖累内需；2025 年 7 月柬泰边境冲突也冲击了旅游和边境消费。</p><p class="do">选址先确认供电能力，耗电大的项目考虑自建光伏加储能。原料进口和成品出口按中转周期备足库存；项目融资尽量在国内或中资银行安排。</p></div>
+    <div class="pain"><div class="k">10%</div><h3>外劳有配额，劳动法执行偏向工人</h3><p>劳动法参照发达国家标准制定，执行中更强调保护劳工，严格控制外劳输入：外籍员工不得超过职工总数的 10%，每年 11 月底前申报下一年度指标，没报就不能雇外劳。雇用或解雇工人须在 15 日内书面报劳动部门，员工超过 8 人须制定内部规章。工会活跃，罢工受法律保护；口头合同同样有效，用“承揽协议”规避雇佣关系，法院仍会认定为劳动合同并判赔。工资每月至少发 2 次，还要按年发工龄补偿。</p><p class="do">每年 11 月前报外劳配额，国内只派必要的管理和技术人员。合同、考勤、加班和工龄补偿按法定标准留档，与工会保持日常沟通，避免罢工。</p></div>
+    <div class="pain"><div class="k">1%</div><h3>亏损也要按营业额交税，申报一月一次</h3><p>实行查账征收的企业每月按营业额 1% 预缴所得税；年度所得税低于营业额 1% 的，按 1% 最低税缴纳，亏损也要交，合格投资项目和凭审计报告获批的企业除外。预缴所得税、工资税、预提税、增值税均按月申报，次月 20 日前完成（电子申报 25 日前），逾期按月加收 1.5% 利息并罚款。税种多、法规变化快，不同层级税务机关解释不一；全面税务检查一般追溯 3 年，有逃税证据可延至 5–6 年，逃税可判 1–5 年监禁。</p><p class="do">请可靠的本地会计按月申报，增值税发票和凭证完整保存。做好账、请外部审计，争取最低税豁免；合格投资项目按时报送审计报告。</p></div>
+  </div>
+</section>
+
+<section id="road">
+  <div class="sh"><span class="tag">ROADMAP</span><h2>从国内备案到在柬开张：八步</h2></div>
+  <ol class="steps">
+    <li><div><h3>国内境外投资备案</h3><p>发改委、商务部备案或核准，再到银行办外汇登记。</p></div></li>
+    <li><div><h3>定主体，查禁止领域</h3><p>可设个人企业、合伙、私人或公众有限公司，也可设分公司、代表处。除毒品、违禁化学品、进口废料发电和森林法禁止的业务外，外资不受国籍和股比限制；只有要拥有土地的公司，外资合计不能超过 49%。</p></div></li>
+    <li><div><h3>在商业部线上注册</h3><p>通过一站式在线平台（registrationservices.gov.kh，有中文版）办理商业注册，一般约 1 周拿到证书。证书颁发后 1 个月内为临时证书，有效期 3 年，到期前 30 天申请换发。须至少开 1 个本地银行账户。</p></div></li>
+    <li><div><h3>申请合格投资项目</h3><p>要享受免税期和进口免税，先向柬埔寨发展理事会或省级投资委员会提交投资申请，拿到有条件注册证书后再做商业注册，最后取得最终注册证书。投资超过 5,000 万美元、涉及矿产资源、BOT 或可能影响环境的项目须报内阁批准。</p></div></li>
+    <li><div><h3>环评与选址</h3><p>任何公共或私人项目都要做环境影响评估，环评报告获批后才能实施，公众可在 30 天公示期内提出异议。工厂优先选经济特区，区内有发展理事会、海关、商业部、劳工局派驻的服务窗口。</p></div></li>
+    <li><div><h3>税务登记</h3><p>开始经营或完成商业注册后 15 日内在税务局登记，与商业注册在同一平台在线提交，税务局 7–10 个工作日内批复，取得纳税人识别号。达到标准的同时办增值税登记；地址、负责人变更也须 15 日内通知税务局。</p></div></li>
+    <li><div><h3>招工、社保和外劳手续</h3><p>雇用或解雇工人 15 日内报劳动部门，员工超过 8 人制定内部规章，并在国家社会保障基金（NSSF）登记缴费。每年 11 月底前申报下一年外劳指标，外籍员工在线办工作许可证和就业卡。</p></div></li>
+    <li><div><h3>按月申报，年度清算</h3><p>每月 20 日前申报缴纳预缴所得税、工资税、预提税和增值税。年度所得税在纳税年度结束后 3 个月内申报。合格投资项目完成申报后 20 日内向发展理事会报送半年度和年度报告。注册后到中国驻柬使馆经商处报到备案。</p></div></li>
+  </ol>
+</section>
+
+<section id="access">
+  <div class="sh"><span class="tag">ENTRY</span><h2>外资准入与落脚点</h2><p>柬埔寨没有专门的外资法，除土地所有权外内外资一致，多数行业可以外资全资。要拿税收优惠，就走合格投资项目或经济特区。</p></div>
+  <div class="tblw"><table>
+    <thead><tr><th>落脚点</th><th class="r">外资持股</th><th>能做什么</th><th>税负</th><th>适合</th></tr></thead>
+    <tbody>
+      <tr><td><strong>普通公司</strong><br>商业部注册</td><td class="r num">最高 100%</td><td>私人或公众有限公司、分公司、代表处均可；经商不受国籍限制，进口一般不需许可证</td><td>所得税 20%；最低税 1%；增值税 10%</td><td>贸易、服务和不需优惠的制造</td></tr>
+      <tr><td><strong>合格投资项目</strong><br>发展理事会注册</td><td class="r num up">可 100%</td><td>19 个鼓励领域，含高科技、电子电气、机械、农产品加工、物流、数字、绿色能源等；项目可整体转让，经批准继续享受优惠</td><td>免所得税 3–9 年，之后 6 年分段减免；或 40% 特殊折旧加 9 年内部分费用 200% 扣除；设备、建材进口免税</td><td>出口制造、新能源和大型项目</td></tr>
+      <tr><td><strong>经济特区</strong><br>25 个</td><td class="r num up">可 100%</td><td>柴桢省数量最多，西港特区规模最大；区内派驻海关、商业部、劳工等窗口，办原产地证和报关</td><td>与合格投资项目同等优惠；出口产品免增值税，内销按量缴纳</td><td>出口加工、轮胎、汽配</td></tr>
+      <tr><td><strong>拥有土地的公司</strong></td><td class="r num down">≤49%</td><td>柬方须持股 51% 以上；其他企业只能通过特许或租赁用地，15 年以上长租构成物权</td><td>财产转移税 4%；闲置土地按评估值 2% 征税</td><td>长租或在特区租地</td></tr>
+      <tr><td><strong>基础设施 BOT</strong></td><td class="r num up">无限制</td><td>高速公路、机场、水电站、燃煤电站、输变电网均有中资 BOT 项目；水电特许期一般 30–40 年</td><td>所得税 20%；可申请合格投资项目</td><td>交通、电力投资</td></tr>
+      <tr><td><strong>工程承包</strong></td><td class="r num up">无限制</td><td>无禁止领域；国家投资和国际组织贷款、援助项目一律招标，须提供资质证明、母国对外承包工程资格、商业部注册证书和银行履约保函</td><td>所得税 20%</td><td>国际贷款和私营业主项目</td></tr>
+      <tr><td><strong>汽车组装</strong></td><td class="r num up">可 100%</td><td>注册为合格投资项目的，按本地零部件比例享受进口关税 50%–90% 减免，另有零件数、投资额和员工数门槛</td><td>所得税 20%；增值税、特定商品和服务税另有优惠</td><td>电动车和整车散件组装</td></tr>
+      <tr><td><strong>矿产</strong></td><td class="r num">可 100%</td><td>200 平方公里以下的矿权由矿产能源部批准，执照 3 年，可延期两次各 2 年；出口须先拿年度配额，每批另办许可</td><td>所得税 30%</td><td>勘探、开采和加工</td></tr>
+      <tr><td><strong>农业</strong></td><td class="r num">可 100%</td><td>1,000 公顷以上稻谷、500 公顷以上经济作物等规模项目受鼓励；新的经济特许地暂停审批</td><td>橡胶、木材制品、水产等出口征 10% 出口税</td><td>种植、农产品加工</td></tr>
+      <tr><td><strong>禁止领域</strong></td><td class="r num down">禁止</td><td>麻醉品生产加工，违禁有毒化学品、农药，进口废料发电，森林法禁止的森林开发</td><td>—</td><td>—</td></tr>
+    </tbody>
+  </table></div>
+  <p class="note">投资法承诺不违法征收和国有化，不管制已批准项目的产品和服务价格，投资收益可自由汇出。2024 年柬埔寨吸收外资流量 43.95 亿美元（联合国贸发会议口径），中国（含港澳台）当年对柬协议投资 34.4 亿美元，累计 316.1 亿美元。据报道 2026 年前 8 个月柬新批投资项目 346 个、投资额约 54 亿美元，中国占 36%。外国公司可参与柬埔寨证券市场。</p>
+</section>
+
+<section id="tax">
+  <div class="sh"><span class="tag">TAX</span><h2>税务速查</h2><p>全国统一税制、属地征收。2023 年新《税法》取代 1997 年旧法。大部分税种按月申报，次月 20 日前缴清。</p></div>
+  <div class="cols">
+    <div>
+      <div class="tblw"><table>
+        <thead><tr><th>税种</th><th class="r">税率</th><th>要点</th></tr></thead>
+        <tbody>
+          <tr><td>企业所得税</td><td class="r num">20%</td><td>居民企业就境内外所得纳税；石油天然气、木材、矿产、黄金宝石开采 30%</td></tr>
+          <tr><td>预缴所得税</td><td class="r num">1%</td><td>每月按营业额预缴，可抵年度所得税和最低税</td></tr>
+          <tr><td>最低税</td><td class="r num">1%</td><td>按年营业额计，与所得税取高者；合格投资项目和会计记录良好经批准的企业可免</td></tr>
+          <tr><td>增值税</td><td class="r num am">10%</td><td>出口货物和服务、为出口企业配套供货零税率；进口由海关代征；按月申报</td></tr>
+          <tr><td>股息分配预征所得税</td><td class="r num">20%</td><td>用未完税利润分配股息时，按股息额乘以所得税率补缴，可抵年度所得税；免税期内的合格投资项目利润除外</td></tr>
+          <tr><td>居民预提税</td><td class="r num">15% / 10%</td><td>服务费（无有效增值税发票）、利息、特许权使用费 15%；租金 10%；银行定期、活期存款利息 6%、4%</td></tr>
+          <tr><td>非居民预提税</td><td class="r num">14%</td><td>股息、利息、特许权使用费、租金、管理和技术服务费，以及转让柬埔寨境内资产所得</td></tr>
+          <tr><td>工资税</td><td class="r num">0%–20%</td><td>月薪 150 万瑞尔（约 375 美元）以下免税，超额累进；非居民 20%；附加福利按 20% 征收</td></tr>
+          <tr><td>进口关税</td><td class="r num">0%–35%</td><td>主要为 0%、7%、15%、35% 四档；符合原产地规则的中国、东盟和 RCEP 货物适用更低税率</td></tr>
+          <tr><td>特定商品和服务税</td><td class="r num">3%–30%</td><td>电信、饮料、烟草、娱乐、油品、大排量汽车等</td></tr>
+          <tr><td>租赁税 / 财产转移税</td><td class="r num">10% / 4%</td><td>土地、建筑和仓储租金按 10%；不动产和部分车辆过户按转让价值 4%</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+    <div>
+      <h3>向中国母公司付款的预提税</h3>
+      <div class="tblw"><table>
+        <thead><tr><th>款项</th><th class="r">柬埔寨国内法</th><th class="r">中柬协定上限</th></tr></thead>
+        <tbody>
+          <tr><td>股息</td><td class="r num">14%</td><td class="r num up">10%</td></tr>
+          <tr><td>利息</td><td class="r num">14%</td><td class="r num up">10%；付给中国政府、央行或政府持股超过 50% 的金融机构的免税</td></tr>
+          <tr><td>特许权使用费</td><td class="r num">14%</td><td class="r num up">10%</td></tr>
+          <tr><td>管理和技术服务费</td><td class="r num">14%</td><td class="r num up">10%（协定单列技术服务费条款）</td></tr>
+          <tr><td>租金</td><td class="r num">14%</td><td class="r num">—</td></tr>
+          <tr><td>转让柬埔寨境内资产所得</td><td class="r num">14%</td><td class="r num">—</td></tr>
+        </tbody>
+      </table></div>
+      <h3 style="margin-top:20px">四条要提前安排的规则</h3>
+      <p style="margin:0;font-size:13.5px;color:var(--muted)"><strong style="color:var(--fg)">工程常设机构 9 个月。</strong>建筑工地、建筑装配安装工程或相关监督管理活动连续超过 9 个月，即构成常设机构；为勘探开采自然资源操作大型设备，任何 12 个月中连续或累计超过 90 天也构成。按国内法，以电子商务方式向柬提供货物或服务、或有经常代签合同的代理人，同样视为常设机构。<br><strong style="color:var(--fg)">协定待遇要主动申请。</strong>中柬税收协定 2018 年 1 月 26 日生效、2019 年起执行。中方须是受益所有人，在柬埔寨税务局的税收协定在线系统申请通知函或税收居民身份证明，获批后才按协定税率扣缴。<br><strong style="color:var(--fg)">关联交易按独立交易原则。</strong>持股 20% 以上即为关联方；年度所得税申报时一并提交转让定价申报表，税务局要求时提交同期资料；关联借款利率须符合独立交易原则，关联方之间转让财产的亏损不得扣除。目前没有资本弱化和受控外国公司规则。<br><strong style="color:var(--fg)">优惠企业要按时报告。</strong>合格投资项目在纳税申报后 20 日内向发展理事会报送半年度和年度报告，列明免税进口金额、实际投资额、雇员和环保措施；要免最低税，须提交独立审计报告，新项目从注册第二年起在次年 6 月前提交。</p>
+    </div>
+  </div>
+</section>
+
+<section id="hr">
+  <div class="sh"><span class="tag">PEOPLE</span><h2>用工与签证</h2></div>
+  <div class="cols">
+    <div>
+      <h3>劳动法底线</h3>
+      <div class="tblw"><table>
+        <tbody>
+          <tr><td>标准工时</td><td class="num r">每天不超过 8 小时，每周不超过 48 小时；每周最多工作 6 天，周休至少连续 24 小时，原则上安排在周日。可按早、午、晚三班轮班</td></tr>
+          <tr><td>加班费</td><td class="num r">正常工资的 150%；夜间或每周休息日加班 200%</td></tr>
+          <tr><td>最低工资</td><td class="num r">制衣、制鞋、箱包业 2026 年每月 210 美元，试用期 208 美元；2027 年 1 月 1 日起 212 美元。据报道工人另有每月 2.5 美元交通补贴</td></tr>
+          <tr><td>工资支付</td><td class="num r">工人每月至少发 2 次，间隔不超过 16 天；职员每月至少 1 次。不得向员工收取押金或保证金</td></tr>
+          <tr><td>假期</td><td class="num r">每连续工作 1 个月享 1.5 天带薪年假，工龄每满 3 年加 1 天；直系亲属事件特别假最多 7 天；女工产假 90 天，发半薪，复工后 2 个月安排轻活</td></tr>
+          <tr><td>试用期和合同</td><td class="num r">试用期一般员工不超过 3 个月、专业工人 2 个月、非专业工人 1 个月；定期合同每次不超过 2 年，可续签；口头合同同样有效</td></tr>
+          <tr><td>工龄补偿和解约</td><td class="num r">每年发放 15 天工资的工龄补偿，每 6 个月结算一半；定期合同期满按合同期工资总额至少 5% 支付解雇费；不续签须提前 10 天（合同超过 6 个月）或 15 天（超过 1 年）通知，否则合同自动延期</td></tr>
+          <tr><td>社会保险</td><td class="num r">国家社会保障基金：工伤 0.8%、医疗 2.6%，均由雇主承担；养老金合计 4%，雇主、雇员各 2%，2022 年 10 月起缴，满 5 年后合计升至 8%；养老金缴费基数 40 万–120 万瑞尔</td></tr>
+        </tbody>
+      </table></div>
+      <p class="note">2021 年 10 月劳动法修正案生效，增设劳动仲裁委员会。最低就业年龄 15 岁，危险工作 18 岁。制衣业雇主多加入柬埔寨制衣厂商协会（GMAC），劳资纠纷协商不成可提交独立的劳工仲裁委员会。社会治安总体良好，抢劫、盗窃时有发生，西北部省份仍有雷区。85% 以上人口信奉佛教，不要摸别人头部，不要用脚指人或佛像。</p>
+    </div>
+    <div>
+      <h3>外籍员工怎么进来</h3>
+      <div class="tblw"><table>
+        <thead><tr><th>事项</th><th>要点</th></tr></thead>
+        <tbody>
+          <tr><td>年度外劳配额</td><td>每年 11 月底前向劳动与职业培训部申报下一年度指标，外劳不超过职工总数的 10%；只有柬方缺乏的技术和管理人员才获准</td></tr>
+          <tr><td>工作许可证和就业卡</td><td>通过外国人集中管理系统 fwcms.mlvt.gov.kh 在线申请，有效期 1 年，每年 3 月底前更新，延期不得超过居留期限。工作证 100 美元、配额 20 美元，线上各另付 30 美元服务费</td></tr>
+          <tr><td>外籍劳动合同</td><td>每次不超过 2 年，可用外文但须附柬文本；期满继续工作须重新报批</td></tr>
+          <tr><td>商务签证（E 类）</td><td>用于投资、经商、劳务，可在口岸办落地签，停留 30 天；入境后向移民局申请延期 1、3、6 或 12 个月，须提供在职证明。逾期滞留每天罚 10 美元，严重的遣返</td></tr>
+          <tr><td>合格投资项目</td><td>经发展理事会批准，可为外籍经理、技师和技工办签证和工作许可，并为配偶、子女申请长期居留</td></tr>
+          <tr><td>免签试点</td><td>2026 年 6 月 15 日至 10 月 15 日，持普通护照的中国公民可免签入境，每次停留不超过 14 天，可多次入境，须提前填电子入境卡。务工须另办商务签证和工作证；试点期满后的安排以官方公告为准</td></tr>
+          <tr><td>联合检查</td><td>劳动部和内政部联合检查外国劳工，企业须出示公司章程、商业注册证、外劳指标、柬文劳动合同、护照签证、工作证和就业卡等十项文件；外国人开的小店也要办工作证</td></tr>
+        </tbody>
+      </table></div>
+      <p class="note">中资企业注册后应到中国驻柬使馆经商处报到备案，可加入柬埔寨中国商会。中方人员出门随身带护照、工作证件或居住证明；遇执法人员检查，礼貌出示证件，搜查时要求对方出示证件和搜查证明，没收财物要清单、交罚款要单据，并及时报告使馆。尽量多雇柬籍员工并加强培训，顺应柬方技术人才本地化政策。</p>
+    </div>
+  </div>
+</section>
+
+<section id="sector">
+  <div class="sh"><span class="tag">SECTORS</span><h2>机会在哪里</h2><p>“五角战略”、电力规划和交通物流规划的重点方向，叠加中企已经落地的项目。</p></div>
+  <div class="tracks">
+    <div class="track"><h3>制衣制鞋与箱包 <span class="heat am">关税承压</span></h3><p>制衣业是柬工业两大支柱之一，服装出口长期占出口总额的绝大部分。据报道，2026 年 1–9 月服装、纺织、鞋类和旅行用品出口 131.5 亿美元，增长 7.7%，全行业 1,800 多家工厂、约 110 万工人。原料主要从中国进口，最低工资 2027 年升至 212 美元；美国 19% 关税、原产地审查和 2029 年脱离最不发达国家，是新项目必须算清的账。</p></div>
+    <div class="track"><h3>水电、光伏与储能 <span class="heat up">规模最大</span></h3><p>2024 年底发电装机 5,044 兆瓦，政府预测用电需求从 2024 年的 194 亿度增至 2030 年 360 亿度。2024 年 9 月内阁批准 2024–2029 年 23 个电力项目，总投资 57.9 亿美元，以光伏、风电和储能为主。中资建设运营了桑河二级、额勒赛下游、达岱等水电站，据报道华电在柬投资约 18.5 亿美元；2025 年中国重机签下 1,000 兆瓦上达岱抽水蓄能 BOT 项目，柬方目标 2030 年可再生能源占比不低于 70%。</p></div>
+    <div class="track"><h3>交通基建 <span class="heat up">项目密集</span></h3><p>中国路桥以 BOT 方式投建的金港高速 2022 年通车；云南投资建设的暹粒吴哥国际机场 2023 年通航，中建三局承建的德崇国际机场 2025 年 9 月通航。《2023—2033 年运输和物流系统综合总体规划》列出 174 个项目、需资金 366.8 亿美元，拟多用 PPP。据报道德崇扶南运河调整为 151.6 公里、投资约 11.6 亿美元，中国路桥持股 49%，2026 年 4 月第二阶段开工，预计 2028 年建成。</p></div>
+    <div class="track"><h3>经济特区与制造 <span class="heat up">最成熟</span></h3><p>西港特区是中资特区中规模最大的，截至 2025 年 5 月入驻企业 202 家，约占西哈努克省工厂企业的 70%，创造就业 3.2 万个。轮胎是亮点：通用轮胎投资约 3 亿美元，齐鲁特区的赛轮项目投资 3.5 亿美元，斯努特区的双星项目协议投资 1.38 亿美元。据报道 2026 年前两个月西港特区企业出口增长 20.5%，正转向汽车及零部件、新能源部件和机械加工。</p></div>
+    <div class="track"><h3>电动车与汽车组装 <span class="heat am">起步阶段</span></h3><p>《2024–2030 年电动车发展政策》提出 53 条措施，目标 2030 年电动汽车 3 万辆、电动两轮车 72 万辆；2024 年 6 月全国电动车仅 3,676 辆。汽车组装注册为合格投资项目，可按本地零部件比例享受 50%–90% 进口关税减免。据报道比亚迪 2025 年 4 月在西哈努克省奠基柬埔寨首个新能源汽车工厂，投资约 3,200 万美元，年产能 1 万辆，已有组装车交付。</p></div>
+    <div class="track"><h3>农产品加工 <span class="heat am">潜力大</span></h3><p>2024 年柬埔寨出口农产品约 1,166 万吨、创收约 48 亿美元，以大米、香蕉、芒果、木薯、腰果、玉米、胡椒为主，中国、越南和泰国是主要市场。中柬自贸协定和 RCEP 2022 年起生效，中国此前已对柬绝大部分产品零关税。农产品加工、仓储物流被柬方列为希望与中方合作的重点，但规模种植要用地，新的经济特许地暂停审批。</p></div>
+  </div>
+  <div class="feedhead" id="feed"><h3>赛道动态</h3><span class="live">LIVE</span><span class="upd" id="upd"></span></div>
+  <div class="chips" id="chips" role="group" aria-label="按赛道筛选"></div>
+  <ul class="feed" id="feedlist"></ul>
+  <button type="button" class="more" id="more" hidden>显示更多</button>
+  <div class="feedmsg" id="feedmsg">正在载入各赛道的最新新闻与政策……</div>
+
+</section>
+
+<section id="desk">
+  <div class="sh"><span class="tag">DIRECTORY</span><h2>官方入口</h2></div>
+  <div class="links">
+    <div><a href="https://www.cambodiainvestment.gov.kh">柬埔寨发展理事会 CDC</a><span>合格投资项目注册、经济特区和投资优惠</span></div>
+    <div><a href="https://www.registrationservices.gov.kh">一站式在线注册平台</a><span>商业注册、税务登记、投资项目登记（有中文版）</span></div>
+    <div><a href="https://www.moc.gov.kh">商业部</a><span>公司注册、原产地证和贸易管理</span></div>
+    <div><a href="https://www.tax.gov.kh">税务总局 GDT</a><span>税务登记、电子申报和税收协定待遇</span></div>
+    <div><a href="https://www.customs.gov.kh">海关与关税总司</a><span>进出口通关和关税税率查询</span></div>
+    <div><a href="https://fwcms.mlvt.gov.kh">劳动与职业培训部外劳系统</a><span>外劳配额、工作许可证和就业卡</span></div>
+    <div><a href="https://www.nbc.gov.kh">柬埔寨国家银行</a><span>外汇管理和官方汇率</span></div>
+    <div><a href="https://www.moe.gov.kh">环境部</a><span>环境影响评估</span></div>
+    <div><a href="http://cb.mofcom.gov.cn">中国驻柬埔寨使馆经商处</a><span>经贸政策咨询和中资企业报到备案</span></div>
+  </div>
+</section>
+
+</main>
+<footer class="wrap">
+  本页为公开信息整理，不构成法律、税务或投资意见。门槛和税率每年调整，具体交易请以官方最新文本和专业顾问意见为准。
+</footer>
+<script>
+const META={"slug": "cambodia", "tape": [["企业所得税", "20%"], ["增值税", "10%"], ["最低税", "营业额 1%"], ["股息预提税(协定)", "10%"], ["非居民预提税", "14%"], ["制衣制鞋最低工资", "210 美元/月"], ["汇率", "1 CNY≈611 KHR"], ["中柬贸易 2024", "US$178.3亿"], ["对柬出口", "US$153.4亿"], ["自柬进口", "US$25.0亿"], ["对柬投资存量", "US$90.8亿"], ["对柬投资流量 2024", "US$14.6亿"]], "bars": {"max": 160, "data": [[2020, 80.57, 14.98], [2021, 115.68, 21.0], [2022, 141.84, 18.39], [2023, 127.53, 20.71], [2024, 153.36, 24.98]]}, "sect": {"energy": "新能源", "trade": "贸易物流", "infra": "工程基建", "finance": "金融", "tech": "数字经济", "industry": "制造业", "general": "综合经贸"}, "feed": "/cambodia/news.json"};
+const t=document.getElementById("tape");
+if(t){const h=META.tape.map(([k,v])=>`<span>${k}<i>${v}</i></span>`).join("");t.innerHTML=h+h}
+const bars=document.getElementById("bars");
+if(bars){const max=META.bars.max;bars.innerHTML=META.bars.data.map(([y,e,m])=>`<div class="yr"><span>${y}</span><div><div class="bar e"><i style="width:${e/max*82}%"></i><b>${e}</b></div><div class="bar m"><i style="width:${m/max*82}%"></i><b>${m}</b></div></div></div>`).join("")}
+/* 动态：读取本国 news.json，每日自动更新 */
+const SECT=Object.assign({all:"全部"},META.sect),KEY="sect-"+META.slug;
+let rows=[],cur="all",shown=16;
+try{cur=localStorage.getItem(KEY)||"all"}catch(e){}
+if(!SECT[cur])cur="all";
+const chips=document.getElementById("chips"),list=document.getElementById("feedlist"),msg=document.getElementById("feedmsg");
+function el(tag,cls,txt){const e=document.createElement(tag);if(cls)e.className=cls;if(txt!=null)e.textContent=txt;return e}
+function drawChips(){chips.textContent="";for(const k in SECT){const n=k==="all"?rows.length:rows.filter(r=>r.sector===k).length;const b=el("button",null,SECT[k]+(rows.length?" "+n:""));b.type="button";b.id="chip-"+k;b.setAttribute("aria-pressed",String(k===cur));b.onclick=()=>{cur=k;shown=16;try{localStorage.setItem(KEY,k)}catch(e){}draw()};chips.appendChild(b)}}
+function draw(){drawChips();list.textContent="";const show=rows.filter(r=>cur==="all"||r.sector===cur);
+  for(const r of show.slice(0,shown)){const li=el("li");li.appendChild(el("time",null,r.date||"—"));const d=el("div");
+    const ok=typeof r.url==="string"&&/^https?:\/\//.test(r.url);const a=el(ok?"a":"span","t",r.title||"");if(ok){a.href=r.url;a.target="_blank";a.rel="noopener"}d.appendChild(a);
+    const m=el("div","m");const pol=r.kind==="政策";m.appendChild(el("span","k "+(pol?"pol":"news"),pol?"政策":"新闻"));m.appendChild(el("span",null,SECT[r.sector]||""));if(r.source)m.appendChild(el("span",null,r.source));d.appendChild(m);li.appendChild(d);list.appendChild(li)}
+  const mb=document.getElementById("more");mb.hidden=show.length<=shown;mb.textContent="显示更多（还有 "+(show.length-shown)+" 条）";
+  msg.hidden=show.length>0;if(!show.length)msg.textContent=rows.length?"这个类别暂时没有新动态。":"暂无动态。每日更新后，这里会自动出现新闻与政策。";
+  const last=rows.map(r=>r.added||r.date||"").sort().pop();document.getElementById("upd").textContent=last?"最近更新 "+last:""}
+if(chips){drawChips();
+document.getElementById("more").onclick=()=>{shown+=16;draw()};
+fetch(META.feed,{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(j=>{rows=(j.items||[]).slice().sort((x,y)=>String(y.date||"").localeCompare(String(x.date||"")));draw()}).catch(()=>{msg.hidden=false;msg.textContent="动态暂时无法载入，请稍后刷新。"})}
+</script>
+</body>
+</html>
