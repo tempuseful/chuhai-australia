@@ -1,0 +1,499 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>出海哈萨克斯坦</title>
+<meta name="description" content="面向中国企业的赴哈萨克斯坦经营简报：市场数据、常见痛点、落地八步、外资准入与经济特区、2026 年新税法与中哈税收协定、用工签证速查，新闻与政策动态。">
+<link rel="stylesheet" href="/fonts/fonts.css">
+<style>
+/* 布局：终端式行情带 + 财经头版。全宽黑底栏目条分节，数据用等宽字，标题用重磅宋体 */
+:root{
+  --bg:#07090d; --panel:#0e1219; --panel2:#141a24; --line:#232b38;
+  --fg:#e9edf3; --muted:#8b96a8; --amber:#ffa028; --amber-ink:#07090d;
+  --up:#2fd08a; --down:#ff5a5f; --blue:#4aa8ff;
+  --serif:"Noto Serif SC","Songti SC","Source Han Serif SC","SimSun",serif;
+  --sans:"PingFang SC","HarmonyOS Sans SC","Microsoft YaHei","Noto Sans CJK SC","Noto Sans SC",system-ui,sans-serif;
+  --mono:"IBM Plex Mono","SFMono-Regular",Menlo,Consolas,monospace;
+  color-scheme:dark;
+}
+@media (prefers-color-scheme: light){ :root:not([data-theme="dark"]){
+  --bg:#f3f4f6; --panel:#ffffff; --panel2:#e9ecf1; --line:#cfd5de;
+  --fg:#0b0f16; --muted:#566173; --amber:#b85c00; --amber-ink:#ffffff;
+  --up:#0a7a4b; --down:#c22b30; --blue:#0b5cad; color-scheme:light } }
+:root[data-theme="light"]{
+  --bg:#f3f4f6; --panel:#ffffff; --panel2:#e9ecf1; --line:#cfd5de;
+  --fg:#0b0f16; --muted:#566173; --amber:#b85c00; --amber-ink:#ffffff;
+  --up:#0a7a4b; --down:#c22b30; --blue:#0b5cad; color-scheme:light }
+
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--bg);color:var(--fg);font-family:var(--sans);font-size:15px;line-height:1.75;margin:0}
+a{color:var(--blue);text-decoration:none} a:hover{text-decoration:underline}
+a:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+.wrap{max-width:1180px;margin:0 auto;padding-inline:20px}
+.num{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.up{color:var(--up)} .down{color:var(--down)} .am{color:var(--amber)}
+
+/* 顶栏 */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;gap:20px;flex-wrap:wrap;padding-block:10px}
+.brand{font-family:var(--serif);font-weight:700;font-size:20px;letter-spacing:.04em;display:flex;align-items:center;gap:10px}
+.brand b{background:var(--amber);color:var(--amber-ink);font-family:var(--mono);font-size:12px;font-weight:600;padding:2px 7px;letter-spacing:.08em}
+.nav{display:flex;gap:16px;flex-wrap:wrap;font-size:13px;margin-left:auto}
+.nav a{color:var(--muted)} .nav a:hover{color:var(--fg);text-decoration:none}
+
+/* 行情带 */
+.tape{background:var(--panel);border-bottom:1px solid var(--line);overflow:hidden;white-space:nowrap}
+.tape-in{display:inline-flex;gap:36px;padding:8px 18px;animation:roll 60s linear infinite}
+.tape:hover .tape-in{animation-play-state:paused}
+.tape span{font-size:12.5px;color:var(--muted)} .tape span i{font-style:normal;font-family:var(--mono);color:var(--fg);margin-left:8px}
+@keyframes roll{to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.tape-in{animation:none}.tape{overflow-x:auto}}
+
+/* 头版 */
+.hero{padding-block:44px 30px;border-bottom:1px solid var(--line)}
+.kicker{font-family:var(--mono);font-size:12px;letter-spacing:.14em;color:var(--amber);text-transform:uppercase}
+h1{font-family:var(--serif);font-weight:700;font-size:clamp(30px,5vw,54px);line-height:1.22;margin:12px 0 16px;text-wrap:balance;letter-spacing:.01em}
+.lead{max-width:42em;color:var(--muted);font-size:16.5px;line-height:1.85;margin:0}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:30px;border-top:2px solid var(--amber)}
+.stat{padding:16px 16px 14px 0;border-right:1px solid var(--line);min-width:0}
+.stat+.stat{padding-left:16px} .stat:last-child{border-right:0}
+.stat .v{font-family:var(--mono);font-size:clamp(24px,3.4vw,36px);font-weight:600;line-height:1.1}
+.stat .l{font-size:12.5px;color:var(--muted);margin-top:6px;line-height:1.5}
+
+/* 分节 */
+section{padding-block:38px;border-bottom:1px solid var(--line)}
+.sh{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin-bottom:20px}
+.sh h2{font-family:var(--serif);font-weight:700;font-size:26px;margin:0;line-height:1.25}
+.sh .tag{font-family:var(--mono);font-size:11.5px;letter-spacing:.12em;color:var(--amber-ink);background:var(--amber);padding:2px 8px}
+.sh p{margin:0;color:var(--muted);font-size:13.5px;flex-basis:100%}
+.cols{display:grid;grid-template-columns:1.1fr .9fr;gap:28px}
+.cols>*{min-width:0}
+h3{font-size:15px;margin:0 0 10px;font-weight:700}
+.note{font-size:12.5px;color:var(--muted);margin-top:10px}
+
+/* 指标表 */
+.tblw{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th{font-family:var(--mono);font-size:11.5px;font-weight:500;letter-spacing:.08em;color:var(--muted);text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);white-space:nowrap}
+td{padding:10px;border-bottom:1px solid var(--line);vertical-align:top}
+td.r,th.r{text-align:right} td.num{white-space:nowrap}
+tbody tr:hover{background:var(--panel)}
+td strong{font-weight:700}
+
+/* 贸易图 */
+.bars{display:grid;gap:12px}
+.yr{display:grid;grid-template-columns:44px 1fr;gap:10px;align-items:center}
+.yr>span{font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+.bar{display:flex;align-items:center;gap:8px;margin:2px 0}
+.bar i{display:block;height:11px;min-width:2px}
+.bar.e i{background:var(--amber)} .bar.m i{background:var(--blue)}
+.bar b{font-family:var(--mono);font-size:12px;font-weight:500}
+.legend{display:flex;gap:18px;font-size:12.5px;color:var(--muted);margin-bottom:12px;flex-wrap:wrap}
+.legend i{display:inline-block;width:10px;height:10px;margin-right:6px}
+
+/* 痛点 */
+.pains{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+.pain{background:var(--bg);padding:20px;min-width:0}
+.pain .k{font-family:var(--mono);font-size:22px;font-weight:600;color:var(--amber);line-height:1.2}
+.pain h3{font-family:var(--serif);font-size:18px;font-weight:700;margin:8px 0 6px}
+.pain p{margin:0;font-size:14.5px;line-height:1.8;color:var(--muted)}
+.pain p.do{color:var(--fg);margin-top:10px;padding-top:10px;border-top:1px dashed var(--line)}
+.pain p.do::before{content:"对策";font-family:var(--mono);font-size:11px;letter-spacing:.1em;color:var(--up);margin-right:8px}
+
+/* 路线 */
+.steps{list-style:none;margin:0;padding:0;counter-reset:s;display:grid;grid-template-columns:repeat(2,1fr);gap:0 32px}
+.steps li{counter-increment:s;display:grid;grid-template-columns:42px 1fr;gap:12px;padding:16px 0;border-top:1px solid var(--line);min-width:0}
+.steps li::before{content:counter(s,decimal-leading-zero);font-family:var(--mono);font-size:20px;font-weight:600;color:var(--amber);line-height:1.3}
+.steps h3{margin-bottom:4px;font-family:var(--serif);font-size:17px} .steps p{margin:0;font-size:14.5px;line-height:1.8;color:var(--muted)}
+
+/* 赛道 */
+.tracks{display:grid;grid-template-columns:repeat(2,1fr);gap:0 32px}
+.track{padding:16px 0;border-top:1px solid var(--line);min-width:0}
+.track h3{font-family:var(--serif);font-size:17px;font-weight:700}
+.track p{margin:0;font-size:14.5px;line-height:1.8;color:var(--muted)}
+.heat{font-family:var(--mono);font-size:11px;letter-spacing:.08em;padding:1px 6px;border:1px solid currentColor;margin-left:8px;vertical-align:2px;white-space:nowrap}
+
+/* 动态 */
+.feedhead{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:34px 0 14px;padding-top:18px;border-top:2px solid var(--amber)}
+.feedhead h3{font-family:var(--serif);font-size:20px;font-weight:700;margin:0}
+.live{font-family:var(--mono);font-size:11px;letter-spacing:.1em;color:var(--up);display:inline-flex;align-items:center;gap:6px}
+.live::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--up);animation:blink 1.6s infinite}
+@keyframes blink{50%{opacity:.25}}
+@media (prefers-reduced-motion:reduce){.live::before{animation:none}}
+.feedhead .upd{font-family:var(--mono);font-size:12px;color:var(--muted);margin-left:auto}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.chips button{font:inherit;font-size:13px;background:transparent;color:var(--muted);border:1px solid var(--line);padding:5px 12px;cursor:pointer}
+.chips button:hover{color:var(--fg);border-color:var(--muted)}
+.chips button[aria-pressed="true"]{background:var(--amber);color:var(--amber-ink);border-color:var(--amber)}
+.chips button:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+.feed{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:0 40px}
+.feed li{min-width:0}
+.feed li{display:grid;grid-template-columns:92px 1fr;gap:14px;padding:13px 0;border-bottom:1px solid var(--line)}
+.feed time{font-family:var(--mono);font-size:12.5px;color:var(--muted);padding-top:2px}
+.feed .t{font-family:var(--serif);font-weight:700;color:var(--fg);font-size:16px;line-height:1.55}
+.feed a.t:hover{color:var(--amber);text-decoration:none}
+.feed .m{font-size:12px;color:var(--muted);margin-top:4px;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.feed .k{font-family:var(--mono);font-size:11px;letter-spacing:.06em;border:1px solid currentColor;padding:0 5px}
+.feed .k.pol{color:var(--amber)} .feed .k.news{color:var(--blue)}
+.more{font:inherit;font-size:13px;margin-top:14px;background:transparent;color:var(--fg);border:1px solid var(--line);padding:8px 18px;cursor:pointer}
+.more:hover{border-color:var(--amber);color:var(--amber)}
+.more:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+.feedmsg{padding:18px 0;color:var(--muted);font-size:13.5px}
+@media (max-width:860px){.feed{grid-template-columns:1fr}}
+@media (max-width:480px){.feed li{grid-template-columns:1fr;gap:2px}}
+
+.links{display:grid;grid-template-columns:repeat(3,1fr);gap:0 28px}
+.links div{padding:12px 0;border-top:1px solid var(--line);font-size:13.5px;min-width:0}
+.links span{display:block;color:var(--muted);font-size:12.5px}
+footer{padding-block:28px 48px;font-size:12.5px;color:var(--muted)}
+footer ol{padding-left:20px;margin:8px 0 16px}
+
+@media (max-width:860px){
+  .cols,.steps,.tracks{grid-template-columns:1fr}
+  .pains{grid-template-columns:1fr}
+  .links{grid-template-columns:1fr 1fr}
+  .stats{grid-template-columns:1fr 1fr}
+  .stat{border-bottom:1px solid var(--line)} .stat:nth-child(2){border-right:0} .stat:nth-child(3){padding-left:0}
+  .nav{margin-left:0;gap:12px}
+}
+@media (max-width:480px){.links{grid-template-columns:1fr}}
+
+/* 多国：返回链接、门户首页 */
+.back{font-size:13px;color:var(--muted);border:1px solid var(--line);padding:3px 10px;white-space:nowrap}
+.back:hover{color:var(--fg);border-color:var(--muted);text-decoration:none}
+.region{padding-block:30px;border-bottom:1px solid var(--line)}
+.region h2{font-family:var(--serif);font-weight:700;font-size:24px;margin:0}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}
+.card{background:var(--bg);border:1px solid var(--line);padding:18px 20px;min-width:0;display:block;color:var(--fg)}
+a.card:hover{background:var(--panel);text-decoration:none}
+.card .cn{font-family:var(--serif);font-weight:700;font-size:21px;display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.card .cn small{font-family:var(--mono);font-size:11.5px;font-weight:500;letter-spacing:.1em;color:var(--amber)}
+.card p{margin:8px 0 12px;font-size:13.5px;color:var(--muted);line-height:1.7}
+.card dl{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:0}
+.card dt{font-size:11.5px;color:var(--muted)} .card dd{margin:2px 0 0;font-family:var(--mono);font-size:15px;font-weight:600}
+.card.soon{color:var(--muted)} .card.soon .cn{font-size:17px;color:var(--muted)}
+.card.soon .cn small{color:var(--muted)}
+.cards.mini{grid-template-columns:repeat(5,1fr);gap:8px;margin-top:10px} .cards.mini .card{padding:12px 14px}
+@media (max-width:860px){.cards{grid-template-columns:1fr}.cards.mini{grid-template-columns:repeat(2,1fr)}}
+
+.cmplink{font-family:var(--mono);font-size:12.5px;color:var(--amber);text-decoration:none;border-bottom:1px solid currentColor;margin-left:auto}
+table.cmp{min-width:980px}
+table.cmp th a{color:inherit;text-decoration:none;border-bottom:1px solid var(--line)}
+table.cmp td{vertical-align:top;font-size:13px}
+table.cmp td:first-child,table.cmp th:first-child{position:sticky;left:0;background:var(--bg);white-space:nowrap;font-weight:600}
+table.cmp tr.grp td{font-family:var(--mono);font-size:11.5px;letter-spacing:.1em;color:var(--amber);padding-top:22px;border-bottom:1px solid var(--amber)}
+table.cmp{table-layout:fixed;width:100%}
+table.cmp td,table.cmp th{white-space:normal;word-break:break-word}
+table.cmp td:first-child,table.cmp th:first-child{width:128px;white-space:normal}
+
+.alert{margin:18px 0 0;padding:10px 14px;border-left:3px solid var(--amber);background:var(--panel);font-size:13.5px;color:var(--muted);max-width:820px}
+.alert b{font-family:var(--mono);font-size:11.5px;letter-spacing:.1em;color:var(--amber);margin-right:10px}
+
+.card .cn{align-items:center}
+.flag{width:28px;height:21px;flex:none;border:1px solid var(--line);object-fit:cover}
+.card.soon .flag{width:22px;height:16.5px;opacity:.75}
+#hr td.num,table.cmp td.num{font-family:inherit;font-variant-numeric:tabular-nums;letter-spacing:0}
+.filters{display:flex;flex-wrap:wrap;gap:12px;align-items:flex-end;margin-bottom:14px}
+.filters label{display:flex;flex-direction:column;gap:4px;font-size:11.5px;color:var(--muted);font-family:var(--mono);letter-spacing:.06em}
+.filters select,.filters button{font:inherit;font-family:var(--sans);font-size:13.5px;letter-spacing:0;color:var(--fg);background:var(--panel);border:1px solid var(--line);padding:7px 10px;min-width:132px;border-radius:0}
+.filters button{min-width:0;cursor:pointer;color:var(--amber)}
+#mapbox{position:relative;border:1px solid var(--line);background:var(--panel)}
+#map{display:block;width:100%;height:auto;cursor:grab;touch-action:none}
+#map .land{fill:var(--panel2);stroke:var(--line);stroke-width:.6}
+#map .land.live{fill:color-mix(in srgb,var(--amber) 16%,var(--panel2))}
+#map circle{cursor:pointer;fill-opacity:.88}
+#map circle.on{stroke:var(--fg)!important;fill-opacity:1}
+.zoomer{position:absolute;top:10px;right:10px;display:flex;flex-direction:column;gap:4px}
+.zoomer button{width:30px;height:30px;font-size:18px;line-height:1;color:var(--fg);background:var(--bg);border:1px solid var(--line);cursor:pointer}
+#tip{position:absolute;pointer-events:none;background:var(--bg);border:1px solid var(--line);padding:8px 10px;font-size:12.5px;line-height:1.55;width:220px;z-index:2}
+#tip b{display:block;font-size:13.5px} #tip span{display:block;color:var(--muted)}
+#legend{position:absolute;left:10px;bottom:10px;display:flex;flex-wrap:wrap;gap:4px 14px;font-size:12px;color:var(--muted);background:var(--bg);border:1px solid var(--line);padding:5px 10px}
+.st{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px;vertical-align:baseline}
+table.proj td{vertical-align:top;font-size:13.5px}
+table.proj td small{display:block;color:var(--muted);font-size:12px}
+table.proj td:nth-child(5){white-space:nowrap}
+table.proj tbody tr{cursor:pointer} table.proj tbody tr:hover{background:var(--panel)}
+table.proj tbody tr.on{background:var(--panel);box-shadow:inset 3px 0 0 var(--amber)}
+.maplink{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:26px;padding:16px 20px;border:1px solid var(--line);background:var(--panel);color:var(--fg)}
+a.maplink:hover{text-decoration:none;border-color:var(--amber)}
+.maplink b{font-family:var(--serif);font-size:19px} .maplink span{color:var(--muted);font-size:13.5px} .maplink em{font-style:normal;font-family:var(--mono);font-size:12.5px;color:var(--amber)}
+
+#mapbox{background:#04101d}
+#map .shade{fill:#04101d;opacity:.28}
+#map .land{fill:none;stroke:rgba(255,255,255,.28)}
+#map .land.live{fill:rgba(255,170,60,.13);stroke:rgba(255,190,90,.9)}
+#map circle{fill-opacity:1;filter:drop-shadow(0 0 1.5px rgba(0,0,0,.8))}
+
+#mapbox{--amber:#ffa028;--up:#2fd08a;--down:#ff5a5f;--blue:#4aa8ff;--muted:#c9d1dc}
+#legend,#tip{background:rgba(4,16,29,.88);border-color:rgba(255,255,255,.18);color:#e9edf3}
+#legend{color:#c9d1dc} #tip b{color:#fff}
+.zoomer button{background:rgba(4,16,29,.88);border-color:rgba(255,255,255,.25);color:#fff}
+#map{aspect-ratio:1000/520}
+
+#map .labels{pointer-events:none}
+#map .labels text{paint-order:stroke;stroke:rgba(4,16,29,.85);stroke-width:3px;stroke-linejoin:round;font-family:var(--sans)}
+#map .labels g,#map .labels text.ctry{transition:opacity .25s}
+#map .reg text{text-anchor:middle;fill:#ffc46b}
+#map .reg .en{font-family:var(--serif);font-size:13px;letter-spacing:.14em;font-weight:700}
+#map .reg .zh{font-size:12px;fill:#fff;font-weight:600}
+#map .reg .n{font-family:var(--mono);font-size:15px;font-weight:600}
+#map .ctry{text-anchor:middle;fill:#ffe3b0;font-size:13px;font-weight:600;letter-spacing:.08em}
+#map .city text{fill:#fff;font-size:11.5px}
+#map .city rect{fill:#fff;stroke:rgba(4,16,29,.9);stroke-width:1px}
+/* 表格内的数值单元格常夹中文，统一用正文字体，等宽数字保持对齐 */
+td.num,th.num{font-family:inherit;font-variant-numeric:tabular-nums;letter-spacing:0}
+/* 用工表：左列标签不折行，右列长说明正常换行并左对齐 */
+#hr td.num{white-space:normal;text-align:left}
+#hr tbody td:first-child{white-space:nowrap;width:1%;padding-right:18px;vertical-align:top}
+#hr td{vertical-align:top}
+/* 表格数值单元格允许换行；税务和用工表左列标签不折行 */
+td.num{white-space:normal}
+#tax tbody td:first-child,#hr tbody td:first-child{white-space:nowrap;vertical-align:top}
+#tax td{vertical-align:top}
+@media (max-width:700px){#tax tbody td:first-child{white-space:normal;min-width:5.5em}#tax td{overflow-wrap:anywhere}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <div class="brand">出海哈萨克斯坦 <b>KAZ DESK</b></div>
+  <a class="back" href="/">全部国家</a>
+  <nav class="nav" aria-label="栏目"><a href="#market">市场</a><a href="#pain">痛点</a><a href="#road">落地</a><a href="#access">准入</a><a href="#tax">税务</a><a href="#hr">用工签证</a><a href="#sector">赛道</a><a href="#feed">动态</a><a href="#desk">官方入口</a></nav>
+</div></header>
+<div class="tape" aria-label="关键指标"><div class="tape-in" id="tape"></div></div>
+<main class="wrap">
+
+<div class="hero">
+  <div class="kicker">中国企业赴哈萨克斯坦经营简报 · 数据截至 2026-10-10</div>
+  <h1>哈萨克斯坦是进入欧亚经济联盟和中欧班列西行的门户，机会在过境物流、油气矿产、新能源和汽车，难点是 2026 年新税法、坚戈汇率和外劳配额</h1>
+  <p class="lead">哈萨克斯坦人口约 2,037 万，是世界最大的内陆国，2024 年 GDP 2,911.8 亿美元、人均 14,444 美元，在中亚五国里体量最大。中国是它第一大贸易伙伴，2024 年中哈货物贸易 438.2 亿美元，据报道 2025 年增至 487 亿美元、增长 11%。它是欧亚经济联盟成员，和俄罗斯、白俄罗斯、亚美尼亚、吉尔吉斯斯坦共用一道关税，在哈生产的货可以免关税进入联盟市场；霍尔果斯口岸、中哈原油管道和跨里海走廊都从这里经过。外资持股比例由投资者自定，一般行业可以独资，投资合同可免 10 年企业所得税。但 2026 年 1 月 1 日起新《税法典》把增值税从 12% 提到 16%，银行和博彩业所得税提到 25%；坚戈汇率波动大，2025 年 7 月曾跌到 1 美元兑 550 坚戈；外国人不能买地、不能租农地，外劳按配额发放，管理层和技术工人有本地员工比例要求。</p>
+  <div class="stats">
+    <div class="stat"><div class="v">438.2<small style="font-size:.5em"> 亿美元</small></div><div class="l">2024 年中哈货物贸易额<br><span class="up num">▲ 6.8%</span> 据报道 2025 年 487 亿</div></div>
+    <div class="stat"><div class="v am">16%</div><div class="l">增值税<br>2026 年起由 12% 上调，出口 0%</div></div>
+    <div class="stat"><div class="v am">20%</div><div class="l">企业所得税<br>银行、博彩业 2026 年起 25%</div></div>
+    <div class="stat"><div class="v">61.8<small style="font-size:.5em"> 亿美元</small></div><div class="l">2024 年底中国对哈投资存量<br>哈方统计存量 230.9 亿美元</div></div>
+  </div>
+</div>
+
+<section id="market">
+  <div class="sh"><span class="tag">MARKET</span><h2>市场速览</h2></div>
+  <div class="cols">
+    <div>
+      <h3>宏观与成本仪表盘</h3>
+      <div class="tblw"><table>
+        <thead><tr><th>指标</th><th class="r">数值</th><th>口径</th></tr></thead>
+        <tbody>
+          <tr><td>GDP</td><td class="r num">约 2,911.8 亿美元</td><td>2024 年，136.7 万亿坚戈，增长 5.0%；据报道 2025 年增长 6.5%，交通仓储增长 20.4%、建筑业 15.9%；央行 2026 年 6 月预计全年 4.5%–5.5%</td></tr>
+          <tr><td>人均 GDP</td><td class="r num">14,444 美元</td><td>2024 年；2020 年为 9,122 美元</td></tr>
+          <tr><td>人口</td><td class="r num">约 2,037 万</td><td>2025 年 6 月；城市人口 1,288 万。阿拉木图市约 232 万、阿斯塔纳约 158 万、奇姆肯特约 128 万；华人较少，多在阿拉木图州、杰特苏州、江布尔州</td></tr>
+          <tr><td>主权评级</td><td class="r num">BBB-</td><td>标普，展望稳定（2025 年 2 月确认）</td></tr>
+          <tr><td>汇率</td><td class="r num am">1 人民币 ≈ 67.8 坚戈</td><td>tradingeconomics 市场汇率，2026 年 10 月 9 日 1 美元 ≈ 453.6 坚戈，过去 12 个月坚戈对美元升值约 15.6%（2025 年 7 月曾跌至 1 美元兑 549.9 坚戈的历史低点），按 1 美元 ≈ 6.69 人民币换算。2015 年 8 月起自由浮动</td></tr>
+          <tr><td>通胀</td><td class="r num down">8.6%</td><td>2024 年（2022 年 20.3%）；据报道 2025 年 9 月升到 12.9%，2026 年 5 月回落到 10.4%，央行网站 10 月上旬公布的最新值为 9.3%</td></tr>
+          <tr><td>基准利率</td><td class="r num">16.25%</td><td>2026 年 9 月 4 日下调（6 月为 17%，2025 年 4 月 16.5%）；本地贷款在此基础上上浮，融资成本高</td></tr>
+          <tr><td>最低月薪</td><td class="r num">8.5 万坚戈</td><td>2025、2026 年不变，按当前汇率约 187 美元；2024 年职工平均月薪 40.5 万坚戈，约 863 美元，同比上涨 11.3%</td></tr>
+          <tr><td>月核算基数</td><td class="r num">4,325 坚戈</td><td>2026 年（2025 年 3,932）；税费门槛、注册费、外劳许可费都按它的倍数计算</td></tr>
+          <tr><td>工业电价</td><td class="r num">50.64 坚戈/度</td><td>阿斯塔纳，2023 年 8 月，含增值税；工业用水 271.56 坚戈/吨、天然气 28.68 坚戈/立方米。各州价格不同，2023 年 7 月起市政企业可申请调价</td></tr>
+          <tr><td>燃油</td><td class="r num">255 / 295 坚戈/升</td><td>95 号汽油 / 柴油，阿斯塔纳 2023 年 8 月；沥青和柴油旺季常短缺</td></tr>
+          <tr><td>建材装修</td><td class="r num">国内 2–4 倍</td><td>卫生洁具、地砖等装修材料零售价比国内同类高 2–4 倍；约一半建材靠进口，水泥、混凝土、金属结构等基础建材基本能自给</td></tr>
+        </tbody>
+      </table></div>
+      <p class="note">2024 年哈萨克斯坦外贸 1,414 亿美元，出口 816 亿美元，其中能矿产品占 63.5%；中国占其外贸的 21.3%，是第一大贸易伙伴，俄罗斯第二。截至 2025 年 1 月 1 日外债 1,647 亿美元，政府债务仅占 GDP 的 5.3%。坚戈 1999 年起可自由兑换，经常项目和资本项目实行有条件可兑换：经常项目交易须在 180 天内完成，资本项下有协议、办手续后可自由进出，完税后利润可自由汇出。但监管在收紧：超过 1 万美元的金融业务受监控，一个账户 7 个工作日内汇出超过 700 万坚戈须报告，2022 年 3 月起限制携带大额外汇出境，购汇只能用于履行合同。全国 21 家商业银行，工行（阿拉木图）、哈萨克中国银行、建行阿斯塔纳分行、中信阿尔金银行在当地经营，国开行设有代表处。</p>
+    </div>
+    <div>
+      <h3>中哈货物贸易 2020–2024（亿美元）</h3>
+      <div class="legend"><span><i style="background:var(--amber)"></i>中国对哈出口</span><span><i style="background:var(--blue)"></i>中国自哈进口</span></div>
+      <div class="bars" id="bars"></div>
+      <p class="note">中哈贸易额从 2020 年的 214.5 亿美元增至 2024 年创纪录的 438.2 亿美元，五年翻倍。2024 年中国对哈出口 279.6 亿美元、增长 13.2%，以机电产品和日用消费品为主；自哈进口 158.6 亿美元、下降 3.0%，以油气、矿产和粮食为主；中方顺差 121 亿美元。据报道 2025 年中哈贸易 487 亿美元、增长 11%，中国同中亚五国贸易首次突破 1,000 亿美元。2024 年中国对哈直接投资流量为 -9.5 亿美元，年底存量 61.8 亿美元；哈方统计中国是第 6 大投资来源国，存量 230.9 亿美元，据报道 2025 年中国对哈直接投资 28 亿美元。2024 年中企在哈新签承包工程合同 160 份、41.94 亿美元，完成营业额 15.76 亿美元，年末在哈劳务人员 1,778 人。来源：中国海关总署、商务部。</p>
+    </div>
+  </div>
+</section>
+
+<section id="pain">
+  <div class="sh"><span class="tag">PAIN POINTS</span><h2>中企在哈萨克斯坦最常踩的六个坑</h2><p>按企业实际遇到的顺序排列。</p></div>
+  <div class="pains">
+    <div class="pain"><div class="k">16%</div><h3>新税法上路，税负和规则一起变</h3><p>2025 年 7 月签署的新《税法典》2026 年 1 月 1 日起施行：增值税从 12% 提到 16%，强制登记门槛降到年营业额 1 万倍月核算基数（2026 年约 4,325 万坚戈），银行佣金也要交增值税；银行和博彩业所得税从 20% 提到 25%；社会税降到 6%，但不再用社会保险缴款抵减；外国股东持股满 3 年转让股权免税的优惠取消；个税改为 10% 和 15% 两档。新法同时取消 128 项税收优惠，按旧法测算的项目回报和报价都要重算。</p><p class="do">2025 年以前签的合同，逐份检查含税价条款和增值税转嫁；投资优惠以新法和投资合同为准，申请前找税务顾问核对适用条件。</p></div>
+    <div class="pain"><div class="k">550</div><h3>坚戈跟着油价和卢布走，购汇要有合同</h3><p>坚戈 2015 年起自由浮动，受油价、卢布和外贸影响大：2022 年俄乌冲突当天从 1 美元兑 437 坚戈跌到 466，2025 年 7 月 30 日跌到 550，央行入市干预。之后坚戈走强，2026 年 10 月上旬约 454。外汇管理也在收紧：购汇只能用于履行合同义务，大额购汇受银行审查，超过 1 万美元的业务受监控；2024 年通胀 8.6%，据报道 2025 年一度升到 12.9%，基准利率长期在 16% 以上，本地借钱很贵。</p><p class="do">合同写清计价和支付币种、汇率基准和调价机制；能用人民币结算的考虑跨境人民币。坚戈收入尽快匹配成本或换汇，融资优先用中资银行和境外资金。</p></div>
+    <div class="pain"><div class="k">70/90</div><h3>外劳按配额，本地员工比例是硬指标</h3><p>非欧亚经济联盟国家的外国人务工须拿劳动许可，配额按州分配、逐年收紧，2026 年为全国劳动力的 0.25%：一类（高管）726 个、二类（部门负责人）3,402 个、三类（专家）5,893 个、四类（技工）3,131 个。管理层中哈籍员工不少于 70%，专家和熟练技工中不少于 90%，本地和外籍员工须同工同酬。许可只发给雇主、不能转让，申请人年龄不低于 23 岁、男性不超过 63 岁、女性不超过 58 岁。据报道截至 2025 年 12 月在哈外籍劳务 14,103 人，中国公民 5,604 人，最多。</p><p class="do">每年 9 月 1 日前向所在州申报下一年配额；工程项目按 70/90 比例倒推中方人员上限，尽早招聘、培训本地技工。不要让员工持商务签或免签入境干活。</p></div>
+    <div class="pain"><div class="k">农地</div><h3>外国人不能买地，农地连租都不行</h3><p>2021 年 5 月修订后的土地法全面禁止外国人、外国法人以及有外资参股的哈萨克斯坦法人取得农用土地的所有权和临时使用权（租赁）。工业项目用地由地方政府划拨、以租赁方式使用。地下资源领域更敏感：企业转让矿产开发权或出售股份时，能源部有权拒发许可，国家对开发权和股份有优先购买权，连能间接影响该企业决策的上游公司股权转让也包括在内。</p><p class="do">做农业只能走加工、贸易或与本地农场订单合作，不要设计以拿地为前提的方案。矿业项目在交易结构上预留政府审批和优先购买权的时间。</p></div>
+    <div class="pain"><div class="k">地方</div><h3>政策变得快，地方执法随意</h3><p>哈方投资政策和产业政策变动频繁，各地执法机关随意执法屡见不鲜；地方政府在招商时的承诺如果没有正式批准文件，日后可能与国家规定冲突。环保方面出现过地方政府开了绿灯、项目又被环保部门追究的情况。哈萨克斯坦是欧亚经济联盟成员，难以独立制定对外经济政策，政府会临时禁止粮食、菜籽油、白糖等出口，据报道 2026 年 7 月还暂停从联盟国家和第三国进口小麦 6 个月；美欧对俄制裁也让当地企业和银行面临次级制裁风险。</p><p class="do">享受的优惠一律拿正式批文，环评按国家标准做足。聘请当地律师和财税人员，选可靠的哈方伙伴协调政府关系；涉俄业务先做制裁合规筛查。</p></div>
+    <div class="pain"><div class="k">-40℃</div><h3>北方半年冰雪，施工和用工成本被低估</h3><p>北部冬季常年零下 10 到 20 度，最低到零下 40 度左右，有半年冰雪期，防冻保暖让施工成本成倍增加。产业工人技能偏低、流动性大，高素质技术人员短缺；员工超过 500 人的企业必须成立工会，近年工会组织罢工要求涨薪的事件增多。2024 年平均工资涨了 11.3%，周边国家里属于高工资。</p><p class="do">工期按冬歇期排，冬季施工单独报价；用工合同、工资和工时严格按劳动法执行，同工同酬，提前和工会建立沟通机制。</p></div>
+  </div>
+</section>
+
+<section id="road">
+  <div class="sh"><span class="tag">ROADMAP</span><h2>从国内备案到在哈开张：八步</h2></div>
+  <ol class="steps">
+    <li><div><h3>国内境外投资备案</h3><p>发改委、商务部备案或核准，再到银行办境外直接投资外汇登记。</p></div></li>
+    <li><div><h3>选落脚形式</h3><p>可设哈萨克斯坦法人（常见为有限责任公司，外资比例由股东自定，可独资）、外国公司分公司或代表处。分公司按常设机构纳税，代表处不能经营。拿到投资合同、矿业或银行保险牌照的项目，先确认行业限制。</p></div></li>
+    <li><div><h3>司法部门注册</h3><p>由司法部及其地方机构或受托的居民服务中心登记，提交俄语和哈萨克语章程、创建决议、法定地址证明、经认证的外国股东注册文件等；注册约 15 个工作日，注册费 20 倍月核算基数。建议委托当地律所办理。</p></div></li>
+    <li><div><h3>税务、统计和外经登记</h3><p>税务登记约 10 个工作日、统计登记 5 个工作日、对外经济活动登记 3 个工作日。年营业额超过 1 万倍月核算基数须登记增值税；非居民在当地银行开户前，也须先办税务登记。</p></div></li>
+    <li><div><h3>开户、注资</h3><p>法定资本存入在哈注册的授权银行。外资以收购股份方式进入的，被收购公司要按外国投资企业重新登记；涉及银行、保险、地下资源和可能导致垄断的并购，须先拿相关部门审批。</p></div></li>
+    <li><div><h3>谈投资优惠</h3><p>需要免关税、免税或实物赠与的，向国家投资公司 Kazakh Invest 申请投资合同；投资额达到 750 万倍月核算基数的可签投资协议，条款 25 年内不受法律变动影响。进经济特区的实行“单一窗口”，规定期限内未被否决即自动成为入区企业。</p></div></li>
+    <li><div><h3>环评、施工许可和验收</h3><p>工业项目开工前做环境影响评估。施工许可由国家或地区建筑委员会发放，材料齐全后 1 个月内答复；完工后（技术简单项目除外）须通过国家验收委员会验收，验收报告是办理财产登记的依据。</p></div></li>
+    <li><div><h3>招工、外劳和报到</h3><p>先在就业中心和劳动部数据库招本地员工，招不到才可引进外劳；配额每年 9 月 1 日前申报。企业所得税年报次年 3 月 31 日前提交、4 月 10 日前缴清。完成注册后 30 个自然日内到中国驻哈使领馆经商处报到登记。</p></div></li>
+  </ol>
+</section>
+
+<section id="access">
+  <div class="sh"><span class="tag">ENTRY</span><h2>外资准入与落脚点</h2><p>哈萨克斯坦内外资一致，对外资没有专门优惠，一般行业外资可独资；优惠靠和政府签投资合同或进经济特区拿。限制集中在银行保险、地下资源和农用土地。</p></div>
+  <div class="tblw"><table>
+    <thead><tr><th>落脚点</th><th class="r">外资持股</th><th>能做什么</th><th>税负</th><th>适合</th></tr></thead>
+    <tbody>
+      <tr><td><strong>哈萨克斯坦法人</strong><br>有限责任公司、股份公司</td><td class="r num">最高 100%</td><td>注册程序与本国法人相同，中外方出资比例由创办人决定；可用利润和追加投资补充资本</td><td>企业所得税 20%；增值税 16%</td><td>贸易、制造、服务</td></tr>
+      <tr><td><strong>分公司</strong></td><td class="r num">100%</td><td>以外国公司名义经营，按常设机构纳税；未按期税务登记或未开发票的，付款方按全额 20% 代扣</td><td>所得税 20% + 净利润税 15%（中哈协定上限 5%）</td><td>工程承包</td></tr>
+      <tr><td><strong>投资合同</strong><br>投资优先项目</td><td class="r num up">可 100%</td><td>新建生产设施：企业所得税减免 100% 10 年、土地税 0% 10 年、财产税 0% 8 年；扩建更新：所得税 3 年；另可免进口关税、获国家实物赠与</td><td>按合同期享受减免</td><td>加工制造</td></tr>
+      <tr><td><strong>投资协议</strong></td><td class="r num">≥750 万倍月核算基数</td><td>可免企业所得税、土地税、财产税，特区内项目免增值税；条款 25 年不受法律变动影响。消费税商品、银行保险、审计、数字挖矿、地下资源、矿产销售等 14 类活动不能签</td><td>按协议</td><td>大型项目</td></tr>
+      <tr><td><strong>经济特区</strong><br>据报道 18 个</td><td class="r num up">可 100%</td><td>霍尔果斯—东大门经济特区（杰特苏州，5,431 公顷，运营至 2036 年，物流和加工）、霍尔果斯国际边境合作中心、阿克套海港、阿特劳国家工业石化技术园、巴甫洛达尔、阿斯塔纳—新城等；据报道政府正改为“除禁止项外都可入区”并统一优惠期限</td><td>免企业所得税、土地税、土地租赁费和财产税，按投资额享受 7–25 年；零增值税清单内采购可退税</td><td>出口加工、物流、石化</td></tr>
+      <tr><td><strong>阿斯塔纳国际金融中心 AIFC</strong></td><td class="r num">可 100%</td><td>法院按英国普通法原则设立程序，独立于哈本国司法体系，法官来自普通法国家；另有国际仲裁中心。注册企业超过 3,000 家，中企约占 10%、排第二</td><td>注册的金融企业可免企业所得税，个税减免</td><td>金融、控股、融资</td></tr>
+      <tr><td><strong>地下资源</strong></td><td class="r num down">受限</td><td>矿权和股权转让须能源部许可，国家有优先购买权；矿产领域不能签投资协议</td><td>另交矿产开采税、超额利润税；新税法对低收益新矿 5 年免开采税</td><td>油气、金属矿</td></tr>
+      <tr><td><strong>银行和保险</strong></td><td class="r num down">受限</td><td>外资银行资本合计不超过全部银行总资本的 25%；合资非寿险公司不超过该市场总资本 25%、寿险 50%；并购须央行批准</td><td>银行所得税 25%</td><td>—</td></tr>
+      <tr><td><strong>农用土地</strong></td><td class="r num down">禁止</td><td>外国人、外国法人和外资参股的哈法人不得取得农地所有权或租赁权</td><td>—</td><td>—</td></tr>
+      <tr><td><strong>工程承包</strong></td><td class="r num">无限制</td><td>大型采购和建设项目都要招标，政府采购原则上走政府采购网；资格审核 3 天、评标不超过 7 天</td><td>按所设机构纳税</td><td>基建、能源工程</td></tr>
+    </tbody>
+  </table></div>
+  <p class="note">2024 年哈萨克斯坦吸收外国直接投资 171.6 亿美元、下降 28.4%，截至 2025 年初存量 4,129 亿美元，荷兰、美国、俄罗斯、英国、法国居前，中国第 6。总统托卡耶夫提出到 2029 年经济总量达到 4,500 亿美元、期间吸引至少 1,500 亿美元外资，国家投资公司 Kazakh Invest 提供“一站式”服务。中哈 1992 年签有投资保护协定，2025 年 6 月第二届中国—中亚峰会期间又签署新的《关于促进和相互保护投资的协定》。据报道在哈中资背景企业超过 8,000 家。欧亚经济联盟内部货物免关税，对外执行统一关税，凡用于外资投资项目的进口机械设备和原辅料免征进口关税。</p>
+</section>
+
+<section id="tax">
+  <div class="sh"><span class="tag">TAX</span><h2>税务速查</h2><p>2026 年 1 月 1 日起执行新《税法典》，下表按新法填写，旧税率已标注调整。税种从 12 个减到 11 个，税务申报量减少约 30%；国际条约与税法冲突时以条约为准。</p></div>
+  <div class="cols">
+    <div>
+      <div class="tblw"><table>
+        <thead><tr><th>税种</th><th class="r">税率</th><th>要点</th></tr></thead>
+        <tbody>
+          <tr><td>企业所得税</td><td class="r num">20%</td><td>居民企业就全球所得纳税；亏损可向后结转 10 年；中小企业不需预缴</td></tr>
+          <tr><td>行业差别税率</td><td class="r num am">25% / 5%–10%</td><td>银行（对企业贷款业务除外）和博彩业由 20% 提到 25%；教育、医疗、融资租赁 2026 年 5%、2027 年 10%；农业生产者优惠后约 3%</td></tr>
+          <tr><td>增值税</td><td class="r num am">16%</td><td>旧税率 12% 已调整；登记门槛 1 万倍月核算基数；药品和医疗服务 2026 年 5%、2027 年 10%；出口 0%；对开发商的免税取消</td></tr>
+          <tr><td>小企业简易申报</td><td class="r num">4%</td><td>零售税与简化税制合并为统一特殊税制，地方可上下浮动 50%；特殊税制由 7 种减到 3 种</td></tr>
+          <tr><td>个人所得税</td><td class="r num">10% / 15%</td><td>旧法统一 10% 已调整；年收入超过 8,500 倍月核算基数（2026 年约 3,676 万坚戈）部分 15%</td></tr>
+          <tr><td>社会税</td><td class="r num">6%</td><td>旧税率 11%（2025 年）已调整；本地和外籍员工都要交，不再扣减社会保险缴款</td></tr>
+          <tr><td>财产税 / 不动产税</td><td class="r num">1.5% / 2%</td><td>法人财产税按年均价值 1.5%；法人不动产税 2%</td></tr>
+          <tr><td>土地税</td><td class="r num">按地类</td><td>农业用地按土质分级，工业用地按品质定额；渐进式土地税 0.1%–0.5%</td></tr>
+          <tr><td>消费税</td><td class="r num">按品目</td><td>烟酒、汽油柴油、原油、汽车等；新税法新增奢侈品税，提高酒、烟、功能饮料等消费税</td></tr>
+          <tr><td>进口关税</td><td class="r num">联盟统一</td><td>执行欧亚经济联盟统一关税，联盟内部免关税；进口增值税和消费税由税务机关征收</td></tr>
+          <tr><td>非居民服务费预提</td><td class="r num">20%</td><td>付给在哈未构成常设机构的外国企业的管理、咨询、工程、营销、审计、法律等服务费；国际运输 5%；付给低税率国家（地区）一律 20%</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+    <div>
+      <h3>向中国母公司付款的预提税</h3>
+      <div class="tblw"><table>
+        <thead><tr><th>款项</th><th class="r">哈萨克斯坦国内法</th><th class="r">中哈协定上限</th></tr></thead>
+        <tbody>
+          <tr><td>股息</td><td class="r num">15%；持股≥25% 的外国股东 23 万倍月核算基数以内 5%</td><td class="r num">10%（国内法 5% 更低时按 5%）</td></tr>
+          <tr><td>利息</td><td class="r num">贷款、债券 10%；其他 15%</td><td class="r num up">10%；中国政府、人民银行及国有全资金融机构 0%</td></tr>
+          <tr><td>特许权使用费</td><td class="r num">15%</td><td class="r num up">10%</td></tr>
+          <tr><td>服务费（无常设机构）</td><td class="r num">20%</td><td class="r num up">营业利润仅在中国征税</td></tr>
+          <tr><td>转让哈公司股权</td><td class="r num">15%（持股 3 年免税已取消）</td><td class="r num">不动产为主的公司哈方可征，其余仅在中国征税</td></tr>
+          <tr><td>分公司净利润税</td><td class="r num">15%</td><td class="r num up">5%</td></tr>
+        </tbody>
+      </table></div>
+      <h3 style="margin-top:20px">四条要提前安排的规则</h3>
+      <p style="margin:0;font-size:13.5px;color:var(--muted)"><strong style="color:var(--fg)">工程和劳务常设机构 12 个月。</strong>中哈协定规定，建筑工地、装配安装工程及相关监督活动连续 12 个月以上，或为同一项目提供劳务（含咨询）累计超过 12 个月，才构成常设机构。但哈国内法对服务的标准是任意连续 12 个月内超过 183 天，新税法还细化了“类似项目”的合并计算。<br><strong style="color:var(--fg)">协定待遇凭税收居民证明。</strong>中哈税收协定 2001 年 9 月 12 日签署、2003 年 7 月 27 日生效、2004 年起执行，两国都已适用 BEPS 多边公约。中方收款人要在付款当年次年 3 月 31 日前、或税务检查结束前向哈方扣缴义务人提交中国税收居民身份证明。新税法规定，扣缴义务人自掏腰包承担预提税的，不能再享受协定优惠。<br><strong style="color:var(--fg)">关联交易和资本弱化。</strong>付给关联方的利息、付给低税率国家（地区）的利息、关联方担保的贷款利息，都受资本弱化公式限制。哈方有完整的转让定价同期资料、预约定价和受控外国企业规则，关联交易按独立交易原则定价。<br><strong style="color:var(--fg)">按期申报，账簿至少留 5 年。</strong>企业所得税按季预缴、每月 25 日前缴预缴税款，年报次年 3 月 31 日前提交、4 月 10 日前缴清。预提税在付款次月 25 日前缴纳、季度结束后次月 15 日前申报。增值税按季申报。申报表和会计凭证保存到追征期届满，且不少于 5 年；申报用哈萨克语或俄语。</p>
+    </div>
+  </div>
+</section>
+
+<section id="hr">
+  <div class="sh"><span class="tag">PEOPLE</span><h2>用工与签证</h2></div>
+  <div class="cols">
+    <div>
+      <h3>劳动法底线</h3>
+      <div class="tblw"><table>
+        <tbody>
+          <tr><td>标准工时</td><td class="num r">每周工作 5 天、休息 2 天，每周不超过 40 小时、每天不超过 8 小时；繁重和有毒有害工种工时更短；夜班为 22 点至次日 6 点，未满 18 岁员工和孕妇不得上夜班</td></tr>
+          <tr><td>加班</td><td class="num r">每天不超过 2 小时，繁重和有毒有害工种不超过 1 小时；每月不超过 12 小时、每年不超过 120 小时</td></tr>
+          <tr><td>最低工资</td><td class="num r">2026 年每月 8.5 万坚戈，与 2025 年持平；每小时工资不得低于月最低工资除以月平均工时，补偿、补贴和按时间比例发的奖金不计入</td></tr>
+          <tr><td>假期</td><td class="num r">带薪年假 24 天，繁重有害工种另加不少于 6 天；每年可申请不少于 5 天无薪假；不得连续 2 年不安排员工休年假；员工在孩子 3 岁前不得被辞退</td></tr>
+          <tr><td>劳动合同</td><td class="num r">必须书面签订，写明岗位、地点、期限、工时、报酬和工作条件；固定期限合同除季节性和临时顶替工作外不得少于 1 年</td></tr>
+          <tr><td>解除合同</td><td class="num r">员工辞职须提前 1 个月书面通知；雇主解雇须提前 1 个月书面通知，签有集体合同的还要通知工会；员工在怀孕期和年休假期间不得被解雇</td></tr>
+          <tr><td>雇主缴费</td><td class="num r">社会税 6%（所有员工）；社会保险 5%，基数上限为最低工资 7 倍；强制养老 3.5%；强制医疗保险 3%，基数上限为最低工资 40 倍。社会保险和养老金只适用于哈公民、持居留证的外国人和欧亚经济联盟公民</td></tr>
+          <tr><td>员工缴费</td><td class="num r">养老金 10%（基数上限最低工资 50 倍）、医疗保险 2%（上限 20 倍）、个税 10% 或 15%，由雇主代扣；无居留证的外籍员工不缴养老金和医疗保险</td></tr>
+        </tbody>
+      </table></div>
+      <p class="note">员工超过 500 人的企业必须成立工会。法定节假日包括新年（1 月 1 日）、纳乌鲁斯节（3 月 21–23 日）、首都日（7 月 6 日）、独立日（12 月 16 日）等，周六、周日休息。哈萨克语和俄语同为官方语言，约 69% 的人口信仰伊斯兰教、约 30% 信东正教；公共场合禁止吸烟，不要劝烟劝酒，重视生日和节日。</p>
+    </div>
+    <div>
+      <h3>外籍员工怎么进来</h3>
+      <div class="tblw"><table>
+        <thead><tr><th>事项</th><th>要点</th></tr></thead>
+        <tbody>
+          <tr><td>外劳配额</td><td>2026 年为全国劳动力的 0.25%，按州分配；用人单位每年 9 月 1 日前向州（直辖市）就业部门申报下一年配额。据报道 2026 年外籍劳务配额 2.36 万人，另有劳务移民配额 22.18 万人</td></tr>
+          <tr><td>本地员工比例</td><td>领导层中哈籍员工不少于 70%，专家和熟练技工中不少于 90%；须保障本地和外籍员工薪酬、工作条件平等</td></tr>
+          <tr><td>劳动许可</td><td>许可发给雇主、不能转让；先在就业中心招本地人，招不到才可引进。就业机关 10 日内发证，需学历和工龄证明的公证翻译件、劳动合同、无犯罪记录、体检报告、医疗保险及中哈方员工比例信息；申请人 23 岁以上，男性不超过 63 岁、女性不超过 58 岁</td></tr>
+          <tr><td>费用</td><td>按雇主行业和许可级别收费，137–250 倍月核算基数（按 2026 年基数约 59 万–108 万坚戈）</td></tr>
+          <tr><td>免办许可</td><td>外国公司及其代表处、子公司负责人；连续停留不超过 45 天的短期出差人员；签有 5,000 万美元以上投资合同的外国公司负责人；在优先领域签投资合同的外国法人代表；欧亚经济联盟公民</td></tr>
+          <tr><td>入境签证</td><td>中哈互免签证协定 2023 年 11 月 10 日生效：持普通护照单次停留不超过 30 天、任意 180 天累计不超过 90 天，可用于商务洽谈、签约、考察，不能务工、上学，入境后不能延期或转签证。务工须办工作签证，不得持商务签证干活</td></tr>
+          <tr><td>入境登记</td><td>停留不超过 30 天的无需到移民机构登记；接待方须在外国人入境后 3 个工作日内在 vmp.gov.kz 在线填报信息</td></tr>
+        </tbody>
+      </table></div>
+      <p class="note">中资企业在哈完成注册后 30 个自然日内到中国驻哈萨克斯坦使领馆报到登记；承包工程签约后也要及时报备。遇执法检查，查看并记录执法人员证件、问清检查项目，积极配合；强行搜查且不出示证件的，立即联系使领馆领事部门。驻哈使馆领事保护热线 +7-701-7470186，驻阿拉木图总领馆 +7-727-2362230。免签超期会被追究行政责任，护照丢失可通过“中国领事”App 申请旅行证。</p>
+    </div>
+  </div>
+</section>
+
+<section id="sector">
+  <div class="sh"><span class="tag">SECTORS</span><h2>机会在哪里</h2><p>哈萨克斯坦“2029 年前国家发展计划”、运输物流规划和产能合作清单的重点方向，叠加中企已经落地的项目。</p></div>
+  <div class="tracks">
+    <div class="track"><h3>过境物流与中欧班列 <span class="heat up">增长最快</span></h3><p>2024 年经哈通行中欧（中亚）班列 1.6 万列，中哈间铁路货运 3,205 万吨、增长 13.2%。据报道霍尔果斯铁路口岸 2025 年通行班列 9,882 列、过货 1,423.7 万吨，2026 年 8 月已突破 6,000 列、1,000 万吨；多斯特克—莫因特铁路复线 2025 年启用。哈方计划到 2030 年把跨里海走廊运力提高到每年 2,000 万吨，据报道阿克套集装箱枢纽一期投运后，连云港 2026 年 9 月开出首列经霍尔果斯、阿克套到巴库的整列跨里海班列。</p></div>
+    <div class="track"><h3>油气与石化 <span class="heat up">合作最深</span></h3><p>采矿业占 GDP 的 12%，2024 年产油 8,770 万吨、天然气 590 亿立方米。中国化学阿特劳 50 万吨/年聚丙烯项目 2022 年投产，2025 年 4 月拿到运营验收证书。2025 年 6 月中石油与哈方签署奇姆肯特炼厂扩能到 1,200 万吨/年、阿克纠宾天然气制尿素合资等协议。据报道 2026 年 1–8 月中哈原油管道输油 1,312 万吨、增长 2%，哈方计划 2026–2030 年投 3.27 亿美元，把通往中国的两段管道合计运力提到 3,500 万吨/年。</p></div>
+    <div class="track"><h3>风电光伏 <span class="heat up">订单密集</span></h3><p>截至 2024 年底全国有 148 个可再生能源电站，计划 2030 年可再生能源发电占比提到 15%；电力设施老化严重，政府每年拟投 4,000 亿坚戈改造。国家电投札纳塔斯两期各 100 兆瓦风电、寰泰能源 200 兆瓦风电和 180 兆瓦光伏已全容量并网。据报道中国电建承建的阿克纠宾州赫罗姆陶 150 兆瓦风电（哈单体最大）2025 年 9 月并网，中国能建 2025 年 6 月签下卡拉干达 500 兆瓦风电配储、图尔克斯坦 300 兆瓦光伏配储。</p></div>
+    <div class="track"><h3>铜、铀、钨和稀土 <span class="heat am">看政治</span></h3><p>哈萨克斯坦铜、锌、铀、铬等储量丰富，2024 年原油、放射性元素和精炼铜是前三大出口品。中广核收购的奥尔塔雷克铀矿两座矿山中，门库杜克矿生产稳定，合资的东哈州核燃料组件厂 2023 年达产。据报道江西铜业巴库塔钨矿 2024 年 11 月投产，但 2025 年 11 月卡拉干达州两个钨矿被美方企业以 70% 股权拿下；卡拉干达州据报道发现资源量超 2,000 万吨的稀土矿，但缺乏分离加工能力。新税法对低收益新矿免 5 年开采税，股权转让仍要过能源部和优先购买权。</p></div>
+    <div class="track"><h3>汽车与电动车 <span class="heat up">中国品牌领跑</span></h3><p>中机公司和江淮 2019 年控股的阿鲁尔集团旗下“金色草原”工厂 2024 年产车 9.05 万辆，占哈国内产量的 61.4%；宇通技术入股的卡拉干达 QazTehna 客车厂年产销 1,600 多辆。2024 年哈销量前十里中国品牌占六席，奇瑞 14,883 辆、江淮 11,771 辆、哈弗 10,983 辆。据报道 2025 年哈汽车产量 17.1 万辆、2026 年计划 19 万辆，政府正推零部件本地化；比亚迪 2025 年 2 月进入哈市场，理想汽车 2026 年 7 月宣布在科斯塔奈阿鲁尔工厂组装。</p></div>
+    <div class="track"><h3>农业与食品加工 <span class="heat am">潜力大</span></h3><p>农业用地 2.14 亿公顷、居世界第六，可耕地 2,500 万公顷，2024 年粮食产量 2,520 万吨、增长 47.4%，小麦占九成，主产区在北部三州。爱菊哈萨克斯坦园区已建成 30 万吨油料加工、面粉、饲料和粮仓。2025 年 6 月两国签署甜菜粕输华检疫议定书。据报道 2025 年中哈农产品贸易增长 36% 至 19 亿美元以上，对华出口正从原粮转向饲料粉；但外资不能拿农地，中国 2026 年起对进口牛肉实行国别配额保障措施，肉类输华要看配额。</p></div>
+  </div>
+  <div class="feedhead" id="feed"><h3>赛道动态</h3><span class="live">LIVE</span><span class="upd" id="upd"></span></div>
+  <div class="chips" id="chips" role="group" aria-label="按赛道筛选"></div>
+  <ul class="feed" id="feedlist"></ul>
+  <button type="button" class="more" id="more" hidden>显示更多</button>
+  <div class="feedmsg" id="feedmsg">正在载入各赛道的最新新闻与政策……</div>
+
+</section>
+
+<section id="desk">
+  <div class="sh"><span class="tag">DIRECTORY</span><h2>官方入口</h2></div>
+  <div class="links">
+    <div><a href="https://invest.gov.kz">国家投资公司 Kazakh Invest</a><span>投资合同、投资协议和“一站式”服务</span></div>
+    <div><a href="https://kgd.gov.kz">国家收入委员会</a><span>《税法典》、税务登记和申报</span></div>
+    <div><a href="https://adilet.zan.kz">法律法规数据库 Adilet</a><span>投资法、劳动法典、土地法典等原文</span></div>
+    <div><a href="https://nationalbank.kz">哈萨克斯坦国家银行（央行）</a><span>基准利率、汇率和外汇管理</span></div>
+    <div><a href="https://keden.kz/tnved">海关税费查询</a><span>欧亚经济联盟商品编码和进出口税费</span></div>
+    <div><a href="https://www.goszakup.gov.kz">政府采购网</a><span>政府采购和工程招标信息</span></div>
+    <div><a href="https://aifc.kz">阿斯塔纳国际金融中心</a><span>AIFC 注册、法院和国际仲裁中心</span></div>
+    <div><a href="https://www.vmp.gov.kz">外国人入境登记</a><span>接待方 3 个工作日内在线填报</span></div>
+    <div><a href="http://kz.mofcom.gov.cn">中国驻哈萨克斯坦使馆经商处</a><span>经贸政策咨询和中资企业报到登记</span></div>
+  </div>
+</section>
+
+</main>
+<footer class="wrap">
+  本页为公开信息整理，不构成法律、税务或投资意见。门槛和税率每年调整，具体交易请以官方最新文本和专业顾问意见为准。
+</footer>
+<script>
+const META={"slug": "kazakhstan", "tape": [["企业所得税", "20%"], ["增值税", "16%"], ["股息预提税(协定)", "10%"], ["利息预提税(协定)", "10%"], ["最低工资", "8.5万坚戈/月"], ["汇率", "1 CNY≈67.8 KZT"], ["中哈贸易 2024", "US$438.2亿"], ["对哈出口", "US$279.6亿"], ["自哈进口", "US$158.6亿"], ["对哈投资存量", "US$61.8亿"], ["基准利率", "16.25%"], ["霍尔果斯班列 2025", "9,882列"]], "bars": {"max": 300, "data": [[2020, 117.1, 97.4], [2021, 139.8, 112.7], [2022, 163.6, 148.2], [2023, 247.0, 163.2], [2024, 279.6, 158.6]]}, "sect": {"energy": "新能源", "trade": "贸易物流", "infra": "工程基建", "finance": "金融", "tech": "数字经济", "industry": "制造业", "general": "综合经贸"}, "feed": "/kazakhstan/news.json"};
+const t=document.getElementById("tape");
+if(t){const h=META.tape.map(([k,v])=>`<span>${k}<i>${v}</i></span>`).join("");t.innerHTML=h+h}
+const bars=document.getElementById("bars");
+if(bars){const max=META.bars.max;bars.innerHTML=META.bars.data.map(([y,e,m])=>`<div class="yr"><span>${y}</span><div><div class="bar e"><i style="width:${e/max*82}%"></i><b>${e}</b></div><div class="bar m"><i style="width:${m/max*82}%"></i><b>${m}</b></div></div></div>`).join("")}
+/* 动态：读取本国 news.json，每日自动更新 */
+const SECT=Object.assign({all:"全部"},META.sect),KEY="sect-"+META.slug;
+let rows=[],cur="all",shown=16;
+try{cur=localStorage.getItem(KEY)||"all"}catch(e){}
+if(!SECT[cur])cur="all";
+const chips=document.getElementById("chips"),list=document.getElementById("feedlist"),msg=document.getElementById("feedmsg");
+function el(tag,cls,txt){const e=document.createElement(tag);if(cls)e.className=cls;if(txt!=null)e.textContent=txt;return e}
+function drawChips(){chips.textContent="";for(const k in SECT){const n=k==="all"?rows.length:rows.filter(r=>r.sector===k).length;const b=el("button",null,SECT[k]+(rows.length?" "+n:""));b.type="button";b.id="chip-"+k;b.setAttribute("aria-pressed",String(k===cur));b.onclick=()=>{cur=k;shown=16;try{localStorage.setItem(KEY,k)}catch(e){}draw()};chips.appendChild(b)}}
+function draw(){drawChips();list.textContent="";const show=rows.filter(r=>cur==="all"||r.sector===cur);
+  for(const r of show.slice(0,shown)){const li=el("li");li.appendChild(el("time",null,r.date||"—"));const d=el("div");
+    const ok=typeof r.url==="string"&&/^https?:\/\//.test(r.url);const a=el(ok?"a":"span","t",r.title||"");if(ok){a.href=r.url;a.target="_blank";a.rel="noopener"}d.appendChild(a);
+    const m=el("div","m");const pol=r.kind==="政策";m.appendChild(el("span","k "+(pol?"pol":"news"),pol?"政策":"新闻"));m.appendChild(el("span",null,SECT[r.sector]||""));if(r.source)m.appendChild(el("span",null,r.source));d.appendChild(m);li.appendChild(d);list.appendChild(li)}
+  const mb=document.getElementById("more");mb.hidden=show.length<=shown;mb.textContent="显示更多（还有 "+(show.length-shown)+" 条）";
+  msg.hidden=show.length>0;if(!show.length)msg.textContent=rows.length?"这个类别暂时没有新动态。":"暂无动态。每日更新后，这里会自动出现新闻与政策。";
+  const last=rows.map(r=>r.added||r.date||"").sort().pop();document.getElementById("upd").textContent=last?"最近更新 "+last:""}
+if(chips){drawChips();
+document.getElementById("more").onclick=()=>{shown+=16;draw()};
+fetch(META.feed,{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(j=>{rows=(j.items||[]).slice().sort((x,y)=>String(y.date||"").localeCompare(String(x.date||"")));draw()}).catch(()=>{msg.hidden=false;msg.textContent="动态暂时无法载入，请稍后刷新。"})}
+</script>
+</body>
+</html>
