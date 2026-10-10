@@ -1,0 +1,501 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>出海乌兹别克斯坦</title>
+<meta name="description" content="面向中国企业的赴乌兹别克斯坦经营简报：市场数据、常见痛点、落地八步、外资准入与自由经济区、税制与中乌税收协定、用工签证速查，新闻与政策动态。">
+<link rel="stylesheet" href="/fonts/fonts.css">
+<style>
+/* 布局：终端式行情带 + 财经头版。全宽黑底栏目条分节，数据用等宽字，标题用重磅宋体 */
+:root{
+  --bg:#07090d; --panel:#0e1219; --panel2:#141a24; --line:#232b38;
+  --fg:#e9edf3; --muted:#8b96a8; --amber:#ffa028; --amber-ink:#07090d;
+  --up:#2fd08a; --down:#ff5a5f; --blue:#4aa8ff;
+  --serif:"Noto Serif SC","Songti SC","Source Han Serif SC","SimSun",serif;
+  --sans:"PingFang SC","HarmonyOS Sans SC","Microsoft YaHei","Noto Sans CJK SC","Noto Sans SC",system-ui,sans-serif;
+  --mono:"IBM Plex Mono","SFMono-Regular",Menlo,Consolas,monospace;
+  color-scheme:dark;
+}
+@media (prefers-color-scheme: light){ :root:not([data-theme="dark"]){
+  --bg:#f3f4f6; --panel:#ffffff; --panel2:#e9ecf1; --line:#cfd5de;
+  --fg:#0b0f16; --muted:#566173; --amber:#b85c00; --amber-ink:#ffffff;
+  --up:#0a7a4b; --down:#c22b30; --blue:#0b5cad; color-scheme:light } }
+:root[data-theme="light"]{
+  --bg:#f3f4f6; --panel:#ffffff; --panel2:#e9ecf1; --line:#cfd5de;
+  --fg:#0b0f16; --muted:#566173; --amber:#b85c00; --amber-ink:#ffffff;
+  --up:#0a7a4b; --down:#c22b30; --blue:#0b5cad; color-scheme:light }
+
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--bg);color:var(--fg);font-family:var(--sans);font-size:15px;line-height:1.75;margin:0}
+a{color:var(--blue);text-decoration:none} a:hover{text-decoration:underline}
+a:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+.wrap{max-width:1180px;margin:0 auto;padding-inline:20px}
+.num{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.up{color:var(--up)} .down{color:var(--down)} .am{color:var(--amber)}
+
+/* 顶栏 */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;gap:20px;flex-wrap:wrap;padding-block:10px}
+.brand{font-family:var(--serif);font-weight:700;font-size:20px;letter-spacing:.04em;display:flex;align-items:center;gap:10px}
+.brand b{background:var(--amber);color:var(--amber-ink);font-family:var(--mono);font-size:12px;font-weight:600;padding:2px 7px;letter-spacing:.08em}
+.nav{display:flex;gap:16px;flex-wrap:wrap;font-size:13px;margin-left:auto}
+.nav a{color:var(--muted)} .nav a:hover{color:var(--fg);text-decoration:none}
+
+/* 行情带 */
+.tape{background:var(--panel);border-bottom:1px solid var(--line);overflow:hidden;white-space:nowrap}
+.tape-in{display:inline-flex;gap:36px;padding:8px 18px;animation:roll 60s linear infinite}
+.tape:hover .tape-in{animation-play-state:paused}
+.tape span{font-size:12.5px;color:var(--muted)} .tape span i{font-style:normal;font-family:var(--mono);color:var(--fg);margin-left:8px}
+@keyframes roll{to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.tape-in{animation:none}.tape{overflow-x:auto}}
+
+/* 头版 */
+.hero{padding-block:44px 30px;border-bottom:1px solid var(--line)}
+.kicker{font-family:var(--mono);font-size:12px;letter-spacing:.14em;color:var(--amber);text-transform:uppercase}
+h1{font-family:var(--serif);font-weight:700;font-size:clamp(30px,5vw,54px);line-height:1.22;margin:12px 0 16px;text-wrap:balance;letter-spacing:.01em}
+.lead{max-width:42em;color:var(--muted);font-size:16.5px;line-height:1.85;margin:0}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:30px;border-top:2px solid var(--amber)}
+.stat{padding:16px 16px 14px 0;border-right:1px solid var(--line);min-width:0}
+.stat+.stat{padding-left:16px} .stat:last-child{border-right:0}
+.stat .v{font-family:var(--mono);font-size:clamp(24px,3.4vw,36px);font-weight:600;line-height:1.1}
+.stat .l{font-size:12.5px;color:var(--muted);margin-top:6px;line-height:1.5}
+
+/* 分节 */
+section{padding-block:38px;border-bottom:1px solid var(--line)}
+.sh{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin-bottom:20px}
+.sh h2{font-family:var(--serif);font-weight:700;font-size:26px;margin:0;line-height:1.25}
+.sh .tag{font-family:var(--mono);font-size:11.5px;letter-spacing:.12em;color:var(--amber-ink);background:var(--amber);padding:2px 8px}
+.sh p{margin:0;color:var(--muted);font-size:13.5px;flex-basis:100%}
+.cols{display:grid;grid-template-columns:1.1fr .9fr;gap:28px}
+.cols>*{min-width:0}
+h3{font-size:15px;margin:0 0 10px;font-weight:700}
+.note{font-size:12.5px;color:var(--muted);margin-top:10px}
+
+/* 指标表 */
+.tblw{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th{font-family:var(--mono);font-size:11.5px;font-weight:500;letter-spacing:.08em;color:var(--muted);text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);white-space:nowrap}
+td{padding:10px;border-bottom:1px solid var(--line);vertical-align:top}
+td.r,th.r{text-align:right} td.num{white-space:nowrap}
+tbody tr:hover{background:var(--panel)}
+td strong{font-weight:700}
+
+/* 贸易图 */
+.bars{display:grid;gap:12px}
+.yr{display:grid;grid-template-columns:44px 1fr;gap:10px;align-items:center}
+.yr>span{font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+.bar{display:flex;align-items:center;gap:8px;margin:2px 0}
+.bar i{display:block;height:11px;min-width:2px}
+.bar.e i{background:var(--amber)} .bar.m i{background:var(--blue)}
+.bar b{font-family:var(--mono);font-size:12px;font-weight:500}
+.legend{display:flex;gap:18px;font-size:12.5px;color:var(--muted);margin-bottom:12px;flex-wrap:wrap}
+.legend i{display:inline-block;width:10px;height:10px;margin-right:6px}
+
+/* 痛点 */
+.pains{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+.pain{background:var(--bg);padding:20px;min-width:0}
+.pain .k{font-family:var(--mono);font-size:22px;font-weight:600;color:var(--amber);line-height:1.2}
+.pain h3{font-family:var(--serif);font-size:18px;font-weight:700;margin:8px 0 6px}
+.pain p{margin:0;font-size:14.5px;line-height:1.8;color:var(--muted)}
+.pain p.do{color:var(--fg);margin-top:10px;padding-top:10px;border-top:1px dashed var(--line)}
+.pain p.do::before{content:"对策";font-family:var(--mono);font-size:11px;letter-spacing:.1em;color:var(--up);margin-right:8px}
+
+/* 路线 */
+.steps{list-style:none;margin:0;padding:0;counter-reset:s;display:grid;grid-template-columns:repeat(2,1fr);gap:0 32px}
+.steps li{counter-increment:s;display:grid;grid-template-columns:42px 1fr;gap:12px;padding:16px 0;border-top:1px solid var(--line);min-width:0}
+.steps li::before{content:counter(s,decimal-leading-zero);font-family:var(--mono);font-size:20px;font-weight:600;color:var(--amber);line-height:1.3}
+.steps h3{margin-bottom:4px;font-family:var(--serif);font-size:17px} .steps p{margin:0;font-size:14.5px;line-height:1.8;color:var(--muted)}
+
+/* 赛道 */
+.tracks{display:grid;grid-template-columns:repeat(2,1fr);gap:0 32px}
+.track{padding:16px 0;border-top:1px solid var(--line);min-width:0}
+.track h3{font-family:var(--serif);font-size:17px;font-weight:700}
+.track p{margin:0;font-size:14.5px;line-height:1.8;color:var(--muted)}
+.heat{font-family:var(--mono);font-size:11px;letter-spacing:.08em;padding:1px 6px;border:1px solid currentColor;margin-left:8px;vertical-align:2px;white-space:nowrap}
+
+/* 动态 */
+.feedhead{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:34px 0 14px;padding-top:18px;border-top:2px solid var(--amber)}
+.feedhead h3{font-family:var(--serif);font-size:20px;font-weight:700;margin:0}
+.live{font-family:var(--mono);font-size:11px;letter-spacing:.1em;color:var(--up);display:inline-flex;align-items:center;gap:6px}
+.live::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--up);animation:blink 1.6s infinite}
+@keyframes blink{50%{opacity:.25}}
+@media (prefers-reduced-motion:reduce){.live::before{animation:none}}
+.feedhead .upd{font-family:var(--mono);font-size:12px;color:var(--muted);margin-left:auto}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.chips button{font:inherit;font-size:13px;background:transparent;color:var(--muted);border:1px solid var(--line);padding:5px 12px;cursor:pointer}
+.chips button:hover{color:var(--fg);border-color:var(--muted)}
+.chips button[aria-pressed="true"]{background:var(--amber);color:var(--amber-ink);border-color:var(--amber)}
+.chips button:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+.feed{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:0 40px}
+.feed li{min-width:0}
+.feed li{display:grid;grid-template-columns:92px 1fr;gap:14px;padding:13px 0;border-bottom:1px solid var(--line)}
+.feed time{font-family:var(--mono);font-size:12.5px;color:var(--muted);padding-top:2px}
+.feed .t{font-family:var(--serif);font-weight:700;color:var(--fg);font-size:16px;line-height:1.55}
+.feed a.t:hover{color:var(--amber);text-decoration:none}
+.feed .m{font-size:12px;color:var(--muted);margin-top:4px;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.feed .k{font-family:var(--mono);font-size:11px;letter-spacing:.06em;border:1px solid currentColor;padding:0 5px}
+.feed .k.pol{color:var(--amber)} .feed .k.news{color:var(--blue)}
+.more{font:inherit;font-size:13px;margin-top:14px;background:transparent;color:var(--fg);border:1px solid var(--line);padding:8px 18px;cursor:pointer}
+.more:hover{border-color:var(--amber);color:var(--amber)}
+.more:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+.feedmsg{padding:18px 0;color:var(--muted);font-size:13.5px}
+@media (max-width:860px){.feed{grid-template-columns:1fr}}
+@media (max-width:480px){.feed li{grid-template-columns:1fr;gap:2px}}
+
+.links{display:grid;grid-template-columns:repeat(3,1fr);gap:0 28px}
+.links div{padding:12px 0;border-top:1px solid var(--line);font-size:13.5px;min-width:0}
+.links span{display:block;color:var(--muted);font-size:12.5px}
+footer{padding-block:28px 48px;font-size:12.5px;color:var(--muted)}
+footer ol{padding-left:20px;margin:8px 0 16px}
+
+@media (max-width:860px){
+  .cols,.steps,.tracks{grid-template-columns:1fr}
+  .pains{grid-template-columns:1fr}
+  .links{grid-template-columns:1fr 1fr}
+  .stats{grid-template-columns:1fr 1fr}
+  .stat{border-bottom:1px solid var(--line)} .stat:nth-child(2){border-right:0} .stat:nth-child(3){padding-left:0}
+  .nav{margin-left:0;gap:12px}
+}
+@media (max-width:480px){.links{grid-template-columns:1fr}}
+
+/* 多国：返回链接、门户首页 */
+.back{font-size:13px;color:var(--muted);border:1px solid var(--line);padding:3px 10px;white-space:nowrap}
+.back:hover{color:var(--fg);border-color:var(--muted);text-decoration:none}
+.region{padding-block:30px;border-bottom:1px solid var(--line)}
+.region h2{font-family:var(--serif);font-weight:700;font-size:24px;margin:0}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}
+.card{background:var(--bg);border:1px solid var(--line);padding:18px 20px;min-width:0;display:block;color:var(--fg)}
+a.card:hover{background:var(--panel);text-decoration:none}
+.card .cn{font-family:var(--serif);font-weight:700;font-size:21px;display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.card .cn small{font-family:var(--mono);font-size:11.5px;font-weight:500;letter-spacing:.1em;color:var(--amber)}
+.card p{margin:8px 0 12px;font-size:13.5px;color:var(--muted);line-height:1.7}
+.card dl{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:0}
+.card dt{font-size:11.5px;color:var(--muted)} .card dd{margin:2px 0 0;font-family:var(--mono);font-size:15px;font-weight:600}
+.card.soon{color:var(--muted)} .card.soon .cn{font-size:17px;color:var(--muted)}
+.card.soon .cn small{color:var(--muted)}
+.cards.mini{grid-template-columns:repeat(5,1fr);gap:8px;margin-top:10px} .cards.mini .card{padding:12px 14px}
+@media (max-width:860px){.cards{grid-template-columns:1fr}.cards.mini{grid-template-columns:repeat(2,1fr)}}
+
+.cmplink{font-family:var(--mono);font-size:12.5px;color:var(--amber);text-decoration:none;border-bottom:1px solid currentColor;margin-left:auto}
+table.cmp{min-width:980px}
+table.cmp th a{color:inherit;text-decoration:none;border-bottom:1px solid var(--line)}
+table.cmp td{vertical-align:top;font-size:13px}
+table.cmp td:first-child,table.cmp th:first-child{position:sticky;left:0;background:var(--bg);white-space:nowrap;font-weight:600}
+table.cmp tr.grp td{font-family:var(--mono);font-size:11.5px;letter-spacing:.1em;color:var(--amber);padding-top:22px;border-bottom:1px solid var(--amber)}
+table.cmp{table-layout:fixed;width:100%}
+table.cmp td,table.cmp th{white-space:normal;word-break:break-word}
+table.cmp td:first-child,table.cmp th:first-child{width:128px;white-space:normal}
+
+.alert{margin:18px 0 0;padding:10px 14px;border-left:3px solid var(--amber);background:var(--panel);font-size:13.5px;color:var(--muted);max-width:820px}
+.alert b{font-family:var(--mono);font-size:11.5px;letter-spacing:.1em;color:var(--amber);margin-right:10px}
+
+.card .cn{align-items:center}
+.flag{width:28px;height:21px;flex:none;border:1px solid var(--line);object-fit:cover}
+.card.soon .flag{width:22px;height:16.5px;opacity:.75}
+#hr td.num,table.cmp td.num{font-family:inherit;font-variant-numeric:tabular-nums;letter-spacing:0}
+.filters{display:flex;flex-wrap:wrap;gap:12px;align-items:flex-end;margin-bottom:14px}
+.filters label{display:flex;flex-direction:column;gap:4px;font-size:11.5px;color:var(--muted);font-family:var(--mono);letter-spacing:.06em}
+.filters select,.filters button{font:inherit;font-family:var(--sans);font-size:13.5px;letter-spacing:0;color:var(--fg);background:var(--panel);border:1px solid var(--line);padding:7px 10px;min-width:132px;border-radius:0}
+.filters button{min-width:0;cursor:pointer;color:var(--amber)}
+#mapbox{position:relative;border:1px solid var(--line);background:var(--panel)}
+#map{display:block;width:100%;height:auto;cursor:grab;touch-action:none}
+#map .land{fill:var(--panel2);stroke:var(--line);stroke-width:.6}
+#map .land.live{fill:color-mix(in srgb,var(--amber) 16%,var(--panel2))}
+#map circle{cursor:pointer;fill-opacity:.88}
+#map circle.on{stroke:var(--fg)!important;fill-opacity:1}
+.zoomer{position:absolute;top:10px;right:10px;display:flex;flex-direction:column;gap:4px}
+.zoomer button{width:30px;height:30px;font-size:18px;line-height:1;color:var(--fg);background:var(--bg);border:1px solid var(--line);cursor:pointer}
+#tip{position:absolute;pointer-events:none;background:var(--bg);border:1px solid var(--line);padding:8px 10px;font-size:12.5px;line-height:1.55;width:220px;z-index:2}
+#tip b{display:block;font-size:13.5px} #tip span{display:block;color:var(--muted)}
+#legend{position:absolute;left:10px;bottom:10px;display:flex;flex-wrap:wrap;gap:4px 14px;font-size:12px;color:var(--muted);background:var(--bg);border:1px solid var(--line);padding:5px 10px}
+.st{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px;vertical-align:baseline}
+table.proj td{vertical-align:top;font-size:13.5px}
+table.proj td small{display:block;color:var(--muted);font-size:12px}
+table.proj td:nth-child(5){white-space:nowrap}
+table.proj tbody tr{cursor:pointer} table.proj tbody tr:hover{background:var(--panel)}
+table.proj tbody tr.on{background:var(--panel);box-shadow:inset 3px 0 0 var(--amber)}
+.maplink{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:26px;padding:16px 20px;border:1px solid var(--line);background:var(--panel);color:var(--fg)}
+a.maplink:hover{text-decoration:none;border-color:var(--amber)}
+.maplink b{font-family:var(--serif);font-size:19px} .maplink span{color:var(--muted);font-size:13.5px} .maplink em{font-style:normal;font-family:var(--mono);font-size:12.5px;color:var(--amber)}
+
+#mapbox{background:#04101d}
+#map .shade{fill:#04101d;opacity:.28}
+#map .land{fill:none;stroke:rgba(255,255,255,.28)}
+#map .land.live{fill:rgba(255,170,60,.13);stroke:rgba(255,190,90,.9)}
+#map circle{fill-opacity:1;filter:drop-shadow(0 0 1.5px rgba(0,0,0,.8))}
+
+#mapbox{--amber:#ffa028;--up:#2fd08a;--down:#ff5a5f;--blue:#4aa8ff;--muted:#c9d1dc}
+#legend,#tip{background:rgba(4,16,29,.88);border-color:rgba(255,255,255,.18);color:#e9edf3}
+#legend{color:#c9d1dc} #tip b{color:#fff}
+.zoomer button{background:rgba(4,16,29,.88);border-color:rgba(255,255,255,.25);color:#fff}
+#map{aspect-ratio:1000/520}
+
+#map .labels{pointer-events:none}
+#map .labels text{paint-order:stroke;stroke:rgba(4,16,29,.85);stroke-width:3px;stroke-linejoin:round;font-family:var(--sans)}
+#map .labels g,#map .labels text.ctry{transition:opacity .25s}
+#map .reg text{text-anchor:middle;fill:#ffc46b}
+#map .reg .en{font-family:var(--serif);font-size:13px;letter-spacing:.14em;font-weight:700}
+#map .reg .zh{font-size:12px;fill:#fff;font-weight:600}
+#map .reg .n{font-family:var(--mono);font-size:15px;font-weight:600}
+#map .ctry{text-anchor:middle;fill:#ffe3b0;font-size:13px;font-weight:600;letter-spacing:.08em}
+#map .city text{fill:#fff;font-size:11.5px}
+#map .city rect{fill:#fff;stroke:rgba(4,16,29,.9);stroke-width:1px}
+/* 表格内的数值单元格常夹中文，统一用正文字体，等宽数字保持对齐 */
+td.num,th.num{font-family:inherit;font-variant-numeric:tabular-nums;letter-spacing:0}
+/* 用工表：左列标签不折行，右列长说明正常换行并左对齐 */
+#hr td.num{white-space:normal;text-align:left}
+#hr tbody td:first-child{white-space:nowrap;width:1%;padding-right:18px;vertical-align:top}
+#hr td{vertical-align:top}
+/* 表格数值单元格允许换行；税务和用工表左列标签不折行 */
+td.num{white-space:normal}
+#tax tbody td:first-child,#hr tbody td:first-child{white-space:nowrap;vertical-align:top}
+#tax td{vertical-align:top}
+@media (max-width:700px){#tax tbody td:first-child{white-space:normal;min-width:5.5em}#tax td{overflow-wrap:anywhere}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <div class="brand">出海乌兹别克斯坦 <b>UZB DESK</b></div>
+  <a class="back" href="/">全部国家</a>
+  <nav class="nav" aria-label="栏目"><a href="#market">市场</a><a href="#pain">痛点</a><a href="#road">落地</a><a href="#access">准入</a><a href="#tax">税务</a><a href="#hr">用工签证</a><a href="#sector">赛道</a><a href="#feed">动态</a><a href="#desk">官方入口</a></nav>
+</div></header>
+<div class="tape" aria-label="关键指标"><div class="tape-in" id="tape"></div></div>
+<main class="wrap">
+
+<div class="hero">
+  <div class="kicker">中国企业赴乌兹别克斯坦经营简报 · 数据截至 2026-10-10</div>
+  <h1>乌兹别克斯坦是中亚人口最多、增长最快的市场，机会在新能源、汽车、建材和中吉乌铁路，难点是政策多变、外汇进出要凭合同、税务执法尺度不一</h1>
+  <p class="lead">乌兹别克斯坦人口约 3,800 万，占中亚的 45%，平均年龄 29.3 岁；2024 年 GDP 1,150 亿美元、增长 6.5%，人均 3,093 美元，据报道 2025 年 GDP 约 1,525 亿美元、增长 7.7%。中国是它第一大贸易伙伴和第一大进口来源国，2024 年中乌货物贸易 137.8 亿美元，中方顺差 97.6 亿美元；据乌方统计 2025 年双边贸易 172 亿美元、占乌外贸的 21.2%。外资可以独资，在自由经济区投资 30 万美元以上可免 3 至 10 年主要税种；中乌 2025 年 6 月 1 日起互免签证，单次可停留 30 天。但这里法律常被总统令“打补丁”，新令推翻旧令屡见不鲜；外汇汇出要凭进口合同或利润证明，人民币和苏姆不能直接兑换，当地没有中资银行；本币贷款平均利率约 20%；土地只能租不能买；据报道 2026 年 4 月起新入区企业的所得税优惠改为加速折旧。它是“双内陆国”，没有出海口，货运九成以上靠公路。</p>
+  <div class="stats">
+    <div class="stat"><div class="v">137.8<small style="font-size:.5em"> 亿美元</small></div><div class="l">2024 年中乌货物贸易额<br><span class="down num">▼ 1.9%</span> 据乌方统计 2025 年 172 亿</div></div>
+    <div class="stat"><div class="v am">15%</div><div class="l">企业所得税<br>银行、移动通信等 20%</div></div>
+    <div class="stat"><div class="v am">12%</div><div class="l">增值税<br>出口 0%，小商户可选 6% 简易税率</div></div>
+    <div class="stat"><div class="v">22.1<small style="font-size:.5em"> 亿美元</small></div><div class="l">2024 年底中国对乌直接投资存量<br>乌方统计中方投融资累计超 150 亿</div></div>
+  </div>
+</div>
+
+<section id="market">
+  <div class="sh"><span class="tag">MARKET</span><h2>市场速览</h2></div>
+  <div class="cols">
+    <div>
+      <h3>宏观与成本仪表盘</h3>
+      <div class="tblw"><table>
+        <thead><tr><th>指标</th><th class="r">数值</th><th>口径</th></tr></thead>
+        <tbody>
+          <tr><td>GDP</td><td class="r num">约 1,150 亿美元</td><td>2024 年，1,454 万亿苏姆，增长 6.5%；据报道 2025 年 1,849.7 万亿苏姆、约 1,525 亿美元，增长 7.7%，2026 年一季度增长 8.7%。政府目标 2030 年 GDP 达到 1,600 亿美元</td></tr>
+          <tr><td>人均 GDP</td><td class="r num">3,093 美元</td><td>2024 年，增长 4.4%（2020 年 1,686 美元）；“乌兹别克斯坦—2030”战略目标 4,000 美元</td></tr>
+          <tr><td>人口</td><td class="r num">约 3,800 万</td><td>2025 年 8 月；城市人口 51%，适龄劳动人口 56%。塔什干市 314.5 万，撒马尔罕州 433.5 万、费尔干纳州 418.1 万；在乌华人约 2 万，多在塔什干、锡尔河、布哈拉、纳沃伊和费尔干纳盆地</td></tr>
+          <tr><td>主权评级</td><td class="r num">BB / Ba2 / BB-</td><td>据报道惠誉 2026 年 6 月确认 BB、展望调为正面；穆迪 2026 年 6 月 25 日由 Ba3 上调至 Ba2、展望稳定；标普 2025 年 5 月 BB-、展望正面</td></tr>
+          <tr><td>汇率</td><td class="r num am">1 人民币 ≈ 1,767.5 苏姆</td><td>乌央行官方汇率，2026 年 10 月 9 日 1 美元 = 11,846.57 苏姆，折合 1 美元 ≈ 6.70 人民币。2025 年 7 月 1 日为 12,694，一年多来苏姆对美元升值约 7%。2019 年起实现初步可自由兑换，但人民币与苏姆在银行不能直接兑换</td></tr>
+          <tr><td>通胀</td><td class="r num down">6.4%</td><td>据报道 2026 年 9 月同比；2025 年全年 7.3%，2024 年 9.8%。央行目标 2027 年底降到 5%</td></tr>
+          <tr><td>基准利率</td><td class="r num">14%</td><td>据报道央行 2026 年 9 月 16 日维持不变；商业银行本币贷款平均利率约 20%，外币长期贷款约 4.8%，外资企业一般不在当地融资</td></tr>
+          <tr><td>最低月薪</td><td class="r num">136 万苏姆</td><td>据报道 2026 年 9 月 1 日起由 127.1 万上调，约合 115 美元；2025 年上半年人均月薪 598 万苏姆，约 471 美元，增长 17.2%</td></tr>
+          <tr><td>工业电价</td><td class="r num">1,100 苏姆/度</td><td>据报道 2026 年 6 月 1 日起，大型工业企业、预算单位和第 I、II、IV 组法人统一价，约 0.093 美元；2025 年 5 月塔什干企业电价为 1,000 苏姆</td></tr>
+          <tr><td>燃气、水</td><td class="r num">1,800 / 5,200 苏姆</td><td>塔什干企业燃气每立方米 1,800 苏姆（约 0.14 美元）、用水每立方米 5,200 苏姆（含管网费），2025 年 5 月</td></tr>
+          <tr><td>燃油</td><td class="r num">13,400 / 15,400 苏姆/升</td><td>92 号 / 95 号汽油，塔什干 2025 年 5 月（约 1.07 / 1.22 美元）；2024 年汽油涨 5.9%、甲烷涨 21%</td></tr>
+          <tr><td>租金和房价</td><td class="r num">约 8 美元/㎡·月</td><td>塔什干住宅平均租金，2025 年初；米拉巴德区 10.5 美元、谢尔盖区 6.2 美元。新房均价 1,653.63 美元/㎡（2024 年 8 月），高端住宅超 2,500 美元</td></tr>
+          <tr><td>建材</td><td class="r num">钢 700–1,000 美元/吨</td><td>热轧卷含增值税；水泥 40–50 美元/吨、红砖 0.18 美元/块、方木 250–300 美元/立方米（2023 年 12 月），近两年涨幅大</td></tr>
+        </tbody>
+      </table></div>
+      <p class="note">2024 年乌兹别克斯坦外贸 659.3 亿美元，出口 269.5 亿、进口 389.9 亿，逆差 120.4 亿；黄金出口 74.8 亿美元，占出口 27.8%。据报道 2025 年外贸首次突破 812 亿美元、增长 20.7%，出口 338 亿、进口 473 亿，黄金出口 99 亿美元。截至 2024 年底政府债务 402 亿美元、占 GDP 的 35%，其中外债 337.2 亿美元，中国金融机构是第四大债权方（38 亿美元）。外汇汇入不受限，但法人取汇要提交合同，汇出要提供进口合同或利润证明；个人出境携带本币或外汇不超过 1 亿苏姆。全国 35 家商业银行，国有银行占资产的 67.4%，外经银行、工业建设银行、阿萨卡银行和图龙银行与国开行、进出口银行有合作，目前没有中资银行；中资企业不能用人民币在当地开展跨境贸易和投资。</p>
+    </div>
+    <div>
+      <h3>中乌货物贸易 2020–2024（亿美元）</h3>
+      <div class="legend"><span><i style="background:var(--amber)"></i>中国对乌出口</span><span><i style="background:var(--blue)"></i>中国自乌进口</span></div>
+      <div class="bars" id="bars"></div>
+      <p class="note">中乌贸易从 2020 年的 66.3 亿美元增至 2023 年的 140.4 亿美元，2023 年一年增长 44.9%；2024 年小幅回落到 137.8 亿美元。2024 年中国对乌出口 117.7 亿美元、下降 4.9%，以车辆及零配件、工程机械、电机电气、钢铁和塑料制品为主；自乌进口 20.1 亿美元、增长 21.1%，以矿物燃料、铜、棉花和果蔬为主；中方顺差 97.6 亿美元。据乌方统计 2025 年双边贸易 172 亿美元，中国仍是第一大伙伴。截至 2024 年末中国对乌直接投资存量 22.06 亿美元；截至 2025 年 7 月在乌注册的中资企业 4,192 家，据报道 2026 年上半年中乌合资和中资独资企业已超过 6,000 家。2024 年中企在乌新签承包工程合同额 57.3 亿美元，完成营业额 34.3 亿美元。来源：中国海关总署、商务部。</p>
+    </div>
+  </div>
+</section>
+
+<section id="pain">
+  <div class="sh"><span class="tag">PAIN POINTS</span><h2>中企在乌兹别克斯坦最常踩的六个坑</h2><p>按企业实际遇到的顺序排列。</p></div>
+  <div class="pains">
+    <div class="pain"><div class="k">总统令</div><h3>法律靠总统令“打补丁”，口头承诺不算数</h3><p>乌兹别克斯坦以基本法为骨架，再用总统令、政府决议不断补充，新令推翻旧令屡见不鲜，法律之间相互抵触。中央和地方官员调整频繁，“新官不理旧账”普遍，招商时许诺的优惠常常落不了地。它是“买方市场”，对中企的套路摸得很透，中企被对方“牵着鼻子走”的情况时有发生。税收优惠也在收：据报道 2025 年起取消出口收入免企业所得税，2026 年起总统决定给的所得税优惠只剩最长 3 年加速折旧。</p><p class="do">做到文来文往：利润汇出、劳务许可、优惠政策都写进投资协议和合同，条款逐字推敲。任何优惠拿到总统令或政府决议原文再投钱，按当前版本法规测算回报。</p></div>
+    <div class="pain"><div class="k">合同</div><h3>外汇进出要凭合同，人民币用不上</h3><p>外汇汇入不受限，但企业取汇要交合同，汇出要提供进口合同或利润证明；人民币和苏姆不能直接兑换，中资企业不能在当地用人民币做跨境贸易和投资，乌境内也没有中资银行。苏姆波动不小：2025 年 7 月 1 美元兑 12,694 苏姆，2026 年 10 月上旬约 11,847。本地借钱贵，基准利率 14%，本币贷款平均约 20%。</p><p class="do">合同写清计价币种、汇率基准和调价机制，利润汇出路径在投资协议里锁定。融资用国内或境外资金，乌外经银行、工业建设银行等与国开行、进出口银行有合作的银行优先开户。</p></div>
+    <div class="pain"><div class="k">税务</div><h3>税务执法主观，优惠各地解读不一</h3><p>乌仍处在向市场经济过渡的阶段，部门自由裁量权大，各地对优惠政策的解读和执行尺度不一。近年来中资企业因税务政策调整起诉税务部门的案件大幅增加，虽有胜诉，但牵扯精力。乌兹别克斯坦没有预先裁定制度；据报道 2026 年起新的人工智能系统给每张增值税发票评风险，高风险发票的进项税要等供应商把税交了才能抵扣。</p><p class="do">选供应商先查税务信用（my2.soliq.uz 可查法人纳税状态），增值税发票全部走电子系统核对。享受协定待遇的款项提前备好中国税收居民身份证明和受益所有人材料，争议走行政复议和中乌相互协商程序。</p></div>
+    <div class="pain"><div class="k">租地</div><h3>土地只能租，征地常有额外开价</h3><p>外资企业和外国公民只能租赁土地，农地、林地不能拥有，只能拿 3 至 49 年的经营权。临时征地最长 3 年、实际 1 年一续；永久征地 3 至 10 年，到期要办延期。征地过程中经常发生补偿费之外的费用，土地所有人或农场主会索要更多，城市用地谈不拢还要签补偿合同报政府审批。含地下资源的土地要通过 e-auksion.uz 拍卖或直接谈判取得。</p><p class="do">选址优先进自由经济区、小工业区或中资园区的熟地；用地期限、续期条件和补偿总额一次性写入合同，并报地方政府确认。</p></div>
+    <div class="pain"><div class="k">6,000</div><h3>中企扎堆，热门行业已饱和</h3><p>乌市场体量相对小、消纳能力有限，招商引资“急功近利”，个别行业项目集中落地，同质化竞争风险高。截至 2025 年 7 月在乌注册中资企业 4,192 家，据报道 2026 年上半年中乌合资和中资独资企业已超过 6,000 家，比 2024 年接近翻番。工程承包有中企低价竞标、承担不该承担的风险的情况，扰乱市场。</p><p class="do">进入前实地调研需求和同行布局，不扎堆、不低价竞销。加入乌兹别克斯坦中国企业商会，与同行横向沟通；工程项目按国际惯例报价和分担风险。</p></div>
+    <div class="pain"><div class="k">GB</div><h3>中国标准不能直接用，施工审查多</h3><p>中国标准在乌通常不能直接适用，需要通过当地设计院转化；2028 年底前城市规划领域可以选用 GB、CJ、JC、JG 等中国标准，但限制严格。2018 年 12 月起所有项目（含外商直接投资）都要做工程预算鉴定，投用前要由建筑检查机关、产权登记机构和承包商联合检查；只有经乌工程师顾问协会认证的专家才能做监督和检查。2022 年 5 月起，国际金融机构经乌商业银行转贷项目的税收优惠也已取消。</p><p class="do">设计阶段就请当地设计院参与标准转化，预算和工期留出鉴定、审批时间。非预算和非国家担保贷款的 EPC 项目可以申请“边设计、边采购、边施工”。</p></div>
+  </div>
+</section>
+
+<section id="road">
+  <div class="sh"><span class="tag">ROADMAP</span><h2>从国内备案到在乌开张：八步</h2></div>
+  <ol class="steps">
+    <li><div><h3>国内境外投资备案</h3><p>发改委、商务部备案或核准，再到银行办境外直接投资外汇登记。</p></div></li>
+    <li><div><h3>选落脚形式</h3><p>中资企业通常设有限责任公司（可 100% 外资）或代表处。代表处没有法人资格，不能从事商业活动；承包工程可按常设机构登记纳税。涉及能源、铀等国家垄断领域外资一般不超过 50%，传媒合资外资不超过 15%。</p></div></li>
+    <li><div><h3>准备注册文件</h3><p>公司章程和发起人协议用乌兹别克语，其余可用俄文。外国法人股东要出具授权委托书和设立公司的股东决议，中俄或中乌双语，在中国公证认证。公司名称可先在 fo.birdarcha.uz 查重锁定。</p></div></li>
+    <li><div><h3>国家服务中心注册</h3><p>由区（市）国家服务中心或司法部门受理，材料齐全约 3 至 5 个工作日拿到营业执照，随后刻制公章。股东须在注册之日起一年内实缴注册资本。</p></div></li>
+    <li><div><h3>开户、税务登记</h3><p>凭执照和公章开对公账户，付税务钥匙登记费后到注册地区税务局登记，再回国家服务中心拷贝电子税务账号。新公司可选营业税（4%）或增值税加所得税；2026 年 6 月 1 日起年收入超过约 50 亿苏姆（1.2 万倍基本计算额）必须转为一般税制。</p></div></li>
+    <li><div><h3>谈投资优惠</h3><p>向投资、工业和贸易部和地方政府申请优惠，进自由经济区、小工业区或中资园区。自由经济区按投资额 30 万至 1,000 万美元以上享受 3 至 10 年免税，据报道 2026 年 4 月 1 日起新入区企业的所得税优惠改为加速折旧。所有优惠以总统令或政府决议为准。</p></div></li>
+    <li><div><h3>环评、许可和验收</h3><p>基建、能源、采矿、水泥厂等属 I 级高风险，必须环评，I、II 级还要公开听证；环评一般 30 日内办完，复杂项目可延至两个月，拿到正面结论才能开工。建筑、桥隧、高风险设施等需许可，在 license.gov.uz 线上申领；竣工须由国家机关和发包方共同验收。</p></div></li>
+    <li><div><h3>招工、外劳和报税</h3><p>外籍员工由用人单位申请个人劳动许可，15 个工作日内确认，再办工作签证，抵乌 3 天内做临时居留登记。主要税种按月或按季申报，最晚次月或季后 20 日；企业所得税年报次年 3 月 1 日前提交。与中国驻乌使馆经商处和乌兹别克斯坦中国企业商会建立联系。</p></div></li>
+  </ol>
+</section>
+
+<section id="access">
+  <div class="sh"><span class="tag">ENTRY</span><h2>外资准入与落脚点</h2><p>外资可设合资企业、100% 外资企业或收购私有企业股份，尚无外资安全审查法规。优惠主要集中在自由经济区；限制集中在国家垄断行业、金融、传媒和土地。</p></div>
+  <div class="tblw"><table>
+    <thead><tr><th>落脚点</th><th class="r">外资持股</th><th>能做什么</th><th>税负</th><th>适合</th></tr></thead>
+    <tbody>
+      <tr><td><strong>乌兹别克斯坦法人</strong><br>有限责任公司、股份公司</td><td class="r num">最高 100%</td><td>注册约 3 至 5 个工作日，一年内实缴资本；注册资本不少于 4 亿苏姆、外资不少于 15% 的可认定为外国投资企业，新版《投资和投资活动法》拟降至 10%</td><td>企业所得税 15%；增值税 12%</td><td>贸易、制造、服务</td></tr>
+      <tr><td><strong>代表处</strong></td><td class="r num">100%</td><td>不具备法人资格，只能在授权范围内代表公司，不能从事商业活动</td><td>—</td><td>市场调研、联络</td></tr>
+      <tr><td><strong>常设机构</strong></td><td class="r num">100%</td><td>可开苏姆和外币账户、雇员工、签合同；工地或劳务在任意 12 个月内超过 183 天即按国内法构成常设机构</td><td>所得税 15% + 净利润 10%</td><td>工程承包</td></tr>
+      <tr><td><strong>自由经济区</strong><br>28 个，另有 380 多个小工业区</td><td class="r num up">可 100%</td><td>纳沃伊（645 公顷）、安格连（1,634 公顷，距塔什干 75 公里）、吉扎克、锡尔河等；投资 30 万–300 万美元免 3 年、300 万–500 万 5 年、500 万–1,000 万 7 年、1,000 万以上 10 年，此后所得税减半；生产用进口原料免关税，区内可用外汇结算</td><td>免土地税、所得税、财产税等；据报道 2026 年 4 月起新入区企业所得税优惠改为加速折旧</td><td>出口加工、建材、汽车配套</td></tr>
+      <tr><td><strong>中资境外园区</strong></td><td class="r num up">可 100%</td><td>鹏盛工业园（锡尔河，14 家企业、2,000 多人、九成本地员工）、华立华塔工业园（塔什干州，227 公顷，总统令给予 10 年经济特区待遇）、明源丝路工业园（吉扎克，400 公顷）、安集延纺织园、洛阳—布哈拉农业合作区</td><td>享受经济特区税收、关税优惠</td><td>中小制造企业抱团</td></tr>
+      <tr><td><strong>PPP</strong></td><td class="r num">按协议</td><td>协议期 3 至 49 年；截至 2024 年底 PPP 投资 310 亿美元、占 GDP 的 27%，九成以上在能源；2030 年前拟引入私人投资 300 亿美元，重点是塔什干—安集延、塔什干—撒马尔罕高速、泵站、灌溉和配电网改造</td><td>按协议</td><td>能源、交通、水务</td></tr>
+      <tr><td><strong>能源和资源</strong></td><td class="r num down">≤50%</td><td>发电和油气开采已对外资开放；能源及铀等重点矿产外资一般不超过 50%；国家输电网、国内输气管网由国企垄断、不对外资开放；铁路完全由国家垄断</td><td>另交地下资源使用税</td><td>新能源发电、油气</td></tr>
+      <tr><td><strong>银行和保险</strong></td><td class="r num">可参股</td><td>外资可投资金融业，合资企业外籍高管不超过 50%；银行最低注册资本 5,000 亿苏姆（约 4,400 万美元）；来自低税地区或不披露实际受益人的直接股东不得入股</td><td>银行所得税 20%</td><td>—</td></tr>
+      <tr><td><strong>传媒</strong></td><td class="r num down">≤15%</td><td>可办报刊、电视台、网站等，但不得独资，合资外资占比不超过 15%</td><td>—</td><td>—</td></tr>
+      <tr><td><strong>农地和林地</strong></td><td class="r num down">只能经营</td><td>外资不能取得所有权，凭投资合同或 PPP 协议可获 3 至 49 年经营权；鼓励种植、养殖、加工、仓储到出口的全产业链投资</td><td>—</td><td>农业全产业链</td></tr>
+    </tbody>
+  </table></div>
+  <p class="note">2024 年乌兹别克斯坦吸收外国直接投资 28.36 亿美元、增长 31.5%，年底存量 167.3 亿美元；乌政府统计 2024 年利用外资和贷款 267 亿美元，中国居首。“乌兹别克斯坦—2030”战略提出 2030 年前吸引投资 2,500 亿美元，其中外国直接投资 1,100 亿美元。新版《投资和投资活动法》2025 年 1 月经参议院通过，把项目分为小型（≤300 万美元）、中型（≤1,000 万）、大型（≤1 亿）和战略项目（>1 亿）分级激励，外国投资者土地使用期由 25 年延长到 49 年，并推行“单一窗口”。中乌 1992 年签投资保护协定、2011 年签新的促进和保护投资协定；乌入世谈判已进入收官阶段，据报道政府目标是 2026 年底前加入世贸组织。进口关税分 0、5%、10%、20%、30% 五档，2025 年 6 月起取消对未签最惠国协定国家商品征双倍关税。</p>
+</section>
+
+<section id="tax">
+  <div class="sh"><span class="tag">TAX</span><h2>税务速查</h2><p>现行《税法典》2020 年 1 月 1 日起施行，每年随预算法修订。下表按 2026 年规则填写，主体税率 2026 年未变；国际条约与税法冲突时以条约为准。</p></div>
+  <div class="cols">
+    <div>
+      <div class="tblw"><table>
+        <thead><tr><th>税种</th><th class="r">税率</th><th>要点</th></tr></thead>
+        <tbody>
+          <tr><td>企业所得税</td><td class="r num">15%</td><td>居民企业就全球所得纳税；亏损可无限期向后结转；2026 年起年收入超过 200 亿苏姆的企业按月预缴</td></tr>
+          <tr><td>行业差别税率</td><td class="r num am">20% / 15%</td><td>商业银行、移动通信、聚乙烯颗粒生产、市场和商业综合体服务 20%；电子商务 2025 年 10%，2026 年起 15%；出口收入免税 2025 年起取消</td></tr>
+          <tr><td>增值税</td><td class="r num">12%</td><td>2023 年由 15% 下调；出口 0%；2026 年起部分农产品适用零税率；高风险发票的进项税须待供应商缴税后才能抵扣</td></tr>
+          <tr><td>简易增值税</td><td class="r num am">6%</td><td>据报道 2026 年 6 月 1 日至 2030 年 1 月 1 日，餐饮、零售批发和服务业可选按营业额 6% 交增值税、所得税为 0，但不能抵扣进项</td></tr>
+          <tr><td>营业税</td><td class="r num">4%</td><td>年收入不超过约 50 亿苏姆（2026 年 6 月起由 10 亿上调）的小企业可选，替代增值税和所得税；出租财产 8%，电商 2026 年起 4%；生产消费税商品的企业不能选</td></tr>
+          <tr><td>个人所得税</td><td class="r num">12%</td><td>居民和非居民一律 12%，雇主代扣；居民个人利息 5%</td></tr>
+          <tr><td>社会税</td><td class="r num">12%</td><td>雇主按工资总额缴，本地和外籍员工都要交；外籍员工计税工资不得低于劳务派遣合同总额的 90%；纺织服装企业 2025 年 9 月至 2028 年 9 月 1%</td></tr>
+          <tr><td>财产税</td><td class="r num">1.5%</td><td>法人财产；规定期限内未完工的在建工程 3%；铁路、干线管道、输电线路 0.6%。2026 年起最低计税价值、土地税和水资源税指数化上调约 7%</td></tr>
+          <tr><td>消费税</td><td class="r num">按品目</td><td>烟酒、油品、含糖和功能饮料等；2026 年多数品目上调约 7%，薯片每公斤 1.5 万苏姆</td></tr>
+          <tr><td>进口关税</td><td class="r num">0–30%</td><td>电动车、药品、部分钢材 0，轿车 30%，水泥 30%；纺织用原料和配件至 2027 年 1 月 1 日免关税</td></tr>
+          <tr><td>非居民服务费预提</td><td class="r num">20%</td><td>在乌未构成常设机构的外国企业取得的服务、租金、特许权使用费等 20%；国际运输和国际通信 6%；保险和再保险 10%；未按规定扣缴罚未缴税款的 20%</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+    <div>
+      <h3>向中国母公司付款的预提税</h3>
+      <div class="tblw"><table>
+        <thead><tr><th>款项</th><th class="r">乌兹别克斯坦国内法</th><th class="r">中乌协定上限</th></tr></thead>
+        <tbody>
+          <tr><td>股息</td><td class="r num">10%</td><td class="r num">10%</td></tr>
+          <tr><td>利息</td><td class="r num">10%</td><td class="r num up">10%；中国政府、地方当局、人民银行及政府全资金融机构 0%</td></tr>
+          <tr><td>特许权使用费</td><td class="r num">20%</td><td class="r num up">10%</td></tr>
+          <tr><td>服务费（无常设机构）</td><td class="r num">20%</td><td class="r num up">营业利润仅在中国征税</td></tr>
+          <tr><td>国际运输</td><td class="r num">6%</td><td class="r num up">仅在中国征税</td></tr>
+          <tr><td>转让乌公司股权</td><td class="r num">20%</td><td class="r num">股份价值 25% 以上来自乌境内不动产的乌方可征，其余仅在中国征税</td></tr>
+          <tr><td>常设机构净利润税</td><td class="r num">10%</td><td class="r num">协定未单列，适用前与税务机关确认</td></tr>
+        </tbody>
+      </table></div>
+      <h3 style="margin-top:20px">四条要提前安排的规则</h3>
+      <p style="margin:0;font-size:13.5px;color:var(--muted)"><strong style="color:var(--fg)">工程常设机构看 12 个月还是 183 天。</strong>中乌协定规定，建筑工地、建筑装配或安装工程及相关监督管理活动连续 12 个月以上才构成常设机构，协定没有单独的劳务常设机构条款。但乌国内法规定工地和劳务在任意 12 个月内超过 183 天即构成常设机构，按 15% 交所得税，自 2022 年起净利润还要比照股息再交 10%。<br><strong style="color:var(--fg)">协定待遇凭居民证明和受益所有人材料。</strong>中乌税收协定 1996 年 7 月 3 日签订并生效，2011 年 12 月 30 日议定书生效，协定没有仲裁条款。乌方没有专门的协定待遇申请程序，通常要提交中国税收居民身份证明，并特别核查受益所有人身份；直接收款方只是“过手”的，按实际受益人所在国协定或国内法税率征税。中国主管税务机关一般 10 个工作日内开具居民证明。<br><strong style="color:var(--fg)">关联借款 3:1 和转让定价。</strong>持股 20% 以上的外国股东及其关联方、或其担保的第三方提供的借款，关联债资比超过 3:1（银行和租赁公司 13:1）的部分利息不得扣除；关联交易有转让定价、同期资料和受控外国企业规则。没有预先裁定制度。<br><strong style="color:var(--fg)">按期申报，按月预缴。</strong>企业所得税按季申报，季度终了后 20 日内报送，年报次年 3 月 1 日前提交；上年收入超过 200 亿苏姆的按月 23 日预缴。代扣非居民税款，非银行扣缴人在付款次日上缴、次月 20 日内申报。社会税按月申报，次月 15 日前。会计凭证保存到纳税义务时效届满。</p>
+    </div>
+  </div>
+</section>
+
+<section id="hr">
+  <div class="sh"><span class="tag">PEOPLE</span><h2>用工与签证</h2></div>
+  <div class="cols">
+    <div>
+      <h3>劳动法底线</h3>
+      <div class="tblw"><table>
+        <tbody>
+          <tr><td>标准工时</td><td class="num r">每周不超过 40 小时，实行每周 5 天工作制，周六、周日公休；国家机关和部分重要企业实行五天半工作制，周六上半天班</td></tr>
+          <tr><td>加班</td><td class="num r">须征得员工同意，部分岗位不允许加班；连续两天累计不超过 4 小时，一年不超过 120 小时；加班工资不低于正常工资的两倍</td></tr>
+          <tr><td>最低工资</td><td class="num r">据报道 2026 年 9 月 1 日起每月 136 万苏姆（此前 127.1 万），约合 115 美元</td></tr>
+          <tr><td>假期</td><td class="num r">据报道现行《劳动法典》规定基本带薪年假不少于 21 个日历日，工龄每满 5 年加 2 天、最多加 8 天，每年合计不超过 56 天；工作满 6 个月可休首次年假，最低 21 天不能折现。产假 126 天，难产或多胞胎 140 天，之后可休育婴假到孩子满 2 岁，并可申请无薪假到 3 岁；病假期间工资由国家社保基金发放津贴</td></tr>
+          <tr><td>劳动合同</td><td class="num r">必须书面签订，分无固定期限和固定期限两种，固定期限最长 5 年；到期后一周内双方都不提出终止的，自动转为无固定期限合同；试用期最长 3 个月；员工信息登记在电子劳动簿系统 my.mehnat.uz</td></tr>
+          <tr><td>解除合同</td><td class="num r">员工辞职须提前两周书面通知；雇主解约必须有正当理由（重大技术变革或清算裁员、技能或健康不胜任、一年内多次违纪或重大过失、达到退休年龄等），并提前两周至两个月书面通知，按规定支付离职津贴</td></tr>
+          <tr><td>雇主缴费</td><td class="num r">社会税 12%（按工资总额，本地和外籍员工都缴）；特定纺织服装企业和费尔干纳州部分特殊税制地区为 1%</td></tr>
+          <tr><td>员工缴费</td><td class="num r">个人所得税 12%，由雇主代扣代缴；外籍员工同样适用 12%</td></tr>
+        </tbody>
+      </table></div>
+      <p class="note">新《劳动法典》2023 年 4 月 30 日生效，共 581 条，替代 1996 年旧法。劳动力受过高等教育的占 28%，2024 年失业率 5.8%（另有口径为 6.8%）。法定节假日包括新年（1 月 1 日）、妇女节（3 月 8 日）、纳乌鲁斯节（3 月 21 日）、纪念和荣誉日（5 月 9 日）、独立日（9 月 1 日）、教师节（10 月 1 日）、宪法日（12 月 8 日），以及开斋节、古尔邦节。乌兹别克语为国语，俄语通用；九成以上人口信仰伊斯兰教，斋月里白天不进食，重要生意也要避开；忌用左手递东西，禁食猪肉。</p>
+    </div>
+    <div>
+      <h3>外籍员工怎么进来</h3>
+      <div class="tblw"><table>
+        <thead><tr><th>事项</th><th>要点</th></tr></thead>
+        <tbody>
+          <tr><td>劳动许可</td><td>必须通过用人单位申请：先草签劳动合同，再向国家服务中心提交申请、护照和签证复印件、照片、艾滋病抗体证明和缴费单据；对外劳务移民署 15 个工作日内确认，有效期通常 1 年，延期须在到期前 20 个工作日申请，可网上办理</td></tr>
+          <tr><td>用工比例</td><td>外资在建项目不受用工比例限制，项目运营后有本地和外籍用工比例要求，个别行业高达 1:20；乌劳动力充沛，对外籍劳务需求小，主要是随项目带入的工程技术人员和建设工人</td></tr>
+          <tr><td>费用</td><td>审核费为 1 倍最低工资；许可费高技术专家和高校教师 1 倍、技术专家 2 倍、普通外籍劳务 30 倍最低工资。连同签证、居留登记、体检、续签和税费，每人每年约 1,800–2,000 美元；半年多次往返工作签证约 330 美元</td></tr>
+          <tr><td>工作签证</td><td>停留超过 3 个月必须先办劳动许可，再办以 S-3 公务类和 E 工作类为主的签证，有效期一般不超过 1 年</td></tr>
+          <tr><td>入境登记</td><td>外籍员工抵乌后 3 天内办理临时居留登记</td></tr>
+          <tr><td>入境免签</td><td>中乌互免签证协定 2025 年 6 月 1 日生效：单次停留不超过 30 天，任意 180 天累计不超过 90 天；不能工作、学习或采访，这些活动和超过 30 天的停留仍须提前办签证</td></tr>
+          <tr><td>税负</td><td>外籍员工个人所得税 12%（雇主代扣），雇主另缴 12% 社会税；中国居民任意 12 个月在乌停留不超过 183 天、由非乌雇主支付且不由其在乌常设机构负担的工资，按协定仅在中国征税</td></tr>
+        </tbody>
+      </table></div>
+      <p class="note">中国驻乌使馆经商处（电话 00998-71-2334718）提供经贸咨询并跟踪中资企业经营情况，每年举办“使馆同中国公民和企业联络协调机制会议”。乌兹别克斯坦中国企业商会是唯一在乌成立并在中国商务部备案的中资企业商会，设法律、金融等服务部门。驻乌使馆 24 小时领事保护热线 00998-93-5018574。遇到不公正待遇，带证据找律师，必要时上诉法院。</p>
+    </div>
+  </div>
+</section>
+
+<section id="sector">
+  <div class="sh"><span class="tag">SECTORS</span><h2>机会在哪里</h2><p>“乌兹别克斯坦—2030”战略、绿色经济转型和交通走廊规划的重点方向，叠加中企已经落地的项目。</p></div>
+  <div class="tracks">
+    <div class="track"><h3>风电光伏与储能 <span class="heat up">订单最密</span></h3><p>2022–2024 年乌已投运 16 座大型光伏和风电站、合计 3.5 吉瓦，可再生能源发电占比约 16%，2025 年计划提到 26%，总统要求 2030 年提到 54%、新增 1.9 万兆瓦绿色产能，并配套 1.8 吉瓦储能。中企既是沙特 ACWA Power、阿联酋 Masdar 项目的总包方，也直接投资：中国能建、中国大唐已投资发电和储能，据报道中国电气装备与华电海外 2025 年 5 月合资建设吉扎克 500 兆瓦光伏，直接投资 20.8 亿元人民币。光伏组件和风机主要从中国进口。</p></div>
+    <div class="track"><h3>汽车与新能源车 <span class="heat up">中国品牌领跑</span></h3><p>2024 年乌产轿车约 42.5 万辆，并以半散件组装起亚、奇瑞、比亚迪、长城等品牌。2024 年进口电动车 24,095 辆、增长约 50%，其中 99.5% 来自中国大陆。比亚迪与乌汽车公司在吉扎克的合资工厂一期投资 1.6 亿美元、产能 5 万辆，2024 年 6 月首批量产下线，当年销量 1.7 万辆、排第三；据报道 2025 年产量 2.02 万辆，2026 年计划 4 万辆，2030 年扩到 20 万辆。乌政府曾用国开行融资向宇通、金龙采购首批 1,000 辆公交车。</p></div>
+    <div class="track"><h3>中吉乌铁路与过境物流 <span class="heat up">走廊成形</span></h3><p>乌是“双内陆国”，2024 年货运 15.2 亿吨，公路占 92%，铁路 7,390 万吨；铁路总长约 6,118 公里，塔什干—布哈拉高铁时速 250 公里。据报道中吉乌铁路 2024 年 12 月正式启动，从喀什经吐尔尕特口岸进入吉尔吉斯斯坦，止于乌东部安集延，乌方负责改造本国段，2026 年两国元首会晤同意加快推进。中铁二十局、中国路桥承建的 A380 公路是乌标准最高的公路；中乌间已有 7 家航司直飞，每周 100 多班。</p></div>
+    <div class="track"><h3>建材与工业园区 <span class="heat am">竞争加剧</span></h3><p>乌正大建住宅和基础设施，建材价格两年大涨，钢材每吨 700–1,000 美元。华新水泥吉扎克、海螺水泥、明源丝路玻璃厂、摩德纳陶瓷厂、利达钢厂等已在自由经济区落地；鹏盛工业园累计投资 1.29 亿美元，做瓷砖、皮革、卫浴五金。华立华塔工业园计划投资 5 亿美元、吸引 80 多家中企，定位汽车零部件、建材五金、电器和机械。全国已有 28 个自由经济区和 380 多个小工业区，但不少配套不到位，热门品类已出现同质竞争。</p></div>
+    <div class="track"><h3>黄金、铜和油气 <span class="heat am">看股比</span></h3><p>矿产资源总价值约 3.5 万亿美元：黄金储量 3,350 吨，铀 18.58 万吨（世界第七），天然气 1.89 万亿立方米，煤 19 亿吨，铜、钨也较丰富。2024 年黄金出口 74.8 亿美元、增长 91.7%，天然气产量 445.9 亿立方米。中石油与乌方各占 50% 合资运营中国—中亚天然气管道 A、B、C 线乌境内段，并合作开发卡拉库里气田。能源和铀等领域外资一般不超过 50%，含矿土地要在 e-auksion.uz 拍卖或直接谈判取得。</p></div>
+    <div class="track"><h3>纺织与农业加工 <span class="heat am">政策扶持</span></h3><p>2024 年原棉产量近 300 万吨、居全球第八，全国有 3,500 多家纺织企业和 4,700 多家服装企业，纺织品出口 28.7 亿美元。纺织用原料和配件进口免关税至 2027 年 1 月 1 日，据报道棉纺集群和纺织服装企业社会税 2025 年 9 月至 2028 年 9 月降为 1%。蔬菜瓜类年产超 1,600 万吨、水果 500 万吨，2026 年起部分农产品增值税零税率；外资可凭合同拿 3 至 49 年农地经营权。安集延纺织园、洛阳—布哈拉农业合作区已落地。</p></div>
+  </div>
+  <div class="feedhead" id="feed"><h3>赛道动态</h3><span class="live">LIVE</span><span class="upd" id="upd"></span></div>
+  <div class="chips" id="chips" role="group" aria-label="按赛道筛选"></div>
+  <ul class="feed" id="feedlist"></ul>
+  <button type="button" class="more" id="more" hidden>显示更多</button>
+  <div class="feedmsg" id="feedmsg">正在载入各赛道的最新新闻与政策……</div>
+
+</section>
+
+<section id="desk">
+  <div class="sh"><span class="tag">DIRECTORY</span><h2>官方入口</h2></div>
+  <div class="links">
+    <div><a href="https://gov.uz/en/miit">投资、工业和贸易部</a><span>外资政策、投资优惠和外贸主管部门</span></div>
+    <div><a href="https://soliq.uz">国家税务委员会</a><span>税务登记、申报和法人纳税状态查询</span></div>
+    <div><a href="https://lex.uz">国家法律数据库 Lex.uz</a><span>税法典、劳动法典、投资法等原文</span></div>
+    <div><a href="https://cbu.uz">乌兹别克斯坦中央银行</a><span>官方汇率、基准利率和外汇管理</span></div>
+    <div><a href="http://tarif.customs.uz">海关费用查询</a><span>按货物、重量和货值估算进出口税费</span></div>
+    <div><a href="https://dxarid.uzex.uz">政府采购网</a><span>政府采购信息公开和电子投标</span></div>
+    <div><a href="https://license.gov.uz">电子许可系统</a><span>建筑等行业执照和许可线上申领</span></div>
+    <div><a href="https://my.mehnat.uz">电子劳动簿</a><span>员工劳动关系登记</span></div>
+    <div><a href="http://uz.mofcom.gov.cn">中国驻乌兹别克斯坦使馆经商处</a><span>经贸政策咨询和中资企业联络</span></div>
+  </div>
+</section>
+
+</main>
+<footer class="wrap">
+  本页为公开信息整理，不构成法律、税务或投资意见。门槛和税率每年调整，具体交易请以官方最新文本和专业顾问意见为准。
+</footer>
+<script>
+const META={"slug": "uzbekistan", "tape": [["企业所得税", "15%"], ["增值税", "12%"], ["股息预提税(协定)", "10%"], ["特许权预提税(协定)", "10%"], ["最低工资", "136万苏姆/月"], ["汇率", "1 CNY≈1,768 UZS"], ["中乌贸易 2024", "US$137.8亿"], ["对乌出口", "US$117.7亿"], ["自乌进口", "US$20.1亿"], ["对乌投资存量", "US$22.1亿"], ["基准利率", "14%"], ["社会税", "12%"]], "bars": {"max": 130, "data": [[2020, 51.47, 14.83], [2021, 58.1, 21.55], [2022, 74.1, 22.76], [2023, 123.8, 16.6], [2024, 117.7, 20.09]]}, "sect": {"energy": "新能源", "trade": "贸易物流", "infra": "工程基建", "finance": "金融", "tech": "数字经济", "industry": "制造业", "general": "综合经贸"}, "feed": "/uzbekistan/news.json"};
+const t=document.getElementById("tape");
+if(t){const h=META.tape.map(([k,v])=>`<span>${k}<i>${v}</i></span>`).join("");t.innerHTML=h+h}
+const bars=document.getElementById("bars");
+if(bars){const max=META.bars.max;bars.innerHTML=META.bars.data.map(([y,e,m])=>`<div class="yr"><span>${y}</span><div><div class="bar e"><i style="width:${e/max*82}%"></i><b>${e}</b></div><div class="bar m"><i style="width:${m/max*82}%"></i><b>${m}</b></div></div></div>`).join("")}
+/* 动态：读取本国 news.json，每日自动更新 */
+const SECT=Object.assign({all:"全部"},META.sect),KEY="sect-"+META.slug;
+let rows=[],cur="all",shown=16;
+try{cur=localStorage.getItem(KEY)||"all"}catch(e){}
+if(!SECT[cur])cur="all";
+const chips=document.getElementById("chips"),list=document.getElementById("feedlist"),msg=document.getElementById("feedmsg");
+function el(tag,cls,txt){const e=document.createElement(tag);if(cls)e.className=cls;if(txt!=null)e.textContent=txt;return e}
+function drawChips(){chips.textContent="";for(const k in SECT){const n=k==="all"?rows.length:rows.filter(r=>r.sector===k).length;const b=el("button",null,SECT[k]+(rows.length?" "+n:""));b.type="button";b.id="chip-"+k;b.setAttribute("aria-pressed",String(k===cur));b.onclick=()=>{cur=k;shown=16;try{localStorage.setItem(KEY,k)}catch(e){}draw()};chips.appendChild(b)}}
+function draw(){drawChips();list.textContent="";const show=rows.filter(r=>cur==="all"||r.sector===cur);
+  for(const r of show.slice(0,shown)){const li=el("li");li.appendChild(el("time",null,r.date||"—"));const d=el("div");
+    const ok=typeof r.url==="string"&&/^https?:\/\//.test(r.url);const a=el(ok?"a":"span","t",r.title||"");if(ok){a.href=r.url;a.target="_blank";a.rel="noopener"}d.appendChild(a);
+    const m=el("div","m");const pol=r.kind==="政策";m.appendChild(el("span","k "+(pol?"pol":"news"),pol?"政策":"新闻"));m.appendChild(el("span",null,SECT[r.sector]||""));if(r.source)m.appendChild(el("span",null,r.source));d.appendChild(m);li.appendChild(d);list.appendChild(li)}
+  const mb=document.getElementById("more");mb.hidden=show.length<=shown;mb.textContent="显示更多（还有 "+(show.length-shown)+" 条）";
+  msg.hidden=show.length>0;if(!show.length)msg.textContent=rows.length?"这个类别暂时没有新动态。":"暂无动态。每日更新后，这里会自动出现新闻与政策。";
+  const last=rows.map(r=>r.added||r.date||"").sort().pop();document.getElementById("upd").textContent=last?"最近更新 "+last:""}
+if(chips){drawChips();
+document.getElementById("more").onclick=()=>{shown+=16;draw()};
+fetch(META.feed,{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(j=>{rows=(j.items||[]).slice().sort((x,y)=>String(y.date||"").localeCompare(String(x.date||"")));draw()}).catch(()=>{msg.hidden=false;msg.textContent="动态暂时无法载入，请稍后刷新。"})}
+</script>
+</body>
+</html>

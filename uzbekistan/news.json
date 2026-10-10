@@ -1,0 +1,85 @@
+{
+ "updated": "2026-10-10",
+ "items": [
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "综述丨承载希望 联通发展——中吉乌铁路铺展地区合作新图景",
+   "source": "新华网",
+   "url": "https://www.news.cn/world/20260905/c6df7bf5fbc041aaa15e2d3ce4cb95ba/c.html",
+   "date": "2026-09-05",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "习近平会见乌兹别克斯坦总统米尔济约耶夫",
+   "source": "新华网",
+   "url": "https://www.news.cn/world/20260831/a0b72b3c78e34860ab3ead83ef1755ae/c.html",
+   "date": "2026-08-31",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "Uzbekistan, BYD discuss expanding EV production and exports",
+   "source": "Trend",
+   "url": "https://www.trend.az/business/4205311.html",
+   "date": "2026-07-09",
+   "added": "2026-10-10",
+   "cn": false
+  },
+  {
+   "sector": "finance",
+   "kind": "新闻",
+   "title": "Moody’s International Rating Agency Upgrades Uzbekistan’s Sovereign Credit Rating by One Notch from Ba3 to Ba2",
+   "source": "乌兹别克斯坦经济和财政部",
+   "url": "https://gov.uz/en/imv/news/view/184041",
+   "date": "2026-06-25",
+   "added": "2026-10-10",
+   "cn": false
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "Salaries, pensions and benefits to increase in Uzbekistan: what will change from July 1 and September 1, 2026",
+   "source": "Yep.uz",
+   "url": "https://yep.uz/en/2026/06/salaries-pensions-benefits-uzbekistan-increase-2026/",
+   "date": "2026-06-24",
+   "added": "2026-10-10",
+   "cn": false
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "Measures to support small business growth reviewed",
+   "source": "乌兹别克斯坦总统网站",
+   "url": "https://president.uz/en/lists/view/9252",
+   "date": "2026-05-26",
+   "added": "2026-10-10",
+   "cn": false
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "中乌互免签证协定今日生效 首架免签入境航班已抵达",
+   "source": "光明网（央视新闻）",
+   "url": "https://m.gmw.cn/2025-06/01/content_1304049468.htm",
+   "date": "2025-06-01",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "Chinese companies to build 500 MW solar power plant in Jizzakh",
+   "source": "Kun.uz",
+   "url": "https://beta.kun.uz/en/news/2025/05/05/chinese-companies-to-build-500-mw-solar-power-plant-in-jizzakh",
+   "date": "2025-05-05",
+   "added": "2026-10-10",
+   "cn": false
+  }
+ ]
+}
