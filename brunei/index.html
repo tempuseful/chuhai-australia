@@ -1,0 +1,499 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>出海文莱</title>
+<meta name="description" content="面向中国企业的赴文莱经营简报：市场数据、常见痛点、落地八步、外资准入与先锋企业优惠、本地化用工与伊斯兰合规、税务与签证速查，新闻与政策动态。">
+<link rel="stylesheet" href="/fonts/fonts.css">
+<style>
+/* 布局：终端式行情带 + 财经头版。全宽黑底栏目条分节，数据用等宽字，标题用重磅宋体 */
+:root{
+  --bg:#07090d; --panel:#0e1219; --panel2:#141a24; --line:#232b38;
+  --fg:#e9edf3; --muted:#8b96a8; --amber:#ffa028; --amber-ink:#07090d;
+  --up:#2fd08a; --down:#ff5a5f; --blue:#4aa8ff;
+  --serif:"Noto Serif SC","Songti SC","Source Han Serif SC","SimSun",serif;
+  --sans:"PingFang SC","HarmonyOS Sans SC","Microsoft YaHei","Noto Sans CJK SC","Noto Sans SC",system-ui,sans-serif;
+  --mono:"IBM Plex Mono","SFMono-Regular",Menlo,Consolas,monospace;
+  color-scheme:dark;
+}
+@media (prefers-color-scheme: light){ :root:not([data-theme="dark"]){
+  --bg:#f3f4f6; --panel:#ffffff; --panel2:#e9ecf1; --line:#cfd5de;
+  --fg:#0b0f16; --muted:#566173; --amber:#b85c00; --amber-ink:#ffffff;
+  --up:#0a7a4b; --down:#c22b30; --blue:#0b5cad; color-scheme:light } }
+:root[data-theme="light"]{
+  --bg:#f3f4f6; --panel:#ffffff; --panel2:#e9ecf1; --line:#cfd5de;
+  --fg:#0b0f16; --muted:#566173; --amber:#b85c00; --amber-ink:#ffffff;
+  --up:#0a7a4b; --down:#c22b30; --blue:#0b5cad; color-scheme:light }
+
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--bg);color:var(--fg);font-family:var(--sans);font-size:15px;line-height:1.75;margin:0}
+a{color:var(--blue);text-decoration:none} a:hover{text-decoration:underline}
+a:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+.wrap{max-width:1180px;margin:0 auto;padding-inline:20px}
+.num{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.up{color:var(--up)} .down{color:var(--down)} .am{color:var(--amber)}
+
+/* 顶栏 */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;gap:20px;flex-wrap:wrap;padding-block:10px}
+.brand{font-family:var(--serif);font-weight:700;font-size:20px;letter-spacing:.04em;display:flex;align-items:center;gap:10px}
+.brand b{background:var(--amber);color:var(--amber-ink);font-family:var(--mono);font-size:12px;font-weight:600;padding:2px 7px;letter-spacing:.08em}
+.nav{display:flex;gap:16px;flex-wrap:wrap;font-size:13px;margin-left:auto}
+.nav a{color:var(--muted)} .nav a:hover{color:var(--fg);text-decoration:none}
+
+/* 行情带 */
+.tape{background:var(--panel);border-bottom:1px solid var(--line);overflow:hidden;white-space:nowrap}
+.tape-in{display:inline-flex;gap:36px;padding:8px 18px;animation:roll 60s linear infinite}
+.tape:hover .tape-in{animation-play-state:paused}
+.tape span{font-size:12.5px;color:var(--muted)} .tape span i{font-style:normal;font-family:var(--mono);color:var(--fg);margin-left:8px}
+@keyframes roll{to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.tape-in{animation:none}.tape{overflow-x:auto}}
+
+/* 头版 */
+.hero{padding-block:44px 30px;border-bottom:1px solid var(--line)}
+.kicker{font-family:var(--mono);font-size:12px;letter-spacing:.14em;color:var(--amber);text-transform:uppercase}
+h1{font-family:var(--serif);font-weight:700;font-size:clamp(30px,5vw,54px);line-height:1.22;margin:12px 0 16px;text-wrap:balance;letter-spacing:.01em}
+.lead{max-width:42em;color:var(--muted);font-size:16.5px;line-height:1.85;margin:0}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:30px;border-top:2px solid var(--amber)}
+.stat{padding:16px 16px 14px 0;border-right:1px solid var(--line);min-width:0}
+.stat+.stat{padding-left:16px} .stat:last-child{border-right:0}
+.stat .v{font-family:var(--mono);font-size:clamp(24px,3.4vw,36px);font-weight:600;line-height:1.1}
+.stat .l{font-size:12.5px;color:var(--muted);margin-top:6px;line-height:1.5}
+
+/* 分节 */
+section{padding-block:38px;border-bottom:1px solid var(--line)}
+.sh{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin-bottom:20px}
+.sh h2{font-family:var(--serif);font-weight:700;font-size:26px;margin:0;line-height:1.25}
+.sh .tag{font-family:var(--mono);font-size:11.5px;letter-spacing:.12em;color:var(--amber-ink);background:var(--amber);padding:2px 8px}
+.sh p{margin:0;color:var(--muted);font-size:13.5px;flex-basis:100%}
+.cols{display:grid;grid-template-columns:1.1fr .9fr;gap:28px}
+.cols>*{min-width:0}
+h3{font-size:15px;margin:0 0 10px;font-weight:700}
+.note{font-size:12.5px;color:var(--muted);margin-top:10px}
+
+/* 指标表 */
+.tblw{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th{font-family:var(--mono);font-size:11.5px;font-weight:500;letter-spacing:.08em;color:var(--muted);text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);white-space:nowrap}
+td{padding:10px;border-bottom:1px solid var(--line);vertical-align:top}
+td.r,th.r{text-align:right} td.num{white-space:nowrap}
+tbody tr:hover{background:var(--panel)}
+td strong{font-weight:700}
+
+/* 贸易图 */
+.bars{display:grid;gap:12px}
+.yr{display:grid;grid-template-columns:44px 1fr;gap:10px;align-items:center}
+.yr>span{font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+.bar{display:flex;align-items:center;gap:8px;margin:2px 0}
+.bar i{display:block;height:11px;min-width:2px}
+.bar.e i{background:var(--amber)} .bar.m i{background:var(--blue)}
+.bar b{font-family:var(--mono);font-size:12px;font-weight:500}
+.legend{display:flex;gap:18px;font-size:12.5px;color:var(--muted);margin-bottom:12px;flex-wrap:wrap}
+.legend i{display:inline-block;width:10px;height:10px;margin-right:6px}
+
+/* 痛点 */
+.pains{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+.pain{background:var(--bg);padding:20px;min-width:0}
+.pain .k{font-family:var(--mono);font-size:22px;font-weight:600;color:var(--amber);line-height:1.2}
+.pain h3{font-family:var(--serif);font-size:18px;font-weight:700;margin:8px 0 6px}
+.pain p{margin:0;font-size:14.5px;line-height:1.8;color:var(--muted)}
+.pain p.do{color:var(--fg);margin-top:10px;padding-top:10px;border-top:1px dashed var(--line)}
+.pain p.do::before{content:"对策";font-family:var(--mono);font-size:11px;letter-spacing:.1em;color:var(--up);margin-right:8px}
+
+/* 路线 */
+.steps{list-style:none;margin:0;padding:0;counter-reset:s;display:grid;grid-template-columns:repeat(2,1fr);gap:0 32px}
+.steps li{counter-increment:s;display:grid;grid-template-columns:42px 1fr;gap:12px;padding:16px 0;border-top:1px solid var(--line);min-width:0}
+.steps li::before{content:counter(s,decimal-leading-zero);font-family:var(--mono);font-size:20px;font-weight:600;color:var(--amber);line-height:1.3}
+.steps h3{margin-bottom:4px;font-family:var(--serif);font-size:17px} .steps p{margin:0;font-size:14.5px;line-height:1.8;color:var(--muted)}
+
+/* 赛道 */
+.tracks{display:grid;grid-template-columns:repeat(2,1fr);gap:0 32px}
+.track{padding:16px 0;border-top:1px solid var(--line);min-width:0}
+.track h3{font-family:var(--serif);font-size:17px;font-weight:700}
+.track p{margin:0;font-size:14.5px;line-height:1.8;color:var(--muted)}
+.heat{font-family:var(--mono);font-size:11px;letter-spacing:.08em;padding:1px 6px;border:1px solid currentColor;margin-left:8px;vertical-align:2px;white-space:nowrap}
+
+/* 动态 */
+.feedhead{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:34px 0 14px;padding-top:18px;border-top:2px solid var(--amber)}
+.feedhead h3{font-family:var(--serif);font-size:20px;font-weight:700;margin:0}
+.live{font-family:var(--mono);font-size:11px;letter-spacing:.1em;color:var(--up);display:inline-flex;align-items:center;gap:6px}
+.live::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--up);animation:blink 1.6s infinite}
+@keyframes blink{50%{opacity:.25}}
+@media (prefers-reduced-motion:reduce){.live::before{animation:none}}
+.feedhead .upd{font-family:var(--mono);font-size:12px;color:var(--muted);margin-left:auto}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.chips button{font:inherit;font-size:13px;background:transparent;color:var(--muted);border:1px solid var(--line);padding:5px 12px;cursor:pointer}
+.chips button:hover{color:var(--fg);border-color:var(--muted)}
+.chips button[aria-pressed="true"]{background:var(--amber);color:var(--amber-ink);border-color:var(--amber)}
+.chips button:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+.feed{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:0 40px}
+.feed li{min-width:0}
+.feed li{display:grid;grid-template-columns:92px 1fr;gap:14px;padding:13px 0;border-bottom:1px solid var(--line)}
+.feed time{font-family:var(--mono);font-size:12.5px;color:var(--muted);padding-top:2px}
+.feed .t{font-family:var(--serif);font-weight:700;color:var(--fg);font-size:16px;line-height:1.55}
+.feed a.t:hover{color:var(--amber);text-decoration:none}
+.feed .m{font-size:12px;color:var(--muted);margin-top:4px;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.feed .k{font-family:var(--mono);font-size:11px;letter-spacing:.06em;border:1px solid currentColor;padding:0 5px}
+.feed .k.pol{color:var(--amber)} .feed .k.news{color:var(--blue)}
+.more{font:inherit;font-size:13px;margin-top:14px;background:transparent;color:var(--fg);border:1px solid var(--line);padding:8px 18px;cursor:pointer}
+.more:hover{border-color:var(--amber);color:var(--amber)}
+.more:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+.feedmsg{padding:18px 0;color:var(--muted);font-size:13.5px}
+@media (max-width:860px){.feed{grid-template-columns:1fr}}
+@media (max-width:480px){.feed li{grid-template-columns:1fr;gap:2px}}
+
+.links{display:grid;grid-template-columns:repeat(3,1fr);gap:0 28px}
+.links div{padding:12px 0;border-top:1px solid var(--line);font-size:13.5px;min-width:0}
+.links span{display:block;color:var(--muted);font-size:12.5px}
+footer{padding-block:28px 48px;font-size:12.5px;color:var(--muted)}
+footer ol{padding-left:20px;margin:8px 0 16px}
+
+@media (max-width:860px){
+  .cols,.steps,.tracks{grid-template-columns:1fr}
+  .pains{grid-template-columns:1fr}
+  .links{grid-template-columns:1fr 1fr}
+  .stats{grid-template-columns:1fr 1fr}
+  .stat{border-bottom:1px solid var(--line)} .stat:nth-child(2){border-right:0} .stat:nth-child(3){padding-left:0}
+  .nav{margin-left:0;gap:12px}
+}
+@media (max-width:480px){.links{grid-template-columns:1fr}}
+
+/* 多国：返回链接、门户首页 */
+.back{font-size:13px;color:var(--muted);border:1px solid var(--line);padding:3px 10px;white-space:nowrap}
+.back:hover{color:var(--fg);border-color:var(--muted);text-decoration:none}
+.region{padding-block:30px;border-bottom:1px solid var(--line)}
+.region h2{font-family:var(--serif);font-weight:700;font-size:24px;margin:0}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}
+.card{background:var(--bg);border:1px solid var(--line);padding:18px 20px;min-width:0;display:block;color:var(--fg)}
+a.card:hover{background:var(--panel);text-decoration:none}
+.card .cn{font-family:var(--serif);font-weight:700;font-size:21px;display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.card .cn small{font-family:var(--mono);font-size:11.5px;font-weight:500;letter-spacing:.1em;color:var(--amber)}
+.card p{margin:8px 0 12px;font-size:13.5px;color:var(--muted);line-height:1.7}
+.card dl{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:0}
+.card dt{font-size:11.5px;color:var(--muted)} .card dd{margin:2px 0 0;font-family:var(--mono);font-size:15px;font-weight:600}
+.card.soon{color:var(--muted)} .card.soon .cn{font-size:17px;color:var(--muted)}
+.card.soon .cn small{color:var(--muted)}
+.cards.mini{grid-template-columns:repeat(5,1fr);gap:8px;margin-top:10px} .cards.mini .card{padding:12px 14px}
+@media (max-width:860px){.cards{grid-template-columns:1fr}.cards.mini{grid-template-columns:repeat(2,1fr)}}
+
+.cmplink{font-family:var(--mono);font-size:12.5px;color:var(--amber);text-decoration:none;border-bottom:1px solid currentColor;margin-left:auto}
+table.cmp{min-width:980px}
+table.cmp th a{color:inherit;text-decoration:none;border-bottom:1px solid var(--line)}
+table.cmp td{vertical-align:top;font-size:13px}
+table.cmp td:first-child,table.cmp th:first-child{position:sticky;left:0;background:var(--bg);white-space:nowrap;font-weight:600}
+table.cmp tr.grp td{font-family:var(--mono);font-size:11.5px;letter-spacing:.1em;color:var(--amber);padding-top:22px;border-bottom:1px solid var(--amber)}
+table.cmp{table-layout:fixed;width:100%}
+table.cmp td,table.cmp th{white-space:normal;word-break:break-word}
+table.cmp td:first-child,table.cmp th:first-child{width:128px;white-space:normal}
+
+.alert{margin:18px 0 0;padding:10px 14px;border-left:3px solid var(--amber);background:var(--panel);font-size:13.5px;color:var(--muted);max-width:820px}
+.alert b{font-family:var(--mono);font-size:11.5px;letter-spacing:.1em;color:var(--amber);margin-right:10px}
+
+.card .cn{align-items:center}
+.flag{width:28px;height:21px;flex:none;border:1px solid var(--line);object-fit:cover}
+.card.soon .flag{width:22px;height:16.5px;opacity:.75}
+#hr td.num,table.cmp td.num{font-family:inherit;font-variant-numeric:tabular-nums;letter-spacing:0}
+.filters{display:flex;flex-wrap:wrap;gap:12px;align-items:flex-end;margin-bottom:14px}
+.filters label{display:flex;flex-direction:column;gap:4px;font-size:11.5px;color:var(--muted);font-family:var(--mono);letter-spacing:.06em}
+.filters select,.filters button{font:inherit;font-family:var(--sans);font-size:13.5px;letter-spacing:0;color:var(--fg);background:var(--panel);border:1px solid var(--line);padding:7px 10px;min-width:132px;border-radius:0}
+.filters button{min-width:0;cursor:pointer;color:var(--amber)}
+#mapbox{position:relative;border:1px solid var(--line);background:var(--panel)}
+#map{display:block;width:100%;height:auto;cursor:grab;touch-action:none}
+#map .land{fill:var(--panel2);stroke:var(--line);stroke-width:.6}
+#map .land.live{fill:color-mix(in srgb,var(--amber) 16%,var(--panel2))}
+#map circle{cursor:pointer;fill-opacity:.88}
+#map circle.on{stroke:var(--fg)!important;fill-opacity:1}
+.zoomer{position:absolute;top:10px;right:10px;display:flex;flex-direction:column;gap:4px}
+.zoomer button{width:30px;height:30px;font-size:18px;line-height:1;color:var(--fg);background:var(--bg);border:1px solid var(--line);cursor:pointer}
+#tip{position:absolute;pointer-events:none;background:var(--bg);border:1px solid var(--line);padding:8px 10px;font-size:12.5px;line-height:1.55;width:220px;z-index:2}
+#tip b{display:block;font-size:13.5px} #tip span{display:block;color:var(--muted)}
+#legend{position:absolute;left:10px;bottom:10px;display:flex;flex-wrap:wrap;gap:4px 14px;font-size:12px;color:var(--muted);background:var(--bg);border:1px solid var(--line);padding:5px 10px}
+.st{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px;vertical-align:baseline}
+table.proj td{vertical-align:top;font-size:13.5px}
+table.proj td small{display:block;color:var(--muted);font-size:12px}
+table.proj td:nth-child(5){white-space:nowrap}
+table.proj tbody tr{cursor:pointer} table.proj tbody tr:hover{background:var(--panel)}
+table.proj tbody tr.on{background:var(--panel);box-shadow:inset 3px 0 0 var(--amber)}
+.maplink{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:26px;padding:16px 20px;border:1px solid var(--line);background:var(--panel);color:var(--fg)}
+a.maplink:hover{text-decoration:none;border-color:var(--amber)}
+.maplink b{font-family:var(--serif);font-size:19px} .maplink span{color:var(--muted);font-size:13.5px} .maplink em{font-style:normal;font-family:var(--mono);font-size:12.5px;color:var(--amber)}
+
+#mapbox{background:#04101d}
+#map .shade{fill:#04101d;opacity:.28}
+#map .land{fill:none;stroke:rgba(255,255,255,.28)}
+#map .land.live{fill:rgba(255,170,60,.13);stroke:rgba(255,190,90,.9)}
+#map circle{fill-opacity:1;filter:drop-shadow(0 0 1.5px rgba(0,0,0,.8))}
+
+#mapbox{--amber:#ffa028;--up:#2fd08a;--down:#ff5a5f;--blue:#4aa8ff;--muted:#c9d1dc}
+#legend,#tip{background:rgba(4,16,29,.88);border-color:rgba(255,255,255,.18);color:#e9edf3}
+#legend{color:#c9d1dc} #tip b{color:#fff}
+.zoomer button{background:rgba(4,16,29,.88);border-color:rgba(255,255,255,.25);color:#fff}
+#map{aspect-ratio:1000/520}
+
+#map .labels{pointer-events:none}
+#map .labels text{paint-order:stroke;stroke:rgba(4,16,29,.85);stroke-width:3px;stroke-linejoin:round;font-family:var(--sans)}
+#map .labels g,#map .labels text.ctry{transition:opacity .25s}
+#map .reg text{text-anchor:middle;fill:#ffc46b}
+#map .reg .en{font-family:var(--serif);font-size:13px;letter-spacing:.14em;font-weight:700}
+#map .reg .zh{font-size:12px;fill:#fff;font-weight:600}
+#map .reg .n{font-family:var(--mono);font-size:15px;font-weight:600}
+#map .ctry{text-anchor:middle;fill:#ffe3b0;font-size:13px;font-weight:600;letter-spacing:.08em}
+#map .city text{fill:#fff;font-size:11.5px}
+#map .city rect{fill:#fff;stroke:rgba(4,16,29,.9);stroke-width:1px}
+/* 表格内的数值单元格常夹中文，统一用正文字体，等宽数字保持对齐 */
+td.num,th.num{font-family:inherit;font-variant-numeric:tabular-nums;letter-spacing:0}
+/* 用工表：左列标签不折行，右列长说明正常换行并左对齐 */
+#hr td.num{white-space:normal;text-align:left}
+#hr tbody td:first-child{white-space:nowrap;width:1%;padding-right:18px;vertical-align:top}
+#hr td{vertical-align:top}
+/* 表格数值单元格允许换行；税务和用工表左列标签不折行 */
+td.num{white-space:normal}
+#tax tbody td:first-child,#hr tbody td:first-child{white-space:nowrap;vertical-align:top}
+#tax td{vertical-align:top}
+@media (max-width:700px){#tax tbody td:first-child{white-space:normal;min-width:5.5em}#tax td{overflow-wrap:anywhere}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <div class="brand">出海文莱 <b>BRN DESK</b></div>
+  <a class="back" href="/">全部国家</a>
+  <nav class="nav" aria-label="栏目"><a href="#market">市场</a><a href="#pain">痛点</a><a href="#road">落地</a><a href="#access">准入</a><a href="#tax">税务</a><a href="#hr">用工签证</a><a href="#sector">赛道</a><a href="#feed">动态</a><a href="#desk">官方入口</a></nav>
+</div></header>
+<div class="tape" aria-label="关键指标"><div class="tape-in" id="tape"></div></div>
+<main class="wrap">
+
+<div class="hero">
+  <div class="kicker">中国企业赴文莱经营简报 · 数据截至 2026-10-07</div>
+  <h1>文莱人少钱多、税低汇稳，中企的主场在油气下游、港口和电力，难点是市场太小、本地化用工和伊斯兰合规</h1>
+  <p class="lead">文莱人口约 45.6 万，2024 年人均 GDP 约 3.4 万美元，但油气占 GDP 的 46.7%、出口的 39.9%、财政收入的 75.3%，经济多元化是“2035 宏愿”的主线。税制极简：企业所得税 18.5%，没有个人所得税、增值税和销售税，股息不征预提税；文莱元与新加坡元 1:1 挂钩，外汇不设限制。中国是文莱第一大外资来源地，恒逸文莱大摩拉岛炼化项目是文莱最大的实业投资，据报道二期已在 2026 年全面开工；广西北部湾港务集团运营的摩拉港正在扩建。难点同样明显：市场小、工业用电不足，审批慢且偏向西方标准；外国人不能拥有土地，公司董事要有本地人；本地化用工政策收紧外劳；《伊斯兰刑法》下，饮酒、斋月、周五祷告和清真认证都直接影响经营。</p>
+  <div class="stats">
+    <div class="stat"><div class="v">28.1<small style="font-size:.5em"> 亿美元</small></div><div class="l">2024 年中文货物贸易额<br><span class="down num">▼ 17.1%</span> 中国对文出口</div></div>
+    <div class="stat"><div class="v am">18.5%</div><div class="l">企业所得税<br>石油利润税 55%</div></div>
+    <div class="stat"><div class="v am">0</div><div class="l">个人所得税、增值税<br>股息预提税也为 0</div></div>
+    <div class="stat"><div class="v">34.5<small style="font-size:.5em"> 亿美元</small></div><div class="l">恒逸文莱一期投资<br>2024 年增加值占 GDP 8.3%</div></div>
+  </div>
+</div>
+
+<section id="market">
+  <div class="sh"><span class="tag">MARKET</span><h2>市场速览</h2></div>
+  <div class="cols">
+    <div>
+      <h3>宏观与成本仪表盘</h3>
+      <div class="tblw"><table>
+        <thead><tr><th>指标</th><th class="r">数值</th><th>口径</th></tr></thead>
+        <tbody>
+          <tr><td>GDP</td><td class="r num">196.6 亿文元</td><td>2025 年现价，按当前汇率约 154 亿美元，实际增长 0.7%（油气 +3.1%、非油气 -1.5%），文莱经济规划统计局；2024 年增长 4.2%，为 1999 年以来最快</td></tr>
+          <tr><td>人均 GDP</td><td class="r num">约 3.4 万美元</td><td>2024 年名义值，约 4.5 万文元</td></tr>
+          <tr><td>人口</td><td class="r num">约 45.6 万</td><td>2024 年 45.55 万，马来族 73.7%、华人 9.6%；据报道 2025 年约 45.86 万，临时居民占 17.5%</td></tr>
+          <tr><td>汇率</td><td class="r num am">1 人民币 ≈ 0.191 文元</td><td>即 1 文元 ≈ 5.23 人民币。tradingeconomics 市场汇率：2026 年 10 月 7 日 1 美元 ≈ 1.2788 文元，10 月 9 日 1 美元 ≈ 6.6926 人民币。文元与新加坡元 1:1 挂钩，人民币与文元可直接兑换</td></tr>
+          <tr><td>通胀</td><td class="r num up">-0.4%</td><td>2024 年 CPI；2022 年 3.7%、2023 年 0.4%。政府补贴水电油，据报道 2026 年大米和燃油补贴维持原水平</td></tr>
+          <tr><td>失业率</td><td class="r num">4.7%</td><td>2024 年；据报道 2025 年初步数据升至 5.0%，本地人占就业 70.9%</td></tr>
+          <tr><td>最低月薪</td><td class="r num">500 文元</td><td>2023 年 7 月起分行业实施，兼职每小时 2.62 文元；2025 年 4 月扩大到 6 大行业的 9 个子行业</td></tr>
+          <tr><td>工商业电价</td><td class="r num">0.05–0.20 文元/度</td><td>按月阶梯递减，前 270 单位 0.20，往上依次 0.07、0.06、0.05；装机仅 1,048.4 兆瓦，约 98% 靠天然气发电</td></tr>
+          <tr><td>油价</td><td class="r num">0.31–0.53 文元/升</td><td>柴油 0.31、97 号汽油 0.53；液化气每标准罐 10 文元，均为补贴价</td></tr>
+          <tr><td>首都地价</td><td class="r num">约 100 万文元/英亩</td><td>市区商业中心；住宅用地约 30 万文元/英亩。外国人不能买地，只能租地或买公寓分层产权</td></tr>
+          <tr><td>住房月租</td><td class="r num">1,200–3,000 文元</td><td>公寓 100–200 平方米；两层独栋 1,500–2,500 文元，需预交 2–3 个月押金</td></tr>
+          <tr><td>建筑成本</td><td class="r num">40–60 文元/平方英尺</td><td>厂房约 40、办公楼约 60；钢筋约 900 文元/吨，袋装水泥 160 文元/吨（2025 年）</td></tr>
+          <tr><td>贷款利率</td><td class="r num">约 5.5%</td><td>2024 年一年期平均；一年期存款 0.66%。新设外资企业融资须提供母公司信用证明</td></tr>
+        </tbody>
+      </table></div>
+      <p class="note">文莱没有外债，政府从 2006 年起发行短期伊斯兰债券。但 2014/15 财年起受油价影响连年赤字，2024/25 财年预算收入 32.6 亿文元、支出 63.5 亿文元，赤字 30.9 亿文元；据报道 2026/27 财年预算 63 亿文元，略低于上年，收入仍高度依赖国际油价。外汇不设限制，非居民可开户、贷款；出入境携带或汇出收入超过 5,000 文元的现钞或无记名票据要向央行金融情报处申报。中国银行 2016 年在斯里巴加湾市开设分行；本地主要银行有文莱伊斯兰银行（BIBD）、佰都利银行，部分商户收银联卡和支付宝。文莱暂无证券交易所，据报道计划 2027 年三季度前推出，先上市政府关联企业。</p>
+    </div>
+    <div>
+      <h3>中文货物贸易 2020–2024（亿美元）</h3>
+      <div class="legend"><span><i style="background:var(--amber)"></i>中国对文出口</span><span><i style="background:var(--blue)"></i>中国自文进口</span></div>
+      <div class="bars" id="bars"></div>
+      <p class="note">双边贸易额从 2020 年的 19.1 亿美元升到 2022 年的 30.8 亿美元，2023、2024 年都是 28.1 亿美元。中国长期逆差：2024 年对文出口 7.1 亿美元、下降 17.1%，自文进口 21 亿美元、增长 7.8%，进口以恒逸炼厂的油品、化工品和液化天然气为主。按文方统计，2024 年中国是文莱第三大贸易伙伴（27.4 亿美元，占 14.8%）、第二大出口市场，也是液化天然气第二大买家（3.7 亿美元）。中国对文直接投资存量 1.29 亿美元，2024 年流量 1,545 万美元；中企当年在文新签承包工程合同 15 份、金额 3.6 亿美元，完成营业额 0.3 亿美元，年末在文劳务人员 86 人。2023 年 7 月开通摩拉港—钦州港集装箱直航航线。来源：中国海关总署。</p>
+    </div>
+  </div>
+</section>
+
+<section id="pain">
+  <div class="sh"><span class="tag">PAIN POINTS</span><h2>中企在文莱最常踩的六个坑</h2><p>按企业实际遇到的顺序排列。</p></div>
+  <div class="pains">
+    <div class="pain"><div class="k">45 万人</div><h3>市场太小，工业配套和电力跟不上</h3><p>全国人口约 45 万，2024 年零售总额只有 16.8 亿文元（约 12.6 亿美元），约 90% 的食品靠进口，大米自给率 8%。工业基础薄弱，产业配套和工作效率都有短板；电力装机约 1,048 兆瓦，约 98% 靠天然气，供电能力无法满足大用电量的工业项目，政府正在制定能源总体规划。道路桥梁已较完备，建筑市场空间有限，公共小工程往往优先本地企业。</p><p class="do">项目按出口导向设计，目标市场看东盟、中国和东盟东部增长区，不要指望文莱内需。耗电项目先和能源部门谈清楚供电和电价，最好自配电源。</p></div>
+    <div class="pain"><div class="k">17 类</div><h3>本地化用工收紧，外劳要配额、准证周期长</h3><p>本地劳动力短缺，受过良好教育的公民普遍去政府部门，普通劳动力技能有限。收银员、文员、保安、司机、销售员、保洁员、服务员等 17 类岗位鼓励用本地人；2014 年起批发零售、酒店、通信等行业部分岗位必须用本地人，配额和经营许可续期时会被削减，本地员工比例不提高就难拿许可。本地员工普遍不愿加班，斋月期间更明显。2024 年移民局以未续准证、超期居留等理由驱逐 735 名外国人；未经许可雇用外劳，罚款 1 万文元或监禁 6 个月至 3 年。</p><p class="do">进场前按岗位核对本地化清单，算好本地员工比例和培训成本。外劳配额和工作准证提前半年准备，合同到期前由雇主凭机票和信函到移民局注销签证。</p></div>
+    <div class="pain"><div class="k">英标</div><h3>审批慢，标准偏向西方，中国标准难过关</h3><p>文莱生活节奏慢，政府行政审批耗时较长，工作准证程序复杂、周期长。产业标准体系不完整，评审外资项目时倾向参照西方发达国家标准；建筑主要用英国标准，部分用澳大利亚标准，对中国标准采用较少。2010 年起新建工程项目都要做环境影响评估，须聘请专门机构编制报告报发展部环境局。</p><p class="do">审批时间留足余量，与各审批环节保持沟通。设计阶段就按英标出图，中国标准要提前做解释和认证工作；聘熟悉当地程序的顾问和律师。</p></div>
+    <div class="pain"><div class="k">周五 12–14 点</div><h3>伊斯兰教法管到经营细节</h3><p>伊斯兰教是国教，《伊斯兰刑法》2014 年起分阶段生效。公共场所禁止饮酒，不得向穆斯林提供、推荐或出售酒精饮料；斋月期间避免在公共场合饮食吸烟；每周五 12 点到 14 点穆斯林必须到清真寺祈祷，餐厅店铺停业，雇主不得阻止穆斯林员工按时祈祷。禁止传播其他宗教，禁止在网络上发布涉及伊斯兰教的不当言论。所有食品都要符合清真要求，肉类进口实行严格清真检验；投资食品加工等行业须经宗教事务部批准，出版物、宗教物品等进口须拿许可。</p><p class="do">员工入境前做宗教和法律培训，外派人员不在公共场合饮酒、穿着暴露。排班避开周五祷告时间，斋月放慢进度；食品类项目先走清真认证流程。</p></div>
+    <div class="pain"><div class="k">0 地契</div><h3>外国人不能拥有土地，董事要有本地人</h3><p>土地归苏丹所有，2012 年修订《土地法》后，非文莱籍人士彻底不能拥有永久地契，外国投资者只能租地租房或购买分层产权房产。私人公司若只有 2 名董事，至少 1 名须为本地人；超过 2 名，至少 2 名本地董事。本地小型工程一般只向本地私人有限公司开放；外国建筑公司不能直接投标政府工程，承包等级越低的工程，对本地马来人持股要求越高。</p><p class="do">工厂优先进政府规划的工业园区，向达鲁萨兰企业（DARe）租地。本地董事选可信、懂行的人，用股东协议和公司章程锁定控制权；找本地伙伴前做好资信调查。</p></div>
+    <div class="pain"><div class="k">46.7%</div><h3>经济和财政绑在油价上，项目回款要带资</h3><p>2024 年油气占 GDP 的 46.7%、财政收入的 75.3%，油价一跌财政就吃紧，政府连年赤字、削减开支。油价也直接影响中企：据报道恒逸文莱一期 2024 年亏损 10.3 亿元人民币，2026 年上半年又因单吨利润高成为母公司业绩主力。政府工程按进度付款，一般滞后 3 个月左右，承包商要带资施工，不过政府项目一般不拖欠。500 万文元以下的招标项目通常给最低标。</p><p class="do">投标前算好垫资周期和融资成本，投保中国信保。炼化、化工类项目做好油价和价差的压力测试，合同里写清调价机制。</p></div>
+  </div>
+</section>
+
+<section id="road">
+  <div class="sh"><span class="tag">ROADMAP</span><h2>从国内备案到在文开张：八步</h2></div>
+  <ol class="steps">
+    <li><div><h3>国内境外投资备案</h3><p>发改委、商务部备案或核准，再到银行办境外直接投资外汇登记。进入前可先征求中国驻文莱使馆经商处意见。</p></div></li>
+    <li><div><h3>对接招商和用地机构</h3><p>文莱经济发展局（BEDB）负责招商，财经部下设的外资行动与支持中心（FAST）负责外资项目审批协调，达鲁萨兰企业（DARe）负责提供用地和落地后服务。大项目先谈投资框架和先锋企业资格。</p></div></li>
+    <li><div><h3>选企业形式</h3><p>可设私人有限公司（2–50 名股东，可全部为外国人）、公众公司、外国公司分支机构或代表处，大部分行业可 100% 外资。独资和合伙企业多由本地人设立，外国人申请须先获移民局、经济规划统计局和劳工局许可。分支机构须任命 1 名文莱籍公司秘书。</p></div></li>
+    <li><div><h3>线上注册公司</h3><p>在 ROC 网站（www.roc.gov.bn）先核名，获批后 30 天内提交章程、董事名单、股东和董事证件，注册约 1 个工作日。注册费按法定股本分档，2.5 万文元以下 300 文元，最高 1.5 亿文元以上 3.5 万文元；要指定本地注册会计师，每年报资产负债表。</p></div></li>
+    <li><div><h3>开户和资金进场</h3><p>在当地银行开户需提供公司注册文件和护照复印件；文莱无外汇管制，资本金和利润可自由进出，但现钞或无记名票据超过 5,000 文元须申报。中国银行 2016 年起在文莱设有分行。</p></div></li>
+    <li><div><h3>税务登记，申请免税资格</h3><p>通过 STARS 系统在线做税务登记。财年结束后 3 个月内申报预估应税收入，6 月 30 日前提交年度申报并缴税。要享受先锋企业或出口型企业免税，须申请资格证书，免税期从生产日开始计算，宜在投产前办好。</p></div></li>
+    <li><div><h3>环评、建筑许可和清真审批</h3><p>新建工程须做环境影响评估，报发展部环境、园林及公共娱乐局。施工图由当地认可建筑师报批，承包商到发展部领建筑工程许可证。食品、药品项目须经宗教事务部批准，进口受控商品先办许可证。</p></div></li>
+    <li><div><h3>招工、外劳准证和报到</h3><p>先在文莱就业中心（JCB）和雇员信托基金（现国家退休计划）登记，再向劳工局申请外劳准证，一般 7 天审批、建筑类 18 天，获批后缴安全保证金，办工作签证和体检，入境后再体检并办绿色身份证（约 1 个月）。注册后到中国驻文莱使馆经商处报到备案，可加入文莱中资企业协会。</p></div></li>
+  </ol>
+</section>
+
+<section id="access">
+  <div class="sh"><span class="tag">ENTRY</span><h2>外资准入与落脚点</h2><p>文莱没有专门的外资法，《投资促进法》内外资通用；除少数行业外不限外资比例，外国投资者无需找本地合伙人。真正的门槛在本地董事、用工本地化和土地。</p></div>
+  <div class="tblw"><table>
+    <thead><tr><th>落脚点</th><th class="r">外资持股</th><th>能做什么</th><th>税负</th><th>适合</th></tr></thead>
+    <tbody>
+      <tr><td><strong>私人有限公司</strong><br>ROC 注册</td><td class="r num up">最高 100%</td><td>2–50 名股东，没有最低股本；董事中须有 1–2 名本地人</td><td>企业所得税 18.5%；股息无预提税</td><td>贸易、服务、制造</td></tr>
+      <tr><td><strong>外国公司分支机构</strong></td><td class="r num">100%</td><td>以母公司名义经营，不具法人资格；须任命文莱籍公司秘书，每年报账</td><td>只就文莱来源收入按 18.5% 纳税</td><td>工程、短期项目</td></tr>
+      <tr><td><strong>先锋企业</strong></td><td class="r num up">可 100%</td><td>产业在文莱未饱和、符合公众利益；涵盖制药、化工、清真食品加工、造船、建材、通信设备等</td><td>免所得税和设备、原料进口税：注册资本 50 万–250 万文元免 5 年，250 万以上 8 年，高科技园区 11 年；可每次延长 3 年或 5 年，总计最长 11 年或 20 年</td><td>制造业、石化</td></tr>
+      <tr><td><strong>先锋服务和服务出口</strong></td><td class="r num up">可 100%</td><td>工程技术、计算机信息、物流、金融、教育、医疗、会展等 16 类服务；或向境外出口设计、咨询、软件等服务</td><td>先锋服务免税 8 年、最长 11 年；服务出口最长免税 11 年</td><td>数据中心、物流、咨询</td></tr>
+      <tr><td><strong>出口型企业和国际贸易</strong></td><td class="r num up">可 100%</td><td>农林渔企业出口占销售额 20% 以上且年出口 2 万文元以上；国际贸易年出口超过 300 万文元或转口超过 500 万文元</td><td>出口型生产企业免税 6–8 年、最长 11 年，固定资产投资超过 5,000 万文元可免 15 年；国际贸易免税 8 年</td><td>渔业、农业、贸易</td></tr>
+      <tr><td><strong>工业园区</strong><br>8 个</td><td class="r num up">可 100%</td><td>大摩拉岛 955 公顷（石化）、双溪岭 271 公顷（油气下游）、萨兰碧加 137.2 公顷（食品药品、水产加工）、生物创新走廊 500 公顷（清真）；特伦京自由贸易区由 DARe 运营，租金 7 文元/平方米。已交付工业用地 1,533 公顷，储备 5,375 公顷</td><td>可申请先锋资格；数据中心等面向境外客户的项目最长免税 20 年；研发补助最高 500 万文元</td><td>石化、清真、电子</td></tr>
+      <tr><td><strong>工程承包</strong></td><td class="r num">分级</td><td>政府工程须与本地公司联合投标、分包或合资；建筑企业分 6 级，合同额 15 万文元以下的一、二级须本地马来人 100% 持股，三级 50%–80%，四级 30%–50%，五级 10%–30%，500 万以上的六级 10%</td><td>同一般公司</td><td>政府和私人工程</td></tr>
+      <tr><td><strong>PPP 项目</strong></td><td class="r num">按协议</td><td>经济基础设施门槛 4,000 万文元、社会基础设施 1,000 万文元，须符合“2035 宏愿”；领域包括住房、供水、机场、港口、公交、旅游设施</td><td>按协议</td><td>光伏、港口、机场</td></tr>
+      <tr><td><strong>限制领域</strong></td><td class="r num down">受限</td><td>林业不对外资开放；非本地居民开咖啡馆、快餐店等传统餐饮受限，不得在乡村开办；银行业外籍员工不超过一半</td><td>—</td><td>—</td></tr>
+      <tr><td><strong>禁止领域</strong></td><td class="r num down">禁止</td><td>武器、毒品及与伊斯兰教义相悖的行业</td><td>—</td><td>—</td></tr>
+    </tbody>
+  </table></div>
+  <p class="note">经济多元化重点是油气下游、食品、旅游、信息通信和服务五大领域。2024 年文莱吸收外资流量 0.26 亿美元、存量 64.14 亿美元（文方口径），主要外资有恒逸、壳牌、道达尔、三菱等；据报道 2025 年新注册公司 354 家，比上年增长 125%。外资以绿地投资为主，没有专门的并购法规。中文签有《鼓励和相互保护投资协定》（2000 年）和税收协定（2004 年）。纠纷一般先协商，不成再到当地法院诉讼；文莱沿用英国法传统，聘本地律师处理。《反腐败法》对行贿受贿同等处罚，最高罚款 3 万文元、监禁 7 年，官员财产来源不明可推定受贿。</p>
+</section>
+
+<section id="tax">
+  <div class="sh"><span class="tag">TAX</span><h2>税务速查</h2><p>税种很少：主要是企业所得税、石油利润税和印花税。没有个人所得税、增值税、销售税、资本利得税和遗产税。企业所得税每年申报一次，6 月 30 日前提交。</p></div>
+  <div class="cols">
+    <div>
+      <div class="tblw"><table>
+        <thead><tr><th>税种</th><th class="r">税率</th><th>要点</th></tr></thead>
+        <tbody>
+          <tr><td>企业所得税</td><td class="r num">18.5%</td><td>2015 年起执行；在文注册公司就境内外所得纳税，外国公司分支机构只就文莱来源所得纳税；独资和合伙企业不征</td></tr>
+          <tr><td>小额所得优惠</td><td class="r num">首 10 万文元</td><td>新公司成立后前 3 个纳税年度首 10 万文元应税所得免税；此后 10 万文元以内按 25%、10 万–25 万部分按 50% 计入应税所得</td></tr>
+          <tr><td>石油利润税</td><td class="r num">55%</td><td>勘探开采石油的公司，扣除王室和政府分成及成本后的净收入；炼油不适用</td></tr>
+          <tr><td>个人所得税</td><td class="r num up">0</td><td>工资、股息、利息等个人所得都不征</td></tr>
+          <tr><td>增值税、销售税</td><td class="r num up">0</td><td>没有增值税、销售税、流转税和工资税</td></tr>
+          <tr><td>资本利得</td><td class="r num up">0</td><td>出售财产或投资的收益不征，但被认定为经常性交易的按普通收入纳税</td></tr>
+          <tr><td>进口税和消费税</td><td class="r num">按品目</td><td>中国—东盟自贸区下正常产品已降到零；2023 年 5 月 17 日起调整，消费税如含糖饮料 0.4 文元/升、汽车 15%、摩托车 30%</td></tr>
+          <tr><td>印花税</td><td class="r num">约 0.2%–0.4%</td><td>抵押每 500 文元 1 文元，租赁按年租金每 250 文元 1 文元，转让每 250 文元 1 文元；公司章程和股权证免征</td></tr>
+          <tr><td>非居民预提税</td><td class="r num">2.5% / 10%</td><td>利息、佣金等财务费用 2.5%；特许权使用费、技术服务费、管理费、动产租金、非居民董事费 10%；股息不征</td></tr>
+          <tr><td>国家退休计划（SPK）</td><td class="r num">8.5% + 8.5%–10.5%</td><td>2023 年 7 月起取代 TAP 和 SCP，只覆盖公民和永久居民：雇员 8.5%，雇主按工资分档 8.5%–10.5%，月薪 500 文元以下雇主缴 57.5 文元，取消缴费上限</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+    <div>
+      <h3>向中国母公司付款的预提税</h3>
+      <div class="tblw"><table>
+        <thead><tr><th>款项</th><th class="r">文莱国内法</th><th class="r">中文协定上限</th></tr></thead>
+        <tbody>
+          <tr><td>股息</td><td class="r num up">0</td><td class="r num">5%（国内法不征，实际为 0）</td></tr>
+          <tr><td>利息</td><td class="r num up">2.5%</td><td class="r num">10%（国内法更低，按 2.5%）</td></tr>
+          <tr><td>特许权使用费</td><td class="r num">10%</td><td class="r num">10%</td></tr>
+          <tr><td>设备租金</td><td class="r num">10%</td><td class="r num">10%（协定把使用设备的报酬算作特许权使用费）</td></tr>
+          <tr><td>技术服务费、管理费</td><td class="r num">10%</td><td class="r num up">无常设机构的营业利润仅在中国征税</td></tr>
+          <tr><td>转让文莱公司股权</td><td class="r num up">0</td><td class="r num up">非不动产类股权仅在中国征税</td></tr>
+        </tbody>
+      </table></div>
+      <h3 style="margin-top:20px">四条要提前安排的规则</h3>
+      <p style="margin:0;font-size:13.5px;color:var(--muted)"><strong style="color:var(--fg)">工程常设机构只有 6 个月。</strong>中文协定规定，建筑工地、建筑安装或装配工程及相关监督管理活动连续 6 个月以上即构成常设机构；派员工提供劳务（含咨询）在任何 12 个月中连续或累计超过 6 个月也构成。比很多协定的 12 个月短，工期稍长的项目基本都会在文莱构成常设机构，按 18.5% 交所得税。<br><strong style="color:var(--fg)">预提税 14 天内缴清。</strong>文莱公司向境外付款后 14 天内（含周末和公休日），要在 OCP 平台提交预提税申报并缴税，附发票、合同和银行水单；付款日以实际支付或记入对方账户中较早者为准。技术服务费、管理费要主张协定免税的，付款前先和税务司确认。<br><strong style="color:var(--fg)">反避税规则还很少。</strong>截至 2025 年 6 月，文莱尚无转让定价、资本弱化和受控外国企业规定，也未实施全球最低税（GloBE）规则；但税务机关可无视以减税为目的的安排。中国母公司仍要按国内规则做好关联交易定价。<br><strong style="color:var(--fg)">申报、亏损和账簿。</strong>财年结束后 3 个月内申报预估应税收入并缴税，6 月 30 日前提交年度申报。亏损可向后结转 6 年，亏损后一年内书面申请可向前追溯 1 年。账簿用马来文或英文，至少保存 7 年；税务司可在评税年度后 6 年内补征，欺诈不受期限限制。</p>
+    </div>
+  </div>
+</section>
+
+<section id="hr">
+  <div class="sh"><span class="tag">PEOPLE</span><h2>用工与签证</h2></div>
+  <div class="cols">
+    <div>
+      <h3>劳动法底线</h3>
+      <div class="tblw"><table>
+        <tbody>
+          <tr><td>标准工时</td><td class="num r">每天不超过 8 小时、连续工作不超过 6 小时，每周不超过 44 小时；倒班员工平均每周不超过 44 小时，每天最多 12 小时；每周 1 天休息日</td></tr>
+          <tr><td>加班</td><td class="num r">须取得员工书面同意，加班费不低于平时工资的 1.5 倍；经劳动专员批准，每月加班最多 72 小时</td></tr>
+          <tr><td>最低工资</td><td class="num r">2023 年 7 月起分阶段实施，第一阶段银行金融和信息通信业全职每月 500 文元、兼职每小时 2.62 文元，本地和外籍员工都适用；2025 年 4 月 1 日第二阶段扩大到金融保险、医疗社工、教育、专业技术、行政支持、住宿餐饮 6 大行业中的 9 个子行业</td></tr>
+          <tr><td>发薪</td><td class="num r">工资在工资期结束后 7 天内支付，加班费 14 天内支付；不按时支付或不提供书面劳动合同，最高罚款 3,000 文元或监禁 1 年</td></tr>
+          <tr><td>假期</td><td class="num r">工作满 1 年有 7 天带薪年假，此后每年加 1 天，第 8 年起 14 天；每年 11 天公共假日；病假每年 14 天门诊、60 天住院（含门诊）；工作满 180 天的女员工产假 15 周</td></tr>
+          <tr><td>劳动合同</td><td class="num r">书面订立，期限一般不超过 3 年，须写明岗位、地点、工时和薪资；一式四份，交劳动专员见证；签约员工体检费用由雇主承担</td></tr>
+          <tr><td>解除合同</td><td class="num r">合同未约定通知期的，按服务年限：不满 26 周提前 1 天，26 周至 2 年 1 周，2–5 年 2 周，5 年以上 4 周；一方违约或双方协商解约须经劳动专员同意</td></tr>
+          <tr><td>退休金</td><td class="num r">国家退休计划（SPK）只覆盖文莱公民和永久居民，雇员缴 8.5%，雇主按工资分档缴 8.5%–10.5%；外籍员工不参加，但雇主要为外劳买人身伤害险</td></tr>
+        </tbody>
+      </table></div>
+      <p class="note">文莱 1962 年起实行紧急状态法令，集会和罢工受限，几十年没有罢工，也没有实质性工会活动。文莱人重礼节：握手后手轻触胸口；不主动与异性马来人握手；不摸头和后背；递物用右手，指人指物不用食指；进清真寺和马来人家中要脱鞋，不从祷告者面前走过。宗教节日较多，斋月期间员工可能不愿加班，排工期时要预留。</p>
+    </div>
+    <div>
+      <h3>外籍员工怎么进来</h3>
+      <div class="tblw"><table>
+        <thead><tr><th>事项</th><th>要点</th></tr></thead>
+        <tbody>
+          <tr><td>主管部门</td><td>内政部劳工局签批外劳准证，移民及国民登记局办工作签证和居留；公司注册获批前，外劳准证申请不受理</td></tr>
+          <tr><td>申请步骤</td><td>在文莱就业中心（JCB）登记并核查本地招聘；劳工局 7 天内审批，建筑类 18 天；获批后缴安全保证金，申请工作签证；在国内指定机构体检后到文莱驻华使馆办签证</td></tr>
+          <tr><td>入境后</td><td>接受文莱卫生部体检（抽血、X 光）；雇主与员工在劳工局官员面前确认合同；向移民局申请工作通行证和绿色身份证，一般约 1 个月；准证签发后 3–6 个月劳工局会上门检查住宿和工资发放</td></tr>
+          <tr><td>准证期限</td><td>一般 2 年，可续签；签发后 6 个月内不得更改</td></tr>
+          <tr><td>本地化岗位</td><td>收银员、文员、保安、司机、会计、销售员、保洁员、导游、服务员等 17 类岗位鼓励优先用本地人；部分行业的收银、司机、售货、屠宰、面点等岗位必须用本地人</td></tr>
+          <tr><td>专业人士短期</td><td>专业访问签证有效期 3 个月，可续最长 6 个月，由雇佣公司凭职业证书和公证材料向移民局申请，办理较快；医生、律师等须取得当地执业执照</td></tr>
+          <tr><td>考察和离境</td><td>2025 年 3 月 8 日起，持普通护照的中国公民可免签入境停留 14 天，适合考察洽谈，务工必须办工作准证。工作签证持有人合同结束前，须由雇主凭机票和信函到移民局注销签证后才能离境</td></tr>
+        </tbody>
+      </table></div>
+      <p class="note">常见违法是未续准证、超期居留和违反准证条件；2024 年移民局开展执法行动 347 次，驱逐 735 名外国人，开出 2,849 份罚单。文莱中资企业协会 2016 年成立，有 34 家会员，业务涵盖石化、港口、金融、基建、通信、医药、农渔业和物流；中资企业注册后应到使馆经商处报到备案，遇到执法问题不要正面冲突，通过律师处理。</p>
+    </div>
+  </div>
+</section>
+
+<section id="sector">
+  <div class="sh"><span class="tag">SECTORS</span><h2>机会在哪里</h2><p>“2035 宏愿”、第十二个国家发展规划和经济蓝图确定的重点方向，叠加中企已经落地的项目。</p></div>
+  <div class="tracks">
+    <div class="track"><h3>油气下游与炼化 <span class="heat up">中企主场</span></h3><p>恒逸文莱大摩拉岛项目一期投资 34.5 亿美元、年加工原油 800 万吨，恒逸持股 70%、文莱财经部旗下主权基金持股 30%，2019 年 11 月投产，2024 年增加值占文莱 GDP 的 8.3%。2023 年 11 月签署二期实施协议，计划延伸到芳烃、烯烃、聚酯全产业链；据报道二期预计投资 136.5 亿美元，2026 年已全面开工，新增约 1,200 万吨炼油能力，总产能 2029 年初前提到 2,000 万吨。据报道恒逸为本地企业带来 121 个配套商机。</p></div>
+    <div class="track"><h3>港口物流与广西走廊 <span class="heat up">在建</span></h3><p>2017 年广西北部湾国际港务集团与文莱国家资产管理公司合资接手摩拉港集装箱码头。2024 年摩拉港总吞吐量 192.06 万吨、集装箱 10.4 万标箱；2024 年 8 月启动扩建，集装箱能力从 22 万标箱提到 50 万标箱。据报道中国港湾承建，投资超过 4 亿文元，可靠泊 5 万吨级集装箱船，力争 2027 年四季度投产。“广西—文莱经济走廊”2014 年启动，据报道 2025 年 9 月第五次联委会签署了人工智能、新材料和食品加工合作项目。</p></div>
+    <div class="track"><h3>电力与新能源 <span class="heat up">缺口明显</span></h3><p>工业用电不足已经制约外资项目，政府要求 2035 年可再生能源发电占 30%、电动车占新车销量 60%，并承诺不再新建燃煤电站。恒逸 2024 年 10 月启动 476MWp 光伏项目（SINAR），分三阶段建设，据报道一期 2026 年 2 月投运，可满足炼厂约 7% 的用能。据报道 2026 年 8 月中国电建签下 215.46 兆瓦武吉庞加尔二期燃气联合循环电站 EPC 总承包，是中企在文首个燃气发电项目；30 兆瓦光伏 PPP 电站预计 2026 年底投运。</p></div>
+    <div class="track"><h3>农渔业与清真食品 <span class="heat am">政策扶持</span></h3><p>约 90% 食品靠进口，大米自给率只有 8%，粮食安全是政府重点。2019 年引入杂交水稻后稻谷产量从 2,308 吨增到 2021 年的 4,115 吨；据报道 2026 年 8 月起中方专家为期一年指导杂交水稻育种和制种。文莱海域无污染、无台风，适合养殖，中资已进入渔业养殖，截至 2023 年底 176 种文莱水产品获准输华。“文莱清真”是国家品牌，认证覆盖食品、药品和化妆品，部分中国食品已获认证；出口型农渔企业可享免税期。</p></div>
+    <div class="track"><h3>数字经济与通信 <span class="heat am">起步阶段</span></h3><p>《数字经济总体规划 2025》要把文莱建成智慧国家，优先在物流、能源、金融、健康、农业食品、清真产业等 9 个领域数字化。华为参与 3G/4G 网络重建和 2023 年 6 月 5G 商用，完成 800 多座基站改造，移动网络覆盖率从 80% 提到 96%；中国通信服务承建国家宽带网。《个人数据保护令》2026 年 1 月 1 日施行，数据业务要做合规。中文尚未签署数字经济合作文件，云、数据中心项目可申请最长 20 年免税。</p></div>
+    <div class="track"><h3>基建与工程承包 <span class="heat am">看本地化</span></h3><p>中资企业承建了淡布隆大桥（苏丹奥马尔·赛福鼎大桥）、大摩拉岛大桥、特里赛—鲁木高速公路、乌鲁都东水坝等。第十二个国家发展规划（2024–2029）拨款 40 亿文元资助 305 个项目，重点是教育、医疗、工业、住房、基础设施和数字化，据报道包括 53 个水电基础设施项目。但市场规模有限，政府工程须与本地公司联合，小项目只给本地公司，付款滞后约 3 个月需带资；2024 年中企新签合同 3.6 亿美元。</p></div>
+  </div>
+  <div class="feedhead" id="feed"><h3>赛道动态</h3><span class="live">LIVE</span><span class="upd" id="upd"></span></div>
+  <div class="chips" id="chips" role="group" aria-label="按赛道筛选"></div>
+  <ul class="feed" id="feedlist"></ul>
+  <button type="button" class="more" id="more" hidden>显示更多</button>
+  <div class="feedmsg" id="feedmsg">正在载入各赛道的最新新闻与政策……</div>
+
+</section>
+
+<section id="desk">
+  <div class="sh"><span class="tag">DIRECTORY</span><h2>官方入口</h2></div>
+  <div class="links">
+    <div><a href="https://www.mofe.gov.bn">财政与经济部</a><span>外贸、税务、海关和避免双重征税协定</span></div>
+    <div><a href="https://www.roc.gov.bn">公司注册处（ROC）</a><span>企业核名和公司注册在线办理</span></div>
+    <div><a href="https://www.bedb.com.bn">文莱经济发展局</a><span>招商引资、项目评估和工业园区</span></div>
+    <div><a href="https://www.dare.gov.bn">达鲁萨兰企业（DARe）</a><span>外资项目用地和特伦京自贸区</span></div>
+    <div><a href="https://www.bdcb.gov.bn">文莱中央银行</a><span>货币、银行监管和反洗钱申报</span></div>
+    <div><a href="https://www.stars.gov.bn">税收征管系统（STARS）</a><span>税务登记、申报和预提税</span></div>
+    <div><a href="https://www.labour.gov.bn">劳工局</a><span>外劳准证、劳动法和最低工资</span></div>
+    <div><a href="https://www.agc.gov.bn">总检察署</a><span>法律法规原文、商标和专利注册</span></div>
+    <div><a href="http://bn.mofcom.gov.cn">中国驻文莱使馆经商处</a><span>经贸政策咨询和中资企业报到备案</span></div>
+  </div>
+</section>
+
+</main>
+<footer class="wrap">
+  本页为公开信息整理，不构成法律、税务或投资意见。门槛和税率每年调整，具体交易请以官方最新文本和专业顾问意见为准。
+</footer>
+<script>
+const META={"slug": "brunei", "tape": [["企业所得税", "18.5%"], ["个人所得税", "0"], ["增值税", "无"], ["股息预提税", "0"], ["利息预提税", "2.5%"], ["特许权使用费预提税", "10%"], ["汇率", "1 CNY≈0.191 BND"], ["中文贸易 2024", "US$28.1亿"], ["对文出口", "US$7.1亿"], ["自文进口", "US$21.0亿"], ["对文投资存量", "US$1.29亿"], ["恒逸文莱一期投资", "US$34.5亿"]], "bars": {"max": 25, "data": [[2020, 4.7, 14.4], [2021, 6.3, 22.2], [2022, 8.3, 22.5], [2023, 8.6, 19.5], [2024, 7.1, 21.0]]}, "sect": {"energy": "新能源", "trade": "贸易物流", "infra": "工程基建", "finance": "金融", "tech": "数字经济", "industry": "制造业", "general": "综合经贸"}, "feed": "/brunei/news.json"};
+const t=document.getElementById("tape");
+if(t){const h=META.tape.map(([k,v])=>`<span>${k}<i>${v}</i></span>`).join("");t.innerHTML=h+h}
+const bars=document.getElementById("bars");
+if(bars){const max=META.bars.max;bars.innerHTML=META.bars.data.map(([y,e,m])=>`<div class="yr"><span>${y}</span><div><div class="bar e"><i style="width:${e/max*82}%"></i><b>${e}</b></div><div class="bar m"><i style="width:${m/max*82}%"></i><b>${m}</b></div></div></div>`).join("")}
+/* 动态：读取本国 news.json，每日自动更新 */
+const SECT=Object.assign({all:"全部"},META.sect),KEY="sect-"+META.slug;
+let rows=[],cur="all",shown=16;
+try{cur=localStorage.getItem(KEY)||"all"}catch(e){}
+if(!SECT[cur])cur="all";
+const chips=document.getElementById("chips"),list=document.getElementById("feedlist"),msg=document.getElementById("feedmsg");
+function el(tag,cls,txt){const e=document.createElement(tag);if(cls)e.className=cls;if(txt!=null)e.textContent=txt;return e}
+function drawChips(){chips.textContent="";for(const k in SECT){const n=k==="all"?rows.length:rows.filter(r=>r.sector===k).length;const b=el("button",null,SECT[k]+(rows.length?" "+n:""));b.type="button";b.id="chip-"+k;b.setAttribute("aria-pressed",String(k===cur));b.onclick=()=>{cur=k;shown=16;try{localStorage.setItem(KEY,k)}catch(e){}draw()};chips.appendChild(b)}}
+function draw(){drawChips();list.textContent="";const show=rows.filter(r=>cur==="all"||r.sector===cur);
+  for(const r of show.slice(0,shown)){const li=el("li");li.appendChild(el("time",null,r.date||"—"));const d=el("div");
+    const ok=typeof r.url==="string"&&/^https?:\/\//.test(r.url);const a=el(ok?"a":"span","t",r.title||"");if(ok){a.href=r.url;a.target="_blank";a.rel="noopener"}d.appendChild(a);
+    const m=el("div","m");const pol=r.kind==="政策";m.appendChild(el("span","k "+(pol?"pol":"news"),pol?"政策":"新闻"));m.appendChild(el("span",null,SECT[r.sector]||""));if(r.source)m.appendChild(el("span",null,r.source));d.appendChild(m);li.appendChild(d);list.appendChild(li)}
+  const mb=document.getElementById("more");mb.hidden=show.length<=shown;mb.textContent="显示更多（还有 "+(show.length-shown)+" 条）";
+  msg.hidden=show.length>0;if(!show.length)msg.textContent=rows.length?"这个类别暂时没有新动态。":"暂无动态。每日更新后，这里会自动出现新闻与政策。";
+  const last=rows.map(r=>r.added||r.date||"").sort().pop();document.getElementById("upd").textContent=last?"最近更新 "+last:""}
+if(chips){drawChips();
+document.getElementById("more").onclick=()=>{shown+=16;draw()};
+fetch(META.feed,{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(j=>{rows=(j.items||[]).slice().sort((x,y)=>String(y.date||"").localeCompare(String(x.date||"")));draw()}).catch(()=>{msg.hidden=false;msg.textContent="动态暂时无法载入，请稍后刷新。"})}
+</script>
+</body>
+</html>

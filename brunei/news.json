@@ -1,0 +1,255 @@
+{
+ "updated": "2026-10-10",
+ "items": [
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "Shenzhen Airlines launches direct Brunei-Shenzhen flight",
+   "source": "The Scoop",
+   "url": "https://thescoop.co/2026/10/01/shenzhen-airlines-launches-direct-brunei-shenzhen-flight/",
+   "date": "2026-10-01",
+   "added": "2026-10-10",
+   "cn": false
+  },
+  {
+   "sector": "finance",
+   "kind": "政策",
+   "title": "Brunei central bank launches Financial Sector Blueprint 2026-2035",
+   "source": "新华社",
+   "url": "https://english.news.cn/asiapacific/20260930/4b2401785d034b3891bd348fa852af3e/c.html",
+   "date": "2026-09-30",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "Brunei launches program to strengthen hybrid rice breeding",
+   "source": "新华社",
+   "url": "https://english.news.cn/asiapacific/20260823/f2491c36f96a45f4b3e683209af1be55/c.html",
+   "date": "2026-08-23",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "文莱摩拉港改扩建工程加速推进 计划2027年投产",
+   "source": "中新网",
+   "url": "https://www.chinanews.com.cn/cj/2026/08-17/10679111.shtml",
+   "date": "2026-08-17",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "中国电建签约文莱武吉庞加尔二期燃气联合循环发电项目",
+   "source": "新华财经",
+   "url": "https://finance.sina.com.cn/money/bond/2026-08-14/doc-ininhait2957754.shtml",
+   "date": "2026-08-14",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "恒逸石化净利润增逾2500%，拟10派9元",
+   "source": "证券时报网",
+   "url": "https://www.stcn.com/article/detail/4068011.html",
+   "date": "2026-08-10",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "Brunei advances public-private partnership projects to boost energy, tourism, port efficiency",
+   "source": "新华社",
+   "url": "https://english.news.cn/asiapacific/20260807/1cc104c342d843c68b155d0fa873aceb/c.html",
+   "date": "2026-08-07",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "Brunei sees 125 percent surge in new company registrations in 2025",
+   "source": "新华社",
+   "url": "https://english.news.cn/asiapacific/20260807/02ba4e9ca3a64f7c8f7e83e8b879593c/c.html",
+   "date": "2026-08-07",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "恒逸石化预计上半年净利同比增长超23倍",
+   "source": "证券时报",
+   "url": "https://finance.sina.com.cn/jjxw/2026-06-26/doc-iniesenn2231290.shtml",
+   "date": "2026-06-26",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "Brunei records trade surplus in Feb.",
+   "source": "新华社",
+   "url": "https://english.news.cn/20260427/4a095158d76f4a64a89493d5d7d6fc8e/c.html",
+   "date": "2026-04-27",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "finance",
+   "kind": "政策",
+   "title": "Brunei eyes launch of stock exchange by 2027",
+   "source": "新华社",
+   "url": "https://english.news.cn/asiapacific/20260320/a522b78fa88140cfae731fc240ad7215/c.html",
+   "date": "2026-03-20",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "Brunei government maintains subsidies on rice, fuel",
+   "source": "新华社",
+   "url": "https://english.news.cn/asiapacific/20260317/548d513d9b6349b0951164326956389f/c.html",
+   "date": "2026-03-17",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "Brunei proposes 6.3 bln budget for 2026/27 fiscal year",
+   "source": "新华社",
+   "url": "https://english.news.cn/20260314/e473e0c5ad3b471c951dd47ef33b9a0a/c.html",
+   "date": "2026-03-14",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "文莱最大光伏项目投产运营 助力文莱经济绿色发展",
+   "source": "新华财经",
+   "url": "https://finance.sina.com.cn/money/bond/2026-02-13/doc-inhmrxrm3206027.shtml",
+   "date": "2026-02-13",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "国产飞机“走出去”迈出新一步，中国商飞获得文莱市场准入许可",
+   "source": "界面新闻",
+   "url": "https://cj.sina.com.cn/articles/view/5182171545/134e1a9990200299ca",
+   "date": "2025-10-27",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "广西—文莱经济走廊建设推动各领域合作持续拓展",
+   "source": "中新网",
+   "url": "https://www.chinanews.com.cn/gn/2025/09-19/10485137.shtml",
+   "date": "2025-09-19",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "文莱摩拉港扩建项目预计2027年底前竣工",
+   "source": "第一财经",
+   "url": "https://www.yicai.com/news/102765881.html",
+   "date": "2025-08-09",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "文莱第12个国家发展计划规划财政总投入达40亿文币",
+   "source": "新华财经",
+   "url": "https://finance.sina.com.cn/money/bond/2025-05-22/doc-inexmnkz5024258.shtml",
+   "date": "2025-05-22",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "中国与文莱加强杂交水稻农业科技合作",
+   "source": "澎湃新闻",
+   "url": "https://m.thepaper.cn/newsDetail_forward_30778655",
+   "date": "2025-05-07",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "恒逸石化“出海”受挫：文莱项目巨亏逾10亿元",
+   "source": "中国经营报",
+   "url": "https://finance.sina.com.cn/jjxw/2025-05-03/doc-inevfmwf1397832.shtml",
+   "date": "2025-05-03",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "文莱首都至北京直飞航线计划4月底复航",
+   "source": "新华社",
+   "url": "https://finance.sina.com.cn/jjxw/2025-04-25/doc-ineuhynp2588128.shtml",
+   "date": "2025-04-25",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "FDIs create hundreds of spin-off business opportunities in Brunei",
+   "source": "新华社",
+   "url": "https://english.news.cn/20250311/7f0bfd7db59f463097dfd472c48aea39/c.html",
+   "date": "2025-03-11",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "文莱对中国公民14天免签将于3月8日实施",
+   "source": "中新网",
+   "url": "https://www.chinanews.com.cn/gj/2025/03-07/10379349.shtml",
+   "date": "2025-03-07",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "恒逸石化稳步推进恒逸文莱炼化二期项目建设",
+   "source": "中国证券报",
+   "url": "https://finance.sina.com.cn/stock/relnews/cn/2025-02-07/doc-ineisiaa7509028.shtml",
+   "date": "2025-02-07",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "中华人民共和国和文莱达鲁萨兰国关于深化战略合作伙伴关系、推进中文命运共同体建设的联合声明（全文）",
+   "source": "外交部",
+   "url": "https://www.mfa.gov.cn/web/ziliao_674904/1179_674909/202502/t20250206_11550291.shtml",
+   "date": "2025-02-06",
+   "added": "2026-10-10",
+   "cn": true
+  }
+ ]
+}
