@@ -1,0 +1,395 @@
+{
+ "updated": "2026-10-10",
+ "items": [
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "中老铁路累计发送旅客突破8000万人次",
+   "source": "中新网",
+   "url": "https://www.chinanews.com.cn/aseaninfo/2026/10-09/10709598.shtml",
+   "date": "2026-10-09",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "中老500千伏联网工程累计送电量突破10亿千瓦时",
+   "source": "新华网",
+   "url": "https://www.news.cn/20261008/2e068eb5085344aebe0e6222bd5bba47/c.html",
+   "date": "2026-10-08",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "China-Laos Railway's foreign trade value tops 100 billion yuan",
+   "source": "新华社",
+   "url": "https://english.news.cn/20261008/48bae5424342424d8f9e2e7982a7220a/c.html",
+   "date": "2026-10-08",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "Laos' economy expands 4.8 pct in first 9 months of 2026",
+   "source": "新华社",
+   "url": "https://english.news.cn/asiapacific/20261005/ff802257ebed493991d46e522e075527/c.html",
+   "date": "2026-10-05",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "Laos' inflation rate stands at 7.8 pct in September",
+   "source": "新华社",
+   "url": "https://english.news.cn/20260929/e15d76d514794bbaa63176974d926e46/c.html",
+   "date": "2026-09-29",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "Government reaffirms Laos' 2026 graduation from Least Developed Country status",
+   "source": "The Star",
+   "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/09/28/government-reaffirms-laos-2026-graduation-from-least-developed-country-status",
+   "date": "2026-09-28",
+   "added": "2026-10-10",
+   "cn": false
+  },
+  {
+   "sector": "finance",
+   "kind": "政策",
+   "title": "Laos lowers base interest rate to support monetary stability",
+   "source": "新华社",
+   "url": "https://english.news.cn/20260822/3ba27a2333de42cba51cbf7230924b5c/c.html",
+   "date": "2026-08-22",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "中老铁路货物运输突破9000万吨",
+   "source": "新华网",
+   "url": "https://www.news.cn/silkroad/20260819/16c7ef6adab94399a649a1236a96a33b/c.html",
+   "date": "2026-08-18",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "Laos continues drive to attract more investment",
+   "source": "新华社",
+   "url": "https://english.news.cn/20260812/7d8f4da34f014969a24448d66d80265a/c.html",
+   "date": "2026-08-12",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "finance",
+   "kind": "政策",
+   "title": "Laos unveils measures to control inflation",
+   "source": "新华社",
+   "url": "https://english.news.cn/asiapacific/20260708/dd4f59b9d7b54fa4879d4bda4f98b7b1/c.html",
+   "date": "2026-07-08",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "China-Laos environmental cooperation cuts emissions, brings opportunities to Laos",
+   "source": "中国日报网",
+   "url": "https://global.chinadaily.com.cn/a/202606/30/WS6a43bda0a310986e2b462c10.html",
+   "date": "2026-06-30",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "提醒在老中国公民谨防电信诈骗",
+   "source": "中国驻老挝使馆",
+   "url": "https://la.china-embassy.gov.cn/lsfw/xwytz/202606/t20260619_11949033.htm",
+   "date": "2026-06-19",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "finance",
+   "kind": "政策",
+   "title": "中老两国央行续签相关合作文件",
+   "source": "人民网",
+   "url": "https://world.people.com.cn/n1/2026/0609/c1002-40736515.html",
+   "date": "2026-06-09",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "中老铁路开通以来老挝段首次大规模扩能改造",
+   "source": "新华社/新浪财经",
+   "url": "https://finance.sina.com.cn/jjxw/2026-06-04/doc-iniaeqhf3107762.shtml",
+   "date": "2026-06-04",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "三分之一进口榴莲来自磨憨口岸",
+   "source": "中新网",
+   "url": "https://www.chinanews.com.cn/aseaninfo/2026/05-27/10629208.shtml",
+   "date": "2026-05-27",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "中老警务合作再添战果：494名涉诈犯罪嫌疑人移交中方",
+   "source": "中新网",
+   "url": "https://www.chinanews.com.cn/gn/2026/05-22/10626758.shtml",
+   "date": "2026-05-22",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "油价上涨致通胀加剧！老挝一个月内调价8次，4月通胀率升至10.2%",
+   "source": "老挝中国总商会/新浪财经",
+   "url": "https://finance.sina.com.cn/wm/2026-04-30/doc-inhwhvkc1202369.shtml",
+   "date": "2026-04-30",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "Lao power exports to Vietnam jump sharply",
+   "source": "Vientiane Times",
+   "url": "https://www.vientianetimes.org.la/freefreenews/freecontent_77_Lao_power_y26.php",
+   "date": "2026-04-27",
+   "added": "2026-10-10",
+   "cn": false
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "我国首个500千伏跨境交流联网工程投产",
+   "source": "云南网/新浪财经",
+   "url": "https://finance.sina.com.cn/jjxw/2026-04-20/doc-inhvehiw6736073.shtml",
+   "date": "2026-04-20",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "中企开发建设的老挝首个大型山地光伏项目并网投运",
+   "source": "人民网",
+   "url": "https://world.people.com.cn/n1/2026/0408/c1002-40696744.html",
+   "date": "2026-04-08",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "昆明政协委员热议磨憨口岸 建言打通面向东盟“最后一公里”",
+   "source": "中新网",
+   "url": "https://www.chinanews.com.cn/aseaninfo/2026/02-03/10564793.shtml",
+   "date": "2026-02-03",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "老挝钾肥扩产稳步推进 成为中企业绩增长推动器",
+   "source": "证券时报网",
+   "url": "https://stcn.com/article/detail/3622951.html",
+   "date": "2026-01-30",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "Foreign trade tops US$19 billion in 2025",
+   "source": "Vientiane Times",
+   "url": "https://www.vientianetimes.org.la/freefreenews/freecontent_016_foreign_y26.php",
+   "date": "2026-01-23",
+   "added": "2026-10-10",
+   "cn": false
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "综述丨老挝社会主义事业发展为中老关系注入新动力",
+   "source": "新华网",
+   "url": "https://www.news.cn/world/20260110/994cf6ccbe2d46f68c6d23c9f2a140d4/c.html",
+   "date": "2026-01-10",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "老挝公布最新国家社会经济发展五年计划",
+   "source": "第一财经",
+   "url": "https://www.yicai.com/brief/102992229.html",
+   "date": "2026-01-07",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "中老铁路开通运营满四年 跨境果蔬运输需求旺盛",
+   "source": "央视新闻/新浪财经",
+   "url": "https://finance.sina.com.cn/jjxw/2026-01-01/doc-inheuffx3233331.shtml",
+   "date": "2026-01-01",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "中老合资老挝国家输电网公司投建输变电项目开工",
+   "source": "新华网",
+   "url": "https://www.news.cn/silkroad/20260104/d5b6a5ef0bd34b7b9d1476a781a3cd82/c.html",
+   "date": "2025-12-31",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "老挝首条高速公路通车五周年 服务社会车辆超2725万辆次",
+   "source": "中新网",
+   "url": "https://www.chinanews.com.cn/gj/2025/12-20/10537440.shtml",
+   "date": "2025-12-20",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "中柬老缅泰越六国将联合打击电信网络诈骗犯罪",
+   "source": "成都日报/新浪财经",
+   "url": "https://finance.sina.com.cn/jjxw/2025-11-15/doc-infxmcyq2626822.shtml",
+   "date": "2025-11-15",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "Laos plans strategy to improve electricity supply",
+   "source": "新华社",
+   "url": "https://english.news.cn/asiapacific/20250814/f2592ec50023450ea59dd7735ade650a/c.html",
+   "date": "2025-08-14",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "Laos, China Advance Vocational Education with New College Project in Saysettha Zone",
+   "source": "老挝通讯社",
+   "url": "https://kpl.gov.la/EN/detail.aspx?id=92938",
+   "date": "2025-08-01",
+   "added": "2026-10-10",
+   "cn": false
+  },
+  {
+   "sector": "industry",
+   "kind": "政策",
+   "title": "安全整改还是资源“择优”？老挝暂停万象钾肥项目，对国内究竟影响几何",
+   "source": "农资导报/新浪财经",
+   "url": "https://finance.sina.com.cn/stock/relnews/cn/2025-07-09/doc-infewutf4583356.shtml",
+   "date": "2025-07-09",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "老挝努力促进经济平稳增长",
+   "source": "人民网",
+   "url": "https://world.people.com.cn/n1/2025/0703/c1002-40513771.html",
+   "date": "2025-07-03",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "政策",
+   "title": "Government Outlines Reasons and Urgency Behind Electricity Price Hike",
+   "source": "老挝通讯社",
+   "url": "https://kpl.gov.la/en/detail.aspx?id=91885",
+   "date": "2025-06-11",
+   "added": "2026-10-10",
+   "cn": false
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "Lao people pin hopes on China-Laos Railway for agricultural export growth",
+   "source": "新华社",
+   "url": "https://english.news.cn/20250526/a57bd8fd6fe746c3999b640c0364f601/c.html",
+   "date": "2025-05-26",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "中老铁路：大通道带旺大产业",
+   "source": "人民日报/国家铁路局",
+   "url": "https://www.nra.gov.cn/xwzx/xwxx/xwlb/202505/t20250508_348829.shtml",
+   "date": "2025-05-08",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "finance",
+   "kind": "新闻",
+   "title": "人民币国际化研讨会聚焦中老经贸合作新机遇",
+   "source": "新华社/新浪财经",
+   "url": "https://finance.sina.com.cn/jjxw/2025-04-26/doc-ineuphkt8374769.shtml",
+   "date": "2025-04-26",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "China on track to become Laos' top trading partner",
+   "source": "Vientiane Times",
+   "url": "https://www.vientianetimes.org.la/freefreenews/freecontent_053_China_y25.php",
+   "date": "2025-03-18",
+   "added": "2026-10-10",
+   "cn": false
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "中老500千伏联网工程老挝段启动建设",
+   "source": "新华网",
+   "url": "https://www.news.cn/20250227/1e3f35fc0fad4f59ba7eabe12d84c5dc/c.html",
+   "date": "2025-02-27",
+   "added": "2026-10-10",
+   "cn": true
+  }
+ ]
+}
