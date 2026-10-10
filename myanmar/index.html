@@ -1,0 +1,499 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>出海缅甸</title>
+<meta name="description" content="面向中国企业的赴缅甸经营简报：市场数据、常见痛点、落地八步、MIC 许可与经济特区、外资准入与土地、外汇管制、税务与用工签证速查，新闻与政策动态。">
+<link rel="stylesheet" href="/fonts/fonts.css">
+<style>
+/* 布局：终端式行情带 + 财经头版。全宽黑底栏目条分节，数据用等宽字，标题用重磅宋体 */
+:root{
+  --bg:#07090d; --panel:#0e1219; --panel2:#141a24; --line:#232b38;
+  --fg:#e9edf3; --muted:#8b96a8; --amber:#ffa028; --amber-ink:#07090d;
+  --up:#2fd08a; --down:#ff5a5f; --blue:#4aa8ff;
+  --serif:"Noto Serif SC","Songti SC","Source Han Serif SC","SimSun",serif;
+  --sans:"PingFang SC","HarmonyOS Sans SC","Microsoft YaHei","Noto Sans CJK SC","Noto Sans SC",system-ui,sans-serif;
+  --mono:"IBM Plex Mono","SFMono-Regular",Menlo,Consolas,monospace;
+  color-scheme:dark;
+}
+@media (prefers-color-scheme: light){ :root:not([data-theme="dark"]){
+  --bg:#f3f4f6; --panel:#ffffff; --panel2:#e9ecf1; --line:#cfd5de;
+  --fg:#0b0f16; --muted:#566173; --amber:#b85c00; --amber-ink:#ffffff;
+  --up:#0a7a4b; --down:#c22b30; --blue:#0b5cad; color-scheme:light } }
+:root[data-theme="light"]{
+  --bg:#f3f4f6; --panel:#ffffff; --panel2:#e9ecf1; --line:#cfd5de;
+  --fg:#0b0f16; --muted:#566173; --amber:#b85c00; --amber-ink:#ffffff;
+  --up:#0a7a4b; --down:#c22b30; --blue:#0b5cad; color-scheme:light }
+
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--bg);color:var(--fg);font-family:var(--sans);font-size:15px;line-height:1.75;margin:0}
+a{color:var(--blue);text-decoration:none} a:hover{text-decoration:underline}
+a:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+.wrap{max-width:1180px;margin:0 auto;padding-inline:20px}
+.num{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.up{color:var(--up)} .down{color:var(--down)} .am{color:var(--amber)}
+
+/* 顶栏 */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;gap:20px;flex-wrap:wrap;padding-block:10px}
+.brand{font-family:var(--serif);font-weight:700;font-size:20px;letter-spacing:.04em;display:flex;align-items:center;gap:10px}
+.brand b{background:var(--amber);color:var(--amber-ink);font-family:var(--mono);font-size:12px;font-weight:600;padding:2px 7px;letter-spacing:.08em}
+.nav{display:flex;gap:16px;flex-wrap:wrap;font-size:13px;margin-left:auto}
+.nav a{color:var(--muted)} .nav a:hover{color:var(--fg);text-decoration:none}
+
+/* 行情带 */
+.tape{background:var(--panel);border-bottom:1px solid var(--line);overflow:hidden;white-space:nowrap}
+.tape-in{display:inline-flex;gap:36px;padding:8px 18px;animation:roll 60s linear infinite}
+.tape:hover .tape-in{animation-play-state:paused}
+.tape span{font-size:12.5px;color:var(--muted)} .tape span i{font-style:normal;font-family:var(--mono);color:var(--fg);margin-left:8px}
+@keyframes roll{to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.tape-in{animation:none}.tape{overflow-x:auto}}
+
+/* 头版 */
+.hero{padding-block:44px 30px;border-bottom:1px solid var(--line)}
+.kicker{font-family:var(--mono);font-size:12px;letter-spacing:.14em;color:var(--amber);text-transform:uppercase}
+h1{font-family:var(--serif);font-weight:700;font-size:clamp(30px,5vw,54px);line-height:1.22;margin:12px 0 16px;text-wrap:balance;letter-spacing:.01em}
+.lead{max-width:42em;color:var(--muted);font-size:16.5px;line-height:1.85;margin:0}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:30px;border-top:2px solid var(--amber)}
+.stat{padding:16px 16px 14px 0;border-right:1px solid var(--line);min-width:0}
+.stat+.stat{padding-left:16px} .stat:last-child{border-right:0}
+.stat .v{font-family:var(--mono);font-size:clamp(24px,3.4vw,36px);font-weight:600;line-height:1.1}
+.stat .l{font-size:12.5px;color:var(--muted);margin-top:6px;line-height:1.5}
+
+/* 分节 */
+section{padding-block:38px;border-bottom:1px solid var(--line)}
+.sh{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin-bottom:20px}
+.sh h2{font-family:var(--serif);font-weight:700;font-size:26px;margin:0;line-height:1.25}
+.sh .tag{font-family:var(--mono);font-size:11.5px;letter-spacing:.12em;color:var(--amber-ink);background:var(--amber);padding:2px 8px}
+.sh p{margin:0;color:var(--muted);font-size:13.5px;flex-basis:100%}
+.cols{display:grid;grid-template-columns:1.1fr .9fr;gap:28px}
+.cols>*{min-width:0}
+h3{font-size:15px;margin:0 0 10px;font-weight:700}
+.note{font-size:12.5px;color:var(--muted);margin-top:10px}
+
+/* 指标表 */
+.tblw{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th{font-family:var(--mono);font-size:11.5px;font-weight:500;letter-spacing:.08em;color:var(--muted);text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);white-space:nowrap}
+td{padding:10px;border-bottom:1px solid var(--line);vertical-align:top}
+td.r,th.r{text-align:right} td.num{white-space:nowrap}
+tbody tr:hover{background:var(--panel)}
+td strong{font-weight:700}
+
+/* 贸易图 */
+.bars{display:grid;gap:12px}
+.yr{display:grid;grid-template-columns:44px 1fr;gap:10px;align-items:center}
+.yr>span{font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+.bar{display:flex;align-items:center;gap:8px;margin:2px 0}
+.bar i{display:block;height:11px;min-width:2px}
+.bar.e i{background:var(--amber)} .bar.m i{background:var(--blue)}
+.bar b{font-family:var(--mono);font-size:12px;font-weight:500}
+.legend{display:flex;gap:18px;font-size:12.5px;color:var(--muted);margin-bottom:12px;flex-wrap:wrap}
+.legend i{display:inline-block;width:10px;height:10px;margin-right:6px}
+
+/* 痛点 */
+.pains{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+.pain{background:var(--bg);padding:20px;min-width:0}
+.pain .k{font-family:var(--mono);font-size:22px;font-weight:600;color:var(--amber);line-height:1.2}
+.pain h3{font-family:var(--serif);font-size:18px;font-weight:700;margin:8px 0 6px}
+.pain p{margin:0;font-size:14.5px;line-height:1.8;color:var(--muted)}
+.pain p.do{color:var(--fg);margin-top:10px;padding-top:10px;border-top:1px dashed var(--line)}
+.pain p.do::before{content:"对策";font-family:var(--mono);font-size:11px;letter-spacing:.1em;color:var(--up);margin-right:8px}
+
+/* 路线 */
+.steps{list-style:none;margin:0;padding:0;counter-reset:s;display:grid;grid-template-columns:repeat(2,1fr);gap:0 32px}
+.steps li{counter-increment:s;display:grid;grid-template-columns:42px 1fr;gap:12px;padding:16px 0;border-top:1px solid var(--line);min-width:0}
+.steps li::before{content:counter(s,decimal-leading-zero);font-family:var(--mono);font-size:20px;font-weight:600;color:var(--amber);line-height:1.3}
+.steps h3{margin-bottom:4px;font-family:var(--serif);font-size:17px} .steps p{margin:0;font-size:14.5px;line-height:1.8;color:var(--muted)}
+
+/* 赛道 */
+.tracks{display:grid;grid-template-columns:repeat(2,1fr);gap:0 32px}
+.track{padding:16px 0;border-top:1px solid var(--line);min-width:0}
+.track h3{font-family:var(--serif);font-size:17px;font-weight:700}
+.track p{margin:0;font-size:14.5px;line-height:1.8;color:var(--muted)}
+.heat{font-family:var(--mono);font-size:11px;letter-spacing:.08em;padding:1px 6px;border:1px solid currentColor;margin-left:8px;vertical-align:2px;white-space:nowrap}
+
+/* 动态 */
+.feedhead{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:34px 0 14px;padding-top:18px;border-top:2px solid var(--amber)}
+.feedhead h3{font-family:var(--serif);font-size:20px;font-weight:700;margin:0}
+.live{font-family:var(--mono);font-size:11px;letter-spacing:.1em;color:var(--up);display:inline-flex;align-items:center;gap:6px}
+.live::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--up);animation:blink 1.6s infinite}
+@keyframes blink{50%{opacity:.25}}
+@media (prefers-reduced-motion:reduce){.live::before{animation:none}}
+.feedhead .upd{font-family:var(--mono);font-size:12px;color:var(--muted);margin-left:auto}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.chips button{font:inherit;font-size:13px;background:transparent;color:var(--muted);border:1px solid var(--line);padding:5px 12px;cursor:pointer}
+.chips button:hover{color:var(--fg);border-color:var(--muted)}
+.chips button[aria-pressed="true"]{background:var(--amber);color:var(--amber-ink);border-color:var(--amber)}
+.chips button:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+.feed{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:0 40px}
+.feed li{min-width:0}
+.feed li{display:grid;grid-template-columns:92px 1fr;gap:14px;padding:13px 0;border-bottom:1px solid var(--line)}
+.feed time{font-family:var(--mono);font-size:12.5px;color:var(--muted);padding-top:2px}
+.feed .t{font-family:var(--serif);font-weight:700;color:var(--fg);font-size:16px;line-height:1.55}
+.feed a.t:hover{color:var(--amber);text-decoration:none}
+.feed .m{font-size:12px;color:var(--muted);margin-top:4px;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.feed .k{font-family:var(--mono);font-size:11px;letter-spacing:.06em;border:1px solid currentColor;padding:0 5px}
+.feed .k.pol{color:var(--amber)} .feed .k.news{color:var(--blue)}
+.more{font:inherit;font-size:13px;margin-top:14px;background:transparent;color:var(--fg);border:1px solid var(--line);padding:8px 18px;cursor:pointer}
+.more:hover{border-color:var(--amber);color:var(--amber)}
+.more:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+.feedmsg{padding:18px 0;color:var(--muted);font-size:13.5px}
+@media (max-width:860px){.feed{grid-template-columns:1fr}}
+@media (max-width:480px){.feed li{grid-template-columns:1fr;gap:2px}}
+
+.links{display:grid;grid-template-columns:repeat(3,1fr);gap:0 28px}
+.links div{padding:12px 0;border-top:1px solid var(--line);font-size:13.5px;min-width:0}
+.links span{display:block;color:var(--muted);font-size:12.5px}
+footer{padding-block:28px 48px;font-size:12.5px;color:var(--muted)}
+footer ol{padding-left:20px;margin:8px 0 16px}
+
+@media (max-width:860px){
+  .cols,.steps,.tracks{grid-template-columns:1fr}
+  .pains{grid-template-columns:1fr}
+  .links{grid-template-columns:1fr 1fr}
+  .stats{grid-template-columns:1fr 1fr}
+  .stat{border-bottom:1px solid var(--line)} .stat:nth-child(2){border-right:0} .stat:nth-child(3){padding-left:0}
+  .nav{margin-left:0;gap:12px}
+}
+@media (max-width:480px){.links{grid-template-columns:1fr}}
+
+/* 多国：返回链接、门户首页 */
+.back{font-size:13px;color:var(--muted);border:1px solid var(--line);padding:3px 10px;white-space:nowrap}
+.back:hover{color:var(--fg);border-color:var(--muted);text-decoration:none}
+.region{padding-block:30px;border-bottom:1px solid var(--line)}
+.region h2{font-family:var(--serif);font-weight:700;font-size:24px;margin:0}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}
+.card{background:var(--bg);border:1px solid var(--line);padding:18px 20px;min-width:0;display:block;color:var(--fg)}
+a.card:hover{background:var(--panel);text-decoration:none}
+.card .cn{font-family:var(--serif);font-weight:700;font-size:21px;display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.card .cn small{font-family:var(--mono);font-size:11.5px;font-weight:500;letter-spacing:.1em;color:var(--amber)}
+.card p{margin:8px 0 12px;font-size:13.5px;color:var(--muted);line-height:1.7}
+.card dl{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:0}
+.card dt{font-size:11.5px;color:var(--muted)} .card dd{margin:2px 0 0;font-family:var(--mono);font-size:15px;font-weight:600}
+.card.soon{color:var(--muted)} .card.soon .cn{font-size:17px;color:var(--muted)}
+.card.soon .cn small{color:var(--muted)}
+.cards.mini{grid-template-columns:repeat(5,1fr);gap:8px;margin-top:10px} .cards.mini .card{padding:12px 14px}
+@media (max-width:860px){.cards{grid-template-columns:1fr}.cards.mini{grid-template-columns:repeat(2,1fr)}}
+
+.cmplink{font-family:var(--mono);font-size:12.5px;color:var(--amber);text-decoration:none;border-bottom:1px solid currentColor;margin-left:auto}
+table.cmp{min-width:980px}
+table.cmp th a{color:inherit;text-decoration:none;border-bottom:1px solid var(--line)}
+table.cmp td{vertical-align:top;font-size:13px}
+table.cmp td:first-child,table.cmp th:first-child{position:sticky;left:0;background:var(--bg);white-space:nowrap;font-weight:600}
+table.cmp tr.grp td{font-family:var(--mono);font-size:11.5px;letter-spacing:.1em;color:var(--amber);padding-top:22px;border-bottom:1px solid var(--amber)}
+table.cmp{table-layout:fixed;width:100%}
+table.cmp td,table.cmp th{white-space:normal;word-break:break-word}
+table.cmp td:first-child,table.cmp th:first-child{width:128px;white-space:normal}
+
+.alert{margin:18px 0 0;padding:10px 14px;border-left:3px solid var(--amber);background:var(--panel);font-size:13.5px;color:var(--muted);max-width:820px}
+.alert b{font-family:var(--mono);font-size:11.5px;letter-spacing:.1em;color:var(--amber);margin-right:10px}
+
+.card .cn{align-items:center}
+.flag{width:28px;height:21px;flex:none;border:1px solid var(--line);object-fit:cover}
+.card.soon .flag{width:22px;height:16.5px;opacity:.75}
+#hr td.num,table.cmp td.num{font-family:inherit;font-variant-numeric:tabular-nums;letter-spacing:0}
+.filters{display:flex;flex-wrap:wrap;gap:12px;align-items:flex-end;margin-bottom:14px}
+.filters label{display:flex;flex-direction:column;gap:4px;font-size:11.5px;color:var(--muted);font-family:var(--mono);letter-spacing:.06em}
+.filters select,.filters button{font:inherit;font-family:var(--sans);font-size:13.5px;letter-spacing:0;color:var(--fg);background:var(--panel);border:1px solid var(--line);padding:7px 10px;min-width:132px;border-radius:0}
+.filters button{min-width:0;cursor:pointer;color:var(--amber)}
+#mapbox{position:relative;border:1px solid var(--line);background:var(--panel)}
+#map{display:block;width:100%;height:auto;cursor:grab;touch-action:none}
+#map .land{fill:var(--panel2);stroke:var(--line);stroke-width:.6}
+#map .land.live{fill:color-mix(in srgb,var(--amber) 16%,var(--panel2))}
+#map circle{cursor:pointer;fill-opacity:.88}
+#map circle.on{stroke:var(--fg)!important;fill-opacity:1}
+.zoomer{position:absolute;top:10px;right:10px;display:flex;flex-direction:column;gap:4px}
+.zoomer button{width:30px;height:30px;font-size:18px;line-height:1;color:var(--fg);background:var(--bg);border:1px solid var(--line);cursor:pointer}
+#tip{position:absolute;pointer-events:none;background:var(--bg);border:1px solid var(--line);padding:8px 10px;font-size:12.5px;line-height:1.55;width:220px;z-index:2}
+#tip b{display:block;font-size:13.5px} #tip span{display:block;color:var(--muted)}
+#legend{position:absolute;left:10px;bottom:10px;display:flex;flex-wrap:wrap;gap:4px 14px;font-size:12px;color:var(--muted);background:var(--bg);border:1px solid var(--line);padding:5px 10px}
+.st{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px;vertical-align:baseline}
+table.proj td{vertical-align:top;font-size:13.5px}
+table.proj td small{display:block;color:var(--muted);font-size:12px}
+table.proj td:nth-child(5){white-space:nowrap}
+table.proj tbody tr{cursor:pointer} table.proj tbody tr:hover{background:var(--panel)}
+table.proj tbody tr.on{background:var(--panel);box-shadow:inset 3px 0 0 var(--amber)}
+.maplink{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:26px;padding:16px 20px;border:1px solid var(--line);background:var(--panel);color:var(--fg)}
+a.maplink:hover{text-decoration:none;border-color:var(--amber)}
+.maplink b{font-family:var(--serif);font-size:19px} .maplink span{color:var(--muted);font-size:13.5px} .maplink em{font-style:normal;font-family:var(--mono);font-size:12.5px;color:var(--amber)}
+
+#mapbox{background:#04101d}
+#map .shade{fill:#04101d;opacity:.28}
+#map .land{fill:none;stroke:rgba(255,255,255,.28)}
+#map .land.live{fill:rgba(255,170,60,.13);stroke:rgba(255,190,90,.9)}
+#map circle{fill-opacity:1;filter:drop-shadow(0 0 1.5px rgba(0,0,0,.8))}
+
+#mapbox{--amber:#ffa028;--up:#2fd08a;--down:#ff5a5f;--blue:#4aa8ff;--muted:#c9d1dc}
+#legend,#tip{background:rgba(4,16,29,.88);border-color:rgba(255,255,255,.18);color:#e9edf3}
+#legend{color:#c9d1dc} #tip b{color:#fff}
+.zoomer button{background:rgba(4,16,29,.88);border-color:rgba(255,255,255,.25);color:#fff}
+#map{aspect-ratio:1000/520}
+
+#map .labels{pointer-events:none}
+#map .labels text{paint-order:stroke;stroke:rgba(4,16,29,.85);stroke-width:3px;stroke-linejoin:round;font-family:var(--sans)}
+#map .labels g,#map .labels text.ctry{transition:opacity .25s}
+#map .reg text{text-anchor:middle;fill:#ffc46b}
+#map .reg .en{font-family:var(--serif);font-size:13px;letter-spacing:.14em;font-weight:700}
+#map .reg .zh{font-size:12px;fill:#fff;font-weight:600}
+#map .reg .n{font-family:var(--mono);font-size:15px;font-weight:600}
+#map .ctry{text-anchor:middle;fill:#ffe3b0;font-size:13px;font-weight:600;letter-spacing:.08em}
+#map .city text{fill:#fff;font-size:11.5px}
+#map .city rect{fill:#fff;stroke:rgba(4,16,29,.9);stroke-width:1px}
+/* 表格内的数值单元格常夹中文，统一用正文字体，等宽数字保持对齐 */
+td.num,th.num{font-family:inherit;font-variant-numeric:tabular-nums;letter-spacing:0}
+/* 用工表：左列标签不折行，右列长说明正常换行并左对齐 */
+#hr td.num{white-space:normal;text-align:left}
+#hr tbody td:first-child{white-space:nowrap;width:1%;padding-right:18px;vertical-align:top}
+#hr td{vertical-align:top}
+/* 表格数值单元格允许换行；税务和用工表左列标签不折行 */
+td.num{white-space:normal}
+#tax tbody td:first-child,#hr tbody td:first-child{white-space:nowrap;vertical-align:top}
+#tax td{vertical-align:top}
+@media (max-width:700px){#tax tbody td:first-child{white-space:normal;min-width:5.5em}#tax td{overflow-wrap:anywhere}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <div class="brand">出海缅甸 <b>MMR DESK</b></div>
+  <a class="back" href="/">全部国家</a>
+  <nav class="nav" aria-label="栏目"><a href="#market">市场</a><a href="#pain">痛点</a><a href="#road">落地</a><a href="#access">准入</a><a href="#tax">税务</a><a href="#hr">用工签证</a><a href="#sector">赛道</a><a href="#feed">动态</a><a href="#desk">官方入口</a></nav>
+</div></header>
+<div class="tape" aria-label="关键指标"><div class="tape-in" id="tape"></div></div>
+<main class="wrap">
+
+<div class="hero">
+  <div class="kicker">中国企业赴缅甸经营简报 · 数据截至 2026-10-07</div>
+  <h1>缅甸的机会在电力、资源和边贸，真正的门槛是战乱、缺电和换不出来的美元</h1>
+  <p class="lead">缅甸人口约 5,100 万，与云南山水相连，中国是它第一大贸易伙伴、第一大出口市场和第一大进口来源地；按缅方统计，中国对缅投资约占其外资存量的四成，集中在电力、矿产、油气管道和纺织制衣。外资持股不超过 35% 的公司按本地公司对待，在欠发达地区投资鼓励行业最多免 7 年所得税，经济特区优惠更多。但 2021 年以来国内武装冲突持续，2024/25 财年经济负增长，全国供电只能满足一半左右需求；外汇管制严，官方汇率与市场汇率相差一倍以上，资本项下汇出很难获批。缅甸至今仍在 FATF 黑名单上，据报道美国 2025 年 7 月宣布对缅商品征收 40% 关税；2026 年 4 月敏昂莱当选总统，新政府成立。中缅泰联合清剿妙瓦底电诈园区后，人员安全和合规经营是底线。</p>
+  <p class="alert"><b>地区安全</b>据报道，缅甸国内武装冲突仍在持续：若开军控制若开邦 17 个镇区中的 14 个，皎漂周边 2025 年下半年战事激烈；掸邦北部腊戍 2025 年 4 月在中方斡旋下由果敢同盟军移交缅军管理；克钦邦、实皆省、马圭省、钦邦、克耶邦、克伦邦等地冲突频繁，仰光、曼德勒也时有抢劫等治安案件。中国驻缅甸使领馆多次提醒中国公民和中资企业不去交战区和禁止外国人进入的地区，不得持旅游或探亲签证务工。2025 年初全国日发电量不足 2,000 兆瓦，约为需求的一半，仰光一度每天轮流停电 16 小时；外汇实行强制结汇，央行指定价约 1 美元兑 2,100 缅币，市场价约 4,400 缅币，资本项下对外支付很难获批。</p>
+  <div class="stats">
+    <div class="stat"><div class="v">162.8<small style="font-size:.5em"> 亿美元</small></div><div class="l">2024 年中缅货物贸易额<br><span class="down num">▼ 22.3%</span> 同比</div></div>
+    <div class="stat"><div class="v am">22%</div><div class="l">企业所得税<br>上市公司 17%，油气 25%</div></div>
+    <div class="stat"><div class="v am">5%</div><div class="l">商业税<br>替代增值税，出口 0%</div></div>
+    <div class="stat"><div class="v">38.5<small style="font-size:.5em"> 亿美元</small></div><div class="l">2024 年底中国对缅投资存量<br>当年流量 4,679 万美元</div></div>
+  </div>
+</div>
+
+<section id="market">
+  <div class="sh"><span class="tag">MARKET</span><h2>市场速览</h2></div>
+  <div class="cols">
+    <div>
+      <h3>宏观与成本仪表盘</h3>
+      <div class="tblw"><table>
+        <thead><tr><th>指标</th><th class="r">数值</th><th>口径</th></tr></thead>
+        <tbody>
+          <tr><td>GDP</td><td class="r num">约 631 亿美元</td><td>2024/25 财年，世界银行口径增长 -1%；2023/24 财年 648 亿美元。政府定的 2025/26 财年增长目标为 3%</td></tr>
+          <tr><td>人均 GDP</td><td class="r num">约 1,159 美元</td><td>2024/25 财年；2023/24 财年农业、工业、服务业占 GDP 比重约 23%、38%、40%</td></tr>
+          <tr><td>人口</td><td class="r num">约 5,131 万</td><td>2024 年人口普查，其中 1,912 万为无法普查地区的估算；仰光省约 890 万，其中华人华侨约 45 万</td></tr>
+          <tr><td>主权评级</td><td class="r num">无</td><td>穆迪、标普、惠誉均未评级；中诚信国际 2024 年 2 月下调至 CCCg，展望负面</td></tr>
+          <tr><td>汇率</td><td class="r num am">1 人民币 ≈ 313 缅币</td><td>官方口径：tradingeconomics 2026 年 10 月 9 日 1 美元 = 2,093.7 缅币，按 1 美元 ≈ 6.69 人民币换算；央行指定价长期为 1 美元 = 2,100 缅币。市场汇率明显更高：2025 年 8 月约 1 美元 = 4,400 缅币、1 人民币 ≈ 610 缅币</td></tr>
+          <tr><td>最低工资</td><td class="r num">7,800 缅币/天</td><td>2025 年 10 月 1 日起，基本工资 4,800 加津贴 3,000，按 8 小时计；10 人以下小企业和家族企业除外</td></tr>
+          <tr><td>工业电价</td><td class="r num">250–500 缅币/度</td><td>阶梯电价：每月 5,000 度以内 250，5,001–20,000 度 400，20,000 度以上 500；全国用电覆盖率约 55%</td></tr>
+          <tr><td>油价</td><td class="r num">2,940 缅币/升</td><td>92 号汽油，2025 年 7 月；优质柴油 3,355。据报道 2026 年 4 月 92 号汽油涨到 4,735、柴油 6,485，并按周限量供应</td></tr>
+          <tr><td>工业用地租金</td><td class="r num">3–5 美元/㎡/年</td><td>仰光工业区空地；已建厂房年租 50–65 美元/㎡；莱达雅等成熟工业区土地售价 40–80 美元/㎡</td></tr>
+          <tr><td>写字楼月租</td><td class="r num">15–40 美元/㎡</td><td>仰光高端写字楼；内城区平均约 16 美元</td></tr>
+          <tr><td>水泥 / 钢筋</td><td class="r num">65–112 / 750–1,690 美元/吨</td><td>仰光 2025 年 7 月市场价；90% 以上建材从中国和泰国进口，很多价格是中国的 2 倍以上</td></tr>
+        </tbody>
+      </table></div>
+      <p class="note">通胀 2022 年 31.4%、2023 年 25%、2024 年 20%（国际货币基金组织）。截至 2023 年底外债 121.6 亿美元。2023/24 财年外贸总额 301.2 亿美元，出口 146.4 亿、进口 154.8 亿美元。2024 年 9 月起缅币存款利率下限 7%、贷款利率上限 15%；本地银行外币存款不付息，外资银行缅币存款不付息，当地银行不给境外注册企业放贷。工商银行仰光分行、中银香港仰光分行可开人民币账户，提供贷款、保函转开和贸易融资。人民币 2019 年成为官方结算货币，中缅边贸可用人民币和缅币直接结算。工资参考：制造业最低月平均工资约 23.5 万缅币，建筑业约 29.1 万缅币，非技术工人月薪平均 100 多美元。仰光至内比都约 400 公里，一个货柜运费约 850 美元，雨季更贵。</p>
+    </div>
+    <div>
+      <h3>中缅货物贸易 2020–2024（亿美元）</h3>
+      <div class="legend"><span><i style="background:var(--amber)"></i>中国对缅出口</span><span><i style="background:var(--blue)"></i>中国自缅进口</span></div>
+      <div class="bars" id="bars"></div>
+      <p class="note">双边贸易额 2020 年 188.9 亿美元，2022 年升到 251.5 亿美元的高点，此后连续下滑，2023 年 209.6 亿美元，2024 年 162.8 亿美元，下降 22.3%，其中中国出口 92.2 亿美元、进口 70.6 亿美元。中国主要出口成套设备和机电产品、纺织品、摩托车配件和化工产品，进口农产品和矿产品。按缅方统计，2023/24 财年中国是缅甸第一大贸易伙伴，其后为泰国、新加坡、马来西亚和日本。2024 年 12 月起中国对缅甸 100% 税目产品零关税。据报道 2026 年 1–5 月云南对缅贸易 286.4 亿元，增长 43.1%，占中缅贸易的 42.6%。2024 年中国企业在缅新签承包工程合同额 9.86 亿美元，完成营业额 1.54 亿美元。来源：中国海关总署。</p>
+    </div>
+  </div>
+</section>
+
+<section id="pain">
+  <div class="sh"><span class="tag">PAIN POINTS</span><h2>中企在缅甸最常踩的六个坑</h2><p>按企业实际遇到的顺序排列。</p></div>
+  <div class="pains">
+    <div class="pain"><div class="k">2 倍</div><h3>汇率双轨、强制结汇，钱进得来汇不出去</h3><p>2021 年起缅币大幅贬值，央行把指导价定在 1 美元兑 2,100 缅币，2025 年 8 月市场价约 4,400 缅币，差一倍以上。2022 年 4 月起实行强制结汇，出口收入须按央行汇率兑换的比例从 100% 逐步降到 2024 年 8 月的 25%，据报道 2026 年 1 月起再降到 15%，其余 85% 须在一个月内自用或在市场出售。企业对外付汇须向外汇监督委员会（FESC）申请，实际上优先批准成品油等进口，资本项下对外支付很难通过；2022 年 7 月起曾暂停偿还境外贷款本息。MIC 许可项目和经济特区项目可豁免强制结汇。</p><p class="do">合同尽量以美元或人民币计价，边贸用人民币和缅币直接结算。申请 MIC 许可或落在经济特区争取结汇豁免。利润汇回提前备好审计报表、完税证明和董事会决议；投保中国信保的汇兑限制险。</p></div>
+    <div class="pain"><div class="k">55%</div><h3>全国一半时间没电，燃油也要排队</h3><p>全国用电覆盖率约 55%，旱季缺电最严重，工商户普遍自备发电机。2025 年初全国日发电量降到 2,000 兆瓦以下，只有需求的一半左右，仰光轮流停电一度延长到每天 16 小时。据报道，2026 年 9 月缅甸电力能源部称输电塔接地线和铁件被盗，造成电网频繁崩溃、部分地区乃至全国停电；2026 年 3–4 月油价翻倍，私家车、货车按周限量加油。道路差、运价没有统一标准，雨季运费更高。</p><p class="do">选址先核实电网供电时长，预算里算进自备柴油发电机、光伏和储能，备足燃油库存。光伏组件、逆变器和电池免商业税，耗电大的项目优先自建。</p></div>
+    <div class="pain"><div class="k">冲突</div><h3>战区、治安和针对项目的袭击</h3><p>缅甸有数十支少数民族地方武装，2023 年 10 月起掸邦、克钦邦、实皆省、马圭省、若开邦等多地战事激烈。钦邦、实皆、马圭、若开、克钦、克耶、克伦等地风险较高；仰光莱达雅等城乡结合部工业区治安不佳，2021 年 3 月多家服装厂遭打砸抢烧。“人民防卫军”对中国在缅铜矿、镍矿和油气管道等项目时有破坏。在边境或冲突地区投资超过 100 万美元，须事先取得中央投资委员会许可；在部分地区承包工程，须向使馆经商处申请特定项目立项意见函。据报道缅甸已允许外国安保公司运营，但人员不得持枪。</p><p class="do">“危地不往、险地不留、乱地不去”。到使馆经商处报到，制定撤离预案并预留安全经费；征地补偿尽量直接发到村民手里，多用本地员工和供应商，减少社区矛盾。</p></div>
+    <div class="pain"><div class="k">35%</div><h3>外资股比、限制清单和土地，三道门槛</h3><p>《缅甸公司法》规定外资持股不超过 35% 的公司才算本地公司。限制清单分四类：9 项只许国营，12 项禁止外资（缅语出版、淡水渔业、中小型矿、玉石珠宝开采、导游、小型市场和便利店等），22 项只能合资，126 项须相关部委批准。宪法规定土地归国家所有，外国人和外资企业不能拥有土地；按 1987 年《限制不动产转让法》，租期超过 1 年也被禁止，只有拿到 MIC 许可或认可才能长租，最长 50 年加两次 10 年。有缅方企业邀请中资以缅方名义“隐性投资”，一旦出问题资产无法保全。</p><p class="do">按清单确认行业类别和股比上限，需要用地的项目先申请 MIC 认可。不找人代持股份或土地；并购前做法务、财务和税务尽职调查。</p></div>
+    <div class="pain"><div class="k">40%</div><h3>制裁、黑名单和关税，跨境结算处处设卡</h3><p>2022 年 10 月起缅甸被金融行动特别工作组（FATF）列入“呼吁采取行动”的高风险名单，据报道 2026 年 6 月仍在名单上，国际结算要接受加强尽调。2023 年 6 月缅甸外贸银行和缅甸投资与商业银行被列入美国财政部制裁名单。据报道美国 2025 年 7 月宣布对缅商品征收 40% 关税。2021 年后西方企业部分撤出：迪洛瓦特区日方股东 2024 年底暂停新投资，日本麒麟啤酒与缅方合资伙伴纠纷后 2025 年决定退出。</p><p class="do">付款路径避开被制裁银行，交易对手做制裁名单筛查，单据留足以应对代理行问询。出口市场不要只押美国，考虑中国、东盟和日韩。</p></div>
+    <div class="pain"><div class="k">10%</div><h3>按季预缴、按币种缴税，罚则很重</h3><p>所得税按上年税额估算、每季度结束后 10 日内预缴，多缴退税一般要 6–9 个月。自 2024 年 4 月起外币收入直接以该外币缴所得税。账簿须存放在缅甸境内、保存 7 年。未申报罚应纳税额 10%；逾期申报罚 5%，另按月加收 1% 滞纳金；少缴税款罚 25%，超过 1 亿缅币或超过应纳税额一半的罚 75%；逃税最高可判 7 年监禁。商业税收据未盖章，第一次罚 100 万缅币、第四次起 600 万缅币。</p><p class="do">请当地注册会计师代理报税，按季预缴、6 月 30 日前完成年度申报。商业税收据按规定盖章，发票、报关单和银行流水完整留档。</p></div>
+  </div>
+</section>
+
+<section id="road">
+  <div class="sh"><span class="tag">ROADMAP</span><h2>从国内备案到在缅开张：八步</h2></div>
+  <ol class="steps">
+    <li><div><h3>国内境外投资备案</h3><p>发改委、商务部备案或核准，再到银行办外汇登记。承包工程须在投（议）标前办项目备案，高风险地区项目办特定项目立项。</p></div></li>
+    <li><div><h3>查清单，定持股和形式</h3><p>对照禁止、只许国营、只能合资和须部委批准四类清单确认行业。可设私人或公众有限公司，也可设海外法人（取代原来的分公司和代表处）；外资超过 35% 即为外国公司。现金、设备或技术都可以出资。</p></div></li>
+    <li><div><h3>在 MyCo 线上注册</h3><p>通过投资与公司管理局在线系统（myco.dica.gov.mm）注册，全程电子化，不用交纸质材料。注册后按时提交年度报告，否则会被注销。</p></div></li>
+    <li><div><h3>申请 MIC 许可或认可</h3><p>特定类别项目须取得缅甸投资委员会许可；其他项目可申请认可，以取得土地长租权和免税待遇。投资额 500 万美元以下由省邦投资委员会审批；在边境或冲突地区投资超过 100 万美元，须中央投资委员会事先许可。</p></div></li>
+    <li><div><h3>环评与选址</h3><p>141 类项目须做初步环境审查（IEE）或环境影响评价（EIA），纺织印染、水泥、食品饮料等 9 个行业还须提交环境管理计划（EMP）。规费分别为 20 万、30 万和 10 万缅币。工厂优先选成熟工业区或经济特区。</p></div></li>
+    <li><div><h3>税务登记</h3><p>完成注册后 90 日内申请纳税人识别号（TIN），可在 eregistration.ird.gov.mm 线上办理。有应税收入的企业在开始经营前一个月内办商业税登记，每年更新；名称、地址变更 15 日内通知税务机关。</p></div></li>
+    <li><div><h3>签合同、上社保、办签证</h3><p>雇用 30 日内用政府模板签书面劳动合同，交镇区劳动办登记；5 人以上的雇主开业 30 日内办社保登记。外籍高管和技术人员经 MIC 申请工作许可，停留超过 90 天办外国人注册证和签证延期。</p></div></li>
+    <li><div><h3>按季预缴，年度申报</h3><p>财年为 4 月 1 日至次年 3 月 31 日。所得税每季度结束后 10 日内预缴，6 月 30 日前完成年度申报；商业税按月或按季申报，年度申报在财年结束后 3 个月内。签约后到中国驻缅使馆经商处报到登记。</p></div></li>
+  </ol>
+</section>
+
+<section id="access">
+  <div class="sh"><span class="tag">ENTRY</span><h2>外资准入与落脚点</h2><p>外资在缅投资适用《缅甸投资法》（2016）及实施细则（2017）、《缅甸公司法》（2017）和《经济特区法》（2014）。不在限制清单上的行业可以外资独资；要拿免税期和长期用地，就走 MIC 许可或认可，或进经济特区。</p></div>
+  <div class="tblw"><table>
+    <thead><tr><th>落脚点</th><th class="r">外资持股</th><th>能做什么</th><th>税负</th><th>适合</th></tr></thead>
+    <tbody>
+      <tr><td><strong>普通外资公司</strong><br>MyCo 注册</td><td class="r num">最高 100%</td><td>非限制行业可独资；外资超过 35% 即为外国公司。经商务部发照可做批发零售（小型市场和便利店除外），化肥、种子、农药、医疗设备和建材贸易已向外资开放</td><td>所得税 22%；商业税 5%</td><td>贸易、服务</td></tr>
+      <tr><td><strong>MIC 许可 / 认可项目</strong></td><td class="r num up">可 100%</td><td>20 类鼓励行业可享优惠；可长期租地（50 年 + 10 年 + 10 年），可为外籍高管和技术人员办工作许可；获批项目可豁免强制结汇。2022 年起优先审批电动汽车、医药、化肥、水泥、钢铁、农畜水产、食品加工和公共交通</td><td>一、二、三类地区分别免所得税最多 7、5、3 年；建设期设备、原料进口关税可减免；利润一年内再投资可减免</td><td>制造、电力和大型项目</td></tr>
+      <tr><td><strong>经济特区</strong><br>迪洛瓦已建成</td><td class="r num up">可 100%</td><td>迪洛瓦（仰光）截至 2024 年 4 月有 21 个国家和地区的 114 家公司、批准投资 21.9 亿美元，日方股东 2024 年底暂停新投资；皎漂、土瓦仍在推进，孟邦特区未实质启动</td><td>免税区前 7 年、业务提升区前 5 年免所得税，第二个 5 年减半；开发商前 8 年免税；出口商品商业税可免</td><td>出口加工、港口工业</td></tr>
+      <tr><td><strong>只能合资的行业</strong><br>22 项</td><td class="r num down">本地 ≥20%</td><td>塑料制品、化学品、谷物加工、糕点、食品、饮料、纯净水、肥皂化妆品、住房开发和租赁、本地旅游、渔业码头等，均须与缅方合资</td><td>所得税 22%</td><td>快消、地产</td></tr>
+      <tr><td><strong>须部委批准的行业</strong><br>126 项</td><td class="r num">视批准</td><td>10 个部委分管，例如交通与通信部 55 项（含机动车检验、铁路建设运营）、农业畜牧与灌溉部 18 项（含海洋捕捞）、信息部 6 项</td><td>所得税 22%</td><td>交通、传媒、捕捞</td></tr>
+      <tr><td><strong>电力和基建 BOT / PPP</strong></td><td class="r num up">可 100%</td><td>以 BOT、BT、BTO 为主，特许期 30–50 年，一般不超过 70 年；20 亿缅币以上的私人提案项目可走瑞士挑战法，须进入项目库。中资案例有仰光达吉达燃气电站</td><td>所得税 22%；可申请 MIC 优惠</td><td>电站、公路、机场</td></tr>
+      <tr><td><strong>矿产</strong></td><td class="r num">大型矿可外资</td><td>允许外资投资 1 平方公里以上的大型矿，经探矿权协议、产品分成协议转采矿权，可同步申请 MIC 许可；中小型矿和玉石、宝石开采禁止外资</td><td>所得税 22%；另有矿产税、珠宝税</td><td>镍、铜等大型矿</td></tr>
+      <tr><td><strong>农业和林业</strong></td><td class="r num">合资为主</td><td>经 MIC 可取得农地、林地使用权，最长 50 年加两次 10 年；农业种植、销售和出口属于只能合资的行业</td><td>所得税 22%；农产品多数免商业税</td><td>种植、农产品加工</td></tr>
+      <tr><td><strong>工程承包</strong></td><td class="r num up">无资质明文限制</td><td>政府自筹资金 10 万美元以上的项目须 3 家以上投标；带资的卖方信贷项目一般议标；涉及国防的敏感项目和宝石、玉石矿一般不让外国公司介入</td><td>政府和国企付款预提 2.5%</td><td>电站、输变电、路桥</td></tr>
+      <tr><td><strong>禁止领域</strong></td><td class="r num down">禁止</td><td>可能带入有毒废弃物、未经批准的试验技术和药物、影响民族传统文化、危及公众或严重影响生态环境的项目；另有 9 项只许国营</td><td>—</td><td>—</td></tr>
+    </tbody>
+  </table></div>
+  <p class="note">投资法允许外国投资者把资本金、利润、股息、特许权使用费、出售或清算所得和外籍员工薪酬汇出境外，但第 64 条规定国际收支严重失衡时政府可以限制。中缅 2001 年签有双边投资保护协定，缅甸暂无外资并购安全审查机制。1988/89 至 2024/25 财年缅甸累计吸收外资 960.6 亿美元，电力 265.5 亿美元、油气 231.3 亿美元居前，前五大来源地为新加坡、中国内地、泰国、中国香港和英国。按缅方统计，截至 2024 年底中国对缅投资 289.9 亿美元，占外资存量的 39.72%。据报道 2025/26 财年前 10 个月缅甸吸收外资 3.98 亿美元，制造业 2.04 亿美元居首。</p>
+</section>
+
+<section id="tax">
+  <div class="sh"><span class="tag">TAX</span><h2>税务速查</h2><p>缅甸没有增值税，以商业税代替。财年为 4 月 1 日至次年 3 月 31 日，所得税季度预缴、年度汇算。据报道 2026 年 3 月颁布的《2026 年联邦税法》没有调整所得税税率。</p></div>
+  <div class="cols">
+    <div>
+      <div class="tblw"><table>
+        <thead><tr><th>税种</th><th class="r">税率</th><th>要点</th></tr></thead>
+        <tbody>
+          <tr><td>企业所得税</td><td class="r num">22%</td><td>居民企业就境内外所得纳税；仰光证交所上市公司 17%，油气勘探生产 25%；外国分支机构按 22% 就境内所得纳税；亏损可结转 3 年</td></tr>
+          <tr><td>资本利得税</td><td class="r num">10%</td><td>油气企业 40%–50% 累进；居民企业单笔转让额 1,000 万缅币以下免税</td></tr>
+          <tr><td>所得税预缴</td><td class="r num">按季</td><td>以上年应纳税额为基础，每季度结束后 10 日内预缴；亏损、新设或免税期企业可按当季利润预缴</td></tr>
+          <tr><td>商业税</td><td class="r num am">5%</td><td>年营业额超过 5,000 万缅币须缴；建设项目和酒店旅游 3%，互联网服务 15%，SIM 卡每张 2 万缅币；出口 0%；光伏组件、逆变器、电池免税</td></tr>
+          <tr><td>特殊商品税</td><td class="r num">5%–80%</td><td>烟草、酒类、木材、汽车、油品等；汽油柴油 5%，天然气 8%，大排量汽车 10%–50%；出口多数为 0%</td></tr>
+          <tr><td>关税</td><td class="r num">0%–40%</td><td>按 2022 年税则，多数商品 0%–40%，食品饮料烟草最高 60%，平均约 9.8%；出口普遍零关税；符合原产地规则的中国—东盟和 RCEP 货物适用协定税率</td></tr>
+          <tr><td>非居民预提税</td><td class="r num">15%</td><td>利息、特许权使用费 15%；股息 0%；为最终税款</td></tr>
+          <tr><td>政府付款预提税</td><td class="r num">2.5%</td><td>国家机构、国企及与政府合营的机构支付商品或服务价款时扣缴；100 万缅币以下免扣</td></tr>
+          <tr><td>个人所得税</td><td class="r num">0%–25%</td><td>年收入 480 万缅币以下免税，超额累进；外籍人士一年内在缅居住超过 183 天为居民纳税人</td></tr>
+          <tr><td>印花税</td><td class="r num">0.1%–6%</td><td>不动产租赁 3 年以内 0.5%、3 年以上 2%；仰光不动产转让 6%；股权转让 0.1%；须在签约当日完税，否则罚 3 倍</td></tr>
+          <tr><td>外币收入</td><td class="r num">原币缴税</td><td>自 2024 年 4 月起，外币形式的所得（资本利得除外）直接以该外币缴纳所得税，不再折算缅币</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+    <div>
+      <h3>向中国母公司付款的预提税</h3>
+      <div class="tblw"><table>
+        <thead><tr><th>款项</th><th class="r">缅甸国内法</th><th class="r">中缅协定上限</th></tr></thead>
+        <tbody>
+          <tr><td>股息</td><td class="r num up">0%</td><td class="r num">无协定</td></tr>
+          <tr><td>利息</td><td class="r num">15%</td><td class="r num">无协定，按国内法</td></tr>
+          <tr><td>特许权使用费</td><td class="r num">15%</td><td class="r num">无协定，按国内法</td></tr>
+          <tr><td>服务费</td><td class="r num">2.5%；另缴商业税 5%</td><td class="r num">无协定；完全在境外提供的服务经税务局批准可免预提</td></tr>
+          <tr><td>转让缅甸境内资产所得</td><td class="r num">10%</td><td class="r num">无协定</td></tr>
+          <tr><td>出租缅甸境内资产所得</td><td class="r num">22%</td><td class="r num">无协定</td></tr>
+        </tbody>
+      </table></div>
+      <h3 style="margin-top:20px">四条要提前安排的规则</h3>
+      <p style="margin:0;font-size:13.5px;color:var(--muted)"><strong style="color:var(--fg)">中缅没有税收协定。</strong>缅甸只与英国、新加坡、马来西亚、泰国、越南、印度、韩国、老挝 8 国签有避免双重征税协定。即便适用协定也不是自动享受，须在财年结束前书面申请，附对方国家的税收居民身份证明，获批后才能适用；滥用协定避税会被税务机关调整。<br><strong style="color:var(--fg)">服务费另交商业税。</strong>外国企业在缅甸提供服务，即使不构成常设机构、没有所得税申报义务，也要按服务费的 5% 缴商业税，可委托付款方代缴。分公司和代表处不能以自己名义进口货物，须委托当地代理清关；代表处没有经营收入，亏损也用不上。<br><strong style="color:var(--fg)">关联交易按市场价评估。</strong>缅甸没有成体系的转让定价和资本弱化规定，但税务机关按独立交易价格评估关联交易，不合理的可重新核定。实践中债务股本比一般不超过 2:1，利率不超过市场基准 10 个百分点；央行离岸贷款标准为普通企业 3:1、资本密集型企业 4:1，境外借款须央行批准。<br><strong style="color:var(--fg)">免税期要申请才有。</strong>3–7 年的所得税豁免只适用于 MIC 公布的鼓励行业，须向投资委员会申请、经审核后给予；加速折旧、研发费用扣除和再投资减免也要申请。经济特区免税按特区法另算。中小企业年利润 1,500 万缅币以下可连续 3 年免所得税，据报道 2026 年起符合条件的初创企业门槛提高到 2,000 万缅币。</p>
+    </div>
+  </div>
+</section>
+
+<section id="hr">
+  <div class="sh"><span class="tag">PEOPLE</span><h2>用工与签证</h2></div>
+  <div class="cols">
+    <div>
+      <h3>劳动法底线</h3>
+      <div class="tblw"><table>
+        <tbody>
+          <tr><td>标准工时</td><td class="num r">工厂工人每天 8 小时、每周 44 小时，需连续生产的每周 48 小时，每工作 5 小时至少休息 30 分钟；商店和办公室员工每天 8 小时、每周 48 小时。每周最多工作 6 天，休息日加班须员工同意并经劳动部门事先批准，并在前后 3 日内安排调休</td></tr>
+          <tr><td>加班费</td><td class="num r">按基本工资的 2 倍支付；商店和办公室员工每周加班一般不超过 12 小时，特殊情况不超过 16 小时，且不得超过午夜 12 点；公众假期加班付 2 倍工资</td></tr>
+          <tr><td>最低工资</td><td class="num r">2025 年 10 月 1 日起每天 7,800 缅币（基本工资 4,800 加津贴 3,000），按 8 小时工作日计；10 人以下的小型企业和家族企业除外</td></tr>
+          <tr><td>劳动合同</td><td class="num r">雇用之日起 30 日内签书面合同，雇员超过 5 人须用政府模板或更有利于员工的合同，副本交镇区劳动办审查登记；试用期一般不超过 3 个月</td></tr>
+          <tr><td>解除合同</td><td class="num r">任何一方提前解除须提前 1 个月通知；雇主提前解除固定期限合同，须按员工工作年限支付离职补偿</td></tr>
+          <tr><td>假期</td><td class="num r">带薪事假每年 6 天；连续工作满 12 个月且每月工作不少于 20 天的，从第 2 年起年假 10 天；工作满 6 个月可享带薪病假 30 天。2025 年法定节日 17 个共 30 天，中国春节首次列为公共假日</td></tr>
+          <tr><td>产假和陪产假</td><td class="num r">参加社保的女员工产前 6 周、产后 8 周带薪产假，60% 由社保支付，双胞胎另加 4 周；配偶参保的男员工有 15 天带薪陪产假</td></tr>
+          <tr><td>社会保险</td><td class="num r">雇用 5 人以上的雇主开业 30 日内登记；按工资的 5% 缴纳，雇主 3%、员工 2%，缴费基数上限每月 30 万缅币；每月结束后 15 天内代扣代缴，逾期罚 10%。暂无养老保险和失业保险</td></tr>
+        </tbody>
+      </table></div>
+      <p class="note">2023 年缅甸就业人口 2,352 万，中等教育入学率 64%、高等教育约 18%，初级劳动力充足，高级管理和技术人才缺口大；退休年龄 2022 年延长到 62 岁。工会在纺织制衣等劳动密集行业影响增强，2025 年 5 月底仰光莱达雅工业区罢工波及多家服装企业，到 6 月底基本平息。企业投产后应依法建立自己的工会，用可靠的本地翻译与工人沟通，必要时请当地有声望的宗教人士协调；不要对抗合法注册的工会，也不要把工会与政治挂钩。缅甸 85% 以上人口信奉佛教，进寺庙或佛塔要脱鞋袜，对僧侣优先礼让；项目涉及寺庙佛塔拆迁须事先征得宗教部门和民众同意。</p>
+    </div>
+    <div>
+      <h3>外籍员工怎么进来</h3>
+      <div class="tblw"><table>
+        <thead><tr><th>事项</th><th>要点</th></tr></thead>
+        <tbody>
+          <tr><td>工作许可</td><td>缅甸尚未建立一般性的外国人工作许可制度，《外国劳工法》仍在起草；对外籍员工人数一般不设上限，但银行雇用外籍员工须事先获央行批准</td></tr>
+          <tr><td>MIC 项目</td><td>获得 MIC 许可的项目，可经投资委员会为外籍高级管理人员、技术专家和顾问申请工作许可，提交护照、专业或学历证明和简历；非技术岗位只能雇用缅甸公民</td></tr>
+          <tr><td>商务签证</td><td>凭缅甸政府部门或企业邀请函，在缅甸驻华使馆或驻昆明、南宁、成都总领馆办理，有效期 70 天，可延期</td></tr>
+          <tr><td>居住登记</td><td>入境后 24 小时内由酒店或房东协助，向所在街区行政办公室办理居留证（Form-C）</td></tr>
+          <tr><td>外国人注册证</td><td>拟停留超过 90 天的，须办外国人注册证（FRC），再申请长期居留许可和 3、6 或 12 个月签证延期；未办 FRC 不予延期。之后向镇区移民部门提交客居报告并按周更新</td></tr>
+          <tr><td>签证延期</td><td>在缅注册中资企业的中方员工可经投资与公司管理局、投资委员会协助向移民局申请延期；2022 年 8 月起加强审核，打击中介代办，须以实际所在公司名义申请</td></tr>
+          <tr><td>使馆提醒</td><td>据报道，2026 年 1 月中国驻缅使领馆提醒：切勿偷渡入缅，不得用旅游或探亲签证务工，入境后及时办工作许可和居留证件、按时延期，不去战乱地区和禁止外国人进入的地区工作</td></tr>
+        </tbody>
+      </table></div>
+      <p class="note">外国人入境携带 1 万美元以下外币无须申报。中资企业应到中国驻缅使馆经商处报到，可加入缅甸中国企业商会；驻曼德勒总领馆领区为曼德勒省、掸邦和克钦邦。中方人员外出随身带护照，营业执照、纳税证明等备份保存；遇执法检查礼貌出示证件，搜查时要求对方出示证件和搜查证明，并联系律师、报告使领馆。被拘押时尽量在开庭前争取保释结案。使馆领事保护电话 0095-943209657，曼德勒总领馆 0095-9259172726。</p>
+    </div>
+  </div>
+</section>
+
+<section id="sector">
+  <div class="sh"><span class="tag">SECTORS</span><h2>机会在哪里</h2><p>中缅经济走廊、缅甸能源规划和投资委员会优先审批领域的重点方向，叠加中企已经落地的项目。</p></div>
+  <div class="tracks">
+    <div class="track"><h3>电力：燃气、水电与光伏 <span class="heat up">缺口最大</span></h3><p>2023/24 财年装机 7,330 兆瓦，燃气 3,568、水电 3,262、光伏 181 兆瓦，但 2025 年初日发电量不到需求的一半。电力是缅甸吸收外资最多的领域，累计 265.5 亿美元。中资建成瑞丽江一级、太平江一级、小其培水电站，达吉达、皎漂、阿隆燃气电站和京荣、京达、佐托塔雅三座光伏电站。据报道中国电建在缅中部有约 160 兆瓦光伏集群，2026 年 7 月天合光能与缅企签下 200 兆瓦组件供货协议；光伏设备免商业税。</p></div>
+    <div class="track"><h3>油气管道与皎漂港 <span class="heat am">安全优先</span></h3><p>皎漂是中缅油气管道的起点。中信集团联合体 2015 年中标皎漂深水港和工业园，2020 年 1 月签框架协议和特许经营协议，2023 年 12 月签深水港补充协议，中方占股 70%。据报道 2026 年 6 月中缅联合声明提出稳步推进皎漂深水港和木姐—曼德勒铁路，继续用好油气管道、稳步扩大电网互联；但若开邦战事逼近皎漂，管道也曾遭武装破坏，项目以安全为前提。</p></div>
+    <div class="track"><h3>边贸与跨境物流 <span class="heat up">主通道</span></h3><p>缅甸通过 16 个边贸点与中、印、孟、泰开展边境贸易，木姐是最大的边贸点，已用自动清关系统缴税。中缅边贸可用人民币和缅币直接结算，2024 年 12 月起中国对缅 100% 税目零关税。据报道临沧至清水河口岸的临清高速 2025 年 4 月通车，车程从 4 小时缩到 1.5 小时；2026 年 1–5 月云南对缅贸易增长 43.1%，瑞丽口岸摩托车出口和铁矿进口大增。所有出口须在 Myanmar Tradenet 2.0 申请许可。</p></div>
+    <div class="track"><h3>纺织制衣与轻工 <span class="heat am">关税承压</span></h3><p>在缅纺织制衣产业链上下游的中资企业约 1,300 家，带动当地就业 50 余万人，工厂集中在仰光、曼德勒的工业园，还有鞋、箱包和假发厂。2025/26 财年一季度成衣出口 12.17 亿美元，同比多 1.71 亿美元。缅甸仍是欧盟普惠制享惠国，但据报道美国对缅关税为 40%；工资低是优势，罢工、停电和汇率是成本变量。</p></div>
+    <div class="track"><h3>农业与农产品加工 <span class="heat up">准入在扩</span></h3><p>缅甸约 70% 人口以农牧业为生，年产稻米约 1,500 万吨、豆类约 500 万吨、玉米约 350 万吨。香蕉、西瓜、芒果等 10 种水果和玉米、芝麻、多种豆类可正常输华。据报道 2025/26 财年大米出口 274 万吨、8.61 亿美元。每年化肥缺口约 120 万吨；投资委员会优先审批化肥、农畜水产养殖和食品加工项目，2026 年中缅联合声明提出简化优质农产品检疫准入。</p></div>
+    <div class="track"><h3>矿产、建材与电动车 <span class="heat am">准入有限</span></h3><p>中资在缅有达贡山镍矿、蒙育瓦铜矿等项目，缅甸允许外资开发大型矿，据报道它是全球第三大锡生产国；中小型矿和玉石宝石开采不对外资开放。90% 以上建材靠进口，投资委员会优先审批水泥、钢铁和电动汽车项目。2025 年 6 月至 2026 年 5 月，经 MIC 许可以散件进口、在缅组装的燃油车关税降到 1.5%–5%；据报道《2026 年联邦税法》取消了纯电动车的部分税收豁免。</p></div>
+  </div>
+  <div class="feedhead" id="feed"><h3>赛道动态</h3><span class="live">LIVE</span><span class="upd" id="upd"></span></div>
+  <div class="chips" id="chips" role="group" aria-label="按赛道筛选"></div>
+  <ul class="feed" id="feedlist"></ul>
+  <button type="button" class="more" id="more" hidden>显示更多</button>
+  <div class="feedmsg" id="feedmsg">正在载入各赛道的最新新闻与政策……</div>
+
+</section>
+
+<section id="desk">
+  <div class="sh"><span class="tag">DIRECTORY</span><h2>官方入口</h2></div>
+  <div class="links">
+    <div><a href="https://www.dica.gov.mm">投资与公司管理局 DICA</a><span>MIC 投资申请、外资法规和投资统计</span></div>
+    <div><a href="https://www.myco.dica.gov.mm">MyCo 在线公司注册系统</a><span>公司注册、变更和年度报告</span></div>
+    <div><a href="https://eregistration.ird.gov.mm">国税局电子税务登记</a><span>纳税人识别号和线上纳税登记</span></div>
+    <div><a href="https://www.myanmartradeportal.gov.mm">缅甸贸易门户</a><span>进出口法规、许可和关税查询</span></div>
+    <div><a href="https://www.mol.gov.mm">劳工部</a><span>劳动法规、合同模板和社保</span></div>
+    <div><a href="http://www.mip.gov.mm">移民和人口部</a><span>签证延期、外国人注册和居留</span></div>
+    <div><a href="https://www.monrec.gov.mm">资源与环境保护部</a><span>环境影响评估和环保审批</span></div>
+    <div><a href="http://mm.mofcom.gov.cn">中国驻缅甸使馆经商处</a><span>经贸政策咨询和中资企业报到备案</span></div>
+    <div><a href="https://mm.china-embassy.gov.cn">中国驻缅甸大使馆</a><span>安全提醒和领事保护</span></div>
+  </div>
+</section>
+
+</main>
+<footer class="wrap">
+  本页为公开信息整理，不构成法律、税务或投资意见。门槛和税率每年调整，具体交易请以官方最新文本和专业顾问意见为准。
+</footer>
+<script>
+const META={"slug": "myanmar", "tape": [["企业所得税", "22%"], ["商业税", "5%"], ["资本利得税", "10%"], ["利息/特许权预提税", "15%"], ["中缅税收协定", "未签"], ["最低日薪", "7,800 缅币"], ["官方汇率", "1 CNY≈313 MMK"], ["市场汇率(2025.8)", "1 USD≈4,400 MMK"], ["中缅贸易 2024", "US$162.8亿"], ["对缅出口", "US$92.2亿"], ["自缅进口", "US$70.6亿"], ["对缅投资存量", "US$38.5亿"]], "bars": {"max": 140, "data": [[2020, 125.5, 63.4], [2021, 105.4, 80.8], [2022, 136.8, 114.6], [2023, 114.0, 95.6], [2024, 92.24, 70.59]]}, "sect": {"energy": "新能源", "trade": "贸易物流", "infra": "工程基建", "finance": "金融", "tech": "数字经济", "industry": "制造业", "general": "综合经贸"}, "feed": "/myanmar/news.json"};
+const t=document.getElementById("tape");
+if(t){const h=META.tape.map(([k,v])=>`<span>${k}<i>${v}</i></span>`).join("");t.innerHTML=h+h}
+const bars=document.getElementById("bars");
+if(bars){const max=META.bars.max;bars.innerHTML=META.bars.data.map(([y,e,m])=>`<div class="yr"><span>${y}</span><div><div class="bar e"><i style="width:${e/max*82}%"></i><b>${e}</b></div><div class="bar m"><i style="width:${m/max*82}%"></i><b>${m}</b></div></div></div>`).join("")}
+/* 动态：读取本国 news.json，每日自动更新 */
+const SECT=Object.assign({all:"全部"},META.sect),KEY="sect-"+META.slug;
+let rows=[],cur="all",shown=16;
+try{cur=localStorage.getItem(KEY)||"all"}catch(e){}
+if(!SECT[cur])cur="all";
+const chips=document.getElementById("chips"),list=document.getElementById("feedlist"),msg=document.getElementById("feedmsg");
+function el(tag,cls,txt){const e=document.createElement(tag);if(cls)e.className=cls;if(txt!=null)e.textContent=txt;return e}
+function drawChips(){chips.textContent="";for(const k in SECT){const n=k==="all"?rows.length:rows.filter(r=>r.sector===k).length;const b=el("button",null,SECT[k]+(rows.length?" "+n:""));b.type="button";b.id="chip-"+k;b.setAttribute("aria-pressed",String(k===cur));b.onclick=()=>{cur=k;shown=16;try{localStorage.setItem(KEY,k)}catch(e){}draw()};chips.appendChild(b)}}
+function draw(){drawChips();list.textContent="";const show=rows.filter(r=>cur==="all"||r.sector===cur);
+  for(const r of show.slice(0,shown)){const li=el("li");li.appendChild(el("time",null,r.date||"—"));const d=el("div");
+    const ok=typeof r.url==="string"&&/^https?:\/\//.test(r.url);const a=el(ok?"a":"span","t",r.title||"");if(ok){a.href=r.url;a.target="_blank";a.rel="noopener"}d.appendChild(a);
+    const m=el("div","m");const pol=r.kind==="政策";m.appendChild(el("span","k "+(pol?"pol":"news"),pol?"政策":"新闻"));m.appendChild(el("span",null,SECT[r.sector]||""));if(r.source)m.appendChild(el("span",null,r.source));d.appendChild(m);li.appendChild(d);list.appendChild(li)}
+  const mb=document.getElementById("more");mb.hidden=show.length<=shown;mb.textContent="显示更多（还有 "+(show.length-shown)+" 条）";
+  msg.hidden=show.length>0;if(!show.length)msg.textContent=rows.length?"这个类别暂时没有新动态。":"暂无动态。每日更新后，这里会自动出现新闻与政策。";
+  const last=rows.map(r=>r.added||r.date||"").sort().pop();document.getElementById("upd").textContent=last?"最近更新 "+last:""}
+if(chips){drawChips();
+document.getElementById("more").onclick=()=>{shown+=16;draw()};
+fetch(META.feed,{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(j=>{rows=(j.items||[]).slice().sort((x,y)=>String(y.date||"").localeCompare(String(x.date||"")));draw()}).catch(()=>{msg.hidden=false;msg.textContent="动态暂时无法载入，请稍后刷新。"})}
+</script>
+</body>
+</html>
