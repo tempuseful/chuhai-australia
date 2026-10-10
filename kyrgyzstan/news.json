@@ -1,0 +1,85 @@
+{
+ "updated": "2026-10-10",
+ "items": [
+  {
+   "sector": "finance",
+   "kind": "新闻",
+   "title": "Moody’s повысило суверенный рейтинг Кыргызстана с B3 до B2",
+   "source": "Economist.kg",
+   "url": "https://economist.kg/ekonomika/2026/10/05/moodys-reyting-kyrgyzstana-b2.md",
+   "date": "2026-10-05",
+   "added": "2026-10-10",
+   "cn": false
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "吉尔吉斯斯坦境内段首座隧道顺利贯通  中吉乌铁路建设取得重要进展",
+   "source": "科技日报",
+   "url": "https://www.stdaily.com/web/gdxw/2026-09/05/content_575867.html",
+   "date": "2026-09-05",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "习近平抵达比什凯克出席2026年上海合作组织峰会并对吉尔吉斯斯坦进行国事访问",
+   "source": "新华网",
+   "url": "https://www.news.cn/politics/leaders/20260830/da52c6cad51e4e3db49ae507049463f7/c.html",
+   "date": "2026-08-30",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "政策",
+   "title": "EU Hits Kyrgyzstan With First-Ever Anti-Circumvention Sanctions in 20th Russia Package",
+   "source": "Fergana",
+   "url": "https://en.fergana.agency/news/146624/",
+   "date": "2026-04-24",
+   "added": "2026-10-10",
+   "cn": false
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "Kyrgyzstan Launches Electronic Queuing System for Trucks at China Border",
+   "source": "The Times of Central Asia",
+   "url": "https://timesca.com/kyrgyzstan-launches-electronic-queuing-system-for-trucks-at-china-border/",
+   "date": "2026-03-11",
+   "added": "2026-10-10",
+   "cn": false
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "驻吉尔吉斯斯坦大使刘江平在吉官媒发表署名文章《中国同中亚五国货物进出口首次突破1000亿美元：贸易里程碑、合作新高度》",
+   "source": "中国外交部",
+   "url": "https://www.fmprc.gov.cn/zwbd_673032/wjzs/202601/t20260123_11844038.shtml",
+   "date": "2026-01-22",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "我国已与13个国家签署社保协定，助力企业开拓国际市场",
+   "source": "澎湃新闻",
+   "url": "https://www.thepaper.cn/newsDetail_forward_31850182",
+   "date": "2025-10-29",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "记者手记｜在中吉边境口岸感受通关“加速度”",
+   "source": "新华网",
+   "url": "https://www.news.cn/local/20251011/efa92da5d0c74a99a812afc7a84b595f/c.html",
+   "date": "2025-10-11",
+   "added": "2026-10-10",
+   "cn": true
+  }
+ ]
+}
