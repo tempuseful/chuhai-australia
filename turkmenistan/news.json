@@ -1,0 +1,85 @@
+{
+ "updated": "2026-10-10",
+ "items": [
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "Turkmenistan Launches E-Visa System, But Questions Remain",
+   "source": "The Times of Central Asia",
+   "url": "https://timesca.com/?p=57852",
+   "date": "2026-10-06",
+   "added": "2026-10-10",
+   "cn": false
+  },
+  {
+   "sector": "finance",
+   "kind": "新闻",
+   "title": "На черном рынке Туркменистана снизился курс доллара",
+   "source": "Хроника Туркменистана",
+   "url": "https://www.hronikatm.com/2026/07/the-dollar-exchange-rate-has-fallen-on-turkmenistans-black-market/",
+   "date": "2026-07-21",
+   "added": "2026-10-10",
+   "cn": false
+  },
+  {
+   "sector": "finance",
+   "kind": "新闻",
+   "title": "IMF Staff Completes 2026 Article IV Mission to Turkmenistan",
+   "source": "国际货币基金组织",
+   "url": "https://www.imf.org/en/news/articles/2026/06/22/pr26218-turkmenistan-imf-staff-completes-2026-article-iv-mission",
+   "date": "2026-06-22",
+   "added": "2026-10-10",
+   "cn": false
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "丁薛祥访问土库曼斯坦、作为习近平主席特别代表出席复兴气田四期项目开工仪式、举行中土合作委员会第七次会议",
+   "source": "新华网",
+   "url": "https://www.news.cn/20260418/26b7097550134da7bcb3f215a4d9bc34/c.html",
+   "date": "2026-04-18",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "Turkmenistan Targets 76 Bcm Gas Output in 2026 as Exports to China Continue",
+   "source": "Pipeline & Gas Journal（路透）",
+   "url": "https://pgjonline.com/news/2026/april/turkmenistan-targets-76-bcm-gas-output-in-2026-as-exports-to-china-continue",
+   "date": "2026-04-17",
+   "added": "2026-10-10",
+   "cn": false
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "习近平会见土库曼斯坦民族领袖、人民委员会主席别尔德穆哈梅多夫",
+   "source": "新华网",
+   "url": "https://www.news.cn/20260318/b43f6093075346c3aaec3cca304ca276/c.html",
+   "date": "2026-03-18",
+   "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "Development of the fourth phase of the Galkynysh field will begin in early 2026",
+   "source": "土库曼斯坦油气网",
+   "url": "https://oilgas.gov.tm/en/posts/news/15936/development-of-the-fourth-phase-of-the-galkynysh-field-will-begin-in-early-2026",
+   "date": "2025-12-29",
+   "added": "2026-10-10",
+   "cn": false
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "习近平会见土库曼斯坦总统别尔德穆哈梅多夫",
+   "source": "新华网",
+   "url": "https://www.news.cn/world/20250617/34a39571aca24d20be902c7ea90ed8b7/c.html",
+   "date": "2025-06-17",
+   "added": "2026-10-10",
+   "cn": true
+  }
+ ]
+}
