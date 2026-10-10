@@ -1,6 +1,66 @@
 {
- "updated": "2026-10-07",
+ "updated": "2026-10-11",
  "items": [
+  {
+   "sector": "ev",
+   "kind": "新闻",
+   "title": "Chinese brands fuel Australia's EV record",
+   "source": "China Daily",
+   "url": "https://www.chinadaily.com.cn/a/202610/09/WS6ac83d7fe4b06d4aa0561c92.html",
+   "date": "2026-10-09",
+   "added": "2026-10-11",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "Beijing and Canberra broaden services trade",
+   "source": "China Daily",
+   "url": "https://www.chinadaily.com.cn/a/202610/08/WS6ac6f961e4b06d4aa0561a7e.html",
+   "date": "2026-10-08",
+   "added": "2026-10-11",
+   "cn": true
+  },
+  {
+   "sector": "ev",
+   "kind": "新闻",
+   "title": "VFACTS：9 月澳大利亚电动汽车销量保持强劲",
+   "source": "GoAuto",
+   "url": "https://www.goauto.com.au/news/vfacts/sales-2026/2026-10-06/100649.html",
+   "date": "2026-10-06",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "ev",
+   "kind": "新闻",
+   "title": "比亚迪、特斯拉、吉利领跑，澳电动车销量再超汽油车",
+   "source": "The Driven",
+   "url": "https://thedriven.io/2026/10/06/evs-outsell-petrol-cars-again-and-account-for-nearly-one-in-four-new-car-sales-led-by-byd-tesla-and-geely/",
+   "date": "2026-10-06",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "energy",
+   "kind": "政策",
+   "title": "澳大利亚政府加快可再生能源转型",
+   "source": "CleanTechnica",
+   "url": "https://cleantechnica.com/2026/10/03/australian-government-accelerates-renewable-energy-transition/",
+   "date": "2026-10-03",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "澳储行加息至 4.60%，年内第四次上调现金利率",
+   "source": "Reserve Bank of Australia",
+   "url": "https://www.rba.gov.au/media-releases/2026/mr-26-27.html",
+   "date": "2026-09-29",
+   "added": "2026-10-07",
+   "cn": true
+  },
   {
    "sector": "infra",
    "kind": "政策",
@@ -18,6 +78,26 @@
    "source": "中新网",
    "url": "https://www.chinanews.com.cn/cj/2026/09-20/10700060.shtml",
    "date": "2026-09-20",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "ev",
+   "kind": "新闻",
+   "title": "通讯：“我很喜欢中国汽车”——中国车企在澳大利亚打开发展空间",
+   "source": "新华网",
+   "url": "https://www.news.cn/world/20260919/e0d9c6b7aa36495b9b107ec4710d9ffa/c.html",
+   "date": "2026-09-19",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "ev",
+   "kind": "新闻",
+   "title": "Everything Electric 首席执行官：中国电动汽车正重塑澳大利亚市场",
+   "source": "中新网",
+   "url": "https://www.chinanews.com.cn/cj/2026/09-18/10699120.shtml",
+   "date": "2026-09-18",
    "added": "2026-10-07",
    "cn": true
   },
@@ -62,12 +142,52 @@
    "cn": true
   },
   {
+   "sector": "ev",
+   "kind": "新闻",
+   "title": "经销商协会预测：2035 年中国品牌将占澳新车市场一半以上",
+   "source": "CarNewsChina",
+   "url": "https://carnewschina.com/2026/07/29/chinese-brands-to-take-over-half-of-australias-new-car-market-by-2035-dealers-group-forecasts/",
+   "date": "2026-07-29",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "ev",
+   "kind": "新闻",
+   "title": "Australian EV sales hit new record high, with China “established” as top source",
+   "source": "Xinhua",
+   "url": "https://english.news.cn/20260703/8b0742f0fcf647218a06496b6f717e18/c.html",
+   "date": "2026-07-03",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
    "sector": "agri",
    "kind": "政策",
    "title": "我国 6 月 20 日起对澳大利亚进口牛肉加征 55% 关税",
    "source": "新华网",
    "url": "https://www.news.cn/20260619/07eb0fab463941dcb314cf195f04c7b5/c.html",
    "date": "2026-06-19",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "ev",
+   "kind": "新闻",
+   "title": "Chinese EVs make gains as Australia posts record sales",
+   "source": "China Daily",
+   "url": "https://global.chinadaily.com.cn/a/202606/09/WS6a2777a9a310d6866eb4d300.html",
+   "date": "2026-06-09",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "澳大利亚聚焦应对通胀和提升经济韧性",
+   "source": "人民网",
+   "url": "https://world.people.com.cn/n1/2026/0528/c1002-40728885.html",
+   "date": "2026-05-28",
    "added": "2026-10-07",
    "cn": true
   },
@@ -92,11 +212,31 @@
    "cn": true
   },
   {
+   "sector": "minerals",
+   "kind": "政策",
+   "title": "关键矿产更新：FIRB 执法行动与美澳关键矿产框架",
+   "source": "McCullough Robertson",
+   "url": "https://mccullough.com.au/2026/05/11/critical-minerals-update-firb-enforcements-and-us-australia-critical-minerals-framework/",
+   "date": "2026-05-11",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
    "sector": "energy",
    "kind": "新闻",
    "title": "“澳大利亚—中国智慧能源合作论坛”在悉尼举行",
    "source": "中新网",
    "url": "https://www.chinanews.com.cn/cj/2026/05-07/10616926.shtml",
+   "date": "2026-05-07",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "综述：中国创新技术亮相澳大利亚智慧能源展",
+   "source": "新华网",
+   "url": "https://www.news.cn/world/20260507/e30ad9ba21674e1ca0557e74f6635760/c.html",
    "date": "2026-05-07",
    "added": "2026-10-07",
    "cn": true
@@ -112,72 +252,12 @@
    "cn": true
   },
   {
-   "sector": "minerals",
+   "sector": "energy",
    "kind": "新闻",
-   "title": "澳加构建西方关键矿产供应链自主性",
-   "source": "商务部",
-   "url": "https://price.mofcom.gov.cn/article/yjzx/hyzx/hskc/202604/64498.html",
-   "date": "2026-04",
-   "added": "2026-10-07",
-   "cn": true
-  },
-  {
-   "sector": "infra",
-   "kind": "政策",
-   "title": "澳基础设施局发布 2026 年基础设施优先项目清单",
-   "source": "Infrastructure Australia",
-   "url": "https://www.infrastructureaustralia.gov.au/sites/default/files/2026-03/2026-Infrastructure-Priority-List.pdf",
-   "date": "2026-03",
-   "added": "2026-10-07",
-   "cn": true
-  },
-  {
-   "sector": "ecom",
-   "kind": "新闻",
-   "title": "澳零售业新联盟呼吁对 Temu、Shein 加强合规检查",
-   "source": "SmartCompany",
-   "url": "https://www.smartcompany.com.au/retail/retail-supergroup-compliance-checks-temu-shein-budget/",
-   "date": "2026",
-   "added": "2026-10-07",
-   "cn": false
-  },
-  {
-   "sector": "ev",
-   "kind": "新闻",
-   "title": "通讯：“我很喜欢中国汽车”——中国车企在澳大利亚打开发展空间",
+   "title": "中澳业界呼吁加强智慧能源合作",
    "source": "新华网",
-   "url": "https://www.news.cn/world/20260919/e0d9c6b7aa36495b9b107ec4710d9ffa/c.html",
-   "date": "2026-09-19",
-   "added": "2026-10-07",
-   "cn": true
-  },
-  {
-   "sector": "ev",
-   "kind": "新闻",
-   "title": "Everything Electric 首席执行官：中国电动汽车正重塑澳大利亚市场",
-   "source": "中新网",
-   "url": "https://www.chinanews.com.cn/cj/2026/09-18/10699120.shtml",
-   "date": "2026-09-18",
-   "added": "2026-10-07",
-   "cn": true
-  },
-  {
-   "sector": "ev",
-   "kind": "新闻",
-   "title": "Australian EV sales hit new record high, with China “established” as top source",
-   "source": "Xinhua",
-   "url": "https://english.news.cn/20260703/8b0742f0fcf647218a06496b6f717e18/c.html",
-   "date": "2026-07-03",
-   "added": "2026-10-07",
-   "cn": true
-  },
-  {
-   "sector": "ev",
-   "kind": "新闻",
-   "title": "Chinese EVs make gains as Australia posts record sales",
-   "source": "China Daily",
-   "url": "https://global.chinadaily.com.cn/a/202606/09/WS6a2777a9a310d6866eb4d300.html",
-   "date": "2026-06-09",
+   "url": "https://www.news.cn/world/20260506/343c7fa61f9f4dd0ac17d05726c9f7c0/c.html",
+   "date": "2026-05-06",
    "added": "2026-10-07",
    "cn": true
   },
@@ -192,12 +272,122 @@
    "cn": true
   },
   {
+   "sector": "agri",
+   "kind": "政策",
+   "title": "中国向多家澳大利亚牛肉加工厂新发对华出口许可",
+   "source": "ABC News",
+   "url": "https://www.abc.net.au/news/2026-04-21/china-grants-new-beef-export-access-to-australian-companies/106587052",
+   "date": "2026-04-21",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "energy",
+   "kind": "政策",
+   "title": "澳大利亚力促抽水蓄能产业发展",
+   "source": "中国能源报",
+   "url": "https://paper.people.com.cn/zgnyb/pc/content/202604/13/content_30151074.html",
+   "date": "2026-04-13",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "澳大利亚基建项目储备达 2,420 亿澳元",
+   "source": "Emu Money",
+   "url": "https://emumoney.com.au/news/20260407-infrastructure-pipeline-record-spending",
+   "date": "2026-04-07",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "minerals",
+   "kind": "新闻",
+   "title": "澳加构建西方关键矿产供应链自主性",
+   "source": "商务部",
+   "url": "https://price.mofcom.gov.cn/article/yjzx/hyzx/hskc/202604/64498.html",
+   "date": "2026-04",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
    "sector": "ev",
    "kind": "新闻",
    "title": "记者手记：油价暴涨，中国电动汽车“圈粉”澳大利亚车主",
    "source": "人民网",
    "url": "https://world.people.com.cn/n1/2026/0326/c1002-40689647.html",
    "date": "2026-03-26",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "minerals",
+   "kind": "新闻",
+   "title": "智库报告：中国大举投资全球关键矿产，澳大利亚面临压力",
+   "source": "Climate Energy Finance",
+   "url": "https://climateenergyfinance.org/wp-content/uploads/2026/03/CEF_Raw-Power-China-FDI-into-Critical-Minerals-and-Metals_18Mar2026.pdf",
+   "date": "2026-03-18",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "infra",
+   "kind": "政策",
+   "title": "澳基础设施局发布 2026 年基础设施优先项目清单",
+   "source": "Infrastructure Australia",
+   "url": "https://www.infrastructureaustralia.gov.au/sites/default/files/2026-03/2026-Infrastructure-Priority-List.pdf",
+   "date": "2026-03",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "澳大利亚对华盘条作出第二次反倾销日落复审终裁",
+   "source": "中国贸易救济信息网",
+   "url": "https://cacs.mofcom.gov.cn/article/ajycs/ckys/202603/187522.html",
+   "date": "2026-03",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "港铁携手中国中车中标悉尼地铁西线主要合约",
+   "source": "新华网",
+   "url": "https://www.news.cn/gangao/20260105/9419f007e88c449bacdec36ab5bfa74a/c.html",
+   "date": "2026-01-05",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "agri",
+   "kind": "政策",
+   "title": "中国对进口牛肉加征关税，澳肉类行业称影响“严重”",
+   "source": "ABC News",
+   "url": "https://www.abc.net.au/news/2026-01-01/china-hits-australian-beef-industry-with-tariff/106191726",
+   "date": "2026-01-01",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "ecom",
+   "kind": "新闻",
+   "title": "澳零售业新联盟呼吁对 Temu、Shein 加强合规检查",
+   "source": "SmartCompany",
+   "url": "https://www.smartcompany.com.au/retail/retail-supergroup-compliance-checks-temu-shein-budget/",
+   "date": "2026",
+   "added": "2026-10-07",
+   "cn": false
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "中澳自由贸易协定实施 10 周年，推动双边贸易稳步发展",
+   "source": "商务部",
+   "url": "https://tradeinservices.mofcom.gov.cn/article/news/gjxw/202511/179822.html",
+   "date": "2025-11",
    "added": "2026-10-07",
    "cn": true
   },
@@ -222,116 +412,6 @@
    "cn": true
   },
   {
-   "sector": "energy",
-   "kind": "新闻",
-   "title": "综述：中国创新技术亮相澳大利亚智慧能源展",
-   "source": "新华网",
-   "url": "https://www.news.cn/world/20260507/e30ad9ba21674e1ca0557e74f6635760/c.html",
-   "date": "2026-05-07",
-   "added": "2026-10-07",
-   "cn": true
-  },
-  {
-   "sector": "energy",
-   "kind": "新闻",
-   "title": "中澳业界呼吁加强智慧能源合作",
-   "source": "新华网",
-   "url": "https://www.news.cn/world/20260506/343c7fa61f9f4dd0ac17d05726c9f7c0/c.html",
-   "date": "2026-05-06",
-   "added": "2026-10-07",
-   "cn": true
-  },
-  {
-   "sector": "energy",
-   "kind": "政策",
-   "title": "澳大利亚力促抽水蓄能产业发展",
-   "source": "中国能源报",
-   "url": "https://paper.people.com.cn/zgnyb/pc/content/202604/13/content_30151074.html",
-   "date": "2026-04-13",
-   "added": "2026-10-07",
-   "cn": true
-  },
-  {
-   "sector": "energy",
-   "kind": "新闻",
-   "title": "澳大利亚南部电价飙升，可再生能源缓解部分冲击",
-   "source": "商务部驻墨尔本总领馆经商处",
-   "url": "https://melbourne.mofcom.gov.cn/scdy/art/2025/art_dfd80d2972bd4dbfba36e06b392f1cb0.html",
-   "date": "2025",
-   "added": "2026-10-07",
-   "cn": true
-  },
-  {
-   "sector": "minerals",
-   "kind": "新闻",
-   "title": "中企与力拓合资铁矿项目在澳大利亚正式投产",
-   "source": "新华网",
-   "url": "http://www.news.cn/world/20250606/26fc6c28a5744ea7acf775103489bce5/c.html",
-   "date": "2025-06-06",
-   "added": "2026-10-07",
-   "cn": true
-  },
-  {
-   "sector": "agri",
-   "kind": "新闻",
-   "title": "葡萄酒、南部岩龙虾对华贸易激增，澳大利亚对中国市场有新期待",
-   "source": "第一财经",
-   "url": "https://www.yicai.com/news/102591709.html",
-   "date": "2025",
-   "added": "2026-10-07",
-   "cn": true
-  },
-  {
-   "sector": "agri",
-   "kind": "新闻",
-   "title": "中澳龙虾贸易恢复：双边交流可喜成果",
-   "source": "中国日报网",
-   "url": "https://cn.chinadaily.com.cn/a/202501/24/WS67932174a310be53ce3f3454.html",
-   "date": "2025-01-24",
-   "added": "2026-10-07",
-   "cn": true
-  },
-  {
-   "sector": "infra",
-   "kind": "新闻",
-   "title": "港铁携手中国中车中标悉尼地铁西线主要合约",
-   "source": "新华网",
-   "url": "https://www.news.cn/gangao/20260105/9419f007e88c449bacdec36ab5bfa74a/c.html",
-   "date": "2026-01-05",
-   "added": "2026-10-07",
-   "cn": true
-  },
-  {
-   "sector": "general",
-   "kind": "政策",
-   "title": "澳大利亚聚焦应对通胀和提升经济韧性",
-   "source": "人民网",
-   "url": "https://world.people.com.cn/n1/2026/0528/c1002-40728885.html",
-   "date": "2026-05-28",
-   "added": "2026-10-07",
-   "cn": true
-  },
-  {
-   "sector": "general",
-   "kind": "政策",
-   "title": "澳大利亚对华盘条作出第二次反倾销日落复审终裁",
-   "source": "中国贸易救济信息网",
-   "url": "https://cacs.mofcom.gov.cn/article/ajycs/ckys/202603/187522.html",
-   "date": "2026-03",
-   "added": "2026-10-07",
-   "cn": true
-  },
-  {
-   "sector": "general",
-   "kind": "新闻",
-   "title": "中澳自由贸易协定实施 10 周年，推动双边贸易稳步发展",
-   "source": "商务部",
-   "url": "https://tradeinservices.mofcom.gov.cn/article/news/gjxw/202511/179822.html",
-   "date": "2025-11",
-   "added": "2026-10-07",
-   "cn": true
-  },
-  {
    "sector": "general",
    "kind": "政策",
    "title": "中国与澳大利亚签署关于实施和审议中澳自贸协定的谅解备忘录",
@@ -348,6 +428,16 @@
    "source": "中新网",
    "url": "https://www.chinanews.com.cn/gn/2025/07-15/10448421.shtml",
    "date": "2025-07-15",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "minerals",
+   "kind": "新闻",
+   "title": "中企与力拓合资铁矿项目在澳大利亚正式投产",
+   "source": "新华网",
+   "url": "http://www.news.cn/world/20250606/26fc6c28a5744ea7acf775103489bce5/c.html",
+   "date": "2025-06-06",
    "added": "2026-10-07",
    "cn": true
   },
@@ -372,6 +462,36 @@
    "cn": true
   },
   {
+   "sector": "agri",
+   "kind": "新闻",
+   "title": "中澳龙虾贸易恢复：双边交流可喜成果",
+   "source": "中国日报网",
+   "url": "https://cn.chinadaily.com.cn/a/202501/24/WS67932174a310be53ce3f3454.html",
+   "date": "2025-01-24",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "澳大利亚南部电价飙升，可再生能源缓解部分冲击",
+   "source": "商务部驻墨尔本总领馆经商处",
+   "url": "https://melbourne.mofcom.gov.cn/scdy/art/2025/art_dfd80d2972bd4dbfba36e06b392f1cb0.html",
+   "date": "2025",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
+   "sector": "agri",
+   "kind": "新闻",
+   "title": "葡萄酒、南部岩龙虾对华贸易激增，澳大利亚对中国市场有新期待",
+   "source": "第一财经",
+   "url": "https://www.yicai.com/news/102591709.html",
+   "date": "2025",
+   "added": "2026-10-07",
+   "cn": true
+  },
+  {
    "sector": "general",
    "kind": "新闻",
    "title": "经贸合作成果丰硕，下一个 10 年中澳自贸协定如何“提质扩容”？",
@@ -380,106 +500,6 @@
    "date": "2025",
    "added": "2026-10-07",
    "cn": true
-  },
-  {
-   "sector": "energy",
-   "kind": "政策",
-   "title": "澳大利亚政府加快可再生能源转型",
-   "source": "CleanTechnica",
-   "url": "https://cleantechnica.com/2026/10/03/australian-government-accelerates-renewable-energy-transition/",
-   "date": "2026-10-03",
-   "added": "2026-10-07",
-   "cn": false
-  },
-  {
-   "sector": "ev",
-   "kind": "新闻",
-   "title": "经销商协会预测：2035 年中国品牌将占澳新车市场一半以上",
-   "source": "CarNewsChina",
-   "url": "https://carnewschina.com/2026/07/29/chinese-brands-to-take-over-half-of-australias-new-car-market-by-2035-dealers-group-forecasts/",
-   "date": "2026-07-29",
-   "added": "2026-10-07",
-   "cn": false
-  },
-  {
-   "sector": "minerals",
-   "kind": "政策",
-   "title": "关键矿产更新：FIRB 执法行动与美澳关键矿产框架",
-   "source": "McCullough Robertson",
-   "url": "https://mccullough.com.au/2026/05/11/critical-minerals-update-firb-enforcements-and-us-australia-critical-minerals-framework/",
-   "date": "2026-05-11",
-   "added": "2026-10-07",
-   "cn": false
-  },
-  {
-   "sector": "minerals",
-   "kind": "新闻",
-   "title": "智库报告：中国大举投资全球关键矿产，澳大利亚面临压力",
-   "source": "Climate Energy Finance",
-   "url": "https://climateenergyfinance.org/wp-content/uploads/2026/03/CEF_Raw-Power-China-FDI-into-Critical-Minerals-and-Metals_18Mar2026.pdf",
-   "date": "2026-03-18",
-   "added": "2026-10-07",
-   "cn": false
-  },
-  {
-   "sector": "agri",
-   "kind": "政策",
-   "title": "中国向多家澳大利亚牛肉加工厂新发对华出口许可",
-   "source": "ABC News",
-   "url": "https://www.abc.net.au/news/2026-04-21/china-grants-new-beef-export-access-to-australian-companies/106587052",
-   "date": "2026-04-21",
-   "added": "2026-10-07",
-   "cn": false
-  },
-  {
-   "sector": "agri",
-   "kind": "政策",
-   "title": "中国对进口牛肉加征关税，澳肉类行业称影响“严重”",
-   "source": "ABC News",
-   "url": "https://www.abc.net.au/news/2026-01-01/china-hits-australian-beef-industry-with-tariff/106191726",
-   "date": "2026-01-01",
-   "added": "2026-10-07",
-   "cn": false
-  },
-  {
-   "sector": "infra",
-   "kind": "新闻",
-   "title": "澳大利亚基建项目储备达 2,420 亿澳元",
-   "source": "Emu Money",
-   "url": "https://emumoney.com.au/news/20260407-infrastructure-pipeline-record-spending",
-   "date": "2026-04-07",
-   "added": "2026-10-07",
-   "cn": false
-  },
-  {
-   "sector": "general",
-   "kind": "政策",
-   "title": "澳储行加息至 4.60%，年内第四次上调现金利率",
-   "source": "Reserve Bank of Australia",
-   "url": "https://www.rba.gov.au/media-releases/2026/mr-26-27.html",
-   "date": "2026-09-29",
-   "added": "2026-10-07",
-   "cn": true
-  },
-  {
-   "sector": "ev",
-   "kind": "新闻",
-   "title": "VFACTS：9 月澳大利亚电动汽车销量保持强劲",
-   "source": "GoAuto",
-   "url": "https://www.goauto.com.au/news/vfacts/sales-2026/2026-10-06/100649.html",
-   "date": "2026-10-06",
-   "added": "2026-10-07",
-   "cn": false
-  },
-  {
-   "sector": "ev",
-   "kind": "新闻",
-   "title": "比亚迪、特斯拉、吉利领跑，澳电动车销量再超汽油车",
-   "source": "The Driven",
-   "url": "https://thedriven.io/2026/10/06/evs-outsell-petrol-cars-again-and-account-for-nearly-one-in-four-new-car-sales-led-by-byd-tesla-and-geely/",
-   "date": "2026-10-06",
-   "added": "2026-10-07",
-   "cn": false
   }
  ]
 }

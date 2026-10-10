@@ -1,6 +1,16 @@
 {
- "updated": "2026-10-09",
+ "updated": "2026-10-11",
  "items": [
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "北部湾港汽车出口破纪录：2727台中国汽车单航次发往阿曼杜库姆港",
+   "source": "同花顺财经",
+   "url": "https://stock.10jqka.com.cn/20261009/c680511519.shtml",
+   "date": "2026-10-09",
+   "added": "2026-10-11",
+   "cn": true
+  },
   {
    "sector": "infra",
    "kind": "新闻",

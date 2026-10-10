@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10",
+ "updated": "2026-10-11",
  "items": [
   {
    "sector": "industry",
@@ -19,6 +19,16 @@
    "url": "https://www.chinanews.com.cn/gj/2026/10-07/10708566.shtml",
    "date": "2026-10-07",
    "added": "2026-10-10",
+   "cn": true
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "中企承建柬埔寨1551号公路项目竣工通车",
+   "source": "中国新闻网",
+   "url": "https://www.chinanews.com.cn/aseaninfo/2026/10-01/10706936.shtml",
+   "date": "2026-10-01",
+   "added": "2026-10-11",
    "cn": true
   },
   {

@@ -1,6 +1,16 @@
 {
- "updated": "2026-10-07",
+ "updated": "2026-10-11",
  "items": [
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "泰晶科技：拟投不超4000万美元设越南子公司并建生产基地",
+   "source": "财闻网",
+   "url": "https://www.caiwennews.com/article/1641273.shtml",
+   "date": "2026-10-08",
+   "added": "2026-10-11",
+   "cn": true
+  },
   {
    "sector": "trade",
    "kind": "新闻",

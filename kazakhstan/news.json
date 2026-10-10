@@ -1,6 +1,16 @@
 {
- "updated": "2026-10-10",
+ "updated": "2026-10-11",
  "items": [
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "Logistics base boosts Sino-Central Asian connectivity",
+   "source": "China Daily",
+   "url": "https://www.chinadaily.com.cn/a/202610/06/WS6ac42cd6e4b06d4aa05616aa.html",
+   "date": "2026-10-06",
+   "added": "2026-10-11",
+   "cn": true
+  },
   {
    "sector": "general",
    "kind": "新闻",

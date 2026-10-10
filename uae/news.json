@@ -1,6 +1,16 @@
 {
- "updated": "2026-10-07",
+ "updated": "2026-10-11",
  "items": [
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "中铁国际承建阿联酋铁路车站三站全部投运",
+   "source": "新浪财经（见道网）",
+   "url": "https://finance.sina.com.cn/stock/relnews/hk/2026-10-09/doc-iniurmnf6861012.shtml",
+   "date": "2026-10-09",
+   "added": "2026-10-11",
+   "cn": true
+  },
   {
    "sector": "industry",
    "kind": "政策",

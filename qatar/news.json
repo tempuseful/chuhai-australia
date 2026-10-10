@@ -1,6 +1,16 @@
 {
- "updated": "2026-10-09",
+ "updated": "2026-10-11",
  "items": [
+  {
+   "sector": "finance",
+   "kind": "新闻",
+   "title": "QatarEnergy Secures $3 Billion Loan From Chinese Banks as LNG Exports Stall",
+   "source": "OilPrice.com",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/QatarEnergy-Secures-3-Billion-Loan-From-Chinese-Banks-as-LNG-Exports-Stall.html",
+   "date": "2026-10-07",
+   "added": "2026-10-11",
+   "cn": false
+  },
   {
    "sector": "infra",
    "kind": "新闻",

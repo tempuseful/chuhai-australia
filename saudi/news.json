@@ -1,6 +1,16 @@
 {
- "updated": "2026-10-07",
+ "updated": "2026-10-11",
  "items": [
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "Gotion wins 6 GWh Saudi battery storage deal",
+   "source": "BEST Magazine",
+   "url": "https://www.bestmag.co.uk/gotion-wins-6-gwh-saudi-battery-storage-deal/",
+   "date": "2026-10-05",
+   "added": "2026-10-11",
+   "cn": false
+  },
   {
    "sector": "industry",
    "kind": "新闻",

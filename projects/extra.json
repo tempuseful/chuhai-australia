@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10",
+ "updated": "2026-10-11",
  "items": [
   {
    "id": "auto-idn-20261009-1",
@@ -29,6 +29,118 @@
    "note": "根据公开报道自动整理，跟进分按阶段统一赋值。",
    "lat": 0.45,
    "lng": 127.95
+  },
+  {
+   "id": "auto-uae-20261009-1",
+   "country": "阿联酋",
+   "city": "阿布扎比、迪拜、富查伊拉",
+   "name": "阿提哈德铁路三座车站",
+   "contractor": "中国中铁",
+   "company": "中铁国际（中国中铁）",
+   "owner": "未披露",
+   "stage": "运营/收尾",
+   "informationDate": "2026-10-09",
+   "eventDate": "2026-10-09",
+   "source": "https://finance.sina.com.cn/stock/relnews/hk/2026-10-09/doc-iniurmnf6861012.shtml",
+   "sources": [
+    {
+     "name": "新浪财经（见道网）",
+     "url": "https://finance.sina.com.cn/stock/relnews/hk/2026-10-09/doc-iniurmnf6861012.shtml"
+    }
+   ],
+   "type": "铁路车站 / 3座 / 总建筑面积超2万平方米",
+   "value": "不详",
+   "priority": "A",
+   "score": 80,
+   "need": "尚未评估。",
+   "window": "持续跟踪",
+   "action": "核实项目最新进展，以及分包和采购窗口。",
+   "note": "根据公开报道自动整理，跟进分按阶段统一赋值。",
+   "lat": 25.2,
+   "lng": 55.27
+  },
+  {
+   "id": "auto-ksa-20261005-1",
+   "country": "沙特",
+   "city": "Al Muwayah、Haden、Al Kahafa",
+   "name": "SPPC首个电网级储能项目G1标段",
+   "contractor": "国轩高科",
+   "company": "国轩高科（Gotion High-Tech）",
+   "owner": "沙特电力采购公司（SPPC）",
+   "stage": "新中标",
+   "informationDate": "2026-10-05",
+   "eventDate": "2026-10-05",
+   "source": "https://www.bestmag.co.uk/gotion-wins-6-gwh-saudi-battery-storage-deal/",
+   "sources": [
+    {
+     "name": "BEST Magazine",
+     "url": "https://www.bestmag.co.uk/gotion-wins-6-gwh-saudi-battery-storage-deal/"
+    }
+   ],
+   "type": "电网侧储能 / 6GWh（3处各500MW/2GWh）",
+   "value": "约11.6亿美元",
+   "priority": "S",
+   "score": 92,
+   "need": "尚未评估。",
+   "window": "持续跟踪",
+   "action": "核实项目最新进展，以及分包和采购窗口。",
+   "note": "根据公开报道自动整理，跟进分按阶段统一赋值。"
+  },
+  {
+   "id": "auto-khm-20261001-1",
+   "country": "柬埔寨",
+   "city": "马德望省、菩萨省、国公省",
+   "name": "1551号公路（NR10）",
+   "contractor": "中国路桥",
+   "company": "中国路桥工程有限责任公司",
+   "owner": "未披露",
+   "stage": "运营/收尾",
+   "informationDate": "2026-10-01",
+   "eventDate": "2026-10-01",
+   "source": "https://www.chinanews.com.cn/aseaninfo/2026/10-01/10706936.shtml",
+   "sources": [
+    {
+     "name": "中国新闻网",
+     "url": "https://www.chinanews.com.cn/aseaninfo/2026/10-01/10706936.shtml"
+    }
+   ],
+   "type": "公路 / 198.5公里",
+   "value": "不详",
+   "priority": "A",
+   "score": 80,
+   "need": "尚未评估。",
+   "window": "持续跟踪",
+   "action": "核实项目最新进展，以及分包和采购窗口。",
+   "note": "根据公开报道自动整理，跟进分按阶段统一赋值。",
+   "lat": 12.53,
+   "lng": 103.92
+  },
+  {
+   "id": "auto-vnm-20261008-1",
+   "country": "越南",
+   "city": "地点待核",
+   "name": "泰晶科技越南生产基地",
+   "contractor": "泰晶科技",
+   "company": "泰晶科技",
+   "owner": "未披露",
+   "stage": "规划/推动",
+   "informationDate": "2026-10-08",
+   "eventDate": "2026-10-08",
+   "source": "https://www.caiwennews.com/article/1641273.shtml",
+   "sources": [
+    {
+     "name": "财闻网",
+     "url": "https://www.caiwennews.com/article/1641273.shtml"
+    }
+   ],
+   "type": "制造设厂 / 投资不超4000万美元",
+   "value": "投资总额不超4000万美元",
+   "priority": "S",
+   "score": 90,
+   "need": "尚未评估。",
+   "window": "持续跟踪",
+   "action": "核实项目最新进展，以及分包和采购窗口。",
+   "note": "根据公开报道自动整理，跟进分按阶段统一赋值。"
   }
  ]
 }
