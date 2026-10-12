@@ -75,7 +75,7 @@ for f in sorted(glob.glob(os.path.join(R, "compare", "*.json"))):
 </div></header>
 <main class="wrap">
 <div class="hero">
-  <div class="kicker">{c["title"]} · 数据截至 2026-10-07</div>
+  <div class="kicker">{c["title"]} · 数据截至 {c.get("asof","2026-10-07")}</div>
   <h1>{c["h1"]}</h1>
   <p class="lead">{c["lead"]}</p>
 </div>
@@ -94,7 +94,7 @@ secs = []
 for key, cn, en, names in REGIONS:
     ready = [metas[n] for n in names if n in metas]
     soon = [n for n in names if n not in metas]
-    h = f'<section class="region" id="{key}"><div class="sh"><span class="tag">{en}</span><h2>{cn}</h2>{f'<a class="cmplink" href="/{cmps[key]["slug"]}/">六国对比表 →</a>' if key in cmps else ""}</div>'
+    h = f'<section class="region" id="{key}"><div class="sh"><span class="tag">{en}</span><h2>{cn}</h2>{f'<a class="cmplink" href="/{cmps[key]["slug"]}/">{"一二三四五六七八九十"[len(cmps[key]["cols"])-1]}国对比表 →</a>' if key in cmps else ""}</div>'
     if ready:
         h += '<div class="cards">' + "".join(
             f'<a class="card" href="/{m["slug"]}/"><div class="cn">{flag(m["name"])}{m["name"]}<small>{m["code"]} DESK</small></div><p>{m["card"]["blurb"]}</p><dl>'

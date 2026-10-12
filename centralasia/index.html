@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>中亚五国对比</title>
+<meta name="description" content="五国都允许外资独资、都只能租地，外籍员工都要拿许可或配额。差别在税负高低、本币能不能换成美元、是不是欧亚经济联盟成员，以及中企在当地的生意体量：哈萨克斯坦盘子最大，乌兹别克斯坦增长最快，吉尔吉斯斯坦做转运，塔吉克斯坦和土库曼斯坦门槛更高。">
+<link rel="stylesheet" href="/fonts/fonts.css">
+<style>
+/* 布局：终端式行情带 + 财经头版。全宽黑底栏目条分节，数据用等宽字，标题用重磅宋体 */
+:root{
+  --bg:#07090d; --panel:#0e1219; --panel2:#141a24; --line:#232b38;
+  --fg:#e9edf3; --muted:#8b96a8; --amber:#ffa028; --amber-ink:#07090d;
+  --up:#2fd08a; --down:#ff5a5f; --blue:#4aa8ff;
+  --serif:"Noto Serif SC","Songti SC","Source Han Serif SC","SimSun",serif;
+  --sans:"PingFang SC","HarmonyOS Sans SC","Microsoft YaHei","Noto Sans CJK SC","Noto Sans SC",system-ui,sans-serif;
+  --mono:"IBM Plex Mono","SFMono-Regular",Menlo,Consolas,monospace;
+  color-scheme:dark;
+}
+@media (prefers-color-scheme: light){ :root:not([data-theme="dark"]){
+  --bg:#f3f4f6; --panel:#ffffff; --panel2:#e9ecf1; --line:#cfd5de;
+  --fg:#0b0f16; --muted:#566173; --amber:#b85c00; --amber-ink:#ffffff;
+  --up:#0a7a4b; --down:#c22b30; --blue:#0b5cad; color-scheme:light } }
+:root[data-theme="light"]{
+  --bg:#f3f4f6; --panel:#ffffff; --panel2:#e9ecf1; --line:#cfd5de;
+  --fg:#0b0f16; --muted:#566173; --amber:#b85c00; --amber-ink:#ffffff;
+  --up:#0a7a4b; --down:#c22b30; --blue:#0b5cad; color-scheme:light }
+
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--bg);color:var(--fg);font-family:var(--sans);font-size:15px;line-height:1.75;margin:0}
+a{color:var(--blue);text-decoration:none} a:hover{text-decoration:underline}
+a:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+.wrap{max-width:1180px;margin:0 auto;padding-inline:20px}
+.num{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.up{color:var(--up)} .down{color:var(--down)} .am{color:var(--amber)}
+
+/* 顶栏 */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;gap:20px;flex-wrap:wrap;padding-block:10px}
+.brand{font-family:var(--serif);font-weight:700;font-size:20px;letter-spacing:.04em;display:flex;align-items:center;gap:10px}
+.brand b{background:var(--amber);color:var(--amber-ink);font-family:var(--mono);font-size:12px;font-weight:600;padding:2px 7px;letter-spacing:.08em}
+.nav{display:flex;gap:16px;flex-wrap:wrap;font-size:13px;margin-left:auto}
+.nav a{color:var(--muted)} .nav a:hover{color:var(--fg);text-decoration:none}
+
+/* 行情带 */
+.tape{background:var(--panel);border-bottom:1px solid var(--line);overflow:hidden;white-space:nowrap}
+.tape-in{display:inline-flex;gap:36px;padding:8px 18px;animation:roll 60s linear infinite}
+.tape:hover .tape-in{animation-play-state:paused}
+.tape span{font-size:12.5px;color:var(--muted)} .tape span i{font-style:normal;font-family:var(--mono);color:var(--fg);margin-left:8px}
+@keyframes roll{to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.tape-in{animation:none}.tape{overflow-x:auto}}
+
+/* 头版 */
+.hero{padding-block:44px 30px;border-bottom:1px solid var(--line)}
+.kicker{font-family:var(--mono);font-size:12px;letter-spacing:.14em;color:var(--amber);text-transform:uppercase}
+h1{font-family:var(--serif);font-weight:700;font-size:clamp(30px,5vw,54px);line-height:1.22;margin:12px 0 16px;text-wrap:balance;letter-spacing:.01em}
+.lead{max-width:42em;color:var(--muted);font-size:16.5px;line-height:1.85;margin:0}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:30px;border-top:2px solid var(--amber)}
+.stat{padding:16px 16px 14px 0;border-right:1px solid var(--line);min-width:0}
+.stat+.stat{padding-left:16px} .stat:last-child{border-right:0}
+.stat .v{font-family:var(--mono);font-size:clamp(24px,3.4vw,36px);font-weight:600;line-height:1.1}
+.stat .l{font-size:12.5px;color:var(--muted);margin-top:6px;line-height:1.5}
+
+/* 分节 */
+section{padding-block:38px;border-bottom:1px solid var(--line)}
+.sh{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin-bottom:20px}
+.sh h2{font-family:var(--serif);font-weight:700;font-size:26px;margin:0;line-height:1.25}
+.sh .tag{font-family:var(--mono);font-size:11.5px;letter-spacing:.12em;color:var(--amber-ink);background:var(--amber);padding:2px 8px}
+.sh p{margin:0;color:var(--muted);font-size:13.5px;flex-basis:100%}
+.cols{display:grid;grid-template-columns:1.1fr .9fr;gap:28px}
+.cols>*{min-width:0}
+h3{font-size:15px;margin:0 0 10px;font-weight:700}
+.note{font-size:12.5px;color:var(--muted);margin-top:10px}
+
+/* 指标表 */
+.tblw{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th{font-family:var(--mono);font-size:11.5px;font-weight:500;letter-spacing:.08em;color:var(--muted);text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);white-space:nowrap}
+td{padding:10px;border-bottom:1px solid var(--line);vertical-align:top}
+td.r,th.r{text-align:right} td.num{white-space:nowrap}
+tbody tr:hover{background:var(--panel)}
+td strong{font-weight:700}
+
+/* 贸易图 */
+.bars{display:grid;gap:12px}
+.yr{display:grid;grid-template-columns:44px 1fr;gap:10px;align-items:center}
+.yr>span{font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+.bar{display:flex;align-items:center;gap:8px;margin:2px 0}
+.bar i{display:block;height:11px;min-width:2px}
+.bar.e i{background:var(--amber)} .bar.m i{background:var(--blue)}
+.bar b{font-family:var(--mono);font-size:12px;font-weight:500}
+.legend{display:flex;gap:18px;font-size:12.5px;color:var(--muted);margin-bottom:12px;flex-wrap:wrap}
+.legend i{display:inline-block;width:10px;height:10px;margin-right:6px}
+
+/* 痛点 */
+.pains{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+.pain{background:var(--bg);padding:20px;min-width:0}
+.pain .k{font-family:var(--mono);font-size:22px;font-weight:600;color:var(--amber);line-height:1.2}
+.pain h3{font-family:var(--serif);font-size:18px;font-weight:700;margin:8px 0 6px}
+.pain p{margin:0;font-size:14.5px;line-height:1.8;color:var(--muted)}
+.pain p.do{color:var(--fg);margin-top:10px;padding-top:10px;border-top:1px dashed var(--line)}
+.pain p.do::before{content:"对策";font-family:var(--mono);font-size:11px;letter-spacing:.1em;color:var(--up);margin-right:8px}
+
+/* 路线 */
+.steps{list-style:none;margin:0;padding:0;counter-reset:s;display:grid;grid-template-columns:repeat(2,1fr);gap:0 32px}
+.steps li{counter-increment:s;display:grid;grid-template-columns:42px 1fr;gap:12px;padding:16px 0;border-top:1px solid var(--line);min-width:0}
+.steps li::before{content:counter(s,decimal-leading-zero);font-family:var(--mono);font-size:20px;font-weight:600;color:var(--amber);line-height:1.3}
+.steps h3{margin-bottom:4px;font-family:var(--serif);font-size:17px} .steps p{margin:0;font-size:14.5px;line-height:1.8;color:var(--muted)}
+
+/* 赛道 */
+.tracks{display:grid;grid-template-columns:repeat(2,1fr);gap:0 32px}
+.track{padding:16px 0;border-top:1px solid var(--line);min-width:0}
+.track h3{font-family:var(--serif);font-size:17px;font-weight:700}
+.track p{margin:0;font-size:14.5px;line-height:1.8;color:var(--muted)}
+.heat{font-family:var(--mono);font-size:11px;letter-spacing:.08em;padding:1px 6px;border:1px solid currentColor;margin-left:8px;vertical-align:2px;white-space:nowrap}
+
+/* 动态 */
+.feedhead{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:34px 0 14px;padding-top:18px;border-top:2px solid var(--amber)}
+.feedhead h3{font-family:var(--serif);font-size:20px;font-weight:700;margin:0}
+.live{font-family:var(--mono);font-size:11px;letter-spacing:.1em;color:var(--up);display:inline-flex;align-items:center;gap:6px}
+.live::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--up);animation:blink 1.6s infinite}
+@keyframes blink{50%{opacity:.25}}
+@media (prefers-reduced-motion:reduce){.live::before{animation:none}}
+.feedhead .upd{font-family:var(--mono);font-size:12px;color:var(--muted);margin-left:auto}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.chips button{font:inherit;font-size:13px;background:transparent;color:var(--muted);border:1px solid var(--line);padding:5px 12px;cursor:pointer}
+.chips button:hover{color:var(--fg);border-color:var(--muted)}
+.chips button[aria-pressed="true"]{background:var(--amber);color:var(--amber-ink);border-color:var(--amber)}
+.chips button:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+.feed{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:0 40px}
+.feed li{min-width:0}
+.feed li{display:grid;grid-template-columns:92px 1fr;gap:14px;padding:13px 0;border-bottom:1px solid var(--line)}
+.feed time{font-family:var(--mono);font-size:12.5px;color:var(--muted);padding-top:2px}
+.feed .t{font-family:var(--serif);font-weight:700;color:var(--fg);font-size:16px;line-height:1.55}
+.feed a.t:hover{color:var(--amber);text-decoration:none}
+.feed .m{font-size:12px;color:var(--muted);margin-top:4px;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.feed .k{font-family:var(--mono);font-size:11px;letter-spacing:.06em;border:1px solid currentColor;padding:0 5px}
+.feed .k.pol{color:var(--amber)} .feed .k.news{color:var(--blue)}
+.more{font:inherit;font-size:13px;margin-top:14px;background:transparent;color:var(--fg);border:1px solid var(--line);padding:8px 18px;cursor:pointer}
+.more:hover{border-color:var(--amber);color:var(--amber)}
+.more:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+.feedmsg{padding:18px 0;color:var(--muted);font-size:13.5px}
+@media (max-width:860px){.feed{grid-template-columns:1fr}}
+@media (max-width:480px){.feed li{grid-template-columns:1fr;gap:2px}}
+
+.links{display:grid;grid-template-columns:repeat(3,1fr);gap:0 28px}
+.links div{padding:12px 0;border-top:1px solid var(--line);font-size:13.5px;min-width:0}
+.links span{display:block;color:var(--muted);font-size:12.5px}
+footer{padding-block:28px 48px;font-size:12.5px;color:var(--muted)}
+footer ol{padding-left:20px;margin:8px 0 16px}
+
+@media (max-width:860px){
+  .cols,.steps,.tracks{grid-template-columns:1fr}
+  .pains{grid-template-columns:1fr}
+  .links{grid-template-columns:1fr 1fr}
+  .stats{grid-template-columns:1fr 1fr}
+  .stat{border-bottom:1px solid var(--line)} .stat:nth-child(2){border-right:0} .stat:nth-child(3){padding-left:0}
+  .nav{margin-left:0;gap:12px}
+}
+@media (max-width:480px){.links{grid-template-columns:1fr}}
+
+/* 多国：返回链接、门户首页 */
+.back{font-size:13px;color:var(--muted);border:1px solid var(--line);padding:3px 10px;white-space:nowrap}
+.back:hover{color:var(--fg);border-color:var(--muted);text-decoration:none}
+.region{padding-block:30px;border-bottom:1px solid var(--line)}
+.region h2{font-family:var(--serif);font-weight:700;font-size:24px;margin:0}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}
+.card{background:var(--bg);border:1px solid var(--line);padding:18px 20px;min-width:0;display:block;color:var(--fg)}
+a.card:hover{background:var(--panel);text-decoration:none}
+.card .cn{font-family:var(--serif);font-weight:700;font-size:21px;display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.card .cn small{font-family:var(--mono);font-size:11.5px;font-weight:500;letter-spacing:.1em;color:var(--amber)}
+.card p{margin:8px 0 12px;font-size:13.5px;color:var(--muted);line-height:1.7}
+.card dl{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:0}
+.card dt{font-size:11.5px;color:var(--muted)} .card dd{margin:2px 0 0;font-family:var(--mono);font-size:15px;font-weight:600}
+.card.soon{color:var(--muted)} .card.soon .cn{font-size:17px;color:var(--muted)}
+.card.soon .cn small{color:var(--muted)}
+.cards.mini{grid-template-columns:repeat(5,1fr);gap:8px;margin-top:10px} .cards.mini .card{padding:12px 14px}
+@media (max-width:860px){.cards{grid-template-columns:1fr}.cards.mini{grid-template-columns:repeat(2,1fr)}}
+
+.cmplink{font-family:var(--mono);font-size:12.5px;color:var(--amber);text-decoration:none;border-bottom:1px solid currentColor;margin-left:auto}
+table.cmp{min-width:980px}
+table.cmp th a{color:inherit;text-decoration:none;border-bottom:1px solid var(--line)}
+table.cmp td{vertical-align:top;font-size:13px}
+table.cmp td:first-child,table.cmp th:first-child{position:sticky;left:0;background:var(--bg);white-space:nowrap;font-weight:600}
+table.cmp tr.grp td{font-family:var(--mono);font-size:11.5px;letter-spacing:.1em;color:var(--amber);padding-top:22px;border-bottom:1px solid var(--amber)}
+table.cmp{table-layout:fixed;width:100%}
+table.cmp td,table.cmp th{white-space:normal;word-break:break-word}
+table.cmp td:first-child,table.cmp th:first-child{width:128px;white-space:normal}
+
+.alert{margin:18px 0 0;padding:10px 14px;border-left:3px solid var(--amber);background:var(--panel);font-size:13.5px;color:var(--muted);max-width:820px}
+.alert b{font-family:var(--mono);font-size:11.5px;letter-spacing:.1em;color:var(--amber);margin-right:10px}
+
+.card .cn{align-items:center}
+.flag{width:28px;height:21px;flex:none;border:1px solid var(--line);object-fit:cover}
+.card.soon .flag{width:22px;height:16.5px;opacity:.75}
+#hr td.num,table.cmp td.num{font-family:inherit;font-variant-numeric:tabular-nums;letter-spacing:0}
+.filters{display:flex;flex-wrap:wrap;gap:12px;align-items:flex-end;margin-bottom:14px}
+.filters label{display:flex;flex-direction:column;gap:4px;font-size:11.5px;color:var(--muted);font-family:var(--mono);letter-spacing:.06em}
+.filters select,.filters button{font:inherit;font-family:var(--sans);font-size:13.5px;letter-spacing:0;color:var(--fg);background:var(--panel);border:1px solid var(--line);padding:7px 10px;min-width:132px;border-radius:0}
+.filters button{min-width:0;cursor:pointer;color:var(--amber)}
+#mapbox{position:relative;border:1px solid var(--line);background:var(--panel)}
+#map{display:block;width:100%;height:auto;cursor:grab;touch-action:none}
+#map .land{fill:var(--panel2);stroke:var(--line);stroke-width:.6}
+#map .land.live{fill:color-mix(in srgb,var(--amber) 16%,var(--panel2))}
+#map circle{cursor:pointer;fill-opacity:.88}
+#map circle.on{stroke:var(--fg)!important;fill-opacity:1}
+.zoomer{position:absolute;top:10px;right:10px;display:flex;flex-direction:column;gap:4px}
+.zoomer button{width:30px;height:30px;font-size:18px;line-height:1;color:var(--fg);background:var(--bg);border:1px solid var(--line);cursor:pointer}
+#tip{position:absolute;pointer-events:none;background:var(--bg);border:1px solid var(--line);padding:8px 10px;font-size:12.5px;line-height:1.55;width:220px;z-index:2}
+#tip b{display:block;font-size:13.5px} #tip span{display:block;color:var(--muted)}
+#legend{position:absolute;left:10px;bottom:10px;display:flex;flex-wrap:wrap;gap:4px 14px;font-size:12px;color:var(--muted);background:var(--bg);border:1px solid var(--line);padding:5px 10px}
+.st{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px;vertical-align:baseline}
+table.proj td{vertical-align:top;font-size:13.5px}
+table.proj td small{display:block;color:var(--muted);font-size:12px}
+table.proj td:nth-child(5){white-space:nowrap}
+table.proj tbody tr{cursor:pointer} table.proj tbody tr:hover{background:var(--panel)}
+table.proj tbody tr.on{background:var(--panel);box-shadow:inset 3px 0 0 var(--amber)}
+.maplink{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:26px;padding:16px 20px;border:1px solid var(--line);background:var(--panel);color:var(--fg)}
+a.maplink:hover{text-decoration:none;border-color:var(--amber)}
+.maplink b{font-family:var(--serif);font-size:19px} .maplink span{color:var(--muted);font-size:13.5px} .maplink em{font-style:normal;font-family:var(--mono);font-size:12.5px;color:var(--amber)}
+
+#mapbox{background:#04101d}
+#map .shade{fill:#04101d;opacity:.28}
+#map .land{fill:none;stroke:rgba(255,255,255,.28)}
+#map .land.live{fill:rgba(255,170,60,.13);stroke:rgba(255,190,90,.9)}
+#map circle{fill-opacity:1;filter:drop-shadow(0 0 1.5px rgba(0,0,0,.8))}
+
+#mapbox{--amber:#ffa028;--up:#2fd08a;--down:#ff5a5f;--blue:#4aa8ff;--muted:#c9d1dc}
+#legend,#tip{background:rgba(4,16,29,.88);border-color:rgba(255,255,255,.18);color:#e9edf3}
+#legend{color:#c9d1dc} #tip b{color:#fff}
+.zoomer button{background:rgba(4,16,29,.88);border-color:rgba(255,255,255,.25);color:#fff}
+#map{aspect-ratio:1000/520}
+
+#map .labels{pointer-events:none}
+#map .labels text{paint-order:stroke;stroke:rgba(4,16,29,.85);stroke-width:3px;stroke-linejoin:round;font-family:var(--sans)}
+#map .labels g,#map .labels text.ctry{transition:opacity .25s}
+#map .reg text{text-anchor:middle;fill:#ffc46b}
+#map .reg .en{font-family:var(--serif);font-size:13px;letter-spacing:.14em;font-weight:700}
+#map .reg .zh{font-size:12px;fill:#fff;font-weight:600}
+#map .reg .n{font-family:var(--mono);font-size:15px;font-weight:600}
+#map .ctry{text-anchor:middle;fill:#ffe3b0;font-size:13px;font-weight:600;letter-spacing:.08em}
+#map .city text{fill:#fff;font-size:11.5px}
+#map .city rect{fill:#fff;stroke:rgba(4,16,29,.9);stroke-width:1px}
+/* 表格内的数值单元格常夹中文，统一用正文字体，等宽数字保持对齐 */
+td.num,th.num{font-family:inherit;font-variant-numeric:tabular-nums;letter-spacing:0}
+/* 用工表：左列标签不折行，右列长说明正常换行并左对齐 */
+#hr td.num{white-space:normal;text-align:left}
+#hr tbody td:first-child{white-space:nowrap;width:1%;padding-right:18px;vertical-align:top}
+#hr td{vertical-align:top}
+/* 表格数值单元格允许换行；税务和用工表左列标签不折行 */
+td.num{white-space:normal}
+#tax tbody td:first-child,#hr tbody td:first-child{white-space:nowrap;vertical-align:top}
+#tax td{vertical-align:top}
+@media (max-width:700px){#tax tbody td:first-child{white-space:normal;min-width:5.5em}#tax td{overflow-wrap:anywhere}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <div class="brand">中亚五国对比 <b>C5 DESK</b></div>
+  <a class="back" href="/">全部国家</a>
+  <nav class="nav" aria-label="国家"><a href="/kazakhstan/">哈萨克斯坦</a><a href="/uzbekistan/">乌兹别克斯坦</a><a href="/kyrgyzstan/">吉尔吉斯斯坦</a><a href="/tajikistan/">塔吉克斯坦</a><a href="/turkmenistan/">土库曼斯坦</a></nav>
+</div></header>
+<main class="wrap">
+<div class="hero">
+  <div class="kicker">中亚五国对比 · 数据截至 2026-10-12</div>
+  <h1>中亚五国放在一张表里：税率、汇率、用工、生意规模</h1>
+  <p class="lead">五国都允许外资独资、都只能租地，外籍员工都要拿许可或配额。差别在税负高低、本币能不能换成美元、是不是欧亚经济联盟成员，以及中企在当地的生意体量：哈萨克斯坦盘子最大，乌兹别克斯坦增长最快，吉尔吉斯斯坦做转运，塔吉克斯坦和土库曼斯坦门槛更高。</p>
+</div>
+<section>
+  <div class="tblw"><table class="cmp"><thead><tr><th>指标</th><th><a href="/kazakhstan/">哈萨克斯坦</a></th><th><a href="/uzbekistan/">乌兹别克斯坦</a></th><th><a href="/kyrgyzstan/">吉尔吉斯斯坦</a></th><th><a href="/tajikistan/">塔吉克斯坦</a></th><th><a href="/turkmenistan/">土库曼斯坦</a></th></tr></thead><tbody><tr class="grp"><td colspan="6">市场</td></tr><tr><td>GDP（亿美元）</td><td class="num">2,912</td><td class="num">约 1,150</td><td class="num">175</td><td class="num">142</td><td class="num">606（世界银行）</td></tr><tr><td>人口</td><td class="num">2,037 万</td><td class="num">约 3,800 万</td><td class="num">728 万</td><td class="num">1,050 万</td><td class="num">约 706 万</td></tr><tr><td>人均 GDP（美元）</td><td class="num">14,444</td><td class="num">3,093</td><td class="num">2,419</td><td class="num">1,353</td><td class="num">8,572（世界银行）</td></tr><tr><td>主权评级</td><td class="num">BBB-（标普）</td><td class="num">BB / Ba2 / BB-</td><td class="num">B2 / B+</td><td class="num">B2 / B+</td><td class="num">BB-（惠誉）</td></tr><tr><td>汇率（兑 1 美元）</td><td class="num">453.6 坚戈，浮动</td><td class="num">11,847 苏姆</td><td class="num">87.45 索姆</td><td class="num">9.24 索莫尼</td><td class="num">3.50 马纳特，官方固定；据报道黑市约 19</td></tr><tr><td>通胀</td><td class="num">9.3%</td><td class="num">6.4%</td><td class="num">12%</td><td class="num">4.1%</td><td class="num">5.4%（国际货币基金组织估 2025 年）</td></tr><tr><td>基准利率</td><td class="num">16.25%</td><td class="num">14%</td><td class="num">12%</td><td class="num">7%</td><td class="num">无公开基准利率，贷款约 10%</td></tr><tr class="grp"><td colspan="6">税</td></tr><tr><td>企业所得税</td><td class="num">20%</td><td class="num">15%</td><td class="num">10%</td><td class="num">生产 13%，其他 18%</td><td class="num">本国企业 8%，外企常设机构 20%</td></tr><tr><td>增值税</td><td class="num">16%（2026 年由 12% 上调）</td><td class="num">12%</td><td class="num">12%，另征销售税 1%–5%</td><td class="num">14%（2027 年 13%）</td><td class="num">15%</td></tr><tr><td>个人所得税</td><td class="num">10% / 15%</td><td class="num">12%</td><td class="num">10%</td><td class="num">12%，非居民 20%</td><td class="num">10%</td></tr><tr><td>雇主社保/社会税</td><td class="num">社会税 6% + 社保 5% + 养老 3.5% + 医保 3%</td><td class="num">社会税 12%</td><td class="num">社保 2.25%（部分行业 17.25%）</td><td class="num">社会税 20%</td><td class="num">养老保险 20%</td></tr><tr><td>股息预提税（国内法 / 中X协定）</td><td class="num">15% / 10%</td><td class="num">10% / 10%</td><td class="num">10% / 10%</td><td class="num">12% / 5%–10%</td><td class="num">15% / 5%–10%</td></tr><tr><td>特许权使用费预提税（国内法 / 协定）</td><td class="num">15% / 10%</td><td class="num">20% / 10%</td><td class="num">10% / 10%</td><td class="num">15% / 8%</td><td class="num">15% / 10%</td></tr><tr class="grp"><td colspan="6">准入</td></tr><tr><td>外资持股</td><td class="num">一般行业最高 100%</td><td class="num">一般行业最高 100%</td><td class="num">一般行业最高 100%</td><td class="num">一般行业最高 100%</td><td class="num">最高 100%，大事须总统批准</td></tr><tr><td>土地</td><td class="num">外国人不能买地，农地也不能租</td><td class="num">只能租，最长 49 年</td><td class="num">农地不能买，可租</td><td class="num">只能租</td><td class="num">只能租</td></tr><tr><td>经济集团</td><td class="num">欧亚经济联盟、世贸成员</td><td class="num">非欧亚经济联盟；入世目标 2026 年底</td><td class="num">欧亚经济联盟、世贸成员</td><td class="num">世贸成员，非欧亚经济联盟</td><td class="num">世贸观察员，非欧亚经济联盟</td></tr><tr><td>优惠区域</td><td class="num">经济特区按投资额免税 7–25 年</td><td class="num">自由经济区按投资额免税 3–10 年</td><td class="num">比什凯克自由经济区除社保外免全部税</td><td class="num">自由经济区除社会税外免全部税</td><td class="num">自由经济区尚未落地</td></tr><tr><td>外汇</td><td class="num">购汇须凭合同，大额汇出要报告</td><td class="num">汇出凭合同或利润证明，人民币不能直接兑换</td><td class="num">利润可自由汇出</td><td class="num">完税后利润可自由汇出</td><td class="num">马纳特很难换成美元</td></tr><tr class="grp"><td colspan="6">用工签证</td></tr><tr><td>外籍员工限制</td><td class="num">按配额；管理层本地人不少于 70%、专家技工不少于 90%</td><td class="num">建设期不限，运营后有比例要求</td><td class="num">按配额，2026 年全国约 5.2 万人</td><td class="num">外方与本地 1:9</td><td class="num">外籍员工不超过 10%</td></tr><tr><td>最低月薪</td><td class="num">8.5 万坚戈</td><td class="num">136 万苏姆</td><td class="num">3,280 索姆，社保按地区平均工资计</td><td class="num">1,300 索莫尼</td><td class="num">1,410 马纳特</td></tr><tr><td>中国公民入境</td><td class="num">互免签证，单次 30 天</td><td class="num">互免签证，单次 30 天</td><td class="num">须办签证，可申请电子签证</td><td class="num">须办签证，可申请电子签证</td><td class="num">须办签证，先批邀请函</td></tr><tr class="grp"><td colspan="6">中企生意（2024 年）</td></tr><tr><td>双边货物贸易（亿美元）</td><td class="num">438.2</td><td class="num">137.8</td><td class="num">227.1</td><td class="num">38.6</td><td class="num">106.5</td></tr><tr><td>中国出口（亿美元）</td><td class="num">279.6</td><td class="num">117.7</td><td class="num">199.1</td><td class="num">35.1</td><td class="num">10.3</td></tr><tr><td>中国进口（亿美元）</td><td class="num">158.6</td><td class="num">20.1</td><td class="num">28.0</td><td class="num">3.5</td><td class="num">96.2</td></tr><tr><td>新签工程合同（亿美元）</td><td class="num">41.9</td><td class="num">57.3</td><td class="num">11.4</td><td class="num">0.9</td><td class="num">5.9</td></tr><tr><td>中国直接投资存量（亿美元）</td><td class="num">61.8</td><td class="num">22.1</td><td class="num">13.7</td><td class="num">18.1</td><td class="num">2.4</td></tr><tr class="grp"><td colspan="6">一句话</td></tr><tr><td>适合谁</td><td class="num">过境物流、油气矿产、新能源、汽车，想进欧亚经济联盟市场的</td><td class="num">新能源、汽车、建材、工业园区，看重人口和增长的</td><td class="num">口岸物流、转口贸易、中吉乌铁路配套、水电和矿业</td><td class="num">有经验的矿企、水电和基建承包商</td><td class="num">天然气上游服务、油服设备和通信</td></tr><tr><td>最大的坑</td><td class="num">2026 年新税法改了税率和规则，坚戈波动大</td><td class="num">法律常被总统令改写，税务执法尺度不一</td><td class="num">转口生意有欧美二级制裁风险，金矿要让国家占股 30%</td><td class="num">塔阿边境安全形势严峻，经济靠侨汇</td><td class="num">马纳特换不成美元，利润出不来</td></tr></tbody></table></div>
+  <p class="note">口径：贸易、工程合同和投资存量为中国海关和商务部 2024 年数据；GDP、人口、人均 GDP 为 2024 年（乌兹别克斯坦人口为 2025 年，土库曼斯坦人口为 2023 年官方数）。汇率为各国央行或 tradingeconomics 2026 年 10 月 9–12 日官方价；通胀和基准利率为 2026 年最新公布值。各项细则见各国页面。</p>
+</section>
+</main>
+<footer class="wrap">
+  本页为公开信息整理，不构成法律、税务或投资意见。门槛和税率每年调整，具体交易请以官方最新文本和专业顾问意见为准。
+</footer>
+
+</body>
+</html>
