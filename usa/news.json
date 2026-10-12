@@ -1,0 +1,75 @@
+{
+ "updated": "2026-10-12",
+ "items": [
+  {
+   "sector": "trade",
+   "kind": "政策",
+   "title": "商务部公布中美贸易理事会和“300亿对300亿”对等降税框架有关情况",
+   "source": "新华网",
+   "url": "https://www.news.cn/world/20260928/392859a0445049cdbed598e6d2001bbb/c.html",
+   "date": "2026-09-28",
+   "added": "2026-10-12",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "中美达成八点成果共识",
+   "source": "中国外交部",
+   "url": "https://www.fmprc.gov.cn/zyxw/202609/t20260926_12031616.shtml",
+   "date": "2026-09-26",
+   "added": "2026-10-12",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "Presidential Proclamation Extends $100K H-1B Fee",
+   "source": "Mintz",
+   "url": "https://www.mintz.com/insights-center/viewpoints/2806/2026-09-23-presidential-proclamation-extends-100k-h-1b-fee",
+   "date": "2026-09-23",
+   "added": "2026-10-12",
+   "cn": false
+  },
+  {
+   "sector": "trade",
+   "kind": "政策",
+   "title": "美国将中企列入所谓涉疆法案实体清单 中方强烈谴责",
+   "source": "中国新闻网",
+   "url": "https://www.chinanews.com.cn/cj/2026/08-01/10670340.shtml",
+   "date": "2026-08-01",
+   "added": "2026-10-12",
+   "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "政策",
+   "title": "商务部新闻发言人就美发布“强迫劳动”301调查最终措施答记者问",
+   "source": "新华网",
+   "url": "https://www.news.cn/world/20260727/500fb0a095e84bd086aeed636a0dbd04/c.html",
+   "date": "2026-07-27",
+   "added": "2026-10-12",
+   "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "美最高法院裁定特朗普政府大规模关税违法",
+   "source": "中国日报网",
+   "url": "https://cn.chinadaily.com.cn/a/202602/21/WS6998f29aa310942cc49a0163.html",
+   "date": "2026-02-21",
+   "added": "2026-10-12",
+   "cn": true
+  },
+  {
+   "sector": "tech",
+   "kind": "新闻",
+   "title": "TikTok美国方案正式落地，字节跳动为合资公司最大单一股东",
+   "source": "第一财经",
+   "url": "https://www.yicai.com/news/103020241.html",
+   "date": "2026-01-23",
+   "added": "2026-10-12",
+   "cn": true
+  }
+ ]
+}

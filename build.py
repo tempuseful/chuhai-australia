@@ -13,10 +13,11 @@ REGIONS = [
     ("asean", "东盟十国", "ASEAN", ["新加坡", "马来西亚", "印度尼西亚", "泰国", "越南", "菲律宾", "柬埔寨", "老挝", "缅甸", "文莱"]),
     ("centralasia", "中亚五国", "CENTRAL ASIA", ["哈萨克斯坦", "乌兹别克斯坦", "吉尔吉斯斯坦", "塔吉克斯坦", "土库曼斯坦"]),
     ("oceania", "大洋洲", "OCEANIA", ["澳大利亚"]),
+    ("americas", "美洲", "AMERICAS", ["美国"]),
 ]
 
-FLAG = dict(zip("阿联酋 沙特阿拉伯 卡塔尔 科威特 阿曼 巴林 新加坡 马来西亚 印度尼西亚 泰国 越南 菲律宾 柬埔寨 老挝 缅甸 文莱 哈萨克斯坦 乌兹别克斯坦 吉尔吉斯斯坦 塔吉克斯坦 土库曼斯坦 澳大利亚".split(),
-                "ae sa qa kw om bh sg my id th vn ph kh la mm bn kz uz kg tj tm au".split()))
+FLAG = dict(zip("阿联酋 沙特阿拉伯 卡塔尔 科威特 阿曼 巴林 新加坡 马来西亚 印度尼西亚 泰国 越南 菲律宾 柬埔寨 老挝 缅甸 文莱 哈萨克斯坦 乌兹别克斯坦 吉尔吉斯斯坦 塔吉克斯坦 土库曼斯坦 澳大利亚 美国".split(),
+                "ae sa qa kw om bh sg my id th vn ph kh la mm bn kz uz kg tj tm au us".split()))
 flag = lambda n: f'<img class="flag" src="/flags/{FLAG[n]}.svg" alt="" width="28" height="21" loading="lazy">' if n in FLAG else ""
 
 def page(title, desc, body, script=""):
