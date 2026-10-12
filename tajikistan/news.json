@@ -1,0 +1,85 @@
+{
+ "updated": "2026-10-12",
+ "items": [
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "“中国公民暂勿前往”，外交部最新提醒",
+   "source": "光明网",
+   "url": "https://m.gmw.cn/2026-09/14/content_1304563720.htm",
+   "date": "2026-09-14",
+   "added": "2026-10-12",
+   "cn": true
+  },
+  {
+   "sector": "finance",
+   "kind": "新闻",
+   "title": "S&P Global Ratings Upgrades Tajikistan's Sovereign Credit Rating",
+   "source": "塔吉克斯坦国家银行",
+   "url": "https://nbt.tj/en/news/641251/",
+   "date": "2026-08-14",
+   "added": "2026-10-12",
+   "cn": false
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "Chinese laborers return to work on highway near Tajik-Afghan border",
+   "source": "Eurasianet",
+   "url": "https://eurasianet.org/chinese-laborers-return-to-work-on-highway-near-tajik-afghan-border",
+   "date": "2026-06-30",
+   "added": "2026-10-12",
+   "cn": false
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "卡拉苏口岸客货流量双增长",
+   "source": "扬子晚报网",
+   "url": "https://www.yzwb.net/news/yw/202605/t20260515_352884.html",
+   "date": "2026-05-15",
+   "added": "2026-10-12",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "习近平同塔吉克斯坦总统拉赫蒙会谈",
+   "source": "新华网",
+   "url": "https://www.news.cn/politics/leaders/20260512/da5c5875ba7644e2ba3e8e6ef16e1825/c.html",
+   "date": "2026-05-12",
+   "added": "2026-10-12",
+   "cn": true
+  },
+  {
+   "sector": "finance",
+   "kind": "新闻",
+   "title": "China increases investments in Tajikistan by 13% in 2025",
+   "source": "Interfax",
+   "url": "https://interfax.com/newsroom/top-stories/116302/",
+   "date": "2026-02-24",
+   "added": "2026-10-12",
+   "cn": false
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "Внешняя торговля Таджикистана выросла на 20,2%, достигнув $10,7 млрд в 2025 году",
+   "source": "Инвест-Форсайт / ТАСС",
+   "url": "https://investfuture.ru/articles/vneshnyaya-torgovlya-tadzhikistana-vyrosla-na-20-2-dostignuv-10-7-mlrd-v-2025-godu-3A910389F644900A43258D9C0048EDCB",
+   "date": "2026-02-12",
+   "added": "2026-10-12",
+   "cn": false
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "Beijing Urges Dushanbe to Strengthen Protection of Chinese Nationals, Advises Citizens to Leave High-Risk Border Areas",
+   "source": "Fergana",
+   "url": "https://en.fergana.agency/news/143518/",
+   "date": "2025-12-03",
+   "added": "2026-10-12",
+   "cn": false
+  }
+ ]
+}
