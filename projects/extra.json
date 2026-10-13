@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11",
+ "updated": "2026-10-14",
  "items": [
   {
    "id": "auto-idn-20261009-1",
@@ -137,6 +137,64 @@
    "value": "投资总额不超4000万美元",
    "priority": "S",
    "score": 90,
+   "need": "尚未评估。",
+   "window": "持续跟踪",
+   "action": "核实项目最新进展，以及分包和采购窗口。",
+   "note": "根据公开报道自动整理，跟进分按阶段统一赋值。"
+  },
+  {
+   "id": "auto-ksa-20261013-1",
+   "country": "沙特",
+   "city": "麦加地区（拉比格）",
+   "name": "拉比格2期联合循环电站扩建EPC",
+   "contractor": "中国电建",
+   "company": "中国电建、中国水电",
+   "owner": "Al-Morjan Two Electricity Company（项目公司）",
+   "informationDate": "2026-10-13",
+   "eventDate": "2026-10-13",
+   "source": "https://guest.meed.com/consortium-signs-epc-contract-for-rabigh-2-ipp-expansion/",
+   "sources": [
+    {
+     "name": "MEED",
+     "url": "https://guest.meed.com/consortium-signs-epc-contract-for-rabigh-2-ipp-expansion/"
+    }
+   ],
+   "type": "联合循环电站 / 规模待核",
+   "value": "不详",
+   "lat": 22.8,
+   "lng": 39.03,
+   "stage": "新中标",
+   "priority": "S",
+   "score": 92,
+   "need": "尚未评估。",
+   "window": "持续跟踪",
+   "action": "核实项目最新进展，以及分包和采购窗口。",
+   "note": "根据公开报道自动整理，跟进分按阶段统一赋值。"
+  },
+  {
+   "id": "auto-uae-20261013-1",
+   "country": "阿联酋",
+   "city": "迪拜",
+   "name": "马克图姆国际机场西航站楼下部结构",
+   "contractor": "中国土木",
+   "company": "中国土木工程集团有限公司",
+   "owner": "Dubai Aviation Engineering Projects",
+   "informationDate": "2026-10-13",
+   "eventDate": "2026-10-13",
+   "source": "https://meconstructionnews.com/69409/china-abu-dhabi-consortium-wins-us-2-7bn-airport-terminal-deal-in-dubai",
+   "sources": [
+    {
+     "name": "Middle East Construction News",
+     "url": "https://meconstructionnews.com/69409/china-abu-dhabi-consortium-wins-us-2-7bn-airport-terminal-deal-in-dubai"
+    }
+   ],
+   "type": "机场航站楼 / 7层80万平方米",
+   "value": "US $2.7bn",
+   "lat": 24.9,
+   "lng": 55.16,
+   "stage": "新中标",
+   "priority": "S",
+   "score": 92,
    "need": "尚未评估。",
    "window": "持续跟踪",
    "action": "核实项目最新进展，以及分包和采购窗口。",

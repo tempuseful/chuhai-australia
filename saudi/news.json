@@ -1,6 +1,16 @@
 {
- "updated": "2026-10-11",
+ "updated": "2026-10-14",
  "items": [
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "Consortium signs EPC contract for Rabigh 2 IPP expansion",
+   "source": "MEED",
+   "url": "https://guest.meed.com/consortium-signs-epc-contract-for-rabigh-2-ipp-expansion/",
+   "date": "2026-10-13",
+   "added": "2026-10-14",
+   "cn": false
+  },
   {
    "sector": "energy",
    "kind": "新闻",
