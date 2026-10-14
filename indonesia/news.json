@@ -1,6 +1,16 @@
 {
- "updated": "2026-10-10",
+ "updated": "2026-10-15",
  "items": [
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "印尼总统称将如家人般保护中方投资者 中方表示赞赏",
+   "source": "中国新闻网",
+   "url": "https://www.chinanews.com.cn/gn/2026/10-13/10713710.shtml",
+   "date": "2026-10-13",
+   "cn": true,
+   "added": "2026-10-15"
+  },
   {
    "sector": "industry",
    "kind": "新闻",

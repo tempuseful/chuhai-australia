@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14",
+ "updated": "2026-10-15",
  "items": [
   {
    "sector": "energy",
@@ -20,6 +20,16 @@
    "date": "2026-10-05",
    "added": "2026-10-11",
    "cn": false
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "中企承建沙特首个星级酒店群项目进入全面施工阶段",
+   "source": "同花顺（转自中国铁建官微）",
+   "url": "http://stock.10jqka.com.cn/20261004/c680437358.shtml",
+   "date": "2026-10-04",
+   "cn": true,
+   "added": "2026-10-15"
   },
   {
    "sector": "industry",
