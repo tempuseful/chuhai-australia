@@ -431,6 +431,35 @@
    "eventDate": "2026-10-01",
    "lat": 1.29,
    "lng": 103.63
+  },
+  {
+   "id": "auto-vnm-20261011-1",
+   "country": "越南",
+   "city": "嘉莱省",
+   "name": "牧原嘉莱生猪养殖及饲料综合体",
+   "contractor": "牧原",
+   "company": "牧原（Thinh Phat–Muyuan Gia Lai Co.，牧原越南子公司）",
+   "owner": "未披露",
+   "source": "https://theinvestor.vn/chinas-muyuan-pushes-forward-140-mln-pig-farm-complex-in-central-vietnam-d20204.html",
+   "sources": [
+    {
+     "name": "The Investor",
+     "url": "https://theinvestor.vn/chinas-muyuan-pushes-forward-140-mln-pig-farm-complex-in-central-vietnam-d20204.html"
+    }
+   ],
+   "type": "生猪养殖及饲料厂 / 总投资约1.4亿美元",
+   "value": "总投资36.2万亿越南盾（约1.4亿美元）",
+   "stage": "规划/推动",
+   "priority": "S",
+   "score": 90,
+   "need": "尚未评估。",
+   "window": "持续跟踪",
+   "action": "核实项目最新进展，以及分包和采购窗口。",
+   "note": "根据公开报道自动整理，跟进分按阶段统一赋值。原文称10月11日为计划动工日，是否已动工未核实；预计2028年一季度投产。",
+   "informationDate": "2026-10-11",
+   "eventDate": "2026-10-11",
+   "lat": 13.98,
+   "lng": 108.0
   }
  ]
 }
