@@ -1,6 +1,16 @@
 {
- "updated": "2026-10-11",
+ "updated": "2026-10-15",
  "items": [
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "Kazatomprom rejects deal with Russia’s Uranium One, approves contract with China",
+   "source": "Kursiv",
+   "url": "https://kz.kursiv.media/en/2026-10-08/engk-tank-kazatomprom-rejects-deal-with-russias-uranium-one-approves-contract-with-china/",
+   "date": "2026-10-08",
+   "cn": false,
+   "added": "2026-10-15"
+  },
   {
    "sector": "trade",
    "kind": "新闻",
