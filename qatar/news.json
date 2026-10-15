@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11",
+ "updated": "2026-10-15",
  "items": [
   {
    "sector": "finance",
@@ -19,6 +19,16 @@
    "url": "https://finance.eastmoney.com/a/202610023888390958.html",
    "date": "2026-10-02",
    "added": "2026-10-09",
+   "cn": true
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "中企海油工程中东区域三年累计签约超500亿元",
+   "source": "中新网",
+   "url": "https://www.chinanews.com.cn/cj/2026/10-02/10707313.shtml",
+   "date": "2026-10-02",
+   "added": "2026-10-15",
    "cn": true
   },
   {

@@ -342,6 +342,37 @@
    "note": "根据公开报道自动整理，跟进分按阶段统一赋值。",
    "informationDate": "2026-10-15",
    "eventDate": "2026-10-15"
+  },
+  {
+   "id": "auto-qat-20261002-1",
+   "country": "卡塔尔",
+   "city": "地点待核",
+   "name": "Maydan Mahzam油田再开发MM EPIC2项目",
+   "contractor": "海油工程",
+   "company": "海油工程",
+   "owner": "卡塔尔能源公司（QatarEnergy）",
+   "source": "https://www.chinanews.com.cn/cj/2026/10-02/10707313.shtml",
+   "sources": [
+    {
+     "name": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/10-02/10707313.shtml"
+    },
+    {
+     "name": "同花顺（转自证券时报）",
+     "url": "http://news.10jqka.com.cn/20261002/c680434050.shtml"
+    }
+   ],
+   "type": "海洋油气EPCI / 逾100公里海管海缆",
+   "value": "不详",
+   "stage": "新中标",
+   "priority": "S",
+   "score": 92,
+   "need": "尚未评估。",
+   "window": "持续跟踪",
+   "action": "核实项目最新进展，以及分包和采购窗口。",
+   "note": "根据公开报道自动整理，跟进分按阶段统一赋值。事件日期以报道日为准。",
+   "informationDate": "2026-10-02",
+   "eventDate": "2026-10-02"
   }
  ]
 }
