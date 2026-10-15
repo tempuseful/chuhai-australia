@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14",
+ "updated": "2026-10-15",
  "items": [
   {
    "sector": "infra",
@@ -10,6 +10,16 @@
    "date": "2026-10-13",
    "added": "2026-10-14",
    "cn": false
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "中国电建所属山东电建三公司阿联酋哈斯彦海水淡化EPC项目斩获国际水协会项目创新奖金奖",
+   "source": "人民网",
+   "url": "http://world.people.com.cn/n1/2026/1012/c1002-40812745.html",
+   "date": "2026-10-12",
+   "cn": true,
+   "added": "2026-10-15"
   },
   {
    "sector": "infra",

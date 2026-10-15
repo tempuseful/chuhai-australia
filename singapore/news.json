@@ -2,6 +2,16 @@
  "updated": "2026-10-15",
  "items": [
   {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "中新双边投资促进委员会第八次联席会议召开",
+   "source": "商务部",
+   "url": "https://www.mofcom.gov.cn/syxwfb/art/2026/art_982811e5d64744b5806a7224a4b3b32b.html",
+   "date": "2026-10-14",
+   "cn": true,
+   "added": "2026-10-15"
+  },
+  {
    "sector": "tech",
    "kind": "新闻",
    "title": "China's PCI Technology, Singapore's SMRT Corp to jointly tap opportunities in Southeast Asia",

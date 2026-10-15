@@ -228,6 +228,120 @@
    "note": "根据公开报道自动整理，跟进分按阶段统一赋值。",
    "informationDate": "2026-10-04",
    "eventDate": "2026-10-04"
+  },
+  {
+   "id": "auto-mys-20261010-1",
+   "country": "马来西亚",
+   "city": "沙巴州基马尼斯",
+   "name": "沙巴基马尼斯100MW内燃机电站",
+   "contractor": "中国电工",
+   "company": "中国电工（国机集团中设集团所属）",
+   "owner": "未披露",
+   "source": "http://news.10jqka.com.cn/20261010/c680553902.shtml",
+   "sources": [
+    {
+     "name": "同花顺（转自国机集团官微）",
+     "url": "http://news.10jqka.com.cn/20261010/c680553902.shtml"
+    }
+   ],
+   "type": "内燃发电站 / 100MW",
+   "value": "不详",
+   "lat": 5.55,
+   "lng": 115.8,
+   "stage": "新中标",
+   "priority": "S",
+   "score": 92,
+   "need": "尚未评估。",
+   "window": "持续跟踪",
+   "action": "核实项目最新进展，以及分包和采购窗口。",
+   "note": "根据公开报道自动整理，跟进分按阶段统一赋值。",
+   "informationDate": "2026-10-10",
+   "eventDate": "2026-10-10"
+  },
+  {
+   "id": "auto-tha-20261010-1",
+   "country": "泰国",
+   "city": "地点待核",
+   "name": "梦牌卫浴泰国二厂一期",
+   "contractor": "中汽工程",
+   "company": "中汽工程（国机汽车所属）",
+   "owner": "梦牌卫浴",
+   "source": "http://news.10jqka.com.cn/20261010/c680553902.shtml",
+   "sources": [
+    {
+     "name": "同花顺（转自国机集团官微）",
+     "url": "http://news.10jqka.com.cn/20261010/c680553902.shtml"
+    }
+   ],
+   "type": "卫浴工厂 / 约5.44万平方米",
+   "value": "不详",
+   "stage": "新中标",
+   "priority": "S",
+   "score": 92,
+   "need": "尚未评估。",
+   "window": "持续跟踪",
+   "action": "核实项目最新进展，以及分包和采购窗口。",
+   "note": "根据公开报道自动整理，跟进分按阶段统一赋值。",
+   "informationDate": "2026-10-10",
+   "eventDate": "2026-10-10"
+  },
+  {
+   "id": "auto-uzb-20261010-1",
+   "country": "乌兹别克斯坦",
+   "city": "纳沃伊",
+   "name": "纳沃伊化工园空分产品综合体",
+   "contractor": "中机一建",
+   "company": "中机一建（中机建设所属）",
+   "owner": "中材节能国际投资有限公司",
+   "source": "http://news.10jqka.com.cn/20261010/c680553902.shtml",
+   "sources": [
+    {
+     "name": "同花顺（转自国机集团官微）",
+     "url": "http://news.10jqka.com.cn/20261010/c680553902.shtml"
+    }
+   ],
+   "type": "空分产品综合体",
+   "value": "不详",
+   "lat": 40.1,
+   "lng": 65.4,
+   "stage": "新中标",
+   "priority": "S",
+   "score": 92,
+   "need": "尚未评估。",
+   "window": "持续跟踪",
+   "action": "核实项目最新进展，以及分包和采购窗口。",
+   "note": "根据公开报道自动整理，跟进分按阶段统一赋值。",
+   "informationDate": "2026-10-10",
+   "eventDate": "2026-10-10"
+  },
+  {
+   "id": "auto-aus-20261015-1",
+   "country": "澳大利亚",
+   "city": "西澳库亚洛",
+   "name": "库亚洛能源园风电加储能",
+   "contractor": "远景能源",
+   "company": "远景能源（风机供应商）",
+   "owner": "Tronox",
+   "source": "https://reneweconomy.com.au/chinas-envision-energy-lines-up-major-wind-and-eight-hour-battery-deal-at-site-of-australian-mineral-sands-mine/",
+   "sources": [
+    {
+     "name": "RenewEconomy",
+     "url": "https://reneweconomy.com.au/chinas-envision-energy-lines-up-major-wind-and-eight-hour-battery-deal-at-site-of-australian-mineral-sands-mine/"
+    }
+   ],
+   "type": "风电+储能 / 156MW+169MW/1447MWh",
+   "value": "不详",
+   "lat": -30.75,
+   "lng": 115.55,
+   "stage": "规划/推动",
+   "priority": "S",
+   "score": 90,
+   "need": "尚未评估。",
+   "window": "持续跟踪",
+   "action": "核实项目最新进展，以及分包和采购窗口。",
+   "note": "根据公开报道自动整理，跟进分按阶段统一赋值。",
+   "informationDate": "2026-10-15",
+   "eventDate": "2026-10-15"
   }
  ]
 }

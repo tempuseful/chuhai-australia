@@ -1,6 +1,16 @@
 {
- "updated": "2026-10-11",
+ "updated": "2026-10-15",
  "items": [
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "China's Envision Energy lines up major wind and eight-hour battery deal at site of Australian mineral sands mine",
+   "source": "RenewEconomy",
+   "url": "https://reneweconomy.com.au/chinas-envision-energy-lines-up-major-wind-and-eight-hour-battery-deal-at-site-of-australian-mineral-sands-mine/",
+   "date": "2026-10-15",
+   "cn": false,
+   "added": "2026-10-15"
+  },
   {
    "sector": "ev",
    "kind": "新闻",
