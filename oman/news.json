@@ -1,6 +1,16 @@
 {
- "updated": "2026-10-11",
+ "updated": "2026-10-18",
  "items": [
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "Great Wall wins $100m-plus Oman drilling award",
+   "source": "Oman Observer",
+   "url": "https://www.omanobserver.om/article/1197600/business/markets/great-wall-wins-100m-plus-oman-drilling-award",
+   "date": "2026-10-11",
+   "added": "2026-10-18",
+   "cn": false
+  },
   {
    "sector": "trade",
    "kind": "新闻",

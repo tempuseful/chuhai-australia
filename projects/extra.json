@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15",
+ "updated": "2026-10-18",
  "items": [
   {
    "id": "auto-idn-20261009-1",
@@ -460,6 +460,211 @@
    "eventDate": "2026-10-11",
    "lat": 13.98,
    "lng": 108.0
+  },
+  {
+   "id": "auto-ksa-20261016-1",
+   "country": "沙特",
+   "city": "福里斯",
+   "name": "福里斯2GW光伏电站",
+   "contractor": "中国能建",
+   "company": "中能建国际建设集团、中国能源建设集团广东火电工程有限公司、中国电力工程顾问集团西北电力设计院",
+   "owner": "未披露",
+   "source": "https://www.yidaiyilu.gov.cn/p/01DKM6KP.html",
+   "sources": [
+    {
+     "name": "中国一带一路网",
+     "url": "https://www.yidaiyilu.gov.cn/p/01DKM6KP.html"
+    }
+   ],
+   "type": "光伏电站 / 2GW",
+   "value": "年均发电量59.7亿千瓦时；桩基施工已全部完成",
+   "stage": "在建",
+   "priority": "S",
+   "score": 90,
+   "need": "尚未评估。",
+   "window": "持续跟踪",
+   "action": "核实项目最新进展，以及分包和采购窗口。",
+   "note": "根据公开报道自动整理，跟进分按阶段统一赋值。事件日期以报道日为准。",
+   "informationDate": "2026-10-16",
+   "eventDate": "2026-10-16"
+  },
+  {
+   "id": "auto-kwt-20261016-1",
+   "country": "科威特",
+   "city": "阿卜杜拉新城",
+   "name": "阿卜杜拉新城二期道路及基础设施",
+   "contractor": "中国能建",
+   "company": "中国葛洲坝集团有限公司",
+   "owner": "未披露",
+   "source": "https://www.yidaiyilu.gov.cn/p/01DKM6KP.html",
+   "sources": [
+    {
+     "name": "中国一带一路网",
+     "url": "https://www.yidaiyilu.gov.cn/p/01DKM6KP.html"
+    }
+   ],
+   "type": "新城道路基建 / 道路约580公里",
+   "value": "覆盖64平方公里；沥青混凝土摊铺约99.9万立方米",
+   "stage": "在建",
+   "priority": "S",
+   "score": 90,
+   "need": "尚未评估。",
+   "window": "持续跟踪",
+   "action": "核实项目最新进展，以及分包和采购窗口。",
+   "note": "根据公开报道自动整理，跟进分按阶段统一赋值。事件日期以报道日为准。",
+   "informationDate": "2026-10-16",
+   "eventDate": "2026-10-16"
+  },
+  {
+   "id": "auto-mys-20261016-1",
+   "country": "马来西亚",
+   "city": "柔佛州",
+   "name": "柔佛州道路升级工程",
+   "contractor": "山东高速",
+   "company": "山东高速集团股份有限公司",
+   "owner": "未披露",
+   "source": "https://www.yidaiyilu.gov.cn/p/01DKM6KP.html",
+   "sources": [
+    {
+     "name": "中国一带一路网",
+     "url": "https://www.yidaiyilu.gov.cn/p/01DKM6KP.html"
+    }
+   ],
+   "type": "道路升级 / 合同约2.25亿元",
+   "value": "合同金额约2.25亿元人民币",
+   "stage": "新中标",
+   "priority": "S",
+   "score": 92,
+   "need": "尚未评估。",
+   "window": "持续跟踪",
+   "action": "核实项目最新进展，以及分包和采购窗口。",
+   "note": "根据公开报道自动整理，跟进分按阶段统一赋值。事件日期以报道日为准。",
+   "informationDate": "2026-10-16",
+   "eventDate": "2026-10-16",
+   "lat": 1.49,
+   "lng": 103.74
+  },
+  {
+   "id": "auto-lao-20261010-1",
+   "country": "老挝",
+   "city": "赛松本省",
+   "name": "南俄3水电站",
+   "contractor": "中国电建",
+   "company": "中国电力建设集团有限公司（EPC：中国水利水电第十工程局有限公司）",
+   "owner": "未披露",
+   "source": "https://10j.powerchina.cn/col/col8790/art/2026/art_890e90fb87c54b64afb8c901c9b4ed51.html",
+   "sources": [
+    {
+     "name": "中国水利水电第十工程局",
+     "url": "https://10j.powerchina.cn/col/col8790/art/2026/art_890e90fb87c54b64afb8c901c9b4ed51.html"
+    },
+    {
+     "name": "中国一带一路网",
+     "url": "https://www.yidaiyilu.gov.cn/p/01DKM6KP.html"
+    }
+   ],
+   "type": "水电站 / 480MW",
+   "value": "3台机组转子已全部吊装完成；年供电约23.45亿千瓦时（来自周报）",
+   "stage": "在建",
+   "priority": "S",
+   "score": 90,
+   "need": "尚未评估。",
+   "window": "持续跟踪",
+   "action": "核实项目最新进展，以及分包和采购窗口。",
+   "note": "根据公开报道自动整理，跟进分按阶段统一赋值。10月10日为报道日，吊装日期原文写“近日”，事件日期以报道日为准。",
+   "informationDate": "2026-10-10",
+   "eventDate": "2026-10-10",
+   "lat": 18.95,
+   "lng": 102.95
+  },
+  {
+   "id": "auto-uae-20261016-1",
+   "country": "阿联酋",
+   "city": "迪拜",
+   "name": "DAMAC河畔社区卡普里公寓楼总承包",
+   "contractor": "中国能建",
+   "company": "中能建建筑集团有限公司",
+   "owner": "未披露",
+   "source": "https://www.yidaiyilu.gov.cn/p/01DKM6KP.html",
+   "sources": [
+    {
+     "name": "中国一带一路网",
+     "url": "https://www.yidaiyilu.gov.cn/p/01DKM6KP.html"
+    }
+   ],
+   "type": "住宅房建 / 两栋公寓楼",
+   "value": "两栋公寓楼，约23.19万平方米",
+   "stage": "新中标",
+   "priority": "S",
+   "score": 92,
+   "need": "尚未评估。",
+   "window": "持续跟踪",
+   "action": "核实项目最新进展，以及分包和采购窗口。",
+   "note": "根据公开报道自动整理，跟进分按阶段统一赋值。事件日期以报道日为准。",
+   "informationDate": "2026-10-16",
+   "eventDate": "2026-10-16",
+   "lat": 25.2,
+   "lng": 55.27
+  },
+  {
+   "id": "auto-uzb-20261007-1",
+   "country": "乌兹别克斯坦",
+   "city": "塔什干州奇尔奇克市",
+   "name": "奇尔100MW/200MWh储能电站",
+   "contractor": "中国能建",
+   "company": "中国能建海投公司",
+   "owner": "未披露",
+   "source": "https://www.imsilkroad.com/news/p/816194.html",
+   "sources": [
+    {
+     "name": "新华丝路（人民日报）",
+     "url": "https://www.imsilkroad.com/news/p/816194.html"
+    }
+   ],
+   "type": "储能电站 / 100MW/200MWh",
+   "value": "占地约5公顷；13年运营期",
+   "stage": "运营/收尾",
+   "priority": "A",
+   "score": 80,
+   "need": "尚未评估。",
+   "window": "持续跟踪",
+   "action": "核实项目最新进展，以及分包和采购窗口。",
+   "note": "根据公开报道自动整理，跟进分按阶段统一赋值。原文称该项目2026年3月全面进入商业运营，事件日期以报道日为准。",
+   "informationDate": "2026-10-07",
+   "eventDate": "2026-10-07",
+   "lat": 41.47,
+   "lng": 69.58
+  },
+  {
+   "id": "auto-omn-20261008-1",
+   "country": "阿曼",
+   "city": "阿曼南部",
+   "name": "卡里姆小油田钻井服务",
+   "contractor": "长城钻探",
+   "company": "长城钻探工程有限公司（中国石油天然气集团子公司）",
+   "owner": "MedcoEnergi（卡里姆小油田项目运营方）",
+   "source": "https://www.omanobserver.om/article/1197600/business/markets/great-wall-wins-100m-plus-oman-drilling-award",
+   "sources": [
+    {
+     "name": "Oman Observer",
+     "url": "https://www.omanobserver.om/article/1197600/business/markets/great-wall-wins-100m-plus-oman-drilling-award"
+    },
+    {
+     "name": "MEED",
+     "url": "https://www.meed.com/chinese-firm-wins-100m-oman-oil-drilling-contract"
+    }
+   ],
+   "type": "油田钻井服务 / 2台钻机、5年",
+   "value": "超过1亿美元（确切金额未披露）",
+   "stage": "新中标",
+   "priority": "S",
+   "score": 92,
+   "need": "尚未评估。",
+   "window": "持续跟踪",
+   "action": "核实项目最新进展，以及分包和采购窗口。",
+   "note": "根据公开报道自动整理，跟进分按阶段统一赋值。授标函10月8日收到（据中国石油），中标金额为报道所述。",
+   "informationDate": "2026-10-11",
+   "eventDate": "2026-10-08"
   }
  ]
 }

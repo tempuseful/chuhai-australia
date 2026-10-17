@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15",
+ "updated": "2026-10-18",
  "items": [
   {
    "sector": "industry",
@@ -10,6 +10,16 @@
    "date": "2026-10-10",
    "cn": true,
    "added": "2026-10-15"
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "中企在乌投运储能项目，发挥大型“绿色充电宝”作用——“电力稳定了，生产生活都更方便”",
+   "source": "新华丝路（人民日报）",
+   "url": "https://www.imsilkroad.com/news/p/816194.html",
+   "date": "2026-10-07",
+   "added": "2026-10-18",
+   "cn": true
   },
   {
    "sector": "infra",

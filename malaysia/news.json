@@ -1,6 +1,26 @@
 {
- "updated": "2026-10-15",
+ "updated": "2026-10-18",
  "items": [
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "山东高速集团股份有限公司签约马来西亚柔佛州道路升级工程项目，合同金额约2.25亿元人民币",
+   "source": "中国一带一路网（中企海外项目周报）",
+   "url": "https://www.yidaiyilu.gov.cn/p/01DKM6KP.html",
+   "date": "2026-10-16",
+   "added": "2026-10-18",
+   "cn": true
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "Chinese investors eyeing investing in aluminium industry, says Zahid",
+   "source": "The Star",
+   "url": "https://www.thestar.com.my/news/nation/2026/10/14/chinese-investors-eyeing-investing-in-aluminium-aluminium-industry-says-deputy-minister",
+   "date": "2026-10-14",
+   "added": "2026-10-18",
+   "cn": false
+  },
   {
    "sector": "energy",
    "kind": "新闻",
