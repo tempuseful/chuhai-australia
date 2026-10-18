@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18",
+ "updated": "2026-10-19",
  "items": [
   {
    "sector": "energy",
@@ -30,6 +30,16 @@
    "date": "2026-10-09",
    "added": "2026-10-10",
    "cn": true
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "Indonesia leader launches 11 Chinese-backed downstream projects",
+   "source": "China Daily（新华社稿）",
+   "url": "https://www.chinadailyhk.com/article/640794",
+   "date": "2026-10-09",
+   "added": "2026-10-19",
+   "cn": false
   },
   {
    "sector": "trade",

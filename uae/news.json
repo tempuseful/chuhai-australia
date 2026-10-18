@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18",
+ "updated": "2026-10-19",
  "items": [
   {
    "sector": "infra",
@@ -9,6 +9,26 @@
    "url": "https://www.yidaiyilu.gov.cn/p/01DKM6KP.html",
    "date": "2026-10-16",
    "added": "2026-10-18",
+   "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "Gargash Prime与京东产发将在迪拜合作开发物流设施",
+   "source": "中国驻阿联酋使馆经商处",
+   "url": "https://ae.mofcom.gov.cn/zazgqy/art/2026/art_0b6d8a75c151401daa969fddc441e63c.html",
+   "date": "2026-10-16",
+   "added": "2026-10-19",
+   "cn": true
+  },
+  {
+   "sector": "tech",
+   "kind": "新闻",
+   "title": "Dubai CommerCity与腾讯云携手增强数字经济竞争力，加速数字商务增长",
+   "source": "中国驻阿联酋使馆经商处",
+   "url": "https://ae.mofcom.gov.cn/zazgqy/art/2026/art_eafe642f14a74dc88a07ffbf59c96462.html",
+   "date": "2026-10-16",
+   "added": "2026-10-19",
    "cn": true
   },
   {
