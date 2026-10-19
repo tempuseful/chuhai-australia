@@ -1,6 +1,16 @@
 {
- "updated": "2026-10-18",
+ "updated": "2026-10-20",
  "items": [
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "方大集团：关于签约沙特穆罕默德·本·萨勒曼王子体育场20亿元重大幕墙项目的公告",
+   "source": "证券日报网（同花顺转载上市公司公告）",
+   "url": "http://news.10jqka.com.cn/20261019/c680849656.shtml",
+   "date": "2026-10-19",
+   "added": "2026-10-20",
+   "cn": true
+  },
   {
    "sector": "energy",
    "kind": "新闻",
@@ -20,6 +30,16 @@
    "date": "2026-10-13",
    "added": "2026-10-14",
    "cn": false
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "中建安装集团国际工程分公司中标韩华动力沙特压缩机组装厂房EPC项目",
+   "source": "中国一带一路网（中企海外项目双周报）",
+   "url": "https://www.yidaiyilu.gov.cn/p/0N6ENL09.html",
+   "date": "2026-10-10",
+   "added": "2026-10-20",
+   "cn": true
   },
   {
    "sector": "energy",

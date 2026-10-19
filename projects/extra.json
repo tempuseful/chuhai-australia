@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18",
+ "updated": "2026-10-20",
  "items": [
   {
    "id": "auto-idn-20261009-1",
@@ -387,6 +387,10 @@
     {
      "name": "World Construction Network",
      "url": "https://www.worldconstructionnetwork.com/newsletters/lta-contracts-tuas-road-viaduct-phase"
+    },
+    {
+     "name": "中国一带一路网（中企海外项目双周报）",
+     "url": "https://www.yidaiyilu.gov.cn/p/0N6ENL09.html"
     }
    ],
    "type": "高架桥 / 大士路高架桥二期",
@@ -397,7 +401,7 @@
    "need": "尚未评估。",
    "window": "持续跟踪",
    "action": "核实项目最新进展，以及分包和采购窗口。",
-   "note": "根据公开报道自动整理，跟进分按阶段统一赋值。事件日期以报道日为准。预计2027年初开工，2032年起陆续完工。",
+   "note": "根据公开报道自动整理，跟进分按阶段统一赋值。事件日期以报道日为准。预计2027年初开工，2032年起陆续完工。中国一带一路网双周报称其为大士南三道高架桥设计施工总承包项目RC217标段。",
    "informationDate": "2026-10-01",
    "eventDate": "2026-10-01",
    "lat": 1.29,
@@ -665,6 +669,64 @@
    "note": "根据公开报道自动整理，跟进分按阶段统一赋值。授标函10月8日收到（据中国石油），中标金额为报道所述。",
    "informationDate": "2026-10-11",
    "eventDate": "2026-10-08"
+  },
+  {
+   "id": "auto-sau-20261018-1",
+   "country": "沙特",
+   "city": "奇迪亚城",
+   "name": "王子体育场幕墙工程",
+   "contractor": "方大集团",
+   "company": "方大集团及其全资子公司世汇国际控股有限公司（持股51%，与沙特IKK集团子公司组成合资公司IKK Fangda JV）",
+   "owner": "未披露",
+   "source": "http://news.10jqka.com.cn/20261019/c680849656.shtml",
+   "sources": [
+    {
+     "name": "证券日报网（同花顺转载上市公司公告）",
+     "url": "http://news.10jqka.com.cn/20261019/c680849656.shtml"
+    }
+   ],
+   "type": "体育场幕墙 / 工期863天",
+   "value": "合同总额约11.47亿沙特里亚尔（含税），折合约20.5亿元人民币",
+   "stage": "新中标",
+   "priority": "S",
+   "score": 92,
+   "need": "尚未评估。",
+   "window": "持续跟踪",
+   "action": "核实项目最新进展，以及分包和采购窗口。",
+   "note": "根据公开报道自动整理，跟进分按阶段统一赋值。涵盖穆罕默德·本·萨勒曼王子体育场一标段主体场馆及三标段博物馆及附属楼的幕墙，总包方为UPTOWN STADIUM Construction JV。",
+   "informationDate": "2026-10-19",
+   "eventDate": "2026-10-18",
+   "lat": 24.58,
+   "lng": 46.33
+  },
+  {
+   "id": "auto-sau-20261010-1",
+   "country": "沙特",
+   "city": "达曼",
+   "name": "韩华动力压缩机组装厂房",
+   "contractor": "中国建筑",
+   "company": "中建安装集团国际工程分公司",
+   "owner": "未披露",
+   "source": "https://www.yidaiyilu.gov.cn/p/0N6ENL09.html",
+   "sources": [
+    {
+     "name": "中国一带一路网（中企海外项目双周报）",
+     "url": "https://www.yidaiyilu.gov.cn/p/0N6ENL09.html"
+    }
+   ],
+   "type": "工业厂房EPC / 占地约1.14万平方米",
+   "value": "不详",
+   "stage": "新中标",
+   "priority": "S",
+   "score": 92,
+   "need": "尚未评估。",
+   "window": "持续跟踪",
+   "action": "核实项目最新进展，以及分包和采购窗口。",
+   "note": "根据公开报道自动整理，跟进分按阶段统一赋值。事件日期以报道日为准。原文称\"近日\"中标，业主为韩华动力（据项目名称）。建筑面积约3260平方米。",
+   "informationDate": "2026-10-10",
+   "eventDate": "2026-10-10",
+   "lat": 26.43,
+   "lng": 50.1
   }
  ]
 }

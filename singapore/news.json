@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15",
+ "updated": "2026-10-20",
  "items": [
   {
    "sector": "general",
@@ -19,6 +19,16 @@
    "url": "https://www.chinadaily.com.cn/a/202610/10/WS6aca167be4b06d4aa05621dc.html",
    "date": "2026-10-10",
    "added": "2026-10-11",
+   "cn": true
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "中交新加坡分公司中标大士南三道高架桥设计施工总承包项目RC217标段",
+   "source": "中国一带一路网（中企海外项目双周报）",
+   "url": "https://www.yidaiyilu.gov.cn/p/0N6ENL09.html",
+   "date": "2026-10-10",
+   "added": "2026-10-20",
    "cn": true
   },
   {
