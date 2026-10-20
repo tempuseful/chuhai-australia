@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20",
+ "updated": "2026-10-21",
  "items": [
   {
    "id": "auto-idn-20261009-1",
@@ -727,6 +727,33 @@
    "eventDate": "2026-10-10",
    "lat": 26.43,
    "lng": 50.1
+  },
+  {
+   "id": "auto-sau-20261014-1",
+   "country": "沙特",
+   "city": "卡西姆地区",
+   "name": "Al Khushaybi 储能项目",
+   "contractor": "山东电建",
+   "company": "山东电力建设第三工程公司（Sepco）",
+   "owner": "未披露",
+   "source": "https://tradearabia.com/News/487994/Sepco-secures-500MW_2-000MWh-Saudi-BESS-project-contract",
+   "sources": [
+    {
+     "name": "TradeArabia",
+     "url": "https://tradearabia.com/News/487994/Sepco-secures-500MW_2-000MWh-Saudi-BESS-project-contract"
+    }
+   ],
+   "type": "储能电站 / 500MW/2000MWh",
+   "value": "不详",
+   "stage": "新中标",
+   "priority": "S",
+   "score": 92,
+   "need": "尚未评估。",
+   "window": "持续跟踪",
+   "action": "核实项目最新进展，以及分包和采购窗口。",
+   "note": "根据公开报道自动整理，跟进分按阶段统一赋值。事件日期以报道日为准。开发商为 Engie 与 Haji Abdullah Alireza 联合体，购电方为沙特电力采购公司（SPPC）；文章称 Sepco 为 EPC 承包商。",
+   "informationDate": "2026-10-14",
+   "eventDate": "2026-10-14"
   }
  ]
 }

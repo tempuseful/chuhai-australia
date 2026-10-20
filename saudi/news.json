@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20",
+ "updated": "2026-10-21",
  "items": [
   {
    "sector": "infra",
@@ -20,6 +20,16 @@
    "date": "2026-10-16",
    "added": "2026-10-18",
    "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "Sepco secures 500MW/2,000MWh Saudi BESS project contract",
+   "source": "TradeArabia",
+   "url": "https://tradearabia.com/News/487994/Sepco-secures-500MW_2-000MWh-Saudi-BESS-project-contract",
+   "date": "2026-10-14",
+   "added": "2026-10-21",
+   "cn": false
   },
   {
    "sector": "energy",
