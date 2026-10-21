@@ -1,6 +1,36 @@
 {
- "updated": "2026-10-18",
+ "updated": "2026-10-22",
  "items": [
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "Uzbekistan, China's Shanxi sign deals in logistics, energy and technology",
+   "source": "Trend.Az",
+   "url": "https://www.trend.az/casia/uzbekistan/4236866.html",
+   "date": "2026-10-20",
+   "added": "2026-10-22",
+   "cn": false
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "Chinese premier says Beijing ready to ensure high-quality China-Kyrgyzstan-Uzbekistan railway",
+   "source": "Xinhua",
+   "url": "https://english.news.cn/20261018/3fca79a23f194369bfb022c69e294bd6/c.html",
+   "date": "2026-10-18",
+   "added": "2026-10-22",
+   "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "Uzbekistan, Chinese firms advance energy and infrastructure projects",
+   "source": "Trend.Az",
+   "url": "https://www.trend.az/casia/uzbekistan/4236032.html",
+   "date": "2026-10-17",
+   "added": "2026-10-22",
+   "cn": false
+  },
   {
    "sector": "industry",
    "kind": "新闻",

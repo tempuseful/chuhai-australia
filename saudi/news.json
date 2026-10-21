@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21",
+ "updated": "2026-10-22",
  "items": [
   {
    "sector": "infra",
@@ -40,6 +40,16 @@
    "date": "2026-10-13",
    "added": "2026-10-14",
    "cn": false
+  },
+  {
+   "sector": "trade",
+   "kind": "政策",
+   "title": "沙特内阁会议决定将沙特外贸总局与沙特出口发展局合并",
+   "source": "中国驻沙特使馆经商处",
+   "url": "https://sa.mofcom.gov.cn/zcfg/art/2026/art_785a0f1249944430ae703a601a3d5967.html",
+   "date": "2026-10-13",
+   "added": "2026-10-22",
+   "cn": true
   },
   {
    "sector": "industry",
