@@ -1,0 +1,185 @@
+{
+ "updated": "2026-10-22",
+ "items": [
+  {
+   "region": "GCC",
+   "country": "沙特",
+   "tag": "国际",
+   "eventType": "SECURITY_RISK",
+   "verification": "VERIFIED",
+   "publishedDate": "22 OCT 2026",
+   "verifiedDate": "22 OCT 2026",
+   "time": "10/22",
+   "title": "达曼机场10月21日遇袭，利雅得机场仍无恢复运营确切时间",
+   "projectName": "SAUDI AIRPORTS SECURITY",
+   "summary": "中国驻沙特使馆10月22日消息：达曼法赫德国王国际机场21日晚遭袭，造成1死8伤，一架亚丁航空客机受损；利雅得哈立德国王国际机场此前因遇袭停运，原定关闭至当地时间10月18日，目前仍无恢复运营确切信息，其他城市机场航班常大面积异常。使馆建议近期勿乘飞机在沙特旅行，远离机场、石油设施和军事基地。10月11日在利雅得召开的世界石油大会已受冲击，多家石油公司负责人改为线上参会。",
+   "company": "",
+   "value": "1死8伤",
+   "stage": "人员出行与差旅受阻",
+   "url": "https://m.gmw.cn/2026-10/22/content_1304578129.htm",
+   "sources": [
+    {
+     "name": "光明网转载中国驻沙特使馆提醒（10月22日）",
+     "url": "https://m.gmw.cn/2026-10/22/content_1304578129.htm"
+    },
+    {
+     "name": "央广网：利雅得机场继续关闭至18日（10月12日）",
+     "url": "https://news.cnr.cn/sq/20261012/t20261012_527840037.shtml"
+    },
+    {
+     "name": "光明网：利雅得机场持续关闭 多场国际会议受影响（10月13日）",
+     "url": "https://m.gmw.cn/2026-10/13/content_1304574875.htm"
+    }
+   ],
+   "sector": "交通"
+  },
+  {
+   "region": "GLOBAL",
+   "country": "全球",
+   "tag": "国际",
+   "eventType": "LOGISTICS_RISK",
+   "verification": "VERIFIED",
+   "publishedDate": "22 OCT 2026",
+   "verifiedDate": "22 OCT 2026",
+   "time": "10/22",
+   "title": "中东航线原油运费超35美元/桶，单次过峡战争险升至1000万美元",
+   "projectName": "GLOBAL SHIPPING COST",
+   "summary": "据界面新闻引述高盛报告，全球原油平均运费已由一年前约3美元/桶升至20美元/桶以上，中东航线超过35美元/桶；中东至东亚VLCC即期日租约120万美元。单次通行的战争险保费由25万美元升至1000万美元。若霍尔木兹和曼德海峡同时受阻，约四分之一原油供应面临风险。工程设备和材料海运应单列战争险、改港和滞期费用。",
+   "company": "",
+   "value": "运费约为一年前7倍",
+   "stage": "海运成本",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-22/doc-iniwamir5937711.shtml",
+   "sources": [
+    {
+     "name": "界面新闻（新浪财经转载，10月22日）",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-22/doc-iniwamir5937711.shtml"
+    }
+   ],
+   "sector": "航运"
+  },
+  {
+   "region": "GCC",
+   "country": "GCC六国",
+   "tag": "国际",
+   "eventType": "LOGISTICS_RISK",
+   "verification": "VERIFIED",
+   "publishedDate": "17 OCT 2026",
+   "verifiedDate": "22 OCT 2026",
+   "time": "10/17",
+   "title": "霍尔木兹一周至少12船遇袭，油流恢复至战前约68%",
+   "projectName": "STRAIT OF HORMUZ",
+   "summary": "据半岛电视台10月17日报道，英国海上贸易行动办公室（UKMTO）统计截至10月16日的一周至少12艘船遇袭，10月是2月28日战事爆发以来商船遇袭最多的月份，另有船只触雷；美伊双方都称控制海峡。据Kpler数据，截至10月13日的7天霍尔木兹原油日均流量1,160万桶，约为战前1,710万桶的68%；布伦特油价10月16日盘中触及110美元/桶，为5月以来首次。",
+   "company": "",
+   "value": "油流约战前68%",
+   "stage": "航运风险",
+   "url": "https://www.aljazeera.com/news/2026/10/17/us-and-iran-both-claim-control-of-strait-of-hormuz-amid-attacks-on-vessels",
+   "sources": [
+    {
+     "name": "Al Jazeera（10月17日）",
+     "url": "https://www.aljazeera.com/news/2026/10/17/us-and-iran-both-claim-control-of-strait-of-hormuz-amid-attacks-on-vessels"
+    }
+   ],
+   "sector": "航运"
+  },
+  {
+   "region": "GCC",
+   "country": "GCC六国",
+   "tag": "国际",
+   "eventType": "SECURITY_RISK",
+   "verification": "VERIFIED",
+   "publishedDate": "15 OCT 2026",
+   "verifiedDate": "22 OCT 2026",
+   "time": "10/15",
+   "title": "路透调查：海湾海水淡化厂、电厂等民用设施遇袭属精确打击",
+   "projectName": "GCC CRITICAL INFRASTRUCTURE",
+   "summary": "据路透社10月15日调查报道，伊朗及其盟友对海湾地区海水淡化厂、机场、炼厂和一座核电站的打击精度足以排除“碎片坠落”的官方说法，打击民用设施系有意为之。在建和运营中的水务、电力、港口项目需重新评估现场安保、保险和工期。",
+   "company": "",
+   "value": "—",
+   "stage": "项目安保与保险",
+   "url": "https://www.iranintl.com/en/202610154035",
+   "sources": [
+    {
+     "name": "Reuters 调查（Iran International 转载，10月15日）",
+     "url": "https://www.iranintl.com/en/202610154035"
+    }
+   ],
+   "sector": "水电"
+  },
+  {
+   "region": "GLOBAL",
+   "country": "全球",
+   "tag": "国际",
+   "eventType": "MACRO",
+   "verification": "VERIFIED",
+   "publishedDate": "13 OCT 2026",
+   "verifiedDate": "22 OCT 2026",
+   "time": "10/13",
+   "title": "IMF上调全球增速至3.1%，沙特今年预计萎缩3.3%",
+   "projectName": "IMF WORLD ECONOMIC OUTLOOK",
+   "summary": "国际货币基金组织10月13日发布《世界经济展望》，将2026年全球增速上调0.1个百分点至3.1%，2027年3.4%；霍尔木兹航运受阻可能拖累全球增速0.9个百分点，人工智能投资对冲了部分冲击。2026年油价均价假设为95.74美元/桶，比2025年高约41%。沙特今年预计萎缩3.3%，较7月预测下调5个百分点；巴林、科威特、卡塔尔预计两位数萎缩。海湾业主预算和付款节奏可能随之调整。",
+   "company": "",
+   "value": "全球 3.1%",
+   "stage": "宏观",
+   "url": "https://www.news.cn/fortune/20261013/4d45fc257e944871964701ab8041016a/c.html",
+   "sources": [
+    {
+     "name": "新华网（10月13日）",
+     "url": "https://www.news.cn/fortune/20261013/4d45fc257e944871964701ab8041016a/c.html"
+    },
+    {
+     "name": "IMF《世界经济展望》2026年10月",
+     "url": "https://www.imf.org/zh/publications/weo/issues/2026/10/13/world-economic-outlook-october-2026"
+    }
+   ],
+   "sector": "宏观"
+  },
+  {
+   "region": "CENTRAL_ASIA",
+   "country": "哈萨克斯坦",
+   "tag": "国际",
+   "eventType": "POLICY",
+   "verification": "VERIFIED",
+   "publishedDate": "20 OCT 2026",
+   "verifiedDate": "22 OCT 2026",
+   "time": "10/20",
+   "title": "哈阿签中间走廊运营协议，跨里海铁路货运前9月增30%",
+   "projectName": "MIDDLE CORRIDOR",
+   "summary": "据RailFreight 10月20日报道，哈萨克斯坦与阿塞拜疆签署中间走廊运营协议，承诺最低保障运力和运价稳定，两国港口互相优先服务对方船舶，并推动铁海联运单一运输单证和一站式物流运营商，其他国家可加入。2026年1–9月中间走廊货运量同比增长30%，中欧集装箱过境增长64%。海湾和红海航运受阻期间，中欧陆路通道需求上升。",
+   "company": "",
+   "value": "货运 +30%",
+   "stage": "跨境物流",
+   "url": "https://www.railfreight.com/railfreight/2026/10/20/new-agreement-standardises-middle-corridor-operations-more-countries-can-join/",
+   "sources": [
+    {
+     "name": "RailFreight.com（10月20日）",
+     "url": "https://www.railfreight.com/railfreight/2026/10/20/new-agreement-standardises-middle-corridor-operations-more-countries-can-join/"
+    }
+   ],
+   "sector": "交通"
+  },
+  {
+   "region": "ASEAN",
+   "country": "菲律宾",
+   "tag": "国际",
+   "eventType": "POLICY",
+   "verification": "VERIFIED",
+   "publishedDate": "15 OCT 2026",
+   "verifiedDate": "22 OCT 2026",
+   "time": "10/15",
+   "title": "第44届东盟能源部长会议在马尼拉召开，聚焦能源安全和电力互联",
+   "projectName": "ASEAN ENERGY MINISTERS MEETING",
+   "summary": "据中新网10月15日报道，第44届东盟能源部长系列会议10月5日至9日在马尼拉举行，议题为区域能源安全、清洁能源转型和电力互联互通。国家能源局副局长汪剑波出席东亚峰会能源部长会议和东盟与中日韩能源部长会议，中方合作倡议纳入会议联合媒体声明。2027年东盟轮值主席国为新加坡。",
+   "company": "",
+   "value": "—",
+   "stage": "区域能源政策",
+   "url": "https://www.chinanews.com.cn/aseaninfo/2026/10-15/10714848.shtml",
+   "sources": [
+    {
+     "name": "中新网（10月15日）",
+     "url": "https://www.chinanews.com.cn/aseaninfo/2026/10-15/10714848.shtml"
+    }
+   ],
+   "sector": "电力"
+  }
+ ]
+}
