@@ -3,54 +3,6 @@
  "items": [
   {
    "region": "GCC",
-   "country": "GCC六国",
-   "tag": "国际",
-   "sector": "油气",
-   "eventType": "LOGISTICS_RISK",
-   "verification": "VERIFIED",
-   "publishedDate": "21 OCT 2026",
-   "verifiedDate": "22 OCT 2026",
-   "time": "10/21",
-   "title": "布伦特升至110美元，两艘油轮触雷，海湾40%原油绕行",
-   "projectName": "HORMUZ OIL PRICE",
-   "summary": "据《华尔街日报》10月21日报道（雅虎财经转载），12月交割的布伦特期货涨1.3%至每桶110.19美元，前一交易日一度升破111美元，为5月以来最高。伊朗革命卫队称两艘油轮在霍尔木兹海峡以南触雷起火。Kpler数据显示，截至10月18日当周经海峡及替代路线的原油流量日均超2400万桶；约40%的海湾原油运输已绕过海峡，战前为17%。IEA称中东成品油出口9月降至日均190万桶，战前为470万桶。对海湾工程企业而言，燃料与物流成本、保险费用和人员出行风险仍在高位。",
-   "company": "",
-   "value": "$110.19/桶",
-   "stage": "航运风险",
-   "url": "https://finance.yahoo.com/energy/articles/oil-prices-rise-hormuz-shipping-065200516.html",
-   "sources": [
-    {
-     "name": "雅虎财经转载华尔街日报（10月21日）",
-     "url": "https://finance.yahoo.com/energy/articles/oil-prices-rise-hormuz-shipping-065200516.html"
-    }
-   ]
-  },
-  {
-   "region": "GLOBAL",
-   "country": "全球",
-   "tag": "国际",
-   "sector": "能源",
-   "eventType": "POLICY",
-   "verification": "VERIFIED",
-   "publishedDate": "16 OCT 2026",
-   "verifiedDate": "22 OCT 2026",
-   "time": "10/16",
-   "title": "IEA再释放1亿桶库存，特朗普拟松绑部分影子舰队制裁",
-   "projectName": "IEA STOCK RELEASE",
-   "summary": "据OilPrice.com 10月16日报道，国际能源署宣布释放1亿桶库存，这是2026年3月约定的4亿桶紧急释放计划的剩余部分；特朗普提议解除部分“影子舰队”油轮的制裁以缓解创纪录的运费，但ING分析师质疑这些油轮是否可用，欧盟制裁仍然有效，保险也可能成问题。Kpler数据显示，10月13日当周霍尔木兹海峡原油日均流量降至1162万桶，基准水平为1715万桶。布伦特当时约105.48美元/桶。能源价格与运费走势将影响海湾及周边工程项目的燃料与物流成本。",
-   "company": "",
-   "value": "1亿桶",
-   "stage": "能源供应",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Weekly-Gain-as-Hormuz-Attacks-Rattle-Markets.html",
-   "sources": [
-    {
-     "name": "OilPrice.com（10月16日）",
-     "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Weekly-Gain-as-Hormuz-Attacks-Rattle-Markets.html"
-    }
-   ]
-  },
-  {
-   "region": "GCC",
    "country": "沙特",
    "tag": "国际",
    "eventType": "SECURITY_RISK",
@@ -109,6 +61,102 @@
    "region": "GCC",
    "country": "GCC六国",
    "tag": "国际",
+   "sector": "航运",
+   "eventType": "SECURITY_RISK",
+   "verification": "VERIFIED",
+   "publishedDate": "22 OCT 2026",
+   "verifiedDate": "22 OCT 2026",
+   "time": "10/22",
+   "title": "伊朗称霍尔木兹7艘油轮被击中，称战事或扩及美军基地",
+   "projectName": "HORMUZ SHIPS HIT",
+   "summary": "据半岛电视台10月22日报道，伊朗称霍尔木兹海峡有7艘油轮受损，为2月28日美以对伊开战以来海峡单日最大伤亡数。革命卫队称其中4艘在转运石油时起火，另3艘触雷失去动力；上述说法无法独立核实。美军中央司令部称布雷说法不实，海峡仍开放，95%船只可通行。革命卫队警告，若美方协助油轮过海峡，冲突将扩及地区美军基地。对海湾工程企业而言，物流、保险和人员出行风险短期内难以缓解。",
+   "company": "",
+   "value": "7艘",
+   "stage": "航运风险",
+   "url": "https://www.aljazeera.com/news/2026/10/22/iran-says-seven-ships-hit-in-hormuz-strait-warns-us-of-wider-response",
+   "sources": [
+    {
+     "name": "半岛电视台（10月22日）",
+     "url": "https://www.aljazeera.com/news/2026/10/22/iran-says-seven-ships-hit-in-hormuz-strait-warns-us-of-wider-response"
+    }
+   ]
+  },
+  {
+   "region": "GLOBAL",
+   "country": "全球",
+   "tag": "国际",
+   "sector": "制裁",
+   "eventType": "POLICY",
+   "verification": "VERIFIED",
+   "publishedDate": "22 OCT 2026",
+   "verifiedDate": "22 OCT 2026",
+   "time": "10/22",
+   "title": "美国制裁律所及航运代理，涉伊朗影子船队4家公司9艘船",
+   "projectName": "IRAN SHADOW FLEET SANCTIONS",
+   "summary": "据《海湾新闻》10月22日报道，美国财政部10月21日晚宣布制裁巴拿马和希腊的Karnakis and Karnakis律所，指其多年设立空壳公司隐藏运输伊朗石油、石化产品和钢铁船只的真实所有人。制裁涉及4家公司、5名个人和9艘船，并含亚洲国家的航运代理；律所客户有一个月时间终止往来。涉及伊朗石油航运、使用相关船舶或代理的企业，需加强合规与船舶背景核查。",
+   "company": "",
+   "value": "9艘船",
+   "stage": "制裁合规",
+   "url": "https://gulfnews.com/world/mena/us-sanctions-law-firm-and-shipping-agents-over-irans-shadow-fleet-1.500719120",
+   "sources": [
+    {
+     "name": "海湾新闻（10月22日）",
+     "url": "https://gulfnews.com/world/mena/us-sanctions-law-firm-and-shipping-agents-over-irans-shadow-fleet-1.500719120"
+    }
+   ]
+  },
+  {
+   "region": "GCC",
+   "country": "GCC六国",
+   "tag": "国际",
+   "sector": "油气",
+   "eventType": "LOGISTICS_RISK",
+   "verification": "VERIFIED",
+   "publishedDate": "21 OCT 2026",
+   "verifiedDate": "22 OCT 2026",
+   "time": "10/21",
+   "title": "布伦特升至110美元，两艘油轮触雷，海湾40%原油绕行",
+   "projectName": "HORMUZ OIL PRICE",
+   "summary": "据《华尔街日报》10月21日报道（雅虎财经转载），12月交割的布伦特期货涨1.3%至每桶110.19美元，前一交易日一度升破111美元，为5月以来最高。伊朗革命卫队称两艘油轮在霍尔木兹海峡以南触雷起火。Kpler数据显示，截至10月18日当周经海峡及替代路线的原油流量日均超2400万桶；约40%的海湾原油运输已绕过海峡，战前为17%。IEA称中东成品油出口9月降至日均190万桶，战前为470万桶。对海湾工程企业而言，燃料与物流成本、保险费用和人员出行风险仍在高位。",
+   "company": "",
+   "value": "$110.19/桶",
+   "stage": "航运风险",
+   "url": "https://finance.yahoo.com/energy/articles/oil-prices-rise-hormuz-shipping-065200516.html",
+   "sources": [
+    {
+     "name": "雅虎财经转载华尔街日报（10月21日）",
+     "url": "https://finance.yahoo.com/energy/articles/oil-prices-rise-hormuz-shipping-065200516.html"
+    }
+   ]
+  },
+  {
+   "region": "CENTRAL_ASIA",
+   "country": "哈萨克斯坦",
+   "tag": "国际",
+   "eventType": "POLICY",
+   "verification": "VERIFIED",
+   "publishedDate": "20 OCT 2026",
+   "verifiedDate": "22 OCT 2026",
+   "time": "10/20",
+   "title": "哈阿签中间走廊运营协议，跨里海铁路货运前9月增30%",
+   "projectName": "MIDDLE CORRIDOR",
+   "summary": "据RailFreight 10月20日报道，哈萨克斯坦与阿塞拜疆签署中间走廊运营协议，承诺最低保障运力和运价稳定，两国港口互相优先服务对方船舶，并推动铁海联运单一运输单证和一站式物流运营商，其他国家可加入。2026年1–9月中间走廊货运量同比增长30%，中欧集装箱过境增长64%。海湾和红海航运受阻期间，中欧陆路通道需求上升。",
+   "company": "",
+   "value": "货运 +30%",
+   "stage": "跨境物流",
+   "url": "https://www.railfreight.com/railfreight/2026/10/20/new-agreement-standardises-middle-corridor-operations-more-countries-can-join/",
+   "sources": [
+    {
+     "name": "RailFreight.com（10月20日）",
+     "url": "https://www.railfreight.com/railfreight/2026/10/20/new-agreement-standardises-middle-corridor-operations-more-countries-can-join/"
+    }
+   ],
+   "sector": "交通"
+  },
+  {
+   "region": "GCC",
+   "country": "GCC六国",
+   "tag": "国际",
    "eventType": "LOGISTICS_RISK",
    "verification": "VERIFIED",
    "publishedDate": "17 OCT 2026",
@@ -128,6 +176,30 @@
     }
    ],
    "sector": "航运"
+  },
+  {
+   "region": "GLOBAL",
+   "country": "全球",
+   "tag": "国际",
+   "sector": "能源",
+   "eventType": "POLICY",
+   "verification": "VERIFIED",
+   "publishedDate": "16 OCT 2026",
+   "verifiedDate": "22 OCT 2026",
+   "time": "10/16",
+   "title": "IEA再释放1亿桶库存，特朗普拟松绑部分影子舰队制裁",
+   "projectName": "IEA STOCK RELEASE",
+   "summary": "据OilPrice.com 10月16日报道，国际能源署宣布释放1亿桶库存，这是2026年3月约定的4亿桶紧急释放计划的剩余部分；特朗普提议解除部分“影子舰队”油轮的制裁以缓解创纪录的运费，但ING分析师质疑这些油轮是否可用，欧盟制裁仍然有效，保险也可能成问题。Kpler数据显示，10月13日当周霍尔木兹海峡原油日均流量降至1162万桶，基准水平为1715万桶。布伦特当时约105.48美元/桶。能源价格与运费走势将影响海湾及周边工程项目的燃料与物流成本。",
+   "company": "",
+   "value": "1亿桶",
+   "stage": "能源供应",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Weekly-Gain-as-Hormuz-Attacks-Rattle-Markets.html",
+   "sources": [
+    {
+     "name": "OilPrice.com（10月16日）",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Weekly-Gain-as-Hormuz-Attacks-Rattle-Markets.html"
+    }
+   ]
   },
   {
    "region": "GCC",
@@ -152,6 +224,30 @@
     }
    ],
    "sector": "水电"
+  },
+  {
+   "region": "ASEAN",
+   "country": "菲律宾",
+   "tag": "国际",
+   "eventType": "POLICY",
+   "verification": "VERIFIED",
+   "publishedDate": "15 OCT 2026",
+   "verifiedDate": "22 OCT 2026",
+   "time": "10/15",
+   "title": "第44届东盟能源部长会议在马尼拉召开，聚焦能源安全和电力互联",
+   "projectName": "ASEAN ENERGY MINISTERS MEETING",
+   "summary": "据中新网10月15日报道，第44届东盟能源部长系列会议10月5日至9日在马尼拉举行，议题为区域能源安全、清洁能源转型和电力互联互通。国家能源局副局长汪剑波出席东亚峰会能源部长会议和东盟与中日韩能源部长会议，中方合作倡议纳入会议联合媒体声明。2027年东盟轮值主席国为新加坡。",
+   "company": "",
+   "value": "—",
+   "stage": "区域能源政策",
+   "url": "https://www.chinanews.com.cn/aseaninfo/2026/10-15/10714848.shtml",
+   "sources": [
+    {
+     "name": "中新网（10月15日）",
+     "url": "https://www.chinanews.com.cn/aseaninfo/2026/10-15/10714848.shtml"
+    }
+   ],
+   "sector": "电力"
   },
   {
    "region": "GLOBAL",
@@ -180,54 +276,6 @@
     }
    ],
    "sector": "宏观"
-  },
-  {
-   "region": "CENTRAL_ASIA",
-   "country": "哈萨克斯坦",
-   "tag": "国际",
-   "eventType": "POLICY",
-   "verification": "VERIFIED",
-   "publishedDate": "20 OCT 2026",
-   "verifiedDate": "22 OCT 2026",
-   "time": "10/20",
-   "title": "哈阿签中间走廊运营协议，跨里海铁路货运前9月增30%",
-   "projectName": "MIDDLE CORRIDOR",
-   "summary": "据RailFreight 10月20日报道，哈萨克斯坦与阿塞拜疆签署中间走廊运营协议，承诺最低保障运力和运价稳定，两国港口互相优先服务对方船舶，并推动铁海联运单一运输单证和一站式物流运营商，其他国家可加入。2026年1–9月中间走廊货运量同比增长30%，中欧集装箱过境增长64%。海湾和红海航运受阻期间，中欧陆路通道需求上升。",
-   "company": "",
-   "value": "货运 +30%",
-   "stage": "跨境物流",
-   "url": "https://www.railfreight.com/railfreight/2026/10/20/new-agreement-standardises-middle-corridor-operations-more-countries-can-join/",
-   "sources": [
-    {
-     "name": "RailFreight.com（10月20日）",
-     "url": "https://www.railfreight.com/railfreight/2026/10/20/new-agreement-standardises-middle-corridor-operations-more-countries-can-join/"
-    }
-   ],
-   "sector": "交通"
-  },
-  {
-   "region": "ASEAN",
-   "country": "菲律宾",
-   "tag": "国际",
-   "eventType": "POLICY",
-   "verification": "VERIFIED",
-   "publishedDate": "15 OCT 2026",
-   "verifiedDate": "22 OCT 2026",
-   "time": "10/15",
-   "title": "第44届东盟能源部长会议在马尼拉召开，聚焦能源安全和电力互联",
-   "projectName": "ASEAN ENERGY MINISTERS MEETING",
-   "summary": "据中新网10月15日报道，第44届东盟能源部长系列会议10月5日至9日在马尼拉举行，议题为区域能源安全、清洁能源转型和电力互联互通。国家能源局副局长汪剑波出席东亚峰会能源部长会议和东盟与中日韩能源部长会议，中方合作倡议纳入会议联合媒体声明。2027年东盟轮值主席国为新加坡。",
-   "company": "",
-   "value": "—",
-   "stage": "区域能源政策",
-   "url": "https://www.chinanews.com.cn/aseaninfo/2026/10-15/10714848.shtml",
-   "sources": [
-    {
-     "name": "中新网（10月15日）",
-     "url": "https://www.chinanews.com.cn/aseaninfo/2026/10-15/10714848.shtml"
-    }
-   ],
-   "sector": "电力"
   }
  ]
 }

@@ -1,6 +1,16 @@
 {
- "updated": "2026-10-19",
+ "updated": "2026-10-22",
  "items": [
+  {
+   "sector": "tech",
+   "kind": "新闻",
+   "title": "中东基建需求外溢 方大集团、深城交等多家公司斩获订单",
+   "source": "证券时报网（同花顺转载）",
+   "url": "http://stock.10jqka.com.cn/20261020/c680895063.shtml",
+   "date": "2026-10-20",
+   "added": "2026-10-22",
+   "cn": true
+  },
   {
    "sector": "infra",
    "kind": "新闻",
