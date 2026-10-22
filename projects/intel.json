@@ -3,6 +3,54 @@
  "items": [
   {
    "region": "GCC",
+   "country": "GCC六国",
+   "tag": "国际",
+   "sector": "油气",
+   "eventType": "LOGISTICS_RISK",
+   "verification": "VERIFIED",
+   "publishedDate": "21 OCT 2026",
+   "verifiedDate": "22 OCT 2026",
+   "time": "10/21",
+   "title": "布伦特升至110美元，两艘油轮触雷，海湾40%原油绕行",
+   "projectName": "HORMUZ OIL PRICE",
+   "summary": "据《华尔街日报》10月21日报道（雅虎财经转载），12月交割的布伦特期货涨1.3%至每桶110.19美元，前一交易日一度升破111美元，为5月以来最高。伊朗革命卫队称两艘油轮在霍尔木兹海峡以南触雷起火。Kpler数据显示，截至10月18日当周经海峡及替代路线的原油流量日均超2400万桶；约40%的海湾原油运输已绕过海峡，战前为17%。IEA称中东成品油出口9月降至日均190万桶，战前为470万桶。对海湾工程企业而言，燃料与物流成本、保险费用和人员出行风险仍在高位。",
+   "company": "",
+   "value": "$110.19/桶",
+   "stage": "航运风险",
+   "url": "https://finance.yahoo.com/energy/articles/oil-prices-rise-hormuz-shipping-065200516.html",
+   "sources": [
+    {
+     "name": "雅虎财经转载华尔街日报（10月21日）",
+     "url": "https://finance.yahoo.com/energy/articles/oil-prices-rise-hormuz-shipping-065200516.html"
+    }
+   ]
+  },
+  {
+   "region": "GLOBAL",
+   "country": "全球",
+   "tag": "国际",
+   "sector": "能源",
+   "eventType": "POLICY",
+   "verification": "VERIFIED",
+   "publishedDate": "16 OCT 2026",
+   "verifiedDate": "22 OCT 2026",
+   "time": "10/16",
+   "title": "IEA再释放1亿桶库存，特朗普拟松绑部分影子舰队制裁",
+   "projectName": "IEA STOCK RELEASE",
+   "summary": "据OilPrice.com 10月16日报道，国际能源署宣布释放1亿桶库存，这是2026年3月约定的4亿桶紧急释放计划的剩余部分；特朗普提议解除部分“影子舰队”油轮的制裁以缓解创纪录的运费，但ING分析师质疑这些油轮是否可用，欧盟制裁仍然有效，保险也可能成问题。Kpler数据显示，10月13日当周霍尔木兹海峡原油日均流量降至1162万桶，基准水平为1715万桶。布伦特当时约105.48美元/桶。能源价格与运费走势将影响海湾及周边工程项目的燃料与物流成本。",
+   "company": "",
+   "value": "1亿桶",
+   "stage": "能源供应",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Weekly-Gain-as-Hormuz-Attacks-Rattle-Markets.html",
+   "sources": [
+    {
+     "name": "OilPrice.com（10月16日）",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Weekly-Gain-as-Hormuz-Attacks-Rattle-Markets.html"
+    }
+   ]
+  },
+  {
+   "region": "GCC",
    "country": "沙特",
    "tag": "国际",
    "eventType": "SECURITY_RISK",
