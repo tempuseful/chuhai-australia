@@ -1,6 +1,30 @@
 {
- "updated": "2026-10-22",
+ "updated": "2026-10-23",
  "items": [
+  {
+   "region": "GLOBAL",
+   "country": "全球",
+   "tag": "国际",
+   "eventType": "MACRO",
+   "verification": "VERIFIED",
+   "publishedDate": "23 OCT 2026",
+   "verifiedDate": "23 OCT 2026",
+   "time": "10/23",
+   "title": "布伦特报114.47美元，IEA称供应紧张或延续至2027年",
+   "projectName": "OIL PRICE OUTLOOK",
+   "summary": "据半岛电视台10月23日报道，美伊战争爆发前夕（2月27日）布伦特收于72.48美元，4月30日一度升至126.41美元；10月23日早盘报114.47美元。战前全球约五分之一的石油和液化天然气经霍尔木兹海峡运输，目前美国仍封锁伊朗港口，通行量和油气供应大幅减少；国际能源署警告供应紧张可能持续到2027年。高油价抬升海湾及周边项目的物流、保险和设备成本，工程企业应在报价和工期中预留余量。",
+   "company": "",
+   "value": "114.47美元",
+   "stage": "宏观",
+   "url": "https://www.aljazeera.com/news/2026/10/23/us-iran-war-then-and-now-how-the-landscape-has-changed-since-february",
+   "sources": [
+    {
+     "name": "半岛电视台（10月23日）",
+     "url": "https://www.aljazeera.com/news/2026/10/23/us-iran-war-then-and-now-how-the-landscape-has-changed-since-february"
+    }
+   ],
+   "sector": "油气"
+  },
   {
    "region": "GCC",
    "country": "沙特",

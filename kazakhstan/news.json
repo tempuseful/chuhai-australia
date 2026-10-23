@@ -1,6 +1,16 @@
 {
- "updated": "2026-10-15",
+ "updated": "2026-10-23",
  "items": [
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "Kazakhstan, Uzbekistan to boost bilateral trade to 10 bln USD",
+   "source": "Xinhua",
+   "url": "https://english.news.cn/20261021/1a5b8e761445487b8b65feb1248bf186/c.html",
+   "date": "2026-10-21",
+   "cn": true,
+   "added": "2026-10-23"
+  },
   {
    "sector": "general",
    "kind": "新闻",

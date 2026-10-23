@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21",
+ "updated": "2026-10-23",
  "items": [
   {
    "id": "auto-idn-20261009-1",
@@ -754,6 +754,64 @@
    "note": "根据公开报道自动整理，跟进分按阶段统一赋值。事件日期以报道日为准。开发商为 Engie 与 Haji Abdullah Alireza 联合体，购电方为沙特电力采购公司（SPPC）；文章称 Sepco 为 EPC 承包商。",
    "informationDate": "2026-10-14",
    "eventDate": "2026-10-14"
+  },
+  {
+   "priority": "S",
+   "score": 92,
+   "need": "尚未评估。",
+   "window": "持续跟踪",
+   "action": "核实项目最新进展，以及分包和采购窗口。",
+   "stage": "新中标",
+   "owner": "未披露",
+   "source": "https://www.yidaiyilu.gov.cn/p/0L3QLBBC.html",
+   "sources": [
+    {
+     "name": "中国一带一路网 中企海外项目周报",
+     "url": "https://www.yidaiyilu.gov.cn/p/0L3QLBBC.html"
+    }
+   ],
+   "id": "auto-omn-20261023-1",
+   "country": "阿曼",
+   "city": "尼兹瓦、巴赫拉",
+   "name": "尼兹瓦及巴赫拉配水管网建设项目",
+   "contractor": "华设设计",
+   "company": "华设设计集团股份有限公司、中地国际工程有限公司（联合体）",
+   "type": "供水管网 / 约3638万里亚尔",
+   "value": "约3638万阿曼里亚尔（约合人民币6.3亿元）",
+   "informationDate": "2026-10-23",
+   "eventDate": "2026-10-19",
+   "note": "根据公开报道自动整理，跟进分按阶段统一赋值。已收到授标函。",
+   "lat": 22.93,
+   "lng": 57.53
+  },
+  {
+   "priority": "S",
+   "score": 92,
+   "need": "尚未评估。",
+   "window": "持续跟踪",
+   "action": "核实项目最新进展，以及分包和采购窗口。",
+   "stage": "新中标",
+   "owner": "未披露",
+   "source": "https://www.yidaiyilu.gov.cn/p/0L3QLBBC.html",
+   "sources": [
+    {
+     "name": "中国一带一路网 中企海外项目周报",
+     "url": "https://www.yidaiyilu.gov.cn/p/0L3QLBBC.html"
+    }
+   ],
+   "id": "auto-khm-20261023-1",
+   "country": "柬埔寨",
+   "city": "磅湛省",
+   "name": "磅湛省供水扩建项目",
+   "contractor": "中国路桥",
+   "company": "中国路桥工程有限责任公司",
+   "type": "供水工程 / 规模不详",
+   "value": "不详",
+   "informationDate": "2026-10-23",
+   "eventDate": "2026-10-23",
+   "note": "根据公开报道自动整理，跟进分按阶段统一赋值。事件日期以报道日为准。",
+   "lat": 11.99,
+   "lng": 105.46
   }
  ]
 }
