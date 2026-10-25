@@ -1,6 +1,26 @@
 {
- "updated": "2026-10-23",
+ "updated": "2026-10-26",
  "items": [
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "Kazakhstan's Baiterek, China's Guoyou sign $1B Kuryk port deal",
+   "source": "Trend.Az",
+   "url": "https://www.trend.az/casia/kazakhstan/4237951.html",
+   "date": "2026-10-22",
+   "added": "2026-10-26",
+   "cn": false
+  },
+  {
+   "sector": "tech",
+   "kind": "新闻",
+   "title": "Kazakhstan, China Plan Pilot Autonomous Trucking Route Between Countries",
+   "source": "The Astana Times",
+   "url": "https://astanatimes.com/2026/10/kazakhstan-china-plan-pilot-autonomous-trucking-route-between-countries/",
+   "date": "2026-10-22",
+   "added": "2026-10-26",
+   "cn": false
+  },
   {
    "sector": "trade",
    "kind": "新闻",
@@ -10,6 +30,16 @@
    "date": "2026-10-21",
    "cn": true,
    "added": "2026-10-23"
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "Tokayev, CNMC chairman discuss Kazakhstan-China copper smelter project",
+   "source": "Trend.Az",
+   "url": "https://www.trend.az/casia/kazakhstan/4237164.html",
+   "date": "2026-10-20",
+   "added": "2026-10-26",
+   "cn": false
   },
   {
    "sector": "general",

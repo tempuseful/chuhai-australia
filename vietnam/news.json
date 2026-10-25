@@ -1,6 +1,16 @@
 {
- "updated": "2026-10-15",
+ "updated": "2026-10-26",
  "items": [
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "通讯｜中企承建光伏电站为越南绿色转型注入新动能",
+   "source": "新华社（搜狐转载）",
+   "url": "https://www.sohu.com/a/1091087897_267106",
+   "date": "2026-10-22",
+   "added": "2026-10-26",
+   "cn": true
+  },
   {
    "sector": "industry",
    "kind": "新闻",

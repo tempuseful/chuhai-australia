@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23",
+ "updated": "2026-10-26",
  "items": [
   {
    "id": "auto-idn-20261009-1",
@@ -812,6 +812,35 @@
    "note": "根据公开报道自动整理，跟进分按阶段统一赋值。事件日期以报道日为准。",
    "lat": 11.99,
    "lng": 105.46
+  },
+  {
+   "priority": "S",
+   "score": 90,
+   "need": "尚未评估。",
+   "window": "持续跟踪",
+   "action": "核实项目最新进展，以及分包和采购窗口。",
+   "stage": "在建",
+   "owner": "KAZ Minerals",
+   "source": "https://www.trend.az/casia/kazakhstan/4237164.html",
+   "sources": [
+    {
+     "name": "Trend.Az（2026-10-20）",
+     "url": "https://www.trend.az/casia/kazakhstan/4237164.html"
+    }
+   ],
+   "id": "auto-kaz-20261020-1",
+   "country": "哈萨克斯坦",
+   "city": "阿拜州阿克托盖",
+   "name": "阿克托盖铜冶炼厂项目",
+   "contractor": "中国有色",
+   "company": "中国有色矿业集团（CNMC）、中国有色（NFC）",
+   "type": "铜冶炼厂 / 年产30万吨阴极铜",
+   "value": "不详",
+   "informationDate": "2026-10-20",
+   "eventDate": "2026-10-20",
+   "note": "根据公开报道自动整理，跟进分按阶段统一赋值。原文称总统通过视频连线启动建设，首批阴极铜计划2030年产出。",
+   "lat": 46.98,
+   "lng": 79.67
   }
  ]
 }

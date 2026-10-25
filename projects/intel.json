@@ -1,6 +1,54 @@
 {
- "updated": "2026-10-24",
+ "updated": "2026-10-26",
  "items": [
+  {
+   "tag": "国际",
+   "verification": "VERIFIED",
+   "verifiedDate": "26 OCT 2026",
+   "company": "",
+   "region": "GCC",
+   "country": "GCC六国",
+   "sector": "航运",
+   "eventType": "LOGISTICS_RISK",
+   "publishedDate": "25 OCT 2026",
+   "time": "10/25",
+   "title": "约492艘船滞留霍尔木兹外，联合海事信息中心列威胁“严重”",
+   "projectName": "HORMUZ VESSEL BACKLOG",
+   "summary": "据海湾新闻10月25日报道，约492艘船舶在霍尔木兹海峡外等待，其中富查伊拉和霍尔法坎附近194艘、迪拜外海178艘。联合海事信息中心称10月22日至24日有101次美方协助通行，日常基准约为每日138次；10月22日阿曼利马附近一艘油轮遇袭。该中心将霍尔木兹威胁等级列为“严重”。工程企业的设备与材料进港需预留更长的海运周期。",
+   "value": "492艘",
+   "stage": "航运风险",
+   "url": "https://gulfnews.com/world/mena/strait-of-hormuz-crisis-nearly-500-vessels-face-disruption-amid-new-tanker-attack-1.500723273",
+   "sources": [
+    {
+     "name": "海湾新闻（10月25日）",
+     "url": "https://gulfnews.com/world/mena/strait-of-hormuz-crisis-nearly-500-vessels-face-disruption-amid-new-tanker-attack-1.500723273"
+    }
+   ]
+  },
+  {
+   "tag": "国际",
+   "verification": "VERIFIED",
+   "verifiedDate": "26 OCT 2026",
+   "company": "",
+   "region": "GCC",
+   "country": "GCC六国",
+   "sector": "安全",
+   "eventType": "SECURITY_RISK",
+   "publishedDate": "24 OCT 2026",
+   "time": "10/24",
+   "title": "伊朗称不容美舰靠近，特朗普考虑新一轮打击，布伦特约117美元",
+   "projectName": "IRAN US STANDOFF",
+   "summary": "据半岛电视台10月24日报道，伊朗武装部队称已准备向美国军舰开火，特朗普称美军“可能再来一次”大规模空袭。报道称布伦特原油升至约117美元，为4月以来最高；革命卫队称一夜之间7艘油轮遇袭或触雷，两艘超级油轮周五触雷。胡塞武装继续袭击沙特，包括利雅得、达曼机场和谢拜油田。海湾在建工程的人员出行和物流风险仍高。",
+   "value": "约117美元",
+   "stage": "安全",
+   "url": "https://www.aljazeera.com/news/2026/10/24/iran-says-wont-allow-us-warships-to-get-close-as-trump-ponders-new-attacks",
+   "sources": [
+    {
+     "name": "半岛电视台（10月24日）",
+     "url": "https://www.aljazeera.com/news/2026/10/24/iran-says-wont-allow-us-warships-to-get-close-as-trump-ponders-new-attacks"
+    }
+   ]
+  },
   {
    "region": "GCC",
    "country": "沙特",

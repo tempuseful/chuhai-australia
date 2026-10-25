@@ -1,6 +1,16 @@
 {
- "updated": "2026-10-22",
+ "updated": "2026-10-26",
  "items": [
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "Uzkimyosanoat and China's TCC to Explore Coal-Based Ammonia Production",
+   "source": "UzDaily",
+   "url": "https://www.uzdaily.uz/en/uzkimyosanoat-and-chinas-tcc-to-explore-coal-based-ammonia-production/",
+   "date": "2026-10-23",
+   "added": "2026-10-26",
+   "cn": false
+  },
   {
    "sector": "general",
    "kind": "新闻",

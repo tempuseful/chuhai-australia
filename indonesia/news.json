@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23",
+ "updated": "2026-10-26",
  "items": [
   {
    "sector": "energy",
@@ -10,6 +10,26 @@
    "date": "2026-10-23",
    "cn": true,
    "added": "2026-10-23"
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "记者手记丨阳光变电能，技术助成长——中企助力印尼绿色转型",
+   "source": "中国一带一路网（转自新华社）",
+   "url": "https://www.yidaiyilu.gov.cn/p/0PBJDUKL.html",
+   "date": "2026-10-21",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "生日快乐，雅万高铁",
+   "source": "新华社",
+   "url": "https://www.news.cn/silkroad/20261019/8b7f7ac383a54049961b8be966b7dee0/c.html",
+   "date": "2026-10-17",
+   "added": "2026-10-26",
+   "cn": true
   },
   {
    "sector": "energy",
