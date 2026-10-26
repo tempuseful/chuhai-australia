@@ -1,6 +1,66 @@
 {
- "updated": "2026-10-15",
+ "updated": "2026-10-26",
  "items": [
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "Prospects for business cooperation between Turkmenistan and China’s Shanxi Province were discussed in Ashgabat",
+   "source": "Turkmenportal",
+   "url": "https://turkmenportal.com/en/news/106032-prospects-for-business-cooperation-between-turkmenistan-and-chinas-shanxi-province-were-discussed-in-ashgabat",
+   "date": "2026-10-23",
+   "added": "2026-10-26",
+   "cn": false
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "CNOOC, KSP Steel and other firms sign 5 deals with Turkmenistan",
+   "source": "Trend.Az",
+   "url": "https://www.trend.az/casia/turkmenistan/4238273.html",
+   "date": "2026-10-23",
+   "added": "2026-10-26",
+   "cn": false
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "Туркменистан поставил в Китай более 477 млрд кубометров газа",
+   "source": "Хроника Туркменистана",
+   "url": "https://www.hronikatm.com/2026/10/turkmenistan-has-supplied-more-than-477-billion-cubic-meters-of-natural-gas-to-china/",
+   "date": "2026-10-22",
+   "added": "2026-10-26",
+   "cn": false
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "Turkmenbashi needs container terminal for China transit - U.F.E. Shipping",
+   "source": "Trend.Az",
+   "url": "https://www.trend.az/azerbaijan/4237430.html",
+   "date": "2026-10-21",
+   "added": "2026-10-26",
+   "cn": false
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "全球媒体聚焦 | 多国产品瞄准进博会广阔商机",
+   "source": "中国新闻网",
+   "url": "https://www.chinanews.com.cn/gj/2026/10-21/10718300.shtml",
+   "date": "2026-10-21",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "吉树民大使出席土库曼斯坦鲁班工坊首届本科生开学典礼",
+   "source": "中国驻土库曼斯坦大使馆",
+   "url": "https://tm.china-embassy.gov.cn/sgdt/202610/t20261015_12040655.htm",
+   "date": "2026-10-15",
+   "added": "2026-10-26",
+   "cn": true
+  },
   {
    "sector": "general",
    "kind": "政策",
@@ -22,6 +82,66 @@
    "added": "2026-10-15"
   },
   {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "Turkmenistan Expands Galkynysh Gas Field With $5.1 Billion Fourth Phase",
+   "source": "The Times of Central Asia",
+   "url": "https://timesca.com/galkynysh-gas-field-fourth-phase/",
+   "date": "2026-10-01",
+   "added": "2026-10-26",
+   "cn": false
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "跨里海国际运输走廊高级别会议在北京召开",
+   "source": "中国一带一路网（中新网）",
+   "url": "https://www.yidaiyilu.gov.cn/p/0EF30PCK.html",
+   "date": "2026-09-23",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "tech",
+   "kind": "新闻",
+   "title": "Huawei proposes digitalization of Turkmenistan's oil and gas sector",
+   "source": "Trend.Az",
+   "url": "https://www.trend.az/casia/turkmenistan/4225150.html",
+   "date": "2026-09-17",
+   "added": "2026-10-26",
+   "cn": false
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "艾尔肯·吐尼亚孜率中国新疆政府代表团访问土库曼斯坦",
+   "source": "中国驻土库曼斯坦大使馆",
+   "url": "https://tm.china-embassy.gov.cn/sbwl/202608/t20260827_12011254.htm",
+   "date": "2026-08-27",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "Turkmenistan's trade with China exceeds 4.8 billion US dollars",
+   "source": "见道网（英文版）",
+   "url": "https://www.seetaoe.com/details/275176.html",
+   "date": "2026-08-18",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "finance",
+   "kind": "新闻",
+   "title": "Turkmen elites still “robbing” poor with official exchange rate trailing black market sixfold, say critics",
+   "source": "bne IntelliNews",
+   "url": "https://www.intellinews.com/turkmen-elites-still-robbing-poor-with-official-exchange-rate-trailing-black-market-sixfold-say-critics-457767/",
+   "date": "2026-07-29",
+   "added": "2026-10-26",
+   "cn": false
+  },
+  {
    "sector": "finance",
    "kind": "新闻",
    "title": "На черном рынке Туркменистана снизился курс доллара",
@@ -32,6 +152,26 @@
    "cn": false
   },
   {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "驻土库曼斯坦大使吉树民赴华油土库曼斯坦分公司走访调研",
+   "source": "外交部",
+   "url": "https://www.mfa.gov.cn/web/zwbd_673032/jghd_673046/202607/t20260724_11991426.shtml",
+   "date": "2026-07-14",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "青海首开至土库曼斯坦中亚班列 打通中亚物流新通道",
+   "source": "新华网",
+   "url": "https://www.news.cn/world/20260628/7564684c9ad24758b8fff3c18211956c/c.html",
+   "date": "2026-06-28",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
    "sector": "finance",
    "kind": "新闻",
    "title": "IMF Staff Completes 2026 Article IV Mission to Turkmenistan",
@@ -40,6 +180,86 @@
    "date": "2026-06-22",
    "added": "2026-10-10",
    "cn": false
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "土库曼斯坦总统访问阿塞拜疆 聚焦物流与能源合作",
+   "source": "中国新闻网",
+   "url": "https://www.chinanews.com.cn/gj/2026/06-22/10645319.shtml",
+   "date": "2026-06-22",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "河南中欧班列首发土库曼斯坦 境外直达站点增至29个",
+   "source": "中国新闻网",
+   "url": "https://www.chinanews.com.cn/ydyl/2026/06-19/10644027.shtml",
+   "date": "2026-06-19",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "CRRC diesel locomotive unveiled in Turkmenistan",
+   "source": "Railway Gazette International",
+   "url": "https://www.railwaygazette.com/turkmenistan/2026/06/16/crrc-diesel-locomotive-unveiled-in-turkmenistan/",
+   "date": "2026-06-16",
+   "added": "2026-10-26",
+   "cn": false
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "成都-土库曼斯坦阿加拉全铁班列启运",
+   "source": "中国新闻网",
+   "url": "https://www.chinanews.com.cn/ydyl/2026/06-09/10637133.shtml",
+   "date": "2026-06-09",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "Turkmenistan signed a package of agreements with companies from six countries at the WCA 2026",
+   "source": "Turkmenportal",
+   "url": "https://turkmenportal.com/en/news/101623-turkmenistan-podpisal-na-wca-2026-paket-soglasheniy-s-kompaniyami-iz-shesti-stran--",
+   "date": "2026-05-25",
+   "added": "2026-10-26",
+   "cn": false
+  },
+  {
+   "sector": "finance",
+   "kind": "新闻",
+   "title": "China signs billions worth of contracts with Turkmenistan, but no financing",
+   "source": "Eurasianet",
+   "url": "https://eurasianet.org/china-signs-billions-worth-of-contracts-with-turkmenistan-but-no-financing",
+   "date": "2026-05-04",
+   "added": "2026-10-26",
+   "cn": false
+  },
+  {
+   "sector": "tech",
+   "kind": "新闻",
+   "title": "Turkmenistan, Chinese firms discuss AI, high-tech and smart cities cooperation",
+   "source": "Trend.Az",
+   "url": "https://www.trend.az/business/4181215.html",
+   "date": "2026-05-01",
+   "added": "2026-10-26",
+   "cn": false
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "中亚陆气补位波斯湾海气 中油工程46亿美元中标土库曼斯坦天然气项目|速读公告",
+   "source": "新浪财经（财联社）",
+   "url": "https://finance.sina.com.cn/jjxw/2026-04-24/doc-inhvrnzq4258394.shtml",
+   "date": "2026-04-24",
+   "added": "2026-10-26",
+   "cn": true
   },
   {
    "sector": "energy",
@@ -62,6 +282,56 @@
    "cn": false
   },
   {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "2026年土库曼斯坦—中国商务论坛暨展览会将举办",
+   "source": "中国新闻网",
+   "url": "https://www.chinanews.com.cn/cj/2026/04-17/10605744.shtml",
+   "date": "2026-04-17",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "tech",
+   "kind": "新闻",
+   "title": "Huawei's academic platform will be implemented in Turkmenistan's education system",
+   "source": "Turkmenportal",
+   "url": "https://turkmenportal.com/en/news/100485-akademicheskaya-platforma-huawei-budet-vnedryatsya-v-sistemu-obrazovaniya-turkmenistana--------------------------------",
+   "date": "2026-04-17",
+   "added": "2026-10-26",
+   "cn": false
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "土库曼斯坦对华出口天然气4600亿立方米",
+   "source": "见道网",
+   "url": "https://www.seetao.com/details/261666.html",
+   "date": "2026-03-31",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "中国土库曼斯坦重大战略对接“马不停蹄” 开启全方位合作新格局",
+   "source": "21世纪经济报道",
+   "url": "https://www.21jingji.com/article/20260321/e5afb14ed4b5d827d66fe8a083a3eb43.html",
+   "date": "2026-03-21",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "观察丨这条绕开霍尔木兹海峡的能源动脉，已经通了15年",
+   "source": "中国能源新闻网",
+   "url": "https://www.cpnn.com.cn/news/zngc/202603/t20260320_1874770.html",
+   "date": "2026-03-20",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
    "sector": "general",
    "kind": "新闻",
    "title": "习近平会见土库曼斯坦民族领袖、人民委员会主席别尔德穆哈梅多夫",
@@ -70,6 +340,26 @@
    "date": "2026-03-18",
    "added": "2026-10-10",
    "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "中石油与土库曼斯坦加强天然气领域合作！",
+   "source": "新浪财经（中国石油报）",
+   "url": "https://finance.sina.com.cn/wm/2026-03-18/doc-inhrmayk4778704.shtml",
+   "date": "2026-03-18",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "finance",
+   "kind": "政策",
+   "title": "Turkmenistan legalizes crypto mining and exchanges to boost the economy",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/policy/2026/01/02/turkmenistan-legalizes-crypto-mining-and-exchanges-to-boost-the-economy",
+   "date": "2026-01-02",
+   "added": "2026-10-26",
+   "cn": false
   },
   {
    "sector": "energy",
