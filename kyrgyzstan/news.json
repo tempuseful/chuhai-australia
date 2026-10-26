@@ -1,6 +1,46 @@
 {
- "updated": "2026-10-10",
+ "updated": "2026-10-26",
  "items": [
+  {
+   "sector": "tech",
+   "kind": "新闻",
+   "title": "Жапаров предложил странам Азии строить дата-центры в Кыргызстане",
+   "source": "Economist.kg",
+   "url": "https://economist.kg/vlast/2026/10/15/zhaparov-predlozhil-stranam-azii-stroit-data-tsentry-v-kyrgyzstane/",
+   "date": "2026-10-15",
+   "added": "2026-10-26",
+   "cn": false
+  },
+  {
+   "sector": "finance",
+   "kind": "新闻",
+   "title": "【环球财经】吉尔吉斯斯坦银行业总资产今年前8个月增长24.2%",
+   "source": "东方财富网（新华财经）",
+   "url": "https://finance.eastmoney.com/a/202610133893086810.html",
+   "date": "2026-10-13",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "tech",
+   "kind": "新闻",
+   "title": "吉尔吉斯斯坦推进跨境货运数字化",
+   "source": "光明网（中国新闻网）",
+   "url": "https://m.gmw.cn/2026-10/12/content_1304574662.htm",
+   "date": "2026-10-12",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "【环球财经】吉尔吉斯斯坦总理：今年上半年吉吸引直接外资同比增长26.2%",
+   "source": "新华财经",
+   "url": "https://www.cnfin.com/hg-lb/detail/20261007/4477761_1.html",
+   "date": "2026-10-07",
+   "added": "2026-10-26",
+   "cn": true
+  },
   {
    "sector": "finance",
    "kind": "新闻",
@@ -14,12 +54,82 @@
   {
    "sector": "infra",
    "kind": "新闻",
+   "title": "于志刚参赞出席吉尔吉斯斯坦中国总商会建筑业委员会成立大会",
+   "source": "中国驻吉尔吉斯斯坦大使馆",
+   "url": "https://kg.china-embassy.gov.cn/dssghd/202609/t20260929_12033465.htm",
+   "date": "2026-09-29",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "政策",
+   "title": "Kyrgyzstan, China sign electricity cooperation agreement",
+   "source": "Trend",
+   "url": "https://www.trend.az/casia/kyrgyzstan/4227943.html",
+   "date": "2026-09-25",
+   "added": "2026-10-26",
+   "cn": false
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "李强会见吉尔吉斯斯坦总理卡瑟马利耶夫",
+   "source": "中国外交部",
+   "url": "https://www.mfa.gov.cn/zyxw/202609/t20260923_12029875.shtml",
+   "date": "2026-09-23",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
    "title": "吉尔吉斯斯坦境内段首座隧道顺利贯通  中吉乌铁路建设取得重要进展",
    "source": "科技日报",
    "url": "https://www.stdaily.com/web/gdxw/2026-09/05/content_575867.html",
    "date": "2026-09-05",
    "added": "2026-10-10",
    "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "中华人民共和国和吉尔吉斯共和国关于高质量发展新时代全面战略伙伴关系的联合宣言",
+   "source": "新华网",
+   "url": "https://www.news.cn/20260901/6372f4ea572b40408507bc161ccaf8b7/c.html",
+   "date": "2026-09-01",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "Kyrgyzstan Fertilizer Plant Opens With $260 Million Chinese Investment",
+   "source": "The Times of Central Asia",
+   "url": "https://timesca.com/kyrgyzstan-fertilizer-plant-chinese-investment/",
+   "date": "2026-09-01",
+   "added": "2026-10-26",
+   "cn": false
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "中吉乌铁路吉尔吉斯斯坦境内段建设全面推进",
+   "source": "中国新闻网（人民日报）",
+   "url": "https://www.chinanews.com.cn/gj/2026/08-31/10687186.shtml",
+   "date": "2026-08-31",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "finance",
+   "kind": "政策",
+   "title": "Interbank payments, exports and logistics. What agreements have Kyrgyzstan and China concluded?",
+   "source": "Akchabar",
+   "url": "https://www.akchabar.kg/en/news/mezhbankovskie-platezhi-eksport-i-logistika-kakie-soglasheniya-zaklyuchili-kirgizstan-i-kitaj-dqmdmptjxvlihvla",
+   "date": "2026-08-31",
+   "added": "2026-10-26",
+   "cn": false
   },
   {
    "sector": "general",
@@ -33,12 +143,172 @@
   },
   {
    "sector": "trade",
+   "kind": "新闻",
+   "title": "依托中吉乌铁路建设攻坚推进与叠加红利 口岸通关活力释放人员车流双增长",
+   "source": "光明网（央视网）",
+   "url": "https://m.gmw.cn/2026-08/30/content_1304556315.htm",
+   "date": "2026-08-30",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "中吉务实合作仍具可观拓展空间",
+   "source": "中国日报网（经济日报）",
+   "url": "https://cn.chinadaily.com.cn/a/202608/29/WS6a9299ece4b09a165c786c3e.html",
+   "date": "2026-08-29",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "一带一路故事绘丨比什凯克：中国技术助力垃圾变“废”为“宝”",
+   "source": "新华网",
+   "url": "https://www.news.cn/20260829/fe1bfb5a24664c96a2ff9d519a511a55/c.html",
+   "date": "2026-08-29",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "finance",
+   "kind": "新闻",
+   "title": "Kyrgyzstan Sanctions Risks Reshape Business",
+   "source": "The Times of Central Asia",
+   "url": "https://timesca.com/kyrgyzstan-sanctions-sanitary-cleanup/",
+   "date": "2026-08-19",
+   "added": "2026-10-26",
+   "cn": false
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "Kyrgyzstan, China plan oil and gas projects, refineries",
+   "source": "Trend",
+   "url": "https://www.trend.az/casia/4216024.html",
+   "date": "2026-08-18",
+   "added": "2026-10-26",
+   "cn": false
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "“有路的地方，就有发展机遇”",
+   "source": "人民日报",
+   "url": "https://www.peopleapp.com/column/30052876639-500007640540",
+   "date": "2026-08-08",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "tech",
+   "kind": "新闻",
+   "title": "Alibaba Cloud has registered in Kyrgyzstan as a payer of the 'Google tax'",
+   "source": "Akchabar",
+   "url": "https://www.akchabar.kg/en/news/alibaba-cloud-zaregistrirovalas-v-kirgizstane-v-kachestve-platelshchika-naloga-na-google-qykvpfdfhbeotrhf",
+   "date": "2026-08-05",
+   "added": "2026-10-26",
+   "cn": false
+  },
+  {
+   "sector": "finance",
+   "kind": "政策",
+   "title": "吉尔吉斯斯坦央行维持12%基准利率不变，应对通胀压力",
+   "source": "证券之星（金吾财讯）",
+   "url": "https://wap.stockstar.com/detail/IG2026072800017586",
+   "date": "2026-07-28",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "finance",
+   "kind": "政策",
+   "title": "The EU has imposed sanctions on a Kyrgyz bank and 14 crypto platforms",
+   "source": "Akchabar",
+   "url": "https://www.akchabar.kg/en/news/es-vvel-sanktsii-protiv-banka-kirgizstana-i-14-kriptoplatform-mchbxrcvpybuzckh",
+   "date": "2026-07-24",
+   "added": "2026-10-26",
+   "cn": false
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "关于吉尔吉斯斯坦限制中国自驾车辆入境的提醒",
+   "source": "中国驻吉尔吉斯斯坦大使馆",
+   "url": "https://kg.china-embassy.gov.cn/lsqws/lsfw/202607/t20260722_11989430.htm",
+   "date": "2026-07-22",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "中国—吉尔吉斯斯坦政府间经贸合作委员会第十七次会议在比什凯克召开",
+   "source": "中国驻吉尔吉斯斯坦大使馆",
+   "url": "https://kg.china-embassy.gov.cn/zjsbwl/202607/t20260720_11986120.htm",
+   "date": "2026-07-20",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "吉尔吉斯斯坦发布办理有关离境签的总统令",
+   "source": "中国驻吉尔吉斯斯坦大使馆",
+   "url": "https://kg.china-embassy.gov.cn/lsqws/lsfw/202606/t20260629_11953802.htm",
+   "date": "2026-06-29",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "Kyrgyzstan changes rules for foreigners and labour migrants",
+   "source": "24.kg",
+   "url": "https://24.kg/english/373482_Kyrgyzstan_changes_rules_for_foreigners_and_labour_migrants/",
+   "date": "2026-05-12",
+   "added": "2026-10-26",
+   "cn": false
+  },
+  {
+   "sector": "trade",
    "kind": "政策",
    "title": "EU Hits Kyrgyzstan With First-Ever Anti-Circumvention Sanctions in 20th Russia Package",
    "source": "Fergana",
    "url": "https://en.fergana.agency/news/146624/",
    "date": "2026-04-24",
    "added": "2026-10-10",
+   "cn": false
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "吉尔吉斯国家化肥厂第一批生产原料顺利入厂 投产筹备进入冲刺阶段",
+   "source": "中华网",
+   "url": "https://mtz.china.com/touzi/2026/0407/226129.html",
+   "date": "2026-04-07",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "实干启新程｜客货两旺动能足，新疆各大口岸活力迸发",
+   "source": "凤凰网（天山网）",
+   "url": "https://news.ifeng.com/c/8ryZQzTpknr",
+   "date": "2026-04-01",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "Economy Ministry invites Chinese companies to relocate production to Kyrgyzstan",
+   "source": "24.kg",
+   "url": "https://24.kg/english/365917_Economy_Ministry_invites_Chinese_companies_to_relocate_production_to_Kyrgyzstan/",
+   "date": "2026-03-13",
+   "added": "2026-10-26",
    "cn": false
   },
   {
@@ -63,6 +333,26 @@
   },
   {
    "sector": "general",
+   "kind": "新闻",
+   "title": "China’s investment in Kyrgyzstan’s economy reaches $2.1 bln at year-end 2025",
+   "source": "24.kg",
+   "url": "https://24.kg/english/357911_Chinas_investment_in_Kyrgyzstans_economy_reaches_21_bln_at_year-end_2025",
+   "date": "2026-01-15",
+   "added": "2026-10-26",
+   "cn": false
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "中国能源建设集团新疆电力设计院参与承建的吉国首座大型光伏项目顺利并网",
+   "source": "中国日报网",
+   "url": "https://cn.chinadaily.com.cn/a/202512/25/WS694ce725a310942cc49988cd.html",
+   "date": "2025-12-25",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "general",
    "kind": "政策",
    "title": "我国已与13个国家签署社保协定，助力企业开拓国际市场",
    "source": "澎湃新闻",
@@ -80,6 +370,16 @@
    "date": "2025-10-11",
    "added": "2026-10-10",
    "cn": true
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "Kyrgyzstan Begins Building Strategic Highway to China's Xinjiang",
+   "source": "The Times of Central Asia",
+   "url": "https://timesca.com/kyrgyzstan-begins-building-strategic-highway-to-chinas-xinjiang/",
+   "date": "2025-08-28",
+   "added": "2026-10-26",
+   "cn": false
   }
  ]
 }
