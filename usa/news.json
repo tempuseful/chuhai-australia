@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26",
+ "updated": "2026-10-27",
  "items": [
   {
    "sector": "finance",
@@ -40,6 +40,16 @@
    "date": "2026-10-20",
    "added": "2026-10-26",
    "cn": true
+  },
+  {
+   "sector": "tech",
+   "kind": "新闻",
+   "title": "China targets AI technology exports with new controls as US trade truce frays",
+   "source": "The National",
+   "url": "https://www.thenationalnews.com/future/technology/2026/10/16/china-targets-ai-technology-exports-with-new-controls-as-us-trade-truce-frays/",
+   "date": "2026-10-16",
+   "added": "2026-10-27",
+   "cn": false
   },
   {
    "sector": "finance",
