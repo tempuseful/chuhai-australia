@@ -1,6 +1,106 @@
 {
- "updated": "2026-10-12",
+ "updated": "2026-10-26",
  "items": [
+  {
+   "sector": "finance",
+   "kind": "政策",
+   "title": "商务部新闻发言人就美发布新版对外投资限制拟议规则答记者问",
+   "source": "中国新闻网",
+   "url": "https://www.chinanews.com.cn/cj/2026/10-24/10720450.shtml",
+   "date": "2026-10-24",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "商务部新闻发言人就美国防部公布所谓科研安全审查结果事答记者问",
+   "source": "中国新闻网",
+   "url": "https://www.chinanews.com.cn/cj/2026/10-23/10719719.shtml",
+   "date": "2026-10-23",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "tech",
+   "kind": "政策",
+   "title": "商务部新闻发言人就美国土安全部发布针对中国企业的联邦采购排除和移除命令通知答记者问",
+   "source": "新华网",
+   "url": "https://www.news.cn/world/20261020/ec7dbf7de09c480694fc6db45c5744d9/c.html",
+   "date": "2026-10-20",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "tech",
+   "kind": "政策",
+   "title": "商务部就美以窃取商业秘密为由制裁中国企业答记者问",
+   "source": "中国新闻网",
+   "url": "https://www.chinanews.com.cn/cj/2026/10-20/10718165.shtml",
+   "date": "2026-10-20",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "finance",
+   "kind": "新闻",
+   "title": "Treasury's First Outbound Investment Penalty: Implications for Private Fund Sponsors and Cross-Border Investment Activity",
+   "source": "Debevoise & Plimpton",
+   "url": "https://www.debevoise.com/insights/publications/2026/10/treasurys-first-outbound-investment-penalty-implic",
+   "date": "2026-10-14",
+   "added": "2026-10-26",
+   "cn": false
+  },
+  {
+   "sector": "energy",
+   "kind": "政策",
+   "title": "Crystalline Silicon Photovoltaic Cells, Whether or Not Assembled Into Modules, from India, Indonesia, and Laos Injure U.S. Industry, Says USITC",
+   "source": "USITC",
+   "url": "https://www.usitc.gov/press_room/news_release/2026/er1014_69351.htm",
+   "date": "2026-10-14",
+   "added": "2026-10-26",
+   "cn": false
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "US-CHINA EXTENDS TRADE TRUCE: FURTHER SUSPENSION OF BIS AFFILIATES RULE AND TARIFF REDUCTION",
+   "source": "Bae, Kim & Lee (BKL)",
+   "url": "https://www.bkl.co.kr/en/law/insight/newsletter/6811",
+   "date": "2026-10-13",
+   "added": "2026-10-26",
+   "cn": false
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "不进美国也要当销冠！比亚迪李柯：五年内赶超丰田、大众 登顶全球车企销量第一",
+   "source": "新浪财经（快科技）",
+   "url": "https://finance.sina.cn/stock/jdts/2026-10-11/detail-iniuvpan0576088.d.html",
+   "date": "2026-10-11",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "政策",
+   "title": "商务部新闻发言人就美国召集部分经济体发布应对所谓“结构性产能和生产过剩”问题部长级联合声明答记者问",
+   "source": "中国新闻网",
+   "url": "https://www.chinanews.com.cn/cj/2026/10-09/10709942.shtml",
+   "date": "2026-10-09",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "Exclusive | Bessent may skip Apec in Hong Kong to focus on Trump's Shenzhen visit, sources say",
+   "source": "South China Morning Post",
+   "url": "https://scmp.com/news/china/diplomacy/article/3370295/bessent-may-skip-apec-hong-kong-focus-trumps-shenzhen-visit-sources-say",
+   "date": "2026-10-09",
+   "added": "2026-10-26",
+   "cn": false
+  },
   {
    "sector": "trade",
    "kind": "政策",
@@ -34,11 +134,111 @@
   {
    "sector": "trade",
    "kind": "政策",
+   "title": "美国对进口俄罗斯石油或天然气的第三国加征所谓“次级关税” 商务部回应",
+   "source": "中国新闻网",
+   "url": "https://www.chinanews.com.cn/cj/2026/09-19/10699695.shtml",
+   "date": "2026-09-19",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "CBP Reports Major Progress on IEEPA Refunds; CAPE Phase 3 Launches October 6",
+   "source": "C.H. Robinson",
+   "url": "https://www.chrobinson.com/en-sg/resources/insights-and-advisories/client-advisories/2026q3/09-17-26-cbp-cape-phase-3-ieepa-refunds/",
+   "date": "2026-09-17",
+   "added": "2026-10-26",
+   "cn": false
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "Trump open to Chinese automakers coming to U.S., on one condition",
+   "source": "CBT News",
+   "url": "https://www.cbtnews.com/trump-open-to-chinese-autos/",
+   "date": "2026-09-14",
+   "added": "2026-10-26",
+   "cn": false
+  },
+  {
+   "sector": "tech",
+   "kind": "政策",
+   "title": "商务部就美发布中国人工智能企业对美蒸馏活动相关网络安全公告答记者问",
+   "source": "中国新闻网",
+   "url": "https://www.chinanews.com.cn/cj/2026/09-09/10693607.shtml",
+   "date": "2026-09-09",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "finance",
+   "kind": "新闻",
+   "title": "《2026中概股赴美上市明显降温：迄今仅3家，纳斯达克门槛再提高》",
+   "source": "新浪财经",
+   "url": "https://finance.sina.com.cn/roll/2026-09-08/doc-inirceww9433041.shtml",
+   "date": "2026-09-08",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "政策",
+   "title": "美国考虑对华额外加征7.5%关税 中国商务部回应",
+   "source": "中国新闻网",
+   "url": "https://www.chinanews.com.cn/cj/2026/08-27/10685336.shtml",
+   "date": "2026-08-27",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "infra",
+   "kind": "政策",
+   "title": "Executive order bans foreign-produced transformers, inverters, and circuit breakers for U.S. power grid",
+   "source": "pv magazine",
+   "url": "https://www.pv-magazine.com/2026/08/27/executive-order-bans-foreign-produced-transformers-inverters-and-circuit-breakers-for-u-s-power-grid/",
+   "date": "2026-08-27",
+   "added": "2026-10-26",
+   "cn": false
+  },
+  {
+   "sector": "industry",
+   "kind": "政策",
+   "title": "商务部回应美征收无人机关税等热点问题",
+   "source": "新华网",
+   "url": "https://www.news.cn/world/20260820/1f2d6e4496284af9899f9115b3786565/c.html",
+   "date": "2026-08-20",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "政策",
+   "title": "商务部新闻发言人就对美国联邦通信委员会、美国土安全部系列涉华消极措施实施反制答记者问",
+   "source": "新华网",
+   "url": "https://www.news.cn/world/20260805/8e9d9b1946104abda8132e4b6a0adbba/c.html",
+   "date": "2026-08-05",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "政策",
    "title": "美国将中企列入所谓涉疆法案实体清单 中方强烈谴责",
    "source": "中国新闻网",
    "url": "https://www.chinanews.com.cn/cj/2026/08-01/10670340.shtml",
    "date": "2026-08-01",
    "added": "2026-10-12",
+   "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "政策",
+   "title": "商务部新闻发言人就美国联邦通信委员会将外国电力逆变器和先进机器人设备列入“覆盖清单”事答记者问",
+   "source": "新华网",
+   "url": "https://www.news.cn/world/20260730/23f87237d2f9419e89b7fec2da5ee945/c.html",
+   "date": "2026-07-30",
+   "added": "2026-10-26",
    "cn": true
   },
   {
@@ -52,6 +252,56 @@
    "cn": true
   },
   {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "宁德时代与福特汽车技术授权服务合作工厂已建成投产(含视频)",
+   "source": "财新网",
+   "url": "https://www.caixin.com/2026-06-30/102459230.html",
+   "date": "2026-06-30",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "tech",
+   "kind": "政策",
+   "title": "美国出台新规：禁止向中企境外子公司出口AI芯片！",
+   "source": "新浪科技（快科技）",
+   "url": "https://finance.sina.com.cn/tech/roll/2026-06-01/doc-inhzwyqi8438711.shtml",
+   "date": "2026-06-01",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "finance",
+   "kind": "政策",
+   "title": "纳斯达克提高中企上市门槛：2500万美元成新门槛，OTC“孵化+转板”价值被重新放大",
+   "source": "新浪财经",
+   "url": "https://finance.sina.com.cn/roll/2026-05-21/doc-inhyrmmu5993441.shtml",
+   "date": "2026-05-21",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "政策",
+   "title": "商务部新闻发言人就中美经贸磋商初步成果答记者问",
+   "source": "新华网",
+   "url": "https://www.news.cn/world/20260516/f9fe0b0fb3ed46f1ab095d709e778d14/c.html",
+   "date": "2026-05-16",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "美国工厂年赚13亿，江西光伏龙头为何要卖掉",
+   "source": "新浪财经（时代财经）",
+   "url": "https://cj.sina.com.cn/articles/view/6372873842/17bda567200101ijcq",
+   "date": "2026-05-11",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
    "sector": "trade",
    "kind": "新闻",
    "title": "美最高法院裁定特朗普政府大规模关税违法",
@@ -62,6 +312,16 @@
    "cn": true
   },
   {
+   "sector": "energy",
+   "kind": "政策",
+   "title": "Treasury Department and IRS Release Prohibited Foreign Entity Guidance",
+   "source": "Holland & Knight",
+   "url": "https://www.hklaw.com/en/insights/publications/2026/02/treasury-department-and-irs-release-prohibited-foreign-entity-guidance",
+   "date": "2026-02-12",
+   "added": "2026-10-26",
+   "cn": false
+  },
+  {
    "sector": "tech",
    "kind": "新闻",
    "title": "TikTok美国方案正式落地，字节跳动为合资公司最大单一股东",
@@ -70,6 +330,116 @@
    "date": "2026-01-23",
    "added": "2026-10-12",
    "cn": true
+  },
+  {
+   "sector": "tech",
+   "kind": "政策",
+   "title": "美国对部分半导体产品加征关税 涉及英伟达和超威",
+   "source": "新华网",
+   "url": "https://www.news.cn/world/20260115/7ce974adfd3b4ea4abb562841fefcf9e/c.html",
+   "date": "2026-01-15",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "tech",
+   "kind": "政策",
+   "title": "美国放宽英伟达H200对华出口限制 将逐案审查相关交易",
+   "source": "财新网",
+   "url": "https://companies.caixin.com/2026-01-14/102403555.html",
+   "date": "2026-01-14",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "finance",
+   "kind": "政策",
+   "title": "President Trump Orders Chinese Acquirer to Divest U.S. Chips Business",
+   "source": "Debevoise & Plimpton",
+   "url": "https://www.debevoise.com/insights/publications/2026/01/president-trump-orders-chinese-acquirer-to-divest",
+   "date": "2026-01-08",
+   "added": "2026-10-26",
+   "cn": false
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "美国报告披露：检查了92台中国起重机，没发现任何安全问题",
+   "source": "新浪财经（观察者网）",
+   "url": "https://finance.sina.com.cn/roll/2025-12-29/doc-inhemuku4975961.shtml",
+   "date": "2025-12-29",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "DHS Announces Final Rule Establishing Weighted Selection Process for Cap-Subject H-1B Petitions",
+   "source": "Ogletree Deakins",
+   "url": "https://ogletree.com/insights-resources/blog-posts/dhs-announces-final-rule-establishing-weighted-selection-process-for-cap-subject-h-1b-petitions/",
+   "date": "2025-12-26",
+   "added": "2026-10-26",
+   "cn": false
+  },
+  {
+   "sector": "industry",
+   "kind": "政策",
+   "title": "美国FCC将所有非美国制造的无人机列入“受管制清单”，大疆回应",
+   "source": "第一财经",
+   "url": "https://www.yicai.com/brief/102970282.html",
+   "date": "2025-12-23",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "墨西哥拟下月起加征关税，家电企业调整海外产能应对",
+   "source": "第一财经",
+   "url": "https://www.yicai.com/news/102965865.html",
+   "date": "2025-12-19",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "infra",
+   "kind": "政策",
+   "title": "USTR suspends Section 301 shipbuilding investigation following Trump–Xi trade agreement",
+   "source": "Logistics Management",
+   "url": "https://www.logisticsmgmt.com/article/ustr_suspends_section_301_shipbuilding_investigation_following_trumpxi_trade_agreement",
+   "date": "2025-11-11",
+   "added": "2026-10-26",
+   "cn": false
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "The Davis Vanguard: Federal appeals court upholds Florida law restricting property ownership by Chinese nationals",
+   "source": "AALDEF",
+   "url": "https://www.aaldef.org/news/federal-appeals-court-upholds-florida-law-restricting-property-ownership-by-chinese-nationals/",
+   "date": "2025-11-06",
+   "added": "2026-10-26",
+   "cn": false
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "Michigan: Gotion battery plant plan is dead after years of controversy",
+   "source": "Bridge Michigan",
+   "url": "https://bridgemi.com/business-watch/michigan-gotion-battery-plant-plan-is-dead-after-years-of-controversy/",
+   "date": "2025-10-23",
+   "added": "2026-10-26",
+   "cn": false
+  },
+  {
+   "sector": "trade",
+   "kind": "政策",
+   "title": "End of US low-value package tariff exemption is permanent, Trump officials say",
+   "source": "bdnews24.com（Reuters）",
+   "url": "https://bdnews24.com/economy/5d69b9b367b0",
+   "date": "2025-08-29",
+   "added": "2026-10-26",
+   "cn": false
   }
  ]
 }
