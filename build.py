@@ -113,7 +113,7 @@ for key, cn, en, names in REGIONS:
 total = sum(len(r[3]) for r in REGIONS)
 body = f"""<header class="top"><div class="wrap">
   <div class="brand">出海国别简报 <b>GLOBAL DESK</b></div>
-  <nav class="nav" aria-label="区域">{"".join(f'<a href="#{k}">{c}</a>' for k, c, _, _ in REGIONS)}</nav>
+  <nav class="nav" aria-label="区域">{"".join(f'<a href="#{k}">{c}</a>' for k, c, _, _ in REGIONS)}<a href="https://www.sailfinscm.com/" target="_blank" rel="noopener">供应链解决方案</a></nav>
 </div></header>
 <main class="wrap">
 <div class="hero">
