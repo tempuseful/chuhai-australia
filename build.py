@@ -8,6 +8,11 @@ rd = lambda p: open(os.path.join(R, p), encoding="utf-8").read()
 CSS, JS, FEED = rd("src/style.css"), rd("src/app.js"), rd("src/feed.html")
 FOOT = "本页为公开信息整理，不构成法律、税务或投资意见。门槛和税率每年调整，具体交易请以官方最新文本和专业顾问意见为准。"
 
+SAILFIN_ICON = '<svg class="sf-ico" viewBox="20 14 22.5 27.5" aria-hidden="true"><path class="sf-g" d="M21.5 27.5H34L41.8 15H35C27 15 21.5 20 21.5 27.5Z"/><path class="sf-o" d="M28.8 29H41.3C41.3 36 35.8 41 28 41H20.7Z"/></svg>'
+BRAND = ('<a class="sailfin" href="https://www.sailfinscm.com/" target="_blank" rel="noopener">'
+         '<span class="sf-lab">供应链服务</span>' + SAILFIN_ICON +
+         '<span class="sf-txt"><b>森帆跨境</b><i>SAILFIN</i></span></a>')
+
 REGIONS = [
     ("gcc", "海湾六国", "GCC", ["阿联酋", "沙特阿拉伯", "卡塔尔", "科威特", "阿曼", "巴林"]),
     ("asean", "东盟十国", "ASEAN", ["新加坡", "马来西亚", "印度尼西亚", "泰国", "越南", "菲律宾", "柬埔寨", "老挝", "缅甸", "文莱"]),
@@ -34,7 +39,8 @@ def page(title, desc, body, script=""):
 <body>
 {body}
 <footer class="wrap">
-  {FOOT}
+  {BRAND}
+  <p class="disc">{FOOT}</p>
 </footer>
 {script}
 </body>

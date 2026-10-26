@@ -253,6 +253,22 @@ td.num{white-space:normal}
 #tax tbody td:first-child,#hr tbody td:first-child{white-space:nowrap;vertical-align:top}
 #tax td{vertical-align:top}
 @media (max-width:700px){#tax tbody td:first-child{white-space:normal;min-width:5.5em}#tax td{overflow-wrap:anywhere}}
+
+/* 森帆跨境 Sailfin 页脚品牌 */
+footer .sailfin{display:inline-flex;align-items:center;gap:8px;text-decoration:none;padding:10px 0 4px;color:inherit}
+footer .sailfin .sf-lab{font-size:12px;color:var(--muted);margin-right:6px;padding-right:12px;border-right:1px solid var(--line)}
+footer .sailfin .sf-ico{width:22px;height:27px;flex:none}
+footer .sailfin .sf-g{fill:#1e4d3b}
+footer .sailfin .sf-o{fill:#d9502e}
+footer .sailfin .sf-txt{display:flex;flex-direction:column;line-height:1.05}
+footer .sailfin .sf-txt b{font-family:var(--sans);font-size:15px;font-weight:800;letter-spacing:.06em;color:#1e4d3b}
+footer .sailfin .sf-txt i{font-style:normal;font-family:var(--sans);font-size:9px;font-weight:600;letter-spacing:.42em;color:#2e8b74;margin-top:3px}
+footer .sailfin:hover .sf-txt b{text-decoration:underline;text-underline-offset:3px}
+footer .disc{margin:10px 0 0}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) footer .sailfin .sf-g{fill:#4f9d7c} :root:not([data-theme="light"]) footer .sailfin .sf-txt b{color:#e6efe9} :root:not([data-theme="light"]) footer .sailfin .sf-txt i{color:#6cc3a6} }
+:root[data-theme="dark"] footer .sailfin .sf-g{fill:#4f9d7c}
+:root[data-theme="dark"] footer .sailfin .sf-txt b{color:#e6efe9}
+:root[data-theme="dark"] footer .sailfin .sf-txt i{color:#6cc3a6}
 </style>
 </head>
 <body>
@@ -468,7 +484,8 @@ td.num{white-space:normal}
 
 </main>
 <footer class="wrap">
-  本页为公开信息整理，不构成法律、税务或投资意见。门槛和税率每年调整，具体交易请以官方最新文本和专业顾问意见为准。
+  <a class="sailfin" href="https://www.sailfinscm.com/" target="_blank" rel="noopener"><span class="sf-lab">供应链服务</span><svg class="sf-ico" viewBox="20 14 22.5 27.5" aria-hidden="true"><path class="sf-g" d="M21.5 27.5H34L41.8 15H35C27 15 21.5 20 21.5 27.5Z"/><path class="sf-o" d="M28.8 29H41.3C41.3 36 35.8 41 28 41H20.7Z"/></svg><span class="sf-txt"><b>森帆跨境</b><i>SAILFIN</i></span></a>
+  <p class="disc">本页为公开信息整理，不构成法律、税务或投资意见。门槛和税率每年调整，具体交易请以官方最新文本和专业顾问意见为准。</p>
 </footer>
 <script>
 const META={"slug": "myanmar", "tape": [["企业所得税", "22%"], ["商业税", "5%"], ["资本利得税", "10%"], ["利息/特许权预提税", "15%"], ["中缅税收协定", "未签"], ["最低日薪", "7,800 缅币"], ["官方汇率", "1 CNY≈313 MMK"], ["市场汇率(2025.8)", "1 USD≈4,400 MMK"], ["中缅贸易 2024", "US$162.8亿"], ["对缅出口", "US$92.2亿"], ["自缅进口", "US$70.6亿"], ["对缅投资存量", "US$38.5亿"]], "bars": {"max": 140, "data": [[2020, 125.5, 63.4], [2021, 105.4, 80.8], [2022, 136.8, 114.6], [2023, 114.0, 95.6], [2024, 92.24, 70.59]]}, "sect": {"energy": "新能源", "trade": "贸易物流", "infra": "工程基建", "finance": "金融", "tech": "数字经济", "industry": "制造业", "general": "综合经贸"}, "feed": "/myanmar/news.json"};

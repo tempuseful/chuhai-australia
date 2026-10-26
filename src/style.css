@@ -245,3 +245,19 @@ td.num{white-space:normal}
 #tax tbody td:first-child,#hr tbody td:first-child{white-space:nowrap;vertical-align:top}
 #tax td{vertical-align:top}
 @media (max-width:700px){#tax tbody td:first-child{white-space:normal;min-width:5.5em}#tax td{overflow-wrap:anywhere}}
+
+/* 森帆跨境 Sailfin 页脚品牌 */
+footer .sailfin{display:inline-flex;align-items:center;gap:8px;text-decoration:none;padding:10px 0 4px;color:inherit}
+footer .sailfin .sf-lab{font-size:12px;color:var(--muted);margin-right:6px;padding-right:12px;border-right:1px solid var(--line)}
+footer .sailfin .sf-ico{width:22px;height:27px;flex:none}
+footer .sailfin .sf-g{fill:#1e4d3b}
+footer .sailfin .sf-o{fill:#d9502e}
+footer .sailfin .sf-txt{display:flex;flex-direction:column;line-height:1.05}
+footer .sailfin .sf-txt b{font-family:var(--sans);font-size:15px;font-weight:800;letter-spacing:.06em;color:#1e4d3b}
+footer .sailfin .sf-txt i{font-style:normal;font-family:var(--sans);font-size:9px;font-weight:600;letter-spacing:.42em;color:#2e8b74;margin-top:3px}
+footer .sailfin:hover .sf-txt b{text-decoration:underline;text-underline-offset:3px}
+footer .disc{margin:10px 0 0}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) footer .sailfin .sf-g{fill:#4f9d7c} :root:not([data-theme="light"]) footer .sailfin .sf-txt b{color:#e6efe9} :root:not([data-theme="light"]) footer .sailfin .sf-txt i{color:#6cc3a6} }
+:root[data-theme="dark"] footer .sailfin .sf-g{fill:#4f9d7c}
+:root[data-theme="dark"] footer .sailfin .sf-txt b{color:#e6efe9}
+:root[data-theme="dark"] footer .sailfin .sf-txt i{color:#6cc3a6}
