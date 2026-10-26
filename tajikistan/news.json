@@ -1,6 +1,36 @@
 {
- "updated": "2026-10-22",
+ "updated": "2026-10-26",
  "items": [
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "Tajikistan plans non-ferrous metals industrial park in Sughd province",
+   "source": "Asia-Plus",
+   "url": "https://asiaplus.news/en/2026/10/22/a-non-ferrous-metallurgy-industrial-park-is-planned-for-northern-tajikistan/",
+   "date": "2026-10-22",
+   "added": "2026-10-26",
+   "cn": false
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "China Seeks Closer Intelligence Cooperation with Tajikistan",
+   "source": "The Times of Central Asia",
+   "url": "https://timesca.com/china-seeks-closer-intelligence-cooperation-with-tajikistan/",
+   "date": "2026-10-21",
+   "added": "2026-10-26",
+   "cn": false
+  },
+  {
+   "sector": "tech",
+   "kind": "新闻",
+   "title": "Tajikistan Internet Link to China Launched Through the Pamirs",
+   "source": "The Times of Central Asia",
+   "url": "https://timesca.com/tajikistan-internet-link-china-pamirs/",
+   "date": "2026-10-19",
+   "added": "2026-10-26",
+   "cn": false
+  },
   {
    "sector": "general",
    "kind": "新闻",
@@ -9,6 +39,26 @@
    "url": "https://www.news.cn/politics/leaders/20261018/c0fd738f96574475b51a5265f802cd81/c.html",
    "date": "2026-10-18",
    "added": "2026-10-22",
+   "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "Chinese company to explore hydropower potential of Tajikistan’s Obikhingov River",
+   "source": "Asia-Plus",
+   "url": "https://asiaplus.news/en/2026/10/15/chinese-company-to-explore-possibility-of-building-hydropower-plant-on-obikhingou-river-in-tajikistan/",
+   "date": "2026-10-15",
+   "added": "2026-10-26",
+   "cn": false
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "郭志军大使陪同拉赫蒙总统出席塔中矿业产业链延伸项目投产仪式",
+   "source": "中国驻塔吉克斯坦大使馆",
+   "url": "https://tj.china-embassy.gov.cn/dsxx/dshd_133050/202609/t20260924_12030654.htm",
+   "date": "2026-09-23",
+   "added": "2026-10-26",
    "cn": true
   },
   {
@@ -22,6 +72,26 @@
    "cn": true
   },
   {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "Kalasu Port hits new high as SCO trade picks up pace",
+   "source": "CGTN",
+   "url": "https://news.cgtn.com/news/2026-09-02/Kalasu-Port-hits-new-high-as-SCO-trade-picks-up-pace-1Q6DXNux8EU/p.html",
+   "date": "2026-09-02",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "郭志军大使同塔吉克斯坦交通部长伊布罗西姆就深化两国互联互通合作交换意见",
+   "source": "中国驻塔吉克斯坦大使馆",
+   "url": "https://tj.china-embassy.gov.cn/dsxx/dshd_133050/202608/t20260821_12007852.htm",
+   "date": "2026-08-21",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
    "sector": "finance",
    "kind": "新闻",
    "title": "S&P Global Ratings Upgrades Tajikistan's Sovereign Credit Rating",
@@ -29,6 +99,66 @@
    "url": "https://nbt.tj/en/news/641251/",
    "date": "2026-08-14",
    "added": "2026-10-12",
+   "cn": false
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "提醒在塔中国公民避免前往塔阿边境地区工作或旅行",
+   "source": "中国驻塔吉克斯坦大使馆",
+   "url": "https://tj.china-embassy.gov.cn/lsfw/lstz/202608/t20260814_12004415.htm",
+   "date": "2026-08-14",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "finance",
+   "kind": "新闻",
+   "title": "郭志军大使与塔国资委主席拉希姆佐达讨论投资合作",
+   "source": "中国驻塔吉克斯坦大使馆",
+   "url": "https://tj.china-embassy.gov.cn/dsxx/dshd_133050/202608/t20260814_12004097.htm",
+   "date": "2026-08-10",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "郭志军大使出席中国新疆—塔吉克斯坦商品展览会暨企业经贸交流会开幕式",
+   "source": "中国驻塔吉克斯坦大使馆",
+   "url": "https://tj.china-embassy.gov.cn/dsxx/dshd_133050/202608/t20260803_11997416.htm",
+   "date": "2026-08-02",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "Tajikistan discusses construction of 200 MW solar power plant with Chinese energy company",
+   "source": "Asia-Plus",
+   "url": "https://asiaplus.news/en/2026/07/30/tajikistan-discussed-construction-of-200-mw-solar-power-plant-with-china-energy/",
+   "date": "2026-07-30",
+   "added": "2026-10-26",
+   "cn": false
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "Tajikistan, Chinese contractor discuss two hydropower projects on Zeravshan River",
+   "source": "Asia-Plus",
+   "url": "https://asiaplus.news/en/2026/07/28/tajikistan-discussed-with-a-chinese-company-the-construction-of-two-hydropower-plants-on-the-zeravshan-river/",
+   "date": "2026-07-28",
+   "added": "2026-10-26",
+   "cn": false
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "Tajikistan discusses electric machinery, lithium processing and TALCO modernization with Chinese companies",
+   "source": "Asia-Plus",
+   "url": "https://asiaplus.news/en/2026/07/21/head-of-tajikistans-ministry-of-industry-discussed-production-of-electrical-equipment-lithium-processing-and-talco-modernization-with-chinese-companies/",
+   "date": "2026-07-21",
+   "added": "2026-10-26",
    "cn": false
   },
   {
@@ -42,6 +172,36 @@
    "cn": false
   },
   {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "China's TBEA to invest $65 mln to expand goldmining project in Tajikistan",
+   "source": "Interfax",
+   "url": "https://interfax.com/newsroom/top-stories/118243/",
+   "date": "2026-06-26",
+   "added": "2026-10-26",
+   "cn": false
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "Tajikistan begins construction of two 1.2Mta cement plants",
+   "source": "CemNet",
+   "url": "https://www.cemnet.com/News/story/181572/tajikistan-begins-construction-of-1-2mta-cement-plant.html",
+   "date": "2026-06-24",
+   "added": "2026-10-26",
+   "cn": false
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "From ‘One China’ policy to military and trade ties: what the new Tajikistan-China treaty says",
+   "source": "Asia-Plus",
+   "url": "https://asiaplus.news/en/2026/05/22/from-one-china-policy-to-military-and-trade-ties-what-the-new-tajikistan-china-treaty-says/",
+   "date": "2026-05-22",
+   "added": "2026-10-26",
+   "cn": false
+  },
+  {
    "sector": "trade",
    "kind": "新闻",
    "title": "卡拉苏口岸客货流量双增长",
@@ -49,6 +209,16 @@
    "url": "https://www.yzwb.net/news/yw/202605/t20260515_352884.html",
    "date": "2026-05-15",
    "added": "2026-10-12",
+   "cn": true
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "塔吉克斯坦总统拉赫蒙：欢迎中国制造业企业到塔发展 推动双方互利合作",
+   "source": "新华网",
+   "url": "https://www.news.cn/world/20260514/b7192a39a83843e089221b0ae61dc898/c.html",
+   "date": "2026-05-14",
+   "added": "2026-10-26",
    "cn": true
   },
   {
@@ -60,6 +230,36 @@
    "date": "2026-05-12",
    "added": "2026-10-12",
    "cn": true
+  },
+  {
+   "sector": "finance",
+   "kind": "新闻",
+   "title": "Chinese companies intend to invest over $8 billion in Tajikistan, while AIIB plans to invest $800 million",
+   "source": "Asia-Plus",
+   "url": "https://asiaplus.news/en/2026/05/12/chinese-companies-intend-to-invest-over-8-billion-in-tajikistan-while-aiib-plans-to-invest-800-million/",
+   "date": "2026-05-12",
+   "added": "2026-10-26",
+   "cn": false
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "郭志军大使陪同拉苏尔佐达总理考察罗贡水电站",
+   "source": "中国驻塔吉克斯坦大使馆",
+   "url": "https://tj.china-embassy.gov.cn/dsxx/dshd_133050/202604/t20260429_11902712.htm",
+   "date": "2026-04-28",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "China to Fund Construction of Nine Border Facilities in Tajikistan Near Afghanistan",
+   "source": "The Times of Central Asia",
+   "url": "https://timesca.com/china-to-fund-construction-of-nine-border-facilities-in-tajikistan-near-afghanistan/",
+   "date": "2026-03-11",
+   "added": "2026-10-26",
+   "cn": false
   },
   {
    "sector": "finance",
@@ -83,12 +283,112 @@
   },
   {
    "sector": "general",
+   "kind": "新闻",
+   "title": "郭志军大使出席塔吉克斯坦中国企业商会2026年会员大会",
+   "source": "中国驻塔吉克斯坦大使馆",
+   "url": "https://tj.china-embassy.gov.cn/dsxx/dshd_133050/202601/t20260122_11841216.htm",
+   "date": "2026-01-19",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "郭志军大使考察华新亚湾水泥公司",
+   "source": "中国驻塔吉克斯坦大使馆",
+   "url": "https://tj.china-embassy.gov.cn/dsxx/dshd_133050/202512/t20251231_11793646.htm",
+   "date": "2025-12-31",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "关于进一步延长赴华签证申请免采指纹政策期限并扩大范围的通知",
+   "source": "中国驻塔吉克斯坦大使馆",
+   "url": "https://tj.china-embassy.gov.cn/lsfw/lstz/202512/t20251223_11781379.htm",
+   "date": "2025-12-22",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "general",
    "kind": "政策",
    "title": "Beijing Urges Dushanbe to Strengthen Protection of Chinese Nationals, Advises Citizens to Leave High-Risk Border Areas",
    "source": "Fergana",
    "url": "https://en.fergana.agency/news/143518/",
    "date": "2025-12-03",
    "added": "2026-10-12",
+   "cn": false
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "再次提醒中国企业和人员紧急撤离塔吉克斯坦和阿富汗边境地区",
+   "source": "中国驻塔吉克斯坦大使馆",
+   "url": "https://tj.china-embassy.gov.cn/lsfw/lstz/202512/t20251201_11763742.htm",
+   "date": "2025-12-01",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "中国公民遇袭3死1伤，中使馆：要求严惩！",
+   "source": "光明网",
+   "url": "https://m.gmw.cn/2025-11/28/content_1304242186.htm",
+   "date": "2025-11-28",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "finance",
+   "kind": "新闻",
+   "title": "Tajikistan to Repay Over $500 Million to Foreign Creditors in 2026",
+   "source": "The Times of Central Asia",
+   "url": "https://timesca.com/tajikistan-to-repay-over-500-million-to-foreign-creditors-in-2026/",
+   "date": "2025-11-28",
+   "added": "2026-10-26",
+   "cn": false
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "郭志军大使考察中塔纺织、交通重点合作项目",
+   "source": "中国驻塔吉克斯坦大使馆",
+   "url": "https://tj.china-embassy.gov.cn/dsxx/dshd_133050/202510/t20251024_11739829.htm",
+   "date": "2025-10-22",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "郭志军大使考察中塔重点合作项目",
+   "source": "中国驻塔吉克斯坦大使馆",
+   "url": "https://tj.china-embassy.gov.cn/dsxx/dshd_133050/202510/t20251017_11735237.htm",
+   "date": "2025-10-15",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "tech",
+   "kind": "新闻",
+   "title": "郭志军大使会见塔吉克斯坦创新和数字技术署署长法伊祖洛佐达",
+   "source": "中国驻塔吉克斯坦大使馆",
+   "url": "https://tj.china-embassy.gov.cn/dsxx/dshd_133050/202508/t20250829_11698613.htm",
+   "date": "2025-08-29",
+   "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "Tajikistan Seeks to Join China-Kyrgyzstan-Uzbekistan Railway Project",
+   "source": "The Times of Central Asia",
+   "url": "https://timesca.com/tajikistan-seeks-to-join-china-kyrgyzstan-uzbekistan-railway-project/",
+   "date": "2025-07-08",
+   "added": "2026-10-26",
    "cn": false
   }
  ]
