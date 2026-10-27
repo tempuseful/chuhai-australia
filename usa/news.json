@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27",
+ "updated": "2026-10-28",
  "items": [
   {
    "sector": "finance",
@@ -19,6 +19,16 @@
    "url": "https://www.chinanews.com.cn/cj/2026/10-23/10719719.shtml",
    "date": "2026-10-23",
    "added": "2026-10-26",
+   "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "中国商务部：1—9月美国对华投资增长7.7%",
+   "source": "中国新闻网",
+   "url": "https://www.chinanews.com.cn/cj/2026/10-22/10719289.shtml",
+   "date": "2026-10-22",
+   "added": "2026-10-28",
    "cn": true
   },
   {

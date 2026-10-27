@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22",
+ "updated": "2026-10-28",
  "items": [
   {
    "sector": "general",
@@ -20,6 +20,16 @@
    "date": "2026-10-15",
    "cn": false,
    "added": "2026-10-15"
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "澳大利亚对华铝制门窗作出双反初裁",
+   "source": "第一财经",
+   "url": "https://www.yicai.com/brief/103395047.html",
+   "date": "2026-10-15",
+   "added": "2026-10-28",
+   "cn": true
   },
   {
    "sector": "ev",

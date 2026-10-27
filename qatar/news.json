@@ -1,6 +1,26 @@
 {
- "updated": "2026-10-15",
+ "updated": "2026-10-28",
  "items": [
+  {
+   "sector": "finance",
+   "kind": "新闻",
+   "title": "潘功胜行长出席中国与海合会第四次央行行长会并举行系列双边会见",
+   "source": "财闻（同花顺转载）",
+   "url": "http://news.10jqka.com.cn/20261015/c680723705.shtml",
+   "date": "2026-10-15",
+   "added": "2026-10-28",
+   "cn": true
+  },
+  {
+   "sector": "finance",
+   "kind": "新闻",
+   "title": "Qatar, China sign agreement to extend local currency swap",
+   "source": "The Peninsula",
+   "url": "https://thepeninsulaqatar.com/article/14/10/2026/qatar-china-sign-agreement-to-extend-local-currency-swap",
+   "date": "2026-10-14",
+   "added": "2026-10-28",
+   "cn": false
+  },
   {
    "sector": "finance",
    "kind": "新闻",

@@ -1,6 +1,26 @@
 {
- "updated": "2026-10-22",
+ "updated": "2026-10-28",
  "items": [
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "小鹏集团新增四国经销合作伙伴，全球销售网络覆盖83个国家和地区",
+   "source": "凤凰网科技（同花顺转载）",
+   "url": "http://news.10jqka.com.cn/20261027/c681155297.shtml",
+   "date": "2026-10-27",
+   "added": "2026-10-28",
+   "cn": true
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "中企承建科威特规模最大的污水处理项目开工",
+   "source": "新华社（同花顺转载）",
+   "url": "http://news.10jqka.com.cn/20261026/c681104282.shtml",
+   "date": "2026-10-26",
+   "added": "2026-10-28",
+   "cn": true
+  },
   {
    "sector": "general",
    "kind": "政策",

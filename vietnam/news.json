@@ -1,6 +1,16 @@
 {
- "updated": "2026-10-26",
+ "updated": "2026-10-28",
  "items": [
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "中铝国际：关于越南项目中标的公告",
+   "source": "证券日报网（同花顺转载）",
+   "url": "http://news.10jqka.com.cn/20261026/c681105349.shtml",
+   "date": "2026-10-26",
+   "added": "2026-10-28",
+   "cn": true
+  },
   {
    "sector": "energy",
    "kind": "新闻",

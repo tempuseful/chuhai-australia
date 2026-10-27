@@ -1,6 +1,78 @@
 {
- "updated": "2026-10-26",
+ "updated": "2026-10-28",
  "items": [
+  {
+   "tag": "国际",
+   "verification": "VERIFIED",
+   "verifiedDate": "28 OCT 2026",
+   "company": "",
+   "region": "GCC",
+   "country": "沙特",
+   "sector": "安全",
+   "eventType": "SECURITY_RISK",
+   "publishedDate": "27 OCT 2026",
+   "time": "10/27",
+   "title": "沙特拦截射向利雅得导弹，伊朗称霍尔木兹“完全关闭”",
+   "projectName": "RIYADH HOUTHI ATTACKS",
+   "summary": "据海湾新闻10月27日报道，沙特联军10月26日上午称拦截并摧毁一枚射向利雅得的弹道导弹，并摧毁萨那两个导弹发射架；当晚又在利雅得及南部地区拦截三架无人机。胡塞方面称袭击了利雅得机场，并用无人机击中输油管道泵站。伊朗武装部队参谋长称对霍尔木兹海峡拥有“完全控制”，外长称航线与管理方式不会恢复战前状态。沙特在建项目需为人员出行和设备进港预留应急安排。",
+   "value": "3架无人机",
+   "stage": "人员出行",
+   "url": "https://gulfnews.com/world/mena/middle-east-war-trump-leaves-iran-attack-on-the-table-tehran-vows-changes-to-hormuz-strait-houthis-claim-saudi-strikes-1.500723497",
+   "sources": [
+    {
+     "name": "海湾新闻（10月27日）",
+     "url": "https://gulfnews.com/world/mena/middle-east-war-trump-leaves-iran-attack-on-the-table-tehran-vows-changes-to-hormuz-strait-houthis-claim-saudi-strikes-1.500723497"
+    }
+   ]
+  },
+  {
+   "tag": "国际",
+   "verification": "VERIFIED",
+   "verifiedDate": "28 OCT 2026",
+   "company": "",
+   "region": "CENTRAL_ASIA",
+   "country": "哈萨克斯坦",
+   "sector": "交通",
+   "eventType": "POLICY",
+   "publishedDate": "27 OCT 2026",
+   "time": "10/27",
+   "title": "哈萨克斯坦新规：运力不足时国际货运优先，12月20日生效",
+   "projectName": "KAZAKHSTAN FREIGHT PRIORITY RULES",
+   "summary": "据铁路货运网（RailFreight）10月27日报道，哈萨克斯坦正在修订铁路法规，其中一项变化是对货运类别排序：运力不足以满足全部需求时，国际货运优先放行，修订后的规则将于12月20日生效。该报道全文需订阅，以上为公开可见部分，规则细节和适用范围未见公开。途经哈萨克斯坦的中亚、欧洲方向设备物资运输需关注排序变化。",
+   "value": "12月20日",
+   "stage": "物流政策",
+   "url": "https://www.railfreight.com/railfreight/2026/10/27/kazakhstan-puts-international-over-domestic-in-new-freight-priority-rules/",
+   "sources": [
+    {
+     "name": "RailFreight（10月27日）",
+     "url": "https://www.railfreight.com/railfreight/2026/10/27/kazakhstan-puts-international-over-domestic-in-new-freight-priority-rules/"
+    }
+   ]
+  },
+  {
+   "tag": "国际",
+   "verification": "VERIFIED",
+   "verifiedDate": "28 OCT 2026",
+   "company": "",
+   "region": "GCC",
+   "country": "GCC六国",
+   "sector": "宏观",
+   "eventType": "POLICY",
+   "publishedDate": "26 OCT 2026",
+   "time": "10/26",
+   "title": "海合会：与东盟自贸协定仍在讨论，经济总量约2.4万亿美元",
+   "projectName": "GCC ASEAN INTEGRATION",
+   "summary": "据海合会秘书处10月26日发布的消息，秘书长布代维10月25日在多哈第九届世界投资论坛上表示，海合会与东盟的经济一体化是吸引投资的战略支柱，海合会成员国经济总量约2.4万亿美元，商品贸易额接近1.8万亿美元。双方仍在“持续讨论”签署自贸协定的可能性，尚未达成协议；务实合作领域包括先进制造、数字化、清洁能源、物流和投资便利化。",
+   "value": "2.4万亿美元",
+   "stage": "区域政策",
+   "url": "https://www.gcc-sg.org/en/MediaCenter/News/Pages/news2026-10-26-1.aspx",
+   "sources": [
+    {
+     "name": "海合会秘书处（10月26日）",
+     "url": "https://www.gcc-sg.org/en/MediaCenter/News/Pages/news2026-10-26-1.aspx"
+    }
+   ]
+  },
   {
    "tag": "国际",
    "verification": "VERIFIED",
