@@ -34,7 +34,7 @@ export async function onRequestPost({ request, env }) {
     note: clip(c.note, 2000),
   };
   if (!contact.name) return json({ ok: false, error: "name_required" }, 400);
-  if (!contact.phone && !contact.email && !contact.wechat) return json({ ok: false, error: "contact_required" }, 400);
+  if (!contact.phone && !contact.wechat) return json({ ok: false, error: "contact_required" }, 400);
   if (data.consent !== true) return json({ ok: false, error: "consent_required" }, 400);
 
   // 简单限流：同一 IP 每小时最多 10 次

@@ -9,9 +9,10 @@
     <div class="submit-grid">
       <label><span>联系人 <b>*</b></span><input type="text" id="sf-name" maxlength="60" autocomplete="name"></label>
       <label>公司名称<input type="text" id="sf-company" maxlength="120" autocomplete="organization"></label>
-      <label>手机<input type="text" id="sf-phone" maxlength="40" autocomplete="tel" inputmode="tel"></label>
-      <label>微信<input type="text" id="sf-wechat" maxlength="60"></label>
-      <label>邮箱<input type="text" id="sf-email" maxlength="120" autocomplete="email" inputmode="email"></label>
+      <label><span>手机 <b>*</b></span><input type="text" id="sf-phone" maxlength="40" autocomplete="tel" inputmode="tel"></label>
+      <label><span>微信 <b>*</b></span><input type="text" id="sf-wechat" maxlength="60"></label>
+      <p class="sf-tip full">手机和微信至少填写一项</p>
+      <label>邮箱（选填）<input type="text" id="sf-email" maxlength="120" autocomplete="email" inputmode="email"></label>
       <label class="full">想咨询的问题（选填）<textarea id="sf-note" rows="3" maxlength="2000"></textarea></label>
       <input type="text" id="sf-website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
     </div>
@@ -35,7 +36,7 @@
 
   const ERR = {
     name_required: '请填写联系人。',
-    contact_required: '请至少填写手机、微信或邮箱中的一项。',
+    contact_required: '手机和微信至少填写一项。',
     consent_required: '请勾选同意后再提交。',
     rate_limited: '提交太频繁，请稍后再试。',
     storage_not_configured: '提交功能尚未开通，请先点击“导出答案 JSON”保存答案，稍后再试。',
@@ -45,7 +46,7 @@
   document.getElementById('sf-send').onclick = async function () {
     const contact = { name: $v('sf-name'), company: $v('sf-company'), phone: $v('sf-phone'), wechat: $v('sf-wechat'), email: $v('sf-email'), note: $v('sf-note') };
     if (!contact.name) return msg(ERR.name_required, true);
-    if (!contact.phone && !contact.wechat && !contact.email) return msg(ERR.contact_required, true);
+    if (!contact.phone && !contact.wechat) return msg(ERR.contact_required, true);
     if (contact.email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(contact.email)) return msg('邮箱格式不正确。', true);
     if (!document.getElementById('sf-consent').checked) return msg(ERR.consent_required, true);
 
