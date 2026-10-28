@@ -209,6 +209,7 @@ table.proj td:nth-child(5){white-space:nowrap}
 table.proj tbody tr{cursor:pointer} table.proj tbody tr:hover{background:var(--panel)}
 table.proj tbody tr.on{background:var(--panel);box-shadow:inset 3px 0 0 var(--amber)}
 .maplink{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:26px;padding:16px 20px;border:1px solid var(--line);background:var(--panel);color:var(--fg)}
+a.maplink+a.maplink{margin-top:12px}
 a.maplink:hover{text-decoration:none;border-color:var(--amber)}
 .maplink b{font-family:var(--serif);font-size:19px} .maplink span{color:var(--muted);font-size:13.5px} .maplink em{font-style:normal;font-family:var(--mono);font-size:12.5px;color:var(--amber)}
 
