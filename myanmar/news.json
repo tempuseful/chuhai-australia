@@ -1,6 +1,16 @@
 {
- "updated": "2026-10-10",
+ "updated": "2026-10-28",
  "items": [
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "中缅原油管道累计输送原油突破1亿吨",
+   "source": "中国新闻网",
+   "url": "https://www.chinanews.com.cn/aseaninfo/2026/10-26/10721245.shtml",
+   "date": "2026-10-26",
+   "cn": true,
+   "added": "2026-10-28"
+  },
   {
    "sector": "general",
    "kind": "新闻",

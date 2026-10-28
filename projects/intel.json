@@ -6,6 +6,78 @@
    "verification": "VERIFIED",
    "verifiedDate": "28 OCT 2026",
    "company": "",
+   "publishedDate": "28 OCT 2026",
+   "time": "10/28",
+   "url": "https://gulfnews.com/world/mena/middle-east-war-iran-says-qatar-offered-no-new-proposal-uaes-gargash-urges-restraint-1.500726349",
+   "sources": [
+    {
+     "name": "海湾新闻（10月28日）",
+     "url": "https://gulfnews.com/world/mena/middle-east-war-iran-says-qatar-offered-no-new-proposal-uaes-gargash-urges-restraint-1.500726349"
+    }
+   ],
+   "region": "GLOBAL",
+   "country": "全球",
+   "sector": "油气",
+   "eventType": "MACRO",
+   "title": "布伦特涨1.3%至115.36美元，美国封锁伊朗港口",
+   "projectName": "BRENT 115 USD",
+   "summary": "据海湾新闻10月28日报道，布伦特原油上涨1.3%至每桶115.36美元，WTI升至101.12美元。美国正封锁所有伊朗港口，阿曼湾和霍尔木兹海域的船只可能被登临检查；伊朗称仍在与调解方讨论七日计划，若中东停火等条件满足，将重新开放霍尔木兹，但同时要求解冻海外资产、取消石油制裁。油价高企推高海湾项目的材料与物流成本，投标报价宜预留价格调整条款。",
+   "value": "115.36美元",
+   "stage": "宏观"
+  },
+  {
+   "tag": "国际",
+   "verification": "VERIFIED",
+   "verifiedDate": "28 OCT 2026",
+   "company": "",
+   "publishedDate": "28 OCT 2026",
+   "time": "10/28",
+   "url": "https://gulfnews.com/world/mena/middle-east-war-iran-says-qatar-offered-no-new-proposal-uaes-gargash-urges-restraint-1.500726349",
+   "sources": [
+    {
+     "name": "海湾新闻（10月28日）",
+     "url": "https://gulfnews.com/world/mena/middle-east-war-iran-says-qatar-offered-no-new-proposal-uaes-gargash-urges-restraint-1.500726349"
+    }
+   ],
+   "region": "GCC",
+   "country": "GCC六国",
+   "sector": "航运",
+   "eventType": "LOGISTICS_RISK",
+   "title": "伊朗海峡管理机构警告韩国Sinokor船队，11月1日起将“法律行动”",
+   "projectName": "HORMUZ SINOKOR WARNING",
+   "summary": "据海湾新闻10月28日报道，伊朗海湾海峡管理局警告，Sinokor船舶自11月1日起将面临“法律行动”，至少已有7艘船舶遭到“适当处置”。伊朗限制霍尔木兹通行，并袭击未获授权通过的船只。承运人若与相关船公司有合作，需核查设备进港与交付的航次安排，并关注舱位与保险条款变化。",
+   "value": "7艘",
+   "stage": "航运风险"
+  },
+  {
+   "tag": "国际",
+   "verification": "VERIFIED",
+   "verifiedDate": "28 OCT 2026",
+   "company": "",
+   "publishedDate": "28 OCT 2026",
+   "time": "10/28",
+   "url": "https://gulfnews.com/world/mena/middle-east-war-iran-says-qatar-offered-no-new-proposal-uaes-gargash-urges-restraint-1.500726349",
+   "sources": [
+    {
+     "name": "海湾新闻（10月28日）",
+     "url": "https://gulfnews.com/world/mena/middle-east-war-iran-says-qatar-offered-no-new-proposal-uaes-gargash-urges-restraint-1.500726349"
+    }
+   ],
+   "region": "GCC",
+   "country": "GCC六国",
+   "sector": "安全",
+   "eventType": "SECURITY_RISK",
+   "title": "英国对15国发安保预警，美国使馆上周下令撤离",
+   "projectName": "REGIONAL SECURITY ALERTS",
+   "summary": "据海湾新闻10月28日报道，英国就15个国家发出安保警告，提示局势突然升级的风险为“高”；美国驻地区多个使馆上周已下令人员撤离。报道另称，印度确认22名国民在冲突中身亡，其中14人为海员、3人在沙特。海湾在建项目需复核人员出行、撤离预案和现场应急物资，并关注使馆最新安全提醒。",
+   "value": "15国",
+   "stage": "人员出行"
+  },
+  {
+   "tag": "国际",
+   "verification": "VERIFIED",
+   "verifiedDate": "28 OCT 2026",
+   "company": "",
    "region": "GCC",
    "country": "沙特",
    "sector": "安全",

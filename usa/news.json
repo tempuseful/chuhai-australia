@@ -2,6 +2,16 @@
  "updated": "2026-10-28",
  "items": [
   {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "Alibaba order highlights firms' challenges in US",
+   "source": "中国日报",
+   "url": "https://www.chinadaily.com.cn/a/202610/28/WS6ae21967e4b06d4aa0565b6d.html",
+   "date": "2026-10-28",
+   "cn": true,
+   "added": "2026-10-28"
+  },
+  {
    "sector": "finance",
    "kind": "政策",
    "title": "商务部新闻发言人就美发布新版对外投资限制拟议规则答记者问",

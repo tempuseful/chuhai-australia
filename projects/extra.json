@@ -868,6 +868,35 @@
    "informationDate": "2026-10-26",
    "eventDate": "2026-10-23",
    "note": "根据公开报道自动整理，跟进分按阶段统一赋值。最终价格以双方签署的EPC合同为准。"
+  },
+  {
+   "priority": "A",
+   "score": 80,
+   "need": "尚未评估。",
+   "window": "持续跟踪",
+   "action": "核实项目最新进展，以及分包和采购窗口。",
+   "stage": "运营/收尾",
+   "owner": "未披露",
+   "source": "https://www.news.cn/silkroad/20261026/b58a22bb677d48ac8a15093d6b9dc332/c.html",
+   "sources": [
+    {
+     "name": "新华网（2026-10-25）",
+     "url": "https://www.news.cn/silkroad/20261026/b58a22bb677d48ac8a15093d6b9dc332/c.html"
+    }
+   ],
+   "id": "auto-uzb-20261025-1",
+   "country": "乌兹别克斯坦",
+   "city": "塔什干",
+   "name": "塔什干光储联合项目",
+   "contractor": "中国能建",
+   "company": "中国能建",
+   "type": "光伏+储能 / 200MW光伏、500MWh储能",
+   "value": "200MW光伏、500MWh储能，占地约600公顷",
+   "informationDate": "2026-10-25",
+   "eventDate": "2026-10-25",
+   "note": "根据公开报道自动整理，跟进分按阶段统一赋值。事件日期以报道日为准。报道称项目2023年6月开工、已提前建成。",
+   "lat": 41.3,
+   "lng": 69.24
   }
  ]
 }

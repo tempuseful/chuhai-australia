@@ -1,6 +1,26 @@
 {
- "updated": "2026-10-26",
+ "updated": "2026-10-28",
  "items": [
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "Uzbekistan's Uzmetkombinat, China Construction discuss 60 MW energy storage",
+   "source": "Trend News Agency",
+   "url": "https://www.trend.az/casia/uzbekistan/4240068.html",
+   "date": "2026-10-28",
+   "cn": false,
+   "added": "2026-10-28"
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "通讯丨中企光储技术点亮塔什干新城",
+   "source": "新华网",
+   "url": "https://www.news.cn/silkroad/20261026/b58a22bb677d48ac8a15093d6b9dc332/c.html",
+   "date": "2026-10-25",
+   "cn": true,
+   "added": "2026-10-28"
+  },
   {
    "sector": "industry",
    "kind": "新闻",

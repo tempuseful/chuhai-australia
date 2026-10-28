@@ -1,6 +1,26 @@
 {
- "updated": "2026-10-26",
+ "updated": "2026-10-28",
  "items": [
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "中国（四川）—泰国经贸合作交流会在曼谷举办",
+   "source": "中国新闻网",
+   "url": "https://www.chinanews.com.cn/aseaninfo/2026/10-28/10722148.shtml",
+   "date": "2026-10-28",
+   "cn": true,
+   "added": "2026-10-28"
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "东莞港通往泰国的首条班轮直航航线正式开通",
+   "source": "中国新闻网",
+   "url": "https://www.chinanews.com.cn/aseaninfo/2026/10-26/10721291.shtml",
+   "date": "2026-10-26",
+   "cn": true,
+   "added": "2026-10-28"
+  },
   {
    "sector": "general",
    "kind": "政策",
