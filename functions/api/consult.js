@@ -27,7 +27,7 @@ export async function onRequestPost({ request, env }) {
     pageTitle: clip(d.pageTitle, 200),
   };
   if (!lead.name) return json({ ok: false, error: "name_required" }, 400);
-  if (!lead.phone && !lead.wechat && !lead.email) return json({ ok: false, error: "contact_required" }, 400);
+  if (!lead.phone && !lead.wechat) return json({ ok: false, error: "contact_required" }, 400);
   if (d.consent !== true) return json({ ok: false, error: "consent_required" }, 400);
 
   const ip = request.headers.get("cf-connecting-ip") || "unknown";

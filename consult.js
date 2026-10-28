@@ -16,7 +16,7 @@
     ['中亚五国', ['哈萨克斯坦', '乌兹别克斯坦', '吉尔吉斯斯坦', '塔吉克斯坦', '土库曼斯坦']],
     ['其他', ['澳大利亚', '美国', '其他国家/地区', '还没确定']],
   ];
-  const TOPICS = ['市场进入与公司设立', '税务筹划', '法律合规 / ODI 备案', '供应链与物流', '工程项目与投标', '其他'];
+  const TOPICS = ['市场进入与公司设立', '税务筹划', '法律合规 / ODI 备案', '供应链与物流', '工程项目与投标', 'Business Development（商务拓展）', '其他'];
   const slug = (location.pathname.split('/')[1] || '').toLowerCase();
   const here = COUNTRIES[slug] || '';
 
@@ -41,6 +41,7 @@
 .cz-topics label{flex-direction:row;align-items:center;gap:5px;font-weight:400;padding:5px 9px;border:1px solid #d8dfe8;border-radius:999px;cursor:pointer;font-size:12.5px}
 .cz-topics label:has(input:checked){border-color:#c2410c;background:#fff4ed;color:#9a3412}
 .cz-topics input{width:auto;margin:0}
+.cz-tip{margin:-4px 0 0;font-size:12px;color:#7a8696}
 .cz-hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
 .cz-consent{display:flex!important;flex-direction:row!important;gap:7px;align-items:flex-start;font-weight:400!important;color:#5b6879!important;font-size:12px!important;line-height:1.5}
 .cz-consent input{width:auto;margin-top:3px}
@@ -72,9 +73,10 @@
     <form class="cz-form" novalidate>
       <label><span>称呼 <b>*</b></span><input name="uname" maxlength="60" autocomplete="name" placeholder="如：王先生"></label>
       <label><span>公司名称</span><input name="company" maxlength="120" autocomplete="organization"></label>
-      <label><span>手机</span><input name="phone" maxlength="40" autocomplete="tel" inputmode="tel"></label>
-      <label><span>微信</span><input name="wechat" maxlength="60"></label>
-      <label class="full"><span>邮箱</span><input name="email" maxlength="120" autocomplete="email" inputmode="email"></label>
+      <label><span>手机 <b>*</b></span><input name="phone" maxlength="40" autocomplete="tel" inputmode="tel"></label>
+      <label><span>微信 <b>*</b></span><input name="wechat" maxlength="60"></label>
+      <p class="cz-tip full">手机和微信至少填写一项</p>
+      <label class="full"><span>邮箱（选填）</span><input name="email" maxlength="120" autocomplete="email" inputmode="email"></label>
       <label class="full"><span>目标国家/地区</span><select name="region"><option value="">请选择</option>${GROUPS.map(([g, l]) => `<optgroup label="${g}">${l.map(opt).join('')}</optgroup>`).join('')}</select></label>
       <div class="full"><div style="font-size:12.5px;font-weight:600;color:#3a4a5e;margin-bottom:6px">咨询方向</div><div class="cz-topics">${TOPICS.map((t) => `<label><input type="checkbox" name="topics" value="${t}">${t}</label>`).join('')}</div></div>
       <label class="full"><span>想咨询的问题（选填）</span><textarea name="note" rows="3" maxlength="2000"></textarea></label>
@@ -100,7 +102,7 @@
 
   const ERR = {
     name_required: '请填写称呼。',
-    contact_required: '请至少填写手机、微信或邮箱中的一项。',
+    contact_required: '手机和微信至少填写一项。',
     consent_required: '请勾选同意后再提交。',
     rate_limited: '提交太频繁，请稍后再试。',
     storage_not_configured: '预约功能暂未开通，请稍后再试。',
@@ -117,7 +119,7 @@
       page: location.pathname, pageTitle: document.title,
     };
     if (!data.name) return say(ERR.name_required, true);
-    if (!data.phone && !data.wechat && !data.email) return say(ERR.contact_required, true);
+    if (!data.phone && !data.wechat) return say(ERR.contact_required, true);
     if (data.email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(data.email)) return say('邮箱格式不正确。', true);
     if (!data.consent) return say(ERR.consent_required, true);
     const send = form.querySelector('.cz-send');
