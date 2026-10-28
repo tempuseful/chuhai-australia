@@ -24,15 +24,16 @@ export async function onRequestGet({ request, env }) {
   if (!(await authed(request, env))) return json({ ok: false, error: "unauthorized" }, 401);
   const url = new URL(request.url);
   const id = url.searchParams.get("id");
+  const prefix = url.searchParams.get("type") === "lead" ? "lead:" : "sub:";
   if (id) {
-    if (!id.startsWith("sub:")) return json({ ok: false, error: "bad_id" }, 400);
+    if (!id.startsWith("sub:") && !id.startsWith("lead:")) return json({ ok: false, error: "bad_id" }, 400);
     const rec = await env.ODI_KV.get(id, "json");
     return rec ? json({ ok: true, record: rec }) : json({ ok: false, error: "not_found" }, 404);
   }
   const items = [];
   let cursor;
   do {
-    const page = await env.ODI_KV.list({ prefix: "sub:", cursor, limit: 1000 });
+    const page = await env.ODI_KV.list({ prefix, cursor, limit: 1000 });
     for (const k of page.keys) items.push({ id: k.name, ...(k.metadata || {}) });
     cursor = page.list_complete ? undefined : page.cursor;
   } while (cursor && items.length < 5000);
@@ -44,7 +45,7 @@ export async function onRequestDelete({ request, env }) {
   if (!env.ODI_KV) return json({ ok: false, error: "storage_not_configured" }, 503);
   if (!(await authed(request, env))) return json({ ok: false, error: "unauthorized" }, 401);
   const id = new URL(request.url).searchParams.get("id") || "";
-  if (!id.startsWith("sub:")) return json({ ok: false, error: "bad_id" }, 400);
+  if (!id.startsWith("sub:") && !id.startsWith("lead:")) return json({ ok: false, error: "bad_id" }, 400);
   await env.ODI_KV.delete(id);
   return json({ ok: true });
 }

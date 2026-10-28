@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
-<title>ODI 自查提交记录</title>
+<title>咨询与自查记录</title>
 <style>
 :root{font-family:system-ui,-apple-system,'Microsoft YaHei',sans-serif;color:#192b45;background:#f5f7fb}
 *{box-sizing:border-box}body{margin:0}
@@ -31,25 +31,30 @@ pre{white-space:pre-wrap;font:13px/1.6 inherit;background:#f7f9fc;padding:12px;b
 </head>
 <body>
 <div class="wrap">
-  <h1>ODI 自查提交记录</h1>
+  <h1>咨询与自查记录</h1>
   <div class="muted">仅限内部使用。密码只保存在本次浏览器会话中。</div>
   <div class="card row">
     <input type="password" id="key" placeholder="管理密码" autocomplete="current-password">
+    <select id="type" style="padding:9px;border:1px solid #cddbf1;border-radius:8px;font:inherit"><option value="lead">预约咨询</option><option value="odi">ODI 自查提交</option></select>
     <button class="primary" id="load">查看</button>
     <button id="csv" disabled>导出 CSV</button>
     <span id="msg" class="muted"></span>
   </div>
-  <div class="card tblw"><table><thead><tr><th>提交时间</th><th>联系人</th><th>公司</th><th>手机</th><th>微信</th><th>邮箱</th><th>已答题</th><th>地区</th></tr></thead><tbody id="list"><tr><td colspan="8" class="muted">输入密码后点击“查看”。</td></tr></tbody></table></div>
+  <div class="card tblw"><table><thead id="head"></thead><tbody id="list"><tr><td colspan="8" class="muted">输入密码后点击“查看”。</td></tr></tbody></table></div>
   <div class="card detail" id="detail" hidden></div>
 </div>
 <script>
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let items=[];
+const COLS_LEAD=[['at','提交时间'],['name','称呼'],['company','公司'],['phone','手机'],['wechat','微信'],['email','邮箱'],['region','目标国家'],['topics','咨询方向'],['country','访问地区']];
+const COLS_ODI=[['at','提交时间'],['name','联系人'],['company','公司'],['phone','手机'],['wechat','微信'],['email','邮箱'],['answered','已答题'],['country','访问地区']];
+$('type').onchange=()=>{items=[];$('list').innerHTML='';$('head').innerHTML='';$('detail').hidden=true;$('csv').disabled=true;$('msg').textContent='';}
 try{$('key').value=sessionStorage.getItem('odiAdminKey')||''}catch(e){}
 const fmt=t=>{try{return new Date(t).toLocaleString('zh-CN',{hour12:false})}catch(e){return t}};
 async function api(q,method='GET'){
-  const res=await fetch('/api/odi-admin'+(q||''),{method,headers:{'x-admin-key':$('key').value}});
+  const t=$('type').value==='lead'?'type=lead':'';q=q?q+(t?'&'+t:''):(t?'?'+t:'');
+  const res=await fetch('/api/odi-admin'+q,{method,headers:{'x-admin-key':$('key').value}});
   const d=await res.json().catch(()=>({}));
   if(!res.ok||!d.ok)throw new Error(d.error==='unauthorized'?'密码不正确':d.error==='storage_not_configured'?'存储尚未配置（KV 绑定 ODI_KV）':'加载失败');
   return d;
@@ -59,7 +64,10 @@ $('load').onclick=async()=>{
   try{
     try{sessionStorage.setItem('odiAdminKey',$('key').value)}catch(e){}
     const d=await api('');items=d.items;
-    $('list').innerHTML=items.length?items.map((x,i)=>`<tr class="item" data-i="${i}"><td>${esc(fmt(x.at))}</td><td>${esc(x.name)}</td><td>${esc(x.company)}</td><td>${esc(x.phone)}</td><td>${esc(x.wechat)}</td><td>${esc(x.email)}</td><td>${esc(x.answered)}</td><td>${esc(x.country)}</td></tr>`).join(''):'<tr><td colspan="8" class="muted">暂无提交。</td></tr>';
+    const lead=$('type').value==='lead';const C=lead?COLS_LEAD:COLS_ODI;
+    $('head').innerHTML='<tr>'+C.map(c=>`<th>${c[1]}</th>`).join('')+'</tr>';
+    $('list').innerHTML=items.length?items.map((x,i)=>`<tr class="item" data-i="${i}">`+C.map(c=>`<td>${esc(c[0]==='at'?fmt(x.at):x[c[0]])}</td>`).join('')+'</tr>').join(''):`<tr><td colspan="${C.length}" class="muted">暂无提交。</td></tr>`;
+    $('detail').hidden=true;
     $('msg').textContent=`共 ${items.length} 条`;$('csv').disabled=!items.length;
   }catch(e){$('msg').textContent=e.message;$('msg').className='err'}
 };
@@ -68,20 +76,23 @@ $('list').onclick=async e=>{
   const box=$('detail');box.hidden=false;box.innerHTML='<p class="muted">加载中…</p>';
   try{
     const r=(await api('?id='+encodeURIComponent(x.id))).record,c=r.contact||{};
-    box.innerHTML=`<h2>${esc(c.company||c.name)}</h2>
+    if(r.type==='lead'){const L=r.lead||{};
+      box.innerHTML=`<h2>${esc(L.company||L.name)}</h2><div class="kv"><b>提交时间</b><span>${esc(fmt(r.at))}</span><b>称呼</b><span>${esc(L.name)}</span><b>公司</b><span>${esc(L.company)}</span><b>手机</b><span>${esc(L.phone)}</span><b>微信</b><span>${esc(L.wechat)}</span><b>邮箱</b><span>${esc(L.email)}</span><b>目标国家</b><span>${esc(L.region)||'—'}</span><b>咨询方向</b><span>${esc((L.topics||[]).join('、'))||'—'}</span><b>咨询问题</b><span>${esc(L.note)||'—'}</span><b>提交页面</b><span>${esc(L.pageTitle)} ${esc(L.page)}</span><b>访问地区</b><span>${esc((r.meta||{}).country)} ${esc((r.meta||{}).city)}</span></div><p class="row"><button id="del">删除这条记录</button></p>`;
+    }else
+    {box.innerHTML=`<h2>${esc(c.company||c.name)}</h2>
     <div class="kv"><b>提交时间</b><span>${esc(fmt(r.at))}</span><b>联系人</b><span>${esc(c.name)}</span><b>公司</b><span>${esc(c.company)}</span><b>手机</b><span>${esc(c.phone)}</span><b>微信</b><span>${esc(c.wechat)}</span><b>邮箱</b><span>${esc(c.email)}</span><b>咨询问题</b><span>${esc(c.note)||'—'}</span><b>访问地区</b><span>${esc((r.meta||{}).country)} ${esc((r.meta||{}).city)}</span></div>
     <h3>答题内容（${(r.qa||[]).length} 题）</h3>
     ${(r.qa||[]).map(q=>`<div class="qa"><small>${esc(q.module)} · ${esc(q.number)}</small><br><b>${esc(q.question)}</b><br>${esc(q.answer)}</div>`).join('')}
-    <p class="row"><button id="del">删除这条记录</button></p>`;
+    <p class="row"><button id="del">删除这条记录</button></p>`;}
     $('del').onclick=async()=>{if(!confirm('确定删除这条提交记录？删除后无法恢复。'))return;await api('?id='+encodeURIComponent(x.id),'DELETE');box.hidden=true;$('load').click()};
     box.scrollIntoView({behavior:'smooth'});
   }catch(err){box.innerHTML=`<p class="err">${esc(err.message)}</p>`}
 };
 $('csv').onclick=()=>{
-  const cols=['at','name','company','phone','wechat','email','answered','country','id'];
+  const C=[...($('type').value==='lead'?COLS_LEAD:COLS_ODI),['id','记录ID']];const cols=C.map(c=>c[0]);
   const q=v=>'"'+String(v??'').replace(/"/g,'""')+'"';
-  const csv='﻿'+['提交时间,联系人,公司,手机,微信,邮箱,已答题,地区,记录ID',...items.map(x=>cols.map(k=>q(k==='at'?fmt(x.at):x[k])).join(','))].join('\r\n');
-  const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv'}));a.download='ODI自查提交记录.csv';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);
+  const csv='﻿'+[C.map(c=>c[1]).join(','),...items.map(x=>cols.map(k=>q(k==='at'?fmt(x.at):x[k])).join(','))].join('\r\n');
+  const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv'}));a.download=($('type').value==='lead'?'预约咨询记录':'ODI自查提交记录')+'.csv';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);
 };
 </script>
 </body>

@@ -43,6 +43,7 @@ def page(title, desc, body, script=""):
   <p class="disc">{FOOT}</p>
 </footer>
 {script}
+<script src="/consult.js" defer></script>
 </body>
 </html>
 """

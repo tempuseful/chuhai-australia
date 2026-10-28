@@ -1499,4 +1499,4 @@ moreRegion.onclick=()=>{let r=state.regionCard,a=projectsForRegion(r),m=regionMe
 function startApp(){initControls();initMap();renderAll()}
 const intelLoad=fetch('/projects/intel.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).then(d=>{try{const seen=new Set(newsItems.map(n=>n.title));(d&&d.items||[]).forEach(n=>{if(n&&n.title&&n.region&&!seen.has(n.title)){seen.add(n.title);newsItems.push(n)}})}catch(e){}}).catch(()=>{});
 fetch('/projects/extra.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).then(d=>{try{const ids=new Set(projects.map(p=>p.id));(d&&d.items||[]).forEach(p=>{if(p&&p.id&&p.name&&p.country&&!ids.has(p.id)){ids.add(p.id);projects.push(p)}});if(d&&/^\d{4}-\d\d-\d\d$/.test(d.updated||'')){const M=['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'],[y,m,dd]=d.updated.split('-');const el=document.querySelector('.updated');if(el)el.textContent=`LAST UPDATED · ${dd} ${M[+m-1]} ${y} (CST)`}}catch(e){}}).catch(()=>{}).finally(()=>intelLoad.finally(startApp));
-</script></body></html>
+</script><script src="/consult.js" defer></script></body></html>

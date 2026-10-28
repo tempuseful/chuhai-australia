@@ -515,5 +515,6 @@ if(chips){drawChips();
 document.getElementById("more").onclick=()=>{shown+=16;draw()};
 fetch(META.feed,{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(j=>{rows=(j.items||[]).slice().sort((x,y)=>String(y.date||"").localeCompare(String(x.date||"")));draw()}).catch(()=>{msg.hidden=false;msg.textContent="动态暂时无法载入，请稍后刷新。"})}
 </script>
+<script src="/consult.js" defer></script>
 </body>
 </html>
