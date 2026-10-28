@@ -120,10 +120,12 @@ body = f"""<header class="top"><div class="wrap">
   <div class="kicker">中国企业出海国别简报 · 已上线 {live} / {total} 个国家</div>
   <h1>出海去哪里，先把每个国家的账算清楚</h1>
   <p class="lead">按国家整理的经营决策信息：市场数据、常见痛点、落地步骤、外资准入、税务、用工签证和机会赛道，各国动态持续更新。选一个国家开始。</p>
-  <a class="maplink" href="/projects/"><div><b>中企海外项目地图</b><br><span>覆盖海湾、东盟、中亚、非洲和澳大利亚的中资工程项目，按国家、主体、行业、阶段和优先级筛选</span></div><em>打开地图 →</em></a>
-  <a class="maplink" href="/odi/"><div><b>ODI 合规自查</b><br><span>对外投资备案前先自查：企业画像、主体资格、投资方式、标的项目、安全审查和行业国别，逐题作答后生成自查报告</span></div><em>开始自查 →</em></a>
 </div>
 {"".join(secs)}
+<section class="tools">
+  <a class="maplink" href="/projects/"><div><b>中企海外项目地图</b><br><span>覆盖海湾、东盟、中亚、非洲和澳大利亚的中资工程项目，按国家、主体、行业、阶段和优先级筛选</span></div><em>打开地图 →</em></a>
+  <a class="maplink" href="/odi/"><div><b>ODI 合规自查</b><br><span>对外投资备案前先自查：企业画像、主体资格、投资方式、标的项目、安全审查和行业国别，逐题作答后生成自查报告</span></div><em>开始自查 →</em></a>
+</section>
 </main>"""
 open(os.path.join(R, "index.html"), "w", encoding="utf-8").write(
     page("出海国别简报", "面向中国企业的出海国别简报，覆盖海湾、东盟、中亚和大洋洲，按国家提供市场、准入、税务、用工和动态。", body))
