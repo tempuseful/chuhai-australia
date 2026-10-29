@@ -1,6 +1,16 @@
 {
- "updated": "2026-10-28",
+ "updated": "2026-10-30",
  "items": [
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "万和电气拟追加3.61亿元泰国生产基地投资 项目总投资额提升至9.65亿元",
+   "source": "新浪财经",
+   "url": "https://finance.sina.com.cn/stock/aigc/tzxm/2026-10-29/doc-iniwvftp9251265.shtml",
+   "date": "2026-10-29",
+   "added": "2026-10-30",
+   "cn": true
+  },
   {
    "sector": "trade",
    "kind": "新闻",

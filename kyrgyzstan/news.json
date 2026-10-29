@@ -1,6 +1,46 @@
 {
- "updated": "2026-10-28",
+ "updated": "2026-10-30",
  "items": [
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "China–Kyrgyzstan–Uzbekistan railway: Construction targets for end of 2026",
+   "source": "24.kg",
+   "url": "https://24.kg/en/article/china-kyrgyzstan-uzbekistan-railway-construction-targets-for-end-of-2026",
+   "date": "2026-10-29",
+   "added": "2026-10-30",
+   "cn": false
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "Kyrgyzstan discusses mineral extraction cooperation with China's Ganfeng Lithium",
+   "source": "AKIpress",
+   "url": "https://akipress.com/news:928144:Kyrgyzstan_discusses_mineral_extraction_cooperation_with_China_s_Ganfeng_Lithium/",
+   "date": "2026-10-29",
+   "added": "2026-10-30",
+   "cn": false
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "Kyrgyzstan begins receiving fuel shipments from China by rail",
+   "source": "24.kg",
+   "url": "https://24.kg/en/article/kyrgyzstan-begins-receiving-fuel-shipments-from-china-by-rail",
+   "date": "2026-10-29",
+   "added": "2026-10-30",
+   "cn": false
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "Number of workers from China, Pakistan in Kyrgyzstan rises more than fivefold",
+   "source": "24.kg",
+   "url": "https://24.kg/en/article/number-of-workers-from-china-pakistan-in-kyrgyzstan-rises-more-than-fivefold",
+   "date": "2026-10-29",
+   "added": "2026-10-30",
+   "cn": false
+  },
   {
    "sector": "industry",
    "kind": "新闻",

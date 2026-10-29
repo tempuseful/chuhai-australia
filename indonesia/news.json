@@ -1,6 +1,26 @@
 {
- "updated": "2026-10-26",
+ "updated": "2026-10-30",
  "items": [
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "众鑫股份拟在印尼投建年产5万吨纸浆模塑餐具项目，预算6000万美元",
+   "source": "新浪财经",
+   "url": "https://finance.sina.com.cn/stock/s/2026-10-28/doc-iniwtpke6663908.shtml",
+   "date": "2026-10-28",
+   "added": "2026-10-30",
+   "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "印尼 Dayabumi 集团与格林美（IGIP、青美邦）绿色能源配套合作签约仪式于雅加达圆满举行",
+   "source": "同花顺",
+   "url": "http://news.10jqka.com.cn/20261024/c681051667.shtml",
+   "date": "2026-10-24",
+   "added": "2026-10-30",
+   "cn": true
+  },
   {
    "sector": "energy",
    "kind": "政策",

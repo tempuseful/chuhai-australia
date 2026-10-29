@@ -1,6 +1,16 @@
 {
- "updated": "2026-10-26",
+ "updated": "2026-10-30",
  "items": [
+  {
+   "sector": "tech",
+   "kind": "新闻",
+   "title": "Tencent Cloud commits to investing in Malaysia over next three years",
+   "source": "The Star",
+   "url": "https://thestar.com.my/business/business-news/2026/10/29/tencent-cloud-commits-to-investing-in-malaysia-over-next-three-years",
+   "date": "2026-10-29",
+   "added": "2026-10-30",
+   "cn": false
+  },
   {
    "sector": "infra",
    "kind": "新闻",

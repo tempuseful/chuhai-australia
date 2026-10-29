@@ -1,6 +1,16 @@
 {
- "updated": "2026-10-28",
+ "updated": "2026-10-30",
  "items": [
+  {
+   "sector": "tech",
+   "kind": "新闻",
+   "title": "Uzbekistan, Huawei discuss railway digitalization, traffic management",
+   "source": "Trend.az",
+   "url": "https://www.trend.az/casia/uzbekistan/4240845.html",
+   "date": "2026-10-29",
+   "added": "2026-10-30",
+   "cn": false
+  },
   {
    "sector": "energy",
    "kind": "新闻",

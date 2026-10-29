@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28",
+ "updated": "2026-10-30",
  "items": [
   {
    "id": "auto-idn-20261009-1",
@@ -897,6 +897,33 @@
    "note": "根据公开报道自动整理，跟进分按阶段统一赋值。事件日期以报道日为准。报道称项目2023年6月开工、已提前建成。",
    "lat": 41.3,
    "lng": 69.24
+  },
+  {
+   "priority": "S",
+   "score": 90,
+   "need": "尚未评估。",
+   "window": "持续跟踪",
+   "action": "核实项目最新进展，以及分包和采购窗口。",
+   "stage": "规划/推动",
+   "owner": "未披露",
+   "source": "https://finance.sina.com.cn/stock/s/2026-10-28/doc-iniwtpke6663908.shtml",
+   "sources": [
+    {
+     "name": "新浪财经（2026-10-28）",
+     "url": "https://finance.sina.com.cn/stock/s/2026-10-28/doc-iniwtpke6663908.shtml"
+    }
+   ],
+   "id": "auto-idn-20261028-1",
+   "country": "印度尼西亚",
+   "city": "地点待核",
+   "name": "纸浆模塑餐具生产基地",
+   "contractor": "众鑫股份",
+   "company": "众鑫股份、广西华宝、新加坡众鑫",
+   "type": "纸浆模塑餐具厂 / 年产5万吨",
+   "value": "预算总额6000万美元",
+   "informationDate": "2026-10-28",
+   "eventDate": "2026-10-28",
+   "note": "根据公开报道自动整理，跟进分按阶段统一赋值。事件日期以报道日为准。项目尚需相关部门审批或备案。"
   }
  ]
 }

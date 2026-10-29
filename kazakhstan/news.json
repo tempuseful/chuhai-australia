@@ -1,6 +1,26 @@
 {
- "updated": "2026-10-28",
+ "updated": "2026-10-30",
  "items": [
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "Tokayev Unveils $14 Billion Construction Plan in Kazakhstan State of the Nation Address",
+   "source": "Times of Central Asia",
+   "url": "https://timesca.com/kazakhstan-state-of-the-nation-tokayev-construction-plan/",
+   "date": "2026-10-29",
+   "added": "2026-10-30",
+   "cn": false
+  },
+  {
+   "sector": "tech",
+   "kind": "新闻",
+   "title": "inDrive, Pony.ai and NVIDIA explore robotaxi launch in Kazakhstan's Astana",
+   "source": "Trend.az",
+   "url": "https://www.trend.az/casia/kazakhstan/4240674.html",
+   "date": "2026-10-29",
+   "added": "2026-10-30",
+   "cn": false
+  },
   {
    "sector": "trade",
    "kind": "政策",
