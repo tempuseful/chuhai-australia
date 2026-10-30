@@ -6,6 +6,30 @@
    "verification": "VERIFIED",
    "verifiedDate": "30 OCT 2026",
    "company": "",
+   "region": "CENTRAL_ASIA",
+   "country": "哈萨克斯坦",
+   "sector": "交通",
+   "eventType": "POLICY",
+   "publishedDate": "29 OCT 2026",
+   "time": "10/29",
+   "title": "托卡耶夫：6.5万亿坚戈基建计划，阿拉尔—里海公路缩短中欧陆路1000公里",
+   "projectName": "KAZAKHSTAN CONSTRUCTION PLAN",
+   "summary": "据中亚时报10月29日报道，哈萨克斯坦总统托卡耶夫在10月28日国情咨文中提出，到2029年从国家基金拨款约6.5万亿坚戈（约143亿美元）用于基础设施，并建议将2027年定为大规模建设年。8月已开工的阿拉尔—里海公路约800公里，官方预计可使中欧陆路缩短约1000公里、运输时间减少三天；巴赫特—阿亚古兹铁路272公里，计划2027年通车。对在哈工程和物流企业，基建投资与中欧通道项目可能带来新的采购窗口。",
+   "value": "6.5万亿坚戈",
+   "stage": "区域政策",
+   "url": "https://timesca.com/kazakhstan-state-of-the-nation-tokayev-construction-plan/",
+   "sources": [
+    {
+     "name": "The Times of Central Asia（10月29日）",
+     "url": "https://timesca.com/kazakhstan-state-of-the-nation-tokayev-construction-plan/"
+    }
+   ]
+  },
+  {
+   "tag": "国际",
+   "verification": "VERIFIED",
+   "verifiedDate": "30 OCT 2026",
+   "company": "",
    "publishedDate": "29 OCT 2026",
    "time": "10/29",
    "url": "https://gulfnews.com/world/mena/middle-east-war-what-uae-residents-need-to-know-this-evening-thursday-october-29-1.500728698",

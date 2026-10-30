@@ -2,6 +2,16 @@
  "updated": "2026-10-30",
  "items": [
   {
+   "sector": "tech",
+   "kind": "政策",
+   "title": "商务部新闻发言人就美国联邦通信委员会投票通过检测实验室限制措施事答记者问",
+   "source": "商务部",
+   "url": "https://www.mofcom.gov.cn/syxwfb/art/2026/art_2ecf68e79fba4758881d28d3afcb8a77.html",
+   "date": "2026-10-30",
+   "added": "2026-10-30",
+   "cn": true
+  },
+  {
    "sector": "trade",
    "kind": "政策",
    "title": "商务部新闻发言人就美国将中国企业列入所谓涉疆法案实体清单答记者问",

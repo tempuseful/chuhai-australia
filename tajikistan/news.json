@@ -1,6 +1,16 @@
 {
- "updated": "2026-10-28",
+ "updated": "2026-10-30",
  "items": [
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "Rogun Hydropower Plant Accident Sparks Conflicting Injury Reports",
+   "source": "The Times of Central Asia",
+   "url": "https://timesca.com/rogun-hydropower-plant-accident-injury-reports/",
+   "date": "2026-10-30",
+   "added": "2026-10-30",
+   "cn": false
+  },
   {
    "sector": "industry",
    "kind": "新闻",
