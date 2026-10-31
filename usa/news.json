@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30",
+ "updated": "2026-11-01",
  "items": [
   {
    "sector": "tech",
@@ -59,6 +59,16 @@
    "url": "https://www.chinanews.com.cn/cj/2026/10-22/10719289.shtml",
    "date": "2026-10-22",
    "added": "2026-10-28",
+   "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "政策",
+   "title": "商务部回应美发布针对中企的联邦采购排除和移除命令通知",
+   "source": "中新网",
+   "url": "https://www.chinanews.com.cn/cj/2026/10-21/10718216.shtml",
+   "date": "2026-10-21",
+   "added": "2026-11-01",
    "cn": true
   },
   {

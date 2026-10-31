@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30",
+ "updated": "2026-11-01",
  "items": [
   {
    "sector": "tech",
@@ -20,6 +20,16 @@
    "date": "2026-10-28",
    "cn": false,
    "added": "2026-10-28"
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "China's Universal Energy builds $500 mln Uzbek wind farm, due 2027",
+   "source": "Trend.az",
+   "url": "https://www.trend.az/casia/uzbekistan/4239093.html",
+   "date": "2026-10-26",
+   "added": "2026-11-01",
+   "cn": false
   },
   {
    "sector": "energy",

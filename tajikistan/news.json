@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30",
+ "updated": "2026-11-01",
  "items": [
   {
    "sector": "infra",
@@ -20,6 +20,16 @@
    "date": "2026-10-27",
    "added": "2026-10-28",
    "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "Tajikistan, China's CEEG discuss solar, wind power buildout",
+   "source": "Trend.az",
+   "url": "https://www.trend.az/casia/tajikistan/4238027.html",
+   "date": "2026-10-22",
+   "added": "2026-11-01",
+   "cn": false
   },
   {
    "sector": "industry",

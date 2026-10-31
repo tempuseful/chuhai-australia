@@ -1,6 +1,30 @@
 {
- "updated": "2026-10-30",
+ "updated": "2026-11-01",
  "items": [
+  {
+   "tag": "国际",
+   "verification": "VERIFIED",
+   "verifiedDate": "01 NOV 2026",
+   "company": "",
+   "region": "GCC",
+   "country": "GCC六国",
+   "sector": "油气",
+   "eventType": "LOGISTICS_RISK",
+   "publishedDate": "30 OCT 2026",
+   "time": "10/30",
+   "title": "布伦特一度破117美元，海湾原油运费高达每桶40美元",
+   "projectName": "BRENT FREIGHT SURGE",
+   "summary": "据半岛电视台10月30日报道，12月交割的布伦特期货当日上涨超2%，一度突破117美元/桶，为4月以来最高，较战前高出60%以上。据LSEG数据，近几周运费最高达每桶40美元，约为常规水平的10倍，原因是保险费上升和物流受阻；英国海上贸易行动办公室记录10月发生32起商船遇袭事件，为战争以来最多。对在海湾做工程的企业，设备和物资海运成本与交付周期风险上升。",
+   "value": "117美元/桶",
+   "stage": "航运风险",
+   "url": "https://www.aljazeera.com/economy/2026/10/30/oil-flows-are-up-as-iran-war-turmoil-eases-why-do-prices-keep-rising",
+   "sources": [
+    {
+     "name": "半岛电视台（10月30日）",
+     "url": "https://www.aljazeera.com/economy/2026/10/30/oil-flows-are-up-as-iran-war-turmoil-eases-why-do-prices-keep-rising"
+    }
+   ]
+  },
   {
    "tag": "国际",
    "verification": "VERIFIED",
