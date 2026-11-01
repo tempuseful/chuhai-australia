@@ -1,6 +1,16 @@
 {
- "updated": "2026-11-01",
+ "updated": "2026-11-02",
  "items": [
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "Tajikistan, China advance 90-km Murghab-Kulma road reconstruction project",
+   "source": "Trend News Agency",
+   "url": "https://www.trend.az/casia/tajikistan/4241537.html",
+   "date": "2026-10-31",
+   "cn": false,
+   "added": "2026-11-02"
+  },
   {
    "sector": "infra",
    "kind": "新闻",

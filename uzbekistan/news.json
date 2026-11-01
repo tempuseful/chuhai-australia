@@ -1,6 +1,16 @@
 {
- "updated": "2026-11-01",
+ "updated": "2026-11-02",
  "items": [
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "Uzbekistan, China's CSCEC International explore new infrastructure projects",
+   "source": "Trend News Agency",
+   "url": "https://www.trend.az/casia/uzbekistan/4241438.html",
+   "date": "2026-10-31",
+   "cn": false,
+   "added": "2026-11-02"
+  },
   {
    "sector": "tech",
    "kind": "新闻",

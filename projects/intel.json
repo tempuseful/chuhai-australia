@@ -1,6 +1,34 @@
 {
- "updated": "2026-11-01",
+ "updated": "2026-11-02",
  "items": [
+  {
+   "tag": "国际",
+   "verification": "VERIFIED",
+   "verifiedDate": "02 NOV 2026",
+   "company": "",
+   "region": "GCC",
+   "country": "GCC六国",
+   "sector": "航运",
+   "eventType": "SECURITY_RISK",
+   "publishedDate": "01 NOV 2026",
+   "time": "11/01",
+   "title": "伊朗称与卡塔尔商讨两日内重开霍尔木兹方案，美方尚未回应",
+   "projectName": "HORMUZ REOPENING PLAN",
+   "summary": "据半岛电视台11月1日和新华社10月31日报道，伊朗外长阿拉格齐表示，伊方正与卡塔尔、巴基斯坦调解人磋商一项为期两天的重新开放霍尔木兹海峡方案，条件包括解除近期美国制裁、恢复6月批准的石油豁免、减少美军在地区存在、承认伊朗与阿曼划定的新航线。特朗普称谈判“进展顺利”，但并不急于达成协议；伊朗表示暂无与美方会面计划。6月签署的谅解备忘录已在8月崩溃。对在海湾做工程的企业，海运和人员出行的不确定性仍在。",
+   "value": "两日方案",
+   "stage": "航运风险",
+   "url": "https://www.aljazeera.com/news/2026/11/1/mediators-continue-us-iran-negotiations-amid-war-rhetoric-what-we-know",
+   "sources": [
+    {
+     "name": "半岛电视台（11月1日）",
+     "url": "https://www.aljazeera.com/news/2026/11/1/mediators-continue-us-iran-negotiations-amid-war-rhetoric-what-we-know"
+    },
+    {
+     "name": "新华社（10月31日）",
+     "url": "https://english.news.cn/20261031/f03ef719855c4908959225a0595dcbfa/c.html"
+    }
+   ]
+  },
   {
    "tag": "国际",
    "verification": "VERIFIED",

@@ -1,6 +1,16 @@
 {
- "updated": "2026-10-22",
+ "updated": "2026-11-02",
  "items": [
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "沙特推出公民扶持措施并提高最低工资标准，以回应水电提价",
+   "source": "中国驻沙特使馆经商处",
+   "url": "http://sa.mofcom.gov.cn/zcfg/art/2026/art_708127909ebb4fe5929e3d6066cf71f6.html",
+   "date": "2026-10-26",
+   "cn": true,
+   "added": "2026-11-02"
+  },
   {
    "sector": "infra",
    "kind": "新闻",

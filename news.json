@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28",
+ "updated": "2026-11-02",
  "items": [
   {
    "sector": "energy",
@@ -10,6 +10,16 @@
    "date": "2026-10-28",
    "cn": false,
    "added": "2026-10-28"
+  },
+  {
+   "sector": "minerals",
+   "kind": "新闻",
+   "title": "CMRG agrees to new annual supply contract with Rio Tinto, sources say",
+   "source": "Kitco（转载路透）",
+   "url": "https://www.kitco.com/news/off-the-wire/2026-10-21/cmrg-agrees-new-annual-supply-contract-rio-tinto-sources-say",
+   "date": "2026-10-21",
+   "cn": false,
+   "added": "2026-11-02"
   },
   {
    "sector": "general",
