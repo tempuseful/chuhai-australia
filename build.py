@@ -95,6 +95,36 @@ for f in sorted(glob.glob(os.path.join(R, "compare", "*.json"))):
     os.makedirs(os.path.join(R, c["slug"]), exist_ok=True)
     open(os.path.join(R, c["slug"], "index.html"), "w", encoding="utf-8").write(page(c["title"], c["lead"], cbody))
 
+# 地方外贸扶持政策库 /policies/：数据在 policies/policies.json（由 src/policies.js 在浏览器端加载和筛选）
+POL_DESC = "各省市鼓励出口和境外参展的扶持政策：境外参展补贴、出口信用保险保费补贴、跨境电商和海外仓、品牌认证、融资贴息，按地区和类型筛选，附原文链接。"
+pbody = f"""<header class="top"><div class="wrap">
+  <div class="brand">地方外贸政策 <b>POLICY DESK</b></div>
+  <a class="back" href="/">全部国家</a>
+</div></header>
+<main class="wrap">
+<div class="hero">
+  <div class="kicker" id="pf-meta">地方外贸扶持政策</div>
+  <h1>各地鼓励出口和境外参展的扶持政策，一页查清</h1>
+  <p class="lead">按省份、城市和政策类型整理各地商务部门的外贸扶持文件：境外参展补贴、出口信用保险保费补贴、跨境电商和海外仓、国际认证、融资贴息等。每条列出补贴比例和上限、申报条件，并附原文链接。</p>
+</div>
+<section class="pol-filter" aria-label="筛选">
+  <div class="pf-row">
+    <select id="pf-prov" aria-label="省份"><option value="">全部省份</option></select>
+    <select id="pf-city" aria-label="城市" disabled><option value="">先选省份</option></select>
+    <input id="pf-q" type="search" placeholder="搜索：展位费、海外仓、保费…" aria-label="关键词">
+    <label class="pf-chk"><input type="checkbox" id="pf-valid"> 只看有效期内</label>
+    <button type="button" id="pf-reset">重置</button>
+    <span id="pf-count" class="pf-count"></span>
+  </div>
+  <div class="chips" id="pf-types" role="group" aria-label="政策类型"></div>
+</section>
+<section id="pol-list" class="pol-list"><p class="pol-empty">加载中…</p></section>
+<p class="note">金额、比例和申报时间以原文和当年申报指南为准；多数补贴按年度集中申报，申报前可向当地商务部门确认。</p>
+</main>"""
+os.makedirs(os.path.join(R, "policies"), exist_ok=True)
+open(os.path.join(R, "policies", "index.html"), "w", encoding="utf-8").write(
+    page("地方外贸扶持政策库｜出海国别简报", POL_DESC, pbody, f"<script>\n{rd('src/policies.js')}</script>"))
+
 # 项目地图 projects/index.html 是独立页面（自带数据、样式和脚本），直接编辑该文件，本脚本不生成它
 
 live = len(metas)
@@ -125,6 +155,7 @@ body = f"""<header class="top"><div class="wrap">
 {"".join(secs)}
 <section class="tools">
   <a class="maplink" href="/projects/"><div><b>中企海外项目地图</b><br><span>覆盖海湾、东盟、中亚、非洲和澳大利亚的中资工程项目，按国家、主体、行业、阶段和优先级筛选</span></div><em>打开地图 →</em></a>
+  <a class="maplink" href="/policies/"><div><b>地方外贸扶持政策库</b><br><span>各省市境外参展补贴、出口信用保险保费补贴、跨境电商和海外仓扶持，按地区和类型筛选，附原文链接</span></div><em>查政策 →</em></a>
   <a class="maplink" href="/odi/"><div><b>ODI 合规自查</b><br><span>对外投资备案前先自查：企业画像、主体资格、投资方式、标的项目、安全审查和行业国别，逐题作答后生成自查报告</span></div><em>开始自查 →</em></a>
 </section>
 </main>"""

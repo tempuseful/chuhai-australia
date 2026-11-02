@@ -264,3 +264,31 @@ footer .disc{margin:10px 0 0}
 :root[data-theme="dark"] footer .sailfin .sf-txt i{color:#6cc3a6}
 
 .tools{margin:4px 0 8px}.tools .maplink:first-child{margin-top:0}
+
+/* 地方外贸扶持政策库 */
+.pol-filter{position:sticky;top:0;z-index:5;background:var(--bg);padding:14px 0 6px;border-bottom:1px solid var(--line)}
+.pf-row{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:10px}
+.pf-row select,.pf-row input[type=search]{font:inherit;font-size:14px;color:var(--fg);background:var(--panel);border:1px solid var(--line);padding:7px 10px;min-width:150px}
+.pf-row input[type=search]{flex:1;min-width:200px}
+.pf-row select:disabled{opacity:.55}
+.pf-chk{font-size:13.5px;color:var(--muted);display:flex;gap:6px;align-items:center}
+.pf-row button{font:inherit;font-size:13px;background:transparent;color:var(--muted);border:1px solid var(--line);padding:7px 12px;cursor:pointer}
+.pf-count{margin-left:auto;font-family:var(--mono);font-size:12.5px;color:var(--amber)}
+#pf-types small{font-family:var(--mono);opacity:.75;margin-left:2px}
+.pol-list{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:18px}
+.pol{background:var(--panel);border:1px solid var(--line);padding:16px 18px;min-width:0;display:flex;flex-direction:column}
+.pol-top{display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:12px}
+.pol-where{font-weight:700;color:var(--amber);font-size:13px}
+.pol-lv,.pol-type{border:1px solid var(--line);padding:1px 7px;color:var(--muted)}
+.pol-exp{background:var(--down);color:#fff;padding:1px 7px}
+.pol-top time{margin-left:auto;font-family:var(--mono);color:var(--muted)}
+.pol h3{font-family:var(--serif);font-size:17px;line-height:1.45;margin:10px 0 8px}
+.pol h3 a{color:var(--fg);text-decoration:none}.pol h3 a:hover{color:var(--amber)}
+.pol-hl{margin:0 0 10px;padding-left:18px;font-size:14px;line-height:1.65}
+.pol-hl li::marker{color:var(--amber)}
+.pol-dl{margin:0 0 10px;font-size:13px;line-height:1.6;color:var(--muted)}
+.pol-dl div{display:grid;grid-template-columns:5em 1fr;gap:8px}.pol-dl dt{color:var(--fg);font-weight:600}.pol-dl dd{margin:0}
+.pol-foot{margin-top:auto;padding-top:10px;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12.5px;color:var(--muted)}
+.pol-foot a{margin-left:auto;color:var(--amber);text-decoration:none}
+.pol-empty{grid-column:1/-1;color:var(--muted);padding:30px 0;text-align:center}
+@media (max-width:860px){.pol-list{grid-template-columns:1fr}.pol-filter{position:static}.pf-count{margin-left:0}}
