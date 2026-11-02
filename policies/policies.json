@@ -24,7 +24,8 @@
    "apply": "",
    "url": "https://desk.sh.gov.cn/zxfw/zcfg/dfzh/20261030/99179d9384c9429f957fcd13df258bf6.html",
    "source": "上海市企业出海综合服务平台",
-   "id": "p001"
+   "id": "p001",
+   "verified": true
   },
   {
    "province": "上海市",
@@ -50,7 +51,8 @@
    "apply": "即日起至2026年12月31日网上申报（各事项起始日期2026年7月1日），签字盖章扫描版PDF发送至jafgw_cyk@163.com，无需纸质材料。",
    "url": "https://desk.sh.gov.cn/zxfw/zcfg/dfzh/20260928/7ba73d1650a3404fa039abf59f236432.html",
    "source": "上海市企业出海综合服务平台",
-   "id": "p002"
+   "id": "p002",
+   "verified": true
   },
   {
    "province": "江苏省",
@@ -73,7 +75,8 @@
    "apply": "2026年9月30日—10月23日通过“宁企通”平台（nqt.nanjing.gov.cn）线上申报，各板块商务主管部门初审。",
    "url": "https://swj.nanjing.gov.cn/njsswj/202609/t20260928_5918759.html",
    "source": "南京市商务局",
-   "id": "p003"
+   "id": "p003",
+   "verified": true
   },
   {
    "province": "江苏省",
@@ -95,7 +98,8 @@
    "apply": "通过“苏商通”（sst.suzhou.gov.cn）网上申报，境外展会参展补贴网上截止2026年8月20日、纸质材料一式三份8月24日前报相城区商务局。",
    "url": "https://www.qyfw.suzhou.com.cn/zct-ee/policy-info/80714a21-45ac-40b0-857e-c448974e12b8?channel=T",
    "source": "苏州企业服务平台",
-   "id": "p004"
+   "id": "p004",
+   "verified": true
   },
   {
    "province": "上海市",
@@ -120,7 +124,8 @@
    "apply": "在商务部开拓资金申报系统（zxkt.mofcom.gov.cn）网上申报；参展和认证项目向区商务主管部门申报，组展项目向市开拓资金承办部申报。2026年度第一批8月1日—31日、第二批2026年12月1日—2027年1月15日（市商务委2026年8月3日申报通知）。",
    "url": "https://www.shanghai.gov.cn/zjfcsj/20260813/4a5c77c4c3434e7eae7e43eabe8cdc23.html",
    "source": "上海市人民政府网站",
-   "id": "p005"
+   "id": "p005",
+   "verified": true
   },
   {
    "province": "广东省",
@@ -143,7 +148,8 @@
    "apply": "参展企业经组展公司汇总后提交广州市商务局，电子和视频材料通过“穗商服”平台填报，2026年7月31日前完成提交。",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10892201.html",
    "source": "广州市人民政府门户网站",
-   "id": "p006"
+   "id": "p006",
+   "verified": true
   },
   {
    "province": "江苏省",
@@ -170,7 +176,8 @@
    "apply": "",
    "url": "https://www.js.gov.cn/art/2026/6/17/art_64797_11791075.html",
    "source": "江苏省人民政府网站",
-   "id": "p007"
+   "id": "p007",
+   "verified": true
   },
   {
    "province": "湖北省",
@@ -197,7 +204,8 @@
    "apply": "",
    "url": "https://sw.wuhan.gov.cn/zfxxgk/zc/gfwj/202605/t20260512_2763528.shtml",
    "source": "武汉市商务局",
-   "id": "p008"
+   "id": "p008",
+   "verified": true
   },
   {
    "province": "广东省",
@@ -220,7 +228,8 @@
    "apply": "",
    "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/tzgg/content/post_12733467.html",
    "source": "深圳市人民政府门户网站",
-   "id": "p009"
+   "id": "p009",
+   "verified": true
   },
   {
    "province": "广东省",
@@ -243,7 +252,8 @@
    "apply": "市商务局每年在官网及全市统一专项资金管理平台发布申报指南，经审查、集体决策并公示5个工作日后拨付。",
    "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/zcfg/content/post_12704277.html",
    "source": "深圳市人民政府门户网站",
-   "id": "p010"
+   "id": "p010",
+   "verified": true
   },
   {
    "province": "浙江省",
@@ -270,7 +280,60 @@
    "apply": "牵头单位为温州市商务局，具体以申报通知为准。",
    "url": "https://www.sohu.com/a/998400040_121123797",
    "source": "搜狐网（全文转载）",
-   "id": "p011"
+   "id": "p011",
+   "verified": true
+  },
+  {
+   "province": "湖南省",
+   "city": "",
+   "level": "省级",
+   "title": "湖南省商务厅 湖南省财政厅 中国国际贸易促进委员会湖南省分会关于发布《2026年“湘贸全球”重点境外展会目录》的通知",
+   "issuer": "湖南省商务厅、湖南省财政厅、中国国际贸易促进委员会湖南省分会",
+   "docNo": "",
+   "date": "2026-03-03",
+   "validUntil": "",
+   "types": [
+    "境外参展",
+    "物流运费"
+   ],
+   "highlights": [
+    "展位费按不超过70%给予补贴；15个乡村振兴重点帮扶县企业最高可按80%补贴",
+    "展品运输费按不超过70%补贴，单个企业单个展会最高5万元",
+    "人员费用（国际机票、跨境高铁、签证费）单个企业单个展会：港澳台最高0.5万元、亚洲最高1万元、亚洲以外（非洲除外）最高1.5万元、非洲最高2万元",
+    "同一企业年度重点境外展会补贴总计不超过100万元；绿色电力装备、人工智能、航空航天产品企业参加相关展会另设100万元年度上限",
+    "仅支持企业实地参展，不支持代展；补贴标准以申报通知为准"
+   ],
+   "eligibility": "湖南省内企业实地参展；曾获补贴企业中，高新技术、专精特新、“小巨人”、制造业单项冠军企业连续三年（其他企业连续两年）无外贸实绩的原则上不再支持（非洲展会除外）；同一项目不得多头申报",
+   "apply": "补贴申报及材料要求另行通知；各市州商务部门跟踪企业参展情况并纳入项目库",
+   "url": "https://swt.hunan.gov.cn/swt/hnswt/85753/fdzdgknr/tzgg/202603/t20260310_292281931479062976.html",
+   "source": "湖南省商务厅",
+   "verified": true,
+   "id": "p063"
+  },
+  {
+   "province": "河南省",
+   "city": "",
+   "level": "省级",
+   "title": "河南省商务厅关于公布2026年度国际性展会推荐名录的通知",
+   "issuer": "河南省商务厅",
+   "docNo": "",
+   "date": "2026-03-02",
+   "validUntil": "",
+   "types": [
+    "境外参展"
+   ],
+   "highlights": [
+    "2026年度推荐名录共300个国际性展会：一类（重点支持展会）200个、二类（重点推荐展会）90个、出口转内销展会10个",
+    "企业参加国际性展会均享受开拓国际市场项目资金支持，标准按《河南省国际性展会项目组织管理办法（试行）》（豫商外贸〔2020〕4号）和《关于明确支持企业开拓国际市场有关政策的通知》（豫商外贸〔2021〕21号）执行",
+    "未列入名录的国际性展会按第三类展会补贴标准给予支持",
+    "名录为引导性名录，补贴标准以申报通知为准"
+   ],
+   "eligibility": "河南省内参加国际性展会的企业。",
+   "apply": "按开拓国际市场项目资金申报通知，通过各省辖市、济源示范区、航空港区商务主管部门申报。",
+   "url": "https://www.keceyun.com/policy/newsdetail/528101.html",
+   "source": "科策云（全文转载郑州市商务局转发件，原文 swj.zhengzhou.gov.cn/tzgg/9935261.jhtml）；标题另经济源市政府网站 jiyuan.gov.cn 转载页核实",
+   "verified": true,
+   "id": "p064"
   },
   {
    "province": "福建省",
@@ -292,7 +355,8 @@
    "apply": "",
    "url": "https://swt.fujian.gov.cn/mqchzhfwpt/hdxx/hwzh/202602/t20260227_7102389.htm",
    "source": "福建省商务厅网站",
-   "id": "p012"
+   "id": "p012",
+   "verified": true
   },
   {
    "province": "江苏省",
@@ -316,7 +380,32 @@
    "apply": "申报系统2026年4月30日前开放；6月30日前举办的展会截止2026年7月21日17:00；经江苏省商务厅网站“全省商务在线业务系统—江苏省展会扶持资金申报系统”申报。",
    "url": "https://www.qyfw.suzhou.com.cn/zct-ee/policy-info/26acb7f1-1781-4115-9105-5dbdc5029fbd?channel=T",
    "source": "苏州企业服务平台（苏州工业园区企业发展服务中心转发）",
-   "id": "p013"
+   "id": "p013",
+   "verified": true
+  },
+  {
+   "province": "辽宁省",
+   "city": "",
+   "level": "省级",
+   "title": "辽宁省商务厅关于印发《2026年辽宁省重点境外展会计划》的通知",
+   "issuer": "辽宁省商务厅",
+   "docNo": "",
+   "date": "2026-02-09",
+   "validUntil": "",
+   "types": [
+    "境外参展"
+   ],
+   "highlights": [
+    "2026年安排省级重点境外展会200个，聚焦辽宁重点出口国家和地区",
+    "“一类”展会由通过遴选确定的展会服务单位统一组织企业参展；“二类”展会由企业自行申请展位、参加展会",
+    "相关展会政策依据辽宁省商务厅和辽宁省财政厅商定后政策实施，补贴标准以申报通知为准"
+   ],
+   "eligibility": "辽宁省内开拓国际市场的外贸企业；具体条件以省商务厅、省财政厅后续政策为准。",
+   "apply": "一类展会通过省级遴选的展会服务单位报名组团；二类展会由企业自行申请展位。营口市商务局对外贸易科 0417-2998448。",
+   "url": "https://swj.yingkou.gov.cn/004/20260209/a55bb558-621b-4254-a433-8bf38fab7cf4.html",
+   "source": "营口市商务局（转发辽宁省商务厅通知）；另见沈阳市商务局 swj.shenyang.gov.cn/tzgg/202602/t20260211_4986998.html",
+   "verified": true,
+   "id": "p065"
   },
   {
    "province": "浙江省",
@@ -343,7 +432,8 @@
    "apply": "牵头单位为杭州市商务局，具体以年度申报指南为准。",
    "url": "https://www.ssia.org.cn/page100?article_id=2555",
    "source": "上海软件行业协会网站（全文转载）",
-   "id": "p014"
+   "id": "p014",
+   "verified": true
   },
   {
    "province": "重庆市",
@@ -370,7 +460,8 @@
    "apply": "2026年2月11日前将纸质材料一式两份分别报送渝中区商务委外资外贸科（外贸类）或电子商务科（跨境电商园区），并同步发送电子材料。",
    "url": "https://www.cqyz.gov.cn/bm_229/qsww/zwgk_97157/fdzdgknr_97159/zcwj/sptz/202602/W020260203644237544054.pdf",
    "source": "重庆市渝中区人民政府网站",
-   "id": "p015"
+   "id": "p015",
+   "verified": true
   },
   {
    "province": "浙江省",
@@ -397,7 +488,79 @@
    "apply": "由省商务厅等牵头部门组织实施，具体以年度申报指南为准。",
    "url": "https://www.afdata.org.cn/PolicyPlace/90c10719-c10b-4fae-ba9a-70d7d343b1c0",
    "source": "中国安防大数据服务平台（全文转载）",
-   "id": "p016"
+   "id": "p016",
+   "verified": true
+  },
+  {
+   "province": "四川省",
+   "city": "",
+   "level": "省级",
+   "title": "“川行天下”国际市场拓展支持政策及2026年度展会活动目录",
+   "issuer": "四川省商务主管部门",
+   "docNo": "",
+   "date": "2026-01-29",
+   "validUntil": "",
+   "types": [
+    "境外参展"
+   ],
+   "highlights": [
+    "2026年支持200场展会活动",
+    "20场知名国际性展会按展位费85%补助，单企单展最高18平方米、不超过10万元",
+    "重点类展会按展位费80%补助，单企单展最高18平方米、不超过9万元",
+    "其余推荐类展会支持政策由各市（州）自定"
+   ],
+   "eligibility": "",
+   "apply": "官方媒体报道确认政策和200场目录，比例和上限尚未在原文中核实",
+   "url": "https://mp.weixin.qq.com/s/Gtco5ksWJqhQGYP4SZKjhw",
+   "source": "ICEE 公众号汇总",
+   "verified": false,
+   "id": "p066"
+  },
+  {
+   "province": "山西省",
+   "city": "",
+   "level": "省级",
+   "title": "山西省2026年“千企百展”行动方案",
+   "issuer": "山西省商务主管部门",
+   "docNo": "",
+   "date": "2026-01-26",
+   "validUntil": "",
+   "types": [
+    "境外参展"
+   ],
+   "highlights": [
+    "全年统筹支持展会200场，其中国际境外展会178场",
+    "以省级商务发展专项资金为主，重点支持省商务厅统一组织的境外重点展会；补贴标准以申报通知为准"
+   ],
+   "eligibility": "",
+   "apply": "电话：0351-4079070",
+   "url": "https://swt.shanxi.gov.cn/xxgk/xxgkzl/xxgklm/gztz_69874/202601/t20260126_10048197.shtml",
+   "source": "ICEE 公众号汇总（附官网链接）",
+   "verified": false,
+   "id": "p067"
+  },
+  {
+   "province": "河北省",
+   "city": "",
+   "level": "省级",
+   "title": "河北省2026年度境外展会扶持政策（“冀贸出海”）",
+   "issuer": "河北省商务主管部门",
+   "docNo": "",
+   "date": "2026-01-23",
+   "validUntil": "",
+   "types": [
+    "境外参展"
+   ],
+   "highlights": [
+    "以“冀贸出海”专项行动为牵引，布局钢铁、装备制造、纺织服装、特色农产品等境外重点展会",
+    "补贴标准以原文为准"
+   ],
+   "eligibility": "",
+   "apply": "省商务厅：0311-87909979",
+   "url": "http://swt.hebei.gov.cn/nx_html/jwzhfw/xxts/2026/1/1769143837014.html",
+   "source": "ICEE 公众号汇总（附官网链接）",
+   "verified": false,
+   "id": "p068"
   },
   {
    "province": "广东省",
@@ -423,7 +586,104 @@
    "apply": "",
    "url": "https://www.sz.gov.cn/szzt2010/zdlyzl/jjshzc/content/post_12614323.html",
    "source": "深圳市人民政府门户网站",
-   "id": "p017"
+   "id": "p017",
+   "verified": true
+  },
+  {
+   "province": "山东省",
+   "city": "济宁市",
+   "level": "市级",
+   "title": "关于印发2026年“济宁优品+链通全球”重点推荐类境外展会目录的通知",
+   "issuer": "济宁市商务主管部门",
+   "docNo": "",
+   "date": "2026-01-19",
+   "validUntil": "",
+   "types": [
+    "境外参展"
+   ],
+   "highlights": [
+    "发布2026年重点推荐类境外展会目录",
+    "补贴标准以申报通知为准"
+   ],
+   "eligibility": "",
+   "apply": "",
+   "url": "https://business.jining.gov.cn/art/2026/1/19/art_6686_2708727.html",
+   "source": "ICEE 公众号汇总（附官网链接）",
+   "verified": false,
+   "id": "p069"
+  },
+  {
+   "province": "上海市",
+   "city": "",
+   "level": "省级",
+   "title": "关于公布2026年度上海企业开拓国际市场海外展会推荐项目的通知",
+   "issuer": "上海市商务委员会",
+   "docNo": "",
+   "date": "2026-01-16",
+   "validUntil": "",
+   "types": [
+    "境外参展"
+   ],
+   "highlights": [
+    "经有关单位推荐、专家评审，公布2026年度上海企业开拓国际市场海外展会推荐项目（附件《2026年度重点推荐的海外展会项目表》）",
+    "据解放日报·上观新闻报道，2026年度推荐展会305个，较上年增加50%",
+    "市商务委鼓励各区在各级财政支持基础上出台配套扶持措施降低企业参展成本；通知本身未列补贴比例和金额，补贴标准以申报通知为准"
+   ],
+   "eligibility": "上海外贸企业；参展事宜向各推荐展会的推荐单位联系人咨询",
+   "apply": "按附件所列展会向对应推荐单位联系报名；上海市商务委员会总机 021-23111111",
+   "url": "https://fairtrade.sww.sh.gov.cn/taa/action/Policy_documentView?news.id=13784",
+   "source": "上海市商务委员会（贸易促进服务平台）",
+   "verified": true,
+   "id": "p070"
+  },
+  {
+   "province": "广东省",
+   "city": "深圳市",
+   "level": "市级",
+   "title": "深圳市商务局关于发布2026年重点支持境外展会清单的通知",
+   "issuer": "深圳市商务局",
+   "docNo": "",
+   "date": "2026-01-15",
+   "validUntil": "",
+   "types": [
+    "境外参展"
+   ],
+   "highlights": [
+    "发布2026年市级重点支持境外展会清单（附件PDF，所列展会序号至少至377），覆盖新能源/储能、高端医疗器械、消费电子/人工智能、智能网联汽车、时尚珠宝等产业",
+    "继续面向大型外贸企业和服务贸易（服务外包）企业落实境外展会参展补贴政策",
+    "通知未列补贴比例和金额，企业需留意市商务局后续通知；补贴标准以申报通知为准",
+    "区级政策咨询各区商务部门（福田0755-82918333-2685、南山0755-88167810、宝安0755-88177735等）"
+   ],
+   "eligibility": "大型外贸企业和服务贸易（服务外包）企业（市级）；其他企业参照各区政策",
+   "apply": "申报另行通知；深圳市商务局0755-88107015",
+   "url": "https://commerce.sz.gov.cn/xxgk/qt/tzgg_1/content/post_12602579.html",
+   "source": "深圳市商务局",
+   "verified": true,
+   "id": "p071"
+  },
+  {
+   "province": "山东省",
+   "city": "青岛市",
+   "level": "市级",
+   "title": "青岛市商务局关于推荐2026年境外展会的通知",
+   "issuer": "青岛市商务主管部门",
+   "docNo": "",
+   "date": "2026-01-14",
+   "validUntil": "",
+   "types": [
+    "境外参展"
+   ],
+   "highlights": [
+    "推荐2026年境外展会305个",
+    "对参加经贸类境外展会的青岛企业，展位费按单个展位60%、最高2万元补助",
+    "同一展会最多补助2个展位，每家企业每年最多申请5个展会（不限于推荐目录）"
+   ],
+   "eligibility": "",
+   "apply": "市商务局：0532-85918108",
+   "url": "http://bofcom.qingdao.gov.cn/zwgk_59/zytz_59/202601/t20260114_10468460.shtml",
+   "source": "ICEE 公众号汇总（附官网链接）",
+   "verified": false,
+   "id": "p072"
   },
   {
    "province": "福建省",
@@ -450,7 +710,33 @@
    "apply": "",
    "url": "https://www.fuzhou.gov.cn/zgfzzt/sjxw/fzjx/hqzc/202601/t20260114_5270994.htm",
    "source": "福州市人民政府门户网站（转载）",
-   "id": "p018"
+   "id": "p018",
+   "verified": true
+  },
+  {
+   "province": "广东省",
+   "city": "东莞市",
+   "level": "市级",
+   "title": "关于做好2026业务年度开拓国际市场项目入库申报工作的通知",
+   "issuer": "东莞市商务局（转发广东省商务厅《关于2026业务年度开拓国际市场项目入库申报的通知》粤商务贸函〔2025〕285号）",
+   "docNo": "",
+   "date": "2026-01-08",
+   "validUntil": "2026-12-31",
+   "types": [
+    "境外参展"
+   ],
+   "highlights": [
+    "“粤贸全球”境外展会：按单个标准展位（9平方米）展位费不超过80%的比例、最高不超过3万元的标准给予支持",
+    "每家企业同一展会最多支持2个标准展位；年度支持单家企业参加“粤贸全球”展会不超过5个",
+    "支持期为2026年1月1日至12月31日；分国别（地区）支持标准见通知附件2",
+    "2026年“粤贸全球”平台展会由省商务厅遴选（肇庆市商务局转发通知称共265场境外展会）；补贴标准以申报通知为准"
+   ],
+   "eligibility": "在本市注册经营且申报项目举办前一年内有进出口实绩的外贸企业；“空壳”企业、列入失信名单或审计问题未整改、已获中央/省级商务资金支持的同一项目等不予支持",
+   "apply": "通过“粤贸全球”综合服务平台网上申报并报送纸质材料；组展单位在展会结束后30个工作日内申报，自行参展企业在展会结束后20个工作日内向收单机构报送；已结束展会自通知印发之日起算，逾期视为放弃。咨询：省商务厅18102626713、18102658963；东莞市商务局0769-22806513、22995396、22888290",
+   "url": "https://www.keceyun.com/policy/newsdetail/467536.html",
+   "source": "科策云（转载东莞市商务局通知，原文 dgboc.dg.gov.cn/gkmlpt/content/4/4486/post_4486827.html）",
+   "verified": true,
+   "id": "p073"
   },
   {
    "province": "福建省",
@@ -475,7 +761,8 @@
    "apply": "",
    "url": "https://ljztc.fjqzsme.cn/zcy/policy/policy/detail.html?id=207",
    "source": "泉州市中小企业服务平台（全文转载；原文载泉州市人民政府公报2026年第1期）",
-   "id": "p019"
+   "id": "p019",
+   "verified": true
   },
   {
    "province": "山东省",
@@ -497,7 +784,8 @@
    "apply": "联系省商务厅外贸处（0531-51763057）、服贸处（0531-51763090）；补贴申报以年度申报指南为准。",
    "url": "http://www.ccpitzj.gov.cn/art/2026/1/6/art_1229632370_51154.html",
    "source": "浙江省贸促会网站（全文转载）",
-   "id": "p020"
+   "id": "p020",
+   "verified": true
   },
   {
    "province": "山东省",
@@ -524,7 +812,32 @@
    "apply": "第26、27条牵头单位为省商务厅、省财政厅；未明确起止时限的条款自2026年1月1日起实施，具体申报以年度申报指南为准。",
    "url": "https://fgw.weihai.gov.cn/art/2026/3/31/art_4153_6242667.html",
    "source": "威海市发展和改革委员会网站（全文转载）",
-   "id": "p021"
+   "id": "p021",
+   "verified": true
+  },
+  {
+   "province": "安徽省",
+   "city": "",
+   "level": "省级",
+   "title": "2026年度安徽省境内外国际展会指引目录",
+   "issuer": "安徽省商务主管部门",
+   "docNo": "",
+   "date": "2025-11-26",
+   "validUntil": "",
+   "types": [
+    "境外参展"
+   ],
+   "highlights": [
+    "重点统筹组织展会43场、重点推介展会478场，首次纳入服务贸易类展会",
+    "上年度进出口额超2000万美元的重点企业及“安徽出口品牌”企业，境外参展单个展位最高3万—5万元",
+    "其余企业由各市、县依托中小企业国际市场开拓资金统筹支持"
+   ],
+   "eligibility": "",
+   "apply": "省级按季度申报，经所在地商务部门提交；联系电话：0551-63540253",
+   "url": "https://mp.weixin.qq.com/s/Gtco5ksWJqhQGYP4SZKjhw",
+   "source": "ICEE 公众号汇总",
+   "verified": false,
+   "id": "p074"
   },
   {
    "province": "山东省",
@@ -552,7 +865,60 @@
    "apply": "",
    "url": "https://www.cfsn.cn/zcwk/detail/2163/3295.html?view=pc",
    "source": "中国食品安全网政策文库（全文转载；原文载山东省商务厅政策文件库）",
-   "id": "p022"
+   "id": "p022",
+   "verified": true
+  },
+  {
+   "province": "陕西省",
+   "city": "",
+   "level": "省级",
+   "title": "陕西省商务厅关于开展2026年度“陕耀全球”境外重点展会活动的通知",
+   "issuer": "陕西省商务厅",
+   "docNo": "",
+   "date": "2025-11-17",
+   "validUntil": "",
+   "types": [
+    "境外参展",
+    "物流运费"
+   ],
+   "highlights": [
+    "重点展会目录50场（货物贸易40场、服务贸易10场），通过政府采购由第三方组展单位组织企业参展",
+    "参展企业展位费全额补贴（每个企业补贴1个标准展位）",
+    "参展人员境外食宿费给予50%补贴，每个企业补贴1人",
+    "每个企业展品运输费给予不高于0.5万元补贴（据实核算）；公共搭建费补贴不超过10万元（每个企业0.5万元）",
+    "补贴标准以申报通知为准"
+   ],
+   "eligibility": "省内有意开拓国际市场的企业，按产品报名参加目录内展会（通知未列详细资格条件）",
+   "apply": "通过第三方组展单位报名参展；联系人：郭晨 029-63913961",
+   "url": "https://www.yanqitong.cn/tongzhigonggao/24482.html",
+   "source": "延安市中小企业公共服务平台（全文转载；省商务厅原文 sxdofcom.shaanxi.gov.cn/sy/tzgg/zytz/202511/t20251117_3585789.html）",
+   "verified": true,
+   "id": "p075"
+  },
+  {
+   "province": "江苏省",
+   "city": "",
+   "level": "省级",
+   "title": "江苏省商务厅关于印发2026年贸易促进计划的通知",
+   "issuer": "江苏省商务厅",
+   "docNo": "",
+   "date": "2025-11-11",
+   "validUntil": "",
+   "types": [
+    "境外参展",
+    "综合措施"
+   ],
+   "highlights": [
+    "以“江苏优品行全球”“苏新服务·智惠全球”等为品牌，择优选取538个展会，其中境外展会520个、境内展会18个",
+    "境外展会为指导性目录，省商务厅从中选取部分作为重点展并分类制定支持政策；各地可参考制定本地配套政策",
+    "通知本身未列补贴比例和金额，补贴标准以申报通知为准"
+   ],
+   "eligibility": "江苏省内参展企业（具体以重点展会资金申报通知为准）",
+   "apply": "服贸处 刘堃 025-57710281；外贸处 王一 025-57710149；外资处 翁侨宏 025-57710213；电商处 韦蔚 025-57710345；市建处 吕璐 025-57710436；运行处 徐丹丹 025-57710406；贸促中心 孙超 025-57710271",
+   "url": "https://www.ccpitzj.gov.cn/art/2026/1/6/art_1229632370_51155.html",
+   "source": "浙江省贸促会网站（全文转载）",
+   "verified": true,
+   "id": "p076"
   },
   {
    "province": "湖北省",
@@ -579,7 +945,8 @@
    "apply": "",
    "url": "https://www.wuhan.gov.cn/zwgk/xxgk/zfwj/bgtwj/202511/t20251107_2673837.shtml",
    "source": "武汉市人民政府门户网站",
-   "id": "p023"
+   "id": "p023",
+   "verified": true
   },
   {
    "province": "福建省",
@@ -602,7 +969,8 @@
    "apply": "通过国际贸易“单一窗口”在线投保，可联系中国信保福建分公司、人保财险福建省分公司、太保产险福建分公司。",
    "url": "https://swt.fujian.gov.cn/xxgk/jgzn/jgcs/dwmyc/tpxw_449/202510/t20251031_7028526.htm",
    "source": "福建省商务厅网站",
-   "id": "p024"
+   "id": "p024",
+   "verified": true
   },
   {
    "province": "广东省",
@@ -625,7 +993,8 @@
    "apply": "按市商务局年度申报指南申报。",
    "url": "https://www.sz.gov.cn/szzt2010/zdlyzl/jjshzc/content/post_12467115.html",
    "source": "深圳市人民政府门户网站",
-   "id": "p025"
+   "id": "p025",
+   "verified": true
   },
   {
    "province": "全国",
@@ -652,7 +1021,8 @@
    "apply": "",
    "url": "https://tianjin.chinatax.gov.cn/11200000000/0300/030004/03000418/20250926084141286.shtml",
    "source": "国家税务总局天津市税务局（转载）",
-   "id": "p026"
+   "id": "p026",
+   "verified": true
   },
   {
    "province": "北京市",
@@ -679,7 +1049,8 @@
    "apply": "",
    "url": "https://www.ncsti.gov.cn/zcfg/zcwj/202509/t20250929_220729.html",
    "source": "北京国际科技创新中心网（ncsti.gov.cn）",
-   "id": "p027"
+   "id": "p027",
+   "verified": true
   },
   {
    "province": "广东省",
@@ -702,7 +1073,8 @@
    "apply": "按实施细则或年度申报指南申报。",
    "url": "https://www.sz.gov.cn/zfgb/2025/gb1384/content/post_12371968.html",
    "source": "深圳市人民政府公报",
-   "id": "p028"
+   "id": "p028",
+   "verified": true
   },
   {
    "province": "浙江省",
@@ -728,7 +1100,8 @@
    "apply": "市商务局发布年度专项资金申报通知，区县商务、财政部门初审推荐，市商务局审核、市财政局下达资金。",
    "url": "https://zfgb.hangzhou.gov.cn/11/107220253/t130220253074/529502.shtml",
    "source": "杭州市人民政府公报网站",
-   "id": "p029"
+   "id": "p029",
+   "verified": true
   },
   {
    "province": "福建省",
@@ -752,7 +1125,8 @@
    "apply": "由市商务局会同市财政局、市委金融办组织企业申报，分批发布融资对接白名单。",
    "url": "https://qzbofcom.quanzhou.gov.cn/zwgk/zcjd_14040/202507/t20250716_3190294.htm",
    "source": "泉州市商务局网站（政策解读）",
-   "id": "p030"
+   "id": "p030",
+   "verified": true
   },
   {
    "province": "广东省",
@@ -775,7 +1149,8 @@
    "apply": "材料报各地市商务部门审核推荐，地市于7月4日前报省商务厅；展会结束后30个工作日内由中国对外贸易广州展览有限公司汇总申报支持资金。",
    "url": "https://www.shantou.gov.cn/attachment/0/136/136599/2451983.pdf",
    "source": "汕头市人民政府网（转载广东省商务厅原文）",
-   "id": "p031"
+   "id": "p031",
+   "verified": true
   },
   {
    "province": "广东省",
@@ -802,7 +1177,8 @@
    "apply": "通过东莞市商务局专项资金系统网上申报并提交纸质材料；境外展会事项须在展会结束后1个月内申报，其余原则上于次年3月31日前申报。",
    "url": "https://www.tid.gov.hk/en/tradecircular/files/2025/ci5812025a.pdf",
    "source": "香港特区政府工业贸易署（转载东莞市商务局原文）",
-   "id": "p032"
+   "id": "p032",
+   "verified": true
   },
   {
    "province": "浙江省",
@@ -826,7 +1202,8 @@
    "apply": "2025年6月25日前通过温州市产业政策奖励兑现系统（reward.wenzhou.gov.cn）网上申报，按季度申报，逾期视为自动放弃。",
    "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web1826/site/attach/0/6a85edd8309b47829e55d07c5720ff33.pdf",
    "source": "浙江政务网站集约化平台（温州市商务局文件附件）",
-   "id": "p033"
+   "id": "p033",
+   "verified": true
   },
   {
    "province": "广东省",
@@ -851,7 +1228,8 @@
    "apply": "由区商务局负责实施，扶持比例和限额为上限，具体兑现视当年度财政预算调整。",
    "url": "https://www.gz.gov.cn/ysgz/tzzc/kjmy/yszc/content/post_10393027.html",
    "source": "广州市人民政府门户网站",
-   "id": "p034"
+   "id": "p034",
+   "verified": true
   },
   {
    "province": "浙江省",
@@ -878,7 +1256,8 @@
    "apply": "",
    "url": "https://news.qq.com/rain/a/20250429A05LLM00",
    "source": "腾讯新闻（转载义乌商报全文）",
-   "id": "p035"
+   "id": "p035",
+   "verified": true
   },
   {
    "province": "上海市",
@@ -905,7 +1284,8 @@
    "apply": "",
    "url": "https://www.shanghai.gov.cn/nw12344/20250424/ba7f0c9f05da4c4e94a99ab2c40bd170.html",
    "source": "上海市人民政府网站",
-   "id": "p036"
+   "id": "p036",
+   "verified": true
   },
   {
    "province": "广东省",
@@ -932,7 +1312,8 @@
    "apply": "按东莞市商务局年度申报指南申报。",
    "url": "https://dgboc.dg.gov.cn/gkmlpt/content/4/4369/post_4369150.html",
    "source": "东莞市商务局",
-   "id": "p037"
+   "id": "p037",
+   "verified": true
   },
   {
    "province": "浙江省",
@@ -959,7 +1340,8 @@
    "apply": "通过温州市产业政策奖励兑现系统申报，具体以年度/季度申报通知为准。",
    "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web1825/site/attach/0/2dffe1a7c8114d398656cb36b8148463.pdf",
    "source": "浙江政务网站集约化平台（温州市政府文件附件）",
-   "id": "p038"
+   "id": "p038",
+   "verified": true
   },
   {
    "province": "上海市",
@@ -986,7 +1368,8 @@
    "apply": "",
    "url": "https://www.shanghai.gov.cn/gwk/search/content/fe0c7f8570024fad85ff9d2295bcca80",
    "source": "上海市人民政府网站",
-   "id": "p039"
+   "id": "p039",
+   "verified": true
   },
   {
    "province": "广东省",
@@ -1013,7 +1396,8 @@
    "apply": "申报时间和具体要求以各项目申报指南为准；外贸处88102469、会展业管理处88103187/88107015咨询。",
    "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/tzgg/content/post_12067757.html",
    "source": "深圳市人民政府门户网站",
-   "id": "p040"
+   "id": "p040",
+   "verified": true
   },
   {
    "province": "江苏省",
@@ -1037,7 +1421,8 @@
    "apply": "",
    "url": "https://www.js.gov.cn/art/2025/3/14/art_46144_11516795.html",
    "source": "江苏省人民政府网站",
-   "id": "p041"
+   "id": "p041",
+   "verified": true
   },
   {
    "province": "广东省",
@@ -1060,7 +1445,8 @@
    "apply": "",
    "url": "https://www.gz.gov.cn/xw/tzgg/content/post_10123430.html",
    "source": "广州市人民政府门户网站",
-   "id": "p042"
+   "id": "p042",
+   "verified": true
   },
   {
    "province": "北京市",
@@ -1085,7 +1471,8 @@
    "apply": "2025年1月16日至3月14日在商务部业务系统统一平台“外经贸发展专项资金（中小）”系统（zxkt.mofcom.gov.cn）申报，支持2024年度已完成项目；咨询北京市商务局外贸运行处。",
    "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202501/t20250117_3991531.html",
    "source": "首都之窗（北京市人民政府门户网站）",
-   "id": "p043"
+   "id": "p043",
+   "verified": true
   },
   {
    "province": "浙江省",
@@ -1109,7 +1496,8 @@
    "apply": "2025年1月10日至2月17日通过宁波市商务系统参展扶持资金申报系统（czsb.ningbochina.com）网上申报，并按通知时间报送纸质材料。",
    "url": "https://www.zjceia.com/index/policy/5784.html",
    "source": "浙江省国际会议展览业协会（转载镇海区政府网）",
-   "id": "p044"
+   "id": "p044",
+   "verified": true
   },
   {
    "province": "福建省",
@@ -1136,7 +1524,8 @@
    "apply": "出口信保通过福建国际贸易“单一窗口”投保；其余事项以各地申报通知为准。措施针对2025年一季度。",
    "url": "https://swt.fujian.gov.cn/xxgk/zfxxgkzl/zfxxgkml/zcfggh/qt/202501/P020250103612926812249.pdf",
    "source": "福建省商务厅网站",
-   "id": "p045"
+   "id": "p045",
+   "verified": true
   },
   {
    "province": "福建省",
@@ -1160,7 +1549,8 @@
    "apply": "",
    "url": "https://www.xm.gov.cn/zwgk/flfg/sfbwj/202501/P020250102412884309070.pdf",
    "source": "厦门市人民政府网站",
-   "id": "p046"
+   "id": "p046",
+   "verified": true
   },
   {
    "province": "浙江省",
@@ -1187,7 +1577,8 @@
    "apply": "",
    "url": "https://news.hangzhou.com.cn/zjnews/content/2025-02/15/content_8860897.htm",
    "source": "杭州网（全文转载）",
-   "id": "p047"
+   "id": "p047",
+   "verified": true
   },
   {
    "province": "广东省",
@@ -1211,7 +1602,8 @@
    "apply": "省属企业集团汇总所辖企业、各市企业向所属市商务局申报，汇总单位于2025年2月28日前报省商务厅。",
    "url": "https://com.gd.gov.cn/attachment/0/567/567031/4613380.pdf",
    "source": "广东省商务厅",
-   "id": "p048"
+   "id": "p048",
+   "verified": true
   },
   {
    "province": "全国",
@@ -1239,7 +1631,8 @@
    "apply": "",
    "url": "https://xjdrc.xinjiang.gov.cn/xjfgw/c112377/202502/1bfffdb7e2ad4c4a8658bf0ac7455fcf.shtml",
    "source": "新疆维吾尔自治区发展和改革委员会（转载）",
-   "id": "p049"
+   "id": "p049",
+   "verified": true
   },
   {
    "province": "浙江省",
@@ -1266,7 +1659,8 @@
    "apply": "",
    "url": "https://dzswgf.mofcom.gov.cn/news/22/2024/12/1735020304586.html",
    "source": "商务部电子商务和信息化司（地方政策转载）",
-   "id": "p050"
+   "id": "p050",
+   "verified": true
   },
   {
    "province": "江苏省",
@@ -1289,7 +1683,8 @@
    "apply": "自愿申请，扫码报名，截止2024年11月29日，额度有限先到先得；联系江阴市商务局对外贸易科或中国信保江苏分公司无锡营业部。",
    "url": "https://www.jiangyin.gov.cn/doc/2024/11/12/1268774.shtml",
    "source": "江阴市人民政府门户网",
-   "id": "p051"
+   "id": "p051",
+   "verified": true
   },
   {
    "province": "天津市",
@@ -1316,7 +1711,8 @@
    "apply": "",
    "url": "https://dzswgf.mofcom.gov.cn/news/22/2024/11/1731476725912.html",
    "source": "全国电子商务公共服务网（商务部，转载）",
-   "id": "p052"
+   "id": "p052",
+   "verified": true
   },
   {
    "province": "四川省",
@@ -1343,7 +1739,8 @@
    "apply": "",
    "url": "https://dzswgf.mofcom.gov.cn/news/22/2024/10/1729663753973.html",
    "source": "全国电子商务公共服务网（商务部，转载自四川省商务厅，原文注明有删减）",
-   "id": "p053"
+   "id": "p053",
+   "verified": true
   },
   {
    "province": "浙江省",
@@ -1370,7 +1767,8 @@
    "apply": "",
    "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web149/site/attach/0/d106dc4c8c734c3badf4d6e9761aa812.pdf",
    "source": "浙江政务网站集约化平台（杭州市政府文件附件）",
-   "id": "p054"
+   "id": "p054",
+   "verified": true
   },
   {
    "province": "浙江省",
@@ -1396,7 +1794,8 @@
    "apply": "",
    "url": "https://dzswgf.mofcom.gov.cn/news/22/2025/1/1736821978021.html",
    "source": "商务部电子商务和信息化司（地方政策转载）",
-   "id": "p055"
+   "id": "p055",
+   "verified": true
   },
   {
    "province": "全国",
@@ -1423,7 +1822,8 @@
    "apply": "",
    "url": "https://fgk.chinatax.gov.cn/zcfgk/c100013/c5232364/content.html",
    "source": "国家税务总局税收法规库（转载，原文注明有删减）",
-   "id": "p056"
+   "id": "p056",
+   "verified": true
   },
   {
    "province": "浙江省",
@@ -1450,7 +1850,8 @@
    "apply": "",
    "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3539/site/attach/0/1a26b591543147c9bb58f68363df827f.pdf",
    "source": "浙江政务网站集约化平台（金华市政府文件附件）",
-   "id": "p057"
+   "id": "p057",
+   "verified": true
   },
   {
    "province": "福建省",
@@ -1477,7 +1878,8 @@
    "apply": "",
    "url": "https://www.fuzhou.gov.cn/zcjd/bs/202405/t20240510_4822366.htm",
    "source": "福州市人民政府门户网站（政策解读）",
-   "id": "p058"
+   "id": "p058",
+   "verified": true
   },
   {
    "province": "广东省",
@@ -1504,7 +1906,8 @@
    "apply": "",
    "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/tzgg/content/post_11150327.html",
    "source": "深圳市人民政府门户网站",
-   "id": "p059"
+   "id": "p059",
+   "verified": true
   },
   {
    "province": "山东省",
@@ -1530,7 +1933,8 @@
    "apply": "",
    "url": "https://www.yantai.gov.cn/cms_files/complat3/49/attach/202512/edcc092bd29345549968539a6d014b13.pdf",
    "source": "烟台市人民政府网站",
-   "id": "p060"
+   "id": "p060",
+   "verified": true
   },
   {
    "province": "上海市",
@@ -1557,7 +1961,8 @@
    "apply": "区稳外贸稳外资专项资金按年度申报指南申报。",
    "url": "https://shanghai.gov.cn/cmsres/15/15c3c0cf690b4be99ab37d32ee719b92/f30ce0d30ddf9f042982b03deadf9c03.pdf",
    "source": "上海市人民政府网站（附件）",
-   "id": "p061"
+   "id": "p061",
+   "verified": true
   },
   {
    "province": "河南省",
@@ -1583,7 +1988,125 @@
    "apply": "",
    "url": "https://dzswgf.mofcom.gov.cn/news/22/2023/12/1703655089224.html",
    "source": "全国电子商务公共服务网（商务部，转载）",
-   "id": "p062"
+   "id": "p062",
+   "verified": true
+  },
+  {
+   "province": "云南省",
+   "city": "",
+   "level": "省级",
+   "title": "2026年云南省市场开拓计划清单（“云企出海联盟”）",
+   "issuer": "云南省商务主管部门",
+   "docNo": "",
+   "date": "",
+   "validUntil": "",
+   "types": [
+    "境外参展"
+   ],
+   "highlights": [
+    "展位费按70%补助，单企单展最多4个标准展位，室外光地最高补助100平方米",
+    "光地租金与搭建费、展品运输费按70%补助，运输费单展最高1万元",
+    "支持2名参展人员，交通和住宿按公务标准的70%补助",
+    "单个企业年度补贴总额不超过100万元"
+   ],
+   "eligibility": "展团须由第三方机构提前向省商务厅备案",
+   "apply": "电话：0871-63154115、0871-63169867",
+   "url": "https://mp.weixin.qq.com/s/Gtco5ksWJqhQGYP4SZKjhw",
+   "source": "ICEE 公众号汇总",
+   "verified": false,
+   "id": "p077"
+  },
+  {
+   "province": "广西壮族自治区",
+   "city": "",
+   "level": "省级",
+   "title": "2026年广西“百展千企”拓市场工程推荐境外展",
+   "issuer": "广西壮族自治区商务主管部门",
+   "docNo": "",
+   "date": "",
+   "validUntil": "",
+   "types": [
+    "境外参展"
+   ],
+   "highlights": [
+    "初步选定157个推荐境外展会",
+    "补贴标准以申报通知为准"
+   ],
+   "eligibility": "",
+   "apply": "自治区商务厅外贸处：0771-2211870",
+   "url": "https://mp.weixin.qq.com/s/Gtco5ksWJqhQGYP4SZKjhw",
+   "source": "ICEE 公众号汇总",
+   "verified": false,
+   "id": "p078"
+  },
+  {
+   "province": "浙江省",
+   "city": "",
+   "level": "省级",
+   "title": "浙江省2026年度首批重点商务展会清单",
+   "issuer": "浙江省商务主管部门",
+   "docNo": "",
+   "date": "",
+   "validUntil": "",
+   "types": [
+    "境外参展"
+   ],
+   "highlights": [
+    "前三季度重点支持展会294场",
+    "重点投向自办展会和重点展会，对参展相关费用给予支持；补贴标准以申报通知为准"
+   ],
+   "eligibility": "",
+   "apply": "省商务厅外贸处：0571-87051847、0571-87051891；服贸处：0571-87059293",
+   "url": "https://mp.weixin.qq.com/s/Gtco5ksWJqhQGYP4SZKjhw",
+   "source": "ICEE 公众号汇总",
+   "verified": false,
+   "id": "p079"
+  },
+  {
+   "province": "湖北省",
+   "city": "",
+   "level": "省级",
+   "title": "湖北省“千企百展出海拓市场”2026年境外重点展会目录",
+   "issuer": "湖北省商务主管部门",
+   "docNo": "",
+   "date": "",
+   "validUntil": "",
+   "types": [
+    "境外参展"
+   ],
+   "highlights": [
+    "2026年2月已发布两批境外重点展会目录，合计238场",
+    "对符合条件的参展企业给予展位费补助，最高比例70%"
+   ],
+   "eligibility": "",
+   "apply": "联系人：郭慧 15671629742",
+   "url": "https://mp.weixin.qq.com/s/Gtco5ksWJqhQGYP4SZKjhw",
+   "source": "ICEE 公众号汇总",
+   "verified": false,
+   "id": "p080"
+  },
+  {
+   "province": "江西省",
+   "city": "",
+   "level": "省级",
+   "title": "2026年江西省商务厅境外重点展会项目",
+   "issuer": "江西省商务主管部门",
+   "docNo": "",
+   "date": "",
+   "validUntil": "",
+   "types": [
+    "境外参展"
+   ],
+   "highlights": [
+    "围绕陶瓷、纺织服装、绿色农产品、永磁电机等产业征集境外重点展会",
+    "支持省内注册并具备进出口企业代码的外贸企业参展；具体补贴标准由各设区市自定"
+   ],
+   "eligibility": "",
+   "apply": "",
+   "url": "https://swt.jiangxi.gov.cn/jxsswt/col/col5269/content/content_2019583953748365312.html",
+   "source": "ICEE 公众号汇总（附官网链接）",
+   "verified": false,
+   "id": "p081"
   }
  ]
 }

@@ -393,7 +393,7 @@ footer .disc{margin:10px 0 0}
   <h3><a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.title)}</a></h3>
   ${(p.highlights || []).length ? `<ul class="pol-hl">${p.highlights.map((h) => `<li>${esc(h)}</li>`).join('')}</ul>` : ''}
   <dl class="pol-dl">${p.eligibility ? `<div><dt>谁能申报</dt><dd>${esc(p.eligibility)}</dd></div>` : ''}${p.apply ? `<div><dt>怎么申报</dt><dd>${esc(p.apply)}</dd></div>` : ''}</dl>
-  <div class="pol-foot"><span>${esc(p.issuer)}${p.docNo ? ' · ' + esc(p.docNo) : ''}</span><span>${p.validUntil ? '有效期至 ' + esc(p.validUntil) : ''}</span><a href="${esc(p.url)}" target="_blank" rel="noopener">原文 · ${esc(p.source || '链接')} →</a></div>
+  <div class="pol-foot"><span>${esc(p.issuer)}${p.docNo ? ' · ' + esc(p.docNo) : ''}</span><span>${p.validUntil ? '有效期至 ' + esc(p.validUntil) : ''}</span><a href="${esc(p.url)}" target="_blank" rel="noopener">${p.verified === false ? '来源' : '原文'} · ${esc(p.source || '链接')} →</a></div>
 </article>`;
   }
 
