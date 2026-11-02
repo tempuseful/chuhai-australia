@@ -1,6 +1,54 @@
 {
- "updated": "2026-11-02",
+ "updated": "2026-11-03",
  "items": [
+  {
+   "tag": "国际",
+   "verification": "VERIFIED",
+   "verifiedDate": "03 NOV 2026",
+   "company": "",
+   "publishedDate": "02 NOV 2026",
+   "time": "11/02",
+   "region": "GLOBAL",
+   "country": "全球",
+   "sector": "油气",
+   "eventType": "MACRO",
+   "title": "美伊谈判乐观情绪推动国际油价盘中下跌超6%",
+   "projectName": "OIL PRICE DROP",
+   "summary": "据新华社11月2日报道，受美伊谈判乐观情绪影响，国际油价当天盘中下跌超过6%，报道未给出具体价格和基准油种。此前本栏已记录10月下旬布伦特原油一度升至115美元以上。油价回落有助于缓解能源成本压力，但美伊谈判走向仍不确定，海湾地区工程企业的航运物流和人员出行风险尚未解除，建议持续关注谈判进展。",
+   "value": "跌超6%",
+   "stage": "宏观",
+   "url": "https://www.news.cn/20261102/336bd44451794aaf8a05aff36243f168/c.html",
+   "sources": [
+    {
+     "name": "新华社（11月2日）",
+     "url": "https://www.news.cn/20261102/336bd44451794aaf8a05aff36243f168/c.html"
+    }
+   ]
+  },
+  {
+   "tag": "国际",
+   "verification": "VERIFIED",
+   "verifiedDate": "03 NOV 2026",
+   "company": "",
+   "publishedDate": "02 NOV 2026",
+   "time": "11/02",
+   "region": "GCC",
+   "country": "沙特、阿曼",
+   "sector": "安全",
+   "eventType": "POLICY",
+   "title": "中方中东问题特使翟隽11月将访伊朗、阿曼、沙特",
+   "projectName": "CHINA ENVOY GULF SHUTTLE",
+   "summary": "据新华社11月2日报道，外交部发言人毛宁宣布，中东问题特使翟隽将于11月上中旬访问伊朗、阿曼和沙特，目的是劝和促谈、缓局降温，维护地区和平稳定。同期非洲事务特别代表刘贤法等也将分赴埃塞俄比亚、吉布提、埃及。海湾局势仍是在当地做工程的企业面临的主要外部风险，中方斡旋动向可作为判断局势走向的参考。",
+   "value": "3国",
+   "stage": "地缘斡旋",
+   "url": "https://www.news.cn/world/20261102/71eab97e2bf34fa68b63ed37df47688b/c.html",
+   "sources": [
+    {
+     "name": "新华社（11月2日）",
+     "url": "https://www.news.cn/world/20261102/71eab97e2bf34fa68b63ed37df47688b/c.html"
+    }
+   ]
+  },
   {
    "tag": "国际",
    "verification": "VERIFIED",
