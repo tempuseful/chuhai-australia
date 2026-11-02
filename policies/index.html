@@ -289,6 +289,7 @@ footer .disc{margin:10px 0 0}
 .pol-where{font-weight:700;color:var(--amber);font-size:13px}
 .pol-lv,.pol-type{border:1px solid var(--line);padding:1px 7px;color:var(--muted)}
 .pol-exp{background:var(--down);color:#fff;padding:1px 7px}
+.pol-unv{border:1px dashed var(--amber);color:var(--amber);padding:1px 7px}
 .pol-top time{margin-left:auto;font-family:var(--mono);color:var(--muted)}
 .pol h3{font-family:var(--serif);font-size:17px;line-height:1.45;margin:10px 0 8px}
 .pol h3 a{color:var(--fg);text-decoration:none}.pol h3 a:hover{color:var(--amber)}
@@ -386,7 +387,7 @@ footer .disc{margin:10px 0 0}
 
   function card(p) {
     const where = p.city ? p.city : p.province;
-    const tag = expired(p) ? '<span class="pol-exp">已过有效期</span>' : '';
+    const tag = (expired(p) ? '<span class="pol-exp">已过有效期</span>' : '') + (p.verified === false ? '<span class="pol-unv" title="来自公开汇总文章，尚未找到可核实的官方原文">据汇总 · 待核原文</span>' : '');
     return `<article class="pol">
   <div class="pol-top"><span class="pol-where">${esc(where)}</span><span class="pol-lv">${esc(p.level)}</span>${(p.types || []).map((t) => `<span class="pol-type">${esc(t)}</span>`).join('')}${tag}<time>${esc(p.date)}</time></div>
   <h3><a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.title)}</a></h3>

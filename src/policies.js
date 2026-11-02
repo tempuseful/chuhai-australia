@@ -52,7 +52,7 @@
 
   function card(p) {
     const where = p.city ? p.city : p.province;
-    const tag = expired(p) ? '<span class="pol-exp">已过有效期</span>' : '';
+    const tag = (expired(p) ? '<span class="pol-exp">已过有效期</span>' : '') + (p.verified === false ? '<span class="pol-unv" title="来自公开汇总文章，尚未找到可核实的官方原文">据汇总 · 待核原文</span>' : '');
     return `<article class="pol">
   <div class="pol-top"><span class="pol-where">${esc(where)}</span><span class="pol-lv">${esc(p.level)}</span>${(p.types || []).map((t) => `<span class="pol-type">${esc(t)}</span>`).join('')}${tag}<time>${esc(p.date)}</time></div>
   <h3><a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.title)}</a></h3>

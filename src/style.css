@@ -281,6 +281,7 @@ footer .disc{margin:10px 0 0}
 .pol-where{font-weight:700;color:var(--amber);font-size:13px}
 .pol-lv,.pol-type{border:1px solid var(--line);padding:1px 7px;color:var(--muted)}
 .pol-exp{background:var(--down);color:#fff;padding:1px 7px}
+.pol-unv{border:1px dashed var(--amber);color:var(--amber);padding:1px 7px}
 .pol-top time{margin-left:auto;font-family:var(--mono);color:var(--muted)}
 .pol h3{font-family:var(--serif);font-size:17px;line-height:1.45;margin:10px 0 8px}
 .pol h3 a{color:var(--fg);text-decoration:none}.pol h3 a:hover{color:var(--amber)}
