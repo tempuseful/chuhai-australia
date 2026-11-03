@@ -1,6 +1,16 @@
 {
- "updated": "2026-11-03",
+ "updated": "2026-11-04",
  "items": [
+  {
+   "sector": "finance",
+   "kind": "新闻",
+   "title": "Kazakhstan and China Discuss $200 Million Fund for Middle Corridor",
+   "source": "The Times of Central Asia",
+   "url": "https://timesca.com/kazakhstan-and-china-discuss-200-million-fund-for-middle-corridor/",
+   "date": "2026-11-03",
+   "added": "2026-11-04",
+   "cn": false
+  },
   {
    "sector": "infra",
    "kind": "新闻",
