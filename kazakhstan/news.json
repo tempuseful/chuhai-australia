@@ -2,6 +2,26 @@
  "updated": "2026-11-04",
  "items": [
   {
+   "sector": "tech",
+   "kind": "新闻",
+   "title": "Kazakhstan and China Build Digital Bridge for Data Economy",
+   "source": "The Astana Times",
+   "url": "https://astanatimes.com/2026/11/kazakhstan-and-china-build-a-digital-bridge-for-data-economy/",
+   "date": "2026-11-04",
+   "cn": false,
+   "added": "2026-11-04"
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "China–Central Asia Flights Expand as Aviation Booms",
+   "source": "The Times of Central Asia",
+   "url": "https://timesca.com/china-central-asia-flights-expand/",
+   "date": "2026-11-04",
+   "cn": false,
+   "added": "2026-11-04"
+  },
+  {
    "sector": "finance",
    "kind": "新闻",
    "title": "Kazakhstan and China Discuss $200 Million Fund for Middle Corridor",

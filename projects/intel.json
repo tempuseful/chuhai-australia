@@ -1,6 +1,54 @@
 {
- "updated": "2026-11-03",
+ "updated": "2026-11-04",
  "items": [
+  {
+   "tag": "国际",
+   "verification": "VERIFIED",
+   "verifiedDate": "04 NOV 2026",
+   "company": "",
+   "publishedDate": "04 NOV 2026",
+   "time": "11/04",
+   "eventType": "SECURITY_RISK",
+   "region": "GCC",
+   "country": "GCC六国",
+   "sector": "安全",
+   "title": "伊朗称美方回复“不令人信服”，特朗普确认打击凯什姆岛",
+   "projectName": "HORMUZ TALKS STALLED",
+   "summary": "据半岛电视台11月4日报道，伊朗最高国家安全委员会秘书礼萨伊称，美方对伊朗提出的七项条件的回应“不令人信服”；伊方提出在美方满足条件（含解除制裁、结束海上封锁）后用两天时间重开霍尔木兹海峡。特朗普确认周二凌晨对伊方防空设施实施打击，称其为“小规模袭击”。英国海上贸易行动办公室称一艘油轮轮机舱被两枚弹丸击中，无人员伤亡。卡塔尔表示双方仍在谈判。对海湾工程企业而言，人员出行和海运风险短期仍高。",
+   "value": "七项条件",
+   "stage": "地缘安全",
+   "url": "https://www.aljazeera.com/news/2026/11/4/iran-says-us-reply-to-hormuz-plan-unconvincing-trump-confirms-strikes",
+   "sources": [
+    {
+     "name": "半岛电视台（11月4日）",
+     "url": "https://www.aljazeera.com/news/2026/11/4/iran-says-us-reply-to-hormuz-plan-unconvincing-trump-confirms-strikes"
+    }
+   ]
+  },
+  {
+   "tag": "国际",
+   "verification": "VERIFIED",
+   "verifiedDate": "04 NOV 2026",
+   "company": "",
+   "publishedDate": "04 NOV 2026",
+   "time": "11/04",
+   "eventType": "LOGISTICS_RISK",
+   "region": "GCC",
+   "country": "GCC六国",
+   "sector": "航运",
+   "title": "霍尔木兹周六仅5艘商船通过、周日为零，战前日均超130艘",
+   "projectName": "HORMUZ TRAFFIC COLLAPSE",
+   "summary": "据海湾新闻（Gulf News）11月4日报道，海峡周六仅有5艘大宗商品船通过，周日无船通过，而战前每天通行船只超过130艘。布伦特原油11月2日下跌近7%至约105.5美元，11月4日约103美元，仍远高于战前水平。报道提示战争险保费和运费可能继续上升，企业应复核航运排期、保险和供应链风险敞口。对在海湾做工程的承包商，设备和材料到港周期存在延误风险。",
+   "value": "130艘→5艘",
+   "stage": "航运风险",
+   "url": "https://gulfnews.com/uae/usisrael-iran-war-what-uae-residents-need-to-know-today-nov-4-2026-1.500735252",
+   "sources": [
+    {
+     "name": "海湾新闻（11月4日）",
+     "url": "https://gulfnews.com/uae/usisrael-iran-war-what-uae-residents-need-to-know-today-nov-4-2026-1.500735252"
+    }
+   ]
+  },
   {
    "tag": "国际",
    "verification": "VERIFIED",
