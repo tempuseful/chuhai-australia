@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03",
+ "updated": "2026-11-06",
  "items": [
   {
    "id": "auto-idn-20261009-1",
@@ -1011,6 +1011,35 @@
    "value": "不详",
    "lat": 43.65,
    "lng": 51.15
+  },
+  {
+   "owner": "Minerals Development Oman（MDO）",
+   "need": "尚未评估。",
+   "window": "持续跟踪",
+   "action": "核实项目最新进展，以及分包和采购窗口。",
+   "priority": "S",
+   "score": 92,
+   "stage": "新中标",
+   "informationDate": "2026-11-02",
+   "eventDate": "2026-11-02",
+   "country": "阿曼",
+   "source": "https://www.omanobserver.om/article/1199006/business/economy/oman-seals-4187-million-mining-contract-in-china",
+   "sources": [
+    {
+     "name": "Oman Observer（2026-11-02）",
+     "url": "https://www.omanobserver.om/article/1199006/business/economy/oman-seals-4187-million-mining-contract-in-china"
+    }
+   ],
+   "note": "根据公开报道自动整理，跟进分按阶段统一赋值。事件日期以报道日为准。",
+   "id": "auto-omn-20261102-1",
+   "city": "延古勒（Yanqul）",
+   "name": "马祖恩铜金矿露天采矿服务",
+   "contractor": "Hongda International",
+   "company": "Hongda International",
+   "type": "矿山服务 / 10年期",
+   "value": "1.61亿里亚尔（约4.187亿美元）",
+   "lat": 23.56,
+   "lng": 56.54
   }
  ]
 }
