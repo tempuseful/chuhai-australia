@@ -1,0 +1,551 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>出海加拿大</title>
+<meta name="description" content="面向中国企业的赴加拿大经营简报：市场数据、关税与投资审查痛点、落地八步、外资准入、税制与中加税收协定、用工签证速查，新闻与政策动态。">
+<link rel="stylesheet" href="/fonts/fonts.css">
+<style>
+/* 布局：终端式行情带 + 财经头版。全宽黑底栏目条分节，数据用等宽字，标题用重磅宋体 */
+:root{
+  --bg:#07090d; --panel:#0e1219; --panel2:#141a24; --line:#232b38;
+  --fg:#e9edf3; --muted:#8b96a8; --amber:#ffa028; --amber-ink:#07090d;
+  --up:#2fd08a; --down:#ff5a5f; --blue:#4aa8ff;
+  --serif:"Noto Serif SC","Songti SC","Source Han Serif SC","SimSun",serif;
+  --sans:"PingFang SC","HarmonyOS Sans SC","Microsoft YaHei","Noto Sans CJK SC","Noto Sans SC",system-ui,sans-serif;
+  --mono:"IBM Plex Mono","SFMono-Regular",Menlo,Consolas,monospace;
+  color-scheme:dark;
+}
+@media (prefers-color-scheme: light){ :root:not([data-theme="dark"]){
+  --bg:#f3f4f6; --panel:#ffffff; --panel2:#e9ecf1; --line:#cfd5de;
+  --fg:#0b0f16; --muted:#566173; --amber:#b85c00; --amber-ink:#ffffff;
+  --up:#0a7a4b; --down:#c22b30; --blue:#0b5cad; color-scheme:light } }
+:root[data-theme="light"]{
+  --bg:#f3f4f6; --panel:#ffffff; --panel2:#e9ecf1; --line:#cfd5de;
+  --fg:#0b0f16; --muted:#566173; --amber:#b85c00; --amber-ink:#ffffff;
+  --up:#0a7a4b; --down:#c22b30; --blue:#0b5cad; color-scheme:light }
+
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--bg);color:var(--fg);font-family:var(--sans);font-size:15px;line-height:1.75;margin:0}
+a{color:var(--blue);text-decoration:none} a:hover{text-decoration:underline}
+a:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+.wrap{max-width:1180px;margin:0 auto;padding-inline:20px}
+.num{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.up{color:var(--up)} .down{color:var(--down)} .am{color:var(--amber)}
+
+/* 顶栏 */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;gap:20px;flex-wrap:wrap;padding-block:10px}
+.brand{font-family:var(--serif);font-weight:700;font-size:20px;letter-spacing:.04em;display:flex;align-items:center;gap:10px}
+.brand b{background:var(--amber);color:var(--amber-ink);font-family:var(--mono);font-size:12px;font-weight:600;padding:2px 7px;letter-spacing:.08em}
+.nav{display:flex;gap:16px;flex-wrap:wrap;font-size:13px;margin-left:auto}
+.nav a{color:var(--muted)} .nav a:hover{color:var(--fg);text-decoration:none}
+
+/* 行情带 */
+.tape{background:var(--panel);border-bottom:1px solid var(--line);overflow:hidden;white-space:nowrap}
+.tape-in{display:inline-flex;gap:36px;padding:8px 18px;animation:roll 60s linear infinite}
+.tape:hover .tape-in{animation-play-state:paused}
+.tape span{font-size:12.5px;color:var(--muted)} .tape span i{font-style:normal;font-family:var(--mono);color:var(--fg);margin-left:8px}
+@keyframes roll{to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.tape-in{animation:none}.tape{overflow-x:auto}}
+
+/* 头版 */
+.hero{padding-block:44px 30px;border-bottom:1px solid var(--line)}
+.kicker{font-family:var(--mono);font-size:12px;letter-spacing:.14em;color:var(--amber);text-transform:uppercase}
+h1{font-family:var(--serif);font-weight:700;font-size:clamp(30px,5vw,54px);line-height:1.22;margin:12px 0 16px;text-wrap:balance;letter-spacing:.01em}
+.lead{max-width:42em;color:var(--muted);font-size:16.5px;line-height:1.85;margin:0}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:30px;border-top:2px solid var(--amber)}
+.stat{padding:16px 16px 14px 0;border-right:1px solid var(--line);min-width:0}
+.stat+.stat{padding-left:16px} .stat:last-child{border-right:0}
+.stat .v{font-family:var(--mono);font-size:clamp(24px,3.4vw,36px);font-weight:600;line-height:1.1}
+.stat .l{font-size:12.5px;color:var(--muted);margin-top:6px;line-height:1.5}
+
+/* 分节 */
+section{padding-block:38px;border-bottom:1px solid var(--line)}
+.sh{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin-bottom:20px}
+.sh h2{font-family:var(--serif);font-weight:700;font-size:26px;margin:0;line-height:1.25}
+.sh .tag{font-family:var(--mono);font-size:11.5px;letter-spacing:.12em;color:var(--amber-ink);background:var(--amber);padding:2px 8px}
+.sh p{margin:0;color:var(--muted);font-size:13.5px;flex-basis:100%}
+.cols{display:grid;grid-template-columns:1.1fr .9fr;gap:28px}
+.cols>*{min-width:0}
+h3{font-size:15px;margin:0 0 10px;font-weight:700}
+.note{font-size:12.5px;color:var(--muted);margin-top:10px}
+
+/* 指标表 */
+.tblw{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th{font-family:var(--mono);font-size:11.5px;font-weight:500;letter-spacing:.08em;color:var(--muted);text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);white-space:nowrap}
+td{padding:10px;border-bottom:1px solid var(--line);vertical-align:top}
+td.r,th.r{text-align:right} td.num{white-space:nowrap}
+tbody tr:hover{background:var(--panel)}
+td strong{font-weight:700}
+
+/* 贸易图 */
+.bars{display:grid;gap:12px}
+.yr{display:grid;grid-template-columns:44px 1fr;gap:10px;align-items:center}
+.yr>span{font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+.bar{display:flex;align-items:center;gap:8px;margin:2px 0}
+.bar i{display:block;height:11px;min-width:2px}
+.bar.e i{background:var(--amber)} .bar.m i{background:var(--blue)}
+.bar b{font-family:var(--mono);font-size:12px;font-weight:500}
+.legend{display:flex;gap:18px;font-size:12.5px;color:var(--muted);margin-bottom:12px;flex-wrap:wrap}
+.legend i{display:inline-block;width:10px;height:10px;margin-right:6px}
+
+/* 痛点 */
+.pains{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+.pain{background:var(--bg);padding:20px;min-width:0}
+.pain .k{font-family:var(--mono);font-size:22px;font-weight:600;color:var(--amber);line-height:1.2}
+.pain h3{font-family:var(--serif);font-size:18px;font-weight:700;margin:8px 0 6px}
+.pain p{margin:0;font-size:14.5px;line-height:1.8;color:var(--muted)}
+.pain p.do{color:var(--fg);margin-top:10px;padding-top:10px;border-top:1px dashed var(--line)}
+.pain p.do::before{content:"对策";font-family:var(--mono);font-size:11px;letter-spacing:.1em;color:var(--up);margin-right:8px}
+
+/* 路线 */
+.steps{list-style:none;margin:0;padding:0;counter-reset:s;display:grid;grid-template-columns:repeat(2,1fr);gap:0 32px}
+.steps li{counter-increment:s;display:grid;grid-template-columns:42px 1fr;gap:12px;padding:16px 0;border-top:1px solid var(--line);min-width:0}
+.steps li::before{content:counter(s,decimal-leading-zero);font-family:var(--mono);font-size:20px;font-weight:600;color:var(--amber);line-height:1.3}
+.steps h3{margin-bottom:4px;font-family:var(--serif);font-size:17px} .steps p{margin:0;font-size:14.5px;line-height:1.8;color:var(--muted)}
+
+/* 赛道 */
+.tracks{display:grid;grid-template-columns:repeat(2,1fr);gap:0 32px}
+.track{padding:16px 0;border-top:1px solid var(--line);min-width:0}
+.track h3{font-family:var(--serif);font-size:17px;font-weight:700}
+.track p{margin:0;font-size:14.5px;line-height:1.8;color:var(--muted)}
+.heat{font-family:var(--mono);font-size:11px;letter-spacing:.08em;padding:1px 6px;border:1px solid currentColor;margin-left:8px;vertical-align:2px;white-space:nowrap}
+
+/* 动态 */
+.feedhead{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:34px 0 14px;padding-top:18px;border-top:2px solid var(--amber)}
+.feedhead h3{font-family:var(--serif);font-size:20px;font-weight:700;margin:0}
+.live{font-family:var(--mono);font-size:11px;letter-spacing:.1em;color:var(--up);display:inline-flex;align-items:center;gap:6px}
+.live::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--up);animation:blink 1.6s infinite}
+@keyframes blink{50%{opacity:.25}}
+@media (prefers-reduced-motion:reduce){.live::before{animation:none}}
+.feedhead .upd{font-family:var(--mono);font-size:12px;color:var(--muted);margin-left:auto}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.chips button{font:inherit;font-size:13px;background:transparent;color:var(--muted);border:1px solid var(--line);padding:5px 12px;cursor:pointer}
+.chips button:hover{color:var(--fg);border-color:var(--muted)}
+.chips button[aria-pressed="true"]{background:var(--amber);color:var(--amber-ink);border-color:var(--amber)}
+.chips button:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+.feed{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:0 40px}
+.feed li{min-width:0}
+.feed li{display:grid;grid-template-columns:92px 1fr;gap:14px;padding:13px 0;border-bottom:1px solid var(--line)}
+.feed time{font-family:var(--mono);font-size:12.5px;color:var(--muted);padding-top:2px}
+.feed .t{font-family:var(--serif);font-weight:700;color:var(--fg);font-size:16px;line-height:1.55}
+.feed a.t:hover{color:var(--amber);text-decoration:none}
+.feed .m{font-size:12px;color:var(--muted);margin-top:4px;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.feed .k{font-family:var(--mono);font-size:11px;letter-spacing:.06em;border:1px solid currentColor;padding:0 5px}
+.feed .k.pol{color:var(--amber)} .feed .k.news{color:var(--blue)}
+.more{font:inherit;font-size:13px;margin-top:14px;background:transparent;color:var(--fg);border:1px solid var(--line);padding:8px 18px;cursor:pointer}
+.more:hover{border-color:var(--amber);color:var(--amber)}
+.more:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+.feedmsg{padding:18px 0;color:var(--muted);font-size:13.5px}
+@media (max-width:860px){.feed{grid-template-columns:1fr}}
+@media (max-width:480px){.feed li{grid-template-columns:1fr;gap:2px}}
+
+.links{display:grid;grid-template-columns:repeat(3,1fr);gap:0 28px}
+.links div{padding:12px 0;border-top:1px solid var(--line);font-size:13.5px;min-width:0}
+.links span{display:block;color:var(--muted);font-size:12.5px}
+footer{padding-block:28px 48px;font-size:12.5px;color:var(--muted)}
+footer ol{padding-left:20px;margin:8px 0 16px}
+
+@media (max-width:860px){
+  .cols,.steps,.tracks{grid-template-columns:1fr}
+  .pains{grid-template-columns:1fr}
+  .links{grid-template-columns:1fr 1fr}
+  .stats{grid-template-columns:1fr 1fr}
+  .stat{border-bottom:1px solid var(--line)} .stat:nth-child(2){border-right:0} .stat:nth-child(3){padding-left:0}
+  .nav{margin-left:0;gap:12px}
+}
+@media (max-width:480px){.links{grid-template-columns:1fr}}
+
+/* 多国：返回链接、门户首页 */
+.back{font-size:13px;color:var(--muted);border:1px solid var(--line);padding:3px 10px;white-space:nowrap}
+.back:hover{color:var(--fg);border-color:var(--muted);text-decoration:none}
+.region{padding-block:30px;border-bottom:1px solid var(--line)}
+.region h2{font-family:var(--serif);font-weight:700;font-size:24px;margin:0}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}
+.card{background:var(--bg);border:1px solid var(--line);padding:18px 20px;min-width:0;display:block;color:var(--fg)}
+a.card:hover{background:var(--panel);text-decoration:none}
+.card .cn{font-family:var(--serif);font-weight:700;font-size:21px;display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.card .cn small{font-family:var(--mono);font-size:11.5px;font-weight:500;letter-spacing:.1em;color:var(--amber)}
+.card p{margin:8px 0 12px;font-size:13.5px;color:var(--muted);line-height:1.7}
+.card dl{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:0}
+.card dt{font-size:11.5px;color:var(--muted)} .card dd{margin:2px 0 0;font-family:var(--mono);font-size:15px;font-weight:600}
+.card.soon{color:var(--muted)} .card.soon .cn{font-size:17px;color:var(--muted)}
+.card.soon .cn small{color:var(--muted)}
+.cards.mini{grid-template-columns:repeat(5,1fr);gap:8px;margin-top:10px} .cards.mini .card{padding:12px 14px}
+@media (max-width:860px){.cards{grid-template-columns:1fr}.cards.mini{grid-template-columns:repeat(2,1fr)}}
+
+.cmplink{font-family:var(--mono);font-size:12.5px;color:var(--amber);text-decoration:none;border-bottom:1px solid currentColor;margin-left:auto}
+table.cmp{min-width:980px}
+table.cmp th a{color:inherit;text-decoration:none;border-bottom:1px solid var(--line)}
+table.cmp td{vertical-align:top;font-size:13px}
+table.cmp td:first-child,table.cmp th:first-child{position:sticky;left:0;background:var(--bg);white-space:nowrap;font-weight:600}
+table.cmp tr.grp td{font-family:var(--mono);font-size:11.5px;letter-spacing:.1em;color:var(--amber);padding-top:22px;border-bottom:1px solid var(--amber)}
+table.cmp{table-layout:fixed;width:100%}
+table.cmp td,table.cmp th{white-space:normal;word-break:break-word}
+table.cmp td:first-child,table.cmp th:first-child{width:128px;white-space:normal}
+
+.alert{margin:18px 0 0;padding:10px 14px;border-left:3px solid var(--amber);background:var(--panel);font-size:13.5px;color:var(--muted);max-width:820px}
+.alert b{font-family:var(--mono);font-size:11.5px;letter-spacing:.1em;color:var(--amber);margin-right:10px}
+
+.card .cn{align-items:center}
+.flag{width:28px;height:21px;flex:none;border:1px solid var(--line);object-fit:cover}
+.card.soon .flag{width:22px;height:16.5px;opacity:.75}
+#hr td.num,table.cmp td.num{font-family:inherit;font-variant-numeric:tabular-nums;letter-spacing:0}
+.filters{display:flex;flex-wrap:wrap;gap:12px;align-items:flex-end;margin-bottom:14px}
+.filters label{display:flex;flex-direction:column;gap:4px;font-size:11.5px;color:var(--muted);font-family:var(--mono);letter-spacing:.06em}
+.filters select,.filters button{font:inherit;font-family:var(--sans);font-size:13.5px;letter-spacing:0;color:var(--fg);background:var(--panel);border:1px solid var(--line);padding:7px 10px;min-width:132px;border-radius:0}
+.filters button{min-width:0;cursor:pointer;color:var(--amber)}
+#mapbox{position:relative;border:1px solid var(--line);background:var(--panel)}
+#map{display:block;width:100%;height:auto;cursor:grab;touch-action:none}
+#map .land{fill:var(--panel2);stroke:var(--line);stroke-width:.6}
+#map .land.live{fill:color-mix(in srgb,var(--amber) 16%,var(--panel2))}
+#map circle{cursor:pointer;fill-opacity:.88}
+#map circle.on{stroke:var(--fg)!important;fill-opacity:1}
+.zoomer{position:absolute;top:10px;right:10px;display:flex;flex-direction:column;gap:4px}
+.zoomer button{width:30px;height:30px;font-size:18px;line-height:1;color:var(--fg);background:var(--bg);border:1px solid var(--line);cursor:pointer}
+#tip{position:absolute;pointer-events:none;background:var(--bg);border:1px solid var(--line);padding:8px 10px;font-size:12.5px;line-height:1.55;width:220px;z-index:2}
+#tip b{display:block;font-size:13.5px} #tip span{display:block;color:var(--muted)}
+#legend{position:absolute;left:10px;bottom:10px;display:flex;flex-wrap:wrap;gap:4px 14px;font-size:12px;color:var(--muted);background:var(--bg);border:1px solid var(--line);padding:5px 10px}
+.st{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px;vertical-align:baseline}
+table.proj td{vertical-align:top;font-size:13.5px}
+table.proj td small{display:block;color:var(--muted);font-size:12px}
+table.proj td:nth-child(5){white-space:nowrap}
+table.proj tbody tr{cursor:pointer} table.proj tbody tr:hover{background:var(--panel)}
+table.proj tbody tr.on{background:var(--panel);box-shadow:inset 3px 0 0 var(--amber)}
+.maplink{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:26px;padding:16px 20px;border:1px solid var(--line);background:var(--panel);color:var(--fg)}
+a.maplink+a.maplink{margin-top:12px}
+a.maplink:hover{text-decoration:none;border-color:var(--amber)}
+.maplink b{font-family:var(--serif);font-size:19px} .maplink span{color:var(--muted);font-size:13.5px} .maplink em{font-style:normal;font-family:var(--mono);font-size:12.5px;color:var(--amber)}
+
+#mapbox{background:#04101d}
+#map .shade{fill:#04101d;opacity:.28}
+#map .land{fill:none;stroke:rgba(255,255,255,.28)}
+#map .land.live{fill:rgba(255,170,60,.13);stroke:rgba(255,190,90,.9)}
+#map circle{fill-opacity:1;filter:drop-shadow(0 0 1.5px rgba(0,0,0,.8))}
+
+#mapbox{--amber:#ffa028;--up:#2fd08a;--down:#ff5a5f;--blue:#4aa8ff;--muted:#c9d1dc}
+#legend,#tip{background:rgba(4,16,29,.88);border-color:rgba(255,255,255,.18);color:#e9edf3}
+#legend{color:#c9d1dc} #tip b{color:#fff}
+.zoomer button{background:rgba(4,16,29,.88);border-color:rgba(255,255,255,.25);color:#fff}
+#map{aspect-ratio:1000/520}
+
+#map .labels{pointer-events:none}
+#map .labels text{paint-order:stroke;stroke:rgba(4,16,29,.85);stroke-width:3px;stroke-linejoin:round;font-family:var(--sans)}
+#map .labels g,#map .labels text.ctry{transition:opacity .25s}
+#map .reg text{text-anchor:middle;fill:#ffc46b}
+#map .reg .en{font-family:var(--serif);font-size:13px;letter-spacing:.14em;font-weight:700}
+#map .reg .zh{font-size:12px;fill:#fff;font-weight:600}
+#map .reg .n{font-family:var(--mono);font-size:15px;font-weight:600}
+#map .ctry{text-anchor:middle;fill:#ffe3b0;font-size:13px;font-weight:600;letter-spacing:.08em}
+#map .city text{fill:#fff;font-size:11.5px}
+#map .city rect{fill:#fff;stroke:rgba(4,16,29,.9);stroke-width:1px}
+/* 表格内的数值单元格常夹中文，统一用正文字体，等宽数字保持对齐 */
+td.num,th.num{font-family:inherit;font-variant-numeric:tabular-nums;letter-spacing:0}
+/* 用工表：左列标签不折行，右列长说明正常换行并左对齐 */
+#hr td.num{white-space:normal;text-align:left}
+#hr tbody td:first-child{white-space:nowrap;width:1%;padding-right:18px;vertical-align:top}
+#hr td{vertical-align:top}
+/* 表格数值单元格允许换行；税务和用工表左列标签不折行 */
+td.num{white-space:normal}
+#tax tbody td:first-child,#hr tbody td:first-child{white-space:nowrap;vertical-align:top}
+#tax td{vertical-align:top}
+@media (max-width:700px){#tax tbody td:first-child{white-space:normal;min-width:5.5em}#tax td{overflow-wrap:anywhere}}
+
+/* 森帆跨境 Sailfin 页脚品牌 */
+footer .sailfin{display:inline-flex;align-items:center;gap:8px;text-decoration:none;padding:10px 0 4px;color:inherit}
+footer .sailfin .sf-lab{font-size:12px;color:var(--muted);margin-right:6px;padding-right:12px;border-right:1px solid var(--line)}
+footer .sailfin .sf-ico{width:22px;height:27px;flex:none}
+footer .sailfin .sf-g{fill:#1e4d3b}
+footer .sailfin .sf-o{fill:#d9502e}
+footer .sailfin .sf-txt{display:flex;flex-direction:column;line-height:1.05}
+footer .sailfin .sf-txt b{font-family:var(--sans);font-size:15px;font-weight:800;letter-spacing:.06em;color:#1e4d3b}
+footer .sailfin .sf-txt i{font-style:normal;font-family:var(--sans);font-size:9px;font-weight:600;letter-spacing:.42em;color:#2e8b74;margin-top:3px}
+footer .sailfin:hover .sf-txt b{text-decoration:underline;text-underline-offset:3px}
+footer .disc{margin:10px 0 0}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) footer .sailfin .sf-g{fill:#4f9d7c} :root:not([data-theme="light"]) footer .sailfin .sf-txt b{color:#e6efe9} :root:not([data-theme="light"]) footer .sailfin .sf-txt i{color:#6cc3a6} }
+:root[data-theme="dark"] footer .sailfin .sf-g{fill:#4f9d7c}
+:root[data-theme="dark"] footer .sailfin .sf-txt b{color:#e6efe9}
+:root[data-theme="dark"] footer .sailfin .sf-txt i{color:#6cc3a6}
+
+.tools{margin:4px 0 8px}.tools .maplink:first-child{margin-top:0}
+
+/* 地方外贸扶持政策库 */
+.pol-filter{position:sticky;top:0;z-index:5;background:var(--bg);padding:14px 0 6px;border-bottom:1px solid var(--line)}
+.pf-row{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:10px}
+.pf-row select,.pf-row input[type=search]{font:inherit;font-size:14px;color:var(--fg);background:var(--panel);border:1px solid var(--line);padding:7px 10px;min-width:150px}
+.pf-row input[type=search]{flex:1;min-width:200px}
+.pf-row select:disabled{opacity:.55}
+.pf-chk{font-size:13.5px;color:var(--muted);display:flex;gap:6px;align-items:center}
+.pf-row button{font:inherit;font-size:13px;background:transparent;color:var(--muted);border:1px solid var(--line);padding:7px 12px;cursor:pointer}
+.pf-count{margin-left:auto;font-family:var(--mono);font-size:12.5px;color:var(--amber)}
+#pf-types small{font-family:var(--mono);opacity:.75;margin-left:2px}
+.pol-list{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:18px}
+.pol{background:var(--panel);border:1px solid var(--line);padding:16px 18px;min-width:0;display:flex;flex-direction:column}
+.pol-top{display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:12px}
+.pol-where{font-weight:700;color:var(--amber);font-size:13px}
+.pol-lv,.pol-type{border:1px solid var(--line);padding:1px 7px;color:var(--muted)}
+.pol-exp{background:var(--down);color:#fff;padding:1px 7px}
+.pol-unv{border:1px dashed var(--amber);color:var(--amber);padding:1px 7px}
+.pol-top time{margin-left:auto;font-family:var(--mono);color:var(--muted)}
+.pol h3{font-family:var(--serif);font-size:17px;line-height:1.45;margin:10px 0 8px}
+.pol h3 a{color:var(--fg);text-decoration:none}.pol h3 a:hover{color:var(--amber)}
+.pol-hl{margin:0 0 10px;padding-left:18px;font-size:14px;line-height:1.65}
+.pol-hl li::marker{color:var(--amber)}
+.pol-dl{margin:0 0 10px;font-size:13px;line-height:1.6;color:var(--muted)}
+.pol-dl div{display:grid;grid-template-columns:5em 1fr;gap:8px}.pol-dl dt{color:var(--fg);font-weight:600}.pol-dl dd{margin:0}
+.pol-foot{margin-top:auto;padding-top:10px;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12.5px;color:var(--muted)}
+.pol-foot a{margin-left:auto;color:var(--amber);text-decoration:none}
+.pol-empty{grid-column:1/-1;color:var(--muted);padding:30px 0;text-align:center}
+@media (max-width:860px){.pol-list{grid-template-columns:1fr}.pol-filter{position:static}.pf-count{margin-left:0}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <div class="brand">出海加拿大 <b>CA DESK</b></div>
+  <a class="back" href="/">全部国家</a>
+  <nav class="nav" aria-label="栏目"><a href="#market">市场</a><a href="#pain">痛点</a><a href="#road">落地</a><a href="#access">准入</a><a href="#tax">税务</a><a href="#hr">用工签证</a><a href="#sector">赛道</a><a href="#feed">动态</a><a href="#desk">官方入口</a></nav>
+</div></header>
+<div class="tape" aria-label="关键指标"><div class="tape-in" id="tape"></div></div>
+<main class="wrap">
+
+<div class="hero">
+  <div class="kicker">中国企业赴加拿大经营简报 · 数据截至 2026-11-05</div>
+  <h1>加拿大法规透明、利润汇出不受限，2026 年中加经贸明显回暖；但关键矿产和敏感领域对中国国企基本关门，美加关税战让“借道加拿大进美国”越来越难</h1>
+  <p class="lead">加拿大 2024 年 GDP 24,219 亿加元、增长 1.5%，人均 58,317 加元，人口约 4,150 万，据报道 2025 年实际增长 1.7%。对美国高度依赖：加美贸易占其对外贸易总额的 63.47%，中国是加拿大第二大出口市场和第二大进口来源地。按中国海关统计，2024 年中加货物贸易 930.0 亿美元、增长 4.5%，其中中国对加出口 464.4 亿美元、自加进口 465.6 亿美元；据报道 2025 年降至 896.2 亿美元。截至 2024 年底中国对加直接投资存量 94.06 亿美元，比 2021 年的 137.9 亿美元缩水三成。联邦企业所得税 15%，加省税后合计 23%–31%，没有外汇管制。2026 年 1 月卡尼总理访华后，加方取消对中国电动车 100% 附加税、改为每年 4.9 万辆 6.1% 的配额，中方暂停对加菜籽粕、豌豆、龙虾和螃蟹加征的关税；据报道 11 月 3 日首次部长级经贸联委会把这些安排和加方对部分中国钢铝产品的关税豁免一起延至 2028 年底。但对华钢铝 25% 附加税本身仍在，菜籽油 100%、猪肉 25% 的反制关税仍在；关键矿产领域外国国企的控制性收购“只在最特殊情况下”才批；美国 2026 年 8 月起对一批加拿大商品加征 50% 的 338 条款关税，不看是否符合 CUSMA。</p>
+  <div class="stats">
+    <div class="stat"><div class="v">930<small style="font-size:.5em"> 亿美元</small></div><div class="l">2024 年中加货物贸易额（中方统计）<br><span class="up num">▲ 4.5%</span> 据报道 2025 年 896.2 亿美元、降 3.6%</div></div>
+    <div class="stat"><div class="v am">15%</div><div class="l">联邦企业所得税<br>加省税后合计 23%–31%</div></div>
+    <div class="stat"><div class="v am">4.9<small style="font-size:.5em"> 万辆</small></div><div class="l">中国电动车年度配额<br>2026 年 3 月 1 日起，配额内关税 6.1%</div></div>
+    <div class="stat"><div class="v">94.06<small style="font-size:.5em"> 亿美元</small></div><div class="l">2024 年底中国对加直接投资存量<br>当年流量 -2.68 亿美元，净撤出</div></div>
+  </div>
+</div>
+
+<section id="market">
+  <div class="sh"><span class="tag">MARKET</span><h2>市场速览</h2></div>
+  <div class="cols">
+    <div>
+      <h3>宏观与成本仪表盘</h3>
+      <div class="tblw"><table>
+        <thead><tr><th>指标</th><th class="r">数值</th><th>口径</th></tr></thead>
+        <tbody>
+          <tr><td>GDP</td><td class="r num">24,219 亿加元</td><td>2024 年当年价，实际增长 1.5%，连续第 4 年正增长；第三产业占 74.6%、第二产业 23.6%、第一产业 1.8%。房地产（13.3%）和制造业（9.1%）贡献最大。据报道 2025 年实际增长 1.7%，为 2020 年以来最慢</td></tr>
+          <tr><td>人均 GDP</td><td class="r num">58,317 加元</td><td>2024 年（2020 年 50,100 加元）；2024 财年联邦财政收入 5,059 亿加元、支出 5,455 亿加元</td></tr>
+          <tr><td>人口</td><td class="r num">约 4,142 万</td><td>据报道 2026 年 4 月 1 日为 4,141.7 万，连续第三个季度下降，临时居民一季度减少 11.8 万人；2025 年 1 月 1 日为 4,152.9 万。安大略 1,618.2 万、魁北克 911.2 万、BC 省 572.2 万、阿尔伯塔 496.0 万；华人约 180 万，大多伦多约 70 万、温哥华近 50 万</td></tr>
+          <tr><td>主权评级</td><td class="r num">AAA / AA+</td><td>标普 2025 年 5 月长期评级 AAA，惠誉 AA+、展望稳定；2024 年四季度末联邦债务 12,528 亿加元，占 GDP 的 58.8%；2024 年底外汇储备 1,216 亿美元</td></tr>
+          <tr><td>汇率</td><td class="r num am">1 加元 ≈ 4.77 人民币</td><td>加拿大央行 2026 年 11 月 3 日公布：1 美元 = 1.3994 加元，1 人民币 = 0.2098 加元（央行官方汇率，折合 1 美元 ≈ 6.67 人民币）；2024 年均价 1 美元兑 1.3698 加元。加元可自由兑换，没有外汇管制，外国人合法税后收入可全部汇出</td></tr>
+          <tr><td>通胀</td><td class="r num down">3.1%</td><td>据报道 2026 年 9 月 CPI 同比，四个月来最高，主要受汽油推动，核心通胀约 1.8%–1.9%；2024 年全年 2.4%</td></tr>
+          <tr><td>政策利率</td><td class="r num">2.50%</td><td>据报道加拿大央行 2026 年 10 月 28 日加息 25 个基点，此前维持 2.25%；2022–2023 年曾加到 5%，2024 年 6 月起连续降息</td></tr>
+          <tr><td>失业率</td><td class="r num down">6.5%</td><td>据报道 2026 年 9 月，当月减少 6.8 万个岗位、连续第二个月下降；2024 年为 6.3%</td></tr>
+          <tr><td>工资</td><td class="r num">时薪约 37.6 加元</td><td>据报道 2026 年 9 月平均时薪 37.64 加元、同比增 2.3%；2025 年 2 月平均周薪 1,299.76 加元，采矿业 2,470.8 加元最高，餐饮住宿 506.84 加元最低。联邦最低工资 2026 年 4 月 1 日起 18.15 加元/时</td></tr>
+          <tr><td>工业电价</td><td class="r num">约 11.9 加分/度</td><td>魁北克商业 G 费率：每月前 15,090 度 11.933 加分，其余 9.184 加分，另收系统接入费约 14.86 加元/月；加拿大是七国集团中除美国外电价最低的国家，水电资源丰富</td></tr>
+          <tr><td>油价</td><td class="r num">1.325 加元/升</td><td>2025 年 4 月渥太华普通汽油，柴油 1.396 加元/升（5 月）；面向消费者的联邦碳税 2025 年 4 月 1 日起取消，魁北克保留本省碳市场</td></tr>
+          <tr><td>房价与建造</td><td class="r num">67.99 万加元</td><td>2025 年 4 月全国房屋平均售价，同比降 3.9%；厂房、写字楼、商铺租售价按地段差异很大。2025 年一季度非住宅建筑成本同比涨 3.5%，木材价格涨 7.7%</td></tr>
+          <tr><td>水价</td><td class="r num">1.82 加元/m³</td><td>2025 年 4 月渥太华用水价格，另有废水、雨水等服务费；卡尔加里 2025 年商业水表月账单涨 7.2%–7.4%</td></tr>
+        </tbody>
+      </table></div>
+      <p class="note">2024 年加拿大货物贸易 11,289 亿美元，与上年基本持平；前十大货物贸易伙伴依次为美国、中国、墨西哥、英国、日本、德国、韩国、意大利、越南、瑞士。加拿大与中国没有自由贸易协定，但 2014 年 10 月 1 日起有生效的双边投资保护协定，1986 年起有税收协定，2015 年签有社会保障协定。加拿大六大银行占银行业总资产约 93%；中国银行（加拿大）、中国工商银行（加拿大）为子行，中国建设银行设多伦多分行，农业银行、交通银行设代表处。工商银行（加拿大）2015 年在多伦多设立人民币清算中心，可做加元与人民币直接兑换和贸易结算；中加央行 2021 年续签 2,000 亿元人民币 / 300 亿加元的本币互换协议。携带相当于 1 万加元以上现金出入境须申报。加拿大没有针对外资的普遍优惠，重大项目由联邦和省政府逐案给补贴。</p>
+    </div>
+    <div>
+      <h3>中加货物贸易 2020–2024（亿美元）</h3>
+      <div class="legend"><span><i style="background:var(--amber)"></i>中国对加出口</span><span><i style="background:var(--blue)"></i>中国自加进口</span></div>
+      <div class="bars" id="bars"></div>
+      <p class="note">按中国海关统计，中加货物贸易 2020 年 641.1 亿美元，2022 年升至 952.7 亿美元的高点，2023 年回落到 890.1 亿美元，2024 年回升到 930.0 亿美元：中国对加出口 464.4 亿美元、增长 3.0%，自加进口 465.6 亿美元、增长 6.0%，加方出现中国入世以来首次年度顺差。据报道 2025 年中加贸易 896.2 亿美元、下降 3.6%，中国对加出口 479.2 亿美元、增长 3.2%，自加进口 417 亿美元、下降 10.4%。加方统计，2023 年中加服务贸易 110.9 亿加元，加方一直顺差；据加方公布，2026 年上半年加拿大对华出口 215 亿加元、增长 31.4%，加方目标是到 2030 年对华出口增长 50%。投资方面，中国对加直接投资流量 2021 年为 9.3 亿美元，2024 年变为 -2.68 亿美元，存量从 2021 年的 137.9 亿美元降到 94.06 亿美元；加方统计 2024 年底中国对加直接投资存量 307.9 亿加元，加对华 166.3 亿加元。中企 2024 年在加新签承包工程合同额 4.5 亿美元、完成营业额 1.9 亿美元，集中在石油化工、矿山。来源：中国海关总署、商务部、加拿大统计局。</p>
+    </div>
+  </div>
+</section>
+
+<section id="pain">
+  <div class="sh"><span class="tag">PAIN POINTS</span><h2>中企在加拿大最常踩的六个坑</h2><p>按企业实际遇到的顺序排列。</p></div>
+  <div class="pains">
+    <div class="pain"><div class="k">25%</div><h3>对华附加税改了一半：电动车松绑，钢铝没取消</h3><p>2024 年 10 月起，加拿大对中国电动车加征 100% 附加税、对中国钢铝加征 25% 附加税。2026 年 1 月卡尼访华后，100% 电动车附加税于 3 月 1 日取消，改为每年 4.9 万辆的进口许可配额，配额内按 6.1% 最惠国税率，配额逐年增加，据报道 2027 年起越来越多配额留给 3.5 万加元以下的车型。钢铝方面，25% 对华附加税仍在执行；2025 年 7 月 31 日起，第三国商品只要含中国熔炼浇铸的钢或中国冶炼铸造的铝，也加征 25%；2025 年 12 月 26 日起，与加拿大没有自贸协定的国家钢材配额只剩 2024 年进口量的 20%，超出部分加征 50%。加方给“加拿大不生产或供应不足”的部分中国钢铝产品的豁免，据报道已从 2026 年底延至 2028 年底。</p><p class="do">按 10 位税号逐项查附加税和豁免清单，豁免要用加方指定的授权代码申报、两年内申请退税；电动车出口加拿大先拿到配额许可，没有许可的进口一律禁止；经越南、墨西哥等第三国转口的钢铝制品，提前备好熔铸地证明。</p></div>
+    <div class="pain"><div class="k">50%</div><h3>美加关税战升级，“借道加拿大进美国”风险上升</h3><p>美国对加拿大的钢、铝、铜征 232 关税（最高 50%），汽车和卡车 25%（符合 CUSMA 的整车只对非美国部分征），软木木材 10%。据报道最高法院 2026 年 2 月裁定总统不能依据《国际紧急经济权力法》征关税，原来对非 CUSMA 加拿大商品 35% 的关税失效；但美方 7 月 24 日起对大多数进口商品加征 10% 的 301 关税（符合 CUSMA 的免征），7 月 20 日又宣布对一批加拿大商品加征 50% 的 338 条款关税，8 月 22 日生效，扩大到塑料、家具、电子、纸、工业机械、纺织服装等，不看是否符合 CUSMA，9 月 29 日起部分商品直接禁止进口。加方 9 月 8 日起对约 276 亿加元美国商品加征 15%–50% 的反制关税。CUSMA 7 月 1 日首次联合审议时美方没有同意续期，协定继续有效到 2036 年，但改为每年审议，限制中国零部件和投入品是美方议题之一。</p><p class="do">在加设厂主要供美国市场的，先按原产地规则算清 CUSMA 合规比例，单列中国零部件占比；同时测算 338 条款清单覆盖的风险，不要把对美出口押在单一路径上。合同写明关税变动的价格分担条款。</p></div>
+    <div class="pain"><div class="k">200 天</div><h3>并购和入股先过《加拿大投资法》国家安全审查</h3><p>外国投资者收购加拿大企业控制权要在实施前或完成后 30 天内报备，达到门槛的要通过“净收益审查”；据报道 2026 年门槛为：世贸成员非国企 14.52 亿加元、自贸伙伴非国企 21.79 亿加元、国企 5.78 亿加元（资产账面值）。国家安全审查不设金额门槛，少数股权、新设企业都可能被审，全流程最长约 200 天。2024 年 3 月修法后，部长可直接延长审查、设临时条件，违规处罚加重，特定敏感行业将实行交割前强制申报，据报道相关条例预计 2026 年底前生效。据报道 2024–25 年度被延长的 30 项国家安全审查中有 11 项涉及中国投资者，平均历时 155 天。</p><p class="do">投资前判断是否涉及敏感技术清单、关键矿产、敏感个人数据或国防供应链；股东里有国资背景的按“国企”口径评估。高风险交易主动沟通、预留审查期，签约文件写明审查不通过的解除条款。</p></div>
+    <div class="pain"><div class="k">关键矿产</div><h3>矿业和数字媒体：对中国国企基本关门，已有撤资先例</h3><p>2022 年 10 月起，外国国企在加关键矿产领域的投资都要接受国家安全审查，控制性收购原则上不批；据报道 2024 年部长声明进一步明确，涉及重要关键矿产企业的收购“只在最特殊情况下”才批。2022 年 11 月 2 日，加政府以国家安全为由要求中矿香港、盛泽锂业和藏格矿业剥离在加锂矿投资；2020 年山东黄金收购 TMAC 被否；2024 年紫金矿业入股 Solaris 15% 因迟迟过不了审查而取消。关键矿产清单 2024 年 6 月增至 34 种。交互式数字媒体领域 2024 年起所有外国投资都要过国家安全审查，2024 年 11 月加政府下令 TikTok 关闭在加公司业务；据报道 2025 年 6 月又以国家安全为由下令海康威视加拿大公司停止在加业务。</p><p class="do">矿业更现实的路径是包销协议、技术和设备合作、民营企业 9.9% 以下的财务入股，或投资加拿大上市矿企在第三国的项目；涉及数据、监控、通信的产品先做数据本地化和合规评估。</p></div>
+    <div class="pain"><div class="k">10%</div><h3>工签收紧：外劳名额被砍，中层以下很难派过去</h3><p>雇主要招外籍员工，多数岗位先取得劳动力市场影响评估（LMIA），证明招不到本地人，申请费 1,000 加元。低薪岗位外劳不得超过员工总数的 10%（建筑、医疗、食品加工 20%），失业率 6% 以上的大都市区一律不受理低薪 LMIA，低薪工签最长 1 年，LMIA 有效期从 12 个月减半到 6 个月；高薪岗位工资门槛比当地中位数高 20%。2026–2028 年移民水平计划把 2026 年临时外劳目标定为 23 万人，其中临时外籍劳工计划只有 6 万；政府承诺 2027 年底前把临时居民降到总人口的 5% 以下。据统计 2025 年新到临时外劳比上年减少 47%。</p><p class="do">派驻人员优先走“公司内调动”（免 LMIA），但母公司须在至少两个国家有实际经营、加拿大公司须有实体办公场所；核心岗位“少派多招”，提前半年做人员计划。</p></div>
+    <div class="pain"><div class="k">30%</div><h3>工会、原住民和法语：看不见的合规成本</h3><p>加拿大劳动者入会比例约 30%（私营部门不足 14%），员工到一定规模工会就会进入企业。2024 年 11 月温哥华、鲁珀特王子港和蒙特利尔港罢工 10 天，每天受阻货物超过 12 亿加元；同月加拿大邮政罢工 32 天。能源、采矿、森林、管道、铁路项目往往涉及受宪法保护的原住民权利，处理不当会让项目停摆。魁北克要求企业名称有法语版本、经营文件译成法语，不能把英语水平作为雇用条件。2024 年起实施的《打击供应链中的强迫劳动和童工法》要求部分实体报告供应链情况，负责任企业监察员已对多家品牌的涉疆投诉启动调查。</p><p class="do">项目立项时就把原住民协商、环评和工会谈判排进时间表；港口物流留备用路线和库存；在魁北克经营按法语要求准备全套文件；对加出口企业备好供应链追溯资料。</p></div>
+  </div>
+</section>
+
+<section id="road">
+  <div class="sh"><span class="tag">ROADMAP</span><h2>从国内备案到在加开张：八步</h2></div>
+  <ol class="steps">
+    <li><div><h3>国内境外投资备案</h3><p>发改委、商务部备案或核准，再到银行办境外直接投资外汇登记。加拿大新设外资企业不需要政府批准，也不要求与加方合资，但要履行《加拿大投资法》的报备义务，敏感行业的安全审查风险要在国内立项时一起评估。</p></div></li>
+    <li><div><h3>判断要不要审查</h3><p>新设企业或收购控制权，在实施前或完成后 30 天内向创新、科学与经济发展部报备（文化产业报遗产部）；达到净收益审查门槛的提交审查申请，政府在收到完整材料后 45 天内决定，可再延长 30 天。涉及关键矿产、人工智能、航天、交互式数字媒体等敏感领域的，按国家安全审查预留时间。</p></div></li>
+    <li><div><h3>选省、选公司形式</h3><p>最常见的是股份有限公司，可按联邦《加拿大商业公司法》或各省公司法注册；分公司须向营业所在省登记，盈亏视为外国母公司的盈亏。联邦公司至少 25% 的董事须为加拿大居民；据报道安大略省 2021 年 7 月起、BC 省和魁北克省等已不要求居民董事。在魁北克经营须遵守《法语宪章》。</p></div></li>
+    <li><div><h3>登记税号和工资账户</h3><p>向加拿大税务局（CRA）申请商业号码，开设公司所得税、工资扣缴和 GST/HST 账户；全球年应税收入 3 万加元以下的小型企业可不登记 GST/HST，在魁北克还要另登记 QST。雇员工资须代扣个人所得税、养老金（CPP，魁北克为 QPP）和就业保险（EI）。</p></div></li>
+    <li><div><h3>开户、安排资金</h3><p>开户需提供公司注册证书和章程，银行做反洗钱审查；中国银行（加拿大）、工商银行（加拿大）可开加元、人民币、美元多币种账户。资本金无最低要求，利润汇出不受限制；向中国母公司付股息、利息、特许权使用费，按中加协定扣 10% 或 15% 预提税，而不是国内法的 25%。</p></div></li>
+    <li><div><h3>理顺进口和通关</h3><p>由加拿大边境服务署（CBSA）监管进口，逐项确认税号、原产地和对华附加税；电动车先取得进口许可。需要保税和延迟缴税的，可申请关税延期支付项目（含关税减免、退税、保税仓库，货物最长可停留 4 年），出口型企业可申请出口分销中心或出口商加工服务项目，免缴进口环节 GST/HST。全国设有 16 个对外贸易区单一服务窗口。</p></div></li>
+    <li><div><h3>招人和办工签</h3><p>本地招聘为主，遵守所在省的就业标准法和人权法；需要外籍员工的，先办 LMIA，或走公司内调动、全球技能战略等免 LMIA 通道（全球技能战略承诺两周内办完手续）。注意低薪岗位 10% 上限和高失业地区不受理的规定。</p></div></li>
+    <li><div><h3>按期报税、建联系</h3><p>纳税年度结束后 6 个月内交 T2 公司所得税申报表，税款最迟在年度结束后第 2 个月末缴清，平时按月预缴；与非居民关联方交易超过 100 万加元的，6 个月内同时报 T106 表。加入加拿大中国商会（多伦多总部，会员企业 140 多家），并与所在领区的中国驻加使领馆经商处保持联系。</p></div></li>
+  </ol>
+</section>
+
+<section id="access">
+  <div class="sh"><span class="tag">ENTRY</span><h2>外资准入与落脚点</h2><p>一般情况下外国投资不受限制，只需报备或申请审查；限制集中在文化、电信、金融、航空、渔业、铀矿等少数行业，以及国家安全审查、关键矿产国企政策、各省农地法和联邦外国人购房禁令。</p></div>
+  <div class="tblw"><table>
+    <thead><tr><th>落脚点</th><th class="r">外资持股</th><th>能做什么</th><th>税负</th><th>适合</th></tr></thead>
+    <tbody>
+      <tr><td><strong>子公司</strong><br>股份有限公司</td><td class="r num">最高 100%</td><td>独立法人，可按联邦或省公司法注册；私立公司股东不超过 50 人、股票不得公开发售；联邦公司至少 25% 董事为加拿大居民</td><td>联邦 15% + 省税，合计 23%–31%；分红给中国母公司按协定预提 10% 或 15%</td><td>贸易、制造、服务</td></tr>
+      <tr><td><strong>分公司</strong></td><td class="r num">100%</td><td>向营业所在省登记并缴费即可经营；不是独立法人，盈亏视为外国公司的盈亏</td><td>按一般税率交所得税，汇出利润另交 25% 分支机构税（协定可减免）</td><td>工程项目、市场联络</td></tr>
+      <tr><td><strong>对外贸易区项目</strong></td><td class="r num up">可 100%</td><td>不划物理围网，经批准仓库、办公室都可成为保税场所；可展示、分拣、贴标、组装、重新包装、检测，最长 4 年；出口分销中心要求出口额占收入 90% 以上、增值有限</td><td>入区免缴关税和 GST/HST，内销时再缴</td><td>进口加工、分拨仓</td></tr>
+      <tr><td><strong>关键矿产、油砂</strong></td><td class="r num down">国企控制性收购原则上不批</td><td>外国国企及受外国政府影响的私企投资关键矿产一律接受国家安全审查，不论是否控股；2022 年已有三家中企被责令撤资</td><td>—</td><td>包销、技术合作、小比例财务投资</td></tr>
+      <tr><td><strong>交互式数字媒体、敏感技术</strong></td><td class="r num down">安全审查</td><td>2024 年起该领域所有外国投资都要过国家安全审查；敏感技术清单涵盖人工智能、量子、生物技术、能源储存与传输、太空等</td><td>—</td><td>需预留审查和承诺时间</td></tr>
+      <tr><td><strong>电信、大众传播</strong></td><td class="r num down">≤46.7%</td><td>设施型电信运营商和大众传播企业外资合计不超过 46.7%（直接 20% + 间接 26.7%），董事会至少 80% 为加拿大人；租用设施做增值电信不受限</td><td>—</td><td>增值电信、设备供应</td></tr>
+      <tr><td><strong>文化产业</strong></td><td class="r num down">低门槛审查</td><td>出版、影视、音乐等由遗产部审查，直接收购 500 万加元、间接收购 5,000 万加元即触发审查；电影发行、图书出版发行有禁止或限制政策</td><td>—</td><td>—</td></tr>
+      <tr><td><strong>农地</strong></td><td class="r num down">省法限制</td><td>《加拿大投资法》不管农地，由各省立法：萨省外国人不超过 10 英亩（特批最多 320 英亩），阿尔伯塔不超过 20 英亩，曼省 40 英亩，魁北克非本省居民超过 4 公顷须特批，爱德华王子岛 5 英亩</td><td>财产税按地方税率</td><td>先查省法，以租代买</td></tr>
+      <tr><td><strong>住宅房产</strong></td><td class="r num down">禁止外国人购买</td><td>联邦禁令延长至 2027 年 1 月 1 日，持工作许可者、难民等有例外；据报道 2026 年 7 月联邦政府表示无意简单再延，正研究新框架。安大略省外国买家税 25%，BC 省多个地区 20%</td><td>据报道 2025 年联邦预算提出自 2025 年起取消空置税</td><td>员工住房以租为主</td></tr>
+    </tbody>
+  </table></div>
+  <p class="note">外资主管部门是全球事务部（投资促进）、创新、科学与经济发展部（非文化项目审查）和遗产部（文化项目审查），加拿大投资署负责招商。2021 年修订的国家安全审查准则新增“关键矿产供应链”和“敏感个人数据”两项考量，同时把国防工业基础、外国腐败官员纳入评估，据报道 2025 年又加入经济安全因素；来自俄罗斯、中国等非盟友国家的国企投资受到更严格审查。审查结论可以是附条件批准、禁止或责令撤资。超过 9,300 万加元的并购还要按《竞争法》向竞争局事先申报。加拿大 89% 的国土是公有土地，私人土地开发按地方分区规划管理；政府可依《征收法》为公共工程征地并补偿。加拿大 PPP 市场成熟，但截至目前没有中资企业在加实施 PPP 项目。</p>
+</section>
+
+<section id="tax">
+  <div class="sh"><span class="tag">TAX</span><h2>税务速查</h2><p>联邦、省、地方三级课税，联邦和省各有立法权；除魁北克外，大部分省委托加拿大税务局统一征收所得税。下表按 2026 年规则填写；协定待遇只适用于所得税。</p></div>
+  <div class="cols">
+    <div>
+      <div class="tblw"><table>
+        <thead><tr><th>税种</th><th class="r">税率</th><th>要点</th></tr></thead>
+        <tbody>
+          <tr><td>联邦企业所得税</td><td class="r num">15%</td><td>基本税率 38%，减 10% 省级抵免和 13% 一般减免后为 15%；居民企业（在加注册或主要管理控制在加）就全球所得纳税</td></tr>
+          <tr><td>省企业所得税</td><td class="r num am">联邦 + 省 23%–31%</td><td>2026 年合计税率：阿尔伯塔 23%，安大略、魁北克 26.5%，BC 省 27%，新斯科舍 29%，爱德华王子岛 31%；安大略、萨省制造和加工所得合计 25%</td></tr>
+          <tr><td>小企业税率</td><td class="r num">9%</td><td>联邦对加拿大控股私营公司（CCPC）首 50 万加元经营所得适用；被非居民或上市公司控制的公司不是 CCPC，中资控股子公司一般不适用</td></tr>
+          <tr><td>资本利得</td><td class="r num">1/2 计税</td><td>资本利得的一半并入应税所得按一般税率纳税；2024 年提出的提高到三分之二的方案已于 2025 年 3 月取消</td></tr>
+          <tr><td>GST / HST</td><td class="r num am">5%–15%</td><td>联邦 GST 5%；统一销售税 HST 安大略 13%，新斯科舍 14%（2025 年 4 月 1 日起），新不伦瑞克、纽芬兰、爱德华王子岛 15%；魁北克另征 QST 9.975%，萨省、曼省等另征省销售税（PST，不能抵扣进项）。基本食品零税率；2021 年 7 月起数字平台须征 GST/HST</td></tr>
+          <tr><td>资本弱化</td><td class="r num">1.5 : 1</td><td>向非居民关联方借款，债资比超过 1.5:1 的利息不得扣除；另有按 EBITDA 比例限制净利息扣除的规则</td></tr>
+          <tr><td>社保（CPP / EI）</td><td class="r num">5.95% + 1.63%</td><td>2026 年养老金雇主、雇员各缴 5.95%，基本扣除 3,500 加元，最高缴费基数 74,600 加元，74,600–85,000 加元部分另缴 4%；就业保险员工费率 1.63%，最高投保收入 68,900 加元，雇主另行缴费</td></tr>
+          <tr><td>个人所得税</td><td class="r num">联邦 15%–33%</td><td>五级累进，另交省税；卡尼政府 2025 年 7 月 1 日起把最低一档下调 1 个百分点。非居民仅就加拿大来源所得纳税</td></tr>
+          <tr><td>碳定价</td><td class="r num">工业仍有</td><td>面向消费者的联邦燃油碳税 2025 年 4 月 1 日起全国取消；面向大排放企业的产出定价体系和各省工业碳价仍在，魁北克保留总量管制和交易制度</td></tr>
+          <tr><td>消费税</td><td class="r num">按品目</td><td>对汽油、柴油、卷烟、酒、珠宝、空调、重型车等征特别消费税</td></tr>
+          <tr><td>关税</td><td class="r num">税则 + 附加税</td><td>按《关税税则》征收；对华另有钢铝 25%、含中国熔铸钢铝 25% 附加税，非自贸国家钢材配额外 50%；反倾销、反补贴按《特别进口措施法》</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+    <div>
+      <h3>向中国母公司付款的预提税</h3>
+      <div class="tblw"><table>
+        <thead><tr><th>款项</th><th class="r">加拿大国内法</th><th class="r">中加协定上限</th></tr></thead>
+        <tbody>
+          <tr><td>股息</td><td class="r num">25%</td><td class="r num up">10%（持股 10% 以上的公司）；其他 15%</td></tr>
+          <tr><td>利息</td><td class="r num">25%；支付给非关联方的一般利息多数免征</td><td class="r num up">10%</td></tr>
+          <tr><td>特许权使用费</td><td class="r num">25%</td><td class="r num up">10%</td></tr>
+          <tr><td>技术服务费、管理费</td><td class="r num">可能按 25% 扣缴</td><td class="r num up">未构成常设机构的营业利润仅在中国征税</td></tr>
+          <tr><td>分公司利润汇出</td><td class="r num">25% 分支机构税</td><td class="r num">可按协定降低，适用前与税务机关确认</td></tr>
+          <tr><td>转让加拿大应税财产</td><td class="r num">卖方无清税证明，买方可扣留最高 50% 价款</td><td class="r num">公司财产主要是不动产的，加方可征</td></tr>
+        </tbody>
+      </table></div>
+      <h3 style="margin-top:20px">四条要提前安排的规则</h3>
+      <p style="margin:0;font-size:13.5px;color:var(--muted)"><strong style="color:var(--fg)">工程常设机构看 6 个月。</strong>中加协定规定，建筑工地、建筑装配或安装工程及相关监督管理活动连续 6 个月以上才构成常设机构；为同一或相关项目提供劳务（含咨询），在任何 12 个月中连续或累计 6 个月以上也构成。有权并经常代表企业签合同的代理人同样构成常设机构。注意加拿大国内法的门槛更低：在加拿大生产、制造、建设，或通过代理、雇员在加接单销售，都算在加“从事商业活动”，需要申报。<br><strong style="color:var(--fg)">协定待遇要主动证明。</strong>中加税收协定 1986 年 5 月 12 日签署、1986 年 12 月 29 日生效；协定中的税收饶让条款已经失效，双方正在谈判更新协定。股息、利息、特许权使用费的优惠税率只给受益所有人，付款前要向扣缴方提供身份和受益所有人证明。<br><strong style="color:var(--fg)">关联交易：同期资料和 T106 表。</strong>与关联方非居民的交易须符合独立交易原则，没有准备同期资料、调整金额又较大的会被罚款；年度与非居民关联交易总额超过 100 万加元的，须在年度结束后 6 个月内报 T106 表。可申请预约定价安排和事先裁定。集团内各公司不能合并纳税。<br><strong style="color:var(--fg)">6 个月申报、按月预缴。</strong>T2 申报表在纳税年度结束后 6 个月内提交，无收入也要报；税款最迟在年度结束后第 2 个月末缴清，年应纳税额 3,000 加元以上的按月预缴。纳税资料原则上保存在加拿大境内至少 6 年。</p>
+    </div>
+  </div>
+</section>
+
+<section id="hr">
+  <div class="sh"><span class="tag">PEOPLE</span><h2>用工与签证</h2></div>
+  <div class="cols">
+    <div>
+      <h3>劳动法底线</h3>
+      <div class="tblw"><table>
+        <tbody>
+          <tr><td>管辖</td><td class="num r">劳动和就业原则上归各省管，银行、航空运输、石油管道、电信、跨省公路运输等归联邦管；绝大多数雇主遵守所在省的就业标准法、人权法、职业健康安全法和劳资关系法，魁北克适用民法</td></tr>
+          <tr><td>工时与加班</td><td class="num r">联邦管辖行业每天超过 8 小时或每周超过 40 小时付 1.5 倍工资；安大略每周超过 44 小时；BC 省每天超过 8 小时或每周 40 小时，每天超过 12 小时付双倍；阿尔伯塔每天 8 小时或每周 44 小时；魁北克每周 40 小时</td></tr>
+          <tr><td>最低工资</td><td class="num r">联邦 18.15 加元/时（2026 年 4 月 1 日起，按上年 CPI 调整）；BC 省 18.25 加元（6 月 1 日起），安大略 17.95 加元（10 月 1 日起），魁北克 16.60 加元（5 月 1 日起），阿尔伯塔 15.00 加元（2018 年以来未调）</td></tr>
+          <tr><td>记录与发薪</td><td class="num r">雇主须登记工时、工资和每次代扣的所得税、养老金、就业保险，每次发薪交员工一份；员工离职后记录仍要保存数年备查</td></tr>
+          <tr><td>假期</td><td class="num r">每年约 9 天公众假期，假日照付工资；工作满 1 年每年 2 周带薪年假，满 5 年 3 周；雇主不得因员工怀孕或休产假而解雇</td></tr>
+          <tr><td>解雇</td><td class="num r">无故解雇要给通知期或代通知金，安大略法定标准为工龄 3 个月至 1 年 1 周，此后每年 1 周，最多 8 周；法定标准之外，法院还可能按“合理通知期”判赔，据报道最长可到 24 个月，劳动合同里的解雇条款要专业起草</td></tr>
+          <tr><td>社保缴费</td><td class="num r">养老金雇主、雇员各 5.95%，就业保险员工 1.63%、雇主另行缴费；雇主按省规定另缴工伤保险</td></tr>
+          <tr><td>工会</td><td class="num r">入会率约 30%，私营部门不足 14%；集体协议有封闭式、工会合作式和“兰德公式”（非会员也交会费）三种；多数工人有罢工权，消防、警察和部分医务人员等除外</td></tr>
+          <tr><td>人权与语言</td><td class="num r">各省人权法禁止就业歧视；魁北克雇主不得仅因员工只讲法语或英语差而解雇、降职，不能把英语作为雇用条件，除非岗位确有需要</td></tr>
+        </tbody>
+      </table></div>
+      <p class="note">据报道 2026 年 9 月加拿大失业率 6.5%，当月减少 6.8 万个岗位；2025 年 2 月全国就业 2,099.5 万人，岗位空缺 52.8 万个、空缺率 2.9%，纽芬兰失业率最高（10.5%），魁北克最低（5.3%）。加拿大技术工人短缺、人工成本高，20–24 岁人群约三分之二受过高等教育。全国性节日包括新年、复活节、维多利亚日、国庆节（7 月 1 日）、劳动节、真相与和解日、感恩节、停战纪念日、圣诞节和节礼日，各省另有假日，实行每周 5 天工作制。中国驻加拿大使馆和多伦多、温哥华、卡尔加里、蒙特利尔总领馆设经商机构。</p>
+    </div>
+    <div>
+      <h3>外籍员工怎么进来</h3>
+      <div class="tblw"><table>
+        <thead><tr><th>事项</th><th>要点</th></tr></thead>
+        <tbody>
+          <tr><td>LMIA</td><td>临时外籍劳工计划（TFWP）下雇主须先取得劳动力市场影响评估，证明加拿大公民或永久居民不愿或无法胜任；要在工职库登记并至少再用两种方式招聘，说明为何没有聘用应聘的本地人；申请费 1,000 加元，滥用外劳最高罚 10 万加元</td></tr>
+          <tr><td>低薪岗位</td><td>外劳不得超过员工总数的 10%（建筑、医疗、食品加工 20%；部分农村地区 2026 年 4 月至 2027 年 3 月可放宽到 15%）；失业率 6% 以上的大都市区不受理；工签最长 1 年，LMIA 有效期 6 个月</td></tr>
+          <tr><td>高薪岗位</td><td>工资须比所在省同类工作中位数高 20%；派驻的技术和管理人员一般走高薪类</td></tr>
+          <tr><td>公司内调动</td><td>属国际流动计划，免 LMIA；适用于高管、经理和专门知识人员，须在过去 3 年内在母公司连续工作满 1 年；2024 年 10 月起要求母公司在至少两个国家有实际经营，加拿大公司须有实体经营场所，不能用来开设首个海外机构</td></tr>
+          <tr><td>全球技能战略</td><td>符合条件的高技能人才可享受短期工作许可豁免，政府承诺两周内办完手续</td></tr>
+          <tr><td>名额总量</td><td>2026 年临时外劳目标 23 万人：国际流动计划 17 万、TFWP 6 万，2027、2028 年各 22 万；截至 2025 年底持工作许可的外国人 146 万</td></tr>
+          <tr><td>家属</td><td>2025 年 1 月起，只有管理、专业岗位或科学、建筑、医疗、自然资源、教育等紧缺领域、且工签剩余 16 个月以上的外劳，配偶才能申请开放式工作许可</td></tr>
+          <tr><td>税负</td><td>中加协定下，在加停留连续或累计不超过 183 天、工资由非加拿大雇主支付且不由在加机构负担的，加方不征个税；否则按联邦 + 省累进税率纳税</td></tr>
+        </tbody>
+      </table></div>
+      <p class="note">加拿大中国商会 2012 年 4 月成立，总部在多伦多，在安大略、BC、阿尔伯塔、魁北克设分部，会员企业 140 多家，占中资企业对加投资额的 90% 以上。中石油、中石化、中海油的加拿大公司集中在卡尔加里，龙源、兖煤、中远海运等也在加经营。2024 年底至 2025 年初多伦多多家金融网点遭抢劫，波及中资机构；中资企业要重视安保和舆情，主动讲清对当地就业和社区的贡献。遇重大问题第一时间联系所在领区的使领馆。</p>
+    </div>
+  </div>
+</section>
+
+<section id="sector">
+  <div class="sh"><span class="tag">SECTORS</span><h2>机会在哪里</h2><p>中加经贸合作路线图和经贸联委会确定的方向，叠加加拿大的产业禀赋和中企已有的落地经验。</p></div>
+  <div class="tracks">
+    <div class="track"><h3>电动车与汽车销售 <span class="heat up">配额打开</span></h3><p>2026 年 3 月 1 日起每年 4.9 万辆中国电动车可按 6.1% 关税进口，约占加拿大新车年销量的 3% 以内，配额逐年增长。据报道 5 月起上海产特斯拉和路特斯已陆续到港，比亚迪计划 2026 年通过合作伙伴在加开设约 20 家门店，加拿大工业部长曾在北京会见比亚迪、奇瑞和麦格纳高管争取本地投资。要注意：配额要许可证，最高 5,000 加元的联邦零排放车补贴据报道不适用于中国产电动车，长期立足需要自建销售和售后网络。</p></div>
+    <div class="track"><h3>农水产品进口 <span class="heat up">关税回落</span></h3><p>中方 2026 年 3 月 1 日起暂停对加菜籽粕、豌豆加征的 100% 关税和对龙虾、螃蟹加征的 25% 关税，据报道已延至 2028 年底；油菜籽反倾销税终裁为 5.9%，加最惠国税率合计约 14.9%，加方称 1 月起牛肉也恢复对华出口。但菜籽油 100%、猪肉 25% 的加征关税仍在。做粮油、饲料、海鲜进口和加工的企业，要按税号盯住每次调整，合同留关税变动条款。</p></div>
+    <div class="track"><h3>能源与油气 <span class="heat am">传统强项</span></h3><p>加拿大是七国集团中石油能自给的两个国家之一，资源相关行业贡献 GDP 的 13%–15%。中石油、中石化、中海油在卡尔加里设有加拿大公司，经贸联委会把油气能源列为要巩固的传统合作。但外国国企对油砂企业的控制性收购很少被认定为有净收益，更适合以贸易采购、长期购销合同、服务和设备供应参与。</p></div>
+    <div class="track"><h3>先进制造、清洁能源与新材料 <span class="heat am">新领域</span></h3><p>据报道 11 月 3 日首次部长级经贸联委会提出拓展新材料、先进制造、清洁能源和智慧农业合作，并签署建立中加工商界首席执行官圆桌会的备忘录；加方表示欢迎中企参与现代农业、制造业、金融服务和能源合作。加拿大制造业占 GDP 的 9.1%，水电和核电技术领先，联邦和省对重大项目逐案补贴。选址和股权要先过敏感技术清单，避免触碰关键矿产和电池上游。</p></div>
+    <div class="track"><h3>关键矿产与矿业 <span class="heat down">门槛高</span></h3><p>加拿大矿产丰富，但中国国企控制性收购基本走不通，2022 年已有三家中企被责令剥离锂矿投资。仍有空间的是民营企业小比例入股和加拿大上市公司的境外项目：据报道 2024 年 7 月紫金矿业拟以 5,730 万加元收购蒙太奇黄金 9.9% 股份，银泰黄金以 3.68 亿加元收购在纳米比亚有金矿的奥西诺资源。包销协议、选冶技术和设备供应风险更低。</p></div>
+    <div class="track"><h3>工程承包与基础设施 <span class="heat down">门槛高</span></h3><p>加拿大是全球最成熟的 PPP 市场之一，道路、桥梁、能源、公共设施广泛采用 DBFM、DBFMO、特许经营等模式，特许期 16 年到 99 年不等。但截至目前没有中资企业在加实施 PPP 项目，2024 年中企新签承包工程合同额只有 4.5 亿美元，集中在石油化工和矿山。更适合以分包、设备和材料供应，或与本地承包商组成联合体切入，项目要提前安排原住民协商和工会。</p></div>
+  </div>
+  <div class="feedhead" id="feed"><h3>赛道动态</h3><span class="live">LIVE</span><span class="upd" id="upd"></span></div>
+  <div class="chips" id="chips" role="group" aria-label="按赛道筛选"></div>
+  <ul class="feed" id="feedlist"></ul>
+  <button type="button" class="more" id="more" hidden>显示更多</button>
+  <div class="feedmsg" id="feedmsg">正在载入各赛道的最新新闻与政策……</div>
+
+</section>
+
+<section id="desk">
+  <div class="sh"><span class="tag">DIRECTORY</span><h2>官方入口</h2></div>
+  <div class="links">
+    <div><a href="https://www.investcanada.ca">加拿大投资署（Invest in Canada）</a><span>投资信息、政策介绍和项目对接</span></div>
+    <div><a href="https://laws-lois.justice.gc.ca/eng/acts/I-21.8/index.html">《加拿大投资法》法规文本</a><span>报备、净收益审查和国家安全审查条款</span></div>
+    <div><a href="https://www.cra-arc.gc.ca">加拿大税务局（CRA）</a><span>商业号码、公司所得税、GST/HST 和工资扣缴</span></div>
+    <div><a href="https://www.cbsa-asfc.gc.ca">加拿大边境服务署（CBSA）</a><span>通关、附加税、关税延期支付项目和保税仓库</span></div>
+    <div><a href="https://www.canada.ca/en/department-finance/programs/international-trade-finance-policy/canadas-tariff-responses/canadas-tariffs-steel-aluminum.html">加拿大财政部钢铝关税页</a><span>对华钢铝附加税、熔铸地规则和钢材配额</span></div>
+    <div><a href="https://www.international.gc.ca/trade-commerce/controls-controles/electric-vehicle-vehicule-electrique/index.aspx?lang=eng">全球事务部：中国电动车进口配额</a><span>配额数量、进口许可和分期公告</span></div>
+    <div><a href="https://www.canada.ca/en/services/immigration-citizenship.html">移民、难民与公民部</a><span>工作许可、公司内调动和全球技能战略</span></div>
+    <div><a href="https://www.tradecommissioner.gc.ca/en/market-industry-info/search-country-region/country/canada-united-states-export/us-tariffs/supporting-exporters-through-tariff-challenges.html">加拿大贸易专员服务：美国关税</a><span>美国对加 232、301、338 条款关税清单</span></div>
+    <div><a href="http://ca.mofcom.gov.cn">中国驻加拿大使馆经商处</a><span>经贸政策咨询和中资企业联络</span></div>
+  </div>
+</section>
+
+</main>
+<footer class="wrap">
+  <a class="sailfin" href="https://www.sailfinscm.com/" target="_blank" rel="noopener"><span class="sf-lab">供应链服务</span><svg class="sf-ico" viewBox="20 14 22.5 27.5" aria-hidden="true"><path class="sf-g" d="M21.5 27.5H34L41.8 15H35C27 15 21.5 20 21.5 27.5Z"/><path class="sf-o" d="M28.8 29H41.3C41.3 36 35.8 41 28 41H20.7Z"/></svg><span class="sf-txt"><b>森帆跨境</b><i>SAILFIN</i></span></a>
+  <p class="disc">本页为公开信息整理，不构成法律、税务或投资意见。门槛和税率每年调整，具体交易请以官方最新文本和专业顾问意见为准。</p>
+</footer>
+<script>
+const META={"slug": "canada", "tape": [["企业所得税", "15%"], ["联邦+省合计", "23–31%"], ["股息预提税(协定)", "10%/15%"], ["特许权预提税(协定)", "10%"], ["GST/HST", "5–15%"], ["对华钢铝附加税", "25%"], ["中国电动车配额", "4.9万辆@6.1%"], ["联邦最低工资", "18.15加元/时"], ["汇率", "1 CAD≈4.77 CNY"], ["中加贸易 2024", "US$930亿"], ["对加出口", "US$464亿"], ["自加进口", "US$466亿"]], "bars": {"max": 550, "data": [[2020, 421.0, 220.1], [2021, 504.1, 304.8], [2022, 529.8, 422.9], [2023, 450.7, 439.4], [2024, 464.4, 465.6]]}, "sect": {"energy": "新能源", "trade": "贸易物流", "infra": "工程基建", "finance": "金融", "tech": "数字经济", "industry": "制造业", "general": "综合经贸"}, "feed": "/canada/news.json"};
+const t=document.getElementById("tape");
+if(t){const h=META.tape.map(([k,v])=>`<span>${k}<i>${v}</i></span>`).join("");t.innerHTML=h+h}
+const bars=document.getElementById("bars");
+if(bars){const max=META.bars.max;bars.innerHTML=META.bars.data.map(([y,e,m])=>`<div class="yr"><span>${y}</span><div><div class="bar e"><i style="width:${e/max*82}%"></i><b>${e}</b></div><div class="bar m"><i style="width:${m/max*82}%"></i><b>${m}</b></div></div></div>`).join("")}
+/* 动态：读取本国 news.json，每日自动更新 */
+const SECT=Object.assign({all:"全部"},META.sect),KEY="sect-"+META.slug;
+let rows=[],cur="all",shown=16;
+try{cur=localStorage.getItem(KEY)||"all"}catch(e){}
+if(!SECT[cur])cur="all";
+const chips=document.getElementById("chips"),list=document.getElementById("feedlist"),msg=document.getElementById("feedmsg");
+function el(tag,cls,txt){const e=document.createElement(tag);if(cls)e.className=cls;if(txt!=null)e.textContent=txt;return e}
+function drawChips(){chips.textContent="";for(const k in SECT){const n=k==="all"?rows.length:rows.filter(r=>r.sector===k).length;const b=el("button",null,SECT[k]+(rows.length?" "+n:""));b.type="button";b.id="chip-"+k;b.setAttribute("aria-pressed",String(k===cur));b.onclick=()=>{cur=k;shown=16;try{localStorage.setItem(KEY,k)}catch(e){}draw()};chips.appendChild(b)}}
+function draw(){drawChips();list.textContent="";const show=rows.filter(r=>cur==="all"||r.sector===cur);
+  for(const r of show.slice(0,shown)){const li=el("li");li.appendChild(el("time",null,r.date||"—"));const d=el("div");
+    const ok=typeof r.url==="string"&&/^https?:\/\//.test(r.url);const a=el(ok?"a":"span","t",r.title||"");if(ok){a.href=r.url;a.target="_blank";a.rel="noopener"}d.appendChild(a);
+    const m=el("div","m");const pol=r.kind==="政策";m.appendChild(el("span","k "+(pol?"pol":"news"),pol?"政策":"新闻"));m.appendChild(el("span",null,SECT[r.sector]||""));if(r.source)m.appendChild(el("span",null,r.source));d.appendChild(m);li.appendChild(d);list.appendChild(li)}
+  const mb=document.getElementById("more");mb.hidden=show.length<=shown;mb.textContent="显示更多（还有 "+(show.length-shown)+" 条）";
+  msg.hidden=show.length>0;if(!show.length)msg.textContent=rows.length?"这个类别暂时没有新动态。":"暂无动态。每日更新后，这里会自动出现新闻与政策。";
+  const last=rows.map(r=>r.added||r.date||"").sort().pop();document.getElementById("upd").textContent=last?"最近更新 "+last:""}
+if(chips){drawChips();
+document.getElementById("more").onclick=()=>{shown+=16;draw()};
+fetch(META.feed,{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(j=>{rows=(j.items||[]).slice().sort((x,y)=>String(y.date||"").localeCompare(String(x.date||"")));draw()}).catch(()=>{msg.hidden=false;msg.textContent="动态暂时无法载入，请稍后刷新。"})}
+</script>
+<script src="/consult.js" defer></script>
+</body>
+</html>

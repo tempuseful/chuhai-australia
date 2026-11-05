@@ -1,0 +1,105 @@
+{
+ "updated": "2026-11-05",
+ "items": [
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "第29届中国—加拿大经贸联委会在京举行",
+   "source": "商务部",
+   "url": "https://www.mofcom.gov.cn/syxwfb/art/2026/art_8e7f6a5b275348b2b580e63c39af826f.html",
+   "date": "2026-11-04",
+   "added": "2026-11-05",
+   "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "政策",
+   "title": "商务部部长：中加经贸磋商取得积极进展，包括进一步延长初步联合安排的相关豁免措施等",
+   "source": "澎湃新闻",
+   "url": "https://www.thepaper.cn/newsDetail_forward_34406786",
+   "date": "2026-11-04",
+   "added": "2026-11-05",
+   "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "政策",
+   "title": "Minister Sidhu announces extension of favourable market access for Canadian canola meal, peas, lobsters and crab through 2028",
+   "source": "Global Affairs Canada",
+   "url": "https://www.canada.ca/en/global-affairs/news/2026/11/minister-sidhu-announces-extension-of-favourable-market-access-for-canadian-canola-meal-peas-lobsters-and-crab-through-2028.html",
+   "date": "2026-11-04",
+   "added": "2026-11-05",
+   "cn": false
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "Made-in-China EVs Enter Canada Under Deal Carney Struck With Xi",
+   "source": "Claims Journal（Bloomberg）",
+   "url": "https://amp.claimsjournal.com/news/national/2026/05/29/337856.htm",
+   "date": "2026-05-29",
+   "added": "2026-11-05",
+   "cn": false
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "BYD to Launch 20 Canadian Dealerships This Year Following Historic EV Deal",
+   "source": "iPhone in Canada",
+   "url": "https://www.iphoneincanada.ca/2026/04/09/byd-to-launch-20-canadian-dealerships-this-year-following-historic-ev-deal/",
+   "date": "2026-04-09",
+   "added": "2026-11-05",
+   "cn": false
+  },
+  {
+   "sector": "trade",
+   "kind": "政策",
+   "title": "商务部公布对原产于加拿大的进口油菜籽反倾销调查的最终裁定",
+   "source": "中国新闻网",
+   "url": "https://www.chinanews.com.cn/cj/2026/02-28/10578181.shtml",
+   "date": "2026-02-28",
+   "added": "2026-11-05",
+   "cn": true
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "每年4.9万辆配额，加拿大对华电动车关税从106.1%降回6.1%",
+   "source": "界面新闻",
+   "url": "https://www.jiemian.com/article/13906586.html",
+   "date": "2026-01-20",
+   "added": "2026-11-05",
+   "cn": true
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "年配额4.9万辆！中国电动车重返加拿大市场",
+   "source": "第一财经",
+   "url": "https://www.yicai.com/news/103009240.html",
+   "date": "2026-01-17",
+   "added": "2026-11-05",
+   "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "政策",
+   "title": "商务部美大司负责人解读中国加拿大经贸磋商成果",
+   "source": "商务部",
+   "url": "https://www.mofcom.gov.cn/xwfb/sjfzrfb/art/2026/art_4de82c0a37444dee89891125b62826f9.html",
+   "date": "2026-01-16",
+   "added": "2026-11-05",
+   "cn": true
+  },
+  {
+   "sector": "tech",
+   "kind": "政策",
+   "title": "Feds order Chinese tech firm to close Canadian operations over national security",
+   "source": "CTV News（The Canadian Press）",
+   "url": "https://www.ctvnews.ca/business/article/feds-order-chinese-tech-firm-to-close-canadian-operations-over-national-security/",
+   "date": "2025-06-28",
+   "added": "2026-11-05",
+   "cn": false
+  }
+ ]
+}

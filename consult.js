@@ -8,13 +8,13 @@
     singapore: '新加坡', malaysia: '马来西亚', indonesia: '印度尼西亚', thailand: '泰国', vietnam: '越南',
     philippines: '菲律宾', cambodia: '柬埔寨', laos: '老挝', myanmar: '缅甸', brunei: '文莱',
     kazakhstan: '哈萨克斯坦', uzbekistan: '乌兹别克斯坦', kyrgyzstan: '吉尔吉斯斯坦', tajikistan: '塔吉克斯坦',
-    turkmenistan: '土库曼斯坦', australia: '澳大利亚', usa: '美国',
+    turkmenistan: '土库曼斯坦', australia: '澳大利亚', usa: '美国', canada: '加拿大',
   };
   const GROUPS = [
     ['海湾六国', ['阿联酋', '沙特阿拉伯', '卡塔尔', '科威特', '阿曼', '巴林']],
     ['东盟十国', ['新加坡', '马来西亚', '印度尼西亚', '泰国', '越南', '菲律宾', '柬埔寨', '老挝', '缅甸', '文莱']],
     ['中亚五国', ['哈萨克斯坦', '乌兹别克斯坦', '吉尔吉斯斯坦', '塔吉克斯坦', '土库曼斯坦']],
-    ['其他', ['澳大利亚', '美国', '其他国家/地区', '还没确定']],
+    ['其他', ['澳大利亚', '美国', '加拿大', '其他国家/地区', '还没确定']],
   ];
   const TOPICS = ['市场进入与公司设立', '税务筹划', '法律合规 / ODI 备案', '供应链与物流', '工程项目与投标', 'Business Development（商务拓展）', '其他'];
   const slug = (location.pathname.split('/')[1] || '').toLowerCase();
