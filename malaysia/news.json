@@ -1,6 +1,16 @@
 {
- "updated": "2026-10-30",
+ "updated": "2026-11-06",
  "items": [
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "TRC Synergy-CCCC-UFUK Semarak JV Lands RM2.69 Bln Penang LRT Works Contract",
+   "source": "Bernama",
+   "url": "https://www.bernama.com/en/news.php?id=2631017",
+   "date": "2026-11-06",
+   "added": "2026-11-06",
+   "cn": false
+  },
   {
    "sector": "tech",
    "kind": "新闻",

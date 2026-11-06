@@ -1,6 +1,26 @@
 {
- "updated": "2026-11-04",
+ "updated": "2026-11-06",
  "items": [
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "Uzbekistan, Chinese partners advance talks on Navoi water treatment plant",
+   "source": "Trend.Az",
+   "url": "https://www.trend.az/casia/uzbekistan/4243847.html",
+   "date": "2026-11-06",
+   "added": "2026-11-06",
+   "cn": false
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "Uzbekneftegaz holds talks with Axens, Technip, CPECC on refinery expansion",
+   "source": "Trend.Az",
+   "url": "https://www.trend.az/casia/uzbekistan/4243790.html",
+   "date": "2026-11-06",
+   "added": "2026-11-06",
+   "cn": false
+  },
   {
    "sector": "trade",
    "kind": "新闻",

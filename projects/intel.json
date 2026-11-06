@@ -1,6 +1,54 @@
 {
- "updated": "2026-11-04",
+ "updated": "2026-11-06",
  "items": [
+  {
+   "tag": "国际",
+   "verification": "VERIFIED",
+   "verifiedDate": "06 NOV 2026",
+   "company": "",
+   "publishedDate": "06 NOV 2026",
+   "time": "11/06",
+   "eventType": "SECURITY_RISK",
+   "region": "GCC",
+   "country": "GCC六国",
+   "sector": "航运",
+   "title": "伊朗称至少7艘油轮在霍尔木兹触雷起火",
+   "projectName": "HORMUZ TANKER STRIKES",
+   "summary": "据半岛电视台11月6日报道，伊朗革命卫队海军称，至少7艘油轮在阿曼附近使用“未经授权航线”时触雷起火，另有两艘油轮周五被报起火，海事机构尚未证实。伊方称不会重开海峡或重启谈判，除非美方满足七项条件，包括解除制裁和结束海上封锁；伊朗已向伊拉克、卡塔尔、印度和中国船只给予通行豁免。伊方还通过卡塔尔斡旋提出新的核与和平方案，美方正在研究。海峡通行不确定性仍高，海湾工程的设备海运和人员出行需预留余量。",
+   "value": "7艘油轮",
+   "stage": "航运风险",
+   "url": "https://www.aljazeera.com/news/2026/11/6/russia-to-uae-iran-steps-up-diplomacy-amid-trump-threats-what-we-know",
+   "sources": [
+    {
+     "name": "半岛电视台（11月6日）",
+     "url": "https://www.aljazeera.com/news/2026/11/6/russia-to-uae-iran-steps-up-diplomacy-amid-trump-threats-what-we-know"
+    }
+   ]
+  },
+  {
+   "tag": "国际",
+   "verification": "VERIFIED",
+   "verifiedDate": "06 NOV 2026",
+   "company": "",
+   "publishedDate": "06 NOV 2026",
+   "time": "11/06",
+   "eventType": "MACRO",
+   "region": "CENTRAL_ASIA",
+   "country": "哈萨克斯坦",
+   "sector": "交通",
+   "title": "世行：中间走廊需约555亿美元投资",
+   "projectName": "MIDDLE CORRIDOR INVESTMENT NEEDS",
+   "summary": "据中亚时报11月6日报道，世界银行研究估算，中间走廊到2040年至少需250亿美元优先基础设施升级，另需约305亿美元配套投资（物流枢纽、产业园区等）。16个优先项目中12个已在实施，约占估算成本的85%。若投资和改革到位，里海货运量到2040年可增至三倍以上，重庆至布达佩斯运时有望从47至50天缩短至18至19天。该研究10月15日在阿斯塔纳新丝路论坛上讨论。对在中亚做物流和基建的企业，是项目储备的参考。",
+   "value": "555亿美元",
+   "stage": "宏观",
+   "url": "https://timesca.com/middle-corridor-55-billion-in-investment-needed-to-turn-a-transit-route-into-an-economic-corridor/",
+   "sources": [
+    {
+     "name": "中亚时报（11月6日）",
+     "url": "https://timesca.com/middle-corridor-55-billion-in-investment-needed-to-turn-a-transit-route-into-an-economic-corridor/"
+    }
+   ]
+  },
   {
    "tag": "国际",
    "verification": "VERIFIED",

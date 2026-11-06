@@ -1,6 +1,16 @@
 {
- "updated": "2026-10-30",
+ "updated": "2026-11-06",
  "items": [
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "Jakarta opens door to investment from China's Hangzhou",
+   "source": "ANTARA",
+   "url": "https://en.antaranews.com/news/440827/jakarta-opens-door-to-investment-from-chinas-hangzhou",
+   "date": "2026-11-06",
+   "added": "2026-11-06",
+   "cn": false
+  },
   {
    "sector": "industry",
    "kind": "新闻",

@@ -1040,6 +1040,35 @@
    "value": "1.61亿里亚尔（约4.187亿美元）",
    "lat": 23.56,
    "lng": 56.54
+  },
+  {
+   "owner": "马来西亚捷运公司（MRT Corp）",
+   "need": "尚未评估。",
+   "window": "持续跟踪",
+   "action": "核实项目最新进展，以及分包和采购窗口。",
+   "priority": "S",
+   "score": 92,
+   "stage": "新中标",
+   "informationDate": "2026-11-06",
+   "eventDate": "2026-11-05",
+   "country": "马来西亚",
+   "source": "https://www.bernama.com/en/news.php?id=2631017",
+   "sources": [
+    {
+     "name": "Bernama（2026-11-06）",
+     "url": "https://www.bernama.com/en/news.php?id=2631017"
+    }
+   ],
+   "note": "根据公开报道自动整理，跟进分按阶段统一赋值。授标日期据报道“昨日”公布推算。",
+   "id": "auto-mys-20261106-1",
+   "city": "槟城",
+   "name": "槟城轻轨跨海高架桥CMC2土建",
+   "contractor": "中国交建",
+   "company": "中国交通建设集团（CCCC）",
+   "type": "轨道交通土建 / 跨海高架桥",
+   "value": "RM2.69 Bln（27亿林吉特）",
+   "lat": 5.4164,
+   "lng": 100.3327
   }
  ]
 }
