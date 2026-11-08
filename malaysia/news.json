@@ -1,6 +1,16 @@
 {
- "updated": "2026-11-06",
+ "updated": "2026-11-08",
  "items": [
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "潮州智能卫浴抱团出海 中马合作从“共识”迈向“落地”",
+   "source": "中国新闻网",
+   "url": "https://www.chinanews.com.cn/cj/2026/11-08/10728488.shtml",
+   "date": "2026-11-08",
+   "cn": true,
+   "added": "2026-11-08"
+  },
   {
    "sector": "infra",
    "kind": "新闻",

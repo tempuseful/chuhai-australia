@@ -1,6 +1,30 @@
 {
- "updated": "2026-11-06",
+ "updated": "2026-11-08",
  "items": [
+  {
+   "tag": "国际",
+   "verification": "VERIFIED",
+   "verifiedDate": "08 NOV 2026",
+   "company": "",
+   "publishedDate": "08 NOV 2026",
+   "time": "11/08",
+   "eventType": "SECURITY_RISK",
+   "region": "GLOBAL",
+   "country": "全球",
+   "sector": "安全",
+   "title": "伊拉克气田遭无人机袭击，美军组建特遣部队切断伊朗陆路补给",
+   "projectName": "IRAN WAR SPILLOVER",
+   "summary": "据半岛电视台11月8日直播报道，伊拉克库尔德地区一座天然气田遭无人机袭击，伊朗格什姆岛也传出爆炸。美国总统特朗普称，如果会谈成功，新的打击“不太可能”；伊朗警告将进行严厉报复。美国中央司令部组建特遣部队，旨在切断伊朗陆路补给路线。冲突外溢范围仍在扩大，在海湾和周边地区开展工程的企业需关注人员出行与设备运输安排。",
+   "value": "—",
+   "stage": "人员出行",
+   "url": "https://www.aljazeera.com/news/liveblog/2026/11/8/iran-war-live-explosions-hit-qeshm-us-moves-to-block-land-supply-routes",
+   "sources": [
+    {
+     "name": "半岛电视台（11月8日）",
+     "url": "https://www.aljazeera.com/news/liveblog/2026/11/8/iran-war-live-explosions-hit-qeshm-us-moves-to-block-land-supply-routes"
+    }
+   ]
+  },
   {
    "tag": "国际",
    "verification": "VERIFIED",

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07",
+ "updated": "2026-11-08",
  "items": [
   {
    "sector": "trade",
@@ -10,6 +10,16 @@
    "date": "2026-11-07",
    "added": "2026-11-07",
    "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "想让中国多买农产品？美方得先落实降税",
+   "source": "新浪新闻（转载观察者网）",
+   "url": "https://news.sina.com.cn/w/2026-11-06/doc-inixtxmh8980701.shtml",
+   "date": "2026-11-06",
+   "cn": true,
+   "added": "2026-11-08"
   },
   {
    "sector": "tech",

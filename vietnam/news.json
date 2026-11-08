@@ -1,6 +1,16 @@
 {
- "updated": "2026-10-28",
+ "updated": "2026-11-08",
  "items": [
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "广西梧州—平陆运河—越南胡志明”外贸航线开通",
+   "source": "中国新闻网",
+   "url": "https://www.chinanews.com.cn/cj/2026/11-07/10727831.shtml",
+   "date": "2026-11-07",
+   "cn": true,
+   "added": "2026-11-08"
+  },
   {
    "sector": "industry",
    "kind": "新闻",
