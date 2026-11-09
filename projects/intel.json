@@ -1,6 +1,102 @@
 {
- "updated": "2026-11-08",
+ "updated": "2026-11-10",
  "items": [
+  {
+   "tag": "国际",
+   "verification": "VERIFIED",
+   "verifiedDate": "10 NOV 2026",
+   "company": "",
+   "publishedDate": "09 NOV 2026",
+   "time": "11/09",
+   "eventType": "POLICY",
+   "region": "GLOBAL",
+   "country": "全球",
+   "sector": "宏观",
+   "title": "中国继续暂停24%对美加征关税两个月，保留10%",
+   "projectName": "CHINA-US TARIFF SUSPENSION",
+   "summary": "据中新网11月9日报道，国务院关税税则委员会宣布，为落实中美元首华盛顿会晤成果，自11月10日13时01分起，在两个月内继续暂停实施24%的对美加征关税，保留10%税率。中方同时表示，注意到美方拟用301关税替代被判无效的IEEPA关税，将视情况调整反制措施。中美关税预期趋稳，对跨境设备、材料采购成本的不确定性有所缓和。",
+   "value": "24%暂停2个月",
+   "stage": "宏观",
+   "url": "https://www.chinanews.com.cn/cj/2026/11-09/10728657.shtml",
+   "sources": [
+    {
+     "name": "中新网（11月9日）",
+     "url": "https://www.chinanews.com.cn/cj/2026/11-09/10728657.shtml"
+    }
+   ]
+  },
+  {
+   "tag": "国际",
+   "verification": "VERIFIED",
+   "verifiedDate": "10 NOV 2026",
+   "company": "",
+   "publishedDate": "09 NOV 2026",
+   "time": "11/09",
+   "eventType": "MACRO",
+   "region": "ASEAN",
+   "country": "菲律宾",
+   "sector": "宏观",
+   "title": "菲律宾三季度GDP同比增2.1%，为2021年一季度以来最低",
+   "projectName": "PHILIPPINES Q3 GDP",
+   "summary": "据中新网11月9日报道，菲律宾统计局公布，2026年第三季度GDP同比增长2.1%，低于二季度的2.4%和去年同期的4%，为2021年一季度以来最慢增速。农林渔业下降4.8%，工业基本持平，服务业增长3.7%，总资本形成下降0.2%，政府消费增长6.8%。政府已将全年增长目标下调至3.5%至4.5%。在菲工程企业需关注公共支出节奏与业主付款安排。",
+   "value": "2.1%",
+   "stage": "宏观",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-09/10728762.shtml",
+   "sources": [
+    {
+     "name": "中新网（11月9日）",
+     "url": "https://www.chinanews.com.cn/gj/2026/11-09/10728762.shtml"
+    }
+   ]
+  },
+  {
+   "tag": "国际",
+   "verification": "VERIFIED",
+   "verifiedDate": "10 NOV 2026",
+   "company": "",
+   "publishedDate": "09 NOV 2026",
+   "time": "11/09",
+   "eventType": "SECURITY_RISK",
+   "region": "GCC",
+   "country": "GCC六国",
+   "sector": "安全",
+   "title": "伊朗称“两日计划”仍有效，霍尔木兹能否开放取决于美方",
+   "projectName": "HORMUZ TWO-DAY PLAN",
+   "summary": "据中新网11月9日报道，伊朗外长和外交部发言人称，伊朗提出的“两日计划”依然有效，美方若落实伊方要求，两日内海峡和海湾的安全局势可能好转。伊朗称所有经过霍尔木兹海峡的船只须与伊方协调，并正与卡塔尔、巴基斯坦两国斡旋方磋商。伊革命卫队称11月8日有4艘关闭识别系统的油轮在海峡触雷或爆炸起火。海湾项目的人员出行和物流安排仍需保持保守。",
+   "value": "4艘油轮",
+   "stage": "人员出行",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-09/10729129.shtml",
+   "sources": [
+    {
+     "name": "中新网（11月9日）",
+     "url": "https://www.chinanews.com.cn/gj/2026/11-09/10729129.shtml"
+    }
+   ]
+  },
+  {
+   "tag": "国际",
+   "verification": "VERIFIED",
+   "verifiedDate": "10 NOV 2026",
+   "company": "",
+   "publishedDate": "08 NOV 2026",
+   "time": "11/08",
+   "eventType": "LOGISTICS_RISK",
+   "region": "GCC",
+   "country": "GCC六国",
+   "sector": "航运",
+   "title": "美军在阿曼湾打击一艘货船，称其违反对伊封锁",
+   "projectName": "GULF OF OMAN BLOCKADE",
+   "summary": "据中新网11月8日报道，美军中央司令部称，11月7日在阿曼湾用精确制导炸弹打击一艘货船，使其丧失航行能力，理由是该船多次无视警告、试图违反对伊朗的海上封锁。美方称，自7月14日恢复封锁以来的三个月内，已有4艘商船丧失航行能力，135艘船只被勒令折返。海湾航线的拦截和检查风险持续，工程设备和物资的海运需预留延误和改线余量。",
+   "value": "135艘折返",
+   "stage": "航运风险",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-08/10728260.shtml",
+   "sources": [
+    {
+     "name": "中新网（11月8日）",
+     "url": "https://www.chinanews.com.cn/gj/2026/11-08/10728260.shtml"
+    }
+   ]
+  },
   {
    "tag": "国际",
    "verification": "VERIFIED",
@@ -510,30 +606,6 @@
    "sector": "安全"
   },
   {
-   "region": "ASEAN",
-   "country": "泰国",
-   "tag": "国际",
-   "eventType": "MACRO",
-   "verification": "VERIFIED",
-   "publishedDate": "22 OCT 2026",
-   "verifiedDate": "24 OCT 2026",
-   "time": "10/22",
-   "title": "泰国商会大学预测2026年出口增17.8%至约4000亿美元",
-   "projectName": "THAILAND EXPORT OUTLOOK",
-   "summary": "据中新社10月22日报道，泰国商会大学贸易战略研究所预测，泰国2026年出口增长17.8%，达约4000亿美元，其中对美出口增42.6%；进口增28.7%至约4420亿美元，贸易逆差或约417亿美元，2027年出口增速放缓至7.4%。泰国商务部数据显示前8个月出口同比增18.9%。增长主要来自美国需求和AI、数据中心带动的电子产品出口，对在泰设厂和供应链布局的中企有参考意义。",
-   "company": "",
-   "value": "增长17.8%",
-   "stage": "宏观",
-   "url": "https://www.chinanews.com.cn/aseaninfo/2026/10-22/10719312.shtml",
-   "sources": [
-    {
-     "name": "中新网（10月22日）",
-     "url": "https://www.chinanews.com.cn/aseaninfo/2026/10-22/10719312.shtml"
-    }
-   ],
-   "sector": "宏观"
-  },
-  {
    "region": "GLOBAL",
    "country": "全球",
    "tag": "国际",
@@ -556,6 +628,30 @@
     }
    ],
    "sector": "油气"
+  },
+  {
+   "region": "ASEAN",
+   "country": "泰国",
+   "tag": "国际",
+   "eventType": "MACRO",
+   "verification": "VERIFIED",
+   "publishedDate": "22 OCT 2026",
+   "verifiedDate": "24 OCT 2026",
+   "time": "10/22",
+   "title": "泰国商会大学预测2026年出口增17.8%至约4000亿美元",
+   "projectName": "THAILAND EXPORT OUTLOOK",
+   "summary": "据中新社10月22日报道，泰国商会大学贸易战略研究所预测，泰国2026年出口增长17.8%，达约4000亿美元，其中对美出口增42.6%；进口增28.7%至约4420亿美元，贸易逆差或约417亿美元，2027年出口增速放缓至7.4%。泰国商务部数据显示前8个月出口同比增18.9%。增长主要来自美国需求和AI、数据中心带动的电子产品出口，对在泰设厂和供应链布局的中企有参考意义。",
+   "company": "",
+   "value": "增长17.8%",
+   "stage": "宏观",
+   "url": "https://www.chinanews.com.cn/aseaninfo/2026/10-22/10719312.shtml",
+   "sources": [
+    {
+     "name": "中新网（10月22日）",
+     "url": "https://www.chinanews.com.cn/aseaninfo/2026/10-22/10719312.shtml"
+    }
+   ],
+   "sector": "宏观"
   },
   {
    "region": "GCC",

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08",
+ "updated": "2026-11-10",
  "items": [
   {
    "sector": "industry",
@@ -10,6 +10,16 @@
    "date": "2026-11-08",
    "cn": true,
    "added": "2026-11-08"
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "马来西亚东海岸铁路一期工程竣工交付 全面具备商业运营条件",
+   "source": "中国新闻网",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-07/10727921.shtml",
+   "date": "2026-11-07",
+   "added": "2026-11-10",
+   "cn": true
   },
   {
    "sector": "infra",

@@ -1,6 +1,16 @@
 {
- "updated": "2026-11-06",
+ "updated": "2026-11-10",
  "items": [
+  {
+   "sector": "finance",
+   "kind": "新闻",
+   "title": "中国国开行为哈萨克斯坦石化管道项目提供融资",
+   "source": "中国新闻网",
+   "url": "https://www.chinanews.com.cn/cj/2026/11-09/10728949.shtml",
+   "date": "2026-11-09",
+   "added": "2026-11-10",
+   "cn": true
+  },
   {
    "sector": "trade",
    "kind": "新闻",

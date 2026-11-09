@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08",
+ "updated": "2026-11-10",
  "items": [
   {
    "sector": "trade",
@@ -10,6 +10,16 @@
    "date": "2026-11-08",
    "cn": true,
    "added": "2026-11-08"
+  },
+  {
+   "sector": "tech",
+   "kind": "新闻",
+   "title": "通讯｜中国智能技术助解新加坡城市交通难题",
+   "source": "新华网",
+   "url": "https://www.news.cn/silkroad/20261109/455164fafe244908ac88eee7c9be25b8/c.html",
+   "date": "2026-11-06",
+   "added": "2026-11-10",
+   "cn": true
   },
   {
    "sector": "general",

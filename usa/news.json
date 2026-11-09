@@ -1,6 +1,36 @@
 {
- "updated": "2026-11-08",
+ "updated": "2026-11-10",
  "items": [
+  {
+   "sector": "trade",
+   "kind": "政策",
+   "title": "国务院关税税则委员会：调整对原产于美国的进口商品加征关税措施",
+   "source": "中国新闻网",
+   "url": "https://www.chinanews.com.cn/cj/2026/11-09/10728657.shtml",
+   "date": "2026-11-09",
+   "added": "2026-11-10",
+   "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "政策",
+   "title": "商务部新闻发言人就调整出口管制管控名单措施答记者问",
+   "source": "中国新闻网",
+   "url": "https://www.chinanews.com.cn/cj/2026/11-09/10728876.shtml",
+   "date": "2026-11-09",
+   "added": "2026-11-10",
+   "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "政策",
+   "title": "商务部新闻发言人就调整不可靠实体清单措施答记者问",
+   "source": "中国新闻网",
+   "url": "https://www.chinanews.com.cn/cj/2026/11-09/10728878.shtml",
+   "date": "2026-11-09",
+   "added": "2026-11-10",
+   "cn": true
+  },
   {
    "sector": "trade",
    "kind": "政策",
