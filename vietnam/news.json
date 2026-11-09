@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08",
+ "updated": "2026-11-09",
  "items": [
   {
    "sector": "trade",
@@ -10,6 +10,16 @@
    "date": "2026-11-07",
    "cn": true,
    "added": "2026-11-08"
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "Quang Trach II LNG Thermal Power Plant Project breaks ground in Vietnam",
+   "source": "中国电建（英文网站）",
+   "url": "https://en.powerchina.cn/2026-11/02/c_829132.htm",
+   "date": "2026-11-02",
+   "cn": false,
+   "added": "2026-11-09"
   },
   {
    "sector": "industry",
