@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06",
+ "updated": "2026-11-09",
  "items": [
   {
    "id": "auto-idn-20261009-1",
@@ -1069,6 +1069,35 @@
    "value": "RM2.69 Bln（27亿林吉特）",
    "lat": 5.4164,
    "lng": 100.3327
+  },
+  {
+   "id": "auto-vnm-20261102-1",
+   "country": "越南",
+   "city": "广治省广泽电力中心",
+   "name": "广泽二期LNG热电项目",
+   "contractor": "中国电建",
+   "company": "中国电建、越南机械安装总公司",
+   "owner": "未披露",
+   "stage": "在建",
+   "informationDate": "2026-11-02",
+   "eventDate": "2026-10-20",
+   "source": "https://en.powerchina.cn/2026-11/02/c_829132.htm",
+   "sources": [
+    {
+     "name": "中国电建（英文网站，2026-11-02）",
+     "url": "https://en.powerchina.cn/2026-11/02/c_829132.htm"
+    }
+   ],
+   "type": "LNG燃气电站 / H级燃气轮机",
+   "value": "不详",
+   "priority": "S",
+   "score": 90,
+   "need": "尚未评估。",
+   "window": "持续跟踪",
+   "action": "核实项目最新进展，以及分包和采购窗口。",
+   "note": "根据公开报道自动整理，跟进分按阶段统一赋值。原文未写年份，开工日期10月20日按页面更新日期推定为2026年；业主和EPC金额未在该原文中披露。",
+   "lat": 17.85,
+   "lng": 106.43
   }
  ]
 }
