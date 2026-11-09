@@ -1098,6 +1098,93 @@
    "note": "根据公开报道自动整理，跟进分按阶段统一赋值。原文未写年份，开工日期10月20日按页面更新日期推定为2026年；业主和EPC金额未在该原文中披露。",
    "lat": 17.85,
    "lng": 106.43
+  },
+  {
+   "id": "auto-uae-20261105-1",
+   "country": "阿联酋",
+   "city": "阿布扎比",
+   "name": "Ruwais Diyab天然气田全面开发",
+   "contractor": "杰瑞股份",
+   "company": "杰瑞股份（杰瑞石油天然气工程有限公司阿布扎比分公司）",
+   "owner": "ADNOC Onshore",
+   "stage": "新中标",
+   "informationDate": "2026-11-05",
+   "eventDate": "2026-11-04",
+   "source": "http://stock.10jqka.com.cn/20261105/c681477059.shtml",
+   "sources": [
+    {
+     "name": "同花顺转载杰瑞股份公告（2026-11-05）",
+     "url": "http://stock.10jqka.com.cn/20261105/c681477059.shtml"
+    }
+   ],
+   "type": "非常规天然气田开发",
+   "value": "17.042亿美元（含3.10亿美元可选订单）",
+   "priority": "S",
+   "score": 92,
+   "need": "尚未评估。",
+   "window": "持续跟踪",
+   "action": "核实项目最新进展，以及分包和采购窗口。",
+   "note": "根据公开报道自动整理，跟进分按阶段统一赋值。授标函阶段，公告称正式合同尚未签署，可选订单不计入确定金额；公告日期11月4日晚，事件日期按公告日。",
+   "lat": 24.4539,
+   "lng": 54.3773
+  },
+  {
+   "id": "auto-uae-20261105-2",
+   "country": "阿联酋",
+   "city": "阿布扎比",
+   "name": "Bab/North East Bab油田陆上设施建设",
+   "contractor": "杰瑞股份",
+   "company": "杰瑞股份（杰瑞石油天然气工程有限公司阿布扎比分公司）",
+   "owner": "ADNOC Onshore",
+   "stage": "新中标",
+   "informationDate": "2026-11-05",
+   "eventDate": "2026-11-04",
+   "source": "http://stock.10jqka.com.cn/20261105/c681477059.shtml",
+   "sources": [
+    {
+     "name": "同花顺转载杰瑞股份公告（2026-11-05）",
+     "url": "http://stock.10jqka.com.cn/20261105/c681477059.shtml"
+    }
+   ],
+   "type": "油田陆上设施",
+   "value": "5.997亿美元",
+   "priority": "S",
+   "score": 92,
+   "need": "尚未评估。",
+   "window": "持续跟踪",
+   "action": "核实项目最新进展，以及分包和采购窗口。",
+   "note": "根据公开报道自动整理，跟进分按阶段统一赋值。授标函阶段，公告称正式合同尚未签署，可选订单不计入确定金额；公告日期11月4日晚，事件日期按公告日。",
+   "lat": 24.4539,
+   "lng": 54.3773
+  },
+  {
+   "id": "auto-uae-20261105-3",
+   "country": "阿联酋",
+   "city": "阿布扎比",
+   "name": "Bu Hasa油田陆上设施建设",
+   "contractor": "杰瑞股份",
+   "company": "杰瑞股份（杰瑞石油天然气工程有限公司阿布扎比分公司）",
+   "owner": "ADNOC Onshore",
+   "stage": "新中标",
+   "informationDate": "2026-11-05",
+   "eventDate": "2026-11-04",
+   "source": "http://stock.10jqka.com.cn/20261105/c681477059.shtml",
+   "sources": [
+    {
+     "name": "同花顺转载杰瑞股份公告（2026-11-05）",
+     "url": "http://stock.10jqka.com.cn/20261105/c681477059.shtml"
+    }
+   ],
+   "type": "油田陆上设施",
+   "value": "3.928亿美元（含1.74亿美元可选订单）",
+   "priority": "S",
+   "score": 92,
+   "need": "尚未评估。",
+   "window": "持续跟踪",
+   "action": "核实项目最新进展，以及分包和采购窗口。",
+   "note": "根据公开报道自动整理，跟进分按阶段统一赋值。授标函阶段，公告称正式合同尚未签署，可选订单不计入确定金额；公告日期11月4日晚，事件日期按公告日。",
+   "lat": 24.4539,
+   "lng": 54.3773
   }
  ]
 }

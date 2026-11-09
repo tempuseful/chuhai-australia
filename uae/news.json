@@ -1,6 +1,16 @@
 {
- "updated": "2026-10-22",
+ "updated": "2026-11-09",
  "items": [
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "杰瑞股份收到三份项目授标函 总金额达181亿元",
+   "source": "同花顺（转载杰瑞股份公告）",
+   "url": "http://stock.10jqka.com.cn/20261105/c681477059.shtml",
+   "date": "2026-11-05",
+   "added": "2026-11-09",
+   "cn": true
+  },
   {
    "sector": "tech",
    "kind": "新闻",
