@@ -1,6 +1,36 @@
 {
- "updated": "2026-11-02",
+ "updated": "2026-11-11",
  "items": [
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "出海日报｜华新建材拟16.42亿美元收购巴西水泥企业，中铝国际拟签65.56亿元几内亚项目合同",
+   "source": "界面新闻",
+   "url": "https://www.jiemian.com/article/15308844.html",
+   "date": "2026-11-09",
+   "cn": true,
+   "added": "2026-11-11"
+  },
+  {
+   "sector": "general",
+   "kind": "政策",
+   "title": "澳大利亚央行加息至4.85% 创18年来新高",
+   "source": "中国新闻网",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-03/10725397.shtml",
+   "date": "2026-11-03",
+   "cn": true,
+   "added": "2026-11-11"
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "出海日报｜天孚通信拟斥资6.21亿泰铢在泰国购地，阿里云荷兰云计算地域正式开服",
+   "source": "界面新闻",
+   "url": "https://www.jiemian.com/article/15267100.html",
+   "date": "2026-10-30",
+   "cn": true,
+   "added": "2026-11-11"
+  },
   {
    "sector": "energy",
    "kind": "新闻",

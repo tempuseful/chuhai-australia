@@ -1,6 +1,26 @@
 {
- "updated": "2026-11-09",
+ "updated": "2026-11-11",
  "items": [
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "广西南宁至越南海防国际客运航线复航",
+   "source": "中国新闻网",
+   "url": "https://www.chinanews.com.cn/aseaninfo/2026/11-10/10729568.shtml",
+   "date": "2026-11-10",
+   "cn": true,
+   "added": "2026-11-11"
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "中越边境爱店口岸前10月进出口货值破1600亿元",
+   "source": "中国新闻网",
+   "url": "https://www.chinanews.com.cn/aseaninfo/2026/11-09/10729001.shtml",
+   "date": "2026-11-09",
+   "cn": true,
+   "added": "2026-11-11"
+  },
   {
    "sector": "trade",
    "kind": "新闻",
@@ -20,6 +40,16 @@
    "date": "2026-11-02",
    "cn": false,
    "added": "2026-11-09"
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "出海日报｜天孚通信拟斥资6.21亿泰铢在泰国购地，阿里云荷兰云计算地域正式开服",
+   "source": "界面新闻",
+   "url": "https://www.jiemian.com/article/15267100.html",
+   "date": "2026-10-30",
+   "cn": true,
+   "added": "2026-11-11"
   },
   {
    "sector": "industry",

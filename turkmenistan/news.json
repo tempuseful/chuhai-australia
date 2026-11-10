@@ -1,6 +1,16 @@
 {
- "updated": "2026-10-26",
+ "updated": "2026-11-11",
  "items": [
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "January-September: Turkmenistan-China Trade Nears $8 Billion",
+   "source": "Business Turkmenistan",
+   "url": "https://business.com.tm/post/16610/januaryseptember-turkmenistanchina-trade-nears-8-billion",
+   "date": "2026-11-10",
+   "cn": false,
+   "added": "2026-11-11"
+  },
   {
    "sector": "trade",
    "kind": "新闻",

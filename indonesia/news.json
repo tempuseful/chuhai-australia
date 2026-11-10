@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06",
+ "updated": "2026-11-11",
  "items": [
   {
    "sector": "general",
@@ -14,12 +14,52 @@
   {
    "sector": "industry",
    "kind": "新闻",
+   "title": "出海日报｜星源材质获大众电池隔膜定点，海创药业达成海外授权交易",
+   "source": "界面新闻",
+   "url": "https://www.jiemian.com/article/15301156.html",
+   "date": "2026-11-06",
+   "cn": true,
+   "added": "2026-11-11"
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "中领馆提醒中国公民关注印尼两座火山喷发",
+   "source": "中国新闻网",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-06/10727524.shtml",
+   "date": "2026-11-06",
+   "cn": true,
+   "added": "2026-11-11"
+  },
+  {
+   "sector": "industry",
+   "kind": "政策",
+   "title": "印尼计划到2027年实现电动汽车领域60%国产化率",
+   "source": "驻印度尼西亚共和国大使馆经济商务处",
+   "url": "https://id.mofcom.gov.cn/lsfz/art/2026/art_d3d43ec8d9754a46a3edda9149e5eb97.html",
+   "date": "2026-10-30",
+   "cn": true,
+   "added": "2026-11-11"
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
    "title": "众鑫股份拟在印尼投建年产5万吨纸浆模塑餐具项目，预算6000万美元",
    "source": "新浪财经",
    "url": "https://finance.sina.com.cn/stock/s/2026-10-28/doc-iniwtpke6663908.shtml",
    "date": "2026-10-28",
    "added": "2026-10-30",
    "cn": true
+  },
+  {
+   "sector": "industry",
+   "kind": "政策",
+   "title": "印尼政府正在研究混动汽车激励措施",
+   "source": "驻印度尼西亚共和国大使馆经济商务处",
+   "url": "https://id.mofcom.gov.cn/lsfz/art/2026/art_5d31885295204f05aed1cdbcbe347fce.html",
+   "date": "2026-10-28",
+   "cn": true,
+   "added": "2026-11-11"
   },
   {
    "sector": "energy",

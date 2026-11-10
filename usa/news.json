@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10",
+ "updated": "2026-11-11",
  "items": [
   {
    "sector": "trade",
@@ -32,6 +32,26 @@
    "cn": true
   },
   {
+   "sector": "general",
+   "kind": "政策",
+   "title": "商务部：继续暂停对韩华海洋株式会社5家美国相关子公司实施反制措施2个月",
+   "source": "中国新闻网",
+   "url": "https://www.chinanews.com.cn/cj/2026/11-09/10728894.shtml",
+   "date": "2026-11-09",
+   "cn": true,
+   "added": "2026-11-11"
+  },
+  {
+   "sector": "tech",
+   "kind": "政策",
+   "title": "外交部：中方在美国输华芯片问题上的立场是一贯的",
+   "source": "中国新闻网",
+   "url": "https://www.chinanews.com.cn/gn/2026/11-09/10728872.shtml",
+   "date": "2026-11-09",
+   "cn": true,
+   "added": "2026-11-11"
+  },
+  {
    "sector": "trade",
    "kind": "政策",
    "title": "商务部新闻发言人就美制裁中国企业答记者问",
@@ -40,6 +60,16 @@
    "date": "2026-11-07",
    "added": "2026-11-07",
    "cn": true
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "何立峰与美国财政部长贝森特、贸易代表格里尔举行视频通话",
+   "source": "中国新闻网",
+   "url": "https://www.chinanews.com.cn/gn/2026/11-07/10727818.shtml",
+   "date": "2026-11-07",
+   "cn": true,
+   "added": "2026-11-11"
   },
   {
    "sector": "trade",

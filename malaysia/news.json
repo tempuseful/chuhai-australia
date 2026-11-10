@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10",
+ "updated": "2026-11-11",
  "items": [
   {
    "sector": "industry",
@@ -30,6 +30,26 @@
    "date": "2026-11-06",
    "added": "2026-11-06",
    "cn": false
+  },
+  {
+   "sector": "tech",
+   "kind": "政策",
+   "title": "马来西亚拟定数据中心自行供应水电条例",
+   "source": "驻新加坡共和国大使馆经济商务处",
+   "url": "https://sg.mofcom.gov.cn/gjhz/rcep/art/2026/art_a14ac302baf74e50b05d2f55e31ef2ea.html",
+   "date": "2026-11-04",
+   "cn": true,
+   "added": "2026-11-11"
+  },
+  {
+   "sector": "tech",
+   "kind": "新闻",
+   "title": "出海日报｜华新建材拟收购巴西水泥公司股权，东睦股份计划在泰国建设新材料生产基地",
+   "source": "界面新闻",
+   "url": "https://www.jiemian.com/article/15279987.html",
+   "date": "2026-11-02",
+   "cn": true,
+   "added": "2026-11-11"
   },
   {
    "sector": "tech",

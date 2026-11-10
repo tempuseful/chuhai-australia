@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10",
+ "updated": "2026-11-11",
  "items": [
   {
    "sector": "energy",
@@ -12,6 +12,16 @@
    "cn": true
   },
   {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "出海日报｜中国生物制药达成70亿美元潜在授权合作，宁德时代布局欧洲智能家储",
+   "source": "界面新闻",
+   "url": "https://www.jiemian.com/article/15295756.html",
+   "date": "2026-11-05",
+   "cn": true,
+   "added": "2026-11-11"
+  },
+  {
    "sector": "energy",
    "kind": "新闻",
    "title": "综述｜中企亮相阿布扎比国际石油展 绿色转型与数字技术成亮点",
@@ -20,6 +30,16 @@
    "date": "2026-11-03",
    "added": "2026-11-10",
    "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "通讯丨沙漠里的绿色能源——中企助力阿联酋低碳转型",
+   "source": "新华网",
+   "url": "https://www.news.cn/silkroad/20261102/98be7eab4bdd4c519d1d0744c6e63cdc/c.html",
+   "date": "2026-11-02",
+   "cn": true,
+   "added": "2026-11-11"
   },
   {
    "sector": "tech",

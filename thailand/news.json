@@ -1,6 +1,46 @@
 {
- "updated": "2026-10-30",
+ "updated": "2026-11-11",
  "items": [
+  {
+   "sector": "tech",
+   "kind": "政策",
+   "title": "泰国内阁批准数据中心七级监管政策",
+   "source": "中国新闻网",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-11/10729866.shtml",
+   "date": "2026-11-11",
+   "cn": true,
+   "added": "2026-11-11"
+  },
+  {
+   "sector": "industry",
+   "kind": "政策",
+   "title": "泰国将进口电动汽车消费税税率上调至35%",
+   "source": "中国新闻网",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-04/10725705.shtml",
+   "date": "2026-11-04",
+   "cn": true,
+   "added": "2026-11-11"
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "出海日报｜华新建材拟收购巴西水泥公司股权，东睦股份计划在泰国建设新材料生产基地",
+   "source": "界面新闻",
+   "url": "https://www.jiemian.com/article/15279987.html",
+   "date": "2026-11-02",
+   "cn": true,
+   "added": "2026-11-11"
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "出海日报｜天孚通信拟斥资6.21亿泰铢在泰国购地，阿里云荷兰云计算地域正式开服",
+   "source": "界面新闻",
+   "url": "https://www.jiemian.com/article/15267100.html",
+   "date": "2026-10-30",
+   "cn": true,
+   "added": "2026-11-11"
+  },
   {
    "sector": "industry",
    "kind": "新闻",

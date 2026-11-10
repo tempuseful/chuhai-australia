@@ -1,6 +1,16 @@
 {
- "updated": "2026-10-28",
+ "updated": "2026-11-11",
  "items": [
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "王毅会见缅甸国家计划、投资与对外经济部部长昂觉霍",
+   "source": "中国新闻网",
+   "url": "https://www.chinanews.com.cn/gn/2026/11-03/10725429.shtml",
+   "date": "2026-11-03",
+   "cn": true,
+   "added": "2026-11-11"
+  },
   {
    "sector": "energy",
    "kind": "新闻",

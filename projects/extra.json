@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10",
+ "updated": "2026-11-11",
  "items": [
   {
    "id": "auto-idn-20261009-1",
@@ -1214,6 +1214,99 @@
    "note": "根据公开报道自动整理，跟进分按阶段统一赋值。报道称今年10月已开工、计划2028年底投产，具体开工日期未披露，事件日期以报道日为准。",
    "lat": 47.1164,
    "lng": 51.9235
+  },
+  {
+   "id": "auto-uae-20261111-1",
+   "country": "阿联酋",
+   "city": "阿布扎比阿吉班",
+   "name": "阿布扎比PV3阿吉班1.5吉瓦光伏项目",
+   "contractor": "中国电建",
+   "company": "中国电力建设集团有限公司、中国电建华东勘测设计研究院有限公司（设计、采购和施工总承包）",
+   "owner": "未披露",
+   "stage": "在建",
+   "informationDate": "2026-11-02",
+   "eventDate": "2026-11-02",
+   "source": "https://www.news.cn/silkroad/20261102/98be7eab4bdd4c519d1d0744c6e63cdc/c.html",
+   "sources": [
+    {
+     "name": "新华网（2026-11-02）",
+     "url": "https://www.news.cn/silkroad/20261102/98be7eab4bdd4c519d1d0744c6e63cdc/c.html"
+    },
+    {
+     "name": "中国日报网（2026-11-02）",
+     "url": "https://cn.chinadaily.com.cn/a/202611/02/WS6ae84157e4b09a165c792fbb.html"
+    },
+    {
+     "name": "中国一带一路网（2026-11-02）",
+     "url": "https://www.yidaiyilu.gov.cn/p/0696T636.html"
+    }
+   ],
+   "type": "光伏电站 / 1.5GW",
+   "value": "1.5吉瓦，预计年发电量44亿千瓦时",
+   "priority": "S",
+   "score": 90,
+   "need": "尚未评估。",
+   "window": "持续跟踪",
+   "action": "核实项目最新进展，以及分包和采购窗口。",
+   "note": "根据公开报道自动整理，跟进分按阶段统一赋值。新华社现场通讯称项目即将并网发电，事件日期以报道日为准。",
+   "lat": 24.6,
+   "lng": 55.03
+  },
+  {
+   "id": "auto-tha-20261111-1",
+   "country": "泰国",
+   "city": "罗勇府",
+   "name": "光互连产品研发生产基地（购地约16万平方米）",
+   "contractor": "天孚通信",
+   "company": "天孚通信泰国子公司",
+   "owner": "天孚通信泰国子公司",
+   "stage": "规划/推动",
+   "informationDate": "2026-10-30",
+   "eventDate": "2026-10-29",
+   "source": "https://www.jiemian.com/article/15267100.html",
+   "sources": [
+    {
+     "name": "界面新闻（2026-10-30）",
+     "url": "https://www.jiemian.com/article/15267100.html"
+    }
+   ],
+   "type": "制造设厂 / 约16万平方米用地",
+   "value": "约6.21亿泰铢（购地）",
+   "priority": "S",
+   "score": 90,
+   "need": "尚未评估。",
+   "window": "持续跟踪",
+   "action": "核实项目最新进展，以及分包和采购窗口。",
+   "note": "根据公开报道自动整理，跟进分按阶段统一赋值。已与Amata City Rayong签署土地购买协议，事件日期为公告日。",
+   "lat": 12.6814,
+   "lng": 101.2816
+  },
+  {
+   "id": "auto-idn-20261111-1",
+   "country": "印度尼西亚",
+   "city": "地点待核",
+   "name": "聚氨酯合成革和聚氨酯复合材料工厂",
+   "contractor": "安利股份",
+   "company": "安利股份、安利（新加坡）材料有限公司",
+   "owner": "安利股份印尼子公司",
+   "stage": "规划/推动",
+   "informationDate": "2026-11-06",
+   "eventDate": "2026-11-05",
+   "source": "https://www.jiemian.com/article/15301156.html",
+   "sources": [
+    {
+     "name": "界面新闻（2026-11-06）",
+     "url": "https://www.jiemian.com/article/15301156.html"
+    }
+   ],
+   "type": "制造设厂 / 聚氨酯合成革",
+   "value": "拟投资5000万美元",
+   "priority": "S",
+   "score": 90,
+   "need": "尚未评估。",
+   "window": "持续跟踪",
+   "action": "核实项目最新进展，以及分包和采购窗口。",
+   "note": "根据公开报道自动整理，跟进分按阶段统一赋值。印尼子公司已完成境外投资备案及当地注册，事件日期为披露日。"
   }
  ]
 }

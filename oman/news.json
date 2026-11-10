@@ -1,6 +1,26 @@
 {
- "updated": "2026-11-06",
+ "updated": "2026-11-11",
  "items": [
+  {
+   "sector": "finance",
+   "kind": "新闻",
+   "title": "中国与阿曼签署证券期货监管合作谅解备忘录",
+   "source": "中国新闻网",
+   "url": "https://www.chinanews.com.cn/cj/2026/11-05/10726878.shtml",
+   "date": "2026-11-05",
+   "cn": true,
+   "added": "2026-11-11"
+  },
+  {
+   "sector": "finance",
+   "kind": "新闻",
+   "title": "出海日报｜京东收购CECONOMY获欧盟附条件批准，云南锗业子公司与美国AOI签订长期供货协议",
+   "source": "界面新闻",
+   "url": "https://www.jiemian.com/article/15290155.html",
+   "date": "2026-11-04",
+   "cn": true,
+   "added": "2026-11-11"
+  },
   {
    "sector": "trade",
    "kind": "新闻",
@@ -30,6 +50,16 @@
    "date": "2026-11-02",
    "added": "2026-11-06",
    "cn": false
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "Oman, China sign 23 investment deals worth billions",
+   "source": "Oman Observer",
+   "url": "https://www.omanobserver.om/ampArticle/1198985",
+   "date": "2026-11-02",
+   "cn": false,
+   "added": "2026-11-11"
   },
   {
    "sector": "infra",

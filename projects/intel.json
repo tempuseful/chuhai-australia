@@ -1,6 +1,30 @@
 {
- "updated": "2026-11-10",
+ "updated": "2026-11-11",
  "items": [
+  {
+   "tag": "国际",
+   "verification": "VERIFIED",
+   "verifiedDate": "11 NOV 2026",
+   "company": "",
+   "publishedDate": "10 NOV 2026",
+   "time": "11/10",
+   "eventType": "LOGISTICS_RISK",
+   "region": "GCC",
+   "country": "GCC六国",
+   "sector": "航运",
+   "title": "霍尔木兹10月LNG船通行31艘，创战事以来新高",
+   "projectName": "HORMUZ LNG TRANSIT",
+   "summary": "据中国新闻网（转引央视新闻）11月10日报道，船舶追踪数据显示，10月共有31艘液化天然气运输船通过霍尔木兹海峡，创2月底伊朗战事爆发以来新高，高于9月的23艘；其中23艘在卡塔尔莱凡角港装船、8艘在阿联酋达斯岛装船。全球约20%的液化天然气经该海峡运输，但通航量仍远未恢复到战前水平。海湾能源出口通道有所恢复，但在海湾承建项目的企业仍需为设备海运预留延误和保险成本空间。",
+   "value": "31艘",
+   "stage": "航运风险",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-10/10729737.shtml",
+   "sources": [
+    {
+     "name": "中国新闻网（11月10日）",
+     "url": "https://www.chinanews.com.cn/gj/2026/11-10/10729737.shtml"
+    }
+   ]
+  },
   {
    "tag": "国际",
    "verification": "VERIFIED",
@@ -214,6 +238,30 @@
     {
      "name": "海湾新闻（11月4日）",
      "url": "https://gulfnews.com/uae/usisrael-iran-war-what-uae-residents-need-to-know-today-nov-4-2026-1.500735252"
+    }
+   ]
+  },
+  {
+   "tag": "国际",
+   "verification": "VERIFIED",
+   "verifiedDate": "11 NOV 2026",
+   "company": "",
+   "publishedDate": "03 NOV 2026",
+   "time": "11/03",
+   "eventType": "MACRO",
+   "region": "AUSTRALIA",
+   "country": "澳大利亚",
+   "sector": "宏观",
+   "title": "澳央行年内第五次加息至4.85%，创2008年底以来新高",
+   "projectName": "RBA RATE HIKE",
+   "summary": "据中国新闻网11月3日报道，澳大利亚储备银行将基准利率上调25个基点至4.85%，为今年第五次加息，利率升至2008年底以来最高水平；货币政策委员会9名成员中6人支持加息。央行称中东冲突推高燃油及大宗商品价格，预计通胀到2027年底才有望回落至2%至3%目标区间上限，同时经济增长放缓、房价显著下跌。在澳投资和承建项目的中企融资成本上升，需关注项目融资和需求端变化。",
+   "value": "4.85%",
+   "stage": "宏观",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-03/10725397.shtml",
+   "sources": [
+    {
+     "name": "中国新闻网（11月3日）",
+     "url": "https://www.chinanews.com.cn/gj/2026/11-03/10725397.shtml"
     }
    ]
   },

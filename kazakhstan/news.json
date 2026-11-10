@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10",
+ "updated": "2026-11-11",
  "items": [
   {
    "sector": "finance",
@@ -10,6 +10,16 @@
    "date": "2026-11-09",
    "added": "2026-11-10",
    "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "Kazakhstan signs $108M oilseed export deals at China import expo",
+   "source": "Trend.Az",
+   "url": "https://www.trend.az/casia/kazakhstan/4244631.html",
+   "date": "2026-11-09",
+   "cn": false,
+   "added": "2026-11-11"
   },
   {
    "sector": "trade",

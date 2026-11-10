@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04",
+ "updated": "2026-11-11",
  "items": [
   {
    "sector": "energy",
@@ -10,6 +10,16 @@
    "date": "2026-11-04",
    "cn": false,
    "added": "2026-11-04"
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "Kyrgyzstan receives first rail shipment of Chinese gasoline to boost energy security",
+   "source": "AKIpress",
+   "url": "https://akipress.com/news:928310:Kyrgyzstan_receives_first_rail_shipment_of_Chinese_gasoline_to_boost_energy_security/",
+   "date": "2026-10-30",
+   "cn": false,
+   "added": "2026-11-11"
   },
   {
    "sector": "infra",
@@ -50,6 +60,16 @@
    "date": "2026-10-29",
    "added": "2026-10-30",
    "cn": false
+  },
+  {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "中吉乌铁路已开工建设28座隧道、47座桥梁、90段路基",
+   "source": "同花顺财经",
+   "url": "https://news.10jqka.com.cn/20261028/c681160675.shtml",
+   "date": "2026-10-28",
+   "cn": true,
+   "added": "2026-11-11"
   },
   {
    "sector": "industry",
