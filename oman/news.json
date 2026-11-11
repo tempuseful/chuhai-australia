@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11",
+ "updated": "2026-11-12",
  "items": [
   {
    "sector": "finance",
@@ -60,6 +60,16 @@
    "date": "2026-11-02",
    "cn": false,
    "added": "2026-11-11"
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "Oman Duty Free signs MoU with China Duty Free International",
+   "source": "Times of Oman",
+   "url": "https://timesofoman.com/article/178673-oman-duty-free-signs-mou-with-china-duty-free-international",
+   "date": "2026-11-02",
+   "added": "2026-11-12",
+   "cn": false
   },
   {
    "sector": "infra",

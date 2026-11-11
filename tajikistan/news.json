@@ -1,6 +1,16 @@
 {
- "updated": "2026-11-11",
+ "updated": "2026-11-12",
  "items": [
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "Cotton farming in Asht district: How combines, drones and Chinese seeds are transforming the harvest",
+   "source": "Asia-Plus",
+   "url": "https://asiaplus.news/en/2026/11/09/vacuum-harvesters-drones-and-chinese-seeds-how-cotton-farming-is-changing-in-the-asht-district/",
+   "date": "2026-11-09",
+   "added": "2026-11-12",
+   "cn": false
+  },
   {
    "sector": "energy",
    "kind": "新闻",

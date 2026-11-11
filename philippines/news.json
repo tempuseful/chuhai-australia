@@ -1,6 +1,26 @@
 {
- "updated": "2026-11-11",
+ "updated": "2026-11-12",
  "items": [
+  {
+   "sector": "energy",
+   "kind": "新闻",
+   "title": "Yuchengcos, Chinese firm forge offshore wind tie-up",
+   "source": "Philstar",
+   "url": "https://www.philstar.com/business/2026/11/10/2569024/yuchengcos-chinese-firm-forge-offshore-wind-tie-up",
+   "date": "2026-11-10",
+   "added": "2026-11-12",
+   "cn": false
+  },
+  {
+   "sector": "trade",
+   "kind": "新闻",
+   "title": "China places $27 million in PHL durian orders",
+   "source": "BusinessWorld",
+   "url": "https://bworldonline.com/economy/2026/11/10/792941/china-places-27-million-in-phl-durian-orders/",
+   "date": "2026-11-10",
+   "added": "2026-11-12",
+   "cn": false
+  },
   {
    "sector": "trade",
    "kind": "政策",

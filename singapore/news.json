@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10",
+ "updated": "2026-11-12",
  "items": [
   {
    "sector": "trade",
@@ -19,6 +19,16 @@
    "url": "https://www.news.cn/silkroad/20261109/455164fafe244908ac88eee7c9be25b8/c.html",
    "date": "2026-11-06",
    "added": "2026-11-10",
+   "cn": true
+  },
+  {
+   "sector": "energy",
+   "kind": "政策",
+   "title": "新加坡未来五年加强六大能源基建应对电力需求激增",
+   "source": "驻新加坡使馆经商处",
+   "url": "http://sg.mofcom.gov.cn/zcjx/xjpsczc/art/2026/art_2ff8e19f5ead4d5ba80998a92c8968f3.html",
+   "date": "2026-11-04",
+   "added": "2026-11-12",
    "cn": true
   },
   {

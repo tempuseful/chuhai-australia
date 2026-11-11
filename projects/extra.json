@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11",
+ "updated": "2026-11-12",
  "items": [
   {
    "id": "auto-idn-20261009-1",
@@ -1307,6 +1307,62 @@
    "window": "持续跟踪",
    "action": "核实项目最新进展，以及分包和采购窗口。",
    "note": "根据公开报道自动整理，跟进分按阶段统一赋值。印尼子公司已完成境外投资备案及当地注册，事件日期为披露日。"
+  },
+  {
+   "id": "auto-mys-20261112-1",
+   "country": "马来西亚",
+   "city": "雪兰莪州巴生",
+   "name": "巴生工业仓储综合体",
+   "contractor": "中核华兴",
+   "company": "中国核工业华兴建设有限公司下属CNECC Engineering (Malaysia) Sdn Bhd",
+   "owner": "Jaroses Partners Sdn Bhd",
+   "stage": "新中标",
+   "informationDate": "2026-11-05",
+   "eventDate": "2026-11-05",
+   "source": "https://theedgemalaysia.com/node/824672",
+   "sources": [
+    {
+     "name": "The Edge Malaysia（2026-11-05）",
+     "url": "https://theedgemalaysia.com/node/824672"
+    }
+   ],
+   "type": "仓储房建 / 工业仓储综合体",
+   "value": "RM700 million",
+   "priority": "S",
+   "score": 92,
+   "need": "尚未评估。",
+   "window": "持续跟踪",
+   "action": "核实项目最新进展，以及分包和采购窗口。",
+   "note": "根据公开报道自动整理，跟进分按阶段统一赋值。由Tanco Builders与CNECC Engineering组成的联合体接受业主授标函，CNECC Engineering负责施工；事件日期以报道日为准。",
+   "lat": 3.0449,
+   "lng": 101.4455
+  },
+  {
+   "id": "auto-tha-20261112-1",
+   "country": "泰国",
+   "city": "地点待核",
+   "name": "液体即饮饮料生产基地",
+   "contractor": "香飘飘",
+   "company": "香飘飘四川食品有限公司、香飘飘食品(国际)有限公司、蜜谷食品(泰国)有限公司",
+   "owner": "蜜谷食品(泰国)有限公司",
+   "stage": "规划/推动",
+   "informationDate": "2026-11-09",
+   "eventDate": "2026-11-09",
+   "source": "http://news.10jqka.com.cn/20261109/c681623275.shtml",
+   "sources": [
+    {
+     "name": "同花顺财经（证券日报网，2026-11-09）",
+     "url": "http://news.10jqka.com.cn/20261109/c681623275.shtml"
+    }
+   ],
+   "type": "制造设厂 / 液体即饮饮料",
+   "value": "自有资金3800万美元",
+   "priority": "S",
+   "score": 90,
+   "need": "尚未评估。",
+   "window": "持续跟踪",
+   "action": "核实项目最新进展，以及分包和采购窗口。",
+   "note": "根据公开报道自动整理，跟进分按阶段统一赋值。已取得境外投资证书和备案通知书，新加坡、泰国孙公司完成注册；事件日期以报道日为准。"
   }
  ]
 }

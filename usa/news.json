@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11",
+ "updated": "2026-11-12",
  "items": [
   {
    "sector": "trade",
@@ -54,6 +54,16 @@
   {
    "sector": "trade",
    "kind": "政策",
+   "title": "中美关税延期两个月：178项产品豁免落地，出口链迎来缓冲窗口",
+   "source": "21世纪经济报道",
+   "url": "https://m.21jingji.com/article/20261109/herald/4575d984e7df5a9f5e250c60b7117800.html",
+   "date": "2026-11-09",
+   "added": "2026-11-12",
+   "cn": true
+  },
+  {
+   "sector": "trade",
+   "kind": "政策",
    "title": "商务部新闻发言人就美制裁中国企业答记者问",
    "source": "商务部",
    "url": "https://www.mofcom.gov.cn/xwfb/xwfyrth/art/2026/art_0a686e2464da49a58a076d9eab42187f.html",
@@ -80,6 +90,16 @@
    "date": "2026-11-06",
    "cn": true,
    "added": "2026-11-08"
+  },
+  {
+   "sector": "general",
+   "kind": "新闻",
+   "title": "商务部回应扩大自美采购农产品：持开放态度 对等降税落地是前提",
+   "source": "新华网",
+   "url": "https://www.news.cn/fortune/20261105/94f0b7243be2488bb60006a69ef138a3/c.html",
+   "date": "2026-11-05",
+   "added": "2026-11-12",
+   "cn": true
   },
   {
    "sector": "tech",

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11",
+ "updated": "2026-11-12",
  "items": [
   {
    "sector": "industry",
@@ -32,6 +32,16 @@
    "cn": false
   },
   {
+   "sector": "infra",
+   "kind": "新闻",
+   "title": "Tanco-China builder JV bags RM700m warehouse contract in Klang",
+   "source": "The Edge Malaysia",
+   "url": "https://theedgemalaysia.com/node/824672",
+   "date": "2026-11-05",
+   "added": "2026-11-12",
+   "cn": false
+  },
+  {
    "sector": "tech",
    "kind": "政策",
    "title": "马来西亚拟定数据中心自行供应水电条例",
@@ -50,6 +60,16 @@
    "date": "2026-11-02",
    "cn": true,
    "added": "2026-11-11"
+  },
+  {
+   "sector": "tech",
+   "kind": "政策",
+   "title": "Malaysia discourages new data centres",
+   "source": "New Straits Times",
+   "url": "https://www.nst.com.my/amp/news/nation/2026/11/1569105/malaysia-discourages-new-data-centres",
+   "date": "2026-11-02",
+   "added": "2026-11-12",
+   "cn": false
   },
   {
    "sector": "tech",

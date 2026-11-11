@@ -1,6 +1,54 @@
 {
- "updated": "2026-11-11",
+ "updated": "2026-11-12",
  "items": [
+  {
+   "tag": "国际",
+   "verification": "VERIFIED",
+   "verifiedDate": "12 NOV 2026",
+   "company": "",
+   "publishedDate": "11 NOV 2026",
+   "time": "11/11",
+   "eventType": "LOGISTICS_RISK",
+   "region": "GCC",
+   "country": "GCC六国",
+   "sector": "航运",
+   "title": "伊朗军方称又一艘油轮在霍尔木兹东部触雷起火",
+   "projectName": "HORMUZ TANKER MINE",
+   "summary": "据Trend通讯社11月11日报道，伊朗军方称，一艘油轮前一晚试图穿越霍尔木兹海峡东部限制区域时触雷，发生爆炸和起火，伊朗海军正密切监控该海域局势，并称安全通行须与伊朗武装力量协调、遵守相关海事规定。报道称，7月8日美伊冲突再度升级以来，经霍尔木兹海峡的海上贸易陷入停滞。在海湾承建项目的企业需继续为设备和材料海运预留延误、改港和保险成本空间。",
+   "value": "1艘油轮触雷",
+   "stage": "航运风险",
+   "url": "https://www.trend.az/iran/4245076.html",
+   "sources": [
+    {
+     "name": "Trend通讯社（11月11日）",
+     "url": "https://www.trend.az/iran/4245076.html"
+    }
+   ]
+  },
+  {
+   "tag": "国际",
+   "verification": "VERIFIED",
+   "verifiedDate": "12 NOV 2026",
+   "company": "",
+   "publishedDate": "11 NOV 2026",
+   "time": "11/11",
+   "eventType": "MACRO",
+   "region": "GLOBAL",
+   "country": "全球",
+   "sector": "油气",
+   "title": "美国EIA上调今年布伦特均价预测至97.44美元",
+   "projectName": "EIA BRENT FORECAST",
+   "summary": "据Trend通讯社11月11日报道，美国能源信息署（EIA）将2026年布伦特原油均价预测上调1.2%，由每桶96.32美元升至97.44美元。报告称，10月油价连续第三个月上涨，原因包括全球库存下降、波斯湾油轮遇袭、海运运力受限和运输成本上升；若当前市场状况持续，布伦特现货价格到年底将维持在每桶100美元左右，2027年均价预计为85.78美元。高油价将继续推高工程项目的燃油、沥青和物流成本，报价时宜考虑价格调整条款。",
+   "value": "97.44美元/桶",
+   "stage": "宏观",
+   "url": "https://www.trend.az/world/us/4244980.html",
+   "sources": [
+    {
+     "name": "Trend通讯社（11月11日）",
+     "url": "https://www.trend.az/world/us/4244980.html"
+    }
+   ]
+  },
   {
    "tag": "国际",
    "verification": "VERIFIED",

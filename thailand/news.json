@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11",
+ "updated": "2026-11-12",
  "items": [
   {
    "sector": "tech",
@@ -13,6 +13,16 @@
   },
   {
    "sector": "industry",
+   "kind": "新闻",
+   "title": "香飘飘：关于全资子公司对外投资设立境外孙公司并建设泰国生产基地的进展公告",
+   "source": "同花顺财经（证券日报网）",
+   "url": "http://news.10jqka.com.cn/20261109/c681623275.shtml",
+   "date": "2026-11-09",
+   "added": "2026-11-12",
+   "cn": true
+  },
+  {
+   "sector": "industry",
    "kind": "政策",
    "title": "泰国将进口电动汽车消费税税率上调至35%",
    "source": "中国新闻网",
@@ -20,6 +30,16 @@
    "date": "2026-11-04",
    "cn": true,
    "added": "2026-11-11"
+  },
+  {
+   "sector": "industry",
+   "kind": "新闻",
+   "title": "Some Chinese EV brands back 35% Thai excise tax from 2027",
+   "source": "The Nation Thailand",
+   "url": "https://www.nationthailand.com/business/automobile/40073079",
+   "date": "2026-11-04",
+   "added": "2026-11-12",
+   "cn": false
   },
   {
    "sector": "industry",
